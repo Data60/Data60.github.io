@@ -1,0 +1,319 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   项目详情
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      实战项目
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 进阶项目2：研究和总结数据.html">
+       01. 进阶项目2：研究和总结数据
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 项目详情.html">
+       02. 项目详情
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 项目模板 RMD 文件.html">
+       03. 项目模板 RMD 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 评估和提交.html">
+       04. 评估和提交
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 示例项目.html">
+       05. 示例项目
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Description - 研究和总结数据.html">
+       Project Description - 研究和总结数据
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Rubric - 研究和总结数据.html">
+       Project Rubric - 研究和总结数据
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          02. 项目详情
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          项目详情
+         </p>
+        </h3>
+        <div>
+         <h3 id="简介">
+          简介
+         </h3>
+         <p>
+          对于这个项目，你将自行完成探索性数据分析，并且创建一个 RMD 文件，以探索你选择的数据集的变量、结构、模式、异常现象和潜在关系。由于你提出问题、创建可视化并且探索数据，因此你将深刻了解整个分析过程。
+         </p>
+         <p>
+          此项目是开放式的，正确答案不止一个。正如 John Tukey 所说：“某些数据和对答案的极度渴望组合起来并不能保证可以从一组给定的数据中获得合理的答案。”我们希望你提出有趣的数据问题，并且给自己一个探索的机会。我们将提供一些数据集供你探索，但你也可以选择一个完全不同的数据集。需要注意的是，找出自己的数据集，然后将它整理为 R 可以读取的形式是费时费力的。你可能要多花一天、一周甚至是几个月的时间才能完成你的项目。因此，仅在你确实具备编程和数据整理技能时才找出并整理数据集。
+         </p>
+         <p>
+          现在，让我们来看看项目细节！
+         </p>
+         <h3 id="第一步---选择数据集">
+          第一步 - 选择数据集
+         </h3>
+         <p>
+          首先，你需要从
+          <a href="https://github.com/udacity/new-dand-advanced-china/blob/master/%E6%8E%A2%E7%B4%A2%E6%80%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E9%A1%B9%E7%9B%AE/%E6%8E%A2%E7%B4%A2%E6%80%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_%E6%95%B0%E6%8D%AE%E9%9B%86.md" target="_blank">
+           数据集选项
+          </a>
+          文档中选择一个数据集。你应根据以前的编程和数据处理经验来选择数据集。你选择的数据集不会增加或减小你通过最终项目考核的几率。通常，
+          <a href="http://vita.had.co.nz/papers/tidy-data.pdf" target="_blank">
+           整洁的数据集
+          </a>
+          更容易使用，因为每个变量就是一列，每行就是一个观测值，而且无需整理数据。我们在下方提供的指导能帮助你选择数据集。估算的时间包含了阅读所有项目说明和评估准则、进行分析和提交最终项目的时间。
+         </p>
+         <h3 id="第二步---确保项目的条理性">
+          第二步 - 确保项目的条理性
+         </h3>
+         <p>
+          你最终会提交项目，并且与你的朋友、家人和雇主分享项目。在开始之前请确保项目的条理性。我们建议你在桌面上创建一个单独的文件夹，该文件夹最终将包含：
+         </p>
+         <ol>
+          <li>
+           RMD 文件，它包含分析报告、最终图形和摘要，以及依次写下的反思
+          </li>
+          <li>
+           HTML 文件（通过你的 RMD 文件拼合而成）
+          </li>
+          <li>
+           你使用的数据集（仅在你用自己的数据集时才需提交）
+          </li>
+         </ol>
+         <h3 id="第三步---探索数据">
+          第三步 - 探索数据
+         </h3>
+         <p>
+          这部分很有趣，开始探索你的数据吧！在探索数据时，将你的想法记录在 RMD 文件中。请参考我们提供的
+          <a href="https://s3.amazonaws.com/content.udacity-data.com/courses/ud651/diamondsExample_2016-05.html" target="_blank">
+           示例项目
+          </a>
+          。你的报告应类似此项目！
+         </p>
+         <h3 id="第四步---记录你的分析">
+          第四步 - 记录你的分析
+         </h3>
+         <p>
+          在你提交的 RMD 文件中记录探索和分析工作。该文件应以 markdown 的形式进行格式化，并应依次包含：
+         </p>
+         <ol>
+          <li>
+           <p>
+            以意识流方式对数据进行的分析和探索。
+           </p>
+           <p>
+            a. 应通过标题和文本组织你的想法，以及反映你在探索数据时的分析工作。
+           </p>
+           <p>
+            b. 该分析中的图形无需通过标签、单位和标题来修饰；这些图形是探索性的（临时应急用的）。但是，它们应具有合适的类型，并能有效传递你从中搜集的信息。
+           </p>
+           <p>
+            c. 你可以在相同的 R 区块中迭代图形，但你无需在分析中说明每一次的图形迭代。
+           </p>
+          </li>
+          <li>
+           <p>
+            “最终图形和摘要”结尾部分
+           </p>
+           <p>
+            a. 你将从分析报告中选择三个图形来进行修饰，并在这一部分中进行分享。三个图形应该呈现不同的趋势，并且应该由合适的标签、单位和标题来修饰（更多信息，请参见
+            <a href="https://review.udacity.com/#!/rubrics/309/view" target="_blank">
+             项目评估准则
+            </a>
+            ）。
+           </p>
+          </li>
+          <li>
+           <p>
+            称为“反思”的最终部分
+           </p>
+           <p>
+            a. 在该部分中，应通过几句话说明你付出的努力、取得的成功和未来如何探索数据集的想法（更多信息，请参见
+            <a href="https://review.udacity.com/#!/rubrics/309/view" target="_blank">
+             项目评估准则
+            </a>
+            ）。
+           </p>
+          </li>
+         </ol>
+         <h3 id="第五步---拼合-rmd-文件">
+          第五步 - 拼合 RMD 文件
+         </h3>
+         <p>
+          你拼合的 RMD 文件不应该是一个很长的 R 代码块。它应包含文本和穿插于其中的图形，目的是使阅读该文件的读者能够深入了解你在探索数据时思考的问题。
+         </p>
+         <h3 id="第六步---记录数据（如果你选择了自己的数据集）">
+          第六步 - 记录数据（如果你选择了自己的数据集）
+         </h3>
+         <p>
+          你提交的数据集（仅当你选择了自己的数据集时）应包含一个文本文件，该文件类似于 R 文档中那些描述数据源的文件；还应包含对数据集中的变量的解释（变量的定义、单位、分类变量的级别，以及数据生成过程，例如在可能时是如何收集数据的）。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="03. 项目模板 RMD 文件.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. 项目详情')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

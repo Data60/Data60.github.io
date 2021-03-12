@@ -1,0 +1,571 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   研究和总结数据
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      实战项目
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 进阶项目2：研究和总结数据.html">
+       01. 进阶项目2：研究和总结数据
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 项目详情.html">
+       02. 项目详情
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 项目模板 RMD 文件.html">
+       03. 项目模板 RMD 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 评估和提交.html">
+       04. 评估和提交
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 示例项目.html">
+       05. 示例项目
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Description - 研究和总结数据.html">
+       Project Description - 研究和总结数据
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Rubric - 研究和总结数据.html">
+       Project Rubric - 研究和总结数据
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          研究和总结数据
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div>
+        <h2>
+         <p>
+          代码功能性
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             代码是否有效运行？
+            </p>
+           </td>
+           <td>
+            <p>
+             所有代码都有效运行（例如：未产生任何错误，未阻止 RMD 文件进行 knit 编译）
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             项目是否使用良好的编码实践？
+            </p>
+           </td>
+           <td>
+            <p>
+             该项目在更适合使用函数的情况下几乎从未使用过重复代码，代码中使用名称引用变量，而非使用常量或列号。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          项目可读性
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             提交的 RMD 文件中的 R 代码是否以有用且无赘言的方式添加了注释？
+            </p>
+           </td>
+           <td>
+            <p>
+             所有复杂代码都在注释中提供了充分解释。在任何时候，代码的用途及不寻常编码的差别和做出决定的原因都非常清楚。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             项目代码是否采用了格式化技术（缩进排版、空格、换行等……）来提高可读性？
+             <br/>
+             （参见 Hadley Wickham 的
+             <a href="http://adv-r.had.co.nz/Style.html" target="_blank">
+              R 语言编程风格指南
+             </a>
+             ）
+            </p>
+           </td>
+           <td>
+            <p>
+             代码一致有效地使用了格式化技术来提高代码可读性。所有行均不超过 80 个字符。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             是否使用了 Markdown 来提高 knit 的 HTML 文件的呈现？（例如：章节标题、文本和段落间距、文档样式。参见 Hadley Wickham 的
+             <a href="http://adv-r.had.co.nz/Style.html" target="_blank">
+              R 语言编程风格指南
+             </a>
+             ）
+            </p>
+           </td>
+           <td>
+            <p>
+             RMD 文件中使用了 Markdown 语法来提高 knit 的文件的可读性。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          分析质量
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             是否通过多种方式对数据集进行了探索？
+            </p>
+           </td>
+           <td>
+            <p>
+             项目适当使用了单变量、双变量和多变量图来探索数据集中大多数预期的关系。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             分析中是否将问题和观察结果包含为文本？（如：每个图或相关图集后面都有对图进行解读的文本）。
+            </p>
+           </td>
+           <td>
+            <p>
+             R 代码各块之间有规律地穿插了问题和发现结果，从而清楚展示了学生在分析过程中的思考。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             分析流程是否容易明白？
+            </p>
+           </td>
+           <td>
+            <p>
+             分析中的图均提供了推理。所有图遵循合理的顺序。图后的注释正确反映了图的内容。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             是否存在各类相关可视化和统计汇总？
+            </p>
+           </td>
+           <td>
+            <p>
+             该项目包含至少 20 项可视化。可视化多种多样，展示了多项对比和趋势。当推理关于数据时，在分析中计算了相关的统计数据（例如：均值、中位数、置信区间、相关性）。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             数据是否使用适当的图和选择合适的参数来可视化？
+            </p>
+           </td>
+           <td>
+            <p>
+             项目的可视化采用适当的方式描述数据，所用的图容易解读。图类型、变量和美学参数（如柱宽、颜色、坐标中断）都是适当的。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          最终成图和汇总
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             项目中是否包含最终成图和汇总部分？
+            </p>
+           </td>
+           <td>
+            <p>
+             项目包含最终成图和汇总部分，包括三个图及注解。此部分的所有图反应了分析主体部分所探索的方面。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             最终的三个图是否各不一样，它们是否满足以下某些标准：
+             <br/>
+             提供对比。
+            </p>
+            <ul>
+             <li>
+              展示趋势。
+             </li>
+             <li>
+              面向广泛受众。
+             </li>
+             <li>
+              解释了复杂的发现。
+             </li>
+             <li>
+              澄清了感知和现实之间的差距。
+             </li>
+             <li>
+              能够使读者轻松消化大量信息。
+             </li>
+            </ul>
+           </td>
+           <td>
+            <p>
+             所有图都是精挑细选的，至少满足其中 2 个标准。图之间各有差异，展现了非常有趣的趋势和关系。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             选择的图合适吗？
+            </p>
+           </td>
+           <td>
+            <p>
+             所有的图均选择了适当的变量，其绘制方式准确传达了数据/信息（即，终图 1 中的发现不依赖终图 2 中的发现）。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             是否对图进行了润色？
+            </p>
+            <ul>
+             <li>
+              是否对图进行了标记？
+             </li>
+             <li>
+              每个轴上是否标记了单位？
+             </li>
+             <li>
+              是否为图添加了标题？
+             </li>
+             <li>
+              所有标记、标题和单位是否清晰可读？
+             </li>
+            </ul>
+           </td>
+           <td>
+            <p>
+             所有图都添加了适当标记（轴标记、图标题、轴单位）可容易解读。图的度量适当。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             是否为图添加了解释？
+            </p>
+           </td>
+           <td>
+            <p>
+             每个图的推理和发现都提供了解释，图的文本具有足够的描述信息，可作为单独文本参考。注释中反应了与图相关的内容。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          反思
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             项目中是否包含反思部分？
+            </p>
+           </td>
+           <td>
+            <p>
+             项目中包含反思部分，讨论了所执行的分析。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             此部分是否提供对分析的书面反思？是否在反思中考虑以下方面：
+            </p>
+            <ul>
+             <li>
+              我在分析中的哪个阶段遇到了困难？
+             </li>
+             <li>
+              我在哪个阶段取得了成功？
+             </li>
+             <li>
+              将来工作中还可以通过哪些方式使分析更丰富（如：附加数据和分析）？
+             </li>
+            </ul>
+           </td>
+           <td>
+            <p>
+             此部分反思了分析的方法，及报告了分析过程中的挫折与成功。此部分为未来工作提供了至少一个提议或问题。此部分还解释了分析过程中所做的任何重要决定，以及这些决定对分析产生的影响。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div class="jumbotron">
+        <h3>
+         Tips to make your project standout:
+        </h3>
+        <p>
+         <p>
+          你可以
+          <a href="https://review.udacity.com/#!/rubrics/26/view" target="_blank">
+           在这里查看此评审标准的英文版本
+          </a>
+          。
+         </p>
+        </p>
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('研究和总结数据')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

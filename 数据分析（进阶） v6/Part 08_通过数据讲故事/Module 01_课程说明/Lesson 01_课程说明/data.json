@@ -1,0 +1,46 @@
+{
+  "data": {
+    "lesson": {
+      "id": 681322,
+      "key": "90805830-861f-4653-afc7-2dd547a7cd09",
+      "title": "课程说明",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 681323,
+          "key": "6187e53d-c46f-4bdb-a8f2-0eb9ebbcd66a",
+          "title": "关于 Tableau licence",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6187e53d-c46f-4bdb-a8f2-0eb9ebbcd66a",
+            "completed_at": "2019-02-20T04:26:07.042Z",
+            "last_viewed_at": "2019-03-09T00:33:56.182Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 681324,
+              "key": "968d673b-69c5-40aa-9886-7ff94eeda7c5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "为了带给同学更好的学习体验，Udacity (中国) 数据分析团队会为同学申请有效期为6个月的 Tableau Desktop 正版 licence。请确保在课程有效期内使用，并且该 licence 不能用于任何商业用途，否则风险自负。Licence 会于开课后 2 个月内发送至您的注册邮箱，如果 2 个月后没有收到，可以发送工单至 support@youdaxue.com。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
