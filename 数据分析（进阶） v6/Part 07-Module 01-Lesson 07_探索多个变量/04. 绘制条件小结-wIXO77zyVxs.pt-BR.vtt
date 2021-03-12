@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.120 --> 00:00:02.420
+Para criar este gráfico, vamos passar nossas variáveis
+
+00:00:02.420 --> 00:00:05.890
+ao gráfico GG como de costume. Definiremos x igual à idade
+
+00:00:05.890 --> 00:00:08.560
+e y igual à contagem média de amigos. E definiremos
+
+00:00:08.560 --> 00:00:11.456
+data igual à estrutura de dados que acabamos de criar. Portanto,
+
+00:00:11.456 --> 00:00:15.240
+pf.fc por idade e sexo. Agora precisamos apenas adicionar
+
+00:00:15.240 --> 00:00:18.540
+geom_line e passar o parâmetro color dentro de um
+
+00:00:18.540 --> 00:00:21.470
+wrapper não estético. Desta vez, color terá o valor
+
+00:00:21.470 --> 00:00:25.290
+de gender. Isso fornecerá uma linha para homens
+
+00:00:25.290 --> 00:00:28.570
+e uma linha para mulheres. Ao executar esse código, obtemos este
+
+00:00:28.570 --> 00:00:31.600
+mesmo gráfico. Espero que você esteja se sentindo um guru em dados a esta altura.
+

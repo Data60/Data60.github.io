@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:02.760
+Para esta questão, você precisa criar a estrutura de dados
+
+00:00:02.760 --> 00:00:05.860
+que nos dará os dados para criar este gráfico. Veja
+
+00:00:05.860 --> 00:00:08.280
+como eu criaria o código. Primeiro, eu
+
+00:00:08.280 --> 00:00:11.140
+carregarei o pacote dplyr e deixarei
+
+00:00:11.140 --> 00:00:14.040
+um comentário lembrando que devo ligar essas funções. Usarei
+
+00:00:14.040 --> 00:00:17.205
+este símbolo. Irei salvar minha estrutura de dados como
+
+00:00:17.205 --> 00:00:20.880
+pf.fc by age gender, e irei trabalhar com minha estrutura
+
+00:00:20.880 --> 00:00:25.400
+de dados existente e agrupá-la. Aqui está meu primeiro comando de ligação,
+
+00:00:25.400 --> 00:00:28.180
+e irei agrupá-lo por idade e gênero. Agora, irei
+
+00:00:28.180 --> 00:00:32.119
+resumir chegando a um mean friend count, um median friend count e
+
+00:00:32.119 --> 00:00:35.130
+n, o número de pessoas em cada grupo. Agora, o resumo irá
+
+00:00:35.130 --> 00:00:38.460
+remover uma camada de agrupamento quando houver a execução, removeremos
+
+00:00:38.460 --> 00:00:41.030
+a camada de gênero. Precisamos executar o grupo uma vez
+
+00:00:41.030 --> 00:00:44.120
+mais para remover a camada de idade e finalmente arrumar minha
+
+00:00:44.120 --> 00:00:47.040
+estrutura de dados por idade. Agora, parece que eu tenho
+
+00:00:47.040 --> 00:00:50.630
+tudo, mas na verdade esqueci de filtrar ou deixar em subconjunto os dados.
+
+00:00:50.630 --> 00:00:53.020
+Eu poderia usar o comando subset mas, na verdade, irei mostrar a você
+
+00:00:53.020 --> 00:00:57.840
+o comando de filtro. Irei filtrar os dados para que eu remova qualquer pessoa
+
+00:00:57.840 --> 00:01:00.480
+que tiver um gênero marcado como um A e preciso apenas
+
+00:01:00.480 --> 00:01:04.180
+me lembrar de ligá-los com o resto das funções. Certo,
+
+00:01:04.180 --> 00:01:07.680
+vamos executar este código e ver se sua estrutura de dados fica boa. Parece
+
+00:01:07.680 --> 00:01:10.260
+que eu realmente esqueci de executar minha biblioteca antes, vou
+
+00:01:10.260 --> 00:01:12.700
+fazer isso. Temos nossa nova estrutura de dados bem aqui, vamos imprimir
+
+00:01:12.700 --> 00:01:15.660
+algumas das linhas para ter certeza de que estamos certos. Testarei
+
+00:01:15.660 --> 00:01:17.840
+as primeiras linhas no console, e
+
+00:01:17.840 --> 00:01:19.680
+posso ver que eu tenho meus grupos separados
+
+00:01:19.680 --> 00:01:22.230
+por age e gender, a mean friend count,
+
+00:01:22.230 --> 00:01:24.690
+median friend count e n, o número de grupos.
+

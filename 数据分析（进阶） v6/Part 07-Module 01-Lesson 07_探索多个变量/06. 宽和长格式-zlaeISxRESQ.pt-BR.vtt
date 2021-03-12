@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.120 --> 00:00:02.450
+Para responder a outra pergunta, precisamos reorganizar os
+
+00:00:02.450 --> 00:00:05.730
+dados. Nossos dados estão no formato longo. Temos
+
+00:00:05.730 --> 00:00:08.710
+várias linhas. Observe como as variáveis agrupadas,
+
+00:00:08.710 --> 00:00:12.750
+male e female, são repetidas. Elas se repetem a cada
+
+00:00:12.750 --> 00:00:16.880
+ano. Mexeremos em outra coisa, além do formato de dados longo.
+
+00:00:16.880 --> 00:00:19.400
+Converteremos eles para um formato amplo. Essa
+
+00:00:19.400 --> 00:00:22.530
+nova estrutura de dados terá uma linha para cada idade, e
+
+00:00:22.530 --> 00:00:26.350
+inseriremos o número mediano de amigos em masculinos e femininos.
+
+00:00:26.350 --> 00:00:28.830
+Ao calcular e explorar dados,
+
+00:00:28.830 --> 00:00:30.860
+pode ser útil mover entre esses
+
+00:00:30.860 --> 00:00:33.740
+diferentes disposições. Para fazer isso em R,
+
+00:00:33.740 --> 00:00:36.440
+usaremos o pacote reshape2. Se você
+
+00:00:36.440 --> 00:00:38.210
+ainda não entende a diferença entre dados
+
+00:00:38.210 --> 00:00:40.160
+longos e amplos, pause o vídeo
+
+00:00:40.160 --> 00:00:42.490
+agora. Leia outro
+
+00:00:42.490 --> 00:00:44.900
+exemplo nas Notas do instrutor antes de continuar.
+
