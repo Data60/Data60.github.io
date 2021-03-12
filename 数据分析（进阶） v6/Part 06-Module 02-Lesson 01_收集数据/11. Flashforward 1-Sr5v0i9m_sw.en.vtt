@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.069
+So at this point, you've actually gathered
+
+00:00:02.069 --> 00:00:05.040
+enough data to produce one of the goal visualizations,
+
+00:00:05.040 --> 00:00:07.919
+to scatterplot with quadrants with audience score
+
+00:00:07.919 --> 00:00:11.539
+on the horizontal axis and critics score in the vertical axis.
+
+00:00:11.539 --> 00:00:13.774
+Since this lesson is on gathering data,
+
+00:00:13.775 --> 00:00:17.550
+let's get past the assessing and cleaning steps of the data wrangling process,
+
+00:00:17.550 --> 00:00:20.100
+which includes joining our two dataframes,
+
+00:00:20.100 --> 00:00:24.480
+and let's flashforward to the final product, the visualization.
+
+00:00:24.480 --> 00:00:26.190
+So here's what the data frame looks like with
+
+00:00:26.190 --> 00:00:30.000
+your newly gathered audience score and number of audience ratings.
+
+00:00:30.000 --> 00:00:33.435
+You can use matplotlib to create a simple visualization like this one,
+
+00:00:33.435 --> 00:00:34.965
+a pretty basic scatterplot,
+
+00:00:34.965 --> 00:00:39.325
+but this is where something interactive like Tableau really shines.
+
+00:00:39.325 --> 00:00:43.859
+And here's what it looks like in Tableau. Pretty amazing.
+
+00:00:43.859 --> 00:00:48.090
+So, you've got audience score on the horizontal axis ranging from 70% to 100%,
+
+00:00:48.090 --> 00:00:53.375
+critics score in the vertical axis ranging from 91% to 100%,
+
+00:00:53.375 --> 00:00:56.890
+well technically, 101, but that's just for visual purposes.
+
+00:00:56.890 --> 00:00:59.219
+Then you've got these reference lines.
+
+00:00:59.219 --> 00:01:02.850
+The vertical one being the median of audience score, which is 90%,
+
+00:01:02.850 --> 00:01:07.159
+and the horizontal reference line is the median of critics score, 98%.
+
+00:01:07.159 --> 00:01:09.594
+In the top right corner of the screen,
+
+00:01:09.594 --> 00:01:11.939
+we've even got number of audience ratings and number
+
+00:01:11.939 --> 00:01:14.810
+of critic ratings represented visually, too.
+
+00:01:14.810 --> 00:01:17.969
+Lighter shades of blue mean small number of
+
+00:01:17.969 --> 00:01:21.164
+audience ratings and darker shades of blue means a larger number.
+
+00:01:21.165 --> 00:01:24.300
+And smaller circles mean a smaller number of critic ratings
+
+00:01:24.299 --> 00:01:27.795
+and larger circles mean a larger number of critic ratings.
+
+00:01:27.795 --> 00:01:29.564
+And okay, so in the top right corner of the screen,
+
+00:01:29.564 --> 00:01:31.829
+we've got universally loved movies.
+
+00:01:31.829 --> 00:01:34.170
+High audience scores, high critics scores.
+
+00:01:34.170 --> 00:01:37.530
+One of them being The Godfather, 1972,
+
+00:01:37.530 --> 00:01:39.219
+which if we hover over this dot,
+
+00:01:39.219 --> 00:01:43.049
+we can see the 99% critics score and the 98% audience score.
+
+00:01:43.049 --> 00:01:44.504
+And in the bottom right corner,
+
+00:01:44.504 --> 00:01:47.354
+we've got critically underrated movies.
+
+00:01:47.355 --> 00:01:50.745
+Audience scores above the median audience score for this top 100 list
+
+00:01:50.745 --> 00:01:54.785
+and critics scores below the median critics score for this top 100 list.
+
+00:01:54.784 --> 00:01:56.989
+One movie being The Dark Knight,
+
+00:01:56.989 --> 00:02:01.280
+2008, audience score and critics score of 94%.
+
+00:02:01.280 --> 00:02:05.030
+And in the top left, we have critically overrated movies.
+
+00:02:05.030 --> 00:02:08.194
+Audiences didn't like these movies as much as critics did, basically.
+
+00:02:08.194 --> 00:02:10.784
+Compared to the median audience and critic rating,
+
+00:02:10.784 --> 00:02:13.514
+the most notable point, 1940's, Pinocchio.
+
+00:02:13.514 --> 00:02:19.875
+A 100% critics score over 45 reviews but only a 72% audience score.
+
+00:02:19.875 --> 00:02:21.379
+And then in the bottom left quadrant,
+
+00:02:21.379 --> 00:02:23.419
+we've got movies that didn't have
+
+00:02:23.419 --> 00:02:28.334
+particularly high critic or audience scores in reference to the movies on this list.
+
+00:02:28.335 --> 00:02:31.340
+One notable one, Lala Land, 2016,
+
+00:02:31.340 --> 00:02:34.469
+an audience score of 82% and a critics score of 92%,
+
+00:02:34.469 --> 00:02:37.365
+both well below the median scores for each.
+
+00:02:37.365 --> 00:02:41.165
+And here's E.T., right on the median critics score line,
+
+00:02:41.164 --> 00:02:46.569
+a 98% critics score and there's that low 72% audience score.
+
+00:02:46.569 --> 00:02:50.294
+So, this Best of Rotten Tomatoes critic versus audience score visualization
+
+00:02:50.294 --> 00:02:54.724
+required gathering data from two different sources: Accessing files on hand,
+
+00:02:54.724 --> 00:02:59.269
+and scraping data from web pages and that data was in two different formats,
+
+00:02:59.270 --> 00:03:02.015
+a flat file, or a TSV file specifically,
+
+00:03:02.014 --> 00:03:04.369
+and HTML. Great job.
+

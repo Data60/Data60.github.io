@@ -1,0 +1,658 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   资料来源：从互联网下载文件
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          12. 资料来源：从互联网下载文件
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="资料来源：从互联网下载文件">
+          资料来源：从互联网下载文件
+         </h2>
+         <h3 id="简介">
+          简介
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          资料来源：从互联网下载文件
+         </p>
+        </h3>
+        <video controls="">
+         <source src="12. 资料来源：从互联网下载文件-UceKUJ07Bn8.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="12. 资料来源：从互联网下载文件-UceKUJ07Bn8.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="ar" src="12. 资料来源：从互联网下载文件-UceKUJ07Bn8.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="12. 资料来源：从互联网下载文件-UceKUJ07Bn8.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="true" kind="subtitles" label="en" src="12. 资料来源：从互联网下载文件-UceKUJ07Bn8.en.vtt" srclang="en"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="http（超文本传输协议）">
+          HTTP（超文本传输协议）
+         </h3>
+         <p>
+          HTTP，全称是超文本传输协议，是 Web 浏览器（如 Chrome 或 Safari）和 Web 服务器（基本上指存储网站内容的计算机）之间相互沟通的语言。每次打开网页或下载文件或观看视频时，都是 HTTP 完成了这些任务。
+         </p>
+         <p>
+          HTTP 是一个请求/响应协议：
+         </p>
+         <ul>
+          <li>
+           你的计算机，也就是客户端，向服务器发送一个需要某个文件的请求。例如在这节课中：
+           <em>
+            "我需要文件
+           </em>
+           * 1-the-wizard-of-oz-1939-film.txt *
+           <em>
+            "
+           </em>
+           。GET 是用于检索数据的 HTTP 请求方法（有多个）名称。
+          </li>
+          <li>
+           Web 服务器发回响应。如果请求有效：
+           <em>
+            "这是你请求的文件："
+           </em>
+           ，然后是*** 1-the-wizard-of-oz-1939-film.txt ***文件的内容。
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="资料来源：[MDN 网络文档](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data)" class="img img-fluid" src="img/client-server.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            资料来源：
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data" target="_blank">
+             MDN 网络文档
+            </a>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          如果想了解更多信息，或者想扩大自己的知识面，我建议你观看第 1 课中概念 2-5 和 24-30（"Web 的工作原理"）的免费
+          <a href="https://cn.udacity.com/course/web-development--cs253" target="_blank">
+           Web 开发课程
+          </a>
+          。
+         </p>
+         <p>
+          ### 请求：让 HTTP 服务于人类
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Source: Downloading Files From The Internet
+         </p>
+        </h3>
+        <video controls="">
+         <source src="12. Source Downloading Files From The Internet -K-Owid_mf8o.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="12. Source Downloading Files From The Internet -K-Owid_mf8o.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="12. Source Downloading Files From The Internet -K-Owid_mf8o.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="12. Source Downloading Files From The Internet -K-Owid_mf8o.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="ar" src="12. Source Downloading Files From The Internet -K-Owid_mf8o.ar.vtt" srclang="ar"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="练习">
+          练习
+         </h3>
+         <p>
+          在下面的 Jupyter Notebook 中，使用 Requests 库以编程方式将所有 Rogert Ebert 审阅文本文件下载到名为 * ebert_reviews * 的文件夹中。与提供的 * ebert_review_urls * 列表结合使用一个 for 循环。
+         </p>
+         <p>
+          以下是
+          <a href="http://docs.python-requests.org/en/master/" target="_blank">
+           请求文档
+          </a>
+          供你参考。这相对于类似的库，如
+          <a href="https://docs.python.org/3/howto/urllib2.html" target="_blank">
+           urllib
+          </a>
+          来说更清楚一些。
+         </p>
+         <h3 id="提示">
+          提示
+         </h3>
+         <p>
+          cloudfront.net服务器在国外，建议直接在workspace中运行。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           jupyter
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="上述文件翻译">
+          上述文件翻译
+         </h3>
+         <pre><code>import requests
+import os</code></pre>
+         <pre><code># 如果没有目录，创建目录
+folder_name = 'ebert_reviews'
+if not os.path.exists(folder_name):
+    os.makedirs(folder_name)</code></pre>
+         <pre><code>ebert_review_urls = ['https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9900_1-the-wizard-of-oz-1939-film/1-the-wizard-of-oz-1939-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9901_2-citizen-kane/2-citizen-kane.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9901_3-the-third-man/3-the-third-man.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9902_4-get-out-film/4-get-out-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9902_5-mad-max-fury-road/5-mad-max-fury-road.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9902_6-the-cabinet-of-dr.-caligari/6-the-cabinet-of-dr.-caligari.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9903_7-all-about-eve/7-all-about-eve.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9903_8-inside-out-2015-film/8-inside-out-2015-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9903_9-the-godfather/9-the-godfather.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9904_10-metropolis-1927-film/10-metropolis-1927-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9904_11-e.t.-the-extra-terrestrial/11-e.t.-the-extra-terrestrial.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9904_12-modern-times-film/12-modern-times-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9904_14-singin-in-the-rain/14-singin-in-the-rain.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9905_15-boyhood-film/15-boyhood-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9905_16-casablanca-film/16-casablanca-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9905_17-moonlight-2016-film/17-moonlight-2016-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9906_18-psycho-1960-film/18-psycho-1960-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9906_19-laura-1944-film/19-laura-1944-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9906_20-nosferatu/20-nosferatu.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9907_21-snow-white-and-the-seven-dwarfs-1937-film/21-snow-white-and-the-seven-dwarfs-1937-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9907_22-a-hard-day27s-night-film/22-a-hard-day27s-night-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9907_23-la-grande-illusion/23-la-grande-illusion.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9908_25-the-battle-of-algiers/25-the-battle-of-algiers.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9908_26-dunkirk-2017-film/26-dunkirk-2017-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9908_27-the-maltese-falcon-1941-film/27-the-maltese-falcon-1941-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9909_29-12-years-a-slave-film/29-12-years-a-slave-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9909_30-gravity-2013-film/30-gravity-2013-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9909_31-sunset-boulevard-film/31-sunset-boulevard-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990a_32-king-kong-1933-film/32-king-kong-1933-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990a_33-spotlight-film/33-spotlight-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990a_34-the-adventures-of-robin-hood/34-the-adventures-of-robin-hood.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990b_35-rashomon/35-rashomon.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990b_36-rear-window/36-rear-window.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990b_37-selma-film/37-selma-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990c_38-taxi-driver/38-taxi-driver.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990c_39-toy-story-3/39-toy-story-3.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990c_40-argo-2012-film/40-argo-2012-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990d_41-toy-story-2/41-toy-story-2.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990d_42-the-big-sick/42-the-big-sick.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990d_43-bride-of-frankenstein/43-bride-of-frankenstein.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990d_44-zootopia/44-zootopia.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990e_45-m-1931-film/45-m-1931-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990e_46-wonder-woman-2017-film/46-wonder-woman-2017-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990e_48-alien-film/48-alien-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990f_49-bicycle-thieves/49-bicycle-thieves.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990f_50-seven-samurai/50-seven-samurai.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad990f_51-the-treasure-of-the-sierra-madre-film/51-the-treasure-of-the-sierra-madre-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9910_52-up-2009-film/52-up-2009-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9910_53-12-angry-men-1957-film/53-12-angry-men-1957-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9910_54-the-400-blows/54-the-400-blows.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9911_55-logan-film/55-logan-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9911_57-army-of-shadows/57-army-of-shadows.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9912_58-arrival-film/58-arrival-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9912_59-baby-driver/59-baby-driver.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9913_60-a-streetcar-named-desire-1951-film/60-a-streetcar-named-desire-1951-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9913_61-the-night-of-the-hunter-film/61-the-night-of-the-hunter-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9913_62-star-wars-the-force-awakens/62-star-wars-the-force-awakens.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9913_63-manchester-by-the-sea-film/63-manchester-by-the-sea-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9914_64-dr.-strangelove/64-dr.-strangelove.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9914_66-vertigo-film/66-vertigo-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9914_67-the-dark-knight-film/67-the-dark-knight-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9915_68-touch-of-evil/68-touch-of-evil.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9915_69-the-babadook/69-the-babadook.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9915_72-rosemary27s-baby-film/72-rosemary27s-baby-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9916_73-finding-nemo/73-finding-nemo.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9916_74-brooklyn-film/74-brooklyn-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9917_75-the-wrestler-2008-film/75-the-wrestler-2008-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9917_77-l.a.-confidential-film/77-l.a.-confidential-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9918_78-gone-with-the-wind-film/78-gone-with-the-wind-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9918_79-the-good-the-bad-and-the-ugly/79-the-good-the-bad-and-the-ugly.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9918_80-skyfall/80-skyfall.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9919_82-tokyo-story/82-tokyo-story.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9919_83-hell-or-high-water-film/83-hell-or-high-water-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9919_84-pinocchio-1940-film/84-pinocchio-1940-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9919_85-the-jungle-book-2016-film/85-the-jungle-book-2016-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991a_86-la-la-land-film/86-la-la-land-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991b_87-star-trek-film/87-star-trek-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991b_89-apocalypse-now/89-apocalypse-now.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991c_90-on-the-waterfront/90-on-the-waterfront.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991c_91-the-wages-of-fear/91-the-wages-of-fear.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991c_92-the-last-picture-show/92-the-last-picture-show.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991d_93-harry-potter-and-the-deathly-hallows-part-2/93-harry-potter-and-the-deathly-hallows-part-2.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991d_94-the-grapes-of-wrath-film/94-the-grapes-of-wrath-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991d_96-man-on-wire/96-man-on-wire.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991e_97-jaws-film/97-jaws-film.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991e_98-toy-story/98-toy-story.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991e_99-the-godfather-part-ii/99-the-godfather-part-ii.txt',
+                     'https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad991e_100-battleship-potemkin/100-battleship-potemkin.txt']</code></pre>
+         <pre><code># 这里是你的代码
+# 将上面视频中的代码在 For 循环中运行，进行 Ebert 检查</code></pre>
+         <h3 id="解答测试">
+          解答测试
+         </h3>
+         <p>
+          运行下列网格，查看你的解答是否正确。如果得到 AssertionError ，你的答案不正确。如果没有出现错误，你的答案是正确的。
+         </p>
+         <pre><code>import filecmp
+dc = filecmp.dircmp('ebert_reviews', 'ebert_reviews_solution')
+assert len(dc.common) == 88</code></pre>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="解决方案">
+          解决方案
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Source Downloading Files From The Internet II
+         </p>
+        </h3>
+        <video controls="">
+         <source src="12. Source Downloading Files From The Internet II-M0qR7to1fl4.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="12. Source Downloading Files From The Internet II-M0qR7to1fl4.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="ar" src="12. Source Downloading Files From The Internet II-M0qR7to1fl4.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="12. Source Downloading Files From The Internet II-M0qR7to1fl4.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="true" kind="subtitles" label="en" src="12. Source Downloading Files From The Internet II-M0qR7to1fl4.en.vtt" srclang="en"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          ### 更多信息
+         </p>
+         <ul>
+          <li>
+           我们在这个示例中下载了一个文本文件。二进制文件(例如图像)是最好读取和写入
+           <a href="http://docs.python-requests.org/en/latest/user/quickstart/#binary-response-content" target="_blank">
+            其他方式
+           </a>
+           的文件。
+          </li>
+          <li>
+           <a href="https://stackoverflow.com/questions/2665866/what-is-the-wb-mean-in-this-code-using-python" target="_blank">
+            堆栈溢出：使用 Python 时，这个代码中的 'wb' 是什么意思?
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="13. 文本文件结构.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. 资料来源：从互联网下载文件')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
