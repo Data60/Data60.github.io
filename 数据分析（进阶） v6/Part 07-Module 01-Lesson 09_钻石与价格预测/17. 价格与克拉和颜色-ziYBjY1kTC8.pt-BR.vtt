@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:02.780
+Aqui, eu fiz quatro alterações no código.
+
+00:00:02.780 --> 00:00:07.010
+Substituí cut por color no wrapper estético.
+
+00:00:07.010 --> 00:00:09.920
+Também alterei o título da legenda e o
+
+00:00:09.920 --> 00:00:13.390
+título do gráfico para usar a palavra color. Por fim,
+
+00:00:13.390 --> 00:00:15.980
+removi o parâmetro reverse na legenda para que
+
+00:00:15.980 --> 00:00:17.820
+a melhor cor ficasse no topo da lista
+
+00:00:17.820 --> 00:00:21.940
+na legenda. Agora que executamos nosso código, este é o resultado.
+
