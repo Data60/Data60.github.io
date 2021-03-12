@@ -1,0 +1,354 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   混合数据源（可选）
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      数据集与问题
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 列出所有与安然丑闻相关的人 (POI).html">
+       02. 列出所有与安然丑闻相关的人 (POI)
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 准确率与训练集大小.html">
+       03. 准确率与训练集大小
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 下载安然数据.html">
+       04. 下载安然数据
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 数据类型测验 1.html">
+       05. 数据类型测验 1
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 数据类型测验 2.html">
+       06. 数据类型测验 2
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 数据类型测验 3.html">
+       07. 数据类型测验 3
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 数据类型测验 4.html">
+       08. 数据类型测验 4
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 数据类型测验 5.html">
+       09. 数据类型测验 5
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 数据类型测验 6.html">
+       10. 数据类型测验 6
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 安然数据集迷你项目简介.html">
+       11. 安然数据集迷你项目简介
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 数据集和问题迷你项目.html">
+       12. 数据集和问题迷你项目
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 安然数据集的大小.html">
+       13. 安然数据集的大小
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 安然数据集中的特征.html">
+       14. 安然数据集中的特征
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 在安然数据中查找 POI.html">
+       15. 在安然数据中查找 POI
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 存在多少 POI？.html">
+       16. 存在多少 POI？
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 不完整数据的问题.html">
+       17. 不完整数据的问题
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 查询数据集 1.html">
+       18. 查询数据集 1
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 查询数据集 2.html">
+       19. 查询数据集 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 查询数据集 3.html">
+       20. 查询数据集 3
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 研究安然欺诈案.html">
+       21. 研究安然欺诈案
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 安然 CEO.html">
+       22. 安然 CEO
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 安然主席.html">
+       23. 安然主席
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 安然 CFO.html">
+       24. 安然 CFO
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 跟着钱走.html">
+       25. 跟着钱走
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 未填充的特征.html">
+       26. 未填充的特征
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 处理未填充的特征.html">
+       27. 处理未填充的特征
+      </a>
+     </li>
+     <li class="">
+      <a href="28. 字典到数组的转换.html">
+       28. 字典到数组的转换
+      </a>
+     </li>
+     <li class="">
+      <a href="29. 缺少的 POI 1（可选）.html">
+       29. 缺少的 POI 1（可选）
+      </a>
+     </li>
+     <li class="">
+      <a href="30. 缺少的 POI 2（可选）.html">
+       30. 缺少的 POI 2（可选）
+      </a>
+     </li>
+     <li class="">
+      <a href="31. 缺少的 POI 3（可选）.html">
+       31. 缺少的 POI 3（可选）
+      </a>
+     </li>
+     <li class="">
+      <a href="32. 缺少的 POI 4（可选）.html">
+       32. 缺少的 POI 4（可选）
+      </a>
+     </li>
+     <li class="">
+      <a href="33. 缺少的 POI 5（可选）.html">
+       33. 缺少的 POI 5（可选）
+      </a>
+     </li>
+     <li class="">
+      <a href="34. 缺少的 POI 6（可选）.html">
+       34. 缺少的 POI 6（可选）
+      </a>
+     </li>
+     <li class="">
+      <a href="35. 混合数据源（可选）.html">
+       35. 混合数据源（可选）
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          35. 混合数据源（可选）
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          混合数据源（可选）
+         </p>
+        </h3>
+        <div>
+         <p>
+          此例中加入了新的 POI，而我们没有任何人的财务信息，这就带来了一个微妙的问题，即算法可能会注意到我们缺少他们的财务信息，并将这一点作为他们是 POI 的线索。换个角度来看，为我们的两个类生成数据的方式现在有所不同 - 非 POI 的人全都来自财务电子表格，之后手动加入了许多 POI。这种不同可能会诱使我们以为我们的表现优于实际状况 - 假设你使用 POI 检测器来确定某个未见过的新人是否是 POI，而且该人不在电子表格上。然后，他们的所有财务数据都将包含“NaN”，但该人极有可能不是 POI（世界上非 POI 的人比 POI 多得多，即使在安然也是如此）- 然而你可能会无意中将他们标识为 POI！
+         </p>
+         <p>
+          这就是说，在生成或增大数据集时，如果数据来自不同类的不同来源，你应格外小心。它很容易会造成我们在此展示的偏差或错误类型。可通过多种方法处理此问题。举例而言，如果仅使用了电子邮件数据，则你无需担心此问题（在这种情况下，财务数据中的差异并不重要，因为并未使用财务特征）。还可以通过更复杂的方法来估计这些偏差可能会对你的最终答案造成多大影响，不过此话题超出了本课程的范围。
+         </p>
+         <p>
+          目前的结论就是，要非常小心地对待引入来自不同来源（具体取决于类）的特征这个问题！引入此类特征常常会意外地带来偏差和错误。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('35. 混合数据源（可选）')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
