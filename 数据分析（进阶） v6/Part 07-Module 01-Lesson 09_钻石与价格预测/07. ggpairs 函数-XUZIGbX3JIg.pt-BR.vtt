@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:03.200
+Vemos quais podem ser as relações entre preço
+
+00:00:03.200 --> 00:00:06.420
+e clareza e entre preço e cor, as quais manteremos
+
+00:00:06.420 --> 00:00:09.050
+em mente para depois, quando começarmos a modelar nossos dados. Você talvez
+
+00:00:09.050 --> 00:00:12.200
+se lembre disso quando criar os gráficos de caixa no conjunto
+
+00:00:12.200 --> 00:00:15.080
+de problemas três. Seja como for, o fator crítico
+
+00:00:15.080 --> 00:00:19.590
+que orienta os preços é o tamanho ou o quilate do
+
+00:00:19.590 --> 00:00:21.620
+diamante. Como vimos no início da
+
+00:00:21.620 --> 00:00:25.980
+lição, a relação entre o preço e o tamanho do diamante não é linear.
+
+00:00:25.980 --> 00:00:29.270
+O que poderia explicar esse padrão? No lado do fornecedor, peças contínuas de
+
+00:00:29.270 --> 00:00:33.070
+diamantes maiores sem defeitos significativos provavelmente são mais difíceis
+
+00:00:33.070 --> 00:00:36.220
+de encontrar do que peças menores. Isso pode ajudar a explicar o tipo de
+
+00:00:36.220 --> 00:00:39.090
+curva com aparência exponencial, e acho que percebi isso quando
+
+00:00:39.090 --> 00:00:40.860
+estava procurando um diamante para minha
+
+00:00:40.860 --> 00:00:43.780
+futura esposa. É claro que isso está relacionado ao fato de
+
+00:00:43.780 --> 00:00:46.980
+que o peso de um diamante é uma função de volume, e o
+
+00:00:46.980 --> 00:00:50.980
+volume é uma função de comprimento vezes a largura vezes
+
+00:00:50.980 --> 00:00:53.720
+a altura de um diamante, e isso sugere que podemos
+
+00:00:53.720 --> 00:00:57.400
+estar especialmente interessados na raiz cúbica do peso do quilate. Este normalmente
+
+00:00:57.400 --> 00:01:01.420
+é o caso em que o aproveitamento do amplo conhecimento sobre seus dados pode
+
+00:01:01.420 --> 00:01:05.050
+levar a transformações especialmente proveitosas. Veremos isso em alguns instantes.
+

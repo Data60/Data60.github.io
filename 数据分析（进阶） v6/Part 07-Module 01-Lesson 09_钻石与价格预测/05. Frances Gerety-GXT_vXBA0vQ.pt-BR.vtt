@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.470 --> 00:00:03.370
+Até agora, apenas consideramos a relação bivariada entre
+
+00:00:03.370 --> 00:00:05.750
+preço e peso em quilates. Mas há muito mais neste
+
+00:00:05.750 --> 00:00:07.140
+conjunto de dados de que eu gostaria de
+
+00:00:07.140 --> 00:00:11.840
+dar uma boa introdução. O conjunto de dados diamonds vem com ggplot2
+
+00:00:11.840 --> 00:00:15.270
+e contém os preços e as especificações para mais
+
+00:00:15.270 --> 00:00:20.090
+de 50.000 diamantes coletados em 2008 de diamondsc.info. Agora,
+
+00:00:20.090 --> 00:00:23.550
+analisar esses dados é particularmente útil, porque os diamantes são
+
+00:00:23.550 --> 00:00:25.660
+únicos de uma maneira que não se aplica à maioria dos
+
+00:00:25.660 --> 00:00:28.330
+produtos fabricados que estamos habituados a comprar. Você não pode
+
+00:00:28.330 --> 00:00:29.910
+simplesmente pegar o número do modelo e procurar
+
+00:00:29.910 --> 00:00:33.380
+o preço, embora o conjunto de dados diamonds esteja cheio
+
+00:00:33.380 --> 00:00:36.840
+de preços e classificações de certificação bastante esotéricas. Escondidos nos
+
+00:00:36.840 --> 00:00:40.220
+dados estão reflexos de como uma campanha de marketing lendária
+
+00:00:40.220 --> 00:00:43.570
+permeou e foi incorporada pela nossa cultura. Dicas sobre como
+
+00:00:43.570 --> 00:00:46.870
+diferentes classes sociais responderam e como o mercado de diamantes
+
+00:00:46.870 --> 00:00:51.290
+funciona hoje como resultado. A história começa em 1870,
+
+00:00:51.290 --> 00:00:53.800
+Quando toneladas de diamantes foram descobertas na
+
+00:00:53.800 --> 00:00:56.960
+África do Sul, perto do rio Orange. Até então, o mercado
+
+00:00:56.960 --> 00:00:59.360
+de diamantes era pequena, apenas algumas libras
+
+00:00:59.360 --> 00:01:03.090
+de diamantes eram extraídas ao ano da Índia e do Brasil. Naquela
+
+00:01:03.090 --> 00:01:05.280
+época, os diamantes não eram usados fora do ramo
+
+00:01:05.280 --> 00:01:10.610
+de joias, então o preço dependia apenas da oferta escassa. Assim,
+
+00:01:10.610 --> 00:01:13.460
+os investidores do projeto formaram o De Beers Cartel, em
+
+00:01:13.460 --> 00:01:16.700
+1888, para tentar controlar o preço mundial dos diamantes.
+
+00:01:18.060 --> 00:01:19.590
+Segundo contam, esse foi o cartel de maior
+
+00:01:19.590 --> 00:01:23.590
+sucesso da história. Mas a 1ª Guerra Mundial e
+
+00:01:23.590 --> 00:01:26.830
+a Grande Depressão viram as vendas de diamantes despencarem. Em 1938, o
+
+00:01:26.830 --> 00:01:31.600
+De Beers Cartel contatou a agência de publicidade da Filadélfia N.W.
+
+00:01:31.600 --> 00:01:34.240
+Ayer and Son para saber se "O uso de
+
+00:01:34.240 --> 00:01:37.620
+propaganda em várias formas poderia ajudar a alavancar o começo
+
+00:01:37.620 --> 00:01:39.940
+das vendas de diamantes nos EUA", que parecia o único
+
+00:01:39.940 --> 00:01:42.440
+mercado potencialmente viável para os diamantes no momento.
+
+00:01:43.540 --> 00:01:47.770
+As pesquisas mostraram, no entanto, que entre os casais que pensavam em casamento,
+
+00:01:47.770 --> 00:01:50.490
+os diamantes não estavam no topo da lista de prioridades. Um luxo
+
+00:01:50.490 --> 00:01:54.214
+para os ricos, dinheiro desperdiçado. Frances Gerety
+
+00:01:54.214 --> 00:01:56.418
+assumiu a conta do DeBeers na N.W. Ayer and
+
+00:01:56.418 --> 00:01:59.600
+Son, e trabalhou na meta da empresa para "
+
+00:01:59.600 --> 00:02:03.320
+criar uma situação em que cada casal pensando em se casar
+
+00:02:03.320 --> 00:02:06.700
+sentisse a necessidade de adquirir anéis de noivado de diamante".
+
+00:02:06.700 --> 00:02:08.830
+Anos mais tarde, ela inventaria um slogan famoso.
+

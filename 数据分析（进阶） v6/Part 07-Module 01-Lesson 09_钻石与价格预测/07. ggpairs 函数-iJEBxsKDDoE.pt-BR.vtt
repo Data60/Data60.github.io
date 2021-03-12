@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.470 --> 00:00:02.400
+Tenha essa história em mente conforme trabalhamos em
+
+00:00:02.400 --> 00:00:05.360
+nossa análise exploratória. A primeira coisa que você pode
+
+00:00:05.360 --> 00:00:08.490
+fazer é plotar as variáveis chave uma contra a outra usando
+
+00:00:08.490 --> 00:00:13.430
+a função ggpairs. Essa função cria um gráfico de cada variável
+
+00:00:13.430 --> 00:00:16.990
+contra as outras, em pares. Talvez você queira
+
+00:00:16.990 --> 00:00:20.210
+fazer uma amostra primeiro, senão a função levará muito
+
+00:00:20.210 --> 00:00:23.030
+tempo para renderizar os gráficos. Além disso, se o seu conjunto de
+
+00:00:23.030 --> 00:00:25.660
+dados tiver mais do que 10 colunas, haverá
+
+00:00:25.660 --> 00:00:28.520
+janelas de plotagem demais. Se esse for o caso, faça subgrupos
+
+00:00:28.520 --> 00:00:31.000
+nas suas colunas primeiro.
+
+00:00:31.000 --> 00:00:33.050
+A primeira coisa a fazer é
+
+00:00:33.050 --> 00:00:36.550
+garantir que você tenha esses pacotes instalados. Nós usamos o
+
+00:00:36.550 --> 00:00:41.400
+GGally para este gráfico específico. Usamos o scales para uma variedade de
+
+00:00:41.400 --> 00:00:47.150
+coisas. O memisc para resumir a regressão. O lattice para algumas outras coisas.
+
+00:00:47.150 --> 00:00:51.794
+O mass para várias funções. O car para recodificar variáveis.
+
+00:00:51.794 --> 00:00:55.007
+O reshape para reformular e disputar seus dados. O plyr
+
+00:00:55.007 --> 00:00:58.891
+para criar resumos e transformações interessantes dos seus dados.
+
+00:00:58.891 --> 00:01:01.513
+Vamos carregar esses pacotes,
+
+00:01:01.513 --> 00:01:04.756
+configurar o seed para propósitos de randomização e pegar uma amostra de
+
+00:01:04.756 --> 00:01:08.210
+10.000 fileiras do conjunto de dados dos diamantes. O
+
+00:01:08.210 --> 00:01:12.340
+ggpairs está plotando cada variável contra
+
+00:01:12.340 --> 00:01:14.480
+a outra de modo bem inteligente. No
+
+00:01:14.480 --> 00:01:16.920
+triângulo inferior da matriz plot, ele usa
+
+00:01:16.920 --> 00:01:20.080
+histogramas agrupados para pares qualitativos qualitativos
+
+00:01:20.080 --> 00:01:23.390
+e gráficos de dispersão para pares quantitativos quantitativos.
+
+00:01:23.390 --> 00:01:25.890
+No triângulo superior, ele plota histogramas
+
+00:01:25.890 --> 00:01:30.810
+agrupados para pares qualitativos qualitative, agora
+
+00:01:30.810 --> 00:01:34.610
+usando a variável x em vez da y como o fator de agrupamento. Diagramas
+
+00:01:34.610 --> 00:01:38.100
+de caixa para pares qualitativos quantitativos e
+
+00:01:38.100 --> 00:01:41.510
+fornece a correlação para pares quantitativos quantitativos.
+
+00:01:41.510 --> 00:01:43.780
+Lembre que nosso objetivo é entender o
+
+00:01:43.780 --> 00:01:46.480
+preço dos diamantes. Então vamos focar nisso.
+
+00:01:46.480 --> 00:01:49.430
+A variável do preço está aqui. Vamos analisar
+
+00:01:49.430 --> 00:01:52.190
+as relações que correspondem ao preço. O
+
+00:01:52.190 --> 00:01:54.020
+que você observa? Não há uma resposta
+
+00:01:54.020 --> 00:01:56.380
+certa ou errada, mas pense bem sobre
+
+00:01:56.380 --> 00:01:58.800
+os gráficos e as associações que você vê. Escreva
+
+00:01:58.800 --> 00:02:00.590
+algumas frases sobre o que chama sua atenção.
+

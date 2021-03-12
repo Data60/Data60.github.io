@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.530 --> 00:00:02.969
+No lado da demanda, os clientes do mercado de
+
+00:00:02.969 --> 00:00:06.620
+diamantes mais baratos e menores, provavelmente, se preocupam mais com preço
+
+00:00:06.620 --> 00:00:10.530
+do que os compradores mais abastados. Tendo muito menos de um quilate,
+
+00:00:10.530 --> 00:00:13.280
+os clientes certamente jamais comprariam um diamante, não fosse pela
+
+00:00:13.280 --> 00:00:16.980
+norma social de presentear alguém com um ao propor casamento. E há
+
+00:00:16.980 --> 00:00:20.090
+poucos clientes que podem pagar por um diamante maior, um
+
+00:00:20.090 --> 00:00:22.250
+que tenha mais de um quilate, portanto, não
+
+00:00:22.250 --> 00:00:26.260
+devemos esperar um mercado de diamantes maiores que seja tão competitivo
+
+00:00:26.260 --> 00:00:30.670
+quanto o mercado de diamantes menores. Assim, faz sentido que as variantes, bem como
+
+00:00:30.670 --> 00:00:33.560
+o preço aumentem com o peso do quilate. Com
+
+00:00:33.560 --> 00:00:38.280
+frequência a distribuição de variáveis monetárias, como o dólar,
+
+00:00:38.280 --> 00:00:40.710
+sofrem variações
+
+00:00:40.710 --> 00:00:44.290
+consideráveis. Isso pode resultar da trajetória dependente,
+
+00:00:44.290 --> 00:00:47.245
+por exemplo, o rico ficando cada vez mais rico, ou de processos
+
+00:00:47.245 --> 00:00:51.470
+multiplicativos, como inflação de ano para ano, ou de uma combinação
+
+00:00:51.470 --> 00:00:53.350
+de ambos. Portanto, é uma boa ideia
+
+00:00:53.350 --> 00:00:56.080
+investigar a compressão de tal variável colocando-a
+
+00:00:56.080 --> 00:01:00.050
+em uma escala logarítmica. Para obter mais dicas de quando usar a escala logarítmica e como
+
+00:01:00.050 --> 00:01:02.610
+transformar suas variáveis, confira o link
+
+00:01:02.610 --> 00:01:05.740
+nas Notas do instrutor. Vamos examinar a distribuição
+
+00:01:05.740 --> 00:01:09.370
+do preço novamente. Neste próximo exercício de programação,
+
+00:01:09.370 --> 00:01:12.230
+você completa o código para gerar dois histogramas de preço.
+
