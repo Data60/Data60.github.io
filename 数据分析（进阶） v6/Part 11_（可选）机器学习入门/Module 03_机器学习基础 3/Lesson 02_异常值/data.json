@@ -1,0 +1,1510 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178262,
+      "key": "2269418543",
+      "title": "异常值",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "Sebastian 讨论如何选择和移除异常值。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2269418543/178262/1516850404592/%E5%BC%82%E5%B8%B8%E5%80%BC%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2269418543/178262/1516850384051/%E5%BC%82%E5%B8%B8%E5%80%BC%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177612,
+          "key": "28053085450923",
+          "title": "回归中的异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28053085450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175552,
+              "key": "2805308545",
+              "title": "回归中的异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2805308545",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "hxxa0KAkB1o",
+                  "china_cdn_id": "hxxa0KAkB1o.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "回归中的异常值 Quiz",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/rnpD0aX3MmLCOJk2DaLch7iSbL8_cXg0eQTt5n_OXuAYFtvq5EI4Hf5WNfNZXHr7oy52ZUit1Z_ScGt8UUo=s0#w=1434&h=801",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2805308545",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2949658626",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.49670745012468825,
+                      "y": 0.40025637472283815
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.491427680798005,
+                      "y": 0.46480044345898003
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5315032730673317,
+                      "y": 0.5525568181818182
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_IetITlJpIs",
+                  "china_cdn_id": "_IetITlJpIs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177613,
+          "key": "28502285520923",
+          "title": "产生异常值的原因",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28502285520923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175553,
+              "key": "2850228552",
+              "title": "产生异常值的原因",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2850228552",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "W74CdB_pl5M",
+                  "china_cdn_id": "W74CdB_pl5M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "产生异常值的原因",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/jETiQXYX0VBxesEQYuVRVCsgKJgIY9bFHaXC7XCAayfDK6X5UFE-P2SHhEFA--gV2HGY_7CYqsslzKog-Mw=s0#w=1434&h=808",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2850228552",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2943288781",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15636689526184538,
+                      "y": 0.24605044345898006
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15077540523690772,
+                      "y": 0.34430432372505543
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15437967581047382,
+                      "y": 0.4569359756097561
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.14446306109725685,
+                      "y": 0.5844304323725056
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "djTM5fADIVs",
+                  "china_cdn_id": "djTM5fADIVs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177615,
+          "key": "28481885570923",
+          "title": "选择异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28481885570923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175555,
+              "key": "2848188557",
+              "title": "选择异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2848188557",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "zTI5Ci5WWzM",
+                  "china_cdn_id": "zTI5Ci5WWzM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "选择异常值",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/UJRCtKeE57TT7LCWip2Ciz2c3_CtlnnA58RPJJc5lxq8OVmPL5g4lVDIf05OyPVcMH0pRfS-bc-OmNvuhZQ=s0#w=1436&h=805",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2848188557",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2957208551",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.07266988778054863,
+                      "y": 0.22103658536585366
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2724049251870324,
+                      "y": 0.19429046563192906
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5067799251870324,
+                      "y": 0.17495842572062084
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.06881234413965087,
+                      "y": 0.5058896895787139
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2725218204488778,
+                      "y": 0.4740160753880266
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5075787094763092,
+                      "y": 0.46975471175166295
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "rNR4_JqCEuk",
+                  "china_cdn_id": "rNR4_JqCEuk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177614,
+          "key": "28641985670923",
+          "title": "异常值检测/删除算法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28641985670923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175554,
+              "key": "2864198567",
+              "title": "异常值检测/删除算法",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "hGKY6BAqJ6o",
+                "china_cdn_id": "hGKY6BAqJ6o.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177616,
+          "key": "28706585390923",
+          "title": "使用残差的异常值检测",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28706585390923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175556,
+              "key": "2870658539",
+              "title": "使用残差的异常值检测",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2870658539",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ujpjeaxE6GU",
+                  "china_cdn_id": "ujpjeaxE6GU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "使用残差的异常值检测",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/nG8EtcBfDPZbOjGubh2HVVM15d4nXA5UtLHWCRVxFfrImanWpEy_XKMopXEaNVJW-QBlwk9--BuAxADTM1zc=s0#w=1431&h=806",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2870658539",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2968538614",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6647249064837906,
+                      "y": 0.3210920177383592
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6584515274314214,
+                      "y": 0.42610171840354766
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6574968827930174,
+                      "y": 0.5486765521064302
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ZlDdxWYv6jw",
+                  "china_cdn_id": "ZlDdxWYv6jw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177617,
+          "key": "28684185720923",
+          "title": "删除异常值对回归的影响",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28684185720923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175558,
+              "key": "2868418572",
+              "title": "删除异常值对回归的影响",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2868418572",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "WDADret_QqE",
+                  "china_cdn_id": "WDADret_QqE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Outlier Detection Using Residuals Quiz 2",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/Olsm1nBAMF7MB4n88nNVwQOFyO-MKWFymhg-VjhjhxOmQAckaV7ZwVDdOSSNH32YHJ9DrGz8gQ2TNEekUHY=s0#w=1434&h=806",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2868418572",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2947738692",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6471711346633416,
+                      "y": 0.2891491130820399
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6491583541147132,
+                      "y": 0.4110656873614191
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6513403990024937,
+                      "y": 0.545904933481153
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "iEvYp4hL6OY",
+                  "china_cdn_id": "iEvYp4hL6OY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177619,
+          "key": "27891785450923",
+          "title": "异常值删除策略的小结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "27891785450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175557,
+              "key": "2789178545",
+              "title": "异常值删除策略的小结",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "b-oE175NJiQ",
+                "china_cdn_id": "b-oE175NJiQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177618,
+          "key": "30361686890923",
+          "title": "异常值迷你项目简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30361686890923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175559,
+              "key": "3036168689",
+              "title": "异常值迷你项目简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "GRN0Whyy4Lk",
+                "china_cdn_id": "GRN0Whyy4Lk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177620,
+          "key": "29621688220923",
+          "title": "异常值迷你项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29621688220923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175560,
+              "key": "2962168822",
+              "title": "异常值迷你项目",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "此项目有两部分。在第一部分中将运行回归，然后识别并删除具有最大残差的 10% 的点。然后，根据 Sebastian 在课程视频中所建议的，从数据集中删除那些异常值并重新拟合回归。\n\n在第二部分中，你将熟悉安然财务数据中的一些异常值，并且了解是否/如何删除它们。",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177623,
+          "key": "30267087560923",
+          "title": "带有异常值的回归斜率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30267087560923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175561,
+              "key": "3026708756",
+              "title": "带有异常值的回归斜率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3026708756",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "Sebastian 向我们描述了改善回归的一个算法，你将在此项目中实现该算法。你将在接下来的几个测试题中运用这一算法。总的来说，你将在所有训练点上拟合回归。舍弃在实际 y 值和回归预测 y 值之间有最大误差的 10% 的点。\n\n先开始运行初始代码 (<i>outliers/outlier_removal_regression.py</i>) 和可视化点。一些异常值应该会跳出来。部署一个线性回归，其中的净值是目标，而用来进行预测的特征是人的年龄（记得在训练数据上进行训练！）。\n\n数据点主体的正确斜率是 6.25（我们之所以知道，是因为我们使用该值来生成数据）；你的回归的斜率是多少？"
+              },
+              "question": {
+                "title": "带有异常值的回归斜率",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/Ju846fwDmlThh5Dhvbx8MW4iF9l6mfLez2_5KUb1NyPclepNMf3l-nmQYdvXcpNAU1N2Fp1EN2n59PLGNRU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3026708756",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3038208564",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.4254597880299252,
+                      "y": 0.3303076496674058
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177621,
+          "key": "30086086480923",
+          "title": "带有异常值的回归分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30086086480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175562,
+              "key": "3008608648",
+              "title": "带有异常值的回归分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "   你的回归应用到测试数据后的得分是多少？",
+              "user_state": {
+                "node_key": "3008608648",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "当使用回归在测试数据上进行预测时，你获得的分数是多少？"
+              },
+              "question": {
+                "title": "带有异常值的回归分数",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/9L4pcOHrRlmosPMfYBi9s3vV195YTPi5cTpPupJladblzgpj0ZT3Cn0pt5I59dPeJBF_xdR6_MsmRYgFHQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3008608648",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3004168584",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.4217191396508728,
+                      "y": 0.4901607538802661
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177622,
+          "key": "30079686270923",
+          "title": "清理后的斜率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30079686270923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175563,
+              "key": "3007968627",
+              "title": "清理后的斜率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 现在当异常值被清除后，你的回归的新斜率是多少？\n\n\n注意：在 *outliers/outlier_removal_regression.py* 执行异常值清理的部分中（以注释 ### identify and remove the most outlier-y points 开头），请确保 `reg.predict` 的输入参数是 `ages_train` 而非 `ages`，这样你就只是基于训练数据进行清理。清理器的参数还应基于 `*_train` 变量。",
+              "user_state": {
+                "node_key": "3007968627",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "你将在 <i>outliers/outlier_cleaner.py</i> 中找到 <i>outlierCleaner()</i> 函数的骨架并向其填充清理算法。用到的三个参数是：<i>predictions</i> 是一个列表，包含回归的预测目标；<i>ages</i> 也是一个列表，包含训练集内的年龄；<i>net_worths</i> 是训练集内净值的实际值。每个列表中应有 90 个元素（因为训练集内有 90 个点）。你的工作是返回一个名叫cleaned_data 的列表，该列表中只有 81 个元素，也即预测值和实际值 (net_worths) 具有最小误差的 81 个训练点 (90 * 0.9 = 81)。cleaned_data 的格式应为一个元组列表，其中每个元组的形式均为 (age, net_worth, error)。\n\n一旦此清理函数运行起来，你应该能看到回归结果发生了变化。新斜率是多少？是否更为接近 6.25 这个“正确”结果？"
+              },
+              "question": {
+                "title": "清理后的斜率",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/2AFCQHPd5vRCYyiN487HMt1K6luVkP8PpdeG88HC5wqettSFQ5bngygMOklxrmSjW-_-mqa1h4Whi3J5kPw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3007968627",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3051998535",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.3575241583541147,
+                      "y": 0.5584465077605322
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177624,
+          "key": "30215286300923",
+          "title": "清理后的分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30215286300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175564,
+              "key": "3021528630",
+              "title": "清理后的分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "  现在当异常值被清除后，你的测试数据的回归得分是多少？\n",
+              "user_state": {
+                "node_key": "3021528630",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "当使用回归在测试集上进行预测时，新的分数是多少？"
+              },
+              "question": {
+                "title": "清理后的分数",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/_NgHCeiUsQuNnZud_KF-OrhdZxtcDjkbhghzeBqY3Jm5VLj8Nvgwa037jHllbqqvnzOOqbLRA1iY1q9_vWGj=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3021528630",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3000418740",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.4383572319201995,
+                      "y": 0.6126316518847007
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177625,
+          "key": "30253385650923",
+          "title": "安然异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30253385650923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175565,
+              "key": "3025338565",
+              "title": "安然异常值",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在本节回归课程的迷你项目中，你使用回归来预测安然雇员的奖金。如你所见，单一的异常值都可以对回归结果造成很大的差异。但是，我们之前没有跟你说过的是，你在项目中使用的数据集已经被清理过明显的异常值了。第一次看到数据集时，识别并清除异常值是你一直应该思考的问题，而你现在已经通过安然数据有了一定的实践经验。\n\n你可以在 <i>outliers/enron_outliers.py</i> 中找到初始代码，该代码读入数据（以字典形式）并将之转换为适合 sklearn 的 numpy 数组。由于从字典中提取出了两个特征（“工资”和“奖金”），得出的 numpy 数组维度将是 N x 2，其中 N 是数据点数，2 是特征数。对散点图而言，这是非常完美的输入；我们将使用 matplotlib.pyplot 模块来绘制图形。（在本课程中，我们对所有可视化均使用 pyplot。）将这些行添加至脚本底部，用以绘制散点图：\n<code>\n<pre>\nfor point in data:\n    salary = point[0]\n    bonus = point[1]\n    matplotlib.pyplot.scatter( salary, bonus )\n\nmatplotlib.pyplot.xlabel(\"salary\")\nmatplotlib.pyplot.ylabel(\"bonus\")\nmatplotlib.pyplot.show()\n</pre>\n\n如你所见，可视化是查找异常值最强大的工具之一！",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177626,
+          "key": "30070386650923",
+          "title": "识别最大的安然异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30070386650923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175566,
+              "key": "3007038665",
+              "title": "识别最大的安然异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "  最大 Enron 异常值的字典 key 值是什么？\n",
+              "user_state": {
+                "node_key": "3007038665",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "有一个异常值应该会立即跳出来。现在的问题是识别来源。我们发现原始数据源对于识别工作非常有帮助；你可以在 <i>final_project/enron61702insiderpay.pdf</i> 中找到该 PDF。\n\n该数据点的字典键名称是什么？（例如：如果是 Ken Lay，那么答案就是“LAY KENNETH L”）。"
+              },
+              "question": {
+                "title": "识别最大的安然异常值",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/p1YGG4Q-vF-bqGNAQVCUhWWjjbhsg_d1hHKusnIFlbmJEd53zHuteGw-jhZsS4qw9ZbHLXBDDuDGlAy1qb8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3007038665",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3036378560",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.508396976309227,
+                      "y": 0.5208217849223947
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177630,
+          "key": "30137086150923",
+          "title": "移除安然异常值？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30137086150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175573,
+              "key": "3013708615",
+              "title": "移除安然异常值？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 你认为这个异常值应该并清除，还是留下来作为一个数据点？\n\n- 留下来，它是有效的数据点\n- 清除掉，它是一个电子表格 bug\n- 清除掉，它是一个拼写错误",
+              "user_state": {
+                "node_key": "3013708615",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "在此数据集上运行机器学习时，该异常值是否像我们应该包含的数据点？是否应该删除它？"
+              },
+              "question": {
+                "title": "Clean Away Your Big Kahuna?",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/KYYwv5VLBuMR2NSF1zkVkgAP2q5qTQsMi8vC97GmNxeFTy2-_W77q1l5sA3m9JrCWw_AOcQQvjc2ckENiB0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3013708615",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3031408552",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2567409600997506,
+                      "y": 0.547845066518847
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.25826059850374067,
+                      "y": 0.6771410753880266
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2596048940149626,
+                      "y": 0.7938955099778271
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177628,
+          "key": "30291385540923",
+          "title": "还有更多异常值吗？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30291385540923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175567,
+              "key": "3029138554",
+              "title": "还有更多异常值吗？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "  Enron 数据中还有异常值吗？\n       完全没有\n       是，有非常明显的一个\n       可能还有四个",
+              "user_state": {
+                "node_key": "3029138554",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "从字典中快速删除键值对的一种方法如以下行所示：\n\n<i>dictionary.pop( key, 0 )</i>\n\n写下这样的一行代码（你必须修改字典和键名）并在调用 <i>featureFormat()</i> 之前删除异常值。然后重新运行代码，你的散点图就不会再有这个异常值了。\n\n所有异常值都没了吗？"
+              },
+              "question": {
+                "title": "异常值会伤人",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/Ic19m2SX1qouu4CQ9wzFeOz_ZyMjjxNGG3tzz9kdHG__H_Ks1Ad-TIn04H2eM23am470kPlalLVHtNsI2Rw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3029138554",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3187718577",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3474711658354115,
+                      "y": 0.4790049889135255
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.34996493142144636,
+                      "y": 0.5705723392461197
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35113388403990026,
+                      "y": 0.6626247228381374
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177627,
+          "key": "30279086490923",
+          "title": "再识别两个异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30279086490923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175568,
+              "key": "3027908649",
+              "title": "再识别两个异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "   与当前 Enron 异常值相关联的名称有哪些？（给出字典 key 值中所写的名称 – 如：Phillip Allen 将是 ALLEN PHILLIP K）\n",
+              "user_state": {
+                "node_key": "3027908649",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "我们认为还有 4 个异常值需要调查；让我们举例来看。两人获得了至少 5 百万美元的奖金，以及超过 1 百万美元的工资；换句话说，他们就像是强盗。\n\n和这些点相关的名字是什么？"
+              },
+              "question": {
+                "title": "Encore des Outliers",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/NjAHSMd1mciaGnvd1Px7kWV70Ok-o0SZU2Bw4sv9B-VJsjFhAQVk5p-s_re6W_kDgHZAvzPee4oN7Jj_NA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3027908649",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3049918543",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.44389027431421446,
+                      "x": 0.15784756857855362,
+                      "y": 0.5457663525498891
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.11086474501108648,
+                      "width": 0.442643391521197,
+                      "x": 0.15981530548628428,
+                      "y": 0.682545731707317
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177629,
+          "key": "30160786190923",
+          "title": "移除这些异常值？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30160786190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175569,
+              "key": "3016078619",
+              "title": "移除这些异常值？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "你认为这个异常值应该并清除，还是留下来作为一个数据点？\n留下来，它是有效的数据点\n清除掉，它是一个电子表格怪癖\n清除掉，它是一个错误",
+              "user_state": {
+                "node_key": "3016078619",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "你是否会猜到这些就是我们应该删除的错误或者奇怪的电子表格行，你是否知道这些点之所以不同的重要原因？（换句话说，在我们试图构建 POI 识别符之前，是否应该删除它们？）"
+              },
+              "question": {
+                "title": "移除异常值",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/TG56UPLSDj1aKKRsK3I8_x3h5hy0zdQZsdgwjeYKb1bJRVPg1EvJZISJOb5i9aEqnDjcIq-G9AuGr9qgWg4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3016078619",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3027808567",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.18077852244389028,
+                      "y": 0.5508245565410199
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.18190850997506233,
+                      "y": 0.6688262195121951
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.18284367206982544,
+                      "y": 0.7946923503325942
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

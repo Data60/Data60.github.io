@@ -1,0 +1,2783 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178261,
+      "key": "2291728537",
+      "title": "数据集与问题",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "开始了解安然数据集，提出有趣的问题。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2291728537/178261/1516850349434/%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E9%97%AE%E9%A2%98%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2291728537/178261/1516850319892/%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E9%97%AE%E9%A2%98%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177567,
+          "key": "28772285450923",
+          "title": "简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28772285450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175470,
+              "key": "2877228545",
+              "title": "简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TdopVWltgqM",
+                "china_cdn_id": "TdopVWltgqM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177568,
+          "key": "24736785410923",
+          "title": "列出所有与安然丑闻相关的人 (POI)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24736785410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175471,
+              "key": "2473678541",
+              "title": "列出所有与安然丑闻相关的人 (POI)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wDQhif-MWuY",
+                "china_cdn_id": "wDQhif-MWuY.mp4"
+              }
+            },
+            {
+              "id": 346704,
+              "key": "3a88bdfc-15c7-4cb2-8da0-8d183311bf5e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "POI (Person Of Interest) 指的是在这个问题中的相关人物。\n\n建议你在有时间的时候，花一个半小时，看一下**【纪录片】安然：房间里最聪明的人 Enron: The Smartest Guys in the Room** ([Bilibili 链接](http://www.bilibili.com/video/av10093141/)  或\n [Youtube链接](https://www.youtube.com/watch?v=rDyMz1V-GSg) )来了解这个事件。\n\nKatie 从 [这篇新闻](http://usatoday30.usatoday.com/money/industries/energy/2005-12-28-enron-participants_x.htm) 以及很多其他新闻中，搜集并列出了所有她认为可能与安然丑闻事件有关的人的名字。你可能有些困惑名字旁边的 Y 和 N 代表什么，别担心，在后面会提到。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 177569,
+          "key": "30831887230923",
+          "title": "准确率与训练集大小",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30831887230923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175472,
+              "key": "3083188723",
+              "title": "准确率与训练集大小",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "9w1Yi5nMNgw",
+                "china_cdn_id": "9w1Yi5nMNgw.mp4"
+              }
+            },
+            {
+              "id": 346705,
+              "key": "e05bc261-5b38-4850-a40c-59bb06aa3a67",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "你可能还不知道什么是 朴素贝叶斯分类器，也不明确知道测试集和训练集的定义。 没关系，我们在之后都会提到。这里，你可以现有一个概念，**数据越多，效果越好**！这就是机器学习的神奇之处！",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 177570,
+          "key": "24755385390923",
+          "title": "下载安然数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24755385390923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175473,
+              "key": "2475538539",
+              "title": "下载安然数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "目前从[CMU 安然数据集页面](https://www.cs.cmu.edu/~./enron/) 能下载到的最新数据集为 **May 7, 2015 Version of dataset**. \n\n不过你暂时并不需要使用到数据集，不下载也没关系。",
+              "video": {
+                "youtube_id": "TgkBAtaTqJk",
+                "china_cdn_id": "TgkBAtaTqJk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177571,
+          "key": "24588785410923",
+          "title": "数据类型测验 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24588785410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175474,
+              "key": "2458878541",
+              "title": "数据类型测验 1",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2458878541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "YZb-Uam-Ics",
+                  "china_cdn_id": "YZb-Uam-Ics.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "数据类型测验 1",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/8L2qK4PLGJ-2NSRo0YAaT06ZP9uDsNtWRkDuerZod9a9asSO1V1BfHsTiudD3BAYGtCoQhsUvKZa7NQ7QS7D=s0#w=1433&h=804",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2458878541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2947678693",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3132403366583541,
+                      "y": 0.30532843680709537
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3181818181818182,
+                      "y": 0.43805432372505543
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3167861596009975,
+                      "y": 0.5630543237250555
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31834476309226933,
+                      "y": 0.6985171840354767
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.30862297381546133,
+                      "y": 0.8416366407982262
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "j1vFBL3khh0",
+                  "china_cdn_id": "j1vFBL3khh0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177573,
+          "key": "24403485550923",
+          "title": "数据类型测验 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24403485550923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175475,
+              "key": "2440348555",
+              "title": "数据类型测验 2",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2440348555",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "k63Why0c1KU",
+                  "china_cdn_id": "k63Why0c1KU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "数据类型测验 2",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/q8CMSWUBPLxApl0vuUu4_pojWD8tynLtGvl253Dmy2LPtNKq4PJXDJZGmFcheM7pHzftdEgsf5LoU6shA4E=s0#w=1436&h=806",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2440348555",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2956148584",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3163380610972569,
+                      "y": 0.30252217294900224
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31885130922693267,
+                      "y": 0.4371189024390244
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3170394326683292,
+                      "y": 0.5574764412416852
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3194357855361596,
+                      "y": 0.6954337583148559
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.30850607855361595,
+                      "y": 0.832940687361419
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "T7rdBFQQ0Fw",
+                  "china_cdn_id": "T7rdBFQQ0Fw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177572,
+          "key": "24720585410923",
+          "title": "数据类型测验 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24720585410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175476,
+              "key": "2472058541",
+              "title": "数据类型测验 3",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2472058541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "8TeKzSUGAJQ",
+                  "china_cdn_id": "8TeKzSUGAJQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "数据类型测验 3",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/aaa6bEbH6weh8k2td106rMFgbRdmj9dnWtLFTNyNPyKpQldlnk8lkLNOQX-zl8II7OCdG-D_YgDAV1zOcFU=s0#w=1437&h=802",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2472058541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2988828554",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31396119077306733,
+                      "y": 0.3111488359201774
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31742908354114713,
+                      "y": 0.4342779933481153
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3152275561097257,
+                      "y": 0.5596937361419069
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31959164588528677,
+                      "y": 0.6984132483370288
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3097724438902743,
+                      "y": 0.8443389689578714
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "sMLnEgg2lqE",
+                  "china_cdn_id": "sMLnEgg2lqE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177574,
+          "key": "24141985440923",
+          "title": "数据类型测验 4",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24141985440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175477,
+              "key": "2414198544",
+              "title": "数据类型测验 4",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2414198544",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "DzyOcsBIncA",
+                  "china_cdn_id": "DzyOcsBIncA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "数据类型测验 4",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/vFQn-BhAKBcCWFQeaawVSgTY4CLVErMA-JCrsosuhCQCS0g7yGsqcdZ003YumEVo-PYrVuD_aoZOLLZHNwP7=s0#w=1435&h=802",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2414198544",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2971128561",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31491583541147133,
+                      "y": 0.30383869179600886
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31458463216957605,
+                      "y": 0.43382760532150777
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31201293640897754,
+                      "y": 0.5583425720620843
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31470152743142144,
+                      "y": 0.698309312638581
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3048043952618454,
+                      "y": 0.8386225055432373
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "wzNCL-MJ2bc",
+                  "china_cdn_id": "wzNCL-MJ2bc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177575,
+          "key": "24752685350923",
+          "title": "数据类型测验 5",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24752685350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175478,
+              "key": "2475268535",
+              "title": "数据类型测验 5",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2475268535",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "bRhdim9PTFI",
+                  "china_cdn_id": "bRhdim9PTFI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "数据类型测验 5",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/SnB1r5YVcivmBv5Oj0SKRzU2jdOq1R2jgy4EIf1fmT-XI8AoBKPcTdH0M8BiOUoAlXe3sfXCQUZH0vVVLA=s0#w=1432&h=801",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2475268535",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2960588577",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31374688279301743,
+                      "y": 0.30855044345898003
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3172147755610973,
+                      "y": 0.43355044345898003
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31474049251870323,
+                      "y": 0.5585504434589801
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3152275561097257,
+                      "y": 0.6959187915742794
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3081748753117207,
+                      "y": 0.8355044345898004
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "dk3FxGVdP7Q",
+                  "china_cdn_id": "dk3FxGVdP7Q.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177576,
+          "key": "24639785370923",
+          "title": "数据类型测验 6",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24639785370923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175479,
+              "key": "2463978537",
+              "title": "数据类型测验 6",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2463978537",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-LtbhZvwwM8",
+                  "china_cdn_id": "-LtbhZvwwM8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "数据类型测验 6",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/KptgXWuNm5VfCt8bahsUihU_mOCtsmJmwjn7akicRY0gkbBLv0ZW7dYKxSLH7DPq7EDbVuRW3PkyqneXdA=s0#w=1435&h=803",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2463978537",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2944958630",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31181811097256856,
+                      "y": 0.29975055432372505
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3182863154613466,
+                      "y": 0.436529933481153
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31310395885286785,
+                      "y": 0.5632968403547672
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.31752649625935164,
+                      "y": 0.7000069290465631
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.30686954488778057,
+                      "y": 0.8360934035476718
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "eqFgLu0eqBE",
+                  "china_cdn_id": "eqFgLu0eqBE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177577,
+          "key": "30204286120923",
+          "title": "安然数据集迷你项目简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30204286120923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175480,
+              "key": "3020428612",
+              "title": "安然数据集迷你项目简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "0zGp5er3fy4",
+                "china_cdn_id": "0zGp5er3fy4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177578,
+          "key": "29593586440923",
+          "title": "数据集和问题迷你项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29593586440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175481,
+              "key": "2959358644",
+              "title": "数据集和问题迷你项目",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "安然欺诈案是一个混乱而又引人入胜的大事件，从中可以发现几乎所有想像得到的企业违法行为。安然的电子邮件和财务数据集还是巨大、混乱的信息宝藏，而且，在你稍微熟悉这些宝藏后，它们会变得更加有用。我们已将这些电子邮件和财务数据合并为一个数据集，而你将在此迷你项目中研究它。\n\n开始：\n- 克隆这个 GitHub 库：https://github.com/udacity/ud120-projects\n- 运行开始代码：`datasets_questions/explore_enron_data.py`",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 177580,
+          "key": "30048087170923",
+          "title": "安然数据集的大小",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30048087170923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175482,
+              "key": "3004808717",
+              "title": "安然数据集的大小",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3004808717",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "聚合的安然电子邮件和财务数据集被存储到字典中，字典中的每个键是一个人名，而且值是包含此人所有特征的一个字典。\n\n电子邮件和财务 (E+F) 数据字典被存储在 pickle 文件中，该文件可直接存储和加载 python 对象，非常方便。 使用 <i>datasets_questions/explore_enron_data.py</i> 加载数据集。\n\n数据集中有多少数据点（人）？"
+              },
+              "question": {
+                "title": "Count 'Em Up",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/wWGqH7qR8RceT8E-uS0aWn-nlolKDHlT3uYEhpF2jL9Ui3ORm-whFmTcGRJOE80jzVJt_tTF_52gmf81TME=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3004808717",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3005648570",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.15102222105337407,
+                      "y": 0.36317447230979766
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177579,
+          "key": "30354985660923",
+          "title": "安然数据集中的特征",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30354985660923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175483,
+              "key": "3035498566",
+              "title": "安然数据集中的特征",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3035498566",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "对于每个人，有多少个特征可用？"
+              },
+              "question": {
+                "title": "Feature Creep",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/R1Eu3LLZesOTGbYekhT5QArd33SL4nki_n8a-uAZI5cU0FyK-5JZK3vgOrHuPOTMKghgiFm8uYmR9lboyQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3035498566",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3010518798",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.17071403987974781,
+                      "y": 0.35698447893569846
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177582,
+          "key": "30218585580923",
+          "title": "在安然数据中查找 POI",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30218585580923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175484,
+              "key": "3021858558",
+              "title": "在安然数据中查找 POI",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "也就是说，计算 <i>data[person_name][\"poi\"]==1</i> 时，字典中条目的数量。",
+              "user_state": {
+                "node_key": "3021858558",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "根据我们的定义，“POI”（Person of interest，嫌疑人）特征记录着一个人是否为相关人士的信息。\n\nE+F 数据集中有多少 POI？"
+              },
+              "question": {
+                "title": "Counting POIs",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/u5cBfS111OKjXz5DgT06v8XV7A7fyy-1WGxombW4iUlMfUYFjHkNVphXK_Kypv__LjIa-pbFbnP90FVOQwE4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3021858558",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3011778732",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.1461706102117061,
+                      "y": 0.3570769113341879
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177581,
+          "key": "30350185570923",
+          "title": "存在多少 POI？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30350185570923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175485,
+              "key": "3035018557",
+              "title": "存在多少 POI？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3035018557",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "我们编辑了一个包含所有 POI 姓名的列表（在 <i>../final_project/poi_names.txt</i> 中）并附上了相应的邮箱地址（在 <i>../final_project/poi_email_addresses.py</i> 中）。\n\n总共有多少 POI？(使用姓名列表，不要用邮箱地址，因为许多雇员不止一个邮箱，而且其中少数人员不是安然的雇员，我们没有他们的邮箱地址。)"
+              },
+              "question": {
+                "title": "POIs in the World",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/or4HSKwILNbpzGyClcbfwZBHZUxuru1KyJVILi3d8gaZhLhrN1B3ggWRIrPEZdxpaYUxy4mImSJW-BbxjQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3035018557",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3021038710",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.14798672914801914,
+                      "y": 0.3373059866962306
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177585,
+          "key": "30100186330923",
+          "title": "不完整数据的问题",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30100186330923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175486,
+              "key": "3010018633",
+              "title": "不完整数据的问题",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3010018633",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "你可以看到，我们在 E+F 数据集中有许多 POI，但不是所有。这为何会是一个潜在的问题？\n\n我们将在稍后解释 POI 为何有可能不在安然 E+F 数据集中，这样你就可以在往下继续之前完全理解这个问题。"
+              },
+              "question": {
+                "title": "Incomplete Data: it's a problem",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/mvTKm35s7MZjg7VBSaxUi6XVXJvl7VP5QT43VB2unVqQvlz-VQOSKYoSrP_aTHylVDi5FlgF2FaFjALFcg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3010018633",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3018068594",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.21507760532150777,
+                      "width": 0.33374844333748444,
+                      "x": 0.0963055336312072,
+                      "y": 0.3291759279509077
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177584,
+          "key": "30258285840923",
+          "title": "查询数据集 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30258285840923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175487,
+              "key": "3025828584",
+              "title": "查询数据集 1",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "名、中间名和姓全部大写。",
+              "user_state": {
+                "node_key": "3025828584",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "和任何字典的字典一样，个人/特征可以这样被访问：\n\n<i>enron_data[\"LASTNAME FIRSTNAME\"][\"feature_name\"]</i><br>\n或者\n<br>enron_data[\"LASTNAME FIRSTNAME MIDDLEINITIAL\"][\"feature_name\"]\n\nJames Prentice 名下的股票总值是多少？"
+              },
+              "question": {
+                "title": "James Prentice 的股票",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/TiX5KWvibwplDfATN8vjVbUNNjQihqfYil6LNpdeL8EnEjNkHkaTgG7FxlkmUJWYLLzbE3aK1Eh87qbUCg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3025828584",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3021598681",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.09147987983295065,
+                      "y": 0.332548086500485
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177583,
+          "key": "30180785500923",
+          "title": "查询数据集 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30180785500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175488,
+              "key": "3018078550",
+              "title": "查询数据集 2",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3018078550",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "和任何字典的字典一样，个人/特征可以这样被访问：\n\n<i>enron_data[\"LASTNAME FIRSTNAME\"][\"feature_name\"]</i>\n\n我们有多少来自 Wesley Colwell 的发给嫌疑人的电子邮件？"
+              },
+              "question": {
+                "title": "Wesley Colwell's Emails",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/UyH2VhtudJmDYruy1gxVovaIzNoiTgNpAwzUErxcdhVcNETl77OXc-tqCeKoAvmlI1HxhT30tnbBGviFvTsT=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3018078550",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3011168678",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.09365920735474392,
+                      "y": 0.34026240245201633
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177586,
+          "key": "30133087020923",
+          "title": "查询数据集 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30133087020923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175489,
+              "key": "3013308702",
+              "title": "查询数据集 3",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3013308702",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "和任何字典的字典一样，个人/特征可以这样被访问：\n\n<i>enron_data[\"LASTNAME FIRSTNAME\"][\"feature_name\"]</i>\n\n或\n\n<i>enron_data[\"LASTNAME FIRSTNAME MIDDLEINITIAL\"][\"feature_name\"]</i>\n\n\n\nJeffrey Skilling 行使的股票期权价值是多少？"
+              },
+              "question": {
+                "title": "Jeff Skilling's Stock Options",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/P9kn20sLwqsFPzEZD-3U9TksAEAUdxz_t_c_NG1MFyGOoVczLLCDSi5ieXOOD1Ldg1bxPxJ8ZT1jtrYAnRA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3013308702",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3007818802",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.14113741407952599,
+                      "y": 0.3701958836050097
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177587,
+          "key": "30268386050923",
+          "title": "研究安然欺诈案",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30268386050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175490,
+              "key": "3026838605",
+              "title": "研究安然欺诈案",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "   以下哪个计谋 Enron 未参与？\n   - 在每月月末将资产出售给空壳公司，然后在下月初买回，以隐藏会计损失\n   - 导致加利福尼亚的电网故障\n   - 非法获取了一份政府报告，使他们得以垄断冷冻浓缩橙汁期货\n   - 主谋为一位沙特公主快速获得了美国国籍\n   - 与百视达 (Blockbuster) 影业合作，在互联网上通过流媒体传播影片",
+              "user_state": {
+                "node_key": "3026838605",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "在下面的课程中，我们将介绍为什么大部分情况下，最好的特征都来自我们的直觉。这意味着我们将对安然欺诈案稍作了解。\n\n如果你能腾出一个半小时的时间，可以观看《安然：房间中最聪明的伙计（Enron: The Smartest Guys in the Room）》这部纪录片，它精彩概述了整个事件。另外，还有许多报纸和故事记录着安然的兴衰成败。\n\n下面这些阴谋中，哪一个没有安然的参与？\n- 每月底向空壳公司出售资产，并在次月初购回，以隐瞒会计损失\n- 造成加州电网断电\n- 非法获取政府报告，垄断浓缩橙汁行业\n- 图谋为一名沙特王子加急办理美国公民身份\n- 计划与卖座电影合作在网上传输电影"
+              },
+              "question": {
+                "title": "太多计划，太少时间..",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/NRkx0PoVcRk7VO7AhL_jc6O1NMzbsYm8xVCJQ5pyDiMi3hOp3U_-pUea9kSdSuU5JRmmq4LAQ8KLv-OYZg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3026838605",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3013458575",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.048671660654868464,
+                      "y": 0.40156139026988635
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.04919053549190536,
+                      "y": 0.5430525210902855
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.05066936488169365,
+                      "y": 0.652208078726961
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.04893111707561488,
+                      "y": 0.7688008581191104
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.05124015380555339,
+                      "y": 0.8747228381374723
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177588,
+          "key": "30104485960923",
+          "title": "安然 CEO",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30104485960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175491,
+              "key": "3010448596",
+              "title": "安然 CEO",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3010448596",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "欺诈案发生的多数时间内，安然的 CEO 是谁？"
+              },
+              "question": {
+                "title": "CEO",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/IMBNTgEXo4Eeg7Bey_jRhhclSX-i74v3si3TYl_xoO_Xj8HyuHMlyubqqY_R3sYdKeZ-CHnq0pjYSggfKeI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3010448596",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3000408954",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.14604090100356087,
+                      "y": 0.3389228093386225
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177589,
+          "key": "30022585710923",
+          "title": "安然主席",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30022585710923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175492,
+              "key": "3002258571",
+              "title": "安然主席",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3002258571",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "安然的董事会主席是谁？"
+              },
+              "question": {
+                "title": "董事会主席",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/UsOJNSIq9awDwmSbb4Ez9Z7WFqNw5GYkz6is3HbYWpKF1KO-C4g-2hKNNiI_d2u2F-1FVpvcRx-etXFbKjI7=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3002258571",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3017968763",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.13350976775324952,
+                      "y": 0.36677757652265797
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177590,
+          "key": "30134585660923",
+          "title": "安然 CFO",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30134585660923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175493,
+              "key": "3013458566",
+              "title": "安然 CFO",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3013458566",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "欺诈案发生的多数时间内，安然的 CFO（首席财务官）是谁？"
+              },
+              "question": {
+                "title": "CFO",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/NNA78ffhkTZn89xQwulxB1PhqZnlRwhpWyju3Nci0icOjUfXUZUIqiAPArEDACXG0yLpkwbXhwtbIZwnz1S3=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3013458566",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3037078563",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.13213472853265099,
+                      "y": 0.32617336366234756
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177591,
+          "key": "30175386090923",
+          "title": "跟着钱走",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30175386090923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175494,
+              "key": "3017538609",
+              "title": "跟着钱走",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3017538609",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "这三个人（Lay、Skilling 和 Fastow）当中，谁拿回家的钱最多（“total_payments”特征的最大值）？\n\n这个人得到了多少钱？"
+              },
+              "question": {
+                "title": "SO MUCH MONEY",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/soNZN2ieDyjk3SI9tBVNkQf5j5jR_xBRBONuRvn8QEwkGJe44jkK_n9EhQRteiJ8wvHWSkjK0SYXQsyESCU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3017538609",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3005068624",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.08105024097865426,
+                      "y": 0.36654656319290463
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.07902657970841766,
+                      "y": 0.4624445676274945
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.07871524720530433,
+                      "y": 0.5791759956173781
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.07396742653282612,
+                      "y": 0.6905026319550305
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177592,
+          "key": "30154585500923",
+          "title": "未填充的特征",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30154585500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175495,
+              "key": "3015458550",
+              "title": "未填充的特征",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3015458550",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "对于数据集中的所有人，不是每一个特征都有值。当特征没有明确的值时，我们使用什么来表示它？"
+              },
+              "question": {
+                "title": "未填充的特征",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/iVjisj_5mbP6cy9CkAsUtbqiD9UZgKOASDyBv1Hp5EqmV1D47uLUpzJK7iPlDRvtw9kPXqsCUf3tUffDpg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3015458550",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3050828611",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.09452930174563591,
+                      "y": 0.323205376940133
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177594,
+          "key": "30030986550923",
+          "title": "处理未填充的特征",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30030986550923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175496,
+              "key": "3003098655",
+              "title": "处理未填充的特征",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3003098655",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "此数据集中有多少雇员有量化的工资？已知的邮箱地址是否可用？"
+              },
+              "question": {
+                "title": "Known Unknowns",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/y-Kppb-w3y5xn9AEfo5RZ4TZKXrMdPssWeTicldSZUhoCYhUPhIfGcN6kG4yd8mkPfRv9QUDJDD1tSyB3g=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3003098655",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3003048586",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.0858985349127182,
+                      "y": 0.31644955654101997
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.0858985349127182,
+                      "y": 0.46282566518847007
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177593,
+          "key": "30256686920923",
+          "title": "字典到数组的转换",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30256686920923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175497,
+              "key": "3025668692",
+              "title": "字典到数组的转换",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "不能将 python 字典直接读入到 sklearn 分类或回归算法中；它其实需要一个 numpy 数组，或者一个由列表组成的列表（此列表本身是一个列表，它的每个元素都是数据点，而较小列表的元素是该点的特征）。\n\n我们编写了一些辅助函数（tools/feature_format.py 中的 featureFormat() 和 targetFeatureSplit()），它们可以获取特征名的列表和数据字典，然后返回 numpy 数组。\n\n如果特征没有某个特定人员的值，此函数还会用 0（零）替换特征值。",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177595,
+          "key": "30330886770923",
+          "title": "缺少的 POI 1（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30330886770923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175498,
+              "key": "3033088677",
+              "title": "缺少的 POI 1（可选）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3033088677",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "如你刚才所见，不是每个 POI 在数据集中都有一个条目（比如：Michael Krautz）。那是因为数据集是通过你在 <i>final_project/enron61702insiderpay.pdf</i> 中找到的财务数据所创建的，这些数据中缺少了一些 POI（这些缺失的 POI 被传送至最终的数据集）。另一方面，对于这些“缺少的”POI，我们确实有他们的邮件。\n\n尽管向 E+F 数据集中添加这些 POI 和他们的信息，并且为财务信息设置“NaN”非常简单，但这会带来一个微妙的问题。你将在此处了解到这一问题。\n\n（当前的）E+F 数据集中有多少人的薪酬总额被设置了“NaN”？数据集中这些人的比例占多少？"
+              },
+              "question": {
+                "title": "缺少的 POI 1",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/vmY9yz2DxgYzouLnaWJbRf5QsjfL0v7AVxlNo7GOspyLXYIUdsNRdUQGQSLnCEkbA3_rFGxBFqWSuDUpeqI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3033088677",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3013038717",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.08987297381546135,
+                      "y": 0.32126524390243905
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177596,
+          "key": "30051386790923",
+          "title": "缺少的 POI 2（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30051386790923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175499,
+              "key": "3005138679",
+              "title": "缺少的 POI 2（可选）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3005138679",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "E+F 数据集中有多少 POI 的薪酬总额被设置了“NaN”？这些 POI 占多少比例？"
+              },
+              "question": {
+                "title": "缺少的 POI 2",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/eqRs6GffaN3B5aoDHyHSH7tN2ZOLdEWclo84ai-9X6GIxAQJFko38Mvk5fdX-F3YymcmmNBE4ZcQ_Bwqkw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3005138679",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3029558686",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.08858712593516209,
+                      "y": 0.3094858647450111
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177597,
+          "key": "30281987290923",
+          "title": "缺少的 POI 3（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30281987290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175500,
+              "key": "3028198729",
+              "title": "缺少的 POI 3（可选）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3028198729",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "如果机器学习算法将 total_payments 用作特征，你希望它将“NaN”值关联到 POI 还是非 POI？"
+              },
+              "question": {
+                "title": "缺少的 POI 3",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/FGpMRY2SbLcT41zCAv4q8Y5mnvCHeY5tn-XfmiAUjnLGxJvlgggLYX1jpdsZ4KTPW94EelBCstX2Mtuvl-A=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3028198729",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3028758556",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.10010130922693267,
+                      "y": 0.4480667960088692
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.10010130922693267,
+                      "y": 0.6066380266075388
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177598,
+          "key": "30058886150923",
+          "title": "缺少的 POI 4（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30058886150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175501,
+              "key": "3005888615",
+              "title": "缺少的 POI 4（可选）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3005888615",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "如果你再次添加了全是 POI 的 10 个数据点，并且对这些雇员的薪酬总额设置了“NaN”，你刚才计算的数字会发生变化。\n\n数据集中这些人的数量变成了多少？薪酬总额被设置了“NaN”的雇员数变成了多少？"
+              },
+              "question": {
+                "title": "缺少的 POI 4",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/bnvP1Me0j4FMnkpttcmCWTxsyuvjs159QXIdbLXWb7-SHOhG7LBOZHp4TFjPAx3WqI_nNUX8w1D8_2ANtjE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3005888615",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3026198572",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.20074812967581046,
+                      "x": 0.08893781172069826,
+                      "y": 0.46684451219512196
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.0901846945137157,
+                      "y": 0.6566657427937915
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177599,
+          "key": "30524685360923",
+          "title": "缺少的 POI 5（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30524685360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175502,
+              "key": "3052468536",
+              "title": "缺少的 POI 5（可选）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3052468536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "数据集中 POI 的人数变成了多少？POI 中，股票总值为“NaN”的人数变成了多少？"
+              },
+              "question": {
+                "title": "缺少的 POI 5",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/xwN4Ft0e-a8y71pI5mFoGr2iO2VuWc3xbIaEE5d1PvMlvibtN6DonTzDb9Bk9LndzdWn4a2eH9dHOOuOCRw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3052468536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3010158775",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.1378584788029925,
+                      "y": 0.46635947893569846
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.1440928927680798,
+                      "y": 0.6462375277161863
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177600,
+          "key": "30249785960923",
+          "title": "缺少的 POI 6（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30249785960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175503,
+              "key": "3024978596",
+              "title": "缺少的 POI 6（可选）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3024978596",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "在添加了新的数据点后，你是否认为，监督式分类算法可将 total_payments 为“NaN”理解为某人是 POI 的线索？"
+              },
+              "question": {
+                "title": "缺少的 POI 6",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/SOCppGoUoLZLglAyb5qSrnZ6Tui0kGliRV35oeQqDYiJ3f-sL1kZ6ONryZ7Fw4LhdctpuVtgcK6YRRCoQnY=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3024978596",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3046518548",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.18594139650872818,
+                      "y": 0.44986834811529935
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.18469451371571072,
+                      "y": 0.5645094235033259
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177601,
+          "key": "30494785600923",
+          "title": "混合数据源（可选）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30494785600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175504,
+              "key": "3049478560",
+              "title": "混合数据源（可选）",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "此例中加入了新的 POI，而我们没有任何人的财务信息，这就带来了一个微妙的问题，即算法可能会注意到我们缺少他们的财务信息，并将这一点作为他们是 POI 的线索。换个角度来看，为我们的两个类生成数据的方式现在有所不同 - 非 POI 的人全都来自财务电子表格，之后手动加入了许多 POI。这种不同可能会诱使我们以为我们的表现优于实际状况 - 假设你使用 POI 检测器来确定某个未见过的新人是否是 POI，而且该人不在电子表格上。然后，他们的所有财务数据都将包含“NaN”，但该人极有可能不是 POI（世界上非 POI 的人比 POI 多得多，即使在安然也是如此）- 然而你可能会无意中将他们标识为 POI！ \n\n这就是说，在生成或增大数据集时，如果数据来自不同类的不同来源，你应格外小心。它很容易会造成我们在此展示的偏差或错误类型。可通过多种方法处理此问题。举例而言，如果仅使用了电子邮件数据，则你无需担心此问题（在这种情况下，财务数据中的差异并不重要，因为并未使用财务特征）。还可以通过更复杂的方法来估计这些偏差可能会对你的最终答案造成多大影响，不过此话题超出了本课程的范围。\n\n目前的结论就是，要非常小心地对待引入来自不同来源（具体取决于类）的特征这个问题！引入此类特征常常会意外地带来偏差和错误。",
+              "instructor_notes": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

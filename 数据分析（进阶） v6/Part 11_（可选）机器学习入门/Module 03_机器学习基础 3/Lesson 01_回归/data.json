@@ -1,0 +1,3391 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178923,
+      "key": "2301748537",
+      "title": "回归",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "使用线性回归为连续数据建模。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2301748537/178923/1516850797225/%E5%9B%9E%E5%BD%92%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2301748537/178923/1516850702213/%E5%9B%9E%E5%BD%92%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 152568,
+          "key": "24397485650923",
+          "title": "连续输出",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24397485650923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151121,
+              "key": "2439748565",
+              "title": "连续输出",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2439748565",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "udJvijJvs1M",
+                  "china_cdn_id": "udJvijJvs1M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "连续输出",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/uySVq1Hpx8LXQx1bIgZrra0e_fKVVPz0sriU1MWhb59b165pLF1dYloyb_QyF8j0IWJQLEMJJDmTKsEAEiY=s0#w=1434&h=803",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2439748565",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2963708620",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1119466957605985,
+                      "y": 0.2915742793791574
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.4515079488778055,
+                      "y": 0.6488359201773836
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FOwEL4S-SVo",
+                  "china_cdn_id": "FOwEL4S-SVo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152569,
+          "key": "24785485360923",
+          "title": "连续",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24785485360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151122,
+              "key": "2478548536",
+              "title": "连续",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2478548536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Bp6oBbLw8qE",
+                  "china_cdn_id": "Bp6oBbLw8qE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "连续",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/uvF3_bodHUFJtEk8QK8Dgb3FrzLG-z3BwtqgOt-9QSiaZuz7teLw4UaA0sRpWq-R0wGbtbIAGzcQKGObxq8=s0#w=1437&h=799",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2478548536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3187129350",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5772677680798005,
+                      "y": 0.3599639689578714
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5674875311720698,
+                      "y": 0.46185559866962306
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "IC-fo_A0PxQ",
+                  "china_cdn_id": "IC-fo_A0PxQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152571,
+          "key": "30629185400923",
+          "title": "年龄：连续还是离散？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30629185400923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151124,
+              "key": "3062918540",
+              "title": "年龄：连续还是离散？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3062918540",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "OrPlWwv19Jc",
+                  "china_cdn_id": "OrPlWwv19Jc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "年龄：连续还是离散？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/KSRtCXHSwCuFIlrm7D7iMtzEbAi-fEz8_f494xY8JG8YboAHvaPCceyM91X8mhtf7QtRDRwbksvRwApexeI=s0#w=691&h=344",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3062918540",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3068058539",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5188555634229856,
+                      "y": 0.31684638655635045
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7230503148866116,
+                      "y": 0.3033347457581243
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kNxZwfXwvuk",
+                  "china_cdn_id": "kNxZwfXwvuk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152570,
+          "key": "30645585360923",
+          "title": "天气：连续还是离散？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30645585360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151123,
+              "key": "3064558536",
+              "title": "天气：连续还是离散？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3064558536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "jTKkq6DdJMw",
+                  "china_cdn_id": "jTKkq6DdJMw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "天气：连续还是离散",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/cs5-8NfdL4C_C7sdG7zTflVNsLEYog4us4fkWJ-uIxojABlg2Ww5sA2t3misqiQbfBC4yb4tRiGDMhrq-K8=s0#w=682&h=347",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3064558536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3063118541",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.514374578385579,
+                      "y": 0.39801072757154243
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7317288748343984,
+                      "y": 0.38358572475661723
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "3FO2y4tlZ3A",
+                  "china_cdn_id": "3FO2y4tlZ3A.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152572,
+          "key": "30564185360923",
+          "title": "电子邮件作者：连续还是离散？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30564185360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151125,
+              "key": "3056418536",
+              "title": "电子邮件作者：连续还是离散？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3056418536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "GD9Bpjm31co",
+                  "china_cdn_id": "GD9Bpjm31co.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "电子邮件作者：连续还是离散？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/V4XxmiLQRE_amBAaQGF5XzYUa5jpBIf4eHiaX5UPKaKYvOQ8WC5eimBg4G6lZ3dOfwLvw-9i5tuLymjt4g-R=s0#w=691&h=351",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3056418536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3072338540",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5186607284736158,
+                      "y": 0.4914268612068667
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7286648167636329,
+                      "y": 0.4707342515763581
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "TpVxnYcI_uw",
+                  "china_cdn_id": "TpVxnYcI_uw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152573,
+          "key": "30596085360923",
+          "title": "电话号码：连续还是离散？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30596085360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151126,
+              "key": "3059608536",
+              "title": "电话号码：连续还是离散？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3059608536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5dt0N4XN-y4",
+                  "china_cdn_id": "5dt0N4XN-y4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "电话号码：连续还是离散？",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/LyqDeh1S1zKlQlXuX_r-951RjwuEBJeczC3gFAAGdc5vd1Kt7oaY50N54aa4i6PYh9RCi8X4Mhq-ZoBs9oc=s0#w=691&h=345",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3059608536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3063168544",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5082463956533227,
+                      "y": 0.6205906497929947
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7257424352174983,
+                      "y": 0.610543532276365
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FY9_6rOPk6c",
+                  "china_cdn_id": "FY9_6rOPk6c.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152574,
+          "key": "30778685360923",
+          "title": "收入：连续还是离散？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30778685360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151127,
+              "key": "3077868536",
+              "title": "收入：连续还是离散？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3077868536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "4yapJV56YoM",
+                  "china_cdn_id": "4yapJV56YoM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "收入：连续还是离散？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/z_8fcsd-OFcRGSO1JmvQLMo7E2W93NKQhRmOG-Wye2z8hTXdS3TmGoJfhIXXBvw6MbSXSEngyiIECWDQ4AQ=s0#w=686&h=352",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3077868536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3060998543",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5072546124161033,
+                      "y": 0.7044005298825959
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7333937476103443,
+                      "y": 0.6860385564901348
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "-uRSI_oybJQ",
+                  "china_cdn_id": "-uRSI_oybJQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152575,
+          "key": "24152185490923",
+          "title": "连续特征",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24152185490923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151128,
+              "key": "2415218549",
+              "title": "连续特征",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2415218549",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "TIs9j-QITxw",
+                  "china_cdn_id": "TIs9j-QITxw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "连续特征",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/z6m_Y2H6pPs1jqQH3vTwTuCk4Xo48O6MaTZNTD2cgkma_XI4Nw4qsT07mHnolPPxf5XDOjAGuxlIfJb8GP3i=s0#w=1435&h=804",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2415218549",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2948198572",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6332995635910225,
+                      "y": 0.5550859201773836
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6268898067331671,
+                      "y": 0.6519193458980045
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6186292082294265,
+                      "y": 0.7601510532150776
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tEU11PXloLU",
+                  "china_cdn_id": "tEU11PXloLU.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152576,
+          "key": "24605885360923",
+          "title": "具有连续输出的监督学习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24605885360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151129,
+              "key": "2460588536",
+              "title": "具有连续输出的监督式学习",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2460588536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "dkLEMSLTxvk",
+                  "china_cdn_id": "dkLEMSLTxvk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "具有连续输出的监督式学习",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/SUtm_BQZMMcg8e9UrSSkf5wJA2N4pGzRJP6_G_eBIc6GR3f0yj1OAxtbdv3tZMdQRm4R5unpEyLuAVtUIcM=s0#w=1437&h=802",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2460588536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2966938598",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6192721321695761,
+                      "y": 0.24303630820399114
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1909873753117207,
+                      "y": 0.7668722283813747
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.46991895261845384,
+                      "y": 0.2151468957871397
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.19757247506234413,
+                      "y": 0.5163179046563193
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3637390897755611,
+                      "y": 0.7663871951219512
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5957956670822943,
+                      "y": 0.5210989467849224
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "F7PIJM0q524",
+                  "china_cdn_id": "F7PIJM0q524.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152577,
+          "key": "24828185350923",
+          "title": "回归线性方程",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24828185350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151130,
+              "key": "2482818535",
+              "title": "回归线性方程",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2482818535",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "--Pc1ASVjmM",
+                  "china_cdn_id": "--Pc1ASVjmM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "回归线性方程",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/aYZqBr8cMFt1Ugwv5FajvueTpCOnbr8xNa5T8OGHynALyKsYJn1T-VMHYB_AuUJ80OT5KTbVHu8-O3ETLkNU=s0#w=1433&h=801",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2482818535",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2950318631",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.09850374064837905,
+                      "x": 0.6495285224438903,
+                      "y": 0.12132760532150776
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09534368070953436,
+                      "width": 0.10099750623441396,
+                      "x": 0.85785536159601,
+                      "y": 0.14810837028824833
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "O4jFvJWal6s",
+                  "china_cdn_id": "O4jFvJWal6s.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152578,
+          "key": "24995785370923",
+          "title": "斜率和截距",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24995785370923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151131,
+              "key": "2499578537",
+              "title": "斜率和截距",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Ksn1g5fCe1I",
+                "china_cdn_id": "Ksn1g5fCe1I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152579,
+          "key": "24575785420923",
+          "title": "斜率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24575785420923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151133,
+              "key": "2457578542",
+              "title": "斜率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2457578542",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Kn9v0KGDsvc",
+                  "china_cdn_id": "Kn9v0KGDsvc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "斜率",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/BMuCupS-yIJpQ1X7itJn-JN2FZznd2dEAKWMQ6Flk3tjLNiyqmVzJk6g2UIs5TLKNRXNiZ1fuwuurnw4vSM=s0#w=1435&h=805",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2457578542",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2958008562",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.27731452618453867,
+                      "y": 0.33321784922394676
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2179706982543641,
+                      "y": 0.2776815410199557
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1484375,
+                      "y": 0.2552660753880266
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "wnIQ6fCVD40",
+                  "china_cdn_id": "wnIQ6fCVD40.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152580,
+          "key": "24655985410923",
+          "title": "截距",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24655985410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151132,
+              "key": "2465598541",
+              "title": "截距",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2465598541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "cuBxHYSPrkA",
+                  "china_cdn_id": "cuBxHYSPrkA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "截距",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/At4OYIk0JxdsNI3vYqSqGa9ysbeNINYLpo8TbHhORL3waX7x_1ppi8T2QViGMO_RVdqENZ5Jef2AKK6de_26=s0#w=1435&h=806",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2465598541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2975168588",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.757247506234414,
+                      "y": 0.22800027716186252
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7891599127182045,
+                      "y": 0.30421978935698446
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8012390897755611,
+                      "y": 0.3851856984478936
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "f_SBhjbfmPw",
+                  "china_cdn_id": "f_SBhjbfmPw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152581,
+          "key": "24439885600923",
+          "title": "使用回归的预测",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24439885600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151134,
+              "key": "2443988560",
+              "title": "使用回归的预测",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2443988560",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "cUhgZ2BnWq0",
+                  "china_cdn_id": "cUhgZ2BnWq0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "使用回归的预测",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/eD6QluNgzEFCOgeuxK4iF5QemEzmaKvmamkvgzjfICj2aA85lU0Edi4qoFZyhK2hqUUmbZV49YrDFOjiQfk=s0#w=1438&h=807",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2443988560",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2978908558",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.0975609756097561,
+                      "width": 0.14214463840399003,
+                      "x": 0.5430759039900249,
+                      "y": 0.7418930155210643
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "T-dTpFd7EO0",
+                  "china_cdn_id": "T-dTpFd7EO0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152582,
+          "key": "24770085350923",
+          "title": "添加截距",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24770085350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151135,
+              "key": "2477008535",
+              "title": "添加截距",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2477008535",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "xPDk70gKkjk",
+                  "china_cdn_id": "xPDk70gKkjk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "添加截距",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/wgZjHoNg5Z-le6qPWLjef8DD4uv_0mZDE7rvm1_L1nY8WkXHvKfe7WFX-cAqqmZlISEVAPkjw8ZK6Vtc-uo=s0#w=1438&h=807",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2477008535",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2980468558",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09534368070953436,
+                      "width": 0.1396508728179551,
+                      "x": 0.5406211034912718,
+                      "y": 0.738289911308204
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tUeaXXT2oDI",
+                  "china_cdn_id": "tUeaXXT2oDI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152583,
+          "key": "30101886280923",
+          "title": "移交给 Katie",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30101886280923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151136,
+              "key": "3010188628",
+              "title": "移交给 Katie",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "M3Nwl_B_bZ8",
+                "china_cdn_id": "M3Nwl_B_bZ8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152584,
+          "key": "24527085470923",
+          "title": "编码",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24527085470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151137,
+              "key": "2452708547",
+              "title": "编码",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "BTFOf2qXy5U",
+                "china_cdn_id": "BTFOf2qXy5U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152586,
+          "key": "30400486110923",
+          "title": "sklearn 中的年龄/净值回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30400486110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151139,
+              "key": "3040048611",
+              "title": "sklearn 中的年龄/净值回归",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3040048611",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5DvUOwA7xhU",
+                  "china_cdn_id": "5DvUOwA7xhU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "sklearn 中的年龄/净值回归",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3063368566",
+                "initial_code_files": [
+                  {
+                    "text": "#!/usr/bin/python\n\nimport numpy\nimport matplotlib\nmatplotlib.use('agg')\n\nimport matplotlib.pyplot as plt\nfrom studentRegression import studentReg\nfrom class_vis import prettyPicture, output_image\n\nfrom ages_net_worths import ageNetWorthData\n\nages_train, ages_test, net_worths_train, net_worths_test = ageNetWorthData()\n\n\n\nreg = studentReg(ages_train, net_worths_train)\n\n\nplt.clf()\nplt.scatter(ages_train, net_worths_train, color=\"b\", label=\"train data\")\nplt.scatter(ages_test, net_worths_test, color=\"r\", label=\"test data\")\nplt.plot(ages_test, reg.predict(ages_test), color=\"black\")\nplt.legend(loc=2)\nplt.xlabel(\"ages\")\nplt.ylabel(\"net worths\")\n\n\nplt.savefig(\"test.png\")\noutput_image(\"test.png\", \"png\", open(\"test.png\", \"rb\").read())",
+                    "name": "studentMain.py"
+                  },
+                  {
+                    "text": "def studentReg(ages_train, net_worths_train):\n    ### import the sklearn regression module, create, and train your regression\n    ### name your regression reg\n    \n    ### your code goes here!\n    \n    \n    \n    return reg",
+                    "name": "studentRegression.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "5aghWw9eIAM",
+                  "china_cdn_id": "5aghWw9eIAM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152585,
+          "key": "30101886230923",
+          "title": "通过 sklearn 提取信息",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30101886230923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151138,
+              "key": "3010188623",
+              "title": "通过 sklearn 提取信息",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "zDIRQE_oxfk",
+                "china_cdn_id": "zDIRQE_oxfk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152587,
+          "key": "30101886240923",
+          "title": "通过 sklearn 提取分数数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30101886240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151140,
+              "key": "3010188624",
+              "title": "通过 sklearn 提取分数数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "NhD4oUuhvO8",
+                "china_cdn_id": "NhD4oUuhvO8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152588,
+          "key": "30551185860923",
+          "title": "现在你练习提取信息",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30551185860923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151141,
+              "key": "3055118586",
+              "title": "现在你练习提取信息",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3055118586",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "在此代码测试题中，按照前两个视频中的步骤操作，从回归中提取预测、斜率和截距，以及训练和测试分数。"
+              },
+              "question": {
+                "title": "回归代码",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "2902938632",
+                "initial_code_files": [
+                  {
+                    "text": "import numpy\nimport matplotlib.pyplot as plt\n\nfrom ages_net_worths import ageNetWorthData\n\nages_train, ages_test, net_worths_train, net_worths_test = ageNetWorthData()\n\n\n\nfrom sklearn.linear_model import LinearRegression\n\nreg = LinearRegression()\nreg.fit(ages_train, net_worths_train)\n\n### get Katie's net worth (she's 27)\n### sklearn predictions are returned in an array, so you'll want to index into\n### the output to get what you want, e.g. net_worth = predict([[27]])[0][0] (not\n### exact syntax, the point is the [0] at the end). In addition, make sure the\n### argument to your prediction function is in the expected format - if you get\n### a warning about needing a 2d array for your data, a list of lists will be\n### interpreted by sklearn as such (e.g. [[27]]).\nkm_net_worth = 1.0 ### fill in the line of code to get the right value\n\n### get the slope\n### again, you'll get a 2-D array, so stick the [0][0] at the end\nslope = 0. ### fill in the line of code to get the right value\n\n### get the intercept\n### here you get a 1-D array, so stick [0] on the end to access\n### the info we want\nintercept = 0. ### fill in the line of code to get the right value\n\n\n### get the score on test data\ntest_score = 0. ### fill in the line of code to get the right value\n\n\n### get the score on the training data\ntraining_score = 0. ### fill in the line of code to get the right value\n\n\n\ndef submitFit():\n    # all of the values in the returned dictionary are expected to be\n    # numbers for the purpose of the grader.\n    return {\"networth\":km_net_worth,\n            \"slope\":slope,\n            \"intercept\":intercept,\n            \"stats on test\":test_score,\n            \"stats on training\": training_score}",
+                    "name": "regressionQuiz.py"
+                  },
+                  {
+                    "text": "import numpy\nimport random\n\ndef ageNetWorthData():\n\n    random.seed(42)\n    numpy.random.seed(42)\n\n    ages = []\n    for ii in range(100):\n        ages.append( random.randint(20,65) )\n    net_worths = [ii * 6.25 + numpy.random.normal(scale=40.) for ii in ages]\n### need massage list into a 2d numpy array to get it to work in LinearRegression\n    ages       = numpy.reshape( numpy.array(ages), (len(ages), 1))\n    net_worths = numpy.reshape( numpy.array(net_worths), (len(net_worths), 1))\n\n    from sklearn.cross_validation import train_test_split\n    ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths)\n\n    return ages_train, ages_test, net_worths_train, net_worths_test",
+                    "name": "ages_net_worths.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152589,
+          "key": "24178185500923",
+          "title": "线性回归误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24178185500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151142,
+              "key": "2417818550",
+              "title": "线性回归误差",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "A4nPMEOcUd4",
+                "china_cdn_id": "A4nPMEOcUd4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152590,
+          "key": "24698285360923",
+          "title": "误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24698285360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151143,
+              "key": "2469828536",
+              "title": "误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个点的误差是多少？\n\n在方框内写出答案（一定要注意正负）。",
+              "user_state": {
+                "node_key": "2469828536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "PYNWtLgtRfU",
+                  "china_cdn_id": "PYNWtLgtRfU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "误差",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/QGOaLuJn6yxh83uHmYAmU_R39Qy_q7BVI28iGZiRRF187sAVyiSLuxZ3Z_PdwQtRdhTkuM-0fPdgBGkT-w=s0#w=1437&h=806",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2469828536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2971108543",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.7478374376558603,
+                      "y": 0.8328713968957872
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "O5B-Z5SUoc8",
+                  "china_cdn_id": "O5B-Z5SUoc8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152591,
+          "key": "24668385410923",
+          "title": "误差和拟合质量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24668385410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151144,
+              "key": "2466838541",
+              "title": "误差和拟合质量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 拟合能将哪种误差降至最低？\n\n- □ 第一个和最后一个数据点的误差\n- □ 所有数据点的误差和\n- □ 所有误差的绝对值的和\n- □ 所有误差的平方和\n\n\n注：在视频的大约 1:00 处，Katie 写下 -100 和 +100 分别作为示例线性回归中第一个和最后一个点的误差。由于我们将误差定义为实际净值减去预测的净值，因此这两个符号应该对调，即，第一个点的误差为 +100，最后一个点的误差为 -100。",
+              "user_state": {
+                "node_key": "2466838541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "PRQDaHphZhw",
+                  "china_cdn_id": "PRQDaHphZhw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "误差和拟合质量",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/Pzvh2YGLAAIj6XEAyB-UZ6fRWMGDotMdMp3gi1l7fwpSIO72V2fmn_WFUYGnXGNEQifP2sRXr7ZeMd-QYmU=s0#w=1438&h=806",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2466838541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2972788560",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5416926433915212,
+                      "y": 0.6441934589800443
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5405042082294265,
+                      "y": 0.7479559312638581
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5354971945137157,
+                      "y": 0.8353658536585366
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.536783042394015,
+                      "y": 0.9235726164079823
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "x-8-2zy8gmI",
+                  "china_cdn_id": "x-8-2zy8gmI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152592,
+          "key": "24264885840923",
+          "title": "最小化误差平方和",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24264885840923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151145,
+              "key": "2426488584",
+              "title": "最小化误差平方和",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "E1XzT619Eug",
+                "china_cdn_id": "E1XzT619Eug.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152593,
+          "key": "24612685420923",
+          "title": "最小化误差平方和的算法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24612685420923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151146,
+              "key": "2461268542",
+              "title": "最小化误差平方和的算法",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Dw_9Dp6wcJ8",
+                "china_cdn_id": "Dw_9Dp6wcJ8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152594,
+          "key": "30334185860923",
+          "title": "为何最小化 SSE",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30334185860923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151147,
+              "key": "3033418586",
+              "title": "为何最小化 SSE",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 哪条回归线最适合这些数据？",
+              "user_state": {
+                "node_key": "3033418586",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "c1gvsNx_ypg",
+                  "china_cdn_id": "c1gvsNx_ypg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "为何最小化 SSE",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/fxw9GK-wxi61eKItDWVihS9uN7scqom69jgKOEozuPSXWAYKwA2sEWrAnxtwe89XP7-43Lor8fWS2bRZIQks=s0#w=1434&h=808",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3033418586",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3083838538",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.4817838216957606,
+                      "y": 0.3633592017738359
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5460762157107232,
+                      "y": 0.4304323725055432
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5272950436408977,
+                      "y": 0.4987181263858093
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "rexAHoCGFMs",
+                  "china_cdn_id": "rexAHoCGFMs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152595,
+          "key": "30101886270923",
+          "title": "最小化绝对误差的问题",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30101886270923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151148,
+              "key": "3010188627",
+              "title": "最小化绝对误差的问题",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "U46D7oEijlI",
+                "china_cdn_id": "U46D7oEijlI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152596,
+          "key": "24393085750923",
+          "title": "肉眼评估回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24393085750923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151149,
+              "key": "2439308575",
+              "title": "肉眼评估回归",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 哪一个回归更好地拟合这个数据集？\n\n- □ 左边的\n- □ 右边的\n- □ 差不多",
+              "user_state": {
+                "node_key": "2439308575",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "hS7cpq-sOeQ",
+                  "china_cdn_id": "hS7cpq-sOeQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "肉眼评估回归",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/k2aFXlWqzDywmdU-Bw0L0eiLoVdryja86PzmvuHZvyLL6QU9r2qZaVcgddiW9GE17nKdHXtp7BgAU2fTWZw=s0#w=1439&h=809",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2439308575",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2978828552",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7862570137157108,
+                      "y": 0.5202674611973392
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7914783354114713,
+                      "y": 0.632829822616408
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7900755922693267,
+                      "y": 0.7554046563192904
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "gBdKhmtrtG8",
+                  "china_cdn_id": "gBdKhmtrtG8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152597,
+          "key": "24600085450923",
+          "title": "SSE 的问题",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24600085450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151150,
+              "key": "2460008545",
+              "title": "SSE 的问题",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2460008545",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "VD14oP-Ue6M",
+                  "china_cdn_id": "VD14oP-Ue6M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "SSE 的问题",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/onvBUwu_nHK6FFviDsnGsyumvclBYhXOjDzhrRw0U552-3eWbulNi3mc_gXvh9FxNNBzL9QYzZMENYCPsg=s0#w=1433&h=809",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2460008545",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2955568614",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7992518703241895,
+                      "y": 0.5469096452328159
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8048628428927681,
+                      "y": 0.6645648558758315
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8035185473815462,
+                      "y": 0.7945884146341463
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "S1yjJWWza7g",
+                  "china_cdn_id": "S1yjJWWza7g.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152598,
+          "key": "24511185440923",
+          "title": "回归的 R 平方指标",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24511185440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151151,
+              "key": "2451118544",
+              "title": "回归的 R 平方指标",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Note that R<sup>2</sup> is only bounded from below by 0 when evaluating a linear regression on its training set. If evaluated on a significantly different set, where the predictions of a regressor are worse than simply guessing the mean value for the whole set, the calculation of R<sup>2</sup> can be negative.",
+              "video": {
+                "youtube_id": "yDJEP-XSWdU",
+                "china_cdn_id": "yDJEP-XSWdU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152599,
+          "key": "24762185350923",
+          "title": "SKlearn 中的 R 平方",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24762185350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151154,
+              "key": "2476218535",
+              "title": "SKlearn 中的 R 平方",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Dxf1I4IE6co",
+                "china_cdn_id": "Dxf1I4IE6co.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152600,
+          "key": "24830385410923",
+          "title": "可视化回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24830385410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151152,
+              "key": "2483038541",
+              "title": "可视化回归",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "zQAHZhcsXoQ",
+                "china_cdn_id": "zQAHZhcsXoQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152601,
+          "key": "24753685360923",
+          "title": "什么数据适用于线性回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24753685360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151155,
+              "key": "2475368536",
+              "title": "什么数据适用于线性回归",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "请注意，对于右下角的抛物线形状，可以通过使用特征转换拟合非线性关系。例如，添加平方 x 项作为功能会得到多项式回归，这可以视为多元线性回归的特殊情况，本课后面将会介绍这种情况。",
+              "user_state": {
+                "node_key": "2475368536",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "KFVdS328iC8",
+                  "china_cdn_id": "KFVdS328iC8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "什么数据适用于线性回归",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/6OLvCbJSy9-Cd9d-eMZTu0Cz8qw4puHzF3LYALHs47JAGAOQZJLqIGgq0gly5utAQri7UyUzNHb7EJ8OGbE=s0#w=1435&h=805",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2475368536",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2951528674",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.20065071695760597,
+                      "y": 0.2075249445676275
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5894248753117207,
+                      "y": 0.20471868070953436
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.9339152119700748,
+                      "y": 0.21691380266075388
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.44367596633416456,
+                      "y": 0.5970759423503326
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7212437655860349,
+                      "y": 0.5655487804878049
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "4GBJk6R0pb4",
+                  "china_cdn_id": "4GBJk6R0pb4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152602,
+          "key": "28680885390923",
+          "title": "比较分类与回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28680885390923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151153,
+              "key": "2868088539",
+              "title": "比较分类与回归",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "G_0W912qmGc",
+                "china_cdn_id": "G_0W912qmGc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152603,
+          "key": "27818685480923",
+          "title": "多元回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "27818685480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151156,
+              "key": "2781868548",
+              "title": "多元回归",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2781868548",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "YPPQy_eB2mU",
+                  "china_cdn_id": "YPPQy_eB2mU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "多元回归",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/H6VHwK8EugTtlTUcINfbl2wDKZJLyEcJPes8tpJy8EDxFeuxge_Sx1G4LI7dJwDCz2jq6mCi_JKC6PtCVGk=s0#w=1438&h=805",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2781868548",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2977488698",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09090909090909091,
+                      "width": 0.09226932668329177,
+                      "x": 0.5390040523690773,
+                      "y": 0.4008799889135255
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.0975609756097561,
+                      "width": 0.11471321695760599,
+                      "x": 0.744856608478803,
+                      "y": 0.3910753880266075
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09534368070953436,
+                      "width": 0.11097256857855362,
+                      "x": 0.7232699501246883,
+                      "y": 0.5766006097560976
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "SwbreslrpqQ",
+                  "china_cdn_id": "SwbreslrpqQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152606,
+          "key": "27883885410923",
+          "title": "多元回归 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "27883885410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 151160,
+              "key": "2788388541",
+              "title": "多元回归 2",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2788388541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "97v0kEWjcmg",
+                  "china_cdn_id": "97v0kEWjcmg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "多元回归 2",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/w9oFnLwb0NLAMqxY2iKuUyYpJLIDE50L7ZlzWjWmBY-MvxnOwL7gmvnCcKEDSAz2ygp5N9fsG68oYADlzg=s0#w=1436&h=802",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2788388541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2961888679",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.08869179600886919,
+                      "width": 0.1172069825436409,
+                      "x": 0.6176550810473815,
+                      "y": 0.24359063192904656
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09090909090909091,
+                      "width": 0.11471321695760599,
+                      "x": 0.620616427680798,
+                      "y": 0.3629781042128603
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.08647450110864745,
+                      "width": 0.1172069825436409,
+                      "x": 0.6159990648379052,
+                      "y": 0.49535753880266076
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "61sZUjEPzt0",
+                  "china_cdn_id": "61sZUjEPzt0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177602,
+          "key": "30412785840923",
+          "title": "回归迷你项目简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30412785840923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175542,
+              "key": "3041278584",
+              "title": "回归迷你项目简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "CrD9jN3rBM8",
+                "china_cdn_id": "CrD9jN3rBM8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177603,
+          "key": "29980285630923",
+          "title": "回归迷你项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29980285630923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175543,
+              "key": "2998028563",
+              "title": "回归迷你项目",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在此项目中，你将使用回归来预测安然雇员和合伙人的财务数据。一旦你知道某位雇员的财务数据，比如工资，你是否会预测他们奖金的数额？",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177605,
+          "key": "30222286310923",
+          "title": "奖金目标和特征",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30222286310923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175544,
+              "key": "3022228631",
+              "title": "奖金目标和特征",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3022228631",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "运行在 <i>regression/finance_regression.py</i> 中找到的初始代码。这将绘制出一个散点图，其中有所有的数据点。你尝试预测什么目标？用来预测目标的输入特征是什么？\n\n在脑海中描绘出你大致预测的回归线（如果打印散点图并用纸笔来描绘，效果会更好）。"
+              },
+              "question": {
+                "title": "Ca$h Money Bonuses",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/tyYQONBmMDgZax0x75umx4_HT_BlsyXM111pEO6Cjbg2weMnbom6hc1k0767O_nSdAPLmC2X2QFDT2EElQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3022228631",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3046538590",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.24433057980049874,
+                      "y": 0.5407427937915743
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3974049251870324,
+                      "y": 0.5358578159645233
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5946851620947631,
+                      "y": 0.535164911308204
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8591022443890274,
+                      "y": 0.5175304878048781
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8597062032418953,
+                      "y": 0.6644262749445676
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5966334164588528,
+                      "y": 0.6746466186252772
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.39619700748129677,
+                      "y": 0.6840008314855875
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.24988310473815462,
+                      "y": 0.6882968403547672
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177604,
+          "key": "30416086000923",
+          "title": "可视化回归数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30416086000923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175545,
+              "key": "3041608600",
+              "title": "可视化回归数据",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "就像在分类中一样，你需要在回归中训练和测试数据。这在初始代码中已被设定。将 test_color 的值从“b”改为“r”（针对“red”），然后重新运行。\n\n注意：对于将 Python 2 代码转换至 Python 3 的学员，请参见以下关于兼容性的重要备注。\n\n你将仅使用蓝色（训练）点来拟合回归。（你可能已经注意到，我们放入测试集的是 50% 的数据而非标准的 10%—因为在第 5 部分中，我们将改变训练和测试数据集，并且平均分割数据使这种做法更加简单。）",
+              "instructor_notes": "\n----\n\n从 Python 3.3 版本开始，字典的键值顺序有所改变，在每次代码运行时，字典的键值皆为随机排序。这会让我们在 Python 2.7 环境下工作的评分者遭遇一些兼容性的问题。为了避免这个问题，请在 `finance_regression.py` 文件的第26行 `featureFormat` 调用时添加一个参数 \n\n`sort_keys = '../tools/python2_lesson06_keys.pkl'`\n\n它会打开 `tools` 文件夹中带有 Python 2 键值顺序的数据文件。 "
+            }
+          ]
+        },
+        {
+          "id": 177606,
+          "key": "30249586320923",
+          "title": "提取斜率和截距",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30249586320923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175546,
+              "key": "3024958632",
+              "title": "提取斜率和截距",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "注意：如果你没有获得评分工具期望的结果，你可能会想查看 `tools/feature_format.py` 文件。由于最终项目发生变化，一些文件更改影响了此处所写任务的数量输出。检查你是否从资源库中获得了最新版本的文件，以便 `featureFormat` 具有 `sort_keys = False` 的默认参数，并且 `keys = dictionary.keys()` 能够产生结果。另外，还应该存在 `test_list` 变量，用于过滤缺失的数据。",
+              "user_state": {
+                "node_key": "3024958632",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "从 sklearn 导入 <i>LinearRegression</i> 并创建/拟合回归。将其命名为 reg，这样绘图代码就能将回归覆盖在散点图上呈现出来。回归是否大致落在了你期望的地方？\n\n提取斜率（存储在 <i>reg.coef_</i> 属性中）和截距。\n\n斜率和截距是多少？"
+              },
+              "question": {
+                "title": "Slope and Intercept Quiz",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/A01HfH9lepulZTYoDDrr1mRDSUJxErZnAoMq8fKwlhPUFun5psHbv_oAOSHI9E8G9gmjRZBuYPE7K_DY7UM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3024958632",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3052598541",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.3401067643391521,
+                      "y": 0.5024251662971175
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.33923004987531175,
+                      "y": 0.637610864745011
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177607,
+          "key": "30146086640923",
+          "title": "回归分数：训练数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30146086640923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175547,
+              "key": "3014608664",
+              "title": "回归分数：训练数据",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3014608664",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "假设你是一名悟性不太高的机器学习者，你没有在测试集上进行测试，而是在你用来训练的相同数据上进行了测试，并且用到的方法是将回归预测值与训练数据中的目标值（比如：奖金）做对比。\n\n你找到的分数是多少？你可能对“良好”分数还没有概念；此分数不是非常好（但却非常糟糕）。"
+              },
+              "question": {
+                "title": "训练分数",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/ULd6p7fPp82zpRFsIiCW9qzQw-jxX2NCOJbJH0fxn0h7Ok5iJRpJNuOKFwC5UUS61uvJu1nCkFoNsveVC-GG=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3014608664",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3020778551",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.3866419233288848,
+                      "y": 0.5886225393764725
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177608,
+          "key": "30212687000923",
+          "title": "回归分数：测试数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30212687000923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175548,
+              "key": "3021268700",
+              "title": "回归分数：测试数据",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3021268700",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "现在，在测试数据上计算回归的分数。\n\n测试数据的分数是多少？如果只是错误地在训练数据上进行评估，你是否会高估或低估回归的性能？"
+              },
+              "question": {
+                "title": "Testing Score!",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/FHjxXN1P4955txwtpbooGTUxo1n2QM2y-gOu0Bq4ktdC0jjGim081tWfQPuliABaZFhpnUIVsKcJEnTAJZhP=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3021268700",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3014338742",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.3501878771698683,
+                      "y": 0.5466632716142946
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177610,
+          "key": "30464885740923",
+          "title": "根据 LTI 回归奖金",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30464885740923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175549,
+              "key": "3046488574",
+              "title": "根据 LTI 回归奖金",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3046488574",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "我们有许多可用的财务特征，就预测个人奖金而言，其中一些特征可能比余下的特征更为强大。例如，假设你对数据做出了思考，并且推测出“long_term_incentive”特征（为公司长期的健康发展做出贡献的雇员应该得到这份奖励）可能与奖金而非工资的关系更密切。\n\n证明你的假设是正确的一种方式是根据长期激励回归奖金，然后看看回归是否显著高于根据工资回归奖金。根据长期奖励回归奖金—测试数据的分数是多少？"
+              },
+              "question": {
+                "title": "Regress for Success",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/W5-LSAipWmfqmwOxt6Nen-al9g2rCFWKHQBz8fr7yGZ19NaTuLqKyDQQ9OHAlGfoqAwPSN85knXwaD4GEOk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3046488574",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3004708698",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.3980067150848465,
+                      "y": 0.6066765288291643
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177609,
+          "key": "30216086360923",
+          "title": "工资与预测奖金的 LTI",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30216086360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175550,
+              "key": "3021608636",
+              "title": "工资与预测奖金的 LTI",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "问题更正： 如果你需要预测某人的奖金，你是通过他们的工资还是长期奖金来进行预测呢？\n\n",
+              "user_state": {
+                "node_key": "3021608636",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "如果你必须预测某人的奖金并且你只有一小段相关信息，你想要知道他们的工资或者收到的长期奖励吗？"
+              },
+              "question": {
+                "title": "LTI vs. Salary: Score-off",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/x16RfiRPWgucRV_HEaIR4tXeI2_Z_H4LwiEEh1T3hv3TyIhUIVRVdtEXDrkCZWJrrfkk13H1-azlxFr4OQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3021608636",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3006538680",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1514876215832489,
+                      "y": 0.6559497977043203
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.4441154270695332,
+                      "y": 0.6465570826223843
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177611,
+          "key": "30222585760923",
+          "title": "异常值破坏回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30222585760923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175551,
+              "key": "3022258576",
+              "title": "异常值破坏回归",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3022258576",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": "这是下节课的内容简介，关于异常值的识别和删除。返回至之前的一个设置，你在其中使用工资预测奖金，并且重新运行代码来回顾数据。你可能注意到，少量数据点落在了主趋势之外，即某人拿到高工资（超过 1 百万美元！）却拿到相对较少的奖金。此为异常值的一个示例，我们将在下节课中重点讲述它们。\n\n类似的这种点可以对回归造成很大的影响：如果它落在训练集内，它可能显著影响斜率/截距。如果它落在测试集内，它可能比落在测试集外要使分数低得多。就目前情况来看，此点落在测试集内（而且最终很可能降低分数）。让我们做一些处理，看看它落在训练集内会发生什么。在 <i>finance_regression.py</i> 底部附近并且在 <i>plt.xlabel(features_list[1])</i> 之前添加这两行代码：\n\n<i>reg.fit(feature_test, target_test)<br>\nplt.plot(feature_train, reg.predict(feature_train), color=\"b\")\n</i>\n\n现在，我们将绘制两条回归线，一条在测试数据上拟合（有异常值），一条在训练数据上拟合（无异常值）。来看看现在的图形，有很大差别，对吧？单一的异常值会引起很大的差异。\n\n新的回归线斜率是多少？\n\n（你会发现差异很大，多数情况下由异常值引起。下一节课将详细介绍异常值，这样你就有工具来检测和处理它们了。）"
+              },
+              "question": {
+                "title": "Outliers: Ruining the Party",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/ukOcWManOr5CFXA0Fc6HVxC0wFmMEYS6nmM-RjIk784cnFO5eKfa_lp31quuhct6Q2g-zlF14MnyLVMRUib1=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3022258576",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3003308650",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.4212125935162095,
+                      "y": 0.554169800752018
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

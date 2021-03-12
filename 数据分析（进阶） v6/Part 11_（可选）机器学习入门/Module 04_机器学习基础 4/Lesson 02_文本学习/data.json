@@ -1,0 +1,1809 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178263,
+      "key": "2892378590",
+      "title": "文本学习",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习如何在你的机器学习算法中使用文本数据。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2892378590/178263/1516849936720/%E6%96%87%E6%9C%AC%E5%AD%A6%E4%B9%A0%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/2892378590/178263/1516849893607/%E6%96%87%E6%9C%AC%E5%AD%A6%E4%B9%A0%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177638,
+          "key": "30687685370923",
+          "title": "学习文本时的维度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30687685370923",
+            "completed_at": "2019-02-24T04:56:57.946Z",
+            "last_viewed_at": "2019-02-24T04:56:58.540Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175611,
+              "key": "3068768537",
+              "title": "学习文本时的维度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3068768537",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "NXbR9GQbtnk",
+                  "china_cdn_id": "NXbR9GQbtnk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "学习文本时的维度 Quiz",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/9-BhVXrlKU2HNAuNRQ2r99LvbgKGR5IMmrg9W4fbIN18Mtp-F1gZsyg-6s87zAuhKSQ6Yggv9zQlVgakqyk4=s0#w=1432&h=804",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3068768537",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3054638566",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3116232855361596,
+                      "y": 0.6223669623059866
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3052719763092269,
+                      "y": 0.7112666297117517
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.44848815461346636,
+                      "y": 0.6019609201773836
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.4418251246882793,
+                      "y": 0.6946022727272727
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5639611907730673,
+                      "y": 0.5795800997782705
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Njbmexuo7fo",
+                  "china_cdn_id": "Njbmexuo7fo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177636,
+          "key": "30362685600923",
+          "title": "词袋",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30362685600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175613,
+              "key": "3036268560",
+              "title": "词袋",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3036268560",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "OGK9SHt8SWg",
+                  "china_cdn_id": "OGK9SHt8SWg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "词袋",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/Xj__nNSpChXYD6qGicJs3GlobiO11qGwK3gVDpTdpDyeEz9oc_iQi1TA2PoJWHSmYY86GooDtTXFi16dAA=s0#w=1434&h=807",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3036268560",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3068368544",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07231920199501247,
+                      "x": 0.7250623441396509,
+                      "y": 0.249029933481153
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07231920199501247,
+                      "x": 0.72504286159601,
+                      "y": 0.35417821507760533
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.722354270573566,
+                      "y": 0.44041019955654104
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.07356608478802992,
+                      "x": 0.7194318890274314,
+                      "y": 0.5317696784922394
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.08425720620842572,
+                      "width": 0.07231920199501247,
+                      "x": 0.7197630922693267,
+                      "y": 0.6171355321507761
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.08647450110864745,
+                      "width": 0.07231920199501247,
+                      "x": 0.7186331047381546,
+                      "y": 0.6949833702882483
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "QfIgUDXPhi8",
+                  "china_cdn_id": "QfIgUDXPhi8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177637,
+          "key": "30374085950923",
+          "title": "美好的一天",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30374085950923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175614,
+              "key": "3037408595",
+              "title": "美好的一天",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3037408595",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "yB866_TLZB8",
+                  "china_cdn_id": "yB866_TLZB8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "美好的一天",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/vR_wkdDGCTCMqmGV6HE_f-Wu1mALSMZt99Washs7EGEL_2xHaGz9fy5d3yxlYt7f5jv0BvlEOa3OP6_z2TE=s0#w=1435&h=805",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3037408595",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3070118550",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.8646158042394015,
+                      "y": 0.24480321507760533
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.864323566084788,
+                      "y": 0.3432649667405765
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.08425720620842572,
+                      "width": 0.07356608478802992,
+                      "x": 0.8628428927680798,
+                      "y": 0.42260254988913526
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.8600958541147132,
+                      "y": 0.5143084811529933
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.07481296758104738,
+                      "x": 0.8591996571072319,
+                      "y": 0.6074695121951219
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07231920199501247,
+                      "x": 0.8579527743142145,
+                      "y": 0.6928700110864745
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "VERLCqDewrM",
+                  "china_cdn_id": "VERLCqDewrM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177639,
+          "key": "30075686440923",
+          "title": "Day 先生热爱美好的一天",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30075686440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175615,
+              "key": "3007568644",
+              "title": "Day 先生热爱美好的一天",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3007568644",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "uETh8McUAfY",
+                  "china_cdn_id": "uETh8McUAfY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Day 先生热爱美好的一天",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/vtUJoVmX9TmxgN54uJKfFOf2z2q0Nj9nHa07K51GstC3jY6nTS7S4zSHaearJMeOE3QLvrSNetcViVe5Ng=s0#w=1435&h=803",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3007568644",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3055608552",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.7297381546134664,
+                      "y": 0.24320953436807094
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.7278288653366584,
+                      "y": 0.3510601441241685
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.07481296758104738,
+                      "x": 0.7252766521197007,
+                      "y": 0.44047949002217296
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.082039911308204,
+                      "width": 0.07481296758104738,
+                      "x": 0.7245363154613467,
+                      "y": 0.526295731707317
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07982261640798226,
+                      "width": 0.07356608478802992,
+                      "x": 0.7238154613466334,
+                      "y": 0.6082317073170732
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07107231920199501,
+                      "x": 0.722568578553616,
+                      "y": 0.6982053769401331
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "0QiU3p8POHk",
+                  "china_cdn_id": "0QiU3p8POHk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177644,
+          "key": "30184688140923",
+          "title": "词袋属性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30184688140923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175617,
+              "key": "3018468814",
+              "title": "词袋属性",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3018468814",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "3r8OR2yQ-KI",
+                  "china_cdn_id": "3r8OR2yQ-KI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "词袋属性",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/nNl63B1DNjXMxOTdC1z1H4rP5v6_J0MZ92b8A9WR17wXBic1WOxOlBzzn7uhYvtqIivkT5VUQ6rUztVhBA=s0#w=1437&h=805",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3018468814",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3075678542",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7311993453865336,
+                      "y": 0.32798641906873616
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8802992518703242,
+                      "y": 0.32663525498891355
+                    }
+                  },
+                  {
+                    "group": "2",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.7284523067331671,
+                      "y": 0.4412070399113082
+                    }
+                  },
+                  {
+                    "group": "2",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8874883104738155,
+                      "y": 0.4375692904656319
+                    }
+                  },
+                  {
+                    "group": "3",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.72178927680798,
+                      "y": 0.6470690133037694
+                    }
+                  },
+                  {
+                    "group": "3",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio6",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8893586346633416,
+                      "y": 0.6384423503325942
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XZNKM3xMZNY",
+                  "china_cdn_id": "XZNKM3xMZNY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177640,
+          "key": "30150586770923",
+          "title": "Sklearn 中的词袋",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30150586770923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175616,
+              "key": "3015058677",
+              "title": "Sklearn 中的词袋",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "视频 2:41 处，我们说词 #7 “很大”。当然，python 中的列表都是零索引的，因此该词应该在索引 #6。",
+              "video": {
+                "youtube_id": "aCdg-d_476Y",
+                "china_cdn_id": "aCdg-d_476Y.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177643,
+          "key": "28965085410923",
+          "title": "低信息的单词",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28965085410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175618,
+              "key": "2896508541",
+              "title": "低信息的单词",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2896508541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "wl3gjMMrYwM",
+                  "china_cdn_id": "wl3gjMMrYwM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "低信息的单词",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/48lfGrJ72YRWMSyYGVac_CNmX_DwdxG2FxsHoSuirB824viQCSItyTauQTWB16TKsAw3M5zvqnX_EONMOgrO=s0#w=1438&h=808",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2896508541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2964618613",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.09540601620947631,
+                      "y": 0.5579614745011087
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.0980361596009975,
+                      "y": 0.6798434035476718
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.10150405236907731,
+                      "y": 0.7844373614190687
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.38924173940149626,
+                      "y": 0.5260185698447893
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3845074812967581,
+                      "y": 0.6432580376940134
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.38113700124688277,
+                      "y": 0.7596660199556541
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6603413341645885,
+                      "y": 0.5380404656319291
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6538341645885287,
+                      "y": 0.6596798780487805
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check9",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6537951995012469,
+                      "y": 0.7719304323725056
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "8ZvLpWDITn4",
+                  "china_cdn_id": "8ZvLpWDITn4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177642,
+          "key": "29029585640923",
+          "title": "停止词",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29029585640923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175619,
+              "key": "2902958564",
+              "title": "停止词",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2902958564",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "E63RZli2F2o",
+                  "china_cdn_id": "E63RZli2F2o.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "词汇 - 移除停止词",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/_HBIMuygwtz8TBgTItL0QEZt6AOlxE1QLU7PtQMaTmZz1ekStqW3dvAWdOwi41EVRpXf8BT2sqBJjRupZ5Y=s0#w=1435&h=804",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2902958564",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2979378621",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1197339246119734,
+                      "width": 0.08354114713216958,
+                      "x": 0.7493960411471322,
+                      "y": 0.7621604767184036
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "2FQu07aKLwg",
+                  "china_cdn_id": "2FQu07aKLwg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177641,
+          "key": "30679685390923",
+          "title": "从 NLTK 中获取停止词",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30679685390923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175620,
+              "key": "3067968539",
+              "title": "从 NLTK 中获取停止词",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "根据你的设置，（像我一样）下载带有 GUI 的语料库可能会很慢，而且十分痛苦。此StackOverFlow页面与如何通过命令行进行下载有关：<a href=\"http://stackoverflow.com/questions/5843817/programmatically-install-nltk-corpora-models-i-e-without-the-gui-downloader\">http://stackoverflow.com/questions/5843817/programmatically-install-nltk-corpora-models-i-e-without-the-gui-downloader</a>\n\n如果你只需完成本练习，那么只下载本练习涉及的数据库可以帮助你大量减少下载时间，可以参考这篇[论坛贴子](http://discussions.youdaxue.com/t/nltk-data/32776)。",
+              "user_state": {
+                "node_key": "3067968539",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "DxCwtkrYR-s",
+                  "china_cdn_id": "DxCwtkrYR-s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "从 NLTK 中获取停止词",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/rQ9HhBm4VOH0ioO0pl2Qdxyr0xWdICawbMCMAX9GL7N5IzbB86XW1klf-DMVhjg3K3AVB2gIG1u2vGe9FQ=s0#w=1435&h=801",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3067968539",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3057419003",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.2872895885286783,
+                      "y": 0.5381444013303769
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "R0RqC-yerD4",
+                  "china_cdn_id": "R0RqC-yerD4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177645,
+          "key": "28685385600923",
+          "title": "词干化以合并词汇",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28685385600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175621,
+              "key": "2868538560",
+              "title": "词干化以合并词汇",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "gBwGPI0srBE",
+                "china_cdn_id": "gBwGPI0srBE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177646,
+          "key": "28766485380923",
+          "title": "使用 NLTK 进行词干化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28766485380923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175622,
+              "key": "2876648538",
+              "title": "使用 NLTK 进行词干化",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "gWbkW_cyNs8",
+                "china_cdn_id": "gWbkW_cyNs8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177647,
+          "key": "28689985510923",
+          "title": "文本处理中的运算符顺序",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28689985510923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175623,
+              "key": "2868998551",
+              "title": "文本处理中的运算符顺序",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "如果理解起来很抽象，此处的示例也许能帮到你：\n\n假设我们正在讨论“responsibility is responsive to responsible people”这一段文字（这句话不合语法，但你知道我的意思……）\n\n如果你直接将这段文字放入词袋，你得到的就是：<br>\n[is:1 <br>\npeople: 1<br>\nresponsibility: 1<br>\nresponsive: 1<br>\nresponsible:1]<br>\n\n然后再运用词干化，你会得到 <br>\n[is:1<br>\npeople:1<br>\nrespon:1<br>\nrespon:1<br>\nrespon:1]<br>\n(如果你可以找到方法在 sklearn 中词干化计数向量器的对象，这种尝试最有可能的结果就是你的代码会崩溃……)\n\n那样，你就需要再进行一次后处理来得到以下词袋，如果你一开始就进行词干化，你就会直接获得这个词袋了：<br>\n[is:1 <br>\npeople:1<br>\nrespon:3]<br>\n\n显然，第二个词袋很可能是你想要的，所以在此处先进行词干化可使你获得正确的答案。",
+              "user_state": {
+                "node_key": "2868998551",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Fi3uuGj8bhs",
+                  "china_cdn_id": "Fi3uuGj8bhs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "文本处理中的运算符顺序",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/XvzDYCD-CVRfgDVSNGJWcAkFARC5ESbFe7i9sR9BhhpjxseSn8DjgHxAWlzPvRPQIWSwHzVeN0GCIqEKrMhu=s0#w=1436&h=803",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2868998551",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2992518635",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.24448644014962592,
+                      "y": 0.4785892461197339
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.24427213216957605,
+                      "y": 0.6528201219512195
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "qHk-FRWnYAo",
+                  "china_cdn_id": "qHk-FRWnYAo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177649,
+          "key": "28696885450923",
+          "title": "由词频确定的权重",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28696885450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175625,
+              "key": "2869688545",
+              "title": "由词频确定的权重",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "2869688545",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "t2Nq3MFK_pg",
+                  "china_cdn_id": "t2Nq3MFK_pg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "词频练习",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/xJH3s9aUiUYq71ABNH4OfgEgVR-cGhHvcEFei9WWLIQnAXrycNuWsME-3jLzSxyv7He5i7UGEKD89d4fxOw=s0#w=1434&h=802",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2869688545",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "2971368663",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.25944903366583544,
+                      "y": 0.8174889135254989
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5916264027431422,
+                      "y": 0.7903616962305987
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "pt_S3HwE5GY",
+                  "china_cdn_id": "pt_S3HwE5GY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177648,
+          "key": "28602785560923",
+          "title": "为何要向上加权少见单词",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28602785560923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175624,
+              "key": "2860278556",
+              "title": "为何要向上加权少见单词",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "xYQb6f1SIEk",
+                "china_cdn_id": "xYQb6f1SIEk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177650,
+          "key": "30085387290923",
+          "title": "文本学习迷你项目简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30085387290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175626,
+              "key": "3008538729",
+              "title": "文本学习迷你项目简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "GJviz-sIq9w",
+                "china_cdn_id": "GJviz-sIq9w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177651,
+          "key": "29500487050923",
+          "title": "文本学习迷你项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29500487050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175627,
+              "key": "2950048705",
+              "title": "文本学习迷你项目",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "本节课开始，你使用大量监督式分类算法，根据作者来识别邮件。 在这些项目中，我们为你做了预处理，将输入邮件转换到 TfIdf 中，这样你就能向算法提供这些邮件了。 现在，你将自行完成预处理工作，以便你能从原始数据直接得到经过处理的特征。\n\n你将得到两个文本文件：一个包含来自 Sara 的所有邮件，一个包含 Chris 的邮件。 你还将访问 <i>parseOutText()</i> 函数，该函数接受作为参数的已读邮件，并且返回包含邮件中所有（被词干化的）单词的字符串。",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177652,
+          "key": "30134686850923",
+          "title": "parseOutText() 热身",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30134686850923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175628,
+              "key": "3013468685",
+              "title": "parseOutText() 热身",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "提交提示：你得到的字符串中，单词之间有两个空格；确保你的答案也是如此！",
+              "user_state": {
+                "node_key": "3013468685",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "你将从热身习题开始了解 <i>parseOutText()</i>。 前往<i>工具</i>目录并运行 <i>parse_out_email_text.py</i>，该程序包含 parseOutText() 和一封测试邮件，用以运行此函数。\n\n<i>parseOutText()</i> 获得被打开的邮件，然后仅返回文字部分，除去了可能出现在邮件开头的元数据，接下来就是邮件正文了。 我们现在已经设置好了这一脚本，这样它就能将邮件正文打印到屏幕上，<b>你运行 parseOutText() 时会得到怎样的正文？</b>"
+              },
+              "question": {
+                "title": "Warm Up",
+                "alt_text": null,
+                "background_image": "//lh3.googleusercontent.com/UiHx05TMt8WF-QZ5OlCacu9r7A2-BnwDmmbkjqRh62wCM05sf3aiCd6JskEPEw0NxNMMWfzxngAXYn_WVA=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3013468685",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3028378607",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.4722838137472284,
+                      "width": 0.6546134663341646,
+                      "x": 0.09297069825436409,
+                      "y": 0.45416435698447893
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177653,
+          "key": "30101586820923",
+          "title": "部署词干化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30101586820923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175629,
+              "key": "3010158682",
+              "title": "部署词干化",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3010158682",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "在 parseOutText() 中，将下面语句变成注释：\n<br><br>\n`words = text_string`\n<br><br>\n增强 parseOutText()，这样返回的字符串就有了所有因使用 SnowballStemmer（使用 nltk 包，可在 http://www.nltk.org/howto/stem.html 找到我发现有用的一些示例）而获得的词干化单词。\n\n重新运行 parse_out_email_text.py，该程序将使用你更新的 parseOutText() 函数。你现在的输出是什么？\n\n提示：你需要将字符串分解成单个单词，词干化每个单词，然后再将所有单词重新组合成一个字符串。"
+              },
+              "question": {
+                "title": "部署词干化",
+                "alt_text": null,
+                "background_image": "//lh3.googleusercontent.com/qeVFhhKPBYEFfosb4fLVQlyxUut__XopyKVnTy7fwhHHbgesOcBFLsva_rHKky3lfh4vtxeUJemDLW1AaQ=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3010158682",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3006298726",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.42350332594235035,
+                      "width": 0.7182044887780549,
+                      "x": 0.09174329800498753,
+                      "y": 0.46195953436807097
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177654,
+          "key": "30112386710923",
+          "title": "清除“签名文字”",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30112386710923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175630,
+              "key": "3011238671",
+              "title": "清除“签名文字”",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "`vectorize_text.py` 可以在 text_learning 目录中找到。",
+              "user_state": {
+                "node_key": "3011238671",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "在 <i>vectorize_text.py</i> 中，你将迭代所有来自 Chris 和 Sara 的邮件。 将每封已读邮件提供给 <i>parseOutText()</i> 并返回词干化的文本字符串。然后做以下两件事：\n\n<li>删除签名文字（“sara”、“shackleton”、“chris”、“germani”——如果你知道为什么是“germani”而不是“germany”，你将获得加分）</li>\n<li>向 word_data 添加更新的文本字符串——如果邮件来自 Sara，向 from_data 添加 0（零），如果是 Chris 写的邮件，则添加 1。</li>\n\n完成此步骤后，你应该有两个列表：一个包含了每封邮件被词干化的正文，第二个应该包含用来编码（通过 0 或 1）谁是邮件作者的标签。\n\n对所有邮件运行程序需要花一些时间（5 分钟或更长时间），所以我们添加了一个 temp_counter，将第 200 封之后的邮件切割掉。 当然，一切就绪后，你会希望对整个数据集运行程序。\n\n<b>在以下方框中，放入你得到的 word_data[152] 字符串。</b>"
+              },
+              "question": {
+                "title": "Signature Scrubbing",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/CecDHs33umEki6SQ90UM-ys50_xyNKrCXAf-t4uVJklk4K2gj8JnR5Is-6v8n7OyRa60IXx1MjxUbWXxwo4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3011238671",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3002338759",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.3902439024390244,
+                      "width": 0.8216957605985037,
+                      "x": 0.09332138403990024,
+                      "y": 0.4491407982261641
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177656,
+          "key": "30024086340923",
+          "title": "进行 TfIdf",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30024086340923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175631,
+              "key": "3002408634",
+              "title": "进行 TfIdf",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "确保使用 tf-idf 向量器类来转换词数据。\n\n切记在你设置向量器时删除英文停止词。",
+              "user_state": {
+                "node_key": "3002408634",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "使用 sklearn TfIdf 转换将 word_data 转换为 tf-idf 矩阵。删除英文停止词。\n\n你可以使用 <i>get_feature_names()</i> 访问单词和特征数字之间的映射，该函数返回一个包含词汇表所有单词的列表。有多少不同的单词？"
+              },
+              "question": {
+                "title": "Count the Words",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/avzR--MK2FgSFbGz_7Cjv5FrQl3q75ibbu3zT9YbMdhQRX2cO6Hbxu2xbZkYc8SNCaMB11AdefmBqP-cQw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3002408634",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3014438788",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1,
+                      "width": 0.2,
+                      "x": 0.0937305174563591,
+                      "y": 0.4327189578713969
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177655,
+          "key": "30127386500923",
+          "title": "访问 TfIdf 特征",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30127386500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175632,
+              "key": "3012738650",
+              "title": "访问 TfIdf 特征",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3012738650",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "<b>你 TfId 中的单词编号 34597 是什么？</b>\n\n(需要说明的是，如果问题是“单词编号 100 是什么”，我们肯定会查找对应 vocab_list[100] 的单词。有时候，零索引数组谈论起来非常不好理解。)"
+              },
+              "question": {
+                "title": "Access the Features",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/s7uZi8p09knLgo-BHtMzPFka6srd3ZR8IMq-DGb0pvlG0SBXBu7vtp9XdhSmmdIayQAweytYmiQjW16fHVQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3012738650",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3004028719",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.4027431421446384,
+                      "x": 0.20731374688279303,
+                      "y": 0.5377979490022173
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}
