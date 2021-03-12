@@ -1,0 +1,876 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   平面文件结构
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          06. 平面文件结构
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="平面文件结构">
+          平面文件结构
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          平面文件结构
+         </p>
+        </h3>
+        <video controls="">
+         <source src="06. 平面文件结构-bLKVRIhrZUY.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="06. 平面文件结构-bLKVRIhrZUY.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="true" kind="subtitles" label="en" src="06. 平面文件结构-bLKVRIhrZUY.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="06. 平面文件结构-bLKVRIhrZUY.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="ar" src="06. 平面文件结构-bLKVRIhrZUY.ar.vtt" srclang="ar"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          平面文件包含明文格式的表格数据，每行一个数据记录，每个记录或行有一个或多个字段。这些字段由分隔符，如逗号、制表符或冒号分隔。
+         </p>
+         <p>
+          <strong>
+           平面文件
+          </strong>
+          的优点包括：
+         </p>
+         <ul>
+          <li>
+           属于文本文件，因此可以读取。
+          </li>
+          <li>
+           轻巧。
+          </li>
+          <li>
+           简单易懂。
+          </li>
+          <li>
+           可以读/写文本文件的软件随处可见，如文本编辑器。
+          </li>
+          <li>
+           特别适用于小型数据集。
+          </li>
+         </ul>
+         <p>
+          <strong>
+           平面文件的缺点
+          </strong>
+          ，例如与关系数据库相比，包括：
+         </p>
+         <ul>
+          <li>
+           缺乏标准。
+          </li>
+          <li>
+           数据冗余。
+          </li>
+          <li>
+           共享数据可能很麻烦。
+          </li>
+          <li>
+           不太适用于大型数据集（请在
+           <em>
+            更多信息
+           </em>
+           中单击 Cornell 链接，查阅
+           <em>
+            ”小数据集何时升级为大数据集？"
+           </em>
+           ）。
+          </li>
+         </ul>
+         <h2 id="练习">
+          练习
+         </h2>
+         <p>
+          下面的文件是平面文件吗？在下面的练习中，将“是”或“否”与每个文件编号搭配起来。
+         </p>
+         <h3 id="文件＃1：animalscsv">
+          文件＃1：animals.csv
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-09-26-10.21.06.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="文件-＃2：animalstsv">
+          文件 ＃2：animals.tsv
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-09-26-10.20.14.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="文件-＃3：animalstxt">
+          文件 ＃3：animals.txt
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-09-26-10.23.17.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="文件-＃4：animalstxt">
+          文件 ＃4：animals.txt
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-09-26-10.24.41.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          这些是平面文件吗？
+         </p>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           上面的文件是平面文件吗？
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           #1: animals.csv
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           #2: animals.tsv
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           #3 animals.txt
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           #4 animals.txt
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             文件
+            </p>
+           </th>
+           <th>
+            <p>
+             平面文件?
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             是
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             是
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             否
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             是
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             是
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             否
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             否
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             否
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              文件
+             </p>
+            </th>
+            <th>
+             <p>
+              平面文件?
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #1: animals.csv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #2: animals.tsv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #4 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #1: animals.csv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #2: animals.tsv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #4 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              否
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #3 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #1: animals.csv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #2: animals.tsv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #4 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #1: animals.csv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #2: animals.tsv
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              是
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #4 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              否
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #3 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              否
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #3 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              否
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               #3 animals.txt
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="更多信息">
+          更多信息
+         </h2>
+         <ul>
+          <li>
+           <a href="http://professor-excel.com/xml-zip-excel-file-structure/" target="_blank">
+            教授 Excel：XML 和 ZIP：浏览你的 Excel 工作簿文件结构
+           </a>
+          </li>
+          <li>
+           <a href="https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf" target="_blank">
+            Cornell：关系数据库 - 非父系平面文件
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="07. Python 中的平面文件.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. 平面文件结构')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

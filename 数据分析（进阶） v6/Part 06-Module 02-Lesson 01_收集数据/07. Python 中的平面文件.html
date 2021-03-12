@@ -1,0 +1,474 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Python 中的平面文件
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          07. Python 中的平面文件
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="python-中的平面文件">
+          Python 中的平面文件
+         </h2>
+         <p>
+          由于平面文件是可读的，你可以轻松编写自己的代码来解析或使用基本 Python 来理解这些文件。打开文件，逐行阅读文本，使用分隔符分隔每行内容，并将所有内容存储在你选择的数据结构中。但其他人在我们之前解决了这个问题，并创建了具有大量附加功能的库，尤其适用于数据整理、分析和可视化。
+         </p>
+         <p>
+          输入
+          <a href="http://pandas.pydata.org/" target="_blank">
+           pandas
+          </a>
+          。pandas 是目前 Python 中用于数据处理的标准和最佳方法。它几乎可以处理所有能想象到的文件类型，尤其适合表格数据。将逗号分隔的数据读入 DataFrame 的代码非常简单。
+         </p>
+         <pre><code class="python language-python">import pandas as pd
+df = pd.read_csv('bestofrt.csv')</code></pre>
+         <p>
+          但是我给你的文件是一个 TSV 文件，不过没关系，由于平面文件没有明确的标准，pandas 有一个主要的解析功能，就是
+          <code>
+           read_csv
+          </code>
+          。这是
+          <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html" target="_blank">
+           文档
+          </a>
+          链接。
+          <code>
+           read_csv
+          </code>
+          也可以解析 TSV 文件。只需要更改参数，就可以适合具体用例，例如更改分隔符参数 (
+          <em>
+           sep
+          </em>
+          )，或者是否引用条目等。
+         </p>
+         <h2 id="练习">
+          练习
+         </h2>
+         <p>
+          在下面的 Jupyter Notebook 中，将“前 100 部热门电影 TSV 文件” ('bestofrt.tsv')导入 pandas DataFrame。*提示：在
+          <code>
+           read_csv
+          </code>
+          文档中的 * sep * 参数中读取。*
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           jupyter
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          练习：导入平面文件
+         </p>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            在上面的 Jupyter Notebook 中运行代码，然后复制并粘贴
+            <code>
+             read_csv
+            </code>
+            语句，将 TSV 文件导入到以
+            <code>
+             df =
+            </code>
+            开头的 pandas DataFrame 中。
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Flat Files in Python
+         </p>
+        </h3>
+        <video controls="">
+         <source src="07. Flat Files in Python -cUmcLjWgxwM.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="07. Flat Files in Python -cUmcLjWgxwM.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="07. Flat Files in Python -cUmcLjWgxwM.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="07. Flat Files in Python -cUmcLjWgxwM.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="ar" src="07. Flat Files in Python -cUmcLjWgxwM.ar.vtt" srclang="ar"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          ## 更多信息
+         </p>
+         <ul>
+          <li>
+           <a href="https://pandas.pydata.org/pandas-docs/stable/api.html#flat-file" target="_blank">
+            pandas：平面文件功能
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="08. 资料来源：Web 数据抓取.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('07. Python 中的平面文件')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

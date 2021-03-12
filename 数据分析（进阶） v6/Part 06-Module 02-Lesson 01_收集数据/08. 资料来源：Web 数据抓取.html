@@ -1,0 +1,434 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   资料来源：Web 数据抓取
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          08. 资料来源：Web 数据抓取
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="资料来源：web-数据抓取">
+          资料来源：Web 数据抓取
+         </h2>
+         <h3 id="简介">
+          简介
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          资料来源：网页抓取
+         </p>
+        </h3>
+        <video controls="">
+         <source src="08. 资料来源：网页抓取-ZqTad6Usf9g.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="08. 资料来源：网页抓取-ZqTad6Usf9g.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="ar" src="08. 资料来源：网页抓取-ZqTad6Usf9g.ar.vtt" srclang="ar"/>
+         <track default="true" kind="subtitles" label="en" src="08. 资料来源：网页抓取-ZqTad6Usf9g.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="08. 资料来源：网页抓取-ZqTad6Usf9g.pt-BR.vtt" srclang="pt-BR"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <ul>
+          <li>
+           <a href="https://www.rottentomatoes.com/m/et_the_extraterrestrial" target="_blank">
+            Rotten Tomatoes: E.T. 外星人 (1982)
+           </a>
+          </li>
+          <li>
+           <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
+            Beautiful Soup
+           </a>
+          </li>
+         </ul>
+         <h3 id="保存-html">
+          保存 HTML
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Scraping Webpages
+         </p>
+        </h3>
+        <video controls="">
+         <source src="08. Scraping Webpages -bAeGbBBAIkE.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="08. Scraping Webpages -bAeGbBBAIkE.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="08. Scraping Webpages -bAeGbBBAIkE.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="ar" src="08. Scraping Webpages -bAeGbBBAIkE.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="08. Scraping Webpages -bAeGbBBAIkE.pt-BR.vtt" srclang="pt-BR"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          使用 HTML 文件的两个主要方法是：
+         </p>
+         <ul>
+          <li>
+           将 HTML 文件保存到计算机中（例如使用
+           <a href="http://docs.python-requests.org/en/master" target="_blank">
+            Requests
+           </a>
+           库），并将文件读入
+           <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
+            <code>
+             BeautifulSoup
+            </code>
+           </a>
+           构造函数中
+          </li>
+          <li>
+           将 HTML 响应内容直接读入
+           <code>
+            BeautifulSoup
+           </code>
+           构造函数（例如再次使用 Requests 库）
+          </li>
+         </ul>
+         <p>
+          我们一会儿将在“从互联网下载文件”中学习此请求代码在后台的运行原理。
+         </p>
+         <p>
+          在这节课中你不用执行这些操作。我已经下载了所有 Rotten Tomatoes HTML 文件，并将它们放在 Udacity 教室的 Jupyter notebook 中一个名为* rt_html
+          <em>
+           的文件夹里。如果你想在课程结束后操作，请下载
+           <a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b2b57c4_rt-html/rt-html.zip" target="_blank">
+            这个 zip 文件
+           </a>
+           ，并解压
+          </em>
+          rt_html *文件夹。我建议你在自己首选的文本编辑器（例如
+          <a href="https://www.sublimetext.com/" target="_blank">
+           Sublime
+          </a>
+          ，这应该是免费软件，可以打开 HTML 文件），查看此前练习的 HTML。
+         </p>
+         <p>
+          <em>
+           rt_html
+          </em>
+          文件夹包含前 100 部热门电影的 Rotten Tomatoes HTML 列表，这也是这节课最新更新的列表。我会给你提供这些历史文件，因为评分会随着时间的推移而改变，从而导致与录制的课程视频不一致。此外，我们知道网页的 HTML 也会随时间发生变化。重新设计网页时，抓取代码很容易被更改，这使得数据抓取容易出错，所以不推荐长期项目使用。所以只需使用提供给你们的这些 HTML 文件，并用上述任一方法保存它们。
+         </p>
+         <h3 id="更多信息">
+          更多信息
+         </h3>
+         <ul>
+          <li>
+           <a href="https://medium.com/towards-data-science/ethics-in-web-scraping-b96b18136f01" target="_blank">
+            面向数据科学：Web 抓取数据的伦理
+           </a>
+          </li>
+          <li>
+           <a href="https://twitter.com/venturidb/status/734757220525715456" target="_blank">
+            David Venturi：屏幕抓取是第一个让我对编程感兴趣的“神奇”功能
+           </a>
+           （注： 该页面需要 VPN 访问）
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="09. HTML 文件结构.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. 资料来源：Web 数据抓取')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
