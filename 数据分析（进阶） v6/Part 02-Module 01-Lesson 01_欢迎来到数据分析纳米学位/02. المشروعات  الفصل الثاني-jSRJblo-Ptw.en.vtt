@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:03.540
+In this term, you'll be working on projects to deepen
+
+00:00:03.540 --> 00:00:06.769
+your understanding of the data analysis process.
+
+00:00:06.769 --> 00:00:08.730
+The first project will have you analyzing data
+
+00:00:08.730 --> 00:00:11.065
+collected from people performing the Stroop task.
+
+00:00:11.064 --> 00:00:15.404
+A test of our ability to separate the visual and semantic content of words.
+
+00:00:15.404 --> 00:00:20.890
+We'll use statistics to explore psychological effects associated with this task.
+
+00:00:20.890 --> 00:00:23.250
+Most of the data you'll be working with in an actual job,
+
+00:00:23.250 --> 00:00:26.574
+will contain a bunch of errors and other general mess.
+
+00:00:26.574 --> 00:00:29.789
+In the second project, you'll gather data from a variety of sources,
+
+00:00:29.789 --> 00:00:32.609
+assess its quality untidiness and then clean it.
+
+00:00:32.609 --> 00:00:35.505
+We'll document your wrangling efforts in a Jupyter Notebook,
+
+00:00:35.505 --> 00:00:40.495
+analyze the cleaned up data and report your results through visualizations.
+
+00:00:40.494 --> 00:00:42.044
+The third project, you'll apply
+
+00:00:42.045 --> 00:00:46.715
+exploratory data analysis techniques to gain an understanding of a data set.
+
+00:00:46.715 --> 00:00:49.245
+You'll explore how variables are distributed,
+
+00:00:49.244 --> 00:00:53.789
+any relationships between variables and check for outliers and anomalies.
+
+00:00:53.789 --> 00:00:55.954
+Finally, for the fourth project,
+
+00:00:55.954 --> 00:00:58.969
+you'll use Tableau to create visualizations from a data set,
+
+00:00:58.969 --> 00:01:03.210
+that tells a story or highlights trends or patterns in the data.
+
+00:01:03.210 --> 00:01:06.109
+Your work should be a reflection of the theory and practice
+
+00:01:06.109 --> 00:01:08.998
+of data visualization such as visual encodings,
+
+00:01:08.998 --> 00:01:12.300
+design principles and effective communication.
+

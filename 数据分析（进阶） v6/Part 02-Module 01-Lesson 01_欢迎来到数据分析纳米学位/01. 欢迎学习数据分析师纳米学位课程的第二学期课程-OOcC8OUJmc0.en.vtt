@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.059
+Hi there. Welcome to the second term of the Data Analyst Nanodegree program.
+
+00:00:05.059 --> 00:00:07.365
+In the first term, we covered Python,
+
+00:00:07.365 --> 00:00:09.824
+a few frameworks such as NumPy and Pandas,
+
+00:00:09.824 --> 00:00:11.665
+getting data from databases with SQL,
+
+00:00:11.666 --> 00:00:14.240
+and making decisions using statistics.
+
+00:00:14.240 --> 00:00:17.660
+In this term, you'll learn about the data analysis process.
+
+00:00:17.660 --> 00:00:19.980
+You'll start by extracting and cleaning data,
+
+00:00:19.980 --> 00:00:22.410
+a test typically called data wrangling.
+
+00:00:22.410 --> 00:00:26.170
+This is where you'll spend the bulk of your time as a data analyst.
+
+00:00:26.170 --> 00:00:28.635
+Then you'll get experience exploring data.
+
+00:00:28.635 --> 00:00:29.980
+In this step of the process,
+
+00:00:29.980 --> 00:00:33.560
+you'll develop an understanding of the data by looking at distributions,
+
+00:00:33.560 --> 00:00:36.060
+summary statistics and correlations.
+
+00:00:36.060 --> 00:00:39.405
+Finally, you'll learn about visualizing data.
+
+00:00:39.405 --> 00:00:42.115
+This is where you share the results of your analysis.
+
+00:00:42.115 --> 00:00:44.579
+It's one of the most important skills to have as an analyst,
+
+00:00:44.579 --> 00:00:47.219
+communicating what you found with others.
+
+00:00:47.219 --> 00:00:48.924
+After completing this term,
+
+00:00:48.924 --> 00:00:51.989
+you'll have the skills necessary to be a data analyst.
+
+00:00:51.990 --> 00:00:55.050
+You'll also be prepared to continue on to more advanced topics,
+
+00:00:55.049 --> 00:00:58.000
+such as machine learning. Cheers.
+

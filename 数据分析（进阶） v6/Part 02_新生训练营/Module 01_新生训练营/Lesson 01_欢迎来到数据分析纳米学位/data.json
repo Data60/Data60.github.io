@@ -1,0 +1,246 @@
+{
+  "data": {
+    "lesson": {
+      "id": 628616,
+      "key": "3e7b4f0b-22f3-4ec9-8a72-4bb0fad41ff6",
+      "title": "欢迎来到数据分析纳米学位",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/3e7b4f0b-22f3-4ec9-8a72-4bb0fad41ff6/628616/1544185304674/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/3e7b4f0b-22f3-4ec9-8a72-4bb0fad41ff6/628616/1544185302044/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 432301,
+          "key": "8f02b865-fa9f-4456-bbb3-4bc262c4ec1d",
+          "title": "欢迎学习数据分析（进阶）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8f02b865-fa9f-4456-bbb3-4bc262c4ec1d",
+            "completed_at": "2019-02-20T04:22:18.591Z",
+            "last_viewed_at": "2019-03-02T03:39:09.473Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432268,
+              "key": "52e01098-34ca-4571-9f59-f2f7246e386f",
+              "title": "欢迎学习数据分析师纳米学位课程的第二学期课程",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OOcC8OUJmc0",
+                "china_cdn_id": "OOcC8OUJmc0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 628621,
+          "key": "8074dd74-0821-4bb8-84b7-3db8a7d57b82",
+          "title": "毕业必须通过的5个项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8074dd74-0821-4bb8-84b7-3db8a7d57b82",
+            "completed_at": "2019-02-20T04:23:00.471Z",
+            "last_viewed_at": "2019-03-09T00:31:20.390Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628622,
+              "key": "28cc4e2c-2c65-4a39-bd3f-a33d979663e5",
+              "title": "المشروعات  الفصل الثاني",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jSRJblo-Ptw",
+                "china_cdn_id": "jSRJblo-Ptw.mp4"
+              }
+            },
+            {
+              "id": 628623,
+              "key": "886e28ec-21cc-405b-88ce-1e5d06fbb1a3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "当你从纳米学位毕业的时候，你将掌握相关技能，并学会独立工作。我们希望尽快帮你实现目标，这也是为什么我们注重从**实践项目**中学习的原因。\n\n### 在数据分析（进阶）纳米学位中，你需要完成下面这些课程和内容：\n----\n\n\n- **第 1 部分：用 Python 进行简单数据分析（可试学）**\n\n复习和巩固如何使用 Python 进行数据分析的基本流程。\n\n- **实战项目：揭秘《冰与火之歌》战役制胜因素（可试学）**\n\n获得《权力的游戏》五大家族的战争数据，分析影响战争走势的因素，温习从提问到可视化结论的数据分析流程，并找到隐藏在文字中的战役制胜法宝。\n\n\n- **第 2 部分：使用统计学验证真实应用中的假设**\n\n复习巩固概率论、贝叶斯定理、描述统计学、假设检验基础，以及运用 Python 编写函数和调用 Python 库的能力。\n\n- **实战项目 2：验证经典心理学现象**\n\n使用描述性统计和假设检验，分析经典心理学实验“斯特鲁普效应”数据，提出你自己的假设，阐述你对数据的理解，并通过统计推论得出结论。\n\n- **第 3 部分：数据清洗**\n\n深入掌握如何从本地文件、API、互联网等不同来源收集数据，并进行有效清洗；使用 Pandas 评估数据，最后使用 Python 清洗和校验。\n\n- **实战项目 3：清洗和分析 5000 条狗狗评分 Twitter**\n\n你将获得超过 5000 条 Twitter 上人们对狗狗照片的评分数据，它们很“脏”，你需要用学到的技能，评估数据质量和整洁度，并进行清洗、分析和可视化，最终得出属于你自己的有趣结论！\n\n- **第 4 部分：探索性数据分析**\n\n了解什么是探索性数据分析，并从配置环境开始，逐步掌握用 R 实现探索性数据分析和可视化。最后你将与 Facebook 数据科学家 Solomon Messing 一起进行钻石价格分析实战，巩固学到的内容。\n\n- **实战项目 4：探索性分析葡萄酒品质、总统大选募资数据**\n\n使用 R 分析“什么物质在影响葡萄酒品质评分？”“总统候选人性别在如何影响他们获得的财政捐助”等真实问题，并得出属于你自己的结论。\n\n- **第 5 部分：数据可视化：用数据来讲故事**\n\n深入了解数据可视化的重要性，包括不同的数据类型编码方式：色彩、形状、大小等；熟练掌握 Tableau 基本功能，并学习创建仪表盘和故事，实现生动有力的数据可视化。\n\n- **实战项目 5：可视化摩拜单车用户行为中的数据故事**\n\n运用 Tableau，可视化摩拜单车上海用户行为数据中的故事和趋势。你将熟悉可视化理论和应用，还将学会如何利用视觉编码和美学参数实现令人难忘的沟通。还有更多真实前沿的数据集等你探索。\n\n-------\n\n\n\n你可以通过学习课程为实战项目做准备，但学完所有课程材料**并不是**毕业的必要条件，**完成课程中涉及的五个实战项目是毕业的必要条件**。如果你在上课前已经拥有丰富的经验，或有更适合你的材料，请你试着**直接**投入到实战项目中。然而大多数学生需要学习课程内容，并完成练习，从而能在项目中获得成功。\n\n为帮助你快速实现目标，我们为你的每个实战项目设置了建议完成日期，显示在教室中课程主页相关项目旁。此时间线的设计标准为每周大约投入 10 小时。**请在任何可能的时候回到教室继续学习**，即使只是 10 分钟，也能确保不断取得进步。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 628624,
+          "key": "5c4dd701-ce6f-47b3-bcf2-b09526144dae",
+          "title": "有效期与建议学习节奏",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c4dd701-ce6f-47b3-bcf2-b09526144dae",
+            "completed_at": "2019-02-20T04:23:31.611Z",
+            "last_viewed_at": "2019-03-09T00:31:21.874Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628625,
+              "key": "8df355f4-b471-4d94-ac8a-3dabb53b864d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\"数据分析（进阶）课程“ 计划** 三个月 **带你深入学习数据清洗、探索性分析和可视化进阶，使用 Python、R、SQL 和 Tableau，成为硅谷名企认证的专业数据分析师，用数据做出超前的商业决策。\n\n作为先修知识，你需要有用 SQL 和 Python 做数据分析的经验，对描述和推论统计有基本了解。如缺少先修知识，建议先加入[\"数据分析（入门）\"](https://cn.udacity.com/course/data-analyst-nanodegree--nd002-cn-basic-trial)课程，三个月一站式打好先修基础。\n\n为了便于你制定自己的学习计划，我们将课程的时间线根据项目情况进行了梳理，你可以结合自己的工作/生活/学习习惯制定更加精确的学习规划。我们建议你**每周至少学习10小时**，你可以根据自己的情况进行安排，譬如：周二、三、四各学习1.5小时，周末2天各学习3小时来达到最低学习时长的要求。\t\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 630880,
+              "key": "066d2f81-f3b0-4132-b45b-d8039a67400c",
+              "title": "Como encontro tempo para meu Nanodegree",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d-VfUw7wNEQ",
+                "china_cdn_id": "d-VfUw7wNEQ.mp4"
+              }
+            },
+            {
+              "id": 628628,
+              "key": "044a58d3-cead-44b9-83fa-87e855ba0069",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<img src=\"https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5b07ddc4_screen-shot-2018-05-25-at-5.55.48-pm/screen-shot-2018-05-25-at-5.55.48-pm.png\">\n\n**需要注意的是：**\n\n**1. 项目1“ 冰与火之歌：五王之战 ” 的学习安排：**\n\n你在试学班中已经接触过这个项目，如果你已经通过，那么项目同步为通过状态，无需再次提交；如果你没有通过，我们强烈建议你先跳过，因为相关内容在项目2-5中，我们的老师将更加细致地展开讲解，在你完成其他项目后，你会发现你可以很轻松地通过这个项目。\n\n**2. 学期结束时间 VS 建议完成时间：**\n\n你应该已经发现学期结束时间比建议完成时间更长，**多出的2周是为了帮助你更好地应对一些无法避免的突发状况，及时达成毕业**，获得自己专属的毕业证书。尽管如此，我们仍然鼓励你按照建议完成时间，甚至早于建议完成时间毕业。\n\n#### 记住，持续和频繁地学习是成功毕业的关键！",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 628629,
+          "key": "915c4036-751a-4411-b442-eb6d57c2109d",
+          "title": "学习支持与交流",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "915c4036-751a-4411-b442-eb6d57c2109d",
+            "completed_at": "2019-02-20T04:24:19.577Z",
+            "last_viewed_at": "2019-03-09T00:32:01.770Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628630,
+              "key": "ae8c4348-4f0b-4a9d-9189-79c0b5fadcb1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在本课程的学习过程中，我们将通过 `项目审阅`，`中文论坛` 以及 `学习交流社群` 来帮助你完成纳米学位。\n\n下面我们就来简单了解一下这些服务：\n\n#### 1、项目审阅服务\n\n在你提交项目后，我们将有**技术行家**来帮助你审阅提交的项目，为你提供细致到每行代码的审阅。 收到评审师反馈后，如果没有达到项目要求，你可以多次提交项目，让项目评审师提供指导，直到你达到项目要求。\n\n#### 2、中文论坛\n\n在优达学城，你**不是独自一人**学习。还有很多同样学习这门课程的同学，他们与你有着同样的目标。你可以前往优达论坛找到你的同学们，通过**有效地提问和参与讨论**，每一位同学（不论是现在还是将来）都将从你的发言中获益。\n\n优达学城的中文论坛地址是：[https://discussions.youdaxue.com/](https://discussions.youdaxue.com/)。**登陆优达账号后**，你会在论坛中**看到你加入的纳米学位的相应板块**。当你在学习过程中遇到问题，请**随时**前往论坛，看看是否已经有人提出过类似问题，提出你自己的问题，或是回答其他同学的问题。 优达学城导师、助教和很多你的同学都活跃在论坛，他们无比乐意为你提供帮助。[这个指南](http://discussions.youdaxue.com/t/topic/58)可以帮助你熟悉如何使用论坛，现在就去看看吧！\n\n#### 3、学习交流社群\n\n学习交流社群，是我们专门为本班同学提供的交流渠道。 本群仅面向本班同学，我们非常鼓励大家可以在交流群中，**一起探索问题**、**分享学习经验**，共同获得成长。#Better Together 不过，如果需要助教的直接帮助，还是请移步到论坛提问哦。\n\n`如果你希望加入本班交流群`，请认真填写 [ 本申请表 ](https://udacity.jinshuju.com/f/6C4Tvf) 获取入群链接。\n\n\n---\n#### 如果你期望获得更多服务？\n\n我们期待拥有强悍的学习能力和自律能力的你从本课程中顺利毕业。当然，如果你觉得自己需要更多服务支持，我们也很乐意为你提供这样的可能性。\n\n如果你希望获得`定制学习计划`、专业导师的`每日督学`和`及时答疑支持`、`业内专家一对一的面试辅导`、`项目复盘求职圆桌`等其他服务，你可在本课程开始的**7天内**，[ 填写本申请表 ](https://www.diaochapai.com/survey2798602)申请加入最近将开班的VIP课程。\n\n为保障辅导质量，我们每期只能提供有限的课程席位。每期VIP课程，我们仅预留**3席**用于转班，如申请人数超出限额，会根据申请顺序启动排队机制，感谢你的理解与配合。\"",
+              "instructor_notes": ""
+            },
+            {
+              "id": 675388,
+              "key": "dba631fc-0252-4d3d-b7f2-50f280ef29cd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b4c664e_dand-3/dand-3.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dba631fc-0252-4d3d-b7f2-50f280ef29cd",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 350,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 628607,
+          "key": "eba738a7-0d59-4a79-84e5-710e5651225b",
+          "title": "寻求帮助与建议反馈",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eba738a7-0d59-4a79-84e5-710e5651225b",
+            "completed_at": "2019-02-20T04:24:59.809Z",
+            "last_viewed_at": "2019-03-09T00:32:05.468Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628609,
+              "key": "bc325592-cf02-4a42-a870-fa42bf7b0826",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### 本地化服务说明\n为了带给中国同学更好的体验，优达学城（中国）的课程经理团队会针对中国学生特定的需求对课程进行一些本地化的修改，并会根据硅谷的最新课程内容定期对课程内容进行更新。所以在课程中可能会出现少数中英文并不完全一致的现象，请同学理解。\n\n如果同学在此期间有任何不佳的体验，请以**【数据分析课程中英文不一致】**为标题发邮件反馈给：support@youdaxue.com。\n\n本课程的学习服务由中国区学员关怀与体验团队提供，`建议学习时间、课程有效期以中文版为准`，英文材料供大家学习时参考。\n\n#### 常见问题\n关于优达学城所提供课程和服务的一般问题，请见[ 常见问题 ](https://udacity-cn.zendesk.com/hc/zh-cn) 解答页面。\n\n\n#### 发送邮件工单\n如果你遇到任何技术上的问题，或是对优达学城有**任何疑问和建议**，但是不确定要通过哪种渠道反馈，那么使用[ 邮件联系 ](https://udacity-cn.zendesk.com/hc/zh-cn/requests/new)优达学城的工作人员是最好的方式。\n\n点击发送邮件工单：[https://udacity-cn.zendesk.com/hc/zh-cn/requests/new](https://udacity-cn.zendesk.com/hc/zh-cn/requests/new)\n\n不要害羞，发邮件给我们吧！不论是什么问题，我们都乐意为您解答。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 195531,
+          "key": "ec8ec89f-b5d2-44ce-bba1-12a77922751e",
+          "title": "最后的提示",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec8ec89f-b5d2-44ce-bba1-12a77922751e",
+            "completed_at": "2018-11-14T10:48:04.341Z",
+            "last_viewed_at": "2019-03-09T00:32:06.620Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195532,
+              "key": "a65a0a69-c17a-44dc-998c-5317a302c224",
+              "title": "最后的提示",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1ZVBvM54hQw",
+                "china_cdn_id": "1ZVBvM54hQw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
