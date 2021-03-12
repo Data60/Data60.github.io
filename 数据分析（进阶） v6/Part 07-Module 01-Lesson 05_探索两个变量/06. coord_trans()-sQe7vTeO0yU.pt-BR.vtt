@@ -1,0 +1,36 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:03.320
+Agora, vamos fazer mais ajustes
+a nosso gráfico. Desta vez,
+
+00:00:03.320 --> 00:00:07.490
+vamos usar uma transformação no eixo y para alterarmos friend_count.
+
+00:00:07.490 --> 00:00:09.830
+Vamos fazer isso para que possamos ter uma visualização melhor
+
+00:00:09.830 --> 00:00:12.780
+dos dados. Vamos ver
+se você consegue resolver isso
+
+00:00:12.780 --> 00:00:15.800
+sozinho. Quero que você procure na documentação por "coord_trans"
+
+00:00:15.800 --> 00:00:18.840
+e adicione isso como uma camada a este gráfico. A função que você vai
+
+00:00:18.840 --> 00:00:22.510
+usar para transformar friend_count será a função de raiz quadrada. Veja
+
+00:00:22.510 --> 00:00:25.550
+se você consegue criar o gráfico e pense nas observações que surgiram,
+
+00:00:25.550 --> 00:00:29.090
+depois de criá-lo. Novamente, este aqui é um caso em que não demos
+
+00:00:29.090 --> 00:00:32.270
+todas as informações de antemão, mas acho que você resolverá isso sozinho.
+
