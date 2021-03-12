@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:01.980
+Para criar este gráfico vamos aproveitar muito
+
+00:00:01.980 --> 00:00:05.390
+do código anterior. Vamos passar tenure para nossa variável x
+
+00:00:05.390 --> 00:00:08.870
+e friendships iniciado dividido por tenure para
+
+00:00:08.870 --> 00:00:11.810
+nossa variável y e definir um subconjunto de nossa estrutura de dados, de forma que
+
+00:00:11.810 --> 00:00:14.050
+só vamos considerar os usuários que têm um tenure de
+
+00:00:14.050 --> 00:00:18.010
+pelo menos um dia. Vamos colorir nossa linha por year_joined.bucket e depois
+
+00:00:18.010 --> 00:00:21.790
+vamos plotar a média da variável y pela tenure. Dando
+
+00:00:21.790 --> 00:00:25.970
+uma olhada de forma mais atenta, parece que os usuários com mais posse, geralmente
+
+00:00:25.970 --> 00:00:27.720
+começam menos amizades.
+

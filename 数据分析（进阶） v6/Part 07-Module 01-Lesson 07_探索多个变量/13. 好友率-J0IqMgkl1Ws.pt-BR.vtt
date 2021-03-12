@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.320 --> 00:00:02.790
+Aqui, queremos um resumo da taxa de amigos. Podemos
+
+00:00:02.790 --> 00:00:05.250
+usar o comando with e o subconjunto de dados
+
+00:00:05.250 --> 00:00:07.840
+para considerar apenas os usuários com duração
+
+00:00:07.840 --> 00:00:11.410
+de pelo menos um dia. Queremos apenas um resumo do número de amigos
+
+00:00:11.410 --> 00:00:14.310
+dividido por duração, que resulta nos amigos por dia
+
+00:00:14.310 --> 00:00:17.350
+desde quando o usuário está ativo. Ao executar o código,
+
+00:00:17.350 --> 00:00:20.271
+vemos que a taxa média é de cerca de 0,22 e
+
+00:00:20.271 --> 00:00:24.850
+a máxima é de 417. Essa é uma exceção, considerando
+
+00:00:24.850 --> 00:00:29.015
+nossos dados, já que o terceiro quartil é de apenas 0,5.
+

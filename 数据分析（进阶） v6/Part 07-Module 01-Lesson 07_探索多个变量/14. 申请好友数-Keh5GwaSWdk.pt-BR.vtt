@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.320 --> 00:00:03.270
+Aprendemos ainda mais sobre a relação entre idade e contagem
+
+00:00:03.270 --> 00:00:06.620
+de amigos com o uso das variáveis de gênero
+
+00:00:06.620 --> 00:00:08.970
+e duração. Vimos que os usuários que estiveram
+
+00:00:08.970 --> 00:00:12.270
+no local por mais tempo, geralmente têm contagens de amigos mais altas
+
+00:00:12.270 --> 00:00:15.650
+entre as idades. Agora, isso me faz pensar se as solicitações de amizade
+
+00:00:15.650 --> 00:00:18.820
+são iguais ou diferentes entre os grupos. Os usuários novos
+
+00:00:18.820 --> 00:00:21.520
+aceitam solicitações aleatoriamente? Ou os usuários com mais
+
+00:00:21.520 --> 00:00:25.248
+tempo iniciam mais amizades? Vamos explorar isso com um gráfico.
+
+00:00:25.248 --> 00:00:26.781
+Quero que você crie um gráfico de
+
+00:00:26.781 --> 00:00:30.406
+linhas das amizades iniciadas por dia versus a duração.
+
+00:00:30.406 --> 00:00:32.506
+Você deve usar as variáveis
+
+00:00:32.506 --> 00:00:37.270
+age, tenure, friendships_initiated e year_joined.bucket. A cor
+
+00:00:37.270 --> 00:00:39.126
+de cada parte de sua linha única deve
+
+00:00:39.126 --> 00:00:42.410
+corresponder a cada categoria de year_joined. Você também
+
+00:00:42.410 --> 00:00:47.220
+deverá subdividir os dados em conjuntos para considerar apenas os usuários com, pelo menos, um dia de duração.
+

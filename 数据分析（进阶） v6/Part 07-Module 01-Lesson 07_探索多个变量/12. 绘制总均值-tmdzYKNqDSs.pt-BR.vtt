@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.120 --> 00:00:02.628
+Para plotar a média e estudar as medianas para cada um dos
+
+00:00:02.628 --> 00:00:06.330
+coortes, só precisamos mudar nosso parâmetro fun.y. Ele precisa ser
+
+00:00:06.330 --> 00:00:09.220
+a média, em vez disso. Para obter a média geral, adicionamos
+
+00:00:09.220 --> 00:00:12.470
+uma linha geom e definimos os parâmetros. Teremos um stat
+
+00:00:12.470 --> 00:00:16.020
+de summary. Definimos fun.y para equivaler à média e, depois,
+
+00:00:16.020 --> 00:00:19.530
+definimos o linetype igual a 2. Estou usando 2 para
+
+00:00:19.530 --> 00:00:21.730
+obter uma linha pontilhada, de modo que se destaque em
+
+00:00:21.730 --> 00:00:25.500
+comparação com estes outros. Plotar a média geral é bom para lembrar
+
+00:00:25.500 --> 00:00:30.550
+que grande parte dos dados na amostra é sobre membros de coortes recentes. Esse é
+
+00:00:30.550 --> 00:00:32.800
+o tipo de observação de mais alto nível que
+
+00:00:32.800 --> 00:00:34.360
+fazemos quando exploramos dados.
+

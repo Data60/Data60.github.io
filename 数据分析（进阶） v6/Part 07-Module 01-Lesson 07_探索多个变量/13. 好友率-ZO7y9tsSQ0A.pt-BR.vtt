@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.140 --> 00:00:03.510
+Como o padrão geral continua mantido depois de condicionar em
+
+00:00:03.510 --> 00:00:06.340
+cada uma das categorias de anos aderidos, podemos aumentar nossa
+
+00:00:06.340 --> 00:00:09.450
+confiança de que esta observação não é apenas um artefato do
+
+00:00:09.450 --> 00:00:12.570
+tempo que os usuários levaram para acumular amigos. Vamos examinar essa
+
+00:00:12.570 --> 00:00:16.170
+relação de outra maneira. Também podemos olhar para a duração
+
+00:00:16.170 --> 00:00:19.450
+e a contagem de amigos como uma taxa. Por exemplo, podemos
+
+00:00:19.450 --> 00:00:21.880
+ver quantos amigos um usuário tem para cada
+
+00:00:21.880 --> 00:00:25.190
+dia desde que começou a usar o serviço. Vamos ver se você
+
+00:00:25.190 --> 00:00:28.160
+consegue criar um resumo dessa taxa que mostre quantos amigos um usuário
+
+00:00:28.160 --> 00:00:32.680
+tem para cada dia desde que o usuário começou a usar o Facebook. Subdivida os dados para
+
+00:00:32.680 --> 00:00:36.530
+que você apenas considere usuários com pelo menos um dia de duração. Assim que você tiver
+
+00:00:36.530 --> 00:00:39.330
+esse resumo, responda estas duas perguntas. Qual é
+
+00:00:39.330 --> 00:00:41.900
+a taxa média? E qual é a taxa máxima?
+
