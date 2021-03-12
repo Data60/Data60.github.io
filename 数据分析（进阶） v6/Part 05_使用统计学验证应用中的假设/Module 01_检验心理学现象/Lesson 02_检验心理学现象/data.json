@@ -1,0 +1,152 @@
+{
+  "data": {
+    "lesson": {
+      "id": 628105,
+      "key": "a0345f2d-1137-4170-8cad-5d8983ba2fa9",
+      "title": "检验心理学现象",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": {
+        "key": "4582204201",
+        "version": "1.0.0",
+        "locale": "zh-cn",
+        "duration": 20160,
+        "semantic_type": "Project",
+        "title": "检验心理学现象",
+        "description": "使用描述统计学和统计检验分析斯特鲁普效应——一个实验心理学的经典成果。为读者提供直观的数据，并根据结果利用统计推断得出结论。\n\n## 评估\n\n获得可以回答之前页面上问题的文档后，请务必在提交报告前核对项目[评估准则](https://review.udacity.com/#!/rubrics/305/view)。只有在你的项目符合所有条件中的规格要求时，才会被评估为“符合规格要求”。如果存在使你不符合规格要求的类别，请务必修改报告，使其符合量规条件。\n\n## 提交\n\n准备好提交你的项目了吗？请准备好以下文件：\n\n* pdf 或 html 文档，包含能够回答之前页面上问题的答案。\n* 你在此次提交过程中参考或使用的网站、书籍、论坛、GitHub 库和其他资源（网络资源或非网络资源）的列表。该列表可以随附在答案文档的底部，或者放在单独的纯文本文件中。\n\n点击页面下方的“提交项目”，然后根据说明提交：\n\n* 如果你要通过“项目链接”提交文件，请将项目文件上传到 GitHub，然后将链接发送给我们。\n* 如果你要通过“上传文档”提交文件，请压缩项目目录，然后提交 zip 文件。在上传之前，我们建议将 zip 文件以及其内部文件的文件名改为 **英文** ，以尽可能避免上传过程中的问题发生。\n\n我们最多需要一周的时间来对项目进行评分，因此请随时检查是否有更新。\n\n如果你在项目提交上有任何问题，或者你希望查看提交状态，请发送电子邮件至 support@youdaxue.com\n\n**提醒：如果你选择上传文档，你需要用英文命名文档，文件名中若有中文字符，会导致提交失败。**\n\n项目资料下载\n\n[p1说明文件](https://github.com/ShiChJ/DAND-Basic-Materials/raw/master/P1/Project_Files/p1-instruction-zh.docx)\n\n[stroopdata.csv](https://raw.githubusercontent.com/ShiChJ/DAND-Basic-Materials/master/P1/Project_Files/stroopdata.csv)",
+        "is_public": true,
+        "summary": "Compute descriptive statistics and perform a statistical test on a data set based on a psychological phenomenon.",
+        "forum_path": "c/dand-p1",
+        "rubric_id": "305",
+        "terminal_project_id": "",
+        "resources": {
+          "files": [],
+          "google_plus_link": null,
+          "career_resource_center_link": null,
+          "coaching_appointments_link": null,
+          "office_hours_link": null,
+          "aws_provisioning_link": null
+        },
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 432346,
+          "key": "40089447-6ccc-4f75-a2ff-8181ae118764",
+          "title": "项目概述",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "40089447-6ccc-4f75-a2ff-8181ae118764",
+            "completed_at": "2019-02-21T02:07:36.885Z",
+            "last_viewed_at": "2019-03-10T03:49:38.068Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432326,
+              "key": "e04ae84a-86e2-477b-b18c-8608ca11af2e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59b790ed_stroop-test-2/stroop-test-2.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e04ae84a-86e2-477b-b18c-8608ca11af2e",
+              "caption": "",
+              "alt": "",
+              "width": 882,
+              "height": 515,
+              "instructor_notes": null
+            },
+            {
+              "id": 432325,
+              "key": "6973eee8-04d6-4c23-89e1-be2dddff1cfd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 项目概述\n\n在此项目中，你将研究一个经典的实验心理学现象，叫做<a href=\"https://en.wikipedia.org/wiki/Stroop_effect\" target=\"_blank\">斯特鲁普效应</a>。你将稍微了解该实验，创建关于任务结果的假设，并自己研究该任务。然后查看同样执行了该任务的其他人收集的数据，并计算描述结果的统计学数据。最后，你将用假设来解释你的结果。\n\n该项目需要用到 T 检验的知识，作为数据分析（进阶）的先修要求，我们假设你已经具备。如果你需要再次回顾这方面的内容，可以学习我们的[这门课程](https://classroom.udacity.com/courses/ud201)。\n\n## 为何要完成此项目？\n\n统计学是数据分析的重要组成部分，使你能够调查数据并根据观察的结果做出推断。掌握统计学基础还能看懂其他人执行的分析，并明白他人从调查中得出的结论。\n\n## 我将学到什么？\n\n此项目将涉及统计学的基本概念，包括：\n\n* 如何识别实验的组成部分\n* 如何使用描述统计学描述样本数量\n* 如何设置假设检验、通过样本做出推理，并根据结果得出结论\n\n## 为何该项目对我的职业发展来说很重要？\n\n使用统计学得出关于数据的有效结论是数据分析师的重要工作内容。熟练掌握统计学对于该纳米学位课程的后续部分来说也很必要。\n\n# 项目说明\n请遵守[这些说明](https://github.com/udacity/new-dand-advanced-china/blob/master/%E6%A3%80%E9%AA%8C%E5%BF%83%E7%90%86%E5%AD%A6%E7%8E%B0%E8%B1%A1/%E7%BB%9F%E8%AE%A1%E5%AD%A6%EF%BC%9A%E6%A3%80%E9%AA%8C%E5%BF%83%E7%90%86%E5%AD%A6%E7%8E%B0%E8%B1%A1.md)，并用 PDF 或 HTML 文档回答问题。这些文档格式与各种计算机和浏览器兼容，并能确保满足你的意图。如果你使用的是 Microsoft Word 或 LibreOffice 等 word 处理程序，确保将文档另存为 PDF 并在提交项目时包含该 PDF 文档。\n\n对于该项目，不需要安装特定的软件，但是建议你使用 Jupyter Notebook 和 Python 完成该项目。若你对 Jupyter Notebook 还不熟悉，可以学习 [这门课程](https://classroom.udacity.com/nanodegrees/nd002-cn-advanced/parts/25558a2b-eb7f-4e2d-9047-9220a5ccd155/modules/e95ca0b1-2716-4f45-bf4b-781653e885e5/lessons/c6a12f2e-63f2-4007-a2c3-dd3e5f06f3cb/concepts/4cdc5a26-1e54-4a69-8eb4-f15e37aaab7b)。\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432347,
+          "key": "3fe72f4d-df36-40b1-a7d9-2e07d5b4aea0",
+          "title": "项目工作区",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3fe72f4d-df36-40b1-a7d9-2e07d5b4aea0",
+            "completed_at": "2019-02-21T02:08:12.849Z",
+            "last_viewed_at": "2019-03-10T03:49:53.313Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 478602,
+              "key": "af780fa2-0b2b-422e-8644-1d0ed23cface",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view1c5a5022",
+              "pool_id": "jupyter",
+              "view_id": "1c5a5022-1cc5-4d97-b460-57b879d0353d",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Test+a+Perceptual+Phenomenon+zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 556556,
+          "key": "5af7f441-e5bd-4378-93cb-037c87bd2a7b",
+          "title": "关于抄袭的说明",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5af7f441-e5bd-4378-93cb-037c87bd2a7b",
+            "completed_at": "2019-02-21T02:08:14.638Z",
+            "last_viewed_at": "2019-03-10T03:55:50.738Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 556557,
+              "key": "c2370ca1-c524-4994-b662-9f6a60108b85",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**请花一点时间阅读优达学城代码诚信准则 (Udacity Honor Code)（无论你何时提交任何项目，都需要同意下列准则）**：\n \n> 我在此确认我提交的所有项目作业均由我个人独立完成。相应地， 如果我在项目中的部分代码片段参考了来自其他网站、书籍、论坛、博文、Github 代码库，或任何其它来源，我将正确地记录和标明出处，并解释使用它们的原因。如果未注明出处，我的项目将被优达学城官方判定为抄袭。可接受的资料来源包括：\n* 优达学城课程中的未修改或已修改代码\n* 来自具有出处的第三方来源的适量未修改或已修改代码\n* 注意：即便有出处来源，也不得引用任何其他优达学城学员项目作业中的任何内容 \n \n __请__不要复制其他学员作品中的任意内容。 我们会在权威系统中查出任何可疑之处，一经发现，我们会要求你重新完成并提交此项目，情节严重者可能会被移出纳米学位。 如果你在项目中途遇到困难，以下是一些在不违背“诚信准则”的前提下，寻找项目灵感的建议：\n\n* __首先__请查看相关文档和在线教程。\n* 如果你看过其他学员的作品（在 GitHub 上或任何其他地方），__请不要复制它__。 请不要采用或下载其中任一部分。 你可以阅读别人的作品，了解作品背后的思维过程。\n* 思考他人作品中的设计选择 - 不同决策背后的折衷点是什么？\n* 如果需要，请花时间思考一下，因为你需要清楚如何实现你的数据分析报告。 你必须编写自己的代码，并充分理解每一步的原理。多花时间思考对于你的原创作品而言非常重要。\n* 然后返回到你的代码，并在代码中实现__你自己__的想法。\n* 列出你参考过的任何资料，并准确注明来源和出处。\n\n这些建议将有助于你更好地了解如何查阅他人的作品，而不会涉嫌抄袭和剽窃。 在你的学习体验中，我们会全程相伴，帮助你取得学业上的成功。 ",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
