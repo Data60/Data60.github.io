@@ -1,0 +1,619 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   资料来源：API(应用程序编程接口)
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          15. 资料来源：API(应用程序编程接口)
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="资料来源：api应用程序编程接口">
+          资料来源：API(应用程序编程接口)
+         </h2>
+         <h3 id="简介">
+          简介
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          资料来源：API(应用程序编程接口)
+         </p>
+        </h3>
+        <video controls="">
+         <source src="15. 资料来源：API(应用程序编程接口)-1y_qjUMDsCw.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="15. 资料来源：API(应用程序编程接口)-1y_qjUMDsCw.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="true" kind="subtitles" label="en" src="15. 资料来源：API(应用程序编程接口)-1y_qjUMDsCw.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="15. 资料来源：API(应用程序编程接口)-1y_qjUMDsCw.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="ar" src="15. 资料来源：API(应用程序编程接口)-1y_qjUMDsCw.ar.vtt" srclang="ar"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="api-和访问库">
+          API 和访问库
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Source: APIs (Application Programming Interfaces) 2
+         </p>
+        </h3>
+        <video controls="">
+         <source src="15. Source APIs (Application Programming Interfaces) 2-tobH58uO24U.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="15. Source APIs (Application Programming Interfaces) 2-tobH58uO24U.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="15. Source APIs (Application Programming Interfaces) 2-tobH58uO24U.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="true" kind="subtitles" label="en" src="15. Source APIs (Application Programming Interfaces) 2-tobH58uO24U.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="ar" src="15. Source APIs (Application Programming Interfaces) 2-tobH58uO24U.ar.vtt" srclang="ar"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           MediaWiki API
+          </strong>
+         </p>
+         <p>
+          MediaWiki 的网站上有一个很好的
+          <a href="https://www.mediawiki.org/wiki/API:Main_page#A_simple_example" target="_blank">
+           tutorial
+          </a>
+          ，是关于他们的 API 调用是如何组织的。这是一个很好的简单例子，解释了各种移动部分：
+         </p>
+         <ul>
+          <li>
+           端点
+           <em>
+            （重要的经验：这个 URL 没有什么特别的）
+           </em>
+          </li>
+          <li>
+           格式
+          </li>
+          <li>
+           动作
+          </li>
+          <li>
+           特定动作的参数
+          </li>
+         </ul>
+         <p>
+          我们先来看看这个例子，然后继续回到Lesson。
+         </p>
+         <p>
+          看完了吗？好的！虽然他们说这是一个
+          <em>
+           简单的例子
+          </em>
+          ，但还有一种方法可以使它更简单！那就是访问库，也称为客户端库，甚至只是库（如
+          <strong>
+           Twitter API 库
+          </strong>
+          ），它们将发挥作用，使我们的生活更轻松。
+         </p>
+         <p>
+          <strong>
+           wptools 库
+          </strong>
+         </p>
+         <p>
+          MediaWiki 有一堆不同的访问库，可以满足当前的各种编程语言。这是 Python 的
+          <a href="https://www.mediawiki.org/wiki/API:Client_code#Python" target="_blank">
+           列表
+          </a>
+          。这对于大多数 API 都比较标准。一些库比其他库更好一点，但也是标准的。对于 MediaWiki，Python 中最新和可读的库是
+          <a href="https://github.com/siznax/wptools" target="_blank">
+           wptools
+          </a>
+          。Twitter 的类似关系是：
+         </p>
+         <ul>
+          <li>
+           MediaWiki API → wptools
+          </li>
+          <li>
+           Twitter API → tweepy
+          </li>
+         </ul>
+         <p>
+          <em>
+           wptools
+          </em>
+          使用
+          <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">
+           Mahatma Gandhi 维基百科页面
+          </a>
+          的 GitHub 页面上有一个更简单的教程，可作为示例使用。
+         </p>
+         <p>
+          如果要获取一个
+          <code>
+           page
+          </code>
+          对象，
+          <a href="https://github.com/siznax/wptools/wiki/Usage#page-usage" target="_blank">
+           使用
+          </a>
+          如下：
+         </p>
+         <pre><code class="python language-python">page = wptools.page('Mahatma_Gandhi')</code></pre>
+         <p>
+          其中
+          <em>
+           'Mahatma_Gandhi'
+          </em>
+          是这个
+          <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">
+           页面
+          </a>
+          上维基百科 URL 的最后一位。这个
+          <code>
+           page
+          </code>
+          对象的一些方法可以让我们获得有关维基百科页面的各种数据，包括页面上的所有图像。要获取所有数据：
+         </p>
+         <blockquote>
+          <p>
+           仅在页面上调用 get() 将通过 MediaWiki、Wikidata 和 RESTBase API 自动获取摘要、图像、信息数据、维基数据和其他元数据。
+          </p>
+         </blockquote>
+         <pre><code class="python language-python">page = wptools.page('Mahatma_Gandhi').get()</code></pre>
+         <p>
+          或者如果你已经将一个页面对象赋值给
+          <code>
+           page
+          </code>
+          ：
+         </p>
+         <pre><code class="python language-python">page.get()</code></pre>
+         <p>
+          <code>
+           page
+          </code>
+          现在具有以下属性，可通过
+          <code>
+           .data
+          </code>
+          使用点符号来访问：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-10-05-15.37.03.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          例如
+          <code>
+           page.data ['image']
+          </code>
+          ，将在这个特定维基百科页面上返回六个图像的数据列表。
+         </p>
+         <h3 id="练习">
+          练习
+         </h3>
+         <p>
+          在下面的 Jupyter Notebook 中，获取 ET The Extra-Terrestial 维基百科页面的页面对象。以下是
+          <a href="https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial" target="_blank">
+           ET 维基百科页面
+          </a>
+          ，供你参考。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           jupyter
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          练习：API
+         </p>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            让代码在上面的 Jupyter Notebook 中运行，然后将为 * wptools 页面对象
+            <em>
+             赋值的代码行复制并粘贴到电影 ET The Extra-Terrestrial 的变量
+            </em>
+            页面*，以
+            <code>
+             page =
+            </code>
+            开头。
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="16. JSON 文件结构.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('15. 资料来源：API(应用程序编程接口)')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
