@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.330 --> 00:00:02.960
+Este código deve ser bem familiar para você porque é o que
+
+00:00:02.960 --> 00:00:05.440
+vimos na lição três. Um dos primeiros gráficos
+
+00:00:05.440 --> 00:00:08.020
+que você criou foi um histograma. Então, vamos ver como este
+
+00:00:08.020 --> 00:00:10.100
+aqui fica. Podemos perceber imediatamente
+
+00:00:10.100 --> 00:00:12.820
+uma distinção importante nesta distribuição.
+
+00:00:12.820 --> 00:00:15.920
+Parece haver preços nos quais há muitas observações,
+
+00:00:15.920 --> 00:00:19.650
+mas nenhuma observação nos preços adjacentes. Isso faz sentido se
+
+00:00:19.650 --> 00:00:21.900
+os preços forem definidos de maneira a se aplicar
+
+00:00:21.900 --> 00:00:26.240
+a muitos dos clientes. Há algumas compras que envolvem preços muito mais baixos,
+
+00:00:26.240 --> 00:00:29.070
+e se estivermos interessados na sensibilidade dos preços,
+
+00:00:29.070 --> 00:00:32.140
+realmente precisamos considerar que tipo de variação há nesses preços. Agora,
+
+00:00:32.140 --> 00:00:34.090
+também quero que você observe que
+
+00:00:34.090 --> 00:00:37.720
+se escolhermos uma largura de compartimento diferente, podemos camuflar essa distinção. Digamos
+
+00:00:37.720 --> 00:00:40.720
+que eu escolha uma largura de banda igual da dez. Neste histograma,
+
+00:00:40.720 --> 00:00:43.740
+perderíamos a observação de alguns dos espaços vazios
+
+00:00:43.740 --> 00:00:46.400
+para os preços adjacentes. Então, não é nenhuma surpresa
+
+00:00:46.400 --> 00:00:50.550
+que estes dados muito distintos neste histograma sejam um modelo muito polarizado.
+

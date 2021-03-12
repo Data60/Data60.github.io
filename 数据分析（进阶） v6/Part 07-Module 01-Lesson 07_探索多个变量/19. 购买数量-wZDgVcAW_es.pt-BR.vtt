@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:02.990
+Há outras maneiras de termos notado esse importante recurso
+
+00:00:02.990 --> 00:00:06.300
+do conjunto de dados. Mas, também há outras formas que,
+
+00:00:06.300 --> 00:00:10.100
+ao pularmos para uma análise diferente, podemos ter perdido.
+
+00:00:10.100 --> 00:00:12.800
+Por exemplo, se analisarmos o resumo número cinco
+
+00:00:12.800 --> 00:00:16.120
+dos dados, podemos não notar isso facilmente. Uma
+
+00:00:16.120 --> 00:00:19.630
+dica para a descontinuidade é que o 75º percentil é
+
+00:00:19.630 --> 00:00:22.810
+igual ao máximo. Também podemos ver essa descontinuidade
+
+00:00:22.810 --> 00:00:26.180
+observando quantos preços distintos há no conjunto de dados.
+
+00:00:26.180 --> 00:00:29.360
+Parece que aqui há cerca de 20 preços diferentes.
+
+00:00:29.360 --> 00:00:32.119
+Colocando a variável na tabela, temos uma ideia da distribuição
+
+00:00:32.119 --> 00:00:34.650
+como vimos no histograma. Agora que sabemos
+
+00:00:34.650 --> 00:00:37.390
+algo sobre o preço, vamos calcular em uma determinada
+
+00:00:37.390 --> 00:00:40.760
+ocasião de compra, quantos iogurtes de 230 gramas há na compra
+
+00:00:40.760 --> 00:00:43.770
+de uma família. Para responder a isso, precisamos combinar contas dos
+
+00:00:43.770 --> 00:00:47.590
+diferentes sabores de iogurte em uma variável. Por exemplo, para
+
+00:00:47.590 --> 00:00:51.340
+esta família específica, em uma ocasião de compra, eles compraram três tipos
+
+00:00:51.340 --> 00:00:54.700
+diferentes de iogurte. Para entender isso em todas as famílias,
+
+00:00:54.700 --> 00:00:57.300
+precisamos usar uma nova função. A função
+
+00:00:57.300 --> 00:01:00.426
+é chamada de função de transformação. Ainda não apresentei essa função,
+
+00:01:00.426 --> 00:01:03.290
+mas quero procurar a função e executar
+
+00:01:03.290 --> 00:01:05.860
+os exemplos de código no fim da documentação
+
+00:01:05.860 --> 00:01:08.360
+para entender o que ela faz. Veja se você consegue criar
+
+00:01:08.360 --> 00:01:12.300
+uma nova variável chamada all.purchases, que nos dê o total das contagens de
+
+00:01:12.300 --> 00:01:16.410
+iogurte de observação ou compra de família. Lembre-se de que você
+
+00:01:16.410 --> 00:01:18.710
+precisa salvar essa variável na estrutura de dados,
+
+00:01:18.710 --> 00:01:21.150
+para que isso possa estar ou não em sua sintaxe.
+

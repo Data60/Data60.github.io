@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:02.380
+Agora que temos uma coluna extra, nossa variável e
+
+00:00:02.380 --> 00:00:05.520
+estrutura de dados, podemos criar um histograma.
+
+00:00:05.520 --> 00:00:09.070
+Esse histograma revela que a maioria das casa compra um ou dois
+
+00:00:09.070 --> 00:00:11.930
+iogurtes por vez. Para ver detalhes dos preços do
+
+00:00:11.930 --> 00:00:15.800
+iogurte e do comportamento doméstico, Vamos investigar o preço com o tempo
+
+00:00:15.800 --> 00:00:18.680
+mais detalhadamente. É aqui que nossos dados do Facebook foram
+
+00:00:18.680 --> 00:00:21.840
+deficientes. Neste conjunto de dados, podemos examinar as
+
+00:00:21.840 --> 00:00:25.730
+mudanças de preço, porque temos dados nas mesmas casas com o tempo.
+
+00:00:25.730 --> 00:00:27.440
+Agora, quero usar seu
+
+00:00:27.440 --> 00:00:30.260
+conhecimento de gráficos de dispersão e plotagem em excesso para
+
+00:00:30.260 --> 00:00:33.592
+criar uma visualização adequada. Sua visualização deve ser um
+
+00:00:33.592 --> 00:00:37.310
+gráfico de dispersão de preço vs tempo. Não há resposta
+
+00:00:37.310 --> 00:00:39.280
+correta. Apenas crie um gráfico
+
+00:00:39.280 --> 00:00:41.200
+razoável que permita a visualização dos
+
+00:00:41.200 --> 00:00:43.450
+dados. Você pode avaliar seu código e
+
+00:00:43.450 --> 00:00:45.820
+gráfico com o que fizemos no vídeo de solução.
+

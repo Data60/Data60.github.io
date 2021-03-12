@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:02.700
+Gostaria de começar verificando a estrutura
+
+00:00:02.700 --> 00:00:05.100
+e o resumo do conjunto de dados da Yerger definidos em seu próprio
+
+00:00:05.100 --> 00:00:08.490
+computador. Você pode pausar o vídeo agora para ter
+
+00:00:08.490 --> 00:00:10.920
+tempo para carregar o conjunto de dados e baixá-lo
+
+00:00:10.920 --> 00:00:14.710
+primeiro nas notas do instrutor. Este conjunto de dados da Yerger contém mais de
+
+00:00:14.710 --> 00:00:17.190
+2000 observações. Para nove variáveis
+
+00:00:17.190 --> 00:00:20.050
+diferentes. As observações são para famílias
+
+00:00:20.050 --> 00:00:23.070
+que compraram iogurte Dannon ao longo do tempo. Agora uma coisa que você
+
+00:00:23.070 --> 00:00:26.038
+pode observar é que a maioria das variáveis aqui são inteiros.
+
+00:00:26.038 --> 00:00:29.110
+Mas quero converter uma das variáveis em um fator e
+
+00:00:29.110 --> 00:00:32.540
+essa é a variável do ID. Veremos como isso pode ser útil, posteriormente
+
+00:00:32.540 --> 00:00:36.060
+no curso. Mas basta certificar-se de que é informado o fator certo aqui
+
+00:00:36.060 --> 00:00:39.396
+em seu conjunto de dados também. Se o ID não informar o fator para
+
+00:00:39.396 --> 00:00:42.405
+o tipo de variável, certifique-se de executar este comando
+
+00:00:42.405 --> 00:00:45.450
+para alterar o ID para uma variável fator. Depois que você tiver feito tudo isso,
+
+00:00:45.450 --> 00:00:48.840
+quero criar um histograma de preços do iogurte. Copie
+
+00:00:48.840 --> 00:00:51.410
+e cole seu código R para o trecho R da tela
+
+00:00:51.410 --> 00:00:53.960
+de teste que aparece aqui. E depois escreva
+
+00:00:53.960 --> 00:00:56.420
+algumas frases sobre o que você observou. Dessa forma,
+
+00:00:56.420 --> 00:00:58.100
+podemos ficar consistentes com o que trabalhamos no
+
+00:00:58.100 --> 00:01:00.080
+conjunto de dados. Quero que você certifique-se de
+
+00:01:00.080 --> 00:01:02.030
+ler o conjunto de dados para a variável chamada
+
+00:01:02.030 --> 00:01:04.980
+Yo. Claro que você pode usar outros nomes de variáveis.
+
+00:01:04.980 --> 00:01:07.540
+Mas nosso graduador automático somente aceitará respostas para
+
+00:01:07.540 --> 00:01:10.820
+atribuições de programação que têm esta estrutura de dados rotulada como Yo.
+

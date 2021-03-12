@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:02.370
+Para esta atribuição de programação, você precisou criar a variável
+
+00:00:02.370 --> 00:00:05.060
+all purchases e atribuí-la à estrutura de dados
+
+00:00:05.060 --> 00:00:08.420
+yo. A função transform aceita uma estrutura de dados e
+
+00:00:08.420 --> 00:00:11.200
+permite que adicionemos diferentes variáveis nela recombinando
+
+00:00:11.200 --> 00:00:13.750
+variáveis que já estão na estrutura de dados. Aqui,
+
+00:00:13.750 --> 00:00:16.570
+criaremos a variável all.purchases e a definiremos
+
+00:00:16.570 --> 00:00:18.320
+igual à soma de todos os sabores de iogurte
+
+00:00:18.320 --> 00:00:25.350
+flavors strawberry, blueberry, pina colda, plain e mixed berry. Ao
+
+00:00:25.350 --> 00:00:27.720
+executar o código, posso ver que meu número de variáveis
+
+00:00:27.720 --> 00:00:30.620
+mudou. Para garantir, também posso imprimir um
+
+00:00:30.620 --> 00:00:34.270
+resumo dessa variável. Você também poderia ter usado este código. Este
+
+00:00:34.270 --> 00:00:37.090
+código está bom, apenas mais prolixo do que precisamos.
+
