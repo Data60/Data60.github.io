@@ -1,0 +1,452 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   条件均值
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      探索两个变量
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 欢迎！.html">
+       01. 欢迎！
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 散点图和设想的受众规模.html">
+       02. 散点图和设想的受众规模
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 散点图.html">
+       03. 散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="04. ggplot 语法.html">
+       04. ggplot 语法
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 过度绘制.html">
+       05. 过度绘制
+      </a>
+     </li>
+     <li class="">
+      <a href="06. coord_trans().html">
+       06. coord_trans()
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Alpha 和 Jitter.html">
+       07. Alpha 和 Jitter
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 过度绘制和领域知识.html">
+       08. 过度绘制和领域知识
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 条件均值.html">
+       09. 条件均值
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 将摘要与原始数据叠加.html">
+       10. 将摘要与原始数据叠加
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Moira：直方图摘要与散点图.html">
+       11. Moira：直方图摘要与散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 相关性.html">
+       12. 相关性
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 子集相关性.html">
+       13. 子集相关性
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 相关分析法.html">
+       14. 相关分析法
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 创建散点图.html">
+       15. 创建散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 强相关.html">
+       16. 强相关
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Moira 对于相关的研究.html">
+       17. Moira 对于相关的研究
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 相关系数的更多注意事项.html">
+       18. 相关系数的更多注意事项
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 噪声散点图.html">
+       19. 噪声散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 理解数据.html">
+       20. 理解数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 一个新的视角.html">
+       21. 一个新的视角
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 了解噪声：年龄到月龄.html">
+       22. 了解噪声：年龄到月龄
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 带有月均值的年龄.html">
+       23. 带有月均值的年龄
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 条件均值中的噪声.html">
+       24. 条件均值中的噪声
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 平滑化条件均值.html">
+       25. 平滑化条件均值
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 该选哪个图形？.html">
+       26. 该选哪个图形？
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 分析两个变量.html">
+       27. 分析两个变量
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          09. 条件均值
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          条件均值
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="09. 条件均值-FC_GNjqj5zI.mp4" type="video/mp4"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="09. 条件均值-FC_GNjqj5zI.pt-BR.vtt" srclang="pt-BR"/>
+           <track default="true" kind="subtitles" label="en" src="09. 条件均值-FC_GNjqj5zI.en.vtt" srclang="en"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="09. 条件均值-FC_GNjqj5zI.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="false" kind="subtitles" label="ar" src="09. 条件均值-FC_GNjqj5zI.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="ja" src="09. 条件均值-FC_GNjqj5zI.ja.vtt" srclang="ja"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div class="nav nav-tabs nav-fill" id="question-tabs" role="tablist">
+           <a aria-controls="175206-conditionalMeans-r" aria-selected="true" class="nav-item nav-link active show" data-toggle="tab" href="#175206-conditionalMeans-r" id="tab-175206-conditionalMeans-r" role="tab">
+            conditionalMeans.r
+           </a>
+          </div>
+          <div class="tab-content" id="question-tab-contents" style="padding: 20px 0;">
+           <div aria-labelledby="tab-175206-conditionalMeans-r" class="tab-pane active show" id="175206-conditionalMeans-r" role="tabpanel">
+            <pre><code></code># This programming assignment
+# will not be graded, but when you
+# submit your code, the assignment
+# will be marked as correct. By submitting
+# your code, we can add to the feedback
+# messages and address common mistakes
+# in the Instructor Notes.
+
+# You can assess your work by watching
+# the solution video.
+
+
+# Plot mean friend count vs. age using a line graph.
+# Be sure you use the correct variable names
+# and the correct data frame. You should be working
+# with the new data frame created from the dplyr
+# functions. The data frame is called 'pf.fc_by_age'.
+
+# Use geom_line() rather than geom_point to create
+# the plot. You can look up the documentation for
+# geom_line() to see what it does.
+
+# ENTER ALL OF YOUR CODE TO CREATE THE PLOT BELOW THIS LINE.
+# ===========================================================
+</pre>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="09. 条件均值-8oM8KjsntG8.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="09. 条件均值-8oM8KjsntG8.zh-CN.vtt" srclang="zh-CN"/>
+             <track default="false" kind="subtitles" label="ja" src="09. 条件均值-8oM8KjsntG8.ja.vtt" srclang="ja"/>
+             <track default="true" kind="subtitles" label="en-US" src="09. 条件均值-8oM8KjsntG8.en-US.vtt" srclang="en-US"/>
+             <track default="false" kind="subtitles" label="ar" src="09. 条件均值-8oM8KjsntG8.ar.vtt" srclang="ar"/>
+             <track default="true" kind="subtitles" label="en" src="09. 条件均值-8oM8KjsntG8.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="09. 条件均值-8oM8KjsntG8.pt-BR.vtt" srclang="pt-BR"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+        <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+         <h3>
+          INSTRUCTOR NOTE:
+         </h3>
+         <p>
+          重要事项！请注意，在较新版本的 dplyr (0.3.x+) 中，语法 %.% 已被弃用且替换为 %&gt;%。
+         </p>
+         <p>
+          另一警告：0.4.0 版本的 dplyr 在汇总层上使用中间值函数时有一个错误，具体取决于被汇总的数据性质。在本地计算机上使用该包时，你可能需要将数据转换为数值型（浮点型），比如：
+          <code>
+           median(as.numeric(var))
+          </code>
+          。
+         </p>
+         <p>
+          了解更多关于
+          <a href="http://blog.rstudio.org/2014/01/17/introducing-dplyr/" target="_blank">
+           dplyr 包
+          </a>
+          的信息。
+         </p>
+         <p>
+          <a href="http://rstudio-pubs-static.s3.amazonaws.com/11068_8bc42d6df61341b2bed45e9a9a3bf9f4.html" target="_blank">
+           dplyr 简介
+          </a>
+          （HTML 文件）
+         </p>
+         <p>
+          以下教程由 Hadley Wickham 于 2014 年在 useR 公布。
+         </p>
+         <ul>
+          <li>
+           <a href="http://www.r-bloggers.com/hadley-wickham-presents-dplyr-at-user-2014/" target="_blank">
+            dplyr 简介
+           </a>
+          </li>
+          <li>
+           <a href="http://www.r-bloggers.com/hadley-wickhams-dplyr-tutorial-at-user-2014-part-1/" target="_blank">
+            dplyr 教程（第 1 部分）
+           </a>
+          </li>
+          <li>
+           <a href="http://www.r-bloggers.com/hadley-wickhams-dplyr-tutorial-at-user-2014-part-2/" target="_blank">
+            dplyr 教程（第 2 部分）
+           </a>
+          </li>
+         </ul>
+         <p>
+          还有其他方法可以在不使用 dplyr 包的情况下处理数据和创建新的数据框。在这篇
+          <a href="http://rollingyours.wordpress.com/2014/10/20/the-lapply-command-101/" target="_blank">
+           博客文章
+          </a>
+          中了解 R 函数
+          <code>
+           lapply
+          </code>
+          、
+          <code>
+           tapply
+          </code>
+          和
+          <code>
+           split
+          </code>
+          。
+         </p>
+         <p>
+          <a href="http://docs.ggplot2.org/current/geom_line.html" target="_blank">
+           http://docs.ggplot2.org/current/geom_line.html
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="10. 将摘要与原始数据叠加.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('09. 条件均值')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
