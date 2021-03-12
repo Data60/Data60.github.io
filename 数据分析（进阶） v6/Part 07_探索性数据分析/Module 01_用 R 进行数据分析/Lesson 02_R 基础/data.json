@@ -1,0 +1,1261 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178251,
+      "key": "729069797",
+      "title": "R 基础",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "安装 RStudio 和拓展包，学习 R 的基本命令，练习编写简单 R 脚本，以及开始检查数据集。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/729069797/178251/1516957585457/R%20%E5%9F%BA%E7%A1%80%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/729069797/178251/1516957544098/R%20%E5%9F%BA%E7%A1%80%20Subtitles.zip"
+          },
+          {
+            "name": "Lesson 2 Notes.pdf",
+            "uri": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/July/597ea62a_lesson-2-notes/lesson-2-notes.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177347,
+          "key": "67895107720923",
+          "title": "用于数据可视化的 R",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67895107720923",
+            "completed_at": "2019-03-10T04:23:27.888Z",
+            "last_viewed_at": "2019-03-10T04:23:43.061Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175130,
+              "key": "6789510772",
+              "title": "用于数据可视化的 R",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "学员们可通过本节课了解如何下载和开始使用“R”编程语言。",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177350,
+          "key": "8041293050923",
+          "title": "R 的力量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175131,
+              "key": "804129305",
+              "title": "R 的能力",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://blog.revolutionanalytics.com/2013/08/foodborne-chicago.html\" target=\"_blank\">Foodbourne Chicago 利用推文查找有问题的餐厅</a>\n\n<a href=\"https://community.alteryx.com/t5/Data-Science-Blog/ROC-Curves-in-Python-and-R/ba-p/138430\" target=\"_blank\">二元分类器的敏感度、特异性和 ROC 曲线</a> (这篇文章较为专业，重点关注 TPR 和 FPR).\n\n<a href=\"http://en.wikipedia.org/wiki/Twitter\" target=\"_blank\">什么是一个推文？</a>\n\n在 Wikipedia 上了解什么是 <a href=\"http://en.wikipedia.org/wiki/GitHub\" target=\"_blank\">Github</a>。\n\n试试 <a href=\"https://github.com/\" target=\"_blank\">GitHub</a>，为开源项目出一份力。",
+              "user_state": {
+                "node_key": "804129305",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5zoL8YdM6sI",
+                  "china_cdn_id": "5zoL8YdM6sI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "R 的能力",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/1nC9elm8KiX3TwiXJnu1SmM_7WxnYu_xi3gXl-1x8lF37yIMY1uaj9ZyPdHg-v4G_uLEnlo15Gd0RgK3RQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/804129305",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "804129307",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0975609756097561,
+                      "width": 0.25311720698254364,
+                      "x": 0.38250077930174564,
+                      "y": 0.164079822616408
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.08104738154613467,
+                      "x": 0.5106179862842892,
+                      "y": 0.46001940133037694
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.08229426433915212,
+                      "x": 0.6460216645885287,
+                      "y": 0.4575249445676275
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.24168514412416853,
+                      "width": 0.8740648379052369,
+                      "x": 0.10532030401737243,
+                      "y": 0.7084942084942085
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Ca0MWoH_ZMY",
+                  "china_cdn_id": "Ca0MWoH_ZMY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177351,
+          "key": "8041293090923",
+          "title": "为什么使用 R",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293090923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175132,
+              "key": "804129309",
+              "title": "为什么使用 R",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "要安装 ggplot2 和 RColorBrewer，你可以在 RStudio 中运行以下代码：\n<br>\n`install.packages('ggplot2', dependencies = TRUE)`\n<br>\n`library(ggplot2)`\n<br>\n`install.packages('RColorBrewer', dependencies = TRUE)`\n<br>\n`library(RColorBrewer)`\n<br>",
+              "video": {
+                "youtube_id": "VlJnNSeO1uQ",
+                "china_cdn_id": "VlJnNSeO1uQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177352,
+          "key": "8663999930923",
+          "title": "使用 Windows 系统？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8663999930923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175133,
+              "key": "866399993",
+              "title": "使用 Windows 系统？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 你在参加此课程时是否使用 Windows 操作系统？",
+              "user_state": {
+                "node_key": "866399993",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "使用 Windows 系统？",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/AkfdkSob2Cd7v25-uiYp0I4rNRvlHnnREEjqftJoi7XsTnvpjjAvLSyhYy4WnAjJ6dKKzCx9kQQLE2XklCSO=s0#w=1343&h=817",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/866399993",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "870048987",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3573488154613466,
+                      "y": 0.4201080931263858
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5717152431421446,
+                      "y": 0.4190340909090909
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177354,
+          "key": "8628710190923",
+          "title": "在 Windows 上安装 RStudio",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8628710190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175134,
+              "key": "862871019",
+              "title": "在 Windows 上安装 RStudio",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "**首先**，你需要访问 <a href=\"http://cran.rstudio.com\" target=\"_blank\">http://cran.rstudio.com</a>，下载并安装 R 编程语言。\n\n安装完成 R 后，你可以从 <a href=\"http://www.rstudio.com/\" target=\"_blank\">http://www.rstudio.com</a> 下载并安装 RStudio。",
+              "video": {
+                "youtube_id": "5ZbjUEg4a1g",
+                "china_cdn_id": "5ZbjUEg4a1g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177353,
+          "key": "8041293100923",
+          "title": "在 Mac 上安装 RStudio",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293100923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175135,
+              "key": "804129310",
+              "title": "在 Mac 上安装 RStudio",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "**首先**，你需要访问 <a href=\"http://cran.rstudio.com\" target=\"_blank\">http://cran.rstudio.com</a>，下载并安装 R 编程语言。\n\n安装完成 R 后，你可以从 <a href=\"http://www.rstudio.com/\" target=\"_blank\">http://www.rstudio.com</a> 下载并安装 RStudio。\n\n如果你在安装 RStudio 时遇到困难，请先在 Google 上搜索问题，以获得帮助。之后，我们建议你发布一个讨论帖，尽可能具体地描述你的问题，并且附上你的操作系统的当前版本。\n\n我们不建议使用 Homebrew 或 MacPorts 安装 R 和 RStudio。",
+              "video": {
+                "youtube_id": "buCEFFuLpYo",
+                "china_cdn_id": "buCEFFuLpYo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177355,
+          "key": "8781402490923",
+          "title": "准备好探索数据了吗？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8781402490923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175136,
+              "key": "878140249",
+              "title": "准备好探索数据了吗？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "你是否安装了 R 和 RStudio？",
+              "user_state": {
+                "node_key": "878140249",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "准备好探索数据了吗？",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/L0p9rQNHrb8m39dMseo9mn9uo0YyjX3J_I2rpxj4hOS8jq-Bpk3qESwIqKm_Ln6lVOUxRSHsDDesMizkdpc=s0#w=1344&h=814",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/878140249",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "875339076",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2577150872817955,
+                      "y": 0.2832940687361419
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.4729192643391521,
+                      "y": 0.2834672949002217
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.35920177383592017,
+                      "width": 0.7369077306733167,
+                      "x": 0.07600434310532031,
+                      "y": 0.6021505376344086
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177356,
+          "key": "8041293110923",
+          "title": "RStudio 布局",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175137,
+              "key": "804129311",
+              "title": "RStudio 布局",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "所有四个面板均可配置。讨论的布局是 RStudio 的默认布局。你可以前往“工具 -> 选项”更改默认布局……\n\n这个练习假定你使用默认布局。\n\n<a href=\"http://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html?null\" target=\"_blank\">R 初学者指南：简介</a>（作者：Sharon Machlis）\n\n<a href=\"http://dss.princeton.edu/training/RStudio101.pdf\" target=\"_blank\">R 布局快速指南</a>（作者：Oscar Torres-Reyna）。\n\n说明：“清理工作空间（Clear the workspace）”的意思是从当前的工作存储器中删除所有变量。",
+              "user_state": {
+                "node_key": "804129311",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "FDSmlIBy7ko",
+                  "china_cdn_id": "FDSmlIBy7ko.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "RStudio 布局",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/-2GkX6cPEhEZ8segz1rt72nsMaTU2iwG-vquNLNE4qd4SW5isc8XeG2X3aqk8vUShmKhzACAW-4HJg7sQYo=s0#w=1920&h=1076",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/804129311",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "805108698",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.04488778054862843,
+                      "x": 0.017592736907730673,
+                      "y": 0.6105182926829268
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.04239401496259352,
+                      "x": 0.01891754987531172,
+                      "y": 0.7605321507760532
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.04239401496259352,
+                      "x": 0.01942409600997506,
+                      "y": 0.8802314301552107
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.0399002493765586,
+                      "x": 0.4530860349127182,
+                      "y": 0.45863359201773835
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.04114713216957606,
+                      "x": 0.4522872506234414,
+                      "y": 0.5760462860310421
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.0399002493765586,
+                      "x": 0.45347568578553615,
+                      "y": 0.7006651884700665
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric7",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.046134663341645885,
+                      "x": 0.4504948566084788,
+                      "y": 0.8203991130820399
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "LcHWlS84sao",
+                  "china_cdn_id": "LcHWlS84sao.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177357,
+          "key": "8041293140923",
+          "title": "揭秘 R",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293140923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175138,
+              "key": "804129314",
+              "title": "揭秘 R",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "   下载讲师注释中的文件，并在 RStudio 中打开它。在阅读文件的过程中，按系统提示阅读和编写代码。读到文件末尾时，回答下面的问题。\n   Mtcars 数据集中所有车的平均 mpg（每加仑英里数）是多少？\n\n我们建议所有 R 和 RStudio 的初学者尝试 **Swirl**（运用交互式 R 学习的统计学）。Swirl 是针对 R 统计编程语言的软件包，目的在于以交互方式教授统计学和 R 命令。\n\n在控制台中输入以下命令，在每一行之后按 Enter 或 Return 键：\n<br>\n`install.packages(\"swirl\")`\n<br>\n`library(swirl)`\n<br>\n`swirl()`\n\n注意：每一行开头的 `>` 符号是 R 的提示符，提示你向控制台中输入信息。我们在此处提及这一点，是想告诉你以上的命令只能在控制台中输入。你输入的部分从 `>` 之后开始。\n<br>\n<br>\n<br>\n下载 [EDA 课程教材压缩文件](https://github.com/udacity/new-dand-advanced-china/raw/master/%E6%8E%A2%E7%B4%A2%E6%80%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%8E%A2%E7%B4%A2%E6%80%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_%E8%AF%BE%E4%BB%B6.zip)，以获取本课程中的所有文件。\n\n或\n\n下载 Chris 在本视频中提及的文件 <a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/demystifying.R\" target=\"_blank\">demystifying.R</a>。",
+              "user_state": {
+                "node_key": "804129314",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "vLlj5nNj8x4",
+                  "china_cdn_id": "vLlj5nNj8x4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "揭秘 R",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/lfXBPDLPZTbU6FIsEO6h77XCmlysG6Dz49mmxkEakKbuxro44xM-5CbLexmrv8C-G6Etpt9gKlyTOwvElJzr=s0#w=1275&h=723",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/804129314",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "830829287",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.23690773067331672,
+                      "x": 0.34417861596009974,
+                      "y": 0.6761710088691796
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Or9KvEd1flY",
+                  "china_cdn_id": "Or9KvEd1flY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177358,
+          "key": "8041293170923",
+          "title": "获得帮助",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293170923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175139,
+              "key": "804129317",
+              "title": "获得帮助",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.statmethods.net/\" target=\"_blank\">R 快速入门</a>\n\n<a href=\"http://www.cookbook-r.com/\" target=\"_blank\">R Cookbook</a>\n\n<a href=\"http://www.r-bloggers.com/\" target=\"_blank\">R-Bloggers</a>\n\n<a href=\"http://stackoverflow.com/tags/r/info\" target=\"_blank\">StackOverflow 上的 R 语言简介</a>\n\n<a href=\"http://stackoverflow.com/questions/tagged/r-faq%20\" target=\"_blank\">StackOverflow R 常见问题解答</a>\n\n<a href=\"https://google.github.io/styleguide/Rguide.xml\" target=\"_blank\">Google R 风格指南</a>",
+              "video": {
+                "youtube_id": "ABVX527RODE",
+                "china_cdn_id": "ABVX527RODE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177360,
+          "key": "8041293180923",
+          "title": "阅读并将数据子集化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293180923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175141,
+              "key": "804129318",
+              "title": "阅读并将数据子集化",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "阅读这个<a href=\"http://flowingdata.com/2015/02/18/loading-data-and-basic-formatting-in-r/\" target=\"_blank\">精彩的教程</a>（作者：Nathan Yau），了解如何向 R 中加载数据。\n\n[下载 stateData.csv](https://s3.amazonaws.com/udacity-hosted-downloads/ud651/stateData.csv)\n\n[如何将数据子集化](http://www.statmethods.net/management/subset.html)",
+              "video": {
+                "youtube_id": "UdniaeLsViQ",
+                "china_cdn_id": "UdniaeLsViQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177359,
+          "key": "8041293190923",
+          "title": "R Markdown 文档",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175140,
+              "key": "804129319",
+              "title": "R Markdown 文档",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "使用 RMD 文件 <a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/What_is_a_RMD_file.Rmd\" target=\"_blank\">What_is_a_RMD_file</a>，跟着 Chris 一起做。\n\n你需要安装并加载 `knitr` 包，以便使用 **KNIT HTML** 按钮。在 RStudio 控制台中运行以下命令，以安装并加载 knitr。\n\n`install.packages('knitr', dependencies = T)`\n\n`library(knitr)`\n\n第二个文件 <a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/demystifyingR2_v3.Rmd\" target=\"_blank\">demystifyingR2.Rmd</a> 是 Chris 在视频结尾提及的文件。仔细查看此文件，并且用它来回答下一个练习题！\n\n在 `{r}` 代码块的内部和外部使用 “pound sign/key”或称 \"hash sign/key\" `#` 会有所不同。\n\n<pre><code>```{r}\n# r 块中的 # (pound / hash sign) 会创建\n# 注释。这三行不是代码，因此不能被 # 执行。\nx &lt;- [1:10]\nmean(x)\n```</code></pre>\n\n如果你在 `{r}` 代码块外部使用 `#` 符号，你可以创建文本头。\n\n下载文件 <a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/demystifyingR2_v3.Rmd\" target=\"_blank\">demystifyingR2.Rmd</a>.\n\n<a href=\"https://guides.github.com/features/mastering-markdown/\" target=\"_blank\">Markdown 教程</a>：你还可以使用 Markdown 格式化你参与讨论的帖子。",
+              "user_state": {
+                "node_key": "804129319",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "FORb9Tja-p0",
+                  "china_cdn_id": "FORb9Tja-p0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "R Markdown 文档",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/yTFGCiaT8eoxbMEIkyxXLtOQzml-4A_RFWPGrfMhnvfdk1nzsbKzAl-9AJICZ4P8YFPZnWzg-d2rJP9CIQo=s0#w=1275&h=723",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/804129319",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "811719066",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1813045511221945,
+                      "y": 0.5611488359201774
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.18223971321695762,
+                      "y": 0.6710088691796009
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1841100374064838,
+                      "y": 0.7862389135254989
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1824345386533666,
+                      "y": 0.8911446784922394
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5609998441396509,
+                      "y": 0.5683203991130821
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5614284600997507,
+                      "y": 0.671875
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5638832605985037,
+                      "y": 0.7886640798226164
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.561155704488778,
+                      "y": 0.8946784922394678
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "oBns-s2TDgI",
+                  "china_cdn_id": "oBns-s2TDgI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177361,
+          "key": "8041293220923",
+          "title": "因子变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293220923",
+            "completed_at": "2019-03-10T04:23:46.429Z",
+            "last_viewed_at": "2019-03-10T04:23:46.241Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175142,
+              "key": "804129322",
+              "title": "因子变量",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "下载 <a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/reddit.csv\" target=\"_blank\">Reddit 调查回应</a>\n\n了解更多关于[数据类型](http://www.statmethods.net/input/datatypes.html)的信息。\n\n[谁是 Reddit？](http://www.redditblog.com/2011/09/who-in-world-is-reddit-results-are-in.html)",
+              "video": {
+                "youtube_id": "0bkvt4KEqjE",
+                "china_cdn_id": "0bkvt4KEqjE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177363,
+          "key": "8041293230923",
+          "title": "有序因子",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293230923",
+            "completed_at": "2019-03-10T04:23:51.858Z",
+            "last_viewed_at": "2019-03-10T04:23:51.662Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175143,
+              "key": "804129323",
+              "title": "有序因子",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "下载 <a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/reddit.csv\" target=\"_blank\">Reddit 调查回应</a>\n\n要运行 qplot 函数，你必须安装并加载 ggplot2 库。你可以运行这两行代码来这样做。\n\n`install.packages('ggplot2', dependencies = T)`\n<br>\n`library(ggplot2)`\n\n\n如果你看到错误信息，可以尝试在<a href=\"http://xquartz.macosforge.org/\" target=\"_blank\">这里</a>重新安装 XQuartz，然后运行以下代码：\n\n`install.packages('devtools', dependencies = T)`\n<br>\n`library(devtools)`\n<br>\n`install_version(\"colorspace\",\"1.2-4\")`\n\n现在，你应该可以在 RStudio 中加载 ggplot2 了。如果仍有问题，可以参考<a href=\"http://stackoverflow.com/questions/28984243/ggplot2-sourcing-error-x11-library-is-missing\">这里</a>和<a href=\"http://stackoverflow.com/questions/28952128/loading-ggplot2-opens-up-x11\">这里</a>.",
+              "user_state": {
+                "node_key": "804129323",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "PZSPhQCVABg",
+                  "china_cdn_id": "PZSPhQCVABg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "有序因子",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/teePK2gRhzaxqnEaIIWGIEPZabGai1GCV2wh6Vc_y9zB1OyEQCZ0eq3Qx6BI0TpgHM1fDY6FLC6q5uTF7hc=s0#w=1274&h=733",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/804129323",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "813929011",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.16572559385228336,
+                      "y": 0.46308076778166574
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.16782263092269326,
+                      "y": 0.582039911308204
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.16867986284289277,
+                      "y": 0.7104697893569845
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1710956982543641,
+                      "y": 0.8449279379157428
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5123554334378897,
+                      "y": 0.49038750422238775
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5088450748129676,
+                      "y": 0.6316865299334812
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5103452306733167,
+                      "y": 0.782150776053215
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Mbd1jfsbvik",
+                  "china_cdn_id": "Mbd1jfsbvik.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177362,
+          "key": "8041293260923",
+          "title": "设置有序因子的水平",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293260923",
+            "completed_at": "2019-03-10T04:23:56.709Z",
+            "last_viewed_at": "2019-03-10T04:23:55.623Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175144,
+              "key": "804129326",
+              "title": "设置有序因子的水平",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "[学习如何设置和排列因子水平](https://stats.idre.ucla.edu/r/modules/factor-variables/).\n\n指定给参数 `levels` 的向量中有一个错误。\n\n在两种解决方案中，最后一个 age.range 组应该是 '65 or Above'。",
+              "user_state": {
+                "node_key": "804129326",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "qzs-3ltgTGo",
+                  "china_cdn_id": "qzs-3ltgTGo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "设置有序因子的水平",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "806439117",
+                "initial_code_files": [
+                  {
+                    "text": "# Order the factor levels in the age.range variable in order to create\n# a graph with a natural order. Look up the documentation for\n# the factor function or read through the example in the Instructor Notes.\n\n# Once you're ready, try to write the code to order the levels of\n# the age.range variable.\n\n# Be sure you modify the variable in the data frame. That is modify reddit$age.range.\n# Don't create a new variable.\n\n# The levels of age.range should take on these values...\n\n#    \"Under 18\", \"18-24\", \"25-34\", \"35-44\", \"45-54\", \"55-64\", \"65 or Above\"\n\n# This exercise is ungraded. You can check your own work by using the Test Run\n# button. Your plot will appear there.\n\n# ENTER YOUR CODE BELOW THE LINE.\n# ================================================================================\n",
+                    "name": "levels.R"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "HSeIrqW-YGw",
+                  "china_cdn_id": "HSeIrqW-YGw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177366,
+          "key": "8041293290923",
+          "title": "数据加工",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293290923",
+            "completed_at": "2019-03-10T04:23:57.354Z",
+            "last_viewed_at": "2019-03-10T04:24:06.028Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175145,
+              "key": "804129329",
+              "title": "数据加工",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://classroom.udacity.com/courses/ud032\" target=\"_blank\">用 MongoDB 整理数据：数据操纵和检索</a>\n\n阅读这个<a href=\"http://flowingdata.com/2015/02/18/loading-data-and-basic-formatting-in-r/\" target=\"_blank\">精彩教程</a>（作者：Nathan Yau），了解如何向 R 中加载数据。\n\n<a href=\"http://vita.had.co.nz/papers/tidy-data.pdf\" target=\"_blank\">整洁的数据</a>（作者：Hadley Wickham）\n\n<a href=\"http://courses.had.co.nz.s3-website-us-east-1.amazonaws.com/12-rice-bdsi/slides/07-tidy-data.pdf\" target=\"_blank\">整洁的数据呈现</a>（作者：Hadley Wickham；时间：2012 年 6 月）",
+              "video": {
+                "youtube_id": "q_Ghc6VsDo0",
+                "china_cdn_id": "q_Ghc6VsDo0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177364,
+          "key": "8972509370923",
+          "title": "给数据科学家的建议",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8972509370923",
+            "completed_at": "2019-03-10T04:23:59.061Z",
+            "last_viewed_at": "2019-03-10T04:24:09.020Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175146,
+              "key": "897250937",
+              "title": "给数据科学家的建议",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www-personal.umich.edu/~ebakshy/\" target=\"_blank\">Eytan Bakshy</a>\n\n<a href=\"http://seanjtaylor.com/\" target=\"_blank\">Sean Taylor</a>",
+              "video": {
+                "youtube_id": "FdkhUOtHIFg",
+                "china_cdn_id": "FdkhUOtHIFg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177365,
+          "key": "8041293300923",
+          "title": "恭喜",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175147,
+              "key": "804129330",
+              "title": "恭喜",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GxhPaVbDHnw",
+                "china_cdn_id": "GxhPaVbDHnw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

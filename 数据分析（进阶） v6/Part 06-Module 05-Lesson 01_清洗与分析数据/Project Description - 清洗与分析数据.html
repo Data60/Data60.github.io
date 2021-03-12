@@ -1,0 +1,285 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   清洗与分析数据
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      清洗与分析数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 项目概述.html">
+       01. 项目概述
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 项目动机.html">
+       02. 项目动机
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 项目细节.html">
+       03. 项目细节
+      </a>
+     </li>
+     <li class="">
+      <a href="04. Twitter API.html">
+       04. Twitter API
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 项目 workspace.html">
+       05. 项目 workspace
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Description - 清洗与分析数据.html">
+       Project Description - 清洗与分析数据
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Rubric - 清洗与分析数据.html">
+       Project Rubric - 清洗与分析数据
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          清洗与分析数据
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <p>
+        在这个项目中，你对数据进行收集、评估和清洗，然后通过分析、可视化和/或建模来对其进行处理。
+       </p>
+       <p>
+        在你提交项目前:
+       </p>
+       <ol>
+        <li>
+         请确保你的项目符合
+         <a href="https://review.udacity.com/#!/rubrics/1332/view" target="_blank">
+          审阅标准
+         </a>
+         中所有条目的规范要求。只有符合这些要求，你的项目才能“符合审阅标准”。
+        </li>
+        <li>
+         确保你在项目文件中没有包含你的 API 密钥和访问令牌。
+        </li>
+        <li>
+         如果你在
+         <strong>
+          项目 workspace
+         </strong>
+         中完成项目，请确保 workspace 中包含以下文件，然后单击
+         <strong>
+          项目 workspace
+         </strong>
+         页面右下角的“提交项目”：
+         <ul>
+          <li>
+           <code>
+            wrangle_act.ipynb
+           </code>
+           ：用于收集、评估、清洗、分析和可视化数据的代码
+          </li>
+          <li>
+           <code>
+            wrangle_report.pdf
+           </code>
+           ：汇总数据整理步骤的文档：收集，评估和清洗
+          </li>
+          <li>
+           <code>
+            act_report.pdf
+           </code>
+           ：对最终数据进行观察与分析的文档
+           <br/>
+           -
+           <code>
+            twitter_archive_enhanced.csv
+           </code>
+           ：给定的文件
+           <br/>
+           -
+           <code>
+            image_predictions.tsv
+           </code>
+           ：以编程方式下载的文件
+           <br/>
+           -
+           <code>
+            tweet_json.txt
+           </code>
+           ：通过 API 构建的文件
+           <br/>
+           -
+           <code>
+            twitter_archive_master.csv
+           </code>
+           ：合并与清洗后的数据
+           <br/>
+           - 其他附加文件（例如，用于存储干净数据的附加文件或数据库文件）
+          </li>
+         </ul>
+        </li>
+        <li>
+         <em>
+          如果你并没有在优达学城教室里
+         </em>
+         在线完成项目，而是在教室外完成，请将上面列出的文件打包成 zip 压缩文件或从 GitHub 仓库中下载，然后单击此页面上的“提交项目”按钮。
+        </li>
+       </ol>
+       <p>
+        如以上
+        <em>
+         第 4 点
+        </em>
+        所述，你可以将文件作为zip压缩文件提交，也可以链接到包含项目文件的 GitHub 仓库。请注意，如果你使用 GitHub，你提交的内容将是提交时代码库的快照，不会随着后续的修改而更新。因此我们建议你将每个项目保存在一个单独的仓库中，以避免混淆。如果审阅者收到的文件夹中包含多个项目，则可能会对要评估哪个项目感到困惑。
+       </p>
+       <p>
+        我们需要一周左右的时间对项目进行审阅，但在大多数情况下，审阅速度要快得多。 在项目审阅完毕后，我们会立刻给你发送电子邮件。 如果你在提交项目时遇到任何问题，或者希望查看提交的状态，请发送电子邮件至 dataanalyst-project@udacity.com。 同时，你可以继续学习之后的课程内容。
+       </p>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('清洗与分析数据')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

@@ -1,0 +1,381 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Twitter API
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      清洗与分析数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 项目概述.html">
+       01. 项目概述
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 项目动机.html">
+       02. 项目动机
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 项目细节.html">
+       03. 项目细节
+      </a>
+     </li>
+     <li class="">
+      <a href="04. Twitter API.html">
+       04. Twitter API
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 项目 workspace.html">
+       05. 项目 workspace
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Description - 清洗与分析数据.html">
+       Project Description - 清洗与分析数据
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Rubric - 清洗与分析数据.html">
+       Project Rubric - 清洗与分析数据
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          04. Twitter API
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <em>
+           特别提示：
+          </em>
+          如果你无法访问 Twitter，我们将直接给你提供返回的 Twitter 数据。你可以
+          <a href="https://raw.githubusercontent.com/udacity/new-dand-advanced-china/master/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/WeRateDogs%E9%A1%B9%E7%9B%AE/tweet_json.txt" target="_blank">
+           右键点击这里选择另存为
+          </a>
+          下载。该文件为
+          <code>
+           txt
+          </code>
+          格式，每一行为一条独立的 twitter 信息，格式为
+          <code>
+           JSON
+          </code>
+          。该文件比较大，下载可能需要几分钟。
+         </p>
+         <h2 id="如何查询推特数据">
+          如何查询推特数据
+         </h2>
+         <p>
+          在这个项目中，你将会使用
+          <a href="http://www.tweepy.org/" target="_blank">
+           Tweepy
+          </a>
+          来查询推特 API，以获取 WeRateDogs 推特档案以外的附加数据。附加数据包括转发用户和喜欢用户。
+         </p>
+         <p>
+          有一些 API 是完全公开的，比如第 2 节课中的 MediaWiki (通过
+          <a href="https://github.com/siznax/wptools/wiki" target="_blank">
+           wptools
+          </a>
+          library 获取)，而其他 API 则需要验证。推特 API 要求用户得到授权之后才能使用。这意味着在你运行 API 查询代码前，你需要配置好自己的推特应用。在此之前，你必须登录推特账户。
+          <a href="https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/" target="_blank">
+           这份指南
+          </a>
+          描述了配置过程。* 一旦完成配置，一下代码将创建一个 API 对象，用于收集推特数据。该代码由 tweepy 文档中的
+          <a href="https://media.readthedocs.org/pdf/tweepy/latest/tweepy.pdf" target="_blank">
+           Getting started
+          </a>
+          部分提供。
+         </p>
+         <pre><code class="python language-python">import tweepy
+
+consumer_key = 'YOUR CONSUMER KEY'
+consumer_secret = 'YOUR CONSUMER SECRET'
+access_token = 'YOUR ACCESS TOKEN'
+access_secret = 'YOUR ACCESS SECRET'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_secret)
+
+api = tweepy.API(auth)</code></pre>
+         <p>
+          *
+          <em>
+           注释：如果你因为手机验证问题，无法安装应用，可以给
+           <a href="mailto:david.venturi@udacity.com">
+            david.venturi@udacity.com
+           </a>
+           发邮件。
+          </em>
+         </p>
+         <p>
+          推特数据以 JSON 格式存储在 Twitter 上。这个
+          <a href="https://stackoverflow.com/questions/28384588/twitter-api-get-tweets-with-specific-id" target="_blank">
+           StackOverflow 答案
+          </a>
+          已经做出了清晰描述，教你如何利用 Tweepy 通过推特 ID 获取推特 JSON 数据。注意，在调用
+          <code>
+           get_status
+          </code>
+          后， 请将参数
+          <code>
+           tweet_mode
+          </code>
+          设置为
+          <code>
+           'extended'
+          </code>
+          ，即
+          <code>
+           api.get_status(tweet_id, tweet_mode='extended')
+          </code>
+          ，这将会非常有用。
+         </p>
+         <p>
+          你还需要注意的是，档案中有少数 ID 对应的推特信息也许已经被删除。
+          <a href="https://wiki.python.org/moin/HandlingExceptions" target="_blank">
+           Try-except 块
+          </a>
+          也许会对你很有帮助。
+         </p>
+         <h2 id="不要在提交项目时包含你的-api-密钥和访问令牌">
+          不要在提交项目时包含你的 API 密钥和访问令牌
+         </h2>
+         <p>
+          <strong>
+           不要
+          </strong>
+          在提交时包含 API 密钥和访问令牌。这是 API 和公共代码的标准惯例。
+         </p>
+         <h2 id="推特速率限制">
+          推特速率限制
+         </h2>
+         <p>
+          推特 API 具有速率限制。速率限制用于控制服务器发出或接收流量的速率。根据
+          <a href="https://developer.twitter.com/en/docs/basics/rate-limiting" target="_blank">
+           推特速率限制信息
+          </a>
+          ：
+         </p>
+         <blockquote>
+          <p>
+           速率限制为 15 分钟的时间间隔。
+          </p>
+         </blockquote>
+         <p>
+          为了在 WeRateDogs 推特档案中查询所有推特 ID，至少需要 20-30 分钟的运行时间。为了使数据更加整洁，你可以在查询后输出每个推特 ID，并
+          <a href="https://stackoverflow.com/questions/7370801/measure-time-elapsed-in-python" target="_blank">
+           使用定时器编码
+          </a>
+          。你也可以在
+          <a href="http://docs.tweepy.org/en/v3.2.0/api.html#API" target="_blank">
+           <code>
+            tweepy.api
+           </code>
+           class
+          </a>
+          中将参数
+          <code>
+           wait_on_rate_limit
+          </code>
+          和
+          <code>
+           wait_on_rate_limit_notify
+          </code>
+          设置为
+          <code>
+           True
+          </code>
+          。
+         </p>
+         <h2 id="编写和读取推特-json">
+          编写和读取推特 JSON
+         </h2>
+         <p>
+          查询每个推特 ID 后，你将要编写 JSON 数据，并按要求将其存入
+          <code>
+           tweet_json.txt
+          </code>
+          文件中，每个推特 JSON 数据占一行。接着你可以逐行读取这个文件，来创建一个 pandas DataFrame 以便在之后进行数据评估和清洗。你还可以阅读这篇来自 Stack Abuse 的文章，名为
+          <a href="http://stackabuse.com/reading-and-writing-json-to-a-file-in-python/" target="_blank">
+           使用 Python 在文件中读取和编写 JSON（Reading and Writing JSON to a File in Python）
+          </a>
+          ,这对你的深入学习非常有用。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="*推特标识*" class="img img-fluid" src="img/twitter-logo-whiteonblue.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             推特标识
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="05. 项目 workspace.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Twitter API')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

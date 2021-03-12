@@ -1,0 +1,492 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   项目动机
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      清洗与分析数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 项目概述.html">
+       01. 项目概述
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 项目动机.html">
+       02. 项目动机
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 项目细节.html">
+       03. 项目细节
+      </a>
+     </li>
+     <li class="">
+      <a href="04. Twitter API.html">
+       04. Twitter API
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 项目 workspace.html">
+       05. 项目 workspace
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Description - 清洗与分析数据.html">
+       Project Description - 清洗与分析数据
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Rubric - 清洗与分析数据.html">
+       Project Rubric - 清洗与分析数据
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          02. 项目动机
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="项目动机">
+          项目动机
+         </h2>
+         <h3 id="背景">
+          背景
+         </h3>
+         <p>
+          你的目标：清洗 WeRateDogs 推特数据，创建有趣且可靠的分析和可视化。这份推特档案很棒，但是只包含基本的推特信息。要达到 "Wow!" 的效果，在分析和可视化前，还需要收集额外的数据、然后进行评估和清洗。
+         </p>
+         <h3 id="数据">
+          数据
+         </h3>
+         <p>
+          <strong>
+           完善推特档案
+          </strong>
+         </p>
+         <p>
+          WeRateDogs 的推特档案包括 5000 多条推特的基本信息，但并不包括所有内容。不过档案中有一列包含每个推特的文本，我用这一列数据提取了评分、狗的名字和“地位”（即 doggo、floofer、pupper 和 puppo）——这使数据得以“完善”。在这 5000 多条中，我只筛选出了 2356 条包含评分的推特数据。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="*从每个推特文本中提取的数据*" class="img img-fluid" src="img/screenshot-2017-10-10-18.19.36.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             从每个推特文本中提取的数据
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          我用编程方式从 text 推特原文中提取了评分、地位和名字等，但是并没有做好。评分并不都是正确的，狗的名字和地位也有不正确的 (狗的地位 stage 参见下面更多相关信息)。
+          <strong>
+           如果你想用评分、地位和名字进行分析和可视化，需要评估和清洗这些列。
+          </strong>
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="*这个狗狗字典解释了狗狗的不同地位 (stage): doggo, pupper, puppo, 和 floof(er) (摘自 Amazon 上的 [#WeRateDogs book](https://www.amazon.com/WeRateDogs-Most-Hilarious-Adorable-Youve/dp/1510717145))*" class="img img-fluid" src="img/dogtionary-combined.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             这个狗狗字典解释了狗狗的不同地位 (stage): doggo, pupper, puppo, 和 floof(er) (摘自 Amazon 上的
+             <a href="https://www.amazon.com/WeRateDogs-Most-Hilarious-Adorable-Youve/dp/1510717145" target="_blank">
+              #WeRateDogs book
+             </a>
+             )
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           通过推特 API 获取附加数据
+          </strong>
+         </p>
+         <p>
+          回到基础的推特档案：转发数（
+          <code>
+           retweet count
+          </code>
+          ）和喜爱数（
+          <code>
+           favorite count
+          </code>
+          ）是两个遗漏的列。幸运的是，从推特 API 中，任何人都可以收集到这些数据。其实，"任何人" 只是能获取最多 3000 条的最近推特数据。但是因为你拥有 WeRateDogs 推特档案和其中的推特 ID，你可以收集到这其中所有的 5000 多条推特。你将查询推特 API 来收集这些有价值的数据。
+         </p>
+         <p>
+          <em>
+           特别提示：
+          </em>
+          如果你无法访问 Twitter 的话，我们将直接给你提供返回的 Twitter 数据。你可以
+          <a href="https://raw.githubusercontent.com/udacity/new-dand-advanced-china/master/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/WeRateDogs%E9%A1%B9%E7%9B%AE/tweet_json.txt" target="_blank">
+           右键点击这里选择另存为
+          </a>
+          下载。该文件为 txt 格式，每一行为一条独立的 twitter 信息，格式为 JSON。该文件比较大，下载可能需要几分钟。
+         </p>
+         <p>
+          <strong>
+           图像预测文件
+          </strong>
+         </p>
+         <p>
+          还有一件更酷的事情：我通过一个可以对狗狗种类进行分类的
+          <a href="https://www.youtube.com/watch?v=2-Ol7ZB0MmU" target="_blank">
+           神经网络
+          </a>
+          ，运行这份推特档案中的所有图像。获取的结果：一份图像预测结果表格，其中包含了预测结果的前三名，推特 ID，图像 url 以及最可信的预测结果对应的图像编号（由于推特最多包含 4 个图片，所以编号为 1 到 4）。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="*推特图像预测数据*" class="img img-fluid" src="img/screenshot-2017-10-10-18.43.41.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             推特图像预测数据
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          以该表格中的最后一行数据来理解各列数据：
+         </p>
+         <ul>
+          <li>
+           <code>
+            tweet_id
+           </code>
+           是推特链接的最后一部分，位于 "status/" 后面 →
+           <a href="https://twitter.com/dog_rates/status/889531135344209921" target="_blank">
+            https://twitter.com/dog_rates/status/889531135344209921
+           </a>
+          </li>
+          <li>
+           <code>
+            jpg_url
+           </code>
+           是预测的图像资源链接
+          </li>
+          <li>
+           <code>
+            img_num
+           </code>
+           最可信的预测结果对应的图像编号 → 1 推特中的第一张图片
+          </li>
+          <li>
+           <code>
+            p1
+           </code>
+           是算法对推特中图片的一号预测 → 金毛犬
+          </li>
+          <li>
+           <code>
+            p1_conf
+           </code>
+           是算法的一号预测的可信度 → 95%
+          </li>
+          <li>
+           <code>
+            p1_dog
+           </code>
+           是一号预测该图片是否属于“狗”（有可能是其他物种，比如熊、马等） → True 真
+          </li>
+          <li>
+           <code>
+            p2
+           </code>
+           是算法对推特中图片预测的第二种可能性 → 拉布拉多犬
+          </li>
+          <li>
+           <code>
+            p2_conf
+           </code>
+           是算法的二号预测的可信度 → 1%
+          </li>
+          <li>
+           <code>
+            p2_dog
+           </code>
+           是二号预测该图片是否属于“狗” → True 真
+          </li>
+          <li>
+           以此类推…
+          </li>
+         </ul>
+         <p>
+          从推特中可以看到，对该图像的一号预测（p1）是准确的：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="*名为 Stuart 的金毛犬*" class="img img-fluid" src="img/dog-pred.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             名为 Stuart 的金毛犬
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          所以这既有趣，也很不错。但是所有附加数据都需要收集、评估和清洗。所以才需要你。
+         </p>
+         <h3 id="关键要点">
+          关键要点
+         </h3>
+         <p>
+          清洗这个项目的数据时要牢记几个要点：
+         </p>
+         <ul>
+          <li>
+           我们只需要含有图片的原始评级 (不包括转发)。尽管数据集中有 5000 多条数据，但是并不是所有都是狗狗评分，并且其中有一些是转发。
+          </li>
+          <li>
+           完整地评估和清理整个数据集将需要大量时间，实践和展示数据处理技巧没有必要将这个数据集全部清理。因此，本项目的要求只是评估和清理此数据集中的至少 8 个质量问题和至少 2 个整洁度问题。
+          </li>
+          <li>
+           根据
+           <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html" target="_blank">
+            整洁数据 tidy data
+           </a>
+           的规则要求，本项目的数据清理应该包括将三个数据片段进行合并。
+          </li>
+          <li>
+           如果分子评级超过分母评级，不需要进行清洗。这个
+           <a href="http://knowyourmeme.com/memes/theyre-good-dogs-brent" target="_blank">
+            特殊评分系统
+           </a>
+           是 WeRateDogs 人气度较高的主要原因。（同样，也不需要删除分子小于分母的数据）
+          </li>
+          <li>
+           不必收集 2017 年 8 月 1 日之后的数据，你可以收集到这些推特的基本信息，但是你不能收集到这些推特对应的图像预测数据，因为你没有图像预测算法的使用权限。
+          </li>
+         </ul>
+         <p>
+          <em>
+           有趣的事实：创建这个神经网络是优达学城
+           <a href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009" target="_blank">
+            机器学习工程师纳米学位
+           </a>
+           和
+           <a href="https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889" target="_blank">
+            人工智能纳米学位
+           </a>
+           的项目之一。
+          </em>
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="03. 项目细节.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. 项目动机')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

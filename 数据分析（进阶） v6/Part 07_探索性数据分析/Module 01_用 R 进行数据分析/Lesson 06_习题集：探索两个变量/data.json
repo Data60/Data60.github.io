@@ -1,0 +1,1126 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178255,
+      "key": "771308570",
+      "title": "习题集：探索两个变量",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "使用从上一课中学到的技巧，练习探索两个变量之间的关系。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177441,
+          "key": "7598087520923",
+          "title": "价格与 x",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7598087520923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175221,
+              "key": "759808752",
+              "title": "价格与 x",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "759808752",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与 x",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "761758583",
+                "initial_code_files": [
+                  {
+                    "text": "# In this problem set, you'll continue\n# to explore the diamonds data set.\n\n# Your first task is to create a\n# scatterplot of price vs x.\n# using the ggplot syntax.\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# ENTER YOUR CODE BELOW THIS LINE\n# ===========================================\n",
+                    "name": "scatterX.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177439,
+          "key": "7615186430923",
+          "title": "发现 - 价格与 x",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7615186430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175222,
+              "key": "761518643",
+              "title": "发现 - 价格与 x",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "761518643",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "发现 - 价格与 x",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/wC0212ElY_k_pMtah1H4JY4V7t1LYaR1NdoL-WzCbrE3kQC7vF7B5l-PiUzQ_haeleFgwXYQH3SGkT0f4HM=s0#w=1280&h=737",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/761518643",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "763818667",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.5388026607538803,
+                      "width": 0.8753117206982544,
+                      "x": 0.07709011943539631,
+                      "y": 0.38301886792452833
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177442,
+          "key": "7673986040923",
+          "title": "相关性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7673986040923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175223,
+              "key": "767398604",
+              "title": "相关性",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "767398604",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "相关性",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Z_UMBgl_RVOHO0TslRYm6BCYUALOD_5j5uUjsnNknec6rZbSTjXm3KmXH_OMwmHVZg-XkYqKQ0S4xgMS7wu-=s0#w=1278&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/767398604",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "758558730",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.12416851441241686,
+                      "width": 0.2256857855361596,
+                      "x": 0.3750974127182045,
+                      "y": 0.18517876940133038
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.12195121951219512,
+                      "width": 0.22693266832917705,
+                      "x": 0.37303226309226933,
+                      "y": 0.4261710088691796
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.12195121951219512,
+                      "width": 0.2281795511221945,
+                      "x": 0.37375311720698257,
+                      "y": 0.6768639135254989
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177443,
+          "key": "7597286210923",
+          "title": "价格与深度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7597286210923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175224,
+              "key": "759728621",
+              "title": "价格与深度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "759728621",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与深度",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "761228716",
+                "initial_code_files": [
+                  {
+                    "text": "# Create a simple scatter plot of price vs depth.\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# ENTER YOUR CODE BELOW THIS LINE\n#==================================================\n",
+                    "name": "scatterDepth.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177444,
+          "key": "7645786480923",
+          "title": "调整 - 价格与深度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7645786480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175225,
+              "key": "764578648",
+              "title": "调整 - 价格与深度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "提示 1：在 `geom_point()` 中，使用 `alpha` 参数调整点的透明度。\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n提示 2：使用带有 `breaks` 参数的 `scale_x_continuous()` 调整 x 轴。",
+              "user_state": {
+                "node_key": "764578648",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "调整 - 价格与深度",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "754528619",
+                "initial_code_files": [
+                  {
+                    "text": "# Change the code to make the transparency of the\n# points to be 1/100 of what they are now and mark\n# the x-axis every 2 units. See the instructor notes\n# for two hints.\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# ALTER THE CODE BELOW THIS LINE\n#============================================\nggplot(data = diamonds, aes(x = depth, y = price)) + \n  geom_point()",
+                    "name": "scatterDepthAdjust.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177446,
+          "key": "7629486970923",
+          "title": "典型深度范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7629486970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175226,
+              "key": "762948697",
+              "title": "典型深度范围",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "762948697",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "典型深度范围",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/NvG6UXmjzAtUvAtnNrZ89PBbh0BavposQtNjGTV0D49Qnlx_FtTUaiAkjlVKEkbbq9y8qwuwIpjYJTln49c=s0#w=1274&h=694",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/762948697",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "761138624",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1419068736141907,
+                      "width": 0.17206982543640897,
+                      "x": 0.1407224127182045,
+                      "y": 0.4349362527716186
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1419068736141907,
+                      "width": 0.17206982543640897,
+                      "x": 0.4500272755610973,
+                      "y": 0.43278824833702884
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177447,
+          "key": "7798586020923",
+          "title": "相关性 - 价格与深度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7798586020923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175227,
+              "key": "779858602",
+              "title": "相关性 - 价格与深度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "779858602",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "相关性 - 价格与深度",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/IKO4_nNWPO0remYiPt3s9Zrtk4dWm4EDj2MW5ABTChd4KG3HrtU74qCQxl2jPWGemJaIYawjsr6fs6wf=s0#w=1279&h=732",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/779858602",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "763288677",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.24833702882483372,
+                      "width": 0.8865336658354115,
+                      "x": 0.05971769815418024,
+                      "y": 0.7020872865275142
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.10421286031042129,
+                      "width": 0.17206982543640897,
+                      "x": 0.7490648379052369,
+                      "y": 0.05744179600886918
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2412523379052369,
+                      "y": 0.4803215077605322
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5271976309226932,
+                      "y": 0.47134839246119736
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177445,
+          "key": "7610686240923",
+          "title": "价格与克拉",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7610686240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175228,
+              "key": "761068624",
+              "title": "价格与克拉",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "761068624",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与克拉",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "758228672",
+                "initial_code_files": [
+                  {
+                    "text": "# Create a scatterplot of price vs carat\n# and omit the top 1% of price and carat\n# values.\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# ENTER YOUR CODE BELOW THIS LINE\n# ========================================\n",
+                    "name": "scatterCarat.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177448,
+          "key": "7794185540923",
+          "title": "价格与体积",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7794185540923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175229,
+              "key": "779418554",
+              "title": "价格与体积",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "779418554",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与体积",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "765778599",
+                "initial_code_files": [
+                  {
+                    "text": "# Create a scatterplot of price vs. volume (x * y * z).\n# This is a very rough approximation for a diamond's volume.\n\n# Create a new variable for volume in the diamonds data frame.\n# This will be useful in a later exercise.\n\n# Don't make any adjustments to the plot just yet.\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# ENTER YOUR CODE BELOW THIS LINE\n# =================================================================\n",
+                    "name": "scatterVolume.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177449,
+          "key": "7640786220923",
+          "title": "发现 - 价格与体积",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7640786220923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175230,
+              "key": "764078622",
+              "title": "发现 - 价格与体积",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "764078622",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "发现 - 价格与体积",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/ntUPPCYxAd7fBONe1AwGmPeRmKyKxn3QJPuqqxW8he7hXVpOEJti3A0574L7fojzAuGVpIlxlY9Lg84TmE0u=s0#w=1275&h=730",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/764078622",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "758148685",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.5942350332594235,
+                      "width": 0.8940149625935162,
+                      "x": 0.048859934853420196,
+                      "y": 0.3377609108159393
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177451,
+          "key": "7643687100923",
+          "title": "子集相关性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7643687100923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175231,
+              "key": "764368710",
+              "title": "子集相关性",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "提示 1：向钻石数据框中添加一个体积变量很有帮助。你应该排除体积大于或等于 800 的钻石。而且，还要排除体积为 0 的钻石。当你子集化原始数据框时，在两个条件之间使用 `&` 符号。\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n提示 2：在这些条件下子集化钻石数据框，并且将它保存到另一个变量中。在 `cor()` 函数中使用该数据框。",
+              "user_state": {
+                "node_key": "764368710",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "子集相关性",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/5mGHsCQddZMspodDSUgchOyVUcM_15RyWmbEOHCwsXA7PNFgm8p71NGH0GlDP_2rdgMIScZCIxDU40esyEg=s0#w=1279&h=738",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/764368710",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "762298675",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.13303769401330376,
+                      "width": 0.24688279301745636,
+                      "x": 0.296680174563591,
+                      "y": 0.5035338137472284
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177452,
+          "key": "7624587660923",
+          "title": "调整 - 价格与体积",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7624587660923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175232,
+              "key": "762458766",
+              "title": "调整 - 价格与体积",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "ggplot2 中的[平滑器](http://www.ats.ucla.edu/stat/r/faq/smooths.htm)类型。",
+              "user_state": {
+                "node_key": "762458766",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "调整 - 价格与体积",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "763008687",
+                "initial_code_files": [
+                  {
+                    "text": "# Subset the data to exclude diamonds with a volume\n# greater than or equal to 800. Also, exclude diamonds\n# with a volume of 0. Adjust the transparency of the\n# points and add a linear model to the plot. (See the\n# Instructor Notes or look up the documentation of\n# geom_smooth() for more details about smoothers.)\n\n# We encourage you to think about this next question and\n# to post your thoughts in the discussion section.\n\n# Do you think this would be a useful model to estimate\n# the price of diamonds? Why or why not?\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# ENTER YOUR CODE BELOW THIS LINE\n# ========================================",
+                    "name": "scatterVolumeAdjust.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177450,
+          "key": "7614486820923",
+          "title": "平均价格 - 净度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7614486820923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175233,
+              "key": "761448682",
+              "title": "平均价格 - 净度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "注意：如果你在进行此练习之前使用了 plyr 包中的 `count()` 函数，则需要运行以下命令解绑定 plyr 包。\n<br>\n`detach(\"package:plyr\", unload=TRUE)`\n<br>\n在进行此练习时，plyr 包将与 dply r包冲突。 你将需要在**仅加载dplyr包时完成此练习。[dplyr](http://blog.rstudio.org/2014/01/17/introducing-dplyr/)包。\n\n重要事项！请注意：在较新版本的 dplyr (0.3.x+) 中，语法 %.% 已被弃用且替换为 %>%。课程视频中使用的是 %.%，但这会产生警告消息。如果您在回答中使用链接运算符，您应该使用 %>%。\n\n另一警告：0.4.0 版本的 dplyr 在汇总层上使用中间值函数时有一个错误，具体取决于被汇总的数据性质。你可能需要将数据转换为数值型（浮点型），以获得期望的结果，比如：`median(as.numeric(var))`。",
+              "user_state": {
+                "node_key": "761448682",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均价格 - 净度",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "744588593",
+                "initial_code_files": [
+                  {
+                    "text": "# Use the function dplyr package\n# to create a new data frame containing\n# info on diamonds by clarity.\n\n# Name the data frame diamondsByClarity\n\n# The data frame should contain the following\n# variables in this order.\n\n#       (1) mean_price\n#       (2) median_price\n#       (3) min_price\n#       (4) max_price\n#       (5) n\n\n# where n is the number of diamonds in each\n# level of clarity.\n\n# This assignment WILL BE automatically\n# graded!\n\n# DO NOT ALTER THE NEXT THREE LINES OF CODE.\n# ======================================================\nsuppressMessages(library(ggplot2))\nsuppressMessages(library(dplyr))\ndata(diamonds)\n\n# ENTER YOUR CODE BELOW THIS LINE\n# ======================================================\n",
+                    "name": "meanPriceClarity.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177453,
+          "key": "8634298360923",
+          "title": "平均价格柱状图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8634298360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175234,
+              "key": "863429836",
+              "title": "平均价格柱状图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://flowingdata.com/2014/02/27/how-to-read-histograms-and-use-them-in-r/\" target=\"_blank\">柱状图 vs. 直方图</a>\n\n提示：保存每个图到一个变量中，并且将两个变量传入 `grid.arrange()`。请确保你已安装和加载了 gridExtra 包。",
+              "user_state": {
+                "node_key": "863429836",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均价格柱状图",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "866029277",
+                "initial_code_files": [
+                  {
+                    "text": "# We’ve created summary data frames with the mean price\n# by clarity and color. You can run the code in R to\n# verify what data is in the variables diamonds_mp_by_clarity\n# and diamonds_mp_by_color.\n\n# Your task is to write additional code to create two bar plots\n# on one output image using the grid.arrange() function from the package\n# gridExtra.\n\n# This assignment is not graded and\n# will be marked as correct when you submit.\n\n# See the Instructor Notes for more info on bar charts\n# and for a hint on this task.\n\n# DO NOT DELETE THE LINES OF CODE BELOW\n# ===================================================================\ndata(diamonds)\nlibrary(dplyr)\n\ndiamonds_by_clarity <- group_by(diamonds, clarity)\ndiamonds_mp_by_clarity <- summarise(diamonds_by_clarity, mean_price = mean(price))\n\ndiamonds_by_color <- group_by(diamonds, color)\ndiamonds_mp_by_color <- summarise(diamonds_by_color, mean_price = mean(price))\n\n# ENTER YOUR CODE BELOW THIS LINE\n# ===================================================================\n\n",
+                    "name": "barChartsMeanPrice.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177454,
+          "key": "7624486190923",
+          "title": "平均价格的趋势",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7624486190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175235,
+              "key": "762448619",
+              "title": "平均价格的趋势",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "762448619",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均价格的趋势",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/cYoU0rZCq_RMx7zlg7zzUcIQ7Cs8WACYTIfYBCyKyBAsJLnBP_dLxR0alSsHSZXAu3z4PjXHBCIueldaU05V=s0#w=1282&h=731",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/762448619",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "753408539",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.5277161862527716,
+                      "width": 0.8802992518703242,
+                      "x": 0.06188925081433225,
+                      "y": 0.3942857142857143
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177455,
+          "key": "7545188450923",
+          "title": "重访 Gapminder",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7545188450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175236,
+              "key": "754518845",
+              "title": "重访 Gapminder",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.gapminder.org/data/\" target=\"_blank\">Gapminder 数据</a>\n\n<a href=\"https://www.youtube.com/watch?v=jbkSRLYSojo\" target=\"_blank\">Hans Rosling：4 分钟看遍 200 年内 200 个国家兴衰</a>\n\n使用 <a href=\"http://docs.ggplot2.org/current/ggsave.html\" target=\"_blank\">`ggsave()`</a> 保存图形。",
+              "user_state": {
+                "node_key": "754518845",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "重访 Gapminder",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "768328554",
+                "initial_code_files": [
+                  {
+                    "text": "# The Gapminder website contains over 500 data sets with information about\n# the world's population. Your task is to continue the investigation you did at the\n# end of Problem Set 3 or you can start fresh and choose a different\n# data set from Gapminder.\n\n# If you’re feeling adventurous or want to try some data munging see if you can\n# find a data set or scrape one from the web.\n\n# In your investigation, examine pairs of variable and create 2-5 plots that make\n# use of the techniques from Lesson 4.\n\n# You can find a link to the Gapminder website in the Instructor Notes.\n\n# Once you've completed your investigation, create a post in the discussions that includes:\n#       1. the variable(s) you investigated, your observations, and any summary statistics\n#       2. snippets of code that created the plots\n#       3. links to the images of your plots\n\n# Copy and paste all of the code that you used for\n# your investigation, and submit it when you are ready.\n# ====================================================================\n",
+                    "name": "gapminder2.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

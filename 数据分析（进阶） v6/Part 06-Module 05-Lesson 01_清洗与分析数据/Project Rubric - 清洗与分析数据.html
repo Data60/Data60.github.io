@@ -1,0 +1,558 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   清洗与分析数据
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      清洗与分析数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 项目概述.html">
+       01. 项目概述
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 项目动机.html">
+       02. 项目动机
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 项目细节.html">
+       03. 项目细节
+      </a>
+     </li>
+     <li class="">
+      <a href="04. Twitter API.html">
+       04. Twitter API
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 项目 workspace.html">
+       05. 项目 workspace
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Description - 清洗与分析数据.html">
+       Project Description - 清洗与分析数据
+      </a>
+     </li>
+     <li class="">
+      <a href="Project Rubric - 清洗与分析数据.html">
+       Project Rubric - 清洗与分析数据
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          清洗与分析数据
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div>
+        <h2>
+         <p>
+          代码功能与可读性
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员的代码具有功能性
+            </p>
+           </td>
+           <td>
+            <p>
+             项目中的所有代码都包含在名为 wrangle_act.ipynb 的 Jupyter Notebook 中，并且代码在运行时没有出现错误。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             学员的代码具有可读性，具备良好的编码习惯。
+            </p>
+           </td>
+           <td>
+            <p>
+             Jupyter Notebook 具有直观清晰，易于遵循的逻辑结构。 该代码包含清晰有效的注释，并应用在 Jupyter Notebook 的 Markdown 单元格中。 数据清洗过程（即收集、评估和清理）的步骤也通过注释或 Markdown 单元格被清晰地标识出来。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          收集数据
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员能够从各种来源和文件格式中收集数据。
+            </p>
+           </td>
+           <td>
+            <p>
+             学员成功收集数据：
+            </p>
+            <ul>
+             <li>
+              <p>
+               在“项目详细信息”页面上使用至少三（3）个不同来源。
+              </p>
+             </li>
+             <li>
+              <p>
+               在“项目详细信息”页面上，使用至少三（3）种不同的文件格式。
+               <br/>
+               首先将每一条数据导入到一个单独的 pandas 数据框中。
+              </p>
+             </li>
+            </ul>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          评估数据
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员能够以可视化和编程方式评估数据的质量和整洁度。
+            </p>
+           </td>
+           <td>
+            <p>
+             学员评估使用了两种方式：
+            </p>
+            <ul>
+             <li>
+              <p>
+               可视化评估：每张收集的数据都显示在 Jupyter Notebook 中，以便进行可视化评估。 一旦显示出来，数据可以在外部应用程序（如 Excel，文本编辑器）中进行评估。
+              </p>
+             </li>
+             <li>
+              <p>
+               编程评估：使用 pandas 的功能和/或方法来评估数据。
+              </p>
+             </li>
+            </ul>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             学员能够彻底对数据集进行评估
+            </p>
+           </td>
+           <td>
+            <p>
+             学员能够检测到至少 八（8）个数据质量问题和两（2）个整洁度问题，包括待清理问题以满足项目要求。每一个问题用一到几句话记录下来。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          清理数据
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员根据数据清理过程中的步骤来逐步完成他们的清理工作。
+            </p>
+           </td>
+           <td>
+            <p>
+             清理过程中的定义，编码和测试步骤都有明确的记录。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             学员能够使用编程方式彻底清理数据集。
+            </p>
+           </td>
+           <td>
+            <p>
+             在清理之前，保存原始数据的副本。
+            </p>
+            <p>
+             （如果可能的话）评估阶段确定的所有问题都可以通过 Python 和 pandas 成功清理，并包括满足项目要求所需的清理任务。
+            </p>
+            <p>
+             学员需要创建一个整洁的主数据集（或者多个数据集，如果有必要的话）与所有收集的数据片段。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          存储并处理清洁过的数据
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员能够存储已经收集、评估并清理过的数据集。
+            </p>
+           </td>
+           <td>
+            <p>
+             学员将他们收集、评估和清理过的主数据集保存到 CSV 文件或 SQLite 数据库中。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             学生能够根据自己所掌握的数据采取行动来得出结论（例如通过分析，可视化和/或模型）。
+            </p>
+           </td>
+           <td>
+            <p>
+             使用 Jupyter Notebook 中的 pandas 或 SQL 分析主数据集，并生成至少三（3）个独立的结论。
+            </p>
+            <p>
+             在 Jupyter Notebook 中，使用 Python 绘图库或在 Tableau 中至少生成一（1）个标记的可视化对象。
+            </p>
+            <p>
+             学员必须在他们的清洗数据中明确他们之后分析和可视化所依据的数据是建立在评估和清理的基础上。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          报告
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员能够思考并描述他们的数据清洗过程。
+            </p>
+           </td>
+           <td>
+            <p>
+             学员需要言简意赅地介绍他们的数据清理。 这一文件（wrangle_report.pdf）大约只需要300-600字。
+            </p>
+           </td>
+          </tr>
+          <tr scope="row">
+           <td>
+            <p>
+             学员在他们清洗过的数据集中能够发现并描述出结论。
+            </p>
+           </td>
+           <td>
+            <p>
+             学员发现至少三（3）个结论，其中至少包含一个（1）可视化。这一文件（act_report.pdf）至少需要 250 个字。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div>
+        <h2>
+         <p>
+          项目文件
+         </p>
+        </h2>
+        <table class="table table-bordered table-hover">
+         <thead>
+          <tr class="thead-dark">
+           <th>
+            Criteria
+           </th>
+           <th>
+            Meet Specification
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr scope="row">
+           <td>
+            <p>
+             学员提交的文件夹中是否包含所有必需的文件？
+            </p>
+           </td>
+           <td>
+            <p>
+             提交的文件包括如下：
+            </p>
+            <ul>
+             <li>
+              wrangle_act.ipynb
+             </li>
+             <li>
+              wrangle_report.pdf
+             </li>
+             <li>
+              act_report.pdf
+             </li>
+            </ul>
+            <p>
+             并包括所有的数据集文件，如存储的主数据集，并使用在项目提交页面中指定的文件名和扩展名。
+            </p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div class="jumbotron">
+        <h3>
+         Tips to make your project standout:
+        </h3>
+        <p>
+         <ul>
+          <li>
+           评估和清理的问题超过规定的数目（质量和整洁问题分别为 8 个和 2 个）。
+          </li>
+          <li>
+           在 act_report.pdf 中，使用超出任何可视化效果的其他图像，使得此报告更具吸引力。 并尽可能详细地制作这份报告。
+          </li>
+          <li>
+           收集超出所需部分的额外数据。
+          </li>
+          <li>
+           创建一个模型，可以根据你清洗过的数据进行预测。
+          </li>
+         </ul>
+        </p>
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('清洗与分析数据')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

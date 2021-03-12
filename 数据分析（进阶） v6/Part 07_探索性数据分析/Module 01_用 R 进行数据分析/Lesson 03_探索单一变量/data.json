@@ -1,0 +1,1845 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178252,
+      "key": "755618712",
+      "title": "探索单一变量",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习如何使用直方图、箱线图和转换去量化和可视化一个数据集中的单一变量。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/755618712/178252/1516957270548/%E6%8E%A2%E7%B4%A2%E5%8D%95%E4%B8%80%E5%8F%98%E9%87%8F%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/755618712/178252/1516957194641/%E6%8E%A2%E7%B4%A2%E5%8D%95%E4%B8%80%E5%8F%98%E9%87%8F%20Subtitles.zip"
+          },
+          {
+            "name": "Lesson 3 Notes.pdf",
+            "uri": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/July/597ea968_lesson-3-notes/lesson-3-notes.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177367,
+          "key": "8140985950923",
+          "title": "欢迎！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140985950923",
+            "completed_at": "2019-03-10T04:24:15.414Z",
+            "last_viewed_at": "2019-03-10T04:24:15.231Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175148,
+              "key": "814098595",
+              "title": "欢迎！",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "如果你已熟练掌握基本的统计学概念（均值、中位数、箱线图和直方图）以及 R 中的 qplot 语法，你可以跳转至练习或下一节。",
+              "video": {
+                "youtube_id": "cCOHhYXU6G0",
+                "china_cdn_id": "cCOHhYXU6G0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177368,
+          "key": "8140985960923",
+          "title": "首先该做什么？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140985960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175149,
+              "key": "814098596",
+              "title": "首先该做什么？",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "TgAIx_NFaD8",
+                "china_cdn_id": "TgAIx_NFaD8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177369,
+          "key": "8140985970923",
+          "title": "伪 Facebook 用户数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140985970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175150,
+              "key": "814098597",
+              "title": "伪 Facebook 用户数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "点击<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/pseudo_facebook.tsv\" target=\"_blank\">下载伪 Facebook 数据集</a>！\n\n请在这个<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/lesson3_student.rmd\" target=\"_blank\">第 3 课 RMD 文件</a>中记录笔记，并和 Chris 一起编程！\n\n你还可以使用以下代码加载伪 Facebook 数据。\n\n`read.delim('pseudo_facebook.tsv')`\n\n`read.delim()` 函数默认使用制表符作为值之间的分隔符，并使用句点作为十进制字符。在控制台中运行 `?read.csv` 或 `?read.delim` 以了解更多信息。",
+              "video": {
+                "youtube_id": "8FD_iOP24UA",
+                "china_cdn_id": "8FD_iOP24UA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177371,
+          "key": "8140985980923",
+          "title": "用户生日直方图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140985980923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175151,
+              "key": "814098598",
+              "title": "用户生日直方图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "**注意**：视频中使用的 `scale_x_discrete()` 图层从 `ggplot2` 版本 2.0 开始被弃用。你可以改用 `scale_x_continuous()` 获得断点，或者使用下方的 `ggplot()` 语法。\n\n<a href=\"http://flowingdata.com/2014/02/27/how-to-read-histograms-and-use-them-in-r/\" target=\"_blank\">如何读懂直方图并在 R 中进行使用</a>（注意：这篇文章使用 R 的基本图形包来创建直方图，我们将在本课程中使用 ggplot2 图形包）\n\n在 R 中运行以下代码，获得其他主题。\n<br>\n`install.packages('ggthemes', dependencies = TRUE)`\n<br>\n`library(ggthemes)`\n<br>\nggthemes 包由 Jeffery Arnold 开发，在<a href=\"https://github.com/jrnold/ggthemes#examples\" target=\"_blank\">这个 GitHub 页面</a>可以找到更多示例。\n<br>\nChris 使用的是 `theme_minimal()`，字体大小为 24，所以他的输出可能会和你的有些许不同。你可以在 R 中使用以下代码使用和 Chris 一样的主题。当然你也可以使用自己的主题。\n<br>\n`theme_set(theme_minimal(24))`\n<br>\n<br>\n<br>\n除了 `qplot()` 函数，你也可以使用 `ggplot()` 函数创建直方图：\n<br>\n`ggplot(aes(x = dob_day), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram(binwidth = 1) +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(breaks = 1:31)`\n\n注册帐号时，很多网站会将你的生日默认为1号，甚至1月1号。对于 Facebook，他们的默认是1月1日。\n\n在探索数据时，留心这样的细节非常重要。",
+              "user_state": {
+                "node_key": "814098598",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "20aUUbuzALM",
+                  "china_cdn_id": "20aUUbuzALM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "用户生日直方图",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/48Zgc7b4Uu3Dd1KJhw0vNPSJaOUAx8CFqoRnZ7rEdAbotSy5GdOwrUzhHEvPlKx_VbR4ikF9BmNddDazcTpj=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098598",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "758878614",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "What do you notice in this histogram?",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.328159645232816,
+                      "width": 0.7356608478802993,
+                      "x": 0.1709008728179551,
+                      "y": 0.10365853658536585
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "mdCk7Gwkd4g",
+                  "china_cdn_id": "mdCk7Gwkd4g.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177370,
+          "key": "8140986010923",
+          "title": "Moira 的调查",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986010923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175152,
+              "key": "814098601",
+              "title": "Moira 的调查",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://hci.stanford.edu/publications/2013/invisibleaudience/invisibleaudience.pdf\" target=\"_blank\">Bernstein (M. S.)、Bakshy (E.)、Burke (M.) 和 Karrer (B.) (2013)。量化社交网络中的隐形受众。有关计算系统中人为因素的 SIGCHI 会议学报 (CHI 2013)，第 21 至 30 页</a>。",
+              "video": {
+                "youtube_id": "Mak839YmmrA",
+                "china_cdn_id": "Mak839YmmrA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177372,
+          "key": "8140986020923",
+          "title": "评估你的受众规模",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986020923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175153,
+              "key": "814098602",
+              "title": "评估你的受众规模",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "814098602",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "FfzVPWM5DZ8",
+                  "china_cdn_id": "FfzVPWM5DZ8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "评估你的受众规模",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Pt_2oRdPfBRUhQjrZxQUNxoIK-ej2NcmpqUCKMyOOpbsYkSLpjXRNwhXzFLDAy-crcR33Uz4-up4FraHSQ=s0#w=1283&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098602",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "814098604",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.2017738359201774,
+                      "width": 0.8291770573566085,
+                      "x": 0.024314214463840397,
+                      "y": 0.33858786031042126
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.08869179600886919,
+                      "width": 0.12718204488778054,
+                      "x": 0.851952150872818,
+                      "y": 0.5605945121951219
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.09090909090909091,
+                      "width": 0.10723192019950124,
+                      "x": 0.8193968204488778,
+                      "y": 0.6741962305986696
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177373,
+          "key": "8140986050923",
+          "title": "设想的受众规模",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175154,
+              "key": "814098605",
+              "title": "设想的受众规模",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://hci.stanford.edu/publications/2013/invisibleaudience/invisibleaudience.pdf\" target=\"_blank\">Bernstein (M. S.)、Bakshy (E.)、Burke (M.) 和 Karrer (B.) (2013)。量化社交网络中的隐形受众。有关计算系统中人为因素的 SIGCHI 会议学报 (CHI 2013)，第 21 至 30 页</a>。",
+              "video": {
+                "youtube_id": "zHnhKtVMhuc",
+                "china_cdn_id": "zHnhKtVMhuc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177376,
+          "key": "8099892470923",
+          "title": "分面",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8099892470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175155,
+              "key": "809989247",
+              "title": "分面",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "**注意**：视频中使用的 `scale_x_discrete()` 图层从 `ggplot2` 版本 2.0 开始被弃用。你可以改用 `scale_x_continuous()` 获得断点，或者使用下方的 `ggplot()` 语法。\n\nggplot2 中的<a href=\"http://www.cookbook-r.com/Graphs/Facets_(ggplot2)/\" target=\"_blank\">分面</a>\n<br>\n<br>\n等效的 ggplot 语法：\n<br>\n`ggplot(data = pf, aes(x = dob_day)) +`\n<br>\n&nbsp;&nbsp;`geom_histogram(binwidth = 1) + `\n<br>\n&nbsp;&nbsp;`scale_x_continuous(breaks = 1:31) + `\n<br>\n&nbsp;&nbsp;`facet_wrap(~dob_month)`\n\n最好是在你自己计算机上的 RStudio 中创建图形，然后全屏检查图形。",
+              "user_state": {
+                "node_key": "809989247",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "in2hLEl_eJU",
+                  "china_cdn_id": "in2hLEl_eJU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "分面",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/yIbPNHd_p52drwRYXjwiOmXdF9HY0qKmV4a65P5IT0LZgGD6h0P6WV4vqK1vfzDECmYPlfXchSTlsmn60A=s0#w=1276&h=721",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/809989247",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "809989248",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.1346153846153846,
+                      "width": 0.9022801302931596,
+                      "x": 0.06080347448425624,
+                      "y": 0.046153846153846156
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "x4V3IyECIN4",
+                  "china_cdn_id": "x4V3IyECIN4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177374,
+          "key": "8140986090923",
+          "title": "保持怀疑态度 异常值和异态",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986090923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175156,
+              "key": "814098609",
+              "title": "保持怀疑态度 异常值和异态",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://baike.baidu.com/item/Top-coded/20154991?noadapt=1\" target=\"_blank\">Top-coded dataset</a>是指超过上限的变量值会被修改的数据集。这么做往往是为了保留参与调查者的匿名性。",
+              "video": {
+                "youtube_id": "kAisC2wRGBU",
+                "china_cdn_id": "kAisC2wRGBU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177380,
+          "key": "8140986100923",
+          "title": "Moira 的异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986100923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175161,
+              "key": "814098610",
+              "title": "Moira 的异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://hci.stanford.edu/publications/2013/invisibleaudience/invisibleaudience.pdf\" target=\"_blank\">Bernstein (M. S.)、Bakshy (E.)、Burke (M.) 和 Karrer (B.) (2013)。量化社交网络中的隐形受众。有关计算系统中人为因素的 SIGCHI 会议学报 (CHI 2013)，第 21 至 30 页</a>。\n\n注意：此研究仅调查带有“朋友”隐私设置，而非“公开”隐私设置的帖子。",
+              "user_state": {
+                "node_key": "814098610",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Oyo2HOJstCs",
+                  "china_cdn_id": "Oyo2HOJstCs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Moira 的异常值",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/IX9Xi2JaJg7nTdlJnJMEevRMa-c1SZsu0p1oADQQw-PUDboHOB0rt3hoTC_eBgG0pXq4cQfx-jZ4JpOtYKo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098610",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "814098612",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2888165038002172,
+                      "y": 0.4594594594594595
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2899022801302932,
+                      "y": 0.5656370656370656
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2909880564603692,
+                      "y": 0.6698841698841699
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "vxS-Kh4eI0U",
+                  "china_cdn_id": "vxS-Kh4eI0U.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177375,
+          "key": "8140986140923",
+          "title": "好友数量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986140923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175157,
+              "key": "814098614",
+              "title": "好友数量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "使用 qplot 语法创建 friend_count 直方图。你可以使用你熟悉的 ggplot 语法，但是你不能使用用于设置组宽或颜色的其他参数。请保持答案简洁明了。\n<br>\n<br>\n你应先在自己计算机上的 R Studio 中创建直方图。然后，复制并粘贴你的代码至 {r} 区块。\n<br>\n<br>\n记得向名字为 `pf` 的变量加载伪 Facebook 数据集。否则评分工具将驳回答案。\n\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = friend_count), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram()`",
+              "user_state": {
+                "node_key": "814098614",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "gydx9-h1liU",
+                  "china_cdn_id": "gydx9-h1liU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "好友数量",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/8dfRVtGB2s9aomgPtruEJKfRp9_jVpXXq6DCJSiuAbWVU0hC0RDW5xaZWS5r_3Hc9RNwBeXqUaKlsl6UNMU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098614",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "814098616",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.25942350332594233,
+                      "width": 0.8653366583541147,
+                      "x": 0.08467113466334164,
+                      "y": 0.5914980598669624
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.8653366583541147,
+                      "x": 0.08451527431421446,
+                      "y": 0.36848669623059865
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "GsSoLVhZPnA",
+                  "china_cdn_id": "GsSoLVhZPnA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177377,
+          "key": "8140986180923",
+          "title": "限制轴",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986180923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175158,
+              "key": "814098618",
+              "title": "限制轴",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://docs.ggplot2.org/current/scale_continuous.html\" target=\"_blank\">ggplot2 中的标尺</a>\n<br>\n<br>\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = friend_count), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram() +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(limits = c(0, 1000))`",
+              "video": {
+                "youtube_id": "1W3QAzrybMk",
+                "china_cdn_id": "1W3QAzrybMk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177378,
+          "key": "8140986190923",
+          "title": "利用组宽进行探索",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175159,
+              "key": "814098619",
+              "title": "利用组宽进行探索",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://hci.stanford.edu/publications/2013/invisibleaudience/invisibleaudience.pdf\" target=\"_blank\">Bernstein (M. S.)、Bakshy (E.)、Burke (M.) 和 Karrer (B.) (2013)。量化社交网络中的隐形受众。有关计算系统中人为因素的 SIGCHI 会议学报 (CHI 2013)，第 21 至 30 页</a>。",
+              "video": {
+                "youtube_id": "TYN_LGAV3m8",
+                "china_cdn_id": "TYN_LGAV3m8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177381,
+          "key": "8140986200923",
+          "title": "调整组宽",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986200923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175160,
+              "key": "814098620",
+              "title": "调整组宽",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "你会在下方代码中添加什么代码，以按性别构建好友数直方图分面？\n在你本地电脑上的 RStudio 中创建分面的直方图。你是否成功创建了此图？\n\n<a href=\"http://docs.ggplot2.org/current/scale_continuous.html\" target=\"_blank\">ggplot2 中的标尺</a>\n<br>\n<br>\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = friend_count), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram(binwidth = 25) +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50))`\n\n`qplot(x = friend_count, data = pf, binwidth = 25) +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50))`\n\n在以下的可选解决方案的 `facet_grid()` 公式中，句点代表数据集中的其他所有变量，这一符号实质上根据性别拆分数据，并且生成三个直方图，每个图都有自己的行。\n<br>\n`qplot(x = friend_count, data = pf) +`\n<br>\n&nbsp;&nbsp;`facet_grid(. ~ gender)`\n<br>\n<br>\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = friend_count), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram() +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +`\n<br>\n&nbsp;&nbsp;`facet_wrap(~gender)`",
+              "user_state": {
+                "node_key": "814098620",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "AY5nywPa3GI",
+                  "china_cdn_id": "AY5nywPa3GI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "调整组宽",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/oEHgfARPFJtnxqyu4ekAJnBT5ATGJGzUzgjumvnHZBbb5qoC7yDXNHXDlReSAKq1XsMeaLv3j35xOP_tRiBW=s0#w=1344&h=817",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098620",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "811278704",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.29299797381546133,
+                      "y": 0.787035753880266
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5068773379052369,
+                      "y": 0.787035753880266
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "VyYQPDw7w3Y",
+                  "china_cdn_id": "VyYQPDw7w3Y.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177379,
+          "key": "8140986230923",
+          "title": "忽略 NA 观测值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986230923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175162,
+              "key": "814098623",
+              "title": "忽略 NA 观测值",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.statmethods.net/input/missingdata.html\" target=\"_blank\">NA 值</a>\n<br>\n<br>\n感叹号为何被称为 <a href=\"http://english.stackexchange.com/questions/62918/why-is-the-exclamation-mark-called-a-bang\" target=\"_blank\">bang</a>？\n<br>\n<br>\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = friend_count), data = subset(pf, !is.na(gender))) +`\n<br>\n&nbsp;&nbsp;`geom_histogram() +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +`\n<br>\n&nbsp;&nbsp;`facet_wrap(~gender)`",
+              "video": {
+                "youtube_id": "SdYtgaZ5riY",
+                "china_cdn_id": "SdYtgaZ5riY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177382,
+          "key": "8140986240923",
+          "title": "按性别“划分”的统计学",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175163,
+              "key": "814098624",
+              "title": "按性别“划分”的统计学",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "814098624",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "GTLvqNrAETc",
+                  "china_cdn_id": "GTLvqNrAETc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "按性别“划分”的统计学",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/V0WiuFPrEgUrQTnEDWjB5Ud5q5JBL9PTYO49PNK5VfOlk6tK0csSc2x1llcq2W9057NEonHifPMAPBwJTOzP=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098624",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "829028854",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.12252571695760599,
+                      "y": 0.3742031596452328
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2604231608478803,
+                      "y": 0.3742031596452328
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.11097256857855362,
+                      "x": 0.2637936408977556,
+                      "y": 0.48898281596452325
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.14634146341463414,
+                      "width": 0.470074812967581,
+                      "x": 0.07257247506234414,
+                      "y": 0.5945814855875832
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "VkQwfVQ00EQ",
+                  "china_cdn_id": "VkQwfVQ00EQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177384,
+          "key": "8140986270923",
+          "title": "使用时长",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986270923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175164,
+              "key": "814098627",
+              "title": "使用时长",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "   使用 pf 数据集创建一个年龄直方图。你需要调整柱宽、柱间距和标签。\n   在直方图中寻找模式或奇异之处。\n   在你的本地计算机上的 RStudio 中创建年龄直方图。你是否成功创建了该图？\n\n参数 `color` 决定了图中对象的轮廓线颜色（color outline）。\n<br>\n<br>\n参数 `fill` 决定了图中对象内的区域（area）颜色。\n<br>\n<br>\n你可能注意到颜色 `black` 和<a href=\"http://en.wikipedia.org/wiki/Web_colors\" target=\"_blank\">十六进制代码</a>的颜色 `#099DD9`（一种蓝色阴影）如何封装在 `I()` 内。`I()` 函数代表“现状”，并且告诉 qplot 将它们用作颜色。\n<br>\n<br>\n有关你可以在图形中调整的内容的更多信息，请阅读 <a href=\"http://docs.ggplot2.org/0.9.2.1/theme.html\">ggplot 主题文档</a>\n<br>\n<br>\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = tenure), data = pf) +`\n<br>\n&nbsp;&nbsp;\n`geom_histogram(binwidth = 30, color = 'black', fill = '#099DD9')`\n\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = tenure/365), data = pf) +`\n<br>\n&nbsp;&nbsp;\n`geom_histogram(binwidth = .25, color = 'black', fill = '#F79420')`",
+              "user_state": {
+                "node_key": "814098627",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "jKZAcZw9xLA",
+                  "china_cdn_id": "jKZAcZw9xLA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "使用时长（年）直方图",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/wqRrI7c9hH9QQaZSeyXo6vprdeB_RubVFKwNoKkg6aACAtwqigfIQQBwVRkq3Eyu1-5OKi11IdYXqjHmEg=s0#w=1344&h=816",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098627",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "805609565",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2953311617806732,
+                      "y": 0.774597495527728
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.50814332247557,
+                      "y": 0.774597495527728
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "095MTpItufM",
+                  "china_cdn_id": "095MTpItufM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177383,
+          "key": "8140986300923",
+          "title": "标记图形",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175165,
+              "key": "814098630",
+              "title": "标记图形",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = tenure / 365), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram(color = 'black', fill = '#F79420') +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(breaks = seq(1, 7, 1), limits = c(0, 7)) +`\n<br>\n&nbsp;&nbsp;`xlab('Number of years using Facebook') +`\n<br>\n&nbsp;&nbsp;`ylab('Number of users in sample')`",
+              "video": {
+                "youtube_id": "llvIDIu3Sw8",
+                "china_cdn_id": "llvIDIu3Sw8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177385,
+          "key": "8140986310923",
+          "title": "用户年龄",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986310923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175166,
+              "key": "814098631",
+              "title": "用户年龄",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "   使用 pf 数据集创建一个年龄直方图。你需要调整柱宽、柱间距和标签。\n   在直方图中寻找模式或奇异之处。\n   在你的本地计算机上的 RStudio 中创建年龄直方图。你是否成功创建了该图？\n\n注意：视频中使用的 `scale_x_discrete()` 图层从 ggplot2 版本 2.0 开始被弃用。你可以改用 `scale_x_continuous()` 获得断点，或者使用下方显示的 `ggplot()` 语法。\n\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = age), data = pf) +`\n<br>\n&nbsp;&nbsp;`geom_histogram(binwidth = 1, fill = '#5760AB') +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(breaks = seq(0, 113, 5))`",
+              "user_state": {
+                "node_key": "814098631",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "BmGqdHagFQk",
+                  "china_cdn_id": "BmGqdHagFQk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "用户年龄",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/fdU9FeZwY4hWW8H0KzLltwN_seicVzQrm1fVKkmRZthrZEm6H-uBw5h1ArfBVqaDHEE4mXS0kjd-euhlPw=s0#w=1344&h=815",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098631",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "828308621",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2942453854505972,
+                      "y": 0.7736185383244206
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.509229098805646,
+                      "y": 0.7718360071301248
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Gl6anQql914",
+                  "china_cdn_id": "Gl6anQql914.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177387,
+          "key": "8140986340923",
+          "title": "模因的传播",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986340923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175167,
+              "key": "814098634",
+              "title": "模因的传播",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "B-khnSU3DfM",
+                "china_cdn_id": "B-khnSU3DfM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177386,
+          "key": "8140986350923",
+          "title": "Lada 的钱袋模因",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175168,
+              "key": "814098635",
+              "title": "Lada 的钱袋模因",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "有关 <a href=\"http://www.ladamic.com/\" target=\"_blank\">Lada Adamic</a> 及其工作的更多信息，请访问她的网站。",
+              "video": {
+                "youtube_id": "Isa_FGQrvgs",
+                "china_cdn_id": "Isa_FGQrvgs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177389,
+          "key": "8140986360923",
+          "title": "转换数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986360923",
+            "completed_at": "2019-03-10T04:24:19.509Z",
+            "last_viewed_at": "2019-03-10T04:24:19.324Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175170,
+              "key": "814098636",
+              "title": "转换数据",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 了解如何使用刻度以及如何使用讲师注释中的链接在一个页面上创建多个图。\n 你还需要安装和加载安装包 gridExtra。\n 创建包含以下三个直方图的 1 个列：\n\n\t•\t好友数\n\t•\t使用 log10 转化的好友数\n\t•\t使用 sqrt 转化的好友数\n\n 你是否成功在 RStudio 的绘图窗口成功创建了这 3 个图？\n\nChris 在大约 0:25 处提到数据是过度离散的。“过度离散”总是相对于某些特定的假定分布。例如，数据与带有该均值的泊松分布相比，可能是过度离散的。\n\n<a href=\"http://lightonphiri.org/blog/ggplot2-multiple-plots-in-one-graph-using-gridextra\" target=\"_blank\">在一个图像输出内创建多个图形</a>\n\n<a href=\"http://docs.ggplot2.org/current/scale_continuous.html\" target=\"_blank\">向一个轴添加对数或 Sqrt 标尺</a>\n\n<a href=\"http://en.wikipedia.org/wiki/Linear_regression#Assumptions\" target=\"_blank\">线性回归的假设</a>\n\n<a href=\"http://en.wikipedia.org/wiki/Normal_distribution\" target=\"_blank\">正态分布</a>\n\n在一个图中创建所有三个直方图之前，你需要运行以下代码：\n<br>\n<br>\n`install.packages('gridExtra')`\n<br>\n`library(gridExtra)`\n<br>\n<br>\n<a href=\"http://www.r-statistics.com/2013/05/log-transformations-for-skewed-and-wide-distributions-from-practical-data-science-with-r/\" target=\"_blank\">数据的对数转换</a>",
+              "user_state": {
+                "node_key": "814098636",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5571wc0iWCI",
+                  "china_cdn_id": "5571wc0iWCI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "转换数据",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/YDSWUwBt_8jxr5qOWMNBNjKEnSVdJ0at1BK51SRG3RGQJxmAr952gy36oNKLGVHPyepAY2l0r5qrY-PrS9k=s0#w=1344&h=815",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098636",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "805618659",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2964169381107492,
+                      "y": 0.8010752688172043
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.510314875135722,
+                      "y": 0.8010752688172043
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "0L3Obq4FSVQ",
+                  "china_cdn_id": "0L3Obq4FSVQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177388,
+          "key": "8140986390923",
+          "title": "添加定标层",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986390923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175169,
+              "key": "814098639",
+              "title": "添加定标层",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "等效的 ggplot 代码：\n\n<br>\n\n`ggplot(aes(x = friend_count), data = pf) + scale_x_log10()`",
+              "video": {
+                "youtube_id": "SsNYXdi3q-I",
+                "china_cdn_id": "SsNYXdi3q-I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177394,
+          "key": "8140986400923",
+          "title": "频率多边形",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986400923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175175,
+              "key": "814098640",
+              "title": "频率多边形",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 使用频数多边形确定哪个性别在万维网 (www_likes) 上获得的点赞数量更多。你的第一个图不必是定稿。你可以不断调整 x 轴上的界限和间距，直到你满意。\n在你本地电脑上的 RStudio 中创建频数多边形。你是否成功创建了该图？\n\n请注意，频率多边形的形状取决于我们如何设置箱子 — 在独立的直方图中，线条的高度与条形的高度相同，但线条更容易进行比较，因为它们都在同一轴上。\n\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = friend_count, y = ..count../sum(..count..)), data = subset(pf, !is.na(gender))) +`\n<br>\n&nbsp;&nbsp;`geom_freqpoly(aes(color = gender), binwidth=10) +`\n<br>\n&nbsp;&nbsp;`scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +`\n<br>\n&nbsp;&nbsp;`xlab('好友数量') +`\n<br>\n&nbsp;&nbsp;`ylab('Percentage of users with that friend count')`\n\n请注意，sum(..count..) 将跨颜色进行总计，因此，显示的百分比是总用户数的百分比。要在每个组内绘制百分比，你可以尝试\n\n`y = ..density..`.\n\n等效的 ggplot 语法：\n<br>\n`ggplot(aes(x = www_likes), data = subset(pf, !is.na(gender))) +`\n<br>\n&nbsp;&nbsp;`geom_freqpoly(aes(color = gender)) +`\n<br>\n&nbsp;&nbsp;`scale_x_log10()`",
+              "user_state": {
+                "node_key": "814098640",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "v4UGBUB6jO4",
+                  "china_cdn_id": "v4UGBUB6jO4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "频率多边形",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/RNKLfhvFWrum4P9c69cmTy3djFfp31EjV-YkuLEEuMhgSGGO896eaB1dHlAnlpYejLh5OGoSQjsaFI_UEx8=s0#w=1345&h=817",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098640",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "834268560",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.294400716957606,
+                      "y": 0.7022588691796009
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5081242206982544,
+                      "y": 0.7026746119733924
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "bDRGbJP7YMY",
+                  "china_cdn_id": "bDRGbJP7YMY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177393,
+          "key": "8140986430923",
+          "title": "网页端上的“点赞”数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175171,
+              "key": "814098643",
+              "title": "网页端上的“点赞”数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "第一个问题是：在整个数据集中，对于男性有多少个 www_likes？\n\n第二个问题是：哪个性别的 www_likes 总数更多？",
+              "user_state": {
+                "node_key": "814098643",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "stpXFmv_XrA",
+                  "china_cdn_id": "stpXFmv_XrA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "网页端上的“点赞”数",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/tTAVTrRYBt7x5gY0Pi2Fh1qg04A-sfZ_P3bWRY4NoukrL0TKPZyodIrsiNKQdV2CjBeSkU5rDRDFVy8tP6c=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098643",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "814098645",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07982261640798226,
+                      "width": 0.26184538653366585,
+                      "x": 0.17247895885286782,
+                      "y": 0.40236973392461195
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10692019950124688,
+                      "y": 0.5450734478935698
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.21851620947630923,
+                      "y": 0.5450734478935698
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "nqMT8qTmQPY",
+                  "china_cdn_id": "nqMT8qTmQPY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177390,
+          "key": "8140986470923",
+          "title": "箱线图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175172,
+              "key": "814098647",
+              "title": "箱线图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "调整箱线图的代码，重点突出我们的样本中好友数量在 0 至 1000 之间的用户。\n在你本地计算机上的 RStudio 中创建更新的箱线图。你是否成功创建了该图\n\n<a href=\"http://flowingdata.com/2008/02/15/how-to-read-and-use-a-box-and-whisker-plot/\" target=\"_blank\">如何读懂并使用箱线图</a>\n\nThe <a href=\"http://en.wikipedia.org/wiki/Interquartile_range\" target=\"_blank\">四分位数间距或 IQR</a> 包含箱线图中箱体底部到顶部的所有值。\n\n<a href=\"http://en.wikipedia.org/wiki/File:Boxplot_vs_PDF.svg\" target=\"_blank\">可视化</a>，通过 <span class=\"mathquill\">\\mu=1</span> 和 <span class=\"mathquill\">\\sigma^2=1</span> 的正态概率分布函数实现 (pdf)。\n\n<a href=\"https://classroom.udacity.com/courses/ud827/lessons/1471748603/concepts/834179180923\" target=\"_blank\">描述性统计练习简介：匹配箱线图</a>",
+              "user_state": {
+                "node_key": "814098647",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "c-v-Xa_R4SA",
+                  "china_cdn_id": "c-v-Xa_R4SA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "箱线图",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/fJ3YFdBHfwRkqJ2nxNypuU3OPyL3Ov4Sjd7eV3wfJqwZYop6erUBgseSMVLyx69BwzD7spphk4ooWsiMXQ=s0#w=1344&h=815",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098647",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "805459084",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2964169381107492,
+                      "y": 0.8035714285714286
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.509229098805646,
+                      "y": 0.8017753136200717
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Hk26Zn3xQEY",
+                  "china_cdn_id": "Hk26Zn3xQEY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177392,
+          "key": "8140986500923",
+          "title": "好友分析中的箱线图、四分位数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175173,
+              "key": "814098650",
+              "title": "箱线图、四分位数和友谊",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://flowingdata.com/2008/02/15/how-to-read-and-use-a-box-and-whisker-plot/\" target=\"_blank\">如何解释箱线图</a>\n\n<a href=\"http://en.wikipedia.org/wiki/Interquartile_range\" target=\"_blank\">四分位数间距或者 IQR</a> 包含箱线图中箱子底部到顶部之间的所有值。\n\n屏幕上有一个错误。问题应该是：“谁发起了更多的交友请求，男士还是女士？”",
+              "user_state": {
+                "node_key": "814098650",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CPDMSJEH16s",
+                  "china_cdn_id": "CPDMSJEH16s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "箱线图、四分位数和友谊",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/nyR11JfnmPVZ3dyeTKmv9IZ8nB4dPYHtNgAdiOhfhT6vo2sOXpR_87fGvMVH4PD34eLsQZtYR2cjMbNhHCT1=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098650",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "814098652",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1041731608478803,
+                      "y": 0.5544623059866962
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23121882793017456,
+                      "y": 0.5566796008869179
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.25277161862527714,
+                      "width": 0.9189526184538653,
+                      "x": 0.0668640897755611,
+                      "y": 0.6831347006651884
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ykFuZOPCU88",
+                  "china_cdn_id": "ykFuZOPCU88.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177391,
+          "key": "8140986540923",
+          "title": "符合逻辑",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986540923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175174,
+              "key": "814098654",
+              "title": "符合逻辑",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "在 1:05 处，第 521 行代码应为 `pf$mobile_check_in <- NA`。其作用是在带有 NA 值的数据框中创建一个新的变量。\n<br>\n<br>\n输入的答案不要包含 % 符号。\n<br>\n<br>\n由于 `mobile_check_in` 是一个因子变量，因此 `sum()` 函数将无法运行。你可以使用 `length()` 函数来确定向量中的值数量。\n\n我们还可以创建 `mobile_check_in` 来保存布尔值。`sum()` 函数可处理布尔值（true 为 1，false 为 0）。",
+              "user_state": {
+                "node_key": "814098654",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "TjY0Q66Yh-s",
+                  "china_cdn_id": "TjY0Q66Yh-s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "符合逻辑",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/5266lM_HDAU8w0IUEaznfwNoFj1r-phEVfYXF-sn7b5TpobEVZjOjOS1_v8O3oTdNIEIr8ayNGSMs7ZjfPo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098654",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "814098656",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07356608478802992,
+                      "x": 0.32950826059850374,
+                      "y": 0.47602549889135254
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "52o_ZtwFuXE",
+                  "china_cdn_id": "52o_ZtwFuXE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177396,
+          "key": "8140986580923",
+          "title": "分析单一变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8140986580923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175176,
+              "key": "814098658",
+              "title": "分析单一变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "814098658",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "yqwCYeaQAl0",
+                  "china_cdn_id": "yqwCYeaQAl0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "分析单一变量",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/ZfWYA9CuQKrEMDDn3in5IKP-Z1k0H-Rgi56TAx297V2QkrcZ8q-tzbOb03bY4GSxhnmpjdY-C8HywaLTfg=s0#w=1266&h=728",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/814098658",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "807038697",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.5277161862527716,
+                      "width": 0.9077306733167082,
+                      "x": 0.048199812967581045,
+                      "y": 0.4151884700665188
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "oZY94XjiCvM",
+                  "china_cdn_id": "oZY94XjiCvM.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

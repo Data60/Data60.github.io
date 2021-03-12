@@ -1,0 +1,1469 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178258,
+      "key": "755209509",
+      "title": "钻石与价格预测",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "与 Facebook 数据科学家 Solomon Messing 一起探索钻石数据集。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/755209509/178258/1516957725295/%E9%92%BB%E7%9F%B3%E4%B8%8E%E4%BB%B7%E6%A0%BC%E9%A2%84%E6%B5%8B%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/755209509/178258/1516957666084/%E9%92%BB%E7%9F%B3%E4%B8%8E%E4%BB%B7%E6%A0%BC%E9%A2%84%E6%B5%8B%20Subtitles.zip"
+          },
+          {
+            "name": "Lesson 6 Notes.pdf",
+            "uri": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/July/597eaa35_lesson-6-notes/lesson-6-notes.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177495,
+          "key": "8624987240923",
+          "title": "欢迎！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175276,
+              "key": "862498724",
+              "title": "欢迎！",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "请在这个<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/lesson6_student.rmd\" target=\"_blank\">第 6 课 RMD 文件</a>中记录笔记，并和 Solomon 一起编程！",
+              "video": {
+                "youtube_id": "KJT4Z0xpHns",
+                "china_cdn_id": "KJT4Z0xpHns.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177496,
+          "key": "55086510590923",
+          "title": "线性回归模型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "55086510590923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175277,
+              "key": "5508651059",
+              "title": "线性回归模型",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 线性回归模型\n\n在本课中，Solomon 将使用线性回归模型，通过钻石数据集中的其他变量预测钻石价格。如果你不熟悉线性回归，你可能先学习介绍线性回归的“[推论统计学入门](https://cn.udacity.com/course/intro-to-inferential-statistics--ud201/)”课程的第 15 课。在你完成学习后，你就可以回到此处，将获得的新知识运用到钻石数据集中！",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 177497,
+          "key": "8624987250923",
+          "title": "散点图回顾",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987250923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175278,
+              "key": "862498725",
+              "title": "散点图回顾",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "请在这个<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/lesson6_student.rmd\" target=\"_blank\">第 6 课 RMD 文件</a>中记录笔记，并和 Solomon 一起编程！\n\n提示：在 `xlim` 和 `ylim` 中使用 `quantile()` 函数，以忽略每个变量前 1% 的值。",
+              "user_state": {
+                "node_key": "862498725",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "W96zaGEma7o",
+                  "china_cdn_id": "W96zaGEma7o.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "散点图回顾",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "866948898",
+                "initial_code_files": [
+                  {
+                    "text": "# Let's start by examining two variables in the data set.\n# The scatterplot is a powerful tool to help you understand\n# the relationship between two continuous variables.\n\n# We can quickly see if the relationship is linear or not.\n# In this case, we can use a variety of diamond\n# characteristics to help us figure out whether\n# the price advertised for any given diamond is \n# reasonable or a rip-off.\n\n# Let's consider the price of a diamond and it's carat weight.\n# Create a scatterplot of price (y) vs carat weight (x).\n\n# Limit the x-axis and y-axis to omit the top 1% of values.\n\n# ENTER YOUR CODE BELOW THIS LINE\n# ================================================================\n",
+                    "name": "scatterplotReview.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "e_8DmUBHAao",
+                  "china_cdn_id": "e_8DmUBHAao.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177499,
+          "key": "8624987280923",
+          "title": "价格与克拉的关系",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987280923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175279,
+              "key": "862498728",
+              "title": "价格与克拉的关系",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "862498728",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "gG4xwgj1yVA",
+                  "china_cdn_id": "gG4xwgj1yVA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与克拉的关系",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/A52ZdU52cS2XeajQYvUp8dOVKJ-Aw80AdLJHO1NUOzQ460P2kG6vbME_1W5Agi_1bo7iRgzJO7utsxQrvurP=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498728",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "868059009",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.3764478764478765,
+                      "width": 0.3550488599348534,
+                      "x": 0.5700325732899023,
+                      "y": 0.5308880308880309
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "b0oOWFDz9UQ",
+                  "china_cdn_id": "b0oOWFDz9UQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177498,
+          "key": "8624987310923",
+          "title": "Frances Gerety",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987310923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175280,
+              "key": "862498731",
+              "title": "Frances Gerety",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.theatlantic.com/magazine/archive/1982/02/have-you-ever-tried-to-sell-a-diamond/304575/2\" target=\"_blank\">你卖过钻石吗？</a>\n\n<a href=\"http://en.wikipedia.org/wiki/De_Beers#Diamond_monopoly\" target=\"_blank\">De Beers 的钻石垄断</a>",
+              "user_state": {
+                "node_key": "862498731",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "GXT_vXBA0vQ",
+                  "china_cdn_id": "GXT_vXBA0vQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Frances Gerety",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/bO8LXyM9EaUcqsNOmH8GLd_BkXuA-mGd7ILYVuU3EKYmFbaUbxC-G7oAbIE2bcB34pZxZ05dIfUel653oGYn=s0#w=1278&h=738",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498731",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "888998550",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.1197339246119734,
+                      "width": 0.46758104738154616,
+                      "x": 0.2673979114713217,
+                      "y": 0.6297810421286031
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "n9heeZ1Dw8A",
+                  "china_cdn_id": "n9heeZ1Dw8A.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177500,
+          "key": "8624987340923",
+          "title": "钻石的崛起",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987340923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175281,
+              "key": "862498734",
+              "title": "钻石的崛起",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "基督山伯爵和一夜大肚是两部求婚时没有订婚戒指的电影。\n\n我想了很长时间才想起这两部电影。你还能想到别的电影吗？如果能，请在论坛分享！",
+              "video": {
+                "youtube_id": "MD9RIDRVc-A",
+                "china_cdn_id": "MD9RIDRVc-A.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177501,
+          "key": "8624987350923",
+          "title": "ggpairs 函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175282,
+              "key": "862498735",
+              "title": "ggpairs 函数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "`ggpairs` 函数的“params”参数用于改变在图形矩阵中绘制的点的形状，以便更容易查看这些点。GGally 1.0 改变了这些绘图参数的语法，使它们不再是 params 参数的一部分，而是让用户能如下所示指定这些参数：\n\n`ggpairs(diamond_samp,`\n<br>\n&nbsp;&nbsp;`lower = list(continuous = wrap(\"points\", shape = I('.'))),`\n<br>\n&nbsp;&nbsp;`upper = list(combo = wrap(\"box\", outlier.shape = I('.'))))`\n\n你可以单击RStudio中的包选项卡以确定已安装的包。\n\n\n在这个视频中，Solomon 使用`plyr`包。 我们使用`dplyr`包来操作数据框，并在整个课程中创建新的数据框。 `dplyr`是`plyr`的最新版本，专门用于处理数据帧。\n\n同样，我们使用`reshape2`包，这是`reshape`包的最新版本。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ud651/ggpairs_landscape.pdf\" target=\"_blank\"> ggpairs输出</a>\n\n当你在本地机器上复制绘图矩阵时，你可能希望在`ggpairs`函数调用过程中添加一个`axisLabels ='internal'`参数，使变量名在矩阵的对角线上而不是在外面。",
+              "user_state": {
+                "node_key": "862498735",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "iJEBxsKDDoE",
+                  "china_cdn_id": "iJEBxsKDDoE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "ggpairs 函数",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/FmctNC_uU9-_lrZS6fmrBbhmSJDRAk9HSLJKwT7kblu_wf_cva4LZN_b2XBStJ4XWj1EINuTqjp9WWkWzA=s0#w=1278&h=733",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498735",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "866638906",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.4185606060606061,
+                      "width": 0.9630836047774158,
+                      "x": 0.016286644951140065,
+                      "y": 0.5473484848484849
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XUZIGbX3JIg",
+                  "china_cdn_id": "XUZIGbX3JIg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177505,
+          "key": "8675788300923",
+          "title": "对钻石的需求",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8675788300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175283,
+              "key": "867578830",
+              "title": "对钻石的需求",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.r-statistics.com/2013/05/log-transformations-for-skewed-and-wide-distributions-from-practical-data-science-with-r/\" target=\"_blank\">对数转换</a>",
+              "user_state": {
+                "node_key": "867578830",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "h-YgETh80h4",
+                  "china_cdn_id": "h-YgETh80h4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "对钻石的需求",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "881779325",
+                "initial_code_files": [
+                  {
+                    "text": "# Create two histograms of the price variable\n# and place them side by side on one output image.\n\n# We’ve put some code below to get you started.\n\n# The first plot should be a histogram of price\n# and the second plot should transform\n# the price variable using log10.\n\n# Set appropriate bin widths for each plot.\n# ggtitle() will add a title to each histogram.\n\n# You can self-assess your work with the plots\n# in the solution video.\n\n# ALTER THE CODE BELOW THIS LINE\n# ==============================================\n\nlibrary(gridExtra)\n\nplot1 <- qplot() + \n  ggtitle('Price')\n\nplot2 <- qplot() +\n  ggtitle('Price (log10)')\n\ngrid.arrange()",
+                    "name": "demandOfDiamonds.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "y8g6YeD7Gyk",
+                  "china_cdn_id": "y8g6YeD7Gyk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177502,
+          "key": "8624987380923",
+          "title": "将需求与价格分布联系起来",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987380923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175284,
+              "key": "862498738",
+              "title": "将需求与价格分布联系起来",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "862498738",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Rj6g9jpX9MQ",
+                  "china_cdn_id": "Rj6g9jpX9MQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "将需求与价格分布联系起来",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/vp6hJDXTlrpfcoD2UryUz1haR1KPjVxQ-jq6jlZBoCrl45XfVEsbzEjQIeV2cezPCrQMQJMFvoAaNUiA07NN=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498738",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "864218870",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.17738359201773837,
+                      "width": 0.8503740648379052,
+                      "x": 0.08686210640608034,
+                      "y": 0.7760617760617761
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_HWtxJRaawA",
+                  "china_cdn_id": "_HWtxJRaawA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177504,
+          "key": "8624987410923",
+          "title": "散点图转换",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175285,
+              "key": "862498741",
+              "title": "散点图转换",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://www.youtube.com/watch?v=Z1wB1rHAYzQ&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP\" target=\"_blank\">函数的基本结构</a>",
+              "video": {
+                "youtube_id": "h1wbEPuADz0",
+                "china_cdn_id": "h1wbEPuADz0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177503,
+          "key": "8624987420923",
+          "title": "复习过度绘制",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987420923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175286,
+              "key": "862498742",
+              "title": "复习过度绘制",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "\n提示 1：在文档中查找 `geom_point()`。\n\n提示 2：你需要为 `geom_point()` 中的 `alpha`、`size` 和 `position` 调整参数。\n\n提示 3：要抖动散点，请将 `position` 设置为等于“jitter”。",
+              "user_state": {
+                "node_key": "862498742",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "P6ZOr7JiMLk",
+                  "china_cdn_id": "P6ZOr7JiMLk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "复习过度绘制",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "874578704",
+                "initial_code_files": [
+                  {
+                    "text": "# Add a layer to adjust the features of the\n# scatterplot. Set the transparency to one half,\n# the size to three-fourths, and jitter the points.\n\n# If you need hints, see the Instructor Notes.\n# There are three hints so scroll down slowly if\n# you don’t want all the hints at once.\n\n# ALTER THE CODE BELOW THIS LINE\n# =======================================================================\n\nggplot(aes(carat, price), data = diamonds) + \n  geom_point() + \n  scale_x_continuous(trans = cuberoot_trans(), limits = c(0.2, 3),\n                     breaks = c(0.2, 0.5, 1, 2, 3)) + \n  scale_y_continuous(trans = log10_trans(), limits = c(350, 15000),\n                     breaks = c(350, 1000, 5000, 10000, 15000)) +\n  ggtitle('Price (log10) by Cube-Root of Carat')",
+                    "name": "overplottingRevisited.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "AvokBc1DoEU",
+                  "china_cdn_id": "AvokBc1DoEU.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177506,
+          "key": "8646391360923",
+          "title": "定性因子的绘制颜色",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8646391360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175287,
+              "key": "864639136",
+              "title": "定性因子的绘制颜色",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.bluenile.com/diamonds/diamond-cut\" target=\"_blank\">什么使钻石闪闪发亮？</a>\n\n<a href=\"http://www.bluenile.com/diamonds/diamond-clarity\" target=\"_blank\">净度影响光亮吗？</a>\n\n<a href=\"http://en.wikipedia.org/wiki/Loupe\" target=\"_blank\">什么是珠宝放大镜？</a>",
+              "video": {
+                "youtube_id": "2ZVGl6LrOPw",
+                "china_cdn_id": "2ZVGl6LrOPw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177509,
+          "key": "8624987450923",
+          "title": "价格与克拉和净度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175288,
+              "key": "862498745",
+              "title": "价格与克拉和净度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "ggplot2\n\n- scale_colour_brewer: http://docs.ggplot2.org/current/scale_brewer.html\n- ColorBrewer 调色板和安全色: http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#palettes-color-brewer\n- Legends: http://www.cookbook-r.com/Graphs/Legends_(ggplot2)/\n\n在 RStudio 中运行以下代码，安装并加载 RColorBrewer 包。\n<br>\n`install.packages('RColorBrewer', dependencies = TRUE)`\n<br>\n`library(RColorBrewer)`",
+              "user_state": {
+                "node_key": "862498745",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "J0Ls7F-lN4o",
+                  "china_cdn_id": "J0Ls7F-lN4o.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与克拉和净度",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "864458772",
+                "initial_code_files": [
+                  {
+                    "text": "# Adjust the code below to color the points by clarity.\n\n# A layer called scale_color_brewer() has \n# been added to adjust the legend and\n# provide custom colors.\n\n# See if you can figure out what it does.\n# Links to resources are in the Instructor Notes.\n\n# You will need to install the package RColorBrewer\n# in R to get the same colors and color palettes.\n\n# =======================================\nlibrary(RColorBrewer)\n\nggplot(aes(x = carat, y = price), data = diamonds) + \n  geom_point(alpha = 0.5, size = 1, position = 'jitter') +\n  scale_color_brewer(type = 'div',\n    guide = guide_legend(title = 'Clarity', reverse = T,\n    override.aes = list(alpha = 1, size = 2))) +  \n  scale_x_continuous(trans = cuberoot_trans(), limits = c(0.2, 3),\n    breaks = c(0.2, 0.5, 1, 2, 3)) + \n  scale_y_continuous(trans = log10_trans(), limits = c(350, 15000),\n    breaks = c(350, 1000, 5000, 10000, 15000)) +\n  ggtitle('Price (log10) by Cube-Root of Carat and Clarity')",
+                    "name": "colorByClarity.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "g88Q5qyiZxE",
+                  "china_cdn_id": "g88Q5qyiZxE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177507,
+          "key": "8624987480923",
+          "title": "净度与价格",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175289,
+              "key": "862498748",
+              "title": "净度与价格",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "862498748",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "UnkrtPPx9-c",
+                  "china_cdn_id": "UnkrtPPx9-c.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "净度与价格",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/tLTgd6woSAyEXNZKdVG4uHHlYunn6Dhn-og3IZpJD-zh8Hn8j863_qNzfdLfL6XsRshwuSZ5Bu4-RyNl5RbX=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498748",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "876128948",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.17567567567567569,
+                      "width": 0.9565689467969598,
+                      "x": 0.018458197611292075,
+                      "y": 0.7953667953667953
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "b7oUjvNJWCc",
+                  "china_cdn_id": "b7oUjvNJWCc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177510,
+          "key": "8624987510923",
+          "title": "价格与克拉和切工",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987510923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175290,
+              "key": "862498751",
+              "title": "价格与克拉和切工",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "862498751",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "RF9V7l00a28",
+                  "china_cdn_id": "RF9V7l00a28.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与克拉和切工",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "881658626",
+                "initial_code_files": [
+                  {
+                    "text": "# Let’s look at cut and see if we find a similar result.\n\n# Adjust the code below to color the points by cut.\n# Change any other parts of the code as needed.\n\n# ALTER THE CODE BELOW THIS LINE\n# =========================================================================================\n\nggplot(aes(x = carat, y = price, color = clarity), data = diamonds) + \n  geom_point(alpha = 0.5, size = 1, position = 'jitter') +\n  scale_color_brewer(type = 'div',\n                     guide = guide_legend(title = 'Clarity', reverse = T,\n                                          override.aes = list(alpha = 1, size = 2))) +  \n  scale_x_continuous(trans = cuberoot_trans(), limits = c(0.2, 3),\n                     breaks = c(0.2, 0.5, 1, 2, 3)) + \n  scale_y_continuous(trans = log10_trans(), limits = c(350, 15000),\n                     breaks = c(350, 1000, 5000, 10000, 15000)) +\n  ggtitle('Price (log10) by Cube-Root of Carat and Clarity')",
+                    "name": "colorbyCut.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "vhDpWgdpSHg",
+                  "china_cdn_id": "vhDpWgdpSHg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177508,
+          "key": "8624987540923",
+          "title": "切工与价格",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987540923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175291,
+              "key": "862498754",
+              "title": "切工与价格",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.bluenile.com/diamonds/diamond-cut\" target=\"_blank\">什么使钻石闪闪发亮？</a>",
+              "user_state": {
+                "node_key": "862498754",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "MZyle39D5Ks",
+                  "china_cdn_id": "MZyle39D5Ks.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "切工与价格",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/BsP9qOz4SxAA_ilVkGxXLv4jxmZbcOkRPOCFy8EocDRijxi7qj3rbYoih7-Wo0lvIbuEZNHOHnpW9nqTZOi_=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498754",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "883168607",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.20077220077220076,
+                      "width": 0.9467969598262758,
+                      "x": 0.03040173724212812,
+                      "y": 0.7760617760617761
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "-P5lMGuVA6U",
+                  "china_cdn_id": "-P5lMGuVA6U.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177511,
+          "key": "8624987570923",
+          "title": "价格与克拉和颜色",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987570923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175292,
+              "key": "862498757",
+              "title": "价格与克拉和颜色",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "862498757",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ow70HVqX4OY",
+                  "china_cdn_id": "ow70HVqX4OY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "价格与克拉和颜色",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "862838956",
+                "initial_code_files": [
+                  {
+                    "text": "# Finally, let’s use diamond color to color our plot.\n\n# Adjust the code below to color the points by diamond colors\n# and change the titles.\n\n# ALTER THE CODE BELOW THIS LINE\n# ===========================================================================================\n\nggplot(aes(x = carat, y = price, color = cut), data = diamonds) + \n  geom_point(alpha = 0.5, size = 1, position = 'jitter') +\n  scale_color_brewer(type = 'div',\n                     guide = guide_legend(title = 'Cut', reverse = T,\n                                          override.aes = list(alpha = 1, size = 2))) +  \n  scale_x_continuous(trans = cuberoot_trans(), limits = c(0.2, 3),\n                     breaks = c(0.2, 0.5, 1, 2, 3)) + \n  scale_y_continuous(trans = log10_trans(), limits = c(350, 15000),\n                     breaks = c(350, 1000, 5000, 10000, 15000)) +\n  ggtitle('Price (log10) by Cube-Root of Carat and Cut’)",
+                    "name": "colorByColor.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ziYBjY1kTC8",
+                  "china_cdn_id": "ziYBjY1kTC8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177513,
+          "key": "8624987600923",
+          "title": "颜色与价格",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175293,
+              "key": "862498760",
+              "title": "颜色与价格",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.bluenile.com/diamonds/diamond-color\" target=\"_blank\">钻石科普：颜色</a>",
+              "user_state": {
+                "node_key": "862498760",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-9CHGW25yMg",
+                  "china_cdn_id": "-9CHGW25yMg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "颜色与价格",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/Qo0yHX38xMJgkFWEMktK7fTx1WjfOAt1LXYaHh3t6XgIISU3b0dcjXlfnf7niLRcjpeIET2nb7nbVs1yMog=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498760",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "861279250",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.17374517374517376,
+                      "width": 0.9478827361563518,
+                      "x": 0.018458197611292075,
+                      "y": 0.7895752895752896
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Ck4i1Yk4pT0",
+                  "china_cdn_id": "Ck4i1Yk4pT0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177514,
+          "key": "8624987630923",
+          "title": "R 中的线性模型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987630923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175294,
+              "key": "862498763",
+              "title": "R 中的线性模型",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "862498763",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "a2GCyz_N0oY",
+                  "china_cdn_id": "a2GCyz_N0oY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "R 中的线性模型",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/M4zTOzcQoE04Clkcw5mwMpyHvM-1a9_Wu7ybHC-RCOfTpZgEBxP3D0HHm3WDRDaUy5VYG8utPWj55CEaiQbk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498763",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "880998663",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.10222490648379053,
+                      "y": 0.6858370288248337
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.09961424563591023,
+                      "y": 0.799785199556541
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5820215087281796,
+                      "y": 0.6583980044345898
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5757481296758105,
+                      "y": 0.7592849223946785
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "aUc0FKD4834",
+                  "china_cdn_id": "aUc0FKD4834.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177512,
+          "key": "8624987660923",
+          "title": "构建线性模型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987660923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175295,
+              "key": "862498766",
+              "title": "构建线性模型",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://data.princeton.edu/R/linearModels.html\" target=\"_blank\">R 中的线性模型和运算符</a>",
+              "video": {
+                "youtube_id": "zyIc0sXYk2A",
+                "china_cdn_id": "zyIc0sXYk2A.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177518,
+          "key": "8624987670923",
+          "title": "模型问题",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987670923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175299,
+              "key": "862498767",
+              "title": "模型问题",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "让我们将模型放到更大的环境中进行讨论。假设数据没有遭到损坏，而且我们没有过度违反线性回归的一些关键假设（例如违反 <a href=\"http://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables\" target=\"_blank\">IID 假设</a>，即数据集中有大量重复的观测值），那些，该模型会有哪些问题？在使用该模型时，还有什么是我们应该考虑的？\n\n不要急着回答这个问题，对钻石市场做一些定性研究。查看以下链接，开始研究吧。\n\n<a href=\"http://www.pricescope.com/diamond-prices/diamond-prices-chart\" target=\"_blank\">近几年的钻石价格s</a>\n\n<a href=\"http://www.bain.com/publications/articles/global-diamond-report-2013.aspx\" target=\"_blank\">2013年全球钻石报告</a>\n\n如果你想了解更多关于线性模型以及如何解释回归系数的信息，请参阅以下文章。\n\n\nR Bloggers 上的<a href=\"http://www.r-bloggers.com/interpreting-regression-coefficient-in-r/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29\" target=\"_blank\" >解释 R 中的回归系数</a>\n\nAnalysis Factor 博客上的<a href=\"http://www.theanalysisfactor.com/interpreting-regression-coefficients/\" target=\"_blank\">解释回归系数</a>\n\n<a href=\"http://blog.yhat.com/posts/r-lm-summary.html\" target=\"_blank\">拟合与解释线性模型</a>（作者：ŷhat）\n\nStats StackExchange 上的<a href=\"http://stats.stackexchange.com/a/24256\" target=\"_blank\">线性模型中因子系数的另一种解释</a>\n\n<a href=\"http://diamonds.blogs.com/diamonds_update/diamond-prices/\" target=\"_blank\">供给下降与需求增长：上海夫妇喜爱钻戒</a>",
+              "user_state": {
+                "node_key": "862498767",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Och80L_uNjU",
+                  "china_cdn_id": "Och80L_uNjU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "模型问题",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/dYVJ2ofdV737A11ayw52eiSbPl7zJMbBzcwf6BeUcFFwIRvAWdTXfgqP037Y4oSn0vF-0RA4ICznAnQZDiU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498767",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "880468669",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.3861003861003861,
+                      "width": 0.9261672095548317,
+                      "x": 0.026058631921824105,
+                      "y": 0.5501930501930502
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "MV_e0z9kFjM",
+                  "china_cdn_id": "MV_e0z9kFjM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177519,
+          "key": "8624987700923",
+          "title": "更大、更好的数据集",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987700923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175300,
+              "key": "862498770",
+              "title": "更大、更好的数据集",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "如果视频中的代码无效，你可以从 <a href=\"https://github.com/solomonm/diamonds-data\" target=\"_blank\">https://github.com/solomonm/diamonds-data</a> 下载数据集。点击 BigDiamonds.Rda 链接，然后点击“原始数据”按钮开始下载。下载完成后，你就可以通过命令 `load(\"BigDiamonds.rda\")` 加载数据了。\n\n你可以学习如何从网上获取数据，就像 Solmon 所做的那样！",
+              "user_state": {
+                "node_key": "862498770",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "q46nO0mznXM",
+                  "china_cdn_id": "q46nO0mznXM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "更大、更好的数据集",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "876418929",
+                "initial_code_files": [
+                  {
+                    "text": "# Your task is to build five linear models like Solomon\n# did for the diamonds data set only this\n# time you'll use a sample of diamonds from the\n# diamondsbig data set.\n\n# Be sure to make use of the same variables\n# (logprice, carat, etc.) and model\n# names (m1, m2, m3, m4, m5).\n\n# To get the diamondsbig data into RStudio\n# on your machine, copy, paste, and run the\n# code in the Instructor Notes. There's\n# 598,024 diamonds in this data set!\n\n# Since the data set is so large,\n# you are going to use a sample of the\n# data set to compute the models. You can use\n# the entire data set on your machine which\n# will produce slightly different coefficients\n# and statistics for the models.\n\n# This exercise WILL BE automatically graded.\n\n# You can leave off the code to load in the data.\n# We've sampled the data for you.\n# You also don't need code to create the table output of the models.\n# We'll do that for you and check your model summaries (R^2 values, AIC, etc.)\n\n# Your task is to write the code to create the models.\n\n# DO NOT ALTER THE CODE BELOW THIS LINE (Reads in a sample of the diamondsbig data set)\n#===========================================================================================\ndiamondsBigSample <- read.csv('diamondsBigSample.csv')\n\n\n# ENTER YOUR CODE BELOW THIS LINE. (Create the five models)\n#===========================================================================================\n\n\n\n\n# DO NOT ALTER THE CODE BELOW THIS LINE (Tables your models and pulls out the statistics)\n#===========================================================================================\nsuppressMessages(library(lattice))\nsuppressMessages(library(MASS))\nsuppressMessages(library(memisc))\nmodels <- mtable(m1, m2, m3, m4, m5)\n",
+                    "name": "diamondsBig.r"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "uj6bLK91ZQI",
+                  "china_cdn_id": "uj6bLK91ZQI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177516,
+          "key": "8624987730923",
+          "title": "预测",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8624987730923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175296,
+              "key": "862498773",
+              "title": "预测",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://en.wikipedia.org/wiki/Confidence_interval\" target=\"_blank\">置信区间</a>\n\n此处的预测区间可能稍微有些保守，因为模型误差是克拉（并因此是价格）的异方差，即使在进行对数和立方根转换之后。\n\n请见以下代码的输出。\n<br>\n`dat = data.frame(m4$model, m4$residuals)`\n<br>\n<br>\n`with(dat, sd(m4.residuals))`\n<br>\n<br>\n`with(subset(dat, carat > .9 & carat < 1.1), sd(m4.residuals))`\n<br>\n<br>\n`dat$resid <- as.numeric(dat$m4.residuals)`<br>\n`ggplot(aes(y = resid, x = round(carat, 2)), data = dat) +`\n<br>\n&nbsp;&nbsp;`geom_line(stat = \"summary\", fun.y = sd)`\n<br>\n<br>\n怎样可以做得更好？如果我们关注的是 0.5 到 1.5 克拉的钻石，我们可以只用这部分的数据来拟合模型——别担心，数据量是足够的。",
+              "user_state": {
+                "node_key": "862498773",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "hW_1ASU-j8A",
+                  "china_cdn_id": "hW_1ASU-j8A.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "预测",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/UFO5GrEP38OoMvBtAX7KpWjpPikZ3NwKr7-u5rgnqrroAmT5rp7WD0Ng-wIs8oer8N106oqwpcSYTEMgbBE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/862498773",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "869219044",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.5099778270509978,
+                      "width": 0.45012468827930174,
+                      "x": 0.5450597176981542,
+                      "y": 0.4749034749034749
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "3kH4ei9l4h8",
+                  "china_cdn_id": "3kH4ei9l4h8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177515,
+          "key": "8646391370923",
+          "title": "最终想法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8646391370923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175297,
+              "key": "864639137",
+              "title": "最终想法",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.businessweek.com/articles/2013-05-06/tiffany-vs-dot-costco-which-diamond-ring-is-better\" target=\"_blank\">Tiffany 与 Costco：哪个钻石戒指更好</a>\n\n<a href=\"http://www.costco.com/CatalogSearch?catalogId=10701&langId=-1&keyword=Engagement&storeId=10301&refine=30108%2b209%2b238%2b210%2b\" target=\"_blank\">Costco 也卖高价钻石</a>",
+              "video": {
+                "youtube_id": "CNGDocH1k3k",
+                "china_cdn_id": "CNGDocH1k3k.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177517,
+          "key": "8824285520923",
+          "title": "恭喜和下一步",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8824285520923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 175298,
+              "key": "882428552",
+              "title": "恭喜和下一步",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "学习如何 <a href=\"http://blog.revolutionanalytics.com/2013/11/how-to-analyze-you-facebook-friends-network-with-r.html\" target=\"_blank\">用 R 分析你的 Facebook 社交网络</a>！",
+              "user_state": {
+                "node_key": "882428552",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ph4p8n-I7vw",
+                  "china_cdn_id": "ph4p8n-I7vw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "恭喜和下一步",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/h7ByJFYI99LoUqRfvu7EQ6fvRyWCAI2TiDMwQ-7fDFhdH2XJEBP1SdixVvQcKxOeMiEB4toivaFXY4AR9g=s0#w=1664&h=939",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/882428552",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "873369305",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.22148110444408997,
+                      "y": 0.7442110657956278
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}
