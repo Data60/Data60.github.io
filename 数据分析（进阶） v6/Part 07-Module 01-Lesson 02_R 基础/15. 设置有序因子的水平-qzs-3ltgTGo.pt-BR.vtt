@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.110 --> 00:00:02.310
+Aqui está nosso problema. Se tentarmos ver a quantidade de
+
+00:00:02.310 --> 00:00:05.020
+usuários em cada faixa etária, eles estarão fora de ordem e
+
+00:00:05.020 --> 00:00:08.610
+será difícil fazer a comparação imediata. Este problema é ainda mais perceptível
+
+00:00:08.610 --> 00:00:10.770
+em um gráfico de diferença. Se tentarmos criar o mesmo
+
+00:00:10.770 --> 00:00:13.540
+gráfico para usuários em cada faixa de renda, veremos um problema
+
+00:00:13.540 --> 00:00:17.750
+muito semelhante. E aqui é muito pior. Estas duas primeiras colunas
+
+00:00:17.750 --> 00:00:21.500
+são para 100.000 e mais de 150.000. E esta última coluna
+
+00:00:21.500 --> 00:00:25.110
+é para pessoas que ganham menos de 20.000. Nossos olhos tendem a ler
+
+00:00:25.110 --> 00:00:28.010
+páginas da esquerda para a direita, sendo assim, este gráfico é muito difícil de
+
+00:00:28.010 --> 00:00:31.630
+interpretar. É muito difícil de fazer comparações
+
+00:00:31.630 --> 00:00:34.460
+naturalmente com nossos olhos. Precisamos sempre que descer até a
+
+00:00:34.460 --> 00:00:37.450
+parte inferior para compreender em que grupo estamos. Sendo assim, vamos ordenar os
+
+00:00:37.450 --> 00:00:41.030
+fatores em nossa variável de faixa etária. O que quero que você faça é
+
+00:00:41.030 --> 00:00:44.680
+pesquisar pela documentação da função de fator. Ou você pode
+
+00:00:44.680 --> 00:00:47.580
+ler o exemplo que anexamos nas notas do instrutor. Assim que
+
+00:00:47.580 --> 00:00:50.190
+estiver pronto, tente escrever o código para ordenar os
+
+00:00:50.190 --> 00:00:52.750
+níveis desta variável. Não custa lembrá-lo
+
+00:00:52.750 --> 00:00:55.350
+de que o nível deve assumir estes valores.
+

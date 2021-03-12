@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.285 --> 00:00:03.819
+Vamos examinar essas variáveis fator mais detalhadamente. Por ora,
+
+00:00:03.819 --> 00:00:06.906
+quero chamar sua atenção para a variável age.range
+
+00:00:06.906 --> 00:00:09.940
+bem aqui. Observe que temos uma variável fator
+
+00:00:09.940 --> 00:00:13.140
+com 7 níveis diferentes. Podemos examinar
+
+00:00:13.140 --> 00:00:16.820
+os níveis de uma variável digitando os níveis de comando
+
+00:00:16.820 --> 00:00:19.320
+e depois colocando a variável bem aqui. No console,
+
+00:00:19.320 --> 00:00:22.020
+podemos ver os 7 níveis da variável
+
+00:00:22.020 --> 00:00:25.660
+age.range. Agora, em vez de criar uma tabela da variável age.range,
+
+00:00:25.660 --> 00:00:28.880
+vamos criar um gráfico que mostra quantos usuários
+
+00:00:28.880 --> 00:00:31.720
+estão em cada compartimento. Ou seja, queremos descobrir
+
+00:00:31.720 --> 00:00:34.020
+quantos entrevistados estão entre as idades de 18 e 24,
+
+00:00:34.020 --> 00:00:38.450
+25 e 34, e assim por diante. Vou criar este gráfico
+
+00:00:38.450 --> 00:00:42.200
+usando o pacote ggplot2 e a função qplot
+
+00:00:42.200 --> 00:00:45.220
+que vem com ele. Mais uma vez, não se preocupe em entender esse código direito,
+
+00:00:45.220 --> 00:00:47.830
+teremos uma prática com ele na próxima lição.
+
+00:00:47.830 --> 00:00:51.280
+Quando executo o código, eu obtenho um gráfico bem aqui.
+
+00:00:51.280 --> 00:00:53.140
+Ao ampliar o gráfico, quero que você observe
+
+00:00:53.140 --> 00:00:56.180
+que as faixas etárias parecem estar em ordem. Isso está correto para todos,
+
+00:00:56.180 --> 00:00:59.080
+menos para os entrevistados que têm
+
+00:00:59.080 --> 00:01:02.140
+menos de 18 anos. Seria muito útil se esta barra
+
+00:01:02.140 --> 00:01:05.250
+estivesse orientada aqui deste lado. Assim, poderíamos
+
+00:01:05.250 --> 00:01:08.900
+fazer comparações entre as faixas com mais facilidade. É por isso
+
+00:01:08.900 --> 00:01:12.930
+que queremos ter fatores ordenados. A variável age.range
+
+00:01:12.930 --> 00:01:16.310
+apenas contém fatores com 7 níveis, mas esses níveis não estão organizados
+
+00:01:16.310 --> 00:01:19.730
+em nenhuma ordem específica. Às vezes, você quer introduzir uma ordem
+
+00:01:19.730 --> 00:01:22.840
+no seu conjunto de dados, para criar mais gráficos legíveis.
+
+00:01:22.840 --> 00:01:26.360
+Então, sabendo um pouco mais sobre fatores ordenados,
+
+00:01:26.360 --> 00:01:29.540
+vamos ver se você consegue responder à próxima pergunta. Se ainda não fez isso,
+
+00:01:29.540 --> 00:01:32.375
+baixe os dados da pesquisa Reddit
+
+00:01:32.375 --> 00:01:35.820
+e examine sua estrutura. Depois de examinar a estrutura das variáveis,
+
+00:01:35.820 --> 00:01:38.790
+tente responder a esta pergunta: Qual destas variáveis
+
+00:01:38.790 --> 00:01:42.130
+no conjunto de dados poderia também ser convertida em um fator ordenado?
+
+00:01:42.130 --> 00:01:44.090
+Assim como H.Range.
+
+00:01:44.090 --> 00:01:45.860
+&gt;&gt; Marque todas as variáveis aplicáveis.
+

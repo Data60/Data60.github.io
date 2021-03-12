@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:04.250
+A resposta aqui é apenas nível de renda. O sexo não é
+
+00:00:04.250 --> 00:00:06.880
+considerado um fator ordenado, pois não faz sentido classificar
+
+00:00:06.880 --> 00:00:10.410
+grupos femininos e masculinos. As variáveis military service e
+
+00:00:10.410 --> 00:00:14.550
+children são binárias com valores yes ou no, portanto,
+
+00:00:14.550 --> 00:00:17.560
+também não faz sentido classificá-las. No mesmo
+
+00:00:17.560 --> 00:00:20.040
+raciocínio, não faz sentido ordenar os níveis das variáveis
+
+00:00:20.040 --> 00:00:22.580
+country e state, pois também não as
+
+00:00:22.580 --> 00:00:26.500
+classificaríamos. Não diríamos que um local é melhor que outro.
+
+00:00:26.500 --> 00:00:30.770
+Por fim, cheese entra no mesmo grupo que military service e children,
+
+00:00:30.770 --> 00:00:34.960
+porque é binário, portanto, também está fora. Os níveis de renda têm uma ordem
+
+00:00:34.960 --> 00:00:38.230
+natural na qual podemos agrupá-los, do menor para o maior ou
+
+00:00:38.230 --> 00:00:42.460
+vice-versa. É isso que os torna um fator ordenado.
+

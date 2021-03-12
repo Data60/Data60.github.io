@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.080 --> 00:00:02.490
+Para esta tarefa de programação, você precisaria ter reorganizado os
+
+00:00:02.490 --> 00:00:05.890
+níveis da variável age.range, de forma que menores de 18 aparecessem
+
+00:00:05.890 --> 00:00:08.830
+primeiro. Uma maneira de fazer isso é usar a função
+
+00:00:08.830 --> 00:00:13.430
+ordered na variável. Usaremos a função ordered em age.range
+
+00:00:13.430 --> 00:00:15.800
+e definiremos os níveis. Eu posso executar todo
+
+00:00:15.800 --> 00:00:18.320
+este código para definir os níveis e, em seguida, posso
+
+00:00:18.320 --> 00:00:22.140
+fazer meu gráfico novamente. Muito bom, não é? Outra maneira de obter o
+
+00:00:22.140 --> 00:00:25.120
+mesmo resultado seria usar este código. Aqui, estamos usando
+
+00:00:25.120 --> 00:00:29.310
+a função factor. Estamos utilizando nossa variável age.range,
+
+00:00:29.310 --> 00:00:31.710
+definindo os níveis e tornando a ordem
+
+00:00:31.710 --> 00:00:34.470
+verdadeira pois queremos isto ordenado. Executarei
+
+00:00:34.470 --> 00:00:36.700
+este código. E, em seguida, vou garantir que
+
+00:00:36.700 --> 00:00:40.150
+o gráfico tenha a mesma saída. E sim,
+
+00:00:40.150 --> 00:00:43.830
+ele tem. Agora, se você quiser outro desafio, tente
+
+00:00:43.830 --> 00:00:46.260
+reordenar os níveis da variável de intervalo de renda
+
+00:00:46.260 --> 00:00:48.040
+e veja se você pode produzir o mesmo gráfico.
+
