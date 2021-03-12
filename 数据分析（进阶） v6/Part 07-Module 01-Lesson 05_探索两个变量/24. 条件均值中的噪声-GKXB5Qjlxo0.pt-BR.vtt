@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.180 --> 00:00:03.100
+Isso é ótimo. Obtivemos nossa estrutura de dados com nossa
+
+00:00:03.100 --> 00:00:06.500
+média condicional medida em meses. Agora é hora de representá-la.
+
+00:00:06.500 --> 00:00:09.380
+Sua tarefa de programação final aqui é criar o gráfico da
+
+00:00:09.380 --> 00:00:12.830
+média da contagem de amigos versus a idade medida em meses. Certifique-se
+
+00:00:12.830 --> 00:00:15.370
+de usar uma linha para ligar todos os pontos. Assim como
+
+00:00:15.370 --> 00:00:18.250
+fizemos neste gráfico. Agora, vou tornar isso
+
+00:00:18.250 --> 00:00:21.200
+um pouco mais difícil. Quero que você defina um subconjunto da estrutura de dados
+
+00:00:21.200 --> 00:00:25.560
+também. Quero que você investigue apenas os usuários com idades
+
+00:00:25.560 --> 00:00:29.390
+inferiores a 71. O gráfico que criar não será automaticamente avaliado;
+
+00:00:29.390 --> 00:00:31.840
+por isso, recomendo que verifique o que fizemos no vídeo de solução.
+

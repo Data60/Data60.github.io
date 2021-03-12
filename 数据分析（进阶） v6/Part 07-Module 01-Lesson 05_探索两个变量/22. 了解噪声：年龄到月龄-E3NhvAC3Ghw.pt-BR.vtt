@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.540 --> 00:00:03.940
+Vamos retornar ao nosso gráfico de dispersão que resumiu a relação entre
+
+00:00:03.940 --> 00:00:07.020
+idade e contagem média de amigos. Lembre-se de que acabamos criando este
+
+00:00:07.020 --> 00:00:10.050
+gráfico a partir da nova estrutura de dados que criamos usando o pacote
+
+00:00:10.050 --> 00:00:13.700
+dplyr. O gráfico era assim. Como você pode
+
+00:00:13.700 --> 00:00:16.170
+ver, a linha preta tem muito ruído aleatório
+
+00:00:16.170 --> 00:00:19.640
+. Ou seja, a contagem média de amigos sobe e desce em cada
+
+00:00:19.640 --> 00:00:21.950
+idade. Vamos imprimir parte da nossa estrutura de dados para
+
+00:00:21.950 --> 00:00:26.140
+um olhar mais atento. Como podemos ver, a contagem média de amigos aumenta e,
+
+00:00:26.140 --> 00:00:29.750
+em seguida, diminui. Em um caso específico, podemos ver
+
+00:00:29.750 --> 00:00:32.250
+que para pessoas com 30 anos, a contagem média de amigos é,
+
+00:00:32.250 --> 00:00:35.090
+na verdade, mais baixa comparada à de pessoas de 29 e
+
+00:00:35.090 --> 00:00:38.910
+31 anos. Talvez, algumas descontinuidades de ano em ano possam fazer
+
+00:00:38.910 --> 00:00:42.770
+sentido, como o pico aos 69 anos. Mas outros
+
+00:00:42.770 --> 00:00:45.440
+têm mais probabilidade de serem apenas ruídos em uma relação
+
+00:00:45.440 --> 00:00:49.300
+mais suave entre idade e contagem de amigos. Ou seja, eles refletem
+
+00:00:49.300 --> 00:00:52.510
+que nós temos apenas uma amostra do processo de geração de dados.
+
+00:00:52.510 --> 00:00:55.040
+Dessa forma, a contagem média estimada de amigos para cada idade
+
+00:00:55.040 --> 00:00:58.360
+é a média verdadeira mais algum ruído. Podemos imaginar
+
+00:00:58.360 --> 00:01:00.560
+que o ruído para este gráfico seria pior se
+
+00:01:00.560 --> 00:01:04.680
+escolhêssemos colunas mais específicas para idade. Por exemplo, poderíamos estimar
+
+00:01:04.680 --> 00:01:08.400
+médias condicionais para cada idade, medidas em meses em vez de
+
+00:01:08.400 --> 00:01:11.840
+anos. Nos próximos exercícios de programação, você
+
+00:01:11.840 --> 00:01:14.230
+fará isso. Você criará um gráfico como
+
+00:01:14.230 --> 00:01:17.930
+este com uma nova variável que mede idades em meses
+
+00:01:17.930 --> 00:01:21.510
+em vez de anos. Em seguida, fará um gráfico da média condicional para
+
+00:01:21.510 --> 00:01:24.210
+idades em meses e o compararemos a
+
+00:01:24.210 --> 00:01:27.360
+este gráfico. Para começar, você criará
+
+00:01:27.360 --> 00:01:29.730
+a variável de idade com meses e a salvará na estrutura de
+
+00:01:29.730 --> 00:01:33.240
+dados. Esta variável terá a idade de cada usuário medida em
+
+00:01:33.240 --> 00:01:36.420
+meses, e não em anos. Então, se um usuário tiver 36
+
+00:01:36.420 --> 00:01:40.060
+anos e tiver nascido em março, a idade dele
+
+00:01:40.060 --> 00:01:43.270
+será 36,75. Tente programar este código no R sozinho.
+
+00:01:43.270 --> 00:01:45.270
+E quando o código estiver pronto, copie-o e
+
+00:01:45.270 --> 00:01:47.980
+cole-o no navegador e envie. Este é
+
+00:01:47.980 --> 00:01:50.330
+um dos exercícios em que o graduador verificará
+
+00:01:50.330 --> 00:01:52.730
+sua saída automaticamente. Não se preocupe se você não conseguir
+
+00:01:52.730 --> 00:01:55.970
+acertar em sua primeira tentativa. É bem difícil.
+
+00:01:55.970 --> 00:01:58.900
+Realmente recomendo pensar sobre as idades e as pessoas nascendo
+
+00:01:58.900 --> 00:02:02.070
+em meses diferentes. Como isso afetaria a idade da variável
+
+00:02:02.070 --> 00:02:04.990
+com meses? Trabalhar com valores reais pode ajudá-lo aqui.
+

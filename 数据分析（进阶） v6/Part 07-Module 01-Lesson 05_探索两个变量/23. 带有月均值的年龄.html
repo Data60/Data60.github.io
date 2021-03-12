@@ -1,0 +1,512 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   带有月均值的年龄
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      探索两个变量
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 欢迎！.html">
+       01. 欢迎！
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 散点图和设想的受众规模.html">
+       02. 散点图和设想的受众规模
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 散点图.html">
+       03. 散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="04. ggplot 语法.html">
+       04. ggplot 语法
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 过度绘制.html">
+       05. 过度绘制
+      </a>
+     </li>
+     <li class="">
+      <a href="06. coord_trans().html">
+       06. coord_trans()
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Alpha 和 Jitter.html">
+       07. Alpha 和 Jitter
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 过度绘制和领域知识.html">
+       08. 过度绘制和领域知识
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 条件均值.html">
+       09. 条件均值
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 将摘要与原始数据叠加.html">
+       10. 将摘要与原始数据叠加
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Moira：直方图摘要与散点图.html">
+       11. Moira：直方图摘要与散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 相关性.html">
+       12. 相关性
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 子集相关性.html">
+       13. 子集相关性
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 相关分析法.html">
+       14. 相关分析法
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 创建散点图.html">
+       15. 创建散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 强相关.html">
+       16. 强相关
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Moira 对于相关的研究.html">
+       17. Moira 对于相关的研究
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 相关系数的更多注意事项.html">
+       18. 相关系数的更多注意事项
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 噪声散点图.html">
+       19. 噪声散点图
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 理解数据.html">
+       20. 理解数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 一个新的视角.html">
+       21. 一个新的视角
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 了解噪声：年龄到月龄.html">
+       22. 了解噪声：年龄到月龄
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 带有月均值的年龄.html">
+       23. 带有月均值的年龄
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 条件均值中的噪声.html">
+       24. 条件均值中的噪声
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 平滑化条件均值.html">
+       25. 平滑化条件均值
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 该选哪个图形？.html">
+       26. 该选哪个图形？
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 分析两个变量.html">
+       27. 分析两个变量
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          23. 带有月均值的年龄
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          带有月均值的年龄
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="23. 带有月均值的年龄-CuMPjPESfY0.mp4" type="video/mp4"/>
+           <track default="false" kind="subtitles" label="ja" src="23. 带有月均值的年龄-CuMPjPESfY0.ja.vtt" srclang="ja"/>
+           <track default="true" kind="subtitles" label="en" src="23. 带有月均值的年龄-CuMPjPESfY0.en.vtt" srclang="en"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="23. 带有月均值的年龄-CuMPjPESfY0.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="false" kind="subtitles" label="ar" src="23. 带有月均值的年龄-CuMPjPESfY0.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="23. 带有月均值的年龄-CuMPjPESfY0.pt-BR.vtt" srclang="pt-BR"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div class="nav nav-tabs nav-fill" id="question-tabs" role="tablist">
+           <a aria-controls="175220-ageWithMonthsMeans-r" aria-selected="true" class="nav-item nav-link active show" data-toggle="tab" href="#175220-ageWithMonthsMeans-r" id="tab-175220-ageWithMonthsMeans-r" role="tab">
+            ageWithMonthsMeans.r
+           </a>
+          </div>
+          <div class="tab-content" id="question-tab-contents" style="padding: 20px 0;">
+           <div aria-labelledby="tab-175220-ageWithMonthsMeans-r" class="tab-pane active show" id="175220-ageWithMonthsMeans-r" role="tabpanel">
+            <pre><code></code># Create a new data frame called
+# pf.fc_by_age_months that contains
+# the mean friend count, the median friend
+# count, and the number of users in each
+# group of age_with_months. The rows of the
+# data framed should be arranged in increasing
+# order by the age_with_months variable.
+
+# For example, the first two rows of the resulting
+# data frame would look something like...
+
+# age_with_months  friend_count_mean	friend_count_median	n
+#              13            275.0000                   275 2
+#        13.25000            133.2000                   101 11
+
+
+# See the Instructor Notes for two hints if you get stuck.
+# This programming assignment will automatically be graded.
+
+# DO NOT DELETE THESE NEXT THREE LINES OF CODE
+# ========================================================================
+pf &lt;- read.delim('/datasets/ud651/pseudo_facebook.tsv')
+pf$age_with_months &lt;-pf$age + (1 - pf$dob_month / 12)
+suppressMessages(library(dplyr))
+
+# ENTER YOUR CODE BELOW THIS LINE
+# ========================================================================
+</pre>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="23. 带有月均值的年龄-28iU6GrDVfU.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="23. 带有月均值的年龄-28iU6GrDVfU.zh-CN.vtt" srclang="zh-CN"/>
+             <track default="false" kind="subtitles" label="ar" src="23. 带有月均值的年龄-28iU6GrDVfU.ar.vtt" srclang="ar"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="23. 带有月均值的年龄-28iU6GrDVfU.pt-BR.vtt" srclang="pt-BR"/>
+             <track default="true" kind="subtitles" label="en" src="23. 带有月均值的年龄-28iU6GrDVfU.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="ja" src="23. 带有月均值的年龄-28iU6GrDVfU.ja.vtt" srclang="ja"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+        <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+         <h3>
+          INSTRUCTOR NOTE:
+         </h3>
+         <p>
+          重要事项！请注意，在较新版本的 dplyr (0.3.x+) 中，语法
+          <code>
+           %.%
+          </code>
+          已被弃用且替换为
+          <code>
+           %&gt;%
+          </code>
+          。课程视频中使用的是
+          <code>
+           %.%
+          </code>
+          ，但这会产生警告消息。如果你在回答中使用链接运算符，你应该使用
+          <code>
+           %&gt;%
+          </code>
+          。
+         </p>
+         <p>
+          另一警告：0.4.0 版本的 dplyr 在汇总层上使用中间值函数时有一个错误，具体取决于被汇总的数据性质。在本地计算机上使用该包时，你可能需要将数据转换为数值型（浮点型），以获得期望的结果，比如：
+          <code>
+           median(as.numeric(var))
+          </code>
+          。
+         </p>
+         <p>
+          以下为一些提示：
+          <br/>
+          <br/>
+          <br>
+           <br/>
+           <br>
+            <br/>
+            <br>
+             <br/>
+             <br>
+              提示 1：使用 dplyr 包中的
+              <code>
+               group_by()
+              </code>
+              、
+              <code>
+               summarise()
+              </code>
+              和
+              <code>
+               arrange()
+              </code>
+              函数根据
+              <code>
+               age_with_month
+              </code>
+              分拆数据框。请确保你根据正确的变量（不再是年龄）进行排列。
+              <br/>
+              <br/>
+              <br>
+               <br/>
+               <br>
+                <br/>
+                <br>
+                 <br/>
+                 <br>
+                  提示 2：代码应类似于我们根据年龄分拆数据框和查找摘要时的代码：
+                  <br/>
+                  <br/>
+                  <br>
+                   <code>
+                    age_groups &lt;- group_by(pf, age)
+                   </code>
+                   <br/>
+                   <br/>
+                   <br>
+                    <code>
+                     pf.fc_by_age &lt;- summarise(age_groups,
+                    </code>
+                    <br/>
+                    <br/>
+                    <br>
+                     <code>
+                      friend_count_mean = mean(friend_count),
+                     </code>
+                     <br/>
+                     <br/>
+                     <br>
+                      <code>
+                       friend_count_median = median(friend_count),
+                      </code>
+                      <br/>
+                      <br/>
+                      <br>
+                       <code>
+                        n = n())
+                       </code>
+                       <br/>
+                       <br/>
+                       <br>
+                        <code>
+                         pf.fc_by_age &lt;- arrange(pf.fc_by_age, age)
+                        </code>
+                        <br/>
+                        <br/>
+                        <br>
+                         <br/>
+                         <br>
+                          <code>
+                           head(pf.fc_by_age)
+                          </code>
+                         </br>
+                        </br>
+                       </br>
+                      </br>
+                     </br>
+                    </br>
+                   </br>
+                  </br>
+                 </br>
+                </br>
+               </br>
+              </br>
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="24. 条件均值中的噪声.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('23. 带有月均值的年龄')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

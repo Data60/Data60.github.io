@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:02.600
+Sua meta é criar uma estrutura de dados semelhante
+
+00:00:02.600 --> 00:00:05.930
+à fc_by_age. Mas, desta vez, queremos que ela tenha
+
+00:00:05.930 --> 00:00:09.640
+números de amigos por idade em meses, em vez de anos. Aqui está uma
+
+00:00:09.640 --> 00:00:12.592
+solução que você poderia ter feito, encadeando as operações de
+
+00:00:12.592 --> 00:00:15.340
+dplyr. Primeiro, quero garantir que
+
+00:00:15.340 --> 00:00:18.060
+a biblioteca esteja carregada. Depois, criarei minha estrutura de
+
+00:00:18.060 --> 00:00:23.480
+dados, pf.fc_by_age_months. Aplicarei algumas funções na minha estrutura de
+
+00:00:23.480 --> 00:00:26.403
+dados original a partir do pacote dplyr.
+
+00:00:26.403 --> 00:00:29.570
+Primeiro, agruparei por idade em meses. Depois,
+
+00:00:29.570 --> 00:00:33.080
+encadearei em um novo comando denominado summarize. Aqui, quero
+
+00:00:33.080 --> 00:00:36.200
+resumir por média e mediana do número de amigos e pelo número de
+
+00:00:36.200 --> 00:00:39.610
+usuários no grupo. Por fim, encadearei mais um comando que
+
+00:00:39.610 --> 00:00:42.990
+organizará minha estrutura de dados por idade em meses. Ao executar
+
+00:00:42.990 --> 00:00:45.500
+esse comando, posso ver que tenho a nova estrutura de dados.
+
+00:00:45.500 --> 00:00:48.250
+Observe também que tenho muito mais observações. E isso deve
+
+00:00:48.250 --> 00:00:51.970
+fazer sentido, porque passe de anos para meses de idade.
+
+00:00:51.970 --> 00:00:54.020
+Para garantir, imprimirei algumas
+
+00:00:54.020 --> 00:00:57.110
+linhas da estrutura de dados para examiná-las. Tenho a minha idade
+
+00:00:57.110 --> 00:00:59.190
+em meses, a média e a mediana da contagem de amigos
+
+00:01:00.540 --> 00:01:04.200
+e n, o número de usuários em cada grupo. Há
+
+00:01:04.200 --> 00:01:07.020
+outra forma de obter a mesma estrutura de dados.
+
+00:01:07.020 --> 00:01:09.380
+Vamos ver como podemos fazer isso. Em vez de encadear os
+
+00:01:09.380 --> 00:01:12.400
+comandos, posso usar a estrutura de dados e aplicar
+
+00:01:12.400 --> 00:01:17.020
+os comandos nela. Primeiro, crio age_with_months.groups. Usarei
+
+00:01:17.020 --> 00:01:19.570
+isso com o comando group.by. Passarei ele na minha
+
+00:01:19.570 --> 00:01:23.720
+estrutura de dados e agruparei por age_with_months. Essa é a variável.
+
+00:01:23.720 --> 00:01:26.340
+Agora que tenho os grupos, quero resumi-los
+
+00:01:26.340 --> 00:01:30.140
+usando a média e a mediana do número de amigos e n, que é o
+
+00:01:30.140 --> 00:01:32.420
+número de usuários de cada grupo. Aqui, resumirei
+
+00:01:32.420 --> 00:01:36.700
+age-with-months e salvarei nessa nova variável. Agora
+
+00:01:36.700 --> 00:01:38.940
+que tenho os grupos, quero resumi-los usando
+
+00:01:38.940 --> 00:01:40.930
+o comando Summarize. Criarei uma
+
+00:01:40.930 --> 00:01:45.430
+nova estrutura de dados denominada pf.fc_by_age_months2.
+
+00:01:45.430 --> 00:01:47.820
+Quero resumir essa estrutura de dados, pois ela já está nos
+
+00:01:47.820 --> 00:01:52.640
+grupos. Então a passarei aqui. Grupos age_with_month. Agora, preciso
+
+00:01:52.640 --> 00:01:54.942
+adicionar as variáveis que quero resumir. Quero a
+
+00:01:54.942 --> 00:01:57.710
+média do número de amigos, portanto, salvarei isso
+
+00:01:57.710 --> 00:02:00.250
+em uma variável. Também quero a mediana, então farei
+
+00:02:00.250 --> 00:02:03.430
+o mesmo. Por fim, quero o número de usuários
+
+00:02:03.430 --> 00:02:06.480
+em cada grupo age. Agora organizarei a estrutura de dados
+
+00:02:06.480 --> 00:02:10.520
+por age_with_months. Portanto, passarei ela na função
+
+00:02:10.520 --> 00:02:12.750
+arrange e pedirei para ela organizar
+
+00:02:12.750 --> 00:02:16.220
+por age_with_months. Veja que também estou
+
+00:02:16.220 --> 00:02:18.410
+salvando essa nova estrutura de dados na
+
+00:02:18.410 --> 00:02:21.170
+antiga, apenas substituindo. Ao executar
+
+00:02:21.170 --> 00:02:24.910
+todo este código, vemos que temos nossa nova estrutura de dados.
+
+00:02:24.910 --> 00:02:26.450
+Também podemos verificá-la usando a
+
+00:02:26.450 --> 00:02:30.150
+função head. Realmente, temos a mesma estrutura de dados.
+

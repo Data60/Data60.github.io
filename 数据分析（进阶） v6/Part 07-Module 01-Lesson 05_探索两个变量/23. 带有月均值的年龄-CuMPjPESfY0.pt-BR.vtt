@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:02.850
+Estamos no caminho para traçar as médias condicionais de
+
+00:00:02.850 --> 00:00:06.770
+a para meses. Lembre-se que estamos tentando gerar esse gráfico novamente,
+
+00:00:06.770 --> 00:00:10.260
+mas apenas para larguras de compartimento menores. Teremos mais pontos de dados,
+
+00:00:10.260 --> 00:00:13.790
+já que a idade será medida em meses e não em anos.
+
+00:00:13.790 --> 00:00:15.850
+Agora que temos nossa idade com a variável months,
+
+00:00:15.850 --> 00:00:18.440
+antes que possamos continuar e usar as função d
+
+00:00:18.440 --> 00:00:21.890
+apply r. Para obter uma nova estrutura de dados com uma friend
+
+00:00:21.890 --> 00:00:25.580
+count média. E a friend count mediana para cada idade com meses.
+
+00:00:25.580 --> 00:00:28.750
+Vamos para sua segunda tarefa de programação. Crie uma nova
+
+00:00:28.750 --> 00:00:33.350
+estrutura de dados chamada PF.FC por idade em meses que contenha um mean
+
+00:00:33.350 --> 00:00:36.050
+friend count, um median friend count e o número de
+
+00:00:36.050 --> 00:00:38.920
+usuários em cada grupo etário com meses. Haverá
+
+00:00:38.920 --> 00:00:41.290
+instruções detalhadas sobre isto na próxima página. E um
+
+00:00:41.290 --> 00:00:44.220
+exemplo de como sua imagem de saída deve parecer. Agora este é
+
+00:00:44.220 --> 00:00:47.100
+um dos exercícios de programação mais desafiadores. Se você
+
+00:00:47.100 --> 00:00:50.940
+não conseguir ir em frente, verifique as Notas do instrutor para ver duas dicas. Este exercício
+
+00:00:50.940 --> 00:00:54.420
+também será avaliado automaticamente e verificará a aparência da saída de sua estrutura de dados.
+
