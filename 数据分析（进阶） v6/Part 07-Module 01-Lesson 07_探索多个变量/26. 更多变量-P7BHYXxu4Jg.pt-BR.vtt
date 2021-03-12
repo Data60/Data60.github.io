@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.640 --> 00:00:03.800
+Uma matriz como esta será extremamente útil
+
+00:00:03.800 --> 00:00:07.208
+quando tivermos mais variáveis que aquelas do conjunto de dados do
+
+00:00:07.208 --> 00:00:09.840
+pseudo Facebook. Os exemplos surgem em muitas áreas, mas uma que
+
+00:00:09.840 --> 00:00:13.660
+atraiu a atenção de estatísticos é a de dados genômicos. Nestes
+
+00:00:13.660 --> 00:00:16.830
+conjuntos de dados, frequentemente eles são milhares de medições genéticas para cada
+
+00:00:16.830 --> 00:00:19.860
+número pequeno de amostras. Em alguns casos, algumas dessas
+
+00:00:19.860 --> 00:00:22.530
+amostras têm uma doença e gostaríamos de identificar
+
+00:00:22.530 --> 00:00:25.920
+genes que estão associados à doença. Nas notas do instrutor,
+
+00:00:25.920 --> 00:00:29.220
+você encontrará um conjunto de dados da expressão do gene em tumores. Os
+
+00:00:29.220 --> 00:00:33.980
+dados contêm a expressão de 6.830 genes comparados à amostra de referência da
+
+00:00:33.980 --> 00:00:38.590
+linha de base maior. Agora, esta é uma tonelada de dados. Vamos
+
+00:00:38.590 --> 00:00:41.060
+prosseguir e ler o conjunto de dados e, em seguida,
+
+00:00:41.060 --> 00:00:43.180
+vou alterar os nomes das cores do conjunto de dados
+
+00:00:43.180 --> 00:00:45.830
+para ser números de um a 64. Agora vou fazer isso
+
+00:00:45.830 --> 00:00:47.740
+de forma que o gráfico que eu criei seja
+
+00:00:47.740 --> 00:00:50.270
+um pouco melhor com o rótulo do eixo x.
+

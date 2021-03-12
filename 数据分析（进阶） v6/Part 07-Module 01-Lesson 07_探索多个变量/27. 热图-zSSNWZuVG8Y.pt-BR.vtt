@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.380 --> 00:00:02.600
+A última plotagem que faremos para este curso é chamada de
+
+00:00:02.600 --> 00:00:05.330
+mapa de calor. Para o nosso conjunto de dados, queremos exibir
+
+00:00:05.330 --> 00:00:08.790
+cada combinação de gene e caso de amostra, a diferença na expressão
+
+00:00:08.790 --> 00:00:13.290
+do gene e a amostra da linha de base. Queremos mostrar combinações
+
+00:00:13.290 --> 00:00:16.550
+em que um gene é muito expressado em vermelho e combinações em que
+
+00:00:16.550 --> 00:00:19.620
+é pouco expressado em azul. Este é o código para fazer o
+
+00:00:19.620 --> 00:00:22.610
+mapa de calor. Primeiro, vamos executar tudo isso para
+
+00:00:22.610 --> 00:00:25.500
+transformar nossos dados em um formato longo. Em seguida, vamos apenas executar
+
+00:00:25.500 --> 00:00:29.090
+nosso código ggplot usando o geom geom_tile. Esta
+
+00:00:29.090 --> 00:00:31.530
+última linha nos dará um gradiente de escala.
+
+00:00:31.530 --> 00:00:33.710
+E vamos usar as cores do azul ao vermelho.
+
+00:00:33.710 --> 00:00:36.450
+Vejamos qual será a aparência da saída. Este é o
+
+00:00:36.450 --> 00:00:40.160
+nosso mapa de calor. Mesmo com uma exibição tão densa, não
+
+00:00:40.160 --> 00:00:42.650
+estamos vendo todos os dados. Em particular, estamos apenas
+
+00:00:42.650 --> 00:00:46.468
+mostrando os primeiros 200 genes. Esses são 200 genes de mais de
+
+00:00:46.468 --> 00:00:50.350
+6.000. E como esse conjunto de dados foi produzido,
+
+00:00:50.350 --> 00:00:53.020
+os conjuntos de dados genômicos desse tipo, às vezes chamados de
+
+00:00:53.020 --> 00:00:57.140
+microdados, só estão ficando maiores e mais complexos.
+
+00:00:57.140 --> 00:01:00.110
+O mais interessante é que outros conjuntos de dados também
+
+00:01:00.110 --> 00:01:03.030
+se parecem com isso. Por exemplo, empresas de Internet executam uma grande
+
+00:01:03.030 --> 00:01:07.040
+quantidade de experimentos aleatórios. Nas versões mais simples, os usuários
+
+00:01:07.040 --> 00:01:09.820
+são atribuídos aleatoriamente a um tratamento, como uma nova
+
+00:01:09.820 --> 00:01:11.680
+versão de um site ou algum tipo de novo
+
+00:01:11.680 --> 00:01:15.370
+recurso ou produto ou uma condição de controle. Dessa forma, a
+
+00:01:15.370 --> 00:01:17.810
+diferença no resultado entre o tratamento e o controle pode
+
+00:01:17.810 --> 00:01:20.770
+ser computada para várias métricas de interesse.
+
+00:01:20.770 --> 00:01:22.990
+Em muitas situações, pode haver centenas ou
+
+00:01:22.990 --> 00:01:26.150
+milhares de experimentos e centenas de métricas. Esses dados
+
+00:01:26.150 --> 00:01:28.250
+são muito semelhantes aos dados genômicos de algumas
+
+00:01:28.250 --> 00:01:31.320
+maneiras. Por isso que a plotagem máxima útil de
+
+00:01:31.320 --> 00:01:33.700
+todos os dados nem sempre se aplica a um
+
+00:01:33.700 --> 00:01:35.840
+conjunto de dados como funcionou na maior parte deste curso.
+
