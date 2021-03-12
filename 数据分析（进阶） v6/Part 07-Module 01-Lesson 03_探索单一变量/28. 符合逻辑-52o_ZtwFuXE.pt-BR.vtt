@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.940
+Para responder essa pergunta, precisamos saber o número de
+
+00:00:02.940 --> 00:00:05.730
+usuários que fazem check-in no celular e o número total de
+
+00:00:05.730 --> 00:00:09.790
+usuários em nossa amostra. Agora eu poderia ter usado apenas esses dois
+
+00:00:09.790 --> 00:00:13.890
+números e divido-os, mas eu gostaria de fazer isso de forma programática. Para
+
+00:00:13.890 --> 00:00:16.570
+fazer isso, posso pegar a soma das variáveis de check-in
+
+00:00:16.570 --> 00:00:19.290
+quando for igual a um. E dividi-la pelo
+
+00:00:19.290 --> 00:00:22.040
+comprimento daquele vetor. Isto representa o número de usuários em
+
+00:00:22.040 --> 00:00:24.638
+nossa amostra. Ao executar esse código eu posso ver que consigo cerca
+
+00:00:24.638 --> 00:00:30.430
+de 64,5% ou 64,6%. Arredondando para a porcentagem mais próxima, seria apenas
+
+00:00:30.430 --> 00:00:33.370
+65. Isso é mais da metade dos usuários no conjunto de
+
+00:00:33.370 --> 00:00:35.330
+dados, não faria muito sentido
+
+00:00:35.330 --> 00:00:38.500
+continuar o desenvolvimento da experiência para celular. Pelo menos, com base
+
+00:00:38.500 --> 00:00:41.750
+nesta amostra de conjunto de dados. Quando você for responder as perguntas,
+
+00:00:41.750 --> 00:00:44.140
+seria importante não apenas considerar o tipo de dados
+
+00:00:44.140 --> 00:00:46.850
+que você está examinando, mas talvez os tipo de transformações você pode
+
+00:00:46.850 --> 00:00:50.280
+fazer nas próprias variáveis. Às vezes, você quer fazer contagens brutas, e
+
+00:00:50.280 --> 00:00:52.940
+outras vezes você quer apenas um binário sim ou não,
+
+00:00:52.940 --> 00:00:56.160
+para quando um usuário usou isto. É importante considerar sobre o tipo de dados você
+
+00:00:56.160 --> 00:01:00.260
+precisa usar para responder uma questão específica. Nem todo tipo de transformação
+
+00:01:00.260 --> 00:01:04.080
+que você faz precisa ser uma transformação funcional como raiz quadrada ou registro.
+

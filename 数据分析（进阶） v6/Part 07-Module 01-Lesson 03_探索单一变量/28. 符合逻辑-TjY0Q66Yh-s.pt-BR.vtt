@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.410
+Até agora, observamos várias visualizações para examinar
+
+00:00:03.410 --> 00:00:06.340
+a distribuição de uma única variável. Também vimos como
+
+00:00:06.340 --> 00:00:09.700
+transformar uma variável para entender melhor os dados.
+
+00:00:09.700 --> 00:00:12.490
+Agora, há outras formas de se transformar uma variável,
+
+00:00:12.490 --> 00:00:15.352
+além de usar algo como a raiz quadrada ou um registro. Muitas vezes,
+
+00:00:15.352 --> 00:00:19.150
+você quer converter variáveis, com muitos valores zero,
+
+00:00:19.150 --> 00:00:22.700
+em uma nova variável binária apenas com verdadeiro ou falso.
+
+00:00:22.700 --> 00:00:25.310
+Isso é útil porque talvez desejemos saber se um usuário
+
+00:00:25.310 --> 00:00:28.110
+usou um determinado recurso, em vez do número
+
+00:00:28.110 --> 00:00:31.230
+de vezes em que o usuário realmente usou esse recurso. Por
+
+00:00:31.230 --> 00:00:34.020
+exemplo, pode não importar quantas vezes uma pessoa fez check-in
+
+00:00:34.020 --> 00:00:37.324
+com um dispositivo móvel (DM). Mas, sim, se a pessoa já usou alguma vez
+
+00:00:37.324 --> 00:00:40.870
+check-in por DM. É isso o que quero dizer. Este é o resumo de
+
+00:00:40.870 --> 00:00:44.470
+curtidas por DM no nosso conjunto de dados. A mediana é 4, significando que
+
+00:00:44.470 --> 00:00:47.110
+há muitos zeros no nosso conjunto de dados. Se
+
+00:00:47.110 --> 00:00:50.402
+eu executar o sumário, vou obter um tipo diferente de tabela.
+
+00:00:50.402 --> 00:00:53.120
+Note que, na tabela, há contagens lógicas, porque
+
+00:00:53.120 --> 00:00:56.400
+uso esse operador de comparação. Queria verificar se alguém
+
+00:00:56.400 --> 00:00:59.870
+realmente fez check-in ou não. Por isso, em vez de monitorar a contagem
+
+00:00:59.870 --> 00:01:03.055
+de curtidas por DM, vamos criar uma variável que monitore os check-ins
+
+00:01:03.055 --> 00:01:06.720
+por DM. Vamos chamar essa variável de "mobile_check_in". Primeiro, vou atribuir
+
+00:01:06.720 --> 00:01:09.810
+um grupo de valores NA a ela. Depois, podemos
+
+00:01:09.810 --> 00:01:12.810
+usar a função if/else para atribuir o valor de 1 se
+
+00:01:12.810 --> 00:01:15.420
+o usuário fez check-in usando DM e o valor de
+
+00:01:15.420 --> 00:01:18.080
+0 se o usuário não fez check-in. Nessa
+
+00:01:18.080 --> 00:01:21.120
+instrução if/else, se a condição for verdadeira, vamos atribuir ao nosso
+
+00:01:21.120 --> 00:01:23.660
+usuário o valor de 1. Em caso contrário, vamos dar a ele o
+
+00:01:23.660 --> 00:01:26.390
+valor de 0. E a última coisa que vou fazer é convertê-la
+
+00:01:26.390 --> 00:01:29.180
+em uma variável fator. Executando esse código,
+
+00:01:29.180 --> 00:01:32.270
+salvo minha nova variável. E considerando um resumo
+
+00:01:32.270 --> 00:01:36.020
+dos resultados, posso ver que cerca de 64.000
+
+00:01:36.020 --> 00:01:40.230
+deles fizerem check-in usando DM enquanto 35.000 deles não fizeram. Com
+
+00:01:40.230 --> 00:01:42.708
+esses dados, você consegue me dizer qual a porcentagem de check-ins
+
+00:01:42.708 --> 00:01:46.540
+de usuários por DM? Tente usar códigos reais aqui em vez
+
+00:01:46.540 --> 00:01:49.930
+desses números incorretos. Arredonde a resposta até a porcentagem mais próxima
+
+00:01:49.930 --> 00:01:52.060
+e não inclua o sinal de porcentagem ao inseri-la aqui.
+
