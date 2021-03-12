@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.110 --> 00:00:02.550
+É importante observar que muitos dos conjuntos de dados que
+
+00:00:02.550 --> 00:00:04.670
+usamos até agora neste curso são o que eu
+
+00:00:04.670 --> 00:00:08.150
+chamaria de conjuntos de dados organizados. O que eu quero dizer é que esses conjuntos
+
+00:00:08.150 --> 00:00:13.250
+de dados foram manipulados em um formato especificado de linhas e colunas.
+
+00:00:13.250 --> 00:00:15.750
+Isso que nos permitiu importar tão facilmente esses conjuntos de dados
+
+00:00:15.750 --> 00:00:18.570
+no R. É importante saber que nem todos os conjuntos de dados
+
+00:00:18.570 --> 00:00:21.150
+são tão bons. Às vezes, você pode estar extraindo os dados
+
+00:00:21.150 --> 00:00:26.020
+de diferentes origens, como páginas da Web, arquivos de áudio ou até mesmo PDFs. Outras
+
+00:00:26.020 --> 00:00:28.690
+vezes, você pode precisar reformatar ou reorganizar seus dados em
+
+00:00:28.690 --> 00:00:32.380
+diferentes formatos. Vamos abranger isso posteriormente na lição cinco. Uma
+
+00:00:32.380 --> 00:00:35.170
+coisa importante para saber é que esta é uma etapa necessária
+
+00:00:35.170 --> 00:00:39.310
+antes de conduzir EDA e é chamada preparação de dados. Há várias
+
+00:00:39.310 --> 00:00:41.500
+ferramentas para fazer este tipo de trabalho e se você estiver
+
+00:00:41.500 --> 00:00:44.650
+interessado em aprender mais sobre como preparar e ajustar os dados,
+
+00:00:44.650 --> 00:00:47.330
+consulte nosso curso de preparação de dados. Você pode encontrar um link
+
+00:00:47.330 --> 00:00:51.260
+para ele nas Notas do instrutor. Agora, esta EDA do curso não abrangerá
+
+00:00:51.260 --> 00:00:55.360
+preparação de dados, mas as técnicas para fazer isso são importantes para qualquer cientista de dados.
+
