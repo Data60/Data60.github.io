@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.700 --> 00:00:03.430
+Temos nossa nova variável year_joined, então, vamos ver
+
+00:00:03.430 --> 00:00:06.320
+seu resumo. Parece que a maioria dos nossos usuários
+
+00:00:06.320 --> 00:00:10.230
+entrou em 2012 ou 2013, e como os valores para
+
+00:00:10.230 --> 00:00:13.490
+esta variável são distintos e o intervalo é bem estreito,
+
+00:00:13.490 --> 00:00:15.570
+vou em frente e usar table nesta variável também.
+
+00:00:15.570 --> 00:00:18.580
+Aqui podemos ver as distribuições de usuários e cada ano
+
+00:00:18.580 --> 00:00:21.920
+de entrada. Note que não há muitos dados aqui sobre os primeiros
+
+00:00:21.920 --> 00:00:25.970
+integrantes. Para aumentar os dados que temos em cada categoria de duração,
+
+00:00:25.970 --> 00:00:28.450
+podemos agrupar alguns desses anos. A função
+
+00:00:28.450 --> 00:00:32.259
+cut é muitas vezes bastante útil para criar variáveis distintas
+
+00:00:32.259 --> 00:00:35.670
+de contínuas ou numéricas, às vezes em combinação com a
+
+00:00:35.670 --> 00:00:38.290
+função quantile. Agora o que eu quero que você faça é
+
+00:00:38.290 --> 00:00:40.710
+procurar na documentação por corte e consultar
+
+00:00:40.710 --> 00:00:42.650
+o link nas Notas do instrutor para concluir este
+
+00:00:42.650 --> 00:00:46.680
+próximo exercício de programação. Sua tarefa é cortar a variável
+
+00:00:46.680 --> 00:00:50.720
+year_joined para criar quatro colunas ou categorias de usuários.
+
+00:00:50.720 --> 00:00:56.130
+As colunas serão de 2004 a 2009, 2009
+
+00:00:56.130 --> 00:01:00.551
+a 2011, 2011 a 2012 e 2012 a 2014.
+

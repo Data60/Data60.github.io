@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:02.770
+Para este exercício de programação, você precisa criar uma variável
+
+00:00:02.770 --> 00:00:06.500
+chamada year joined bucket. Ela reúne os usuários de acordo com o
+
+00:00:06.500 --> 00:00:09.740
+ano eles entraram no Facebook. Por exemplo, este seria
+
+00:00:09.740 --> 00:00:11.750
+um bucket, este também e este
+
+00:00:11.750 --> 00:00:16.420
+também. Estes usuários aqui seriam outro bucket.
+
+00:00:16.420 --> 00:00:18.877
+Para fazer isso, precisamos apenas da função cut
+
+00:00:18.877 --> 00:00:21.634
+na variável year joined. Preciso apenas dizer
+
+00:00:21.634 --> 00:00:25.128
+Cut nos anos em que eu deveria dividir meus dados. Dividirei
+
+00:00:25.128 --> 00:00:32.537
+entre 2004, 2009, 2011, 2012 e 2014.
+
+00:00:32.537 --> 00:00:36.440
+Ao executar este código, posso ver que recebi uma nova variável dentro da minha estrutura de dados.
+

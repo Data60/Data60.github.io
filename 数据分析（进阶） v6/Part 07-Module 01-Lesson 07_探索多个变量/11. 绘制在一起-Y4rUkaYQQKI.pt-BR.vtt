@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.210 --> 00:00:02.180
+Para criar este novo gráfico, só precisamos
+
+00:00:02.180 --> 00:00:06.530
+trocar gender pela variável year_joined.bucket. Esta é a nova
+
+00:00:06.530 --> 00:00:09.740
+variável de categoria que ficará no lugar de color. Também
+
+00:00:09.740 --> 00:00:12.860
+estou usando year_joined.bucket aqui. Assim, posso excluir as
+
+00:00:12.860 --> 00:00:15.630
+duas pessoas com valores NA. Vou limpar
+
+00:00:15.630 --> 00:00:17.650
+um pouco meu código. Depois vou executá-lo
+
+00:00:17.650 --> 00:00:20.580
+para criar o gráfico. Este é o gráfico que examina a
+
+00:00:20.580 --> 00:00:22.220
+relação entre friend_count e
+
+00:00:22.220 --> 00:00:25.050
+age, dividido pela variável year_joined.bucket.
+

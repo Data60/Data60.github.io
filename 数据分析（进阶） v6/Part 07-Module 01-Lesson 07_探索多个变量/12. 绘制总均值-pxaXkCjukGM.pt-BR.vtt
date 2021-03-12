@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.510 --> 00:00:03.100
+Examinando este gráfico, podemos que nossa suspeita
+
+00:00:03.100 --> 00:00:06.840
+está confirmada. Os usuários com duração mais longa tendem a ter
+
+00:00:06.840 --> 00:00:10.220
+contagens mais altas de amigos, com exceção de nossos usuários mais idosos,
+
+00:00:10.220 --> 00:00:13.240
+digamos, de 80 para cima. Para colocar esses medianos de grupos
+
+00:00:13.240 --> 00:00:16.420
+específicos em perspectivas, podemos alterá-las para médias de grupos
+
+00:00:16.420 --> 00:00:19.090
+específicos. E, em seguida, plotar a média geral aqui
+
+00:00:19.090 --> 00:00:21.990
+também. A média geral é a linha que vimos na
+
+00:00:21.990 --> 00:00:26.340
+lição quatro quando plotamos a contagem média de amigos entre as idades.
+
+00:00:26.340 --> 00:00:28.060
+Vamos ver se você pode alterar o código deste
+
+00:00:28.060 --> 00:00:30.760
+gráfico para plotar as médias em vez das medianas de
+
+00:00:30.760 --> 00:00:33.280
+cada grupo. Você também vai querer plotar a média
+
+00:00:33.280 --> 00:00:35.320
+geral, sobre a qual falamos na lição quatro.
+

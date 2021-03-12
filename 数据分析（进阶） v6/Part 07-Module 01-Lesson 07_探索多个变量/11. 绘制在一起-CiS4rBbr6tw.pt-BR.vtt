@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.310 --> 00:00:02.910
+Fizemos duas coisas até este ponto. Nós
+
+00:00:02.910 --> 00:00:06.740
+criamos uma variável chamada year_joined, com base na variável tenure
+
+00:00:06.740 --> 00:00:10.990
+e convertemos year_joined na variável year_joined_bucket. Uma variável
+
+00:00:10.990 --> 00:00:14.970
+categórica. Que associa seus usuários em diferentes grupos. Vamos aplicar table
+
+00:00:14.970 --> 00:00:18.320
+nesta nova variável para ver a distribuição em cada grupo.
+
+00:00:18.320 --> 00:00:20.340
+Aqui podemos ver que temos nossas quatro colunas
+
+00:00:20.340 --> 00:00:23.260
+de usuários, dependendo de quando eles ingressaram no Facebook, e
+
+00:00:23.260 --> 00:00:26.550
+parece que duas pessoas têm um valor de NA. Vamos
+
+00:00:26.550 --> 00:00:28.920
+usar essa nova variável year_joined_bucket para criar um
+
+00:00:28.920 --> 00:00:31.370
+gráficos de linhas como o fizemos para sexo no início
+
+00:00:31.370 --> 00:00:34.790
+da lição. Como um lembrete, este é o código que gerou este
+
+00:00:34.790 --> 00:00:38.610
+gráfico anteriormente. Observe também como computamos a contatem de amigos média
+
+00:00:38.610 --> 00:00:42.080
+de cada idade usando o parâmetro fun.wide e o summary para o
+
+00:00:42.080 --> 00:00:45.550
+parâmetro de stat. Usando uma estrutura de código semelhante a que vemos
+
+00:00:45.550 --> 00:00:48.260
+aqui. Quero que você crie um gráfico de contagem de amigos
+
+00:00:48.260 --> 00:00:51.590
+versus idade, de forma que cada year_join_bucket tenha sua própria
+
+00:00:51.590 --> 00:00:54.170
+linha no gráfico. Em outras palavras, cada
+
+00:00:54.170 --> 00:00:56.480
+bucket terá uma linha colorida que rastreia a
+
+00:00:56.480 --> 00:00:59.330
+contagem mediana de amigos entre as idades dos usuários,
+
+00:00:59.330 --> 00:01:01.250
+da mesma maneira como neste gráficos de sexos.
+
