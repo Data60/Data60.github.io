@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.120 --> 00:00:02.420
+Se você tiver assistido o vídeo da solução, deve ter observado que eu
+
+00:00:02.420 --> 00:00:06.380
+usei dois métodos diferentes para transformar nossa variável. O primeiro método usou
+
+00:00:06.380 --> 00:00:09.450
+um envoltório em torno da variável, e o segundo usou uma
+
+00:00:09.450 --> 00:00:13.130
+camada de escala. Vamos examinar as diferenças entre estes dois gráficos e
+
+00:00:13.130 --> 00:00:16.560
+ver o que os dois ajustes realmente fazem. Vou salvar este primeiro
+
+00:00:16.560 --> 00:00:19.700
+gráfico em uma escala de log e salvar o segundo gráfico em
+
+00:00:19.700 --> 00:00:22.660
+escala de contagem. Usarei cada uma destas variáveis e as passarei
+
+00:00:22.660 --> 00:00:25.950
+para grid.arrange, para poder plotá-las lado a lado, e
+
+00:00:25.950 --> 00:00:28.730
+é por isso que ncal é igual a dois. Ao executar este código,
+
+00:00:28.730 --> 00:00:31.680
+podemos ver que obtemos nossos dois histogramas. Ao examinar
+
+00:00:31.680 --> 00:00:34.240
+os dois gráficos, podemos ver que a diferença está
+
+00:00:34.240 --> 00:00:38.742
+realmente na rotulagem do eixo x. O uso de scale_x_log10 rotulará o eixo
+
+00:00:38.742 --> 00:00:42.750
+em friend_counts reais. Enquanto que o uso do wrapper log10 rotulará o
+
+00:00:42.750 --> 00:00:45.640
+eixo x em unidades de log. Isto é apenas algo para lembrar-se
+
+00:00:45.640 --> 00:00:48.380
+ao fazer mais gráficos. Em geral, acho
+
+00:00:48.380 --> 00:00:51.208
+mais fácil pensar em contagens reais e é por isso que prefiro
+
+00:00:51.208 --> 00:00:54.020
+usar scale_x_log10 como uma camada. Isso significa
+
+00:00:54.020 --> 00:00:56.540
+que você precisa aprender a sintaxe ggplot, mas
+
+00:00:56.540 --> 00:00:58.605
+não se preocupe, você terá prática suficiente na lição
+
+00:00:58.605 --> 00:01:01.480
+quatro e, se estiver se sentindo realmente aventureiro, você pode adicionar
+
+00:01:01.480 --> 00:01:02.780
+uma camada a qualquer um dos gráficos que
+
+00:01:02.780 --> 00:01:06.010
+criar. Portanto, veja nosso histograma original de contagem de amigos. Vamos
+
+00:01:06.010 --> 00:01:09.319
+apenas adicionar scale_x_log10 a ele, e aí está. Você
+
+00:01:09.319 --> 00:01:13.163
+o tem, o novo histograma transformado usando a log base 10.
+

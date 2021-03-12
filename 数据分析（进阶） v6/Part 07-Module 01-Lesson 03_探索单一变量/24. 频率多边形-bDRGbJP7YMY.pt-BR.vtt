@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.380 --> 00:00:03.530
+Lembre-se: o objetivo ao analisar esses dados de usuário do Facebook
+
+00:00:03.530 --> 00:00:06.990
+é entender os usuários e seu comportamento. Essa questão é só uma outra
+
+00:00:06.990 --> 00:00:10.650
+forma de tentarmos compreender qual segmento da nossa população
+
+00:00:10.650 --> 00:00:13.600
+está usando um determinado recurso no site. Nesse caso, queremos saber se
+
+00:00:13.600 --> 00:00:16.870
+homens e mulheres acabam usando ou não curtidas
+
+00:00:16.870 --> 00:00:19.380
+na World Wide Web com mais frequência. Primeiro,
+
+00:00:19.380 --> 00:00:22.612
+vou recordar quais variáveis estão no meu conjunto de dados.
+
+00:00:22.612 --> 00:00:25.430
+Como meu intuito é comparar as curtidas entre os sexos, vou usar
+
+00:00:25.430 --> 00:00:30.320
+www_likes. Esse código me daria um histograma que não é
+
+00:00:30.320 --> 00:00:33.690
+o que desejo. Lembre-se: também preciso definir um subconjunto dos meus dados
+
+00:00:33.690 --> 00:00:36.812
+e excluir qualquer valor de sexo em a.
+
+00:00:36.812 --> 00:00:39.276
+Agora essa parte do código está começando a parecer com
+
+00:00:39.276 --> 00:00:42.252
+o que procuro. Mas só consegui um polígono de frequência aqui,
+
+00:00:42.252 --> 00:00:44.380
+e preciso de dois. Então vou usar o parâmetro de cor
+
+00:00:44.380 --> 00:00:47.620
+e colocar um sexo. Parece um pouco melhor.
+
+00:00:47.620 --> 00:00:50.460
+Também vou adicionar scale x continuous, pois sei que
+
+00:00:50.460 --> 00:00:53.740
+as curtidas da World Wide Web estão em uma escala contínua. Certo, agora
+
+00:00:53.740 --> 00:00:57.220
+temos um gráfico razoável. Ampliando, parece que homens
+
+00:00:57.220 --> 00:01:00.690
+costumam ter mais curtidas na Web. Mas não consigo entender
+
+00:01:00.690 --> 00:01:03.770
+o final da cauda deste gráfico. Como são dados de cauda longa,
+
+00:01:03.770 --> 00:01:06.480
+vamos usar uma transformação de log
+
+00:01:06.480 --> 00:01:09.480
+para vermos melhor o que está acontecendo aqui. Vou retornar
+
+00:01:09.480 --> 00:01:11.940
+a meu código e adicionar um scale x log 10.
+
+00:01:11.940 --> 00:01:16.430
+Ao executar o código, obtemos um gráfico diferente com muito mais informações.
+
+00:01:16.430 --> 00:01:18.620
+Parece que os homens têm mais curtidas na Web
+
+00:01:18.620 --> 00:01:22.010
+a princípio, mas podemos ver que as mulheres ultrapassam os homens
+
+00:01:22.010 --> 00:01:24.540
+neste ponto do gráfico. Com isso, ainda resta
+
+00:01:24.540 --> 00:01:27.410
+a dúvida sobre quem de fato tem mais curtidas. Homens ou mulheres?
+

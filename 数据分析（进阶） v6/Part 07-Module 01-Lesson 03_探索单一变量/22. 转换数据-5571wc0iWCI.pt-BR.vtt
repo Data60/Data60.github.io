@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.230 --> 00:00:02.750
+Esta é a abordagem lotta de transformar variáveis em um conjunto de dados do
+
+00:00:02.750 --> 00:00:06.240
+Facebook. Considero a maioria das variáveis, como
+
+00:00:06.240 --> 00:00:10.200
+friend_count, curtidas, comentários e postagens no mural, como variáveis
+
+00:00:10.200 --> 00:00:12.720
+de envolvimento, e todas têm
+
+00:00:12.720 --> 00:00:15.330
+finais longos. Alguns usuários têm 10 ou até
+
+00:00:15.330 --> 00:00:18.580
+100 vezes o valor médio. Em outras palavras, há
+
+00:00:18.580 --> 00:00:21.050
+pessoas com uma ordem de magnitudes, com mais
+
+00:00:21.050 --> 00:00:25.130
+curtidas, cliques ou comentários do que outros usuários. Em estatística,
+
+00:00:25.130 --> 00:00:28.030
+chamamos isso de superdispersão dos dados. Isso
+
+00:00:28.030 --> 00:00:31.880
+ajuda a transformar esses valores para que vejamos desvios padrão, ou
+
+00:00:31.880 --> 00:00:34.760
+ordens de magnitudes; então, estamos reduzindo
+
+00:00:34.760 --> 00:00:38.140
+o final. Este é o nosso histograma de friend_count.
+
+00:00:38.140 --> 00:00:40.310
+Note que ainda temos um final longo. Podemos
+
+00:00:40.310 --> 00:00:44.160
+transformar esta variável usando o log natural,
+
+00:00:44.160 --> 00:00:47.440
+o log base 2, ou o log base 10. Ou usar outras funções,
+
+00:00:47.440 --> 00:00:50.350
+como a raiz quadrada. Isso nos ajuda a ver padrões
+
+00:00:50.350 --> 00:00:53.110
+com mais clareza, sem se distrair com
+
+00:00:53.110 --> 00:00:56.450
+os finais. As técnicas estatísticas comuns, como a regressão
+
+00:00:56.450 --> 00:00:59.680
+linear, se baseiam na suposição de que variáveis têm distribuições
+
+00:00:59.680 --> 00:01:03.230
+normais. Com o log desta variável, talvez possamos
+
+00:01:03.230 --> 00:01:05.930
+transformar nossos dados em uma distribuição
+
+00:01:05.930 --> 00:01:09.830
+normal ou em algo que lembre uma distribuição normal, caso estejamos usando a
+
+00:01:09.830 --> 00:01:13.100
+regressão linear ou outra técnica de modelagem.
+
+00:01:13.100 --> 00:01:15.380
+Sei que não estamos tratando de modelagem aqui, mas
+
+00:01:15.380 --> 00:01:18.510
+vejamos como podemos transformar a variável. Primeiro,
+
+00:01:18.510 --> 00:01:21.080
+farei isso no comando summary. Este é o
+
+00:01:21.080 --> 00:01:24.130
+summary do friend_count. A mediana de friend_count
+
+00:01:24.130 --> 00:01:27.790
+é 82, e a média é 196. Posso usar o log
+
+00:01:27.790 --> 00:01:30.480
+base 10 desse friend_count e obter uma tabela diferente.
+
+00:01:30.480 --> 00:01:33.070
+Isso parece incomum, pois tenho infinito
+
+00:01:33.070 --> 00:01:37.410
+negativo para o mínimo e infinito negativo para a média. Hum.
+
+00:01:37.410 --> 00:01:40.460
+O que está acontecendo? Em alguns dos usuários,
+
+00:01:40.460 --> 00:01:42.940
+o friend_count é zero. Com o log
+
+00:01:42.940 --> 00:01:46.340
+base 10 de valor zero, isso fica indefinido. Para quem está
+
+00:01:46.340 --> 00:01:49.100
+familiarizado com cálculo, o limite é infinito negativo. Por isso, ele
+
+00:01:49.100 --> 00:01:52.290
+aparece aqui. Para evitar isso, incluiremos um friend_count.
+
+00:01:52.290 --> 00:01:55.280
+Assim, não obteremos uma resposta indefinida, nem um
+
+00:01:55.280 --> 00:01:58.810
+infinito negativo. Está bem melhor assim. Agora vou usar a
+
+00:01:58.810 --> 00:02:01.910
+raiz quadrada em friend_count para mostrar outra função.
+
+00:02:01.910 --> 00:02:05.530
+Este é outro tipo de transformação. Para mim, o log base 10
+
+00:02:05.530 --> 00:02:07.990
+é uma transformação mais fácil de destrinchar porque
+
+00:02:07.990 --> 00:02:11.380
+estou comparando friend_ counts em ordens de magnitude 10.
+
+00:02:11.380 --> 00:02:14.820
+É uma escala dez vezes maior, como a escala pH. Como
+
+00:02:14.820 --> 00:02:17.940
+você acaba de ver transformações em resumos, tente aplicar uma transformação
+
+00:02:17.940 --> 00:02:21.700
+semelhante ao histograma. Verifique as Notas
+
+00:02:21.700 --> 00:02:24.500
+do instrutor para aprender como usar escalas e criar
+
+00:02:24.500 --> 00:02:27.550
+vários gráficos em uma página. Após ler esses links, se achar
+
+00:02:27.550 --> 00:02:31.200
+que está pronto, tente fazer o próximo exercício de programação.
+
+00:02:31.200 --> 00:02:34.220
+Você criará três histogramas diferentes neste exercício. O primeiro será
+
+00:02:34.220 --> 00:02:37.220
+o histograma original friend_count; o segundo terá o friend_count
+
+00:02:37.220 --> 00:02:40.460
+transformado usando o log 10. E o último histograma terá
+
+00:02:40.460 --> 00:02:44.530
+o friend_count transformado usando a raiz quadrada. Eu não
+
+00:02:44.530 --> 00:02:47.620
+ofereci todas as informações para fazer este exercício.
+
+00:02:47.620 --> 00:02:50.390
+Seja criativo agora. Ser um bom programador significa
+
+00:02:50.390 --> 00:02:53.470
+ser capaz de ler a documentação e saber como encontrar respostas
+
+00:02:53.470 --> 00:02:56.390
+para possíveis dúvidas. Fizemos o trabalho braçal, fornecendo a você
+
+00:02:56.390 --> 00:02:59.460
+o recurso. Tente concluir o exercício sozinho.
+

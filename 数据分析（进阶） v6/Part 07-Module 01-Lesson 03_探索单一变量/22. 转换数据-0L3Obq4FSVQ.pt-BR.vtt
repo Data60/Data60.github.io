@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.390 --> 00:00:03.850
+Sua tarefa era criar três histogramas em um gráfico
+
+00:00:03.850 --> 00:00:06.950
+de saída. E, para fazer isso, você precisava instalar o pacote extra de
+
+00:00:06.950 --> 00:00:10.960
+grade e carregá-lo em nosso estúdio. Depois de fazer
+
+00:00:10.960 --> 00:00:12.860
+isso, é só criar cada um dos
+
+00:00:12.860 --> 00:00:16.910
+três histogramas. E salvá-los em três variáveis. Usarei p1,
+
+00:00:16.910 --> 00:00:19.130
+p2 e p3 para cada gráfico que
+
+00:00:19.130 --> 00:00:22.290
+criarei. O primeiro histograma é como fizemos antes. Nós
+
+00:00:22.290 --> 00:00:25.610
+temos friend_count, passo para x, e pf, passo para dados.
+
+00:00:25.610 --> 00:00:29.630
+Para o segundo histograma, utilizaremos log10 de friend_count. Lembre-se de,
+
+00:00:29.630 --> 00:00:31.930
+primeiro, adicionar 1 a ele, para que não recebamos
+
+00:00:31.930 --> 00:00:35.760
+resultados indefinidos. E, para nosso terceiro histograma, simplesmente pegaremos
+
+00:00:35.760 --> 00:00:38.540
+a raiz quadrada de friend_count. Se executarmos todas essas linhas
+
+00:00:38.540 --> 00:00:41.530
+de código, posso ver que crio três novas variáveis que
+
+00:00:41.530 --> 00:00:44.460
+salvam cada gráfico. Agora, preciso passar
+
+00:00:44.460 --> 00:00:47.469
+cada gráfico para o arranjo de pontos da grade. E definir end col
+
+00:00:47.469 --> 00:00:51.360
+como 1, pois quero apenas uma coluna com todos os meus histogramas.
+
+00:00:51.360 --> 00:00:53.460
+Executando meu código, posso ver que criei
+
+00:00:53.460 --> 00:00:57.840
+três histogramas. Eis uma visão aproximada dos três. Observe que
+
+00:00:57.840 --> 00:01:00.790
+nosso segundo gráfico é bem melhor. Pois temos um tipo de
+
+00:01:00.790 --> 00:01:03.090
+distribuição mais normal. A transformação da raiz quadrada
+
+00:01:03.090 --> 00:01:04.849
+também é melhor que nenhuma transformação,
+
+00:01:04.849 --> 00:01:06.740
+pois não temos uma cauda tão
+
+00:01:06.740 --> 00:01:09.730
+longa. Ainda temos uma cauda longa, mas temos
+
+00:01:09.730 --> 00:01:13.070
+uma contagem de amigos menor desde que transformamos a variável. A inclinação não
+
+00:01:13.070 --> 00:01:16.420
+é tão acentuada como antes. Há outra maneira de criar
+
+00:01:16.420 --> 00:01:20.120
+esses mesmos três histogramas usando um tipo diferente de sintaxe.
+
+00:01:20.120 --> 00:01:23.210
+De primeira, essa sintaxe é um pouco mais complicada. No entanto,
+
+00:01:23.210 --> 00:01:24.960
+quero te mostrar um pouco dela agora, pois você
+
+00:01:24.960 --> 00:01:27.480
+verá isso nas lições a seguir. Dessa vez, usaremos a
+
+00:01:27.480 --> 00:01:31.470
+sintaxe ggplot para criar nosso histograma. O ggplot é muito
+
+00:01:31.470 --> 00:01:34.090
+parecido com a função qplot, pois pega os
+
+00:01:34.090 --> 00:01:37.600
+mesmos parâmetros, x e dados. A principal diferença é que
+
+00:01:37.600 --> 00:01:41.130
+precisamos incluir quaisquer variáveis x ou y nesse wrapper
+
+00:01:41.130 --> 00:01:44.440
+estético ou AES. Outra coisa que precisamos fazer é
+
+00:01:44.440 --> 00:01:46.860
+dizer ao ggplot qual tipo de gráfico queremos
+
+00:01:46.860 --> 00:01:50.010
+criar. Ou o tipo de geom que queremos. O geom que
+
+00:01:50.010 --> 00:01:53.590
+queremos é o geom_histogram. Executando esse código, posso ver que
+
+00:01:53.590 --> 00:01:55.910
+criei meu histograma original. Que foi o primeiro que
+
+00:01:55.910 --> 00:01:59.230
+criamos em friend_count. Executando toda a linha, posso salvar esse
+
+00:01:59.230 --> 00:02:02.440
+histograma em p1. Agora, tenho um gráfico que posso
+
+00:02:02.440 --> 00:02:06.220
+alterar usando escalas. Agora, para o segundo gráfico, pegarei meu
+
+00:02:06.220 --> 00:02:10.380
+primeiro gráfico e adicionarei scale_x_log10 a ele. Isso
+
+00:02:10.380 --> 00:02:13.620
+se transformará no eixo x, ou variável x, usando base
+
+00:02:13.620 --> 00:02:16.970
+de log 10. De maneira similar, para o terceiro gráfico, adicionarei a raiz quadrada da
+
+00:02:16.970 --> 00:02:19.940
+escala x. Não quero usar p2 aqui, pois
+
+00:02:19.940 --> 00:02:22.140
+já tenho uma escala 10 de log nele. Quero
+
+00:02:22.140 --> 00:02:25.350
+usar meu gráfico original, p1. E adicionar a raiz quadrada
+
+00:02:25.350 --> 00:02:28.170
+da escala x. Agora, salvando todos esses gráficos e gravando nossa função de arranjo
+
+00:02:28.170 --> 00:02:32.330
+de pontos da grade, temos o mesmo resultado de antes.
+
+00:02:32.330 --> 00:02:34.285
+Há uma pequena diferença aqui, baseada no
+
+00:02:34.285 --> 00:02:36.720
+rótulo do eixo x. E quero ver se você
+
+00:02:36.720 --> 00:02:38.610
+consegue descobrir o que é. Se você não tiver certeza de quais são as
+
+00:02:38.610 --> 00:02:41.230
+diferenças, não se preocupe. Eu as explicarei no próximo vídeo.
+
