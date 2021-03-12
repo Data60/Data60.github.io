@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:02.969
+Para criar nosso histograma de idades do usuário, vamos começar
+
+00:00:02.969 --> 00:00:06.273
+usando a função Q plot. Vamos passar a variável age. E nosso
+
+00:00:06.273 --> 00:00:10.011
+conjunto de dados é pseudo Facebook, PF. E vou adicionar
+
+00:00:10.011 --> 00:00:13.749
+um pouco de cor usando os parâmetros color e fill. Ao executar este código,
+
+00:00:13.749 --> 00:00:16.733
+vemos nosso histograma. Agora você pode ter tentado uma variedade
+
+00:00:16.733 --> 00:00:19.426
+de larguras de compartimento. E neste caso, acho que a largura de compartimento
+
+00:00:19.426 --> 00:00:22.620
+de um é a melhor. Então vamos adicionar isso aqui.
+
+00:00:22.620 --> 00:00:25.280
+Escolhi uma largura de compartimento de um porque faz sentido, já que
+
+00:00:25.280 --> 00:00:28.370
+optamos por anos ou idades. Isso me dá um histograma de
+
+00:00:28.370 --> 00:00:31.340
+contagens de usuários por anos individuais, para que eu possa ter
+
+00:00:31.340 --> 00:00:35.010
+uma visão mais refinada dos dados, digamos, para 25 anos de idade.
+
+00:00:35.010 --> 00:00:37.510
+Ao definir a largura de compartimento igual a um, conseguimos
+
+00:00:37.510 --> 00:00:41.030
+ver mais facilmente picos incomuns nos dados. Pontos como
+
+00:00:41.030 --> 00:00:44.380
+aqui, aqui e, definitivamente, aqui. Vamos ampliar este
+
+00:00:44.380 --> 00:00:47.280
+gráfico para um olhar mais atento. Vejo os picos maiores
+
+00:00:47.280 --> 00:00:50.300
+do meio até o final dos anos 20. E não temos usuários
+
+00:00:50.300 --> 00:00:52.290
+que têm idade inferior a 13 anos na esquerda
+
+00:00:52.290 --> 00:00:55.570
+do histograma. Faz sentido porque os usuários devem ter pelo menos
+
+00:00:55.570 --> 00:00:58.680
+13 anos para configurar uma conta no Facebook. Agora também há
+
+00:00:58.680 --> 00:01:02.830
+alguns picos incomuns acima de 100, mas acho que alguns usuários
+
+00:01:02.830 --> 00:01:05.640
+podem estar exagerando suas idades. Você tem amigos que têm
+
+00:01:05.640 --> 00:01:09.190
+100 anos de idade ou mais no Facebook? Tenho certeza que eu não tenho.
+
+00:01:09.190 --> 00:01:12.000
+E uma última observação que quero fazer é que o seu eixo x
+
+00:01:12.000 --> 00:01:15.550
+pode parecer ligeiramente diferente do meu. Lembre-se de que podemos usar scale
+
+00:01:15.550 --> 00:01:19.258
+x discrete ou scale x continuous para mudar essa aparência.
+
+00:01:19.258 --> 00:01:21.725
+Então, adicionando scale x discrete aqui, posso definir
+
+00:01:21.725 --> 00:01:25.070
+intervalos para executar de 0 113, e eles
+
+00:01:25.070 --> 00:01:29.340
+incrementarem a cada cinco unidades ou a cada cinco anos. Agora você pode
+
+00:01:29.340 --> 00:01:32.300
+estar se perguntando por que escolhi 113 aqui, e tenho
+
+00:01:32.300 --> 00:01:34.990
+uma resposta simples para você. Apenas usei a idade máxima
+
+00:01:34.990 --> 00:01:37.460
+em nosso conjunto de dados do usuário. Lembre-se de que posso
+
+00:01:37.460 --> 00:01:40.570
+descobrir isso executando Summary nessa variável. Assim, posso ver que
+
+00:01:40.570 --> 00:01:44.621
+a idade mínima é 13 anos, e a idade máxima é 113.
+
