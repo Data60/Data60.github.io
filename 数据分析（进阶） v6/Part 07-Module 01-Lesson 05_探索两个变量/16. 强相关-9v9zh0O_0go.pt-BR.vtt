@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.520 --> 00:00:02.190
+Examinando este gráfico, podemos que temos
+
+00:00:02.190 --> 00:00:05.290
+algumas exceções esquisitas aqui. E aqui está a maior parte
+
+00:00:05.290 --> 00:00:08.450
+de nossos dados. Para determinar bons limites x e y para
+
+00:00:08.450 --> 00:00:12.300
+nosso eixo, podemos olhar para o 95º percentil usando o
+
+00:00:12.300 --> 00:00:15.718
+comando Quantile. Isso nos permitirá ver o 95º percentil de
+
+00:00:15.718 --> 00:00:18.890
+www_likes_received e o 95º percentil de
+
+00:00:18.890 --> 00:00:20.800
+likes_received. E, com sorte,
+
+00:00:20.800 --> 00:00:23.230
+devemos nos livrar de alguns desses pontos. Para fazer isso,
+
+00:00:23.230 --> 00:00:25.920
+vou usar a camada xlim e a camada ylim.
+
+00:00:25.920 --> 00:00:29.240
+Vamos passar zero como o limite inferior para xlim e,
+
+00:00:29.240 --> 00:00:32.689
+para o limite superior, usaremos o quantil de 95% para
+
+00:00:32.689 --> 00:00:36.600
+www_likes_received. Da mesma forma, para likes_received, vamos usar o
+
+00:00:36.600 --> 00:00:39.890
+mesmo tipo de sintaxe e apenas substituir a variável. Zero será
+
+00:00:39.890 --> 00:00:42.910
+nosso limite inferior, e o 95º percentil para likes_received
+
+00:00:42.910 --> 00:00:45.980
+será nosso limite superior. Quando executo este código,
+
+00:00:45.980 --> 00:00:48.330
+estamos ampliando efetivamente a parte inferior do
+
+00:00:48.330 --> 00:00:50.990
+gráfico que tínhamos aqui. A inclinação da linha de
+
+00:00:50.990 --> 00:00:54.580
+melhor ajuste por estes pontos é a correlação. E, podemos
+
+00:00:54.580 --> 00:00:57.740
+até mesmo adicionar ao gráfico usando algum código. Fazemos
+
+00:00:57.740 --> 00:01:00.230
+isso adicionando um mais suave e definindo o método para um
+
+00:01:00.230 --> 00:01:03.140
+modelo linear ou lm. Note também que eu também o colori de
+
+00:01:03.140 --> 00:01:05.610
+vermelho para que pudéssemos vê-lo pelos pontos negros.
+
+00:01:05.610 --> 00:01:10.140
+Vamos quantificar essa relação com um número. Então, qual é a correlação
+
+00:01:10.140 --> 00:01:12.540
+entre as duas variáveis? Não quero que você tenha que criar um
+
+00:01:12.540 --> 00:01:16.080
+subconjunto dos dados, apenas incluir todos os pontos de dados e
+
+00:01:16.080 --> 00:01:17.890
+arredondar sua resposta para três casas decimais.
+

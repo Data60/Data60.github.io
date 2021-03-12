@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.420 --> 00:00:03.200
+Vamos continuar nossa investigação analisando algumas variáveis
+
+00:00:03.200 --> 00:00:06.030
+extremamente correlatas. Desta vez, vamos analisar a
+
+00:00:06.030 --> 00:00:08.430
+quantidade de curtidas que os usuários receberam dos amigos na
+
+00:00:08.430 --> 00:00:11.596
+versão para desktop do site. Esse é o
+
+00:00:11.596 --> 00:00:15.640
+www_likes_received. Vamos comparar essa variável à quantidade total
+
+00:00:15.640 --> 00:00:19.670
+de curtidas que os usuários receberam, que é a variável likes_received.
+
+00:00:19.670 --> 00:00:22.130
+É claro que você poderia receber curtidas pela
+
+00:00:22.130 --> 00:00:24.580
+versão para dispositivos móveis, mas não vamos analisar isso.
+
+00:00:25.630 --> 00:00:28.220
+Agora vou passar isso para você. Quero que você
+
+00:00:28.220 --> 00:00:33.650
+crie um gráfico de dispersão desta variável versus esta variável e deve
+
+00:00:33.650 --> 00:00:38.330
+fazer sentido que likes_received seja maior do que www_likes_received. Já que
+
+00:00:38.330 --> 00:00:42.410
+algumas dessas curtidas podem vir de outras fontes, móveis ou desconhecidas.
+

@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.520 --> 00:00:02.995
+Para criar este gráfico, usaremos a função
+
+00:00:02.995 --> 00:00:07.240
+ggplot. Colocaremos www_likes_received na variável x, e
+
+00:00:07.240 --> 00:00:11.090
+likes_received na variável y. Então, definiremos
+
+00:00:11.090 --> 00:00:14.260
+nossa estrutura de dados igual a nossos usuários do pseudo Facebook e
+
+00:00:14.260 --> 00:00:16.460
+diremos ao ggplot que queremos
+
+00:00:16.460 --> 00:00:19.500
+um geom_point ou gráfico de dispersão. Esqueci de fazer algo
+
+00:00:19.500 --> 00:00:22.030
+aqui. Preciso colocar minhas variáveis x e y
+
+00:00:22.030 --> 00:00:25.650
+dentro do wrapper estético. Então, vou colocá-las aqui. Pode ser
+
+00:00:25.650 --> 00:00:27.970
+que você não tenha usado a sintaxe ggplot,
+
+00:00:27.970 --> 00:00:30.070
+mas aconselho que continue a usá-la
+
+00:00:30.070 --> 00:00:31.590
+e praticá-la ao longo
+
+00:00:31.590 --> 00:00:34.002
+desta lição. Usaremos mais a
+
+00:00:34.002 --> 00:00:36.310
+sintaxe ggplot na próxima lição, então
+
+00:00:36.310 --> 00:00:38.090
+é importante que você a saiba de trás
+
+00:00:38.090 --> 00:00:41.170
+para frente. Tente fazer outros gráficos de dispersão com
+
+00:00:41.170 --> 00:00:43.650
+variáveis diferentes para se familiarizar mais com a sintaxe.
+

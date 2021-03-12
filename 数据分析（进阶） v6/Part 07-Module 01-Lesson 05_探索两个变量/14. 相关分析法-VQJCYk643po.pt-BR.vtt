@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.024 --> 00:00:03.690
+O coeficiente de correlação de Pearson mede a força de relação
+
+00:00:03.690 --> 00:00:06.340
+entre duas variáveis, mas pode haver muitos outros
+
+00:00:06.340 --> 00:00:09.204
+tipos de relações. Mesmo aquelas que sejam monótonas,
+
+00:00:09.204 --> 00:00:12.520
+tanto as de aumento como as de diminuição. Então, também temos
+
+00:00:12.520 --> 00:00:15.650
+medidas de relações monótonas,
+
+00:00:15.650 --> 00:00:19.270
+como um coeficiente de relação de postos, como o de Spearman. Podemos atribuir Spearman
+
+00:00:19.270 --> 00:00:22.380
+ao parâmetro do método e calcular a correlação dessa forma.
+
+00:00:22.380 --> 00:00:25.210
+Aqui temos uma estatística de teste diferente, chamada linha.
+
+00:00:25.210 --> 00:00:27.830
+Observe como nosso valor é um pouco diferente também.
+
+00:00:27.830 --> 00:00:30.400
+Você pode aprender mais sobre as suposições
+
+00:00:30.400 --> 00:00:33.810
+e os usos dos diferentes métodos nas Notas do instrutor. Com base nestes últimos vídeos
+
+00:00:33.810 --> 00:00:36.980
+sobre correlações, o que quero deixar claro aqui
+
+00:00:36.980 --> 00:00:41.150
+é que coeficientes de números únicos como este são úteis,
+
+00:00:41.150 --> 00:00:43.640
+mas não são uma substituição à grade para examinar um gráfico de dispersão
+
+00:00:43.640 --> 00:00:46.743
+e computar resumos condicionais como fizemos antes. Entendemos melhor
+
+00:00:46.743 --> 00:00:50.400
+observando gráficos como este aqui para
+
+00:00:50.400 --> 00:00:51.853
+friend_count e age.
+
