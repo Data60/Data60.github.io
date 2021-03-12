@@ -1,0 +1,196 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:02.925
+Nesta lição, você criou dois gráficos para fins
+
+00:00:02.925 --> 00:00:05.800
+condicionais. Vamos olhar mais atentamente os dois
+
+00:00:05.800 --> 00:00:08.980
+gráficos e ver como eles são diferentes. Este segundo bloco de
+
+00:00:08.980 --> 00:00:12.430
+código nos deu este gráfico. E este primeiro bloco
+
+00:00:12.430 --> 00:00:15.960
+de código nos deu este gráfico. Agora, você reorganiza estas estruturas de
+
+00:00:15.960 --> 00:00:18.440
+dados para considerar apenas usuários
+
+00:00:18.440 --> 00:00:21.830
+com 71 anos ou menos. Então, vamos fazer o mesmo aqui. Ao executar o
+
+00:00:21.830 --> 00:00:25.010
+código, podemos ver que estamos limitando nosso eixo x.
+
+00:00:25.010 --> 00:00:27.560
+Agora, o que eu quero fazer é colocar esses dois gráficos
+
+00:00:27.560 --> 00:00:30.500
+lado a lado, para que possamos olhar para eles juntos. Você
+
+00:00:30.500 --> 00:00:33.550
+já sabia disso, basicamente dizemos, cada gráfico em
+
+00:00:33.550 --> 00:00:36.800
+uma variável, e colocamos essas variáveis em uma banda do gráfico.
+
+00:00:36.800 --> 00:00:40.430
+Então, aqui está a diferença entre a idade e idade com meses.
+
+00:00:40.430 --> 00:00:44.270
+Ao diminuir o tamanho de nossas bandas e aumentar o número
+
+00:00:44.270 --> 00:00:48.150
+delas, temos menos dados para estimar cada média condicional.
+
+00:00:48.150 --> 00:00:50.260
+Podemos ver que o ruído é bem pior neste
+
+00:00:50.260 --> 00:00:53.870
+gráfico, já que temos escolhas de bandas mais específicas. Por outro
+
+00:00:53.870 --> 00:00:56.870
+lado, podemos ir em outra direção e aumentar o tamanho
+
+00:00:56.870 --> 00:01:00.550
+das bandas. Digamos, podemos reunir todos juntos cujas idades
+
+00:01:00.550 --> 00:01:03.920
+se encaixam abaixo de múltiplos de cinco. Essencialmente, o que faremos é, cortaremos
+
+00:01:03.920 --> 00:01:07.430
+nosso gráfico em pedaços e colocaremos estes mean friend counts
+
+00:01:07.430 --> 00:01:10.090
+juntos. Então, os usuários que estão dentro das duas metades
+
+00:01:10.090 --> 00:01:13.155
+de 40 anos serão reunidos neste ponto. O mesmo será
+
+00:01:13.155 --> 00:01:15.465
+verdade para usuários que estão dentro das duas metades
+
+00:01:15.465 --> 00:01:17.445
+de 50 anos. Para usuários que estão dentro das duas metades
+
+00:01:17.445 --> 00:01:20.690
+de 60 anos. Mostrarei o que quero dizer no código. Aqui,
+
+00:01:20.690 --> 00:01:24.720
+estou criando um gráfico com a idade que foi dividida por cinco, arredondada
+
+00:01:24.720 --> 00:01:28.190
+e multiplicada por cinco. Também dividi em subconjuntos nossa estrutura de dados, tal
+
+00:01:28.190 --> 00:01:30.660
+qual os outros gráficos. A última coisa que farei é adicionar
+
+00:01:30.660 --> 00:01:34.120
+uma linha geom com um resumo estático. Eu não quero
+
+00:01:34.120 --> 00:01:36.860
+criar o gráfico com friend count. Quero criá-lo com mean friend count.
+
+00:01:36.860 --> 00:01:40.710
+Então, passarei summary para stat e mean para fun.y.
+
+00:01:40.710 --> 00:01:42.500
+Salvarei este gráfico e o adicionarei
+
+00:01:42.500 --> 00:01:45.909
+aos outros. Então, vê como temos menos pontos de dados aqui? E
+
+00:01:45.909 --> 00:01:49.580
+larguras de compartimento maiores. Ao fazer isso, estimaremos a média
+
+00:01:49.580 --> 00:01:53.780
+mais precisamente, mas potencialmente perderemos características importantes da idade e
+
+00:01:53.780 --> 00:01:57.080
+relação de friend count. Estes três gráficos são um exemplo
+
+00:01:57.080 --> 00:02:00.200
+do viés de compensação de variação, e é semelhante à compensação
+
+00:02:00.200 --> 00:02:03.450
+que fazemos ao escolher a largura de compartimento nos histogramas. Uma forma
+
+00:02:03.450 --> 00:02:05.890
+de analisar melhor esta compensação é usando
+
+00:02:05.890 --> 00:02:09.370
+um modelo estatístico flexível para suavizar nossas estimativas de
+
+00:02:09.370 --> 00:02:13.555
+médias condicionais. ggplot torna mais fácil encaixar esses modelos usando
+
+00:02:13.555 --> 00:02:16.610
+geom smooth. Então, em vez de ver todos esses ruídos,
+
+00:02:16.610 --> 00:02:19.690
+teremos uma função modular smooth que se encaixará juntamente
+
+00:02:19.690 --> 00:02:21.540
+com os dados. Faremos o mesmo para esse
+
+00:02:21.540 --> 00:02:24.760
+gráfico também. Aqui, adicionamos a camada geom smooth
+
+00:02:24.760 --> 00:02:27.590
+tanto para nosso primeiro quanto para o segundo gráfico. Estou
+
+00:02:27.590 --> 00:02:31.000
+usando os padrões de ggplot para que todas decisões sobre o
+
+00:02:31.000 --> 00:02:33.430
+modelo que usaremos sejam feitas para nós.
+
+00:02:33.430 --> 00:02:36.370
+Se você estiver interessado em explorar os modelos e os parâmetros,
+
+00:02:36.370 --> 00:02:39.460
+dê uma olhada na documentação do geom smooth. Então,
+
+00:02:39.460 --> 00:02:41.690
+salvarei esses dois gráficos e executaremos o código
+
+00:02:41.690 --> 00:02:45.610
+novamente. Veja nosso suavizador para idade_com_meses, e aqui está nosso
+
+00:02:45.610 --> 00:02:49.290
+suavizador para idade. Enquanto o suavizador captura algumas das
+
+00:02:49.290 --> 00:02:52.165
+características desta relação, ela não chama a atenção
+
+00:02:52.165 --> 00:02:56.280
+para a relação não monotônica nas idades mais novas. Não apenas isso,
+
+00:02:56.280 --> 00:02:58.740
+mas ele não conta a descontinuidade na idade dos 69.
+
+00:02:58.740 --> 00:03:02.610
+Estes destaques que usam modelos como S baixo ou
+
+00:03:02.610 --> 00:03:06.270
+linhas S suaves podem ser úteis. Mas, como qualquer
+
+00:03:06.270 --> 00:03:09.010
+modelo, ele pode estar sujeito a erros sistemáticos, quando
+
+00:03:09.010 --> 00:03:12.090
+o verdadeiro processo que gera nossos dados não é tão consistente
+
+00:03:12.090 --> 00:03:14.640
+com o próprio modelo. Aqui os modelos são baseados
+
+00:03:14.640 --> 00:03:17.730
+na ideia que a função verdadeira é suave. Mas,
+
+00:03:17.730 --> 00:03:20.470
+sabemos que há alguma descontinuidade na relação.
+

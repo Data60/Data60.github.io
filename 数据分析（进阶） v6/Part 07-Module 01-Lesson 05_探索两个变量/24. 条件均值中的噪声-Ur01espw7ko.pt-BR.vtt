@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.380 --> 00:00:03.060
+Neste exercício, crie um gráfico de
+
+00:00:03.060 --> 00:00:06.850
+dispersão similar, com friend count mean versus age with months. Para
+
+00:00:06.850 --> 00:00:10.320
+criar o valor, usaremos ggplot. Vou passar age with months
+
+00:00:10.320 --> 00:00:13.570
+para x, e friend count mean para y. E
+
+00:00:13.570 --> 00:00:16.360
+depois preciso concluir isso no AES.
+
+00:00:16.360 --> 00:00:18.900
+Vejamos agora a estrutura de dados. Preciso tomar cuidado
+
+00:00:18.900 --> 00:00:22.590
+para não utilizar usuários pseudo Facebook. Quero usar
+
+00:00:22.590 --> 00:00:25.380
+esta estrutura de dados. Depois,
+
+00:00:25.380 --> 00:00:28.310
+preciso definir um subconjunto dela. Vou considerar apenas
+
+00:00:28.310 --> 00:00:31.598
+usuários com age with months inferior a 71. Depois, ggplot
+
+00:00:31.598 --> 00:00:35.372
+saberá o tipo de geom que desejo, geom live. Eis
+
+00:00:35.372 --> 00:00:39.540
+nosso gráfico com mais ruídos, com friend count mean versus age with months.
+
