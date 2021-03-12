@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.220 --> 00:00:02.450
+Agora que você tem o layout básico do nosso estúdio,
+
+00:00:02.450 --> 00:00:05.520
+pode personalizá-lo acessando Tools e
+
+00:00:05.520 --> 00:00:09.090
+Options. Depois, pode escolher o diretório padrão, se
+
+00:00:09.090 --> 00:00:13.880
+quiser. Você pode alterar as opções de formatação do código de edição ou
+
+00:00:13.880 --> 00:00:17.090
+mesmo a fonte e a aparência. Aqui, estou usando
+
+00:00:17.090 --> 00:00:20.390
+o tema Tomorrow, mas há outros, é claro. Você
+
+00:00:20.390 --> 00:00:23.080
+também pode fazer ajustes aos painéis, portanto,
+
+00:00:23.080 --> 00:00:25.960
+brinque com isso para ter a configuração que deseja.
+
+00:00:25.960 --> 00:00:28.380
+Talvez você não saiba o que quer primeiro,
+
+00:00:28.380 --> 00:00:30.830
+portanto, brinque com R um pouco e
+
+00:00:30.830 --> 00:00:33.740
+depois encontre a configuração melhor para você. Deixarei este
+
+00:00:33.740 --> 00:00:37.180
+como está. Configuramos R. Agora,
+
+00:00:37.180 --> 00:00:40.410
+vamos começar a usar a linguagem de programação. Para começar, baixe
+
+00:00:40.410 --> 00:00:43.680
+o script R nas Notas do instrutor e
+
+00:00:43.680 --> 00:00:46.480
+abra-o. Ao abri-lo, será parecido
+
+00:00:46.480 --> 00:00:50.960
+com isto. Este script R contém comentários como texto simples e
+
+00:00:50.960 --> 00:00:54.150
+código R. Você pode executar comandos R destacando uma parte
+
+00:00:54.150 --> 00:00:58.030
+do código e pressionando Cmd + Enter no Mac ou Ctrl + Enter
+
+00:00:58.030 --> 00:01:01.440
+no PC. As linhas de texto que começam com um hash
+
+00:01:01.440 --> 00:01:04.830
+ou o símbolo da libra são comentários. Há linhas de texto simples que queremos
+
+00:01:04.830 --> 00:01:08.150
+usar como código R. Para o código R, use o texto independente.
+
+00:01:08.150 --> 00:01:11.410
+Sua tarefa é ler este arquivo
+
+00:01:11.410 --> 00:01:14.080
+e executar e escrever o código quando você for solicitado. Quando chegar
+
+00:01:14.080 --> 00:01:16.660
+chegar no fim do arquivo, haverá uma pergunta.
+
+00:01:16.660 --> 00:01:19.250
+Responda-a para passar para o próximo vídeo
+
+00:01:19.250 --> 00:01:22.420
+desta lição. Se você já estiver familiarizado com R, responda
+
+00:01:22.420 --> 00:01:24.860
+às perguntas e depois volte para os arquivos
+
+00:01:24.860 --> 00:01:28.280
+para ver se esqueceu de algo. Sabemos que você aprende
+
+00:01:28.280 --> 00:01:31.290
+melhor fazendo, portanto, é importante executar este código e
+
+00:01:31.290 --> 00:01:34.610
+entender o resultado. Todos os resultados serão
+
+00:01:34.610 --> 00:01:38.070
+exibidos aqui no console. Também espero que você tenha momentos
+
+00:01:38.070 --> 00:01:41.670
+de inspiração. Se você tiver alguma ideia, codifique-a
+
+00:01:41.670 --> 00:01:44.490
+e execute-a em R. Não custa tentar. O máximo que pode acontecer
+
+00:01:44.490 --> 00:01:47.410
+é obter uma mensagem de erro ou um aviso
+
+00:01:47.410 --> 00:01:51.490
+nesta caixa. Se você tiver problemas em algum momento,
+
+00:01:51.490 --> 00:01:54.790
+publique nas discussões para que seus colegas ou um dos instrutores possam ajudar.
+

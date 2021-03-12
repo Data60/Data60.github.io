@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.210 --> 00:00:02.900
+Nas próximas três lições, vamos explorar um conjunto de dados que
+
+00:00:02.900 --> 00:00:07.060
+se parece com a atividade dos usuários no Facebook.
+
+00:00:07.060 --> 00:00:09.150
+Mas, antes de chegarmos nesse conjunto de dados, preciso mostrar a você como ler dados que
+
+00:00:09.150 --> 00:00:12.410
+não vêm com R e como definir um subconjunto desses dados. Acontece que
+
+00:00:12.410 --> 00:00:15.170
+nem todos os conjuntos de dados podem ser facilmente carregados
+
+00:00:15.170 --> 00:00:18.170
+como o conjunto de dados empty cars. Nas Notas do instrutor, você pode encontrar um link para
+
+00:00:18.170 --> 00:00:21.630
+baixar um novo conjunto de dados. Esse conjunto de dados conterá
+
+00:00:21.630 --> 00:00:25.280
+informações sobre os 50 estados dos EUA. A maioria dos dados são
+
+00:00:25.280 --> 00:00:28.750
+de, aproximadamente, 1970. Antes de lermos os dados,
+
+00:00:28.750 --> 00:00:31.800
+precisamos definir nosso diretório de trabalho atual. Portanto, para descobrir
+
+00:00:31.800 --> 00:00:35.240
+em que diretório você está agora, digite getwd. Podemos
+
+00:00:35.240 --> 00:00:38.300
+executar esse comando e ver a saída no console. Parece
+
+00:00:38.300 --> 00:00:40.780
+que já estou no arquivo Downloads, e isso também
+
+00:00:40.780 --> 00:00:43.730
+aparece aqui na parte superior do meu console. Por isso, não
+
+00:00:43.730 --> 00:00:46.870
+preciso mudar meu diretório, mas talvez você precise. Para alterar
+
+00:00:46.870 --> 00:00:50.300
+seu diretório, você pode digitar setwd. Isso irá obter uma string
+
+00:00:50.300 --> 00:00:52.510
+que será o caminho de arquivo para qualquer diretório que
+
+00:00:52.510 --> 00:00:54.970
+desejar ir. Meu palpite é que seu conjunto de dados está em seu
+
+00:00:54.970 --> 00:00:58.670
+arquivo Downloads. Por isso, eu provavelmente executaria esse comando. Agora, é importante
+
+00:00:58.670 --> 00:01:01.460
+observar que, independentemente de ser uma máquina Mac ou Windows,
+
+00:01:01.460 --> 00:01:04.459
+você deverá separar seus caminhos ou suas pastas
+
+00:01:04.459 --> 00:01:08.780
+com uma barra. Além disso, certifique-se de colocar o caminho entre aspas. E,
+
+00:01:08.780 --> 00:01:11.894
+para carregar os dados, podemos usar o comando
+
+00:01:11.894 --> 00:01:15.780
+read.csv. Esse comando obtém uma string, que é o nome do arquivo.
+
+00:01:15.780 --> 00:01:17.800
+E aqui iremos passá-la para uma variável chamada
+
+00:01:17.800 --> 00:01:21.800
+statesInfo. statesInfo irá salvar todos os nossos dados
+
+00:01:21.800 --> 00:01:24.560
+em uma estrutura de dados. Quando eu executo esse código, posso ver
+
+00:01:24.560 --> 00:01:27.940
+que as informações dos estados são exibidas em meu ambiente. Posso clicar duas vezes na
+
+00:01:27.940 --> 00:01:30.230
+estrutura de dados no espaço de trabalho e isso
+
+00:01:30.230 --> 00:01:33.530
+me permitirá ver a tabela de valores no R studio. Agora, digamos
+
+00:01:33.530 --> 00:01:37.840
+que eu queira obter informações sobre os estados localizados apenas no nordeste.
+
+00:01:37.840 --> 00:01:41.030
+Esses estados seriam como Connecticut, e eles têm um state.region
+
+00:01:41.030 --> 00:01:44.110
+igual a 1. Voltarei ao meu script R
+
+00:01:44.110 --> 00:01:46.760
+e escreverei um comando que obtêm esses dados. O
+
+00:01:46.760 --> 00:01:50.130
+comando subset será semelhante a isto. Aqui, estou passando a
+
+00:01:50.130 --> 00:01:53.630
+estrutura de dados statesInfo para o subset e estou solicitando
+
+00:01:53.630 --> 00:01:56.620
+que ele recupere todos os estados que tenham um state.region
+
+00:01:56.620 --> 00:01:59.210
+igual a 1. Quando executo esse código, posso ver
+
+00:01:59.210 --> 00:02:02.970
+a saída logo abaixo. Temos Connecticut, Maine e muitos
+
+00:02:02.970 --> 00:02:06.780
+outros. Existe outra maneira de definir um subconjunto dessa estrutura de dados.
+
+00:02:06.780 --> 00:02:08.570
+Eu não queria mostrá-la, para que você não se confunda
+
+00:02:08.570 --> 00:02:12.130
+posteriormente se a vir. Ela usa notação de colchete, onde
+
+00:02:12.130 --> 00:02:15.900
+temos o nome de nosso dataSet seguido por dois colchetes. E uma vírgula
+
+00:02:15.900 --> 00:02:19.460
+entre eles. Este primeiro espaço é para as linhas
+
+00:02:19.460 --> 00:02:22.630
+de nosso conjunto de dados que queremos manter. E o segundo espaço é para
+
+00:02:22.630 --> 00:02:25.440
+as colunas que queremos manter. Portanto, se eu quiser apenas os
+
+00:02:25.440 --> 00:02:28.250
+estados no nordeste, devo escrever este código. O nome do
+
+00:02:28.250 --> 00:02:31.810
+dataSet é statesInfo e, também, quero que rows tenha um
+
+00:02:31.810 --> 00:02:34.930
+state.region igual a 1. Entretanto, não posso usar state.region
+
+00:02:34.930 --> 00:02:37.520
+aqui; preciso acessar a variável real e, para isso, tenho
+
+00:02:37.520 --> 00:02:40.760
+de colocar statesInfo e um cifrão. Isso fornece o valor da
+
+00:02:40.760 --> 00:02:43.680
+variável real e eu posso ver se ela é igual a 1. Se
+
+00:02:43.680 --> 00:02:46.690
+for igual a 1, quero que todas as colunas na estrutura de dados
+
+00:02:46.690 --> 00:02:51.040
+sejam retornadas. Por exemplo, com Connecticut, se seu state.region
+
+00:02:51.040 --> 00:02:54.030
+for igual a 1, quero que todas as colunas dessa linha sejam
+
+00:02:54.030 --> 00:02:57.750
+retornadas. Para retornar todas as colunas, apenas deixarei isso em branco.
+
+00:02:57.750 --> 00:03:00.180
+Assim, esse código procura por linhas que tenham um state.region
+
+00:03:00.180 --> 00:03:02.910
+igual a 1. E, em seguida, obtém todas as colunas dessa
+
+00:03:02.910 --> 00:03:05.800
+linha. Tudo isso será enviado para o console como uma
+
+00:03:05.800 --> 00:03:08.750
+nova estrutura de dados. No entanto, talvez não seja tão útil
+
+00:03:08.750 --> 00:03:11.930
+ter essa saída apenas no console. Por isso, podemos salvar esses
+
+00:03:11.930 --> 00:03:15.990
+subsets em novas variáveis. Também incluirei algumas funções para imprimir
+
+00:03:15.990 --> 00:03:18.760
+as primeiras duas linhas de cada estrutura de dados, além de suas
+
+00:03:18.760 --> 00:03:23.110
+dimensões. Espero ter convencido você de que eles são o mesmo conjunto de dados. Agora,
+
+00:03:23.110 --> 00:03:25.710
+eu realmente quero que você preste atenção à sintaxe
+
+00:03:25.710 --> 00:03:28.870
+nesses dois exemplos. Durante todo o curso, nós tendemos a
+
+00:03:28.870 --> 00:03:31.940
+usar o comando subset, mas pode haver instâncias em
+
+00:03:31.940 --> 00:03:35.390
+que usamos isto. Apenas saiba que ambos os métodos geram
+
+00:03:35.390 --> 00:03:38.890
+o mesmo resultado. Recomendo que você tente definir sozinho um subconjunto dessa
+
+00:03:38.890 --> 00:03:41.270
+estrutura de dados para outras regiões do país. Você
+
+00:03:41.270 --> 00:03:43.920
+também pode tentar localizar os estados que têm uma taxa de analfabetismo
+
+00:03:43.920 --> 00:03:48.430
+de 0,5% ou os estados que têm taxas de graduação no ensino médio acima de 50%.
+
+00:03:48.430 --> 00:03:49.980
+Sinta-se à vontade para experimentar.
+
