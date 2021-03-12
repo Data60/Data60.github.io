@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.760 --> 00:00:04.330
+&gt;&gt; Parabéns por ter concluído a lição quatro. Nesta lição,
+
+00:00:04.330 --> 00:00:08.000
+aprendemos a explorar a relação entre duas variáveis.
+
+00:00:08.000 --> 00:00:11.560
+Nossa principal ferramenta de visualização foi o gráfico de dispersão. Mas
+
+00:00:11.560 --> 00:00:15.330
+também aumentamos o gráfico de dispersão com resumos condicionais, como means.
+
+00:00:16.780 --> 00:00:17.620
+&gt;&gt; Também aprendemos sobre os
+
+00:00:17.620 --> 00:00:20.800
+benefícios e as limitações do uso de correlações.
+
+00:00:20.800 --> 00:00:24.080
+Para entender a relação entre duas variáveis
+
+00:00:24.080 --> 00:00:26.800
+e como a correlação pode afetar suas decisões
+
+00:00:26.800 --> 00:00:29.980
+quanto às variáveis que devem ser incluídas nos modelos finais.
+
+00:00:29.980 --> 00:00:33.400
+&gt;&gt; Como de costume, outra parte importante desta lição foi aprender a
+
+00:00:33.400 --> 00:00:35.240
+interpretar os dados ajustando
+
+00:00:35.240 --> 00:00:38.230
+as visualizações. Aprendemos a não confiar
+
+00:00:38.230 --> 00:00:40.550
+necessariamente em nossa interpretação dos gráficos de dispersão
+
+00:00:40.550 --> 00:00:43.310
+iniciais como fazemos no caso dos dados de temperatura sazonal.
+
+00:00:43.310 --> 00:00:47.220
+Aprendemos a usar jitter e transparência para reduzir o excesso de gráficos.
+
+00:00:48.540 --> 00:00:51.840
+&gt;&gt; Gostaríamos de saber sua opinião no fórum de discussão e esperamos
+
+00:00:51.840 --> 00:00:54.010
+que você tenha aprendido muito. Em seguida, passaremos
+
+00:00:54.010 --> 00:00:57.550
+para a lição cinco, onde falaremos sobre análise de multivariáveis.
+
