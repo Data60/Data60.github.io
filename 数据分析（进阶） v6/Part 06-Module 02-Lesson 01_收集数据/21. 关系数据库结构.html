@@ -1,0 +1,566 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   关系数据库结构
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          21. 关系数据库结构
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="关系数据库结构">
+          关系数据库结构
+         </h2>
+         <p>
+          数据库是一种有组织的数据集合，进行结构化整理后可方便数据存储、检索、修改和删除。有两种主要的数据库类型：关系数据库和非关系数据库，其中关系数据库最常用。
+          <br/>
+          SQL 或结构化查询语言是用于与关系数据库沟通的标准语言。
+         </p>
+         <p>
+          我们转到
+          <a href="https://modeanalytics.com/" target="_blank">
+           Mode Analytics
+          </a>
+          (一家为基于 SQL 数据分析开发软件的公司)的联合创始人兼首席执行官
+          <a href="https://twitter.com/dereksteer" target="_blank">
+           Derek Steer
+          </a>
+          ，他介绍了关系数据库的基本结构、优缺点以及如何使用 SQL 进行交互。下面大概时长为 5 分钟的视频和文字概括了这一节课的所有要点内容。
+         </p>
+         <p>
+          数据库和 SQL 是这节课的两个主要内容。如果还想了解更多信息，可以学习
+          <a href="https://www.udacity.com/course/data-foundations-nanodegree--nd100" target="_blank">
+           商业数据分析纳米学位
+          </a>
+          或
+          <a href="https://www.udacity.com/course/data-analyst-nanodegree--nd002" target="_blank">
+           数据分析师纳米学位
+          </a>
+          (如果还没有学习)访问 Derek 的 SQL 部分，学习数据分析课程。我们也在本纳米学位中最后的可选部分为你提供了关系数据库入门的视频材料。
+         </p>
+         <p>
+          我选择了与数据整理最相关的一部分视频，供你学习。观看视频时，可以设想如何表示 Rotten Tomatoes 主数据集，以及如何查询来获取相关信息。看完视频之后还有一个 SQL Explorer Workspace，你可以在 Derek 提到的相同 PostgreSQL 数据库中进行查询。
+         </p>
+         <h3 id="为什么数据分析师使用关系数据库和-sql？">
+          为什么数据分析师使用关系数据库和 SQL？
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          为什么分析师喜欢使用 SQL
+         </p>
+        </h3>
+        <video controls="">
+         <source src="21. 为什么分析师喜欢使用 SQL-uCNOtUht2Xc.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="21. 为什么分析师喜欢使用 SQL-uCNOtUht2Xc.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="ar" src="21. 为什么分析师喜欢使用 SQL-uCNOtUht2Xc.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="21. 为什么分析师喜欢使用 SQL-uCNOtUht2Xc.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="21. 为什么分析师喜欢使用 SQL-uCNOtUht2Xc.zh-CN.vtt" srclang="zh-CN"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="为什么企业选择使用关系数据库和-sql？">
+          为什么企业选择使用关系数据库和 SQL？
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Why Businesses Choose Databases
+         </p>
+        </h3>
+        <video controls="">
+         <source src="21. Why Businesses Choose Databases-j4ey7--h9r8.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="21. Why Businesses Choose Databases-j4ey7--h9r8.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="21. Why Businesses Choose Databases-j4ey7--h9r8.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="ar" src="21. Why Businesses Choose Databases-j4ey7--h9r8.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="21. Why Businesses Choose Databases-j4ey7--h9r8.pt-BR.vtt" srclang="pt-BR"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          我们曾在“平面文件结构”的概念中提到过：
+         </p>
+         <blockquote>
+          <p>
+           平面文件的缺点包括：
+          </p>
+          <ul>
+           <li>
+            缺乏标准
+           </li>
+           <li>
+            数据冗余
+           </li>
+           <li>
+            共享数据可能比较麻烦
+           </li>
+           <li>
+            不太适用于大型数据集(请在
+            <em>
+             更多信息
+            </em>
+            中单击 Cornell 链接，查阅
+            <em>
+             ”小数据集何时升级为大数据集？"
+            </em>
+            )
+           </li>
+          </ul>
+         </blockquote>
+         <p>
+          正如 Derek 所说，关系数据库都可以解决这些问题。如果这些问题对你很重要，那么关系数据库比保存到平面文件(比如 CSV 文件)更可取。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="关系数据库如何存储数据">
+          关系数据库如何存储数据
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          数据库如何存储数据
+         </p>
+        </h3>
+        <video controls="">
+         <source src="21. 数据库如何存储数据-H0C9z_sRvLE.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="ar" src="21. 数据库如何存储数据-H0C9z_sRvLE.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="21. 数据库如何存储数据-H0C9z_sRvLE.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="21. 数据库如何存储数据-H0C9z_sRvLE.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="true" kind="subtitles" label="en" src="21. 数据库如何存储数据-H0C9z_sRvLE.en.vtt" srclang="en"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="sql-语句的类型">
+          SQL 语句的类型
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          语句类型
+         </p>
+        </h3>
+        <video controls="">
+         <source src="21. 语句类型-vLvJbIz94C4.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="21. 语句类型-vLvJbIz94C4.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="21. 语句类型-vLvJbIz94C4.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="ar" src="21. 语句类型-vLvJbIz94C4.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="21. 语句类型-vLvJbIz94C4.pt-BR.vtt" srclang="pt-BR"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="select-和-from">
+          SELECT 和 FROM
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          SELECT 和 FROM 语句
+         </p>
+        </h3>
+        <video controls="">
+         <source src="21. SELECT 和 FROM 语句-urOYuuav4BY.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="21. SELECT 和 FROM 语句-urOYuuav4BY.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="21. SELECT 和 FROM 语句-urOYuuav4BY.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="false" kind="subtitles" label="ar" src="21. SELECT 和 FROM 语句-urOYuuav4BY.ar.vtt" srclang="ar"/>
+         <track default="true" kind="subtitles" label="en" src="21. SELECT 和 FROM 语句-urOYuuav4BY.en.vtt" srclang="en"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           sql-evaluator
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="更多信息">
+          更多信息
+         </h3>
+         <ul>
+          <li>
+           <a href="https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf" target="_blank">
+            CCornell：关系数据库 - 不是父系平面文件
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="22. Python 中的关系数据库.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('21. 关系数据库结构')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
