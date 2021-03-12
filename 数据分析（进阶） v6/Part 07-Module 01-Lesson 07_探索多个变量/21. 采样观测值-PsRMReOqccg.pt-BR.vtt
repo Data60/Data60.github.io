@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.090 --> 00:00:01.569
+Eu sei que nosso trabalho até aqui
+
+00:00:01.569 --> 00:00:03.620
+com esse conjunto de dados de iogurte foi analisado,
+
+00:00:03.620 --> 00:00:06.570
+como deveria ser, mas o Dean vai nos dizer o que
+
+00:00:06.570 --> 00:00:10.000
+poderíamos ter feito diferente com esse tipo de conjunto de dados.
+
+00:00:10.000 --> 00:00:12.650
+&gt;&gt; Quando você está se familiarizando com um novo conjunto de dados que
+
+00:00:12.650 --> 00:00:17.560
+contém várias observações das mesmas unidades, costuma ser útil
+
+00:00:17.560 --> 00:00:20.285
+trabalhar com uma amostra dessas unidades, para
+
+00:00:20.285 --> 00:00:23.969
+facilitar a exposição dos dados brutos dessa amostra.
+
+00:00:25.100 --> 00:00:29.260
+No caso do conjunto de dados de iogurte, talvez seja bom olhar para uma pequena amostra
+
+00:00:29.260 --> 00:00:31.910
+de casas mais detalhadamente, para que saibamos
+
+00:00:31.910 --> 00:00:35.520
+com qual tipo de variação, dentro e entre as casas,
+
+00:00:35.520 --> 00:00:40.010
+estamos trabalhado. Essa análise de uma subamostra pode
+
+00:00:40.010 --> 00:00:43.430
+vir antes de tentar usar a variação dentro das casas como
+
+00:00:43.430 --> 00:00:46.520
+parte de um modelo. Por exemplo, esse conjunto de dados
+
+00:00:46.520 --> 00:00:51.060
+foi originalmente usado como modelo para as preferências dos consumidores por variedade.
+
+00:00:51.060 --> 00:00:56.190
+Mas antes de fazer isso, queremos analisar com que frequência vemos as casas
+
+00:00:56.190 --> 00:01:01.330
+comprando iogurte, quantas vezes elas compram vários itens e com quais preços estão comprando
+
+00:01:01.330 --> 00:01:06.822
+os iogurtes. Uma maneira de fazer isso é olhando para algumas subamostras
+
+00:01:06.822 --> 00:01:11.830
+mais detalhadamente. Vamos escolher 16 casas aleatoriamente e analisar com um olhar mais atento.
+

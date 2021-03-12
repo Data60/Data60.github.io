@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.280 --> 00:00:03.210
+Para essa solução, mostro o código do gráfico GG para
+
+00:00:03.210 --> 00:00:06.420
+criar o gráfico de dispersão de preço vs tempo. Incluí
+
+00:00:06.420 --> 00:00:08.670
+jitter geom aqui. Dessa forma, meus pontos serão
+
+00:00:08.670 --> 00:00:11.520
+exibidos de forma mais transparente. Colorirei eles com um matiz
+
+00:00:11.520 --> 00:00:14.390
+laranja. Analisando o gráfico, vemos que o modelo ou
+
+00:00:14.390 --> 00:00:18.400
+os preços mais comuns parecem aumentar com o tempo. Também
+
+00:00:18.400 --> 00:00:22.470
+vemos alguns pontos de preços baixos dispersos no gráfico. Isso pode
+
+00:00:22.470 --> 00:00:25.550
+ser devido às vendas ou ao uso de cupons pelos compradores,
+
+00:00:25.550 --> 00:00:26.960
+que diminui o preço do iogurte.
+

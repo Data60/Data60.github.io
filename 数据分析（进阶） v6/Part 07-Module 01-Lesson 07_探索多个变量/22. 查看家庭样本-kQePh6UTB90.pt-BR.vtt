@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.550 --> 00:00:04.150
+Obrigado mais uma vez, Dean. Vamos detalhar a exploração que Dean acabou
+
+00:00:04.150 --> 00:00:07.540
+de descrever. Primeiro, devemos usar a função set seed para
+
+00:00:07.540 --> 00:00:10.580
+que isso possa ser reproduzido. A execução dessa linha de código também
+
+00:00:10.580 --> 00:00:12.890
+permitirá que você veja as mesmas famílias em
+
+00:00:12.890 --> 00:00:16.550
+minhas explorações, se você usar o mesmo número de seed. Agora, vamos
+
+00:00:16.550 --> 00:00:19.640
+aplicar sample em 16 das famílias de nosso conjunto de dados de iogurte,
+
+00:00:19.640 --> 00:00:23.250
+a partir da ID de iogurte. Observe que estou definindo a amostra a partir de levels,
+
+00:00:23.250 --> 00:00:26.170
+pois essas são todas as famílias diferentes que temos.
+
+00:00:26.170 --> 00:00:29.270
+Executarei o código para sample IDs. E, em seguida,
+
+00:00:29.270 --> 00:00:32.830
+imprimirei as sample IDs. Aqui estão as 16. Agora,
+
+00:00:32.830 --> 00:00:35.810
+podemos plotar cada ocasião de compra para cada uma das famílias
+
+00:00:35.810 --> 00:00:38.810
+definidas na amostra. Temos a hora da compra, o
+
+00:00:38.810 --> 00:00:42.330
+preço por item do iogurte e o número de itens.
+
+00:00:42.330 --> 00:00:44.910
+Aqui, estou usando o parâmetro size para incluir mais detalhes ao
+
+00:00:44.910 --> 00:00:48.220
+meu gráfico. Estou passando pela variável all.purchases, de modo que
+
+00:00:48.220 --> 00:00:51.320
+possa considerar o número de itens de acordo com o
+
+00:00:51.320 --> 00:00:54.100
+tamanho do ponto no gráfico. Antes de executar este
+
+00:00:54.100 --> 00:00:56.180
+código, quero que você reflita sobre
+
+00:00:56.180 --> 00:00:59.650
+qual tipo de gráfico será produzido por este código. Você talvez queira
+
+00:00:59.650 --> 00:01:01.650
+parar por um momento e ter algum tempo para
+
+00:01:01.650 --> 00:01:05.570
+pensar. Você também pode perceber esta nova sintaxe aqui. Este
+
+00:01:05.570 --> 00:01:09.490
+sinal %in%. Ele apenas nos diz para executar um loop
+
+00:01:09.490 --> 00:01:11.770
+nas IDs, de modo que continuamos e criamos um
+
+00:01:11.770 --> 00:01:16.830
+gráfico de painel para cada ID de nossas famílias. E aqui está o gráfico.
+
+00:01:16.830 --> 00:01:19.610
+Observe como obtemos painéis para cada uma das famílias
+
+00:01:19.610 --> 00:01:22.210
+que estava na amostra. A partir desses gráficos,
+
+00:01:22.210 --> 00:01:25.190
+podemos ver a variação e a frequência com que cada família
+
+00:01:25.190 --> 00:01:28.710
+compra iogurte. Aqui, muito. E, aqui, nem tanto. E
+
+00:01:28.710 --> 00:01:32.250
+parece que algumas famílias compram quantidades maiores do que outras,
+
+00:01:32.250 --> 00:01:35.240
+com esses círculos maiores indicando isso aqui. Para a maioria
+
+00:01:35.240 --> 00:01:38.210
+das famílias, o preço do iogurte se mantém estável ou tende
+
+00:01:38.210 --> 00:01:42.030
+a aumentar com o tempo. Mas existem, é claro, algumas exceções,
+
+00:01:42.030 --> 00:01:45.440
+como nesta família e nesta família, e até aqui,
+
+00:01:45.440 --> 00:01:47.820
+onde podemos pensar que a família está usando cupons de desconto para
+
+00:01:47.820 --> 00:01:51.360
+diminuir o preço. Entretanto, não temos dados de cupons para associar a
+
+00:01:51.360 --> 00:01:54.180
+estes dados de compra, mas você pôde ver como essas informações poderiam
+
+00:01:54.180 --> 00:01:58.090
+ser ligadas a estes dados para termos uma melhor compreensão do comportamento do consumidor. Agora,
+
+00:01:58.090 --> 00:02:00.950
+você fará algo semelhante. Sua tarefa será criar
+
+00:02:00.950 --> 00:02:04.230
+um gráfico semelhante e fornecer suas próprias ideias para outro conjunto
+
+00:02:04.230 --> 00:02:07.220
+de 16 famílias. Gostaria que você criasse uma postagem de discussão que inclua
+
+00:02:07.220 --> 00:02:10.850
+seu número de seed e o título e, na postagem, você pode incluir uma imagem de seu
+
+00:02:10.850 --> 00:02:13.440
+gráfico e quaisquer observações que fizer. Talvez
+
+00:02:13.440 --> 00:02:15.170
+queira tentar isso para algumas famílias para
+
+00:02:15.170 --> 00:02:16.540
+obter uma ideia melhor para os dados e
+
+00:02:16.540 --> 00:02:19.870
+para o gráfico. Não haverá nenhum vídeo de solução aqui; por isso
+
+00:02:19.870 --> 00:02:21.570
+gostaríamos de saber suas opiniões e ver
+
+00:02:21.570 --> 00:02:23.870
+todos vocês conversarem sobre o que está acontecendo nas discussões.
+

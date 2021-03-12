@@ -1,0 +1,378 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   查看家庭样本
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      探索多个变量
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 多变量数据.html">
+       01. 多变量数据
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 设想的受众规模 - 年龄.html">
+       02. 设想的受众规模 - 年龄
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 第三个定性变量.html">
+       03. 第三个定性变量
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 绘制条件小结.html">
+       04. 绘制条件小结
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 用比率思考.html">
+       05. 用比率思考
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 宽和长格式.html">
+       06. 宽和长格式
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 重塑数据.html">
+       07. 重塑数据
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 比率图.html">
+       08. 比率图
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 第三个定量变量.html">
+       09. 第三个定量变量
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 切割一个变量.html">
+       10. 切割一个变量
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 绘制在一起.html">
+       11. 绘制在一起
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 绘制总均值.html">
+       12. 绘制总均值
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 好友率.html">
+       13. 好友率
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 申请好友数.html">
+       14. 申请好友数
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 偏差方差折衷.html">
+       15. 偏差方差折衷
+      </a>
+     </li>
+     <li class="">
+      <a href="16. Sean 的 NFL 球迷情绪研究.html">
+       16. Sean 的 NFL 球迷情绪研究
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 酸奶数据集简介.html">
+       17. 酸奶数据集简介
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 重访直方图.html">
+       18. 重访直方图
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 购买数量.html">
+       19. 购买数量
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 随时间变化的价格.html">
+       20. 随时间变化的价格
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 采样观测值.html">
+       21. 采样观测值
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 查看家庭样本.html">
+       22. 查看家庭样本
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 截面数据的限制.html">
+       23. 截面数据的限制
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 多个变量.html">
+       24. 多个变量
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 散点图矩阵.html">
+       25. 散点图矩阵
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 更多变量.html">
+       26. 更多变量
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 热图.html">
+       27. 热图
+      </a>
+     </li>
+     <li class="">
+      <a href="28. 分析三个或更多变量.html">
+       28. 分析三个或更多变量
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          22. 查看家庭样本
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          查看家庭样本
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="22. 查看家庭样本-kQePh6UTB90.mp4" type="video/mp4"/>
+           <track default="true" kind="subtitles" label="en" src="22. 查看家庭样本-kQePh6UTB90.en.vtt" srclang="en"/>
+           <track default="false" kind="subtitles" label="ja" src="22. 查看家庭样本-kQePh6UTB90.ja.vtt" srclang="ja"/>
+           <track default="false" kind="subtitles" label="ar" src="22. 查看家庭样本-kQePh6UTB90.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="22. 查看家庭样本-kQePh6UTB90.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="22. 查看家庭样本-kQePh6UTB90.pt-BR.vtt" srclang="pt-BR"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div style="display: block;">
+           <div style="position: relative;">
+            <img alt="" src="img/869958633.gif" style="width: 100%; max-height: 100%"/>
+            <div style="
+    position: absolute; top: 67.36072616407982%; left: 5.46875%; width: 89.52618453865337%; height: 28.159645232815965%;
+  ">
+             <input aria-label="Empty" id="0" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 46.20288248337029%; left: 7.995635910224438%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="radio1" name="group1" type="radio"/>
+            </div>
+            <div style="
+    position: absolute; top: 46.06430155210643%; left: 29.371882793017456%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="radio2" name="group1" type="radio"/>
+            </div>
+            <div style="
+    position: absolute; top: 46.73295454545455%; left: 55.0498753117207%; width: 30.174563591022448%; height: 7.095343680709535%;
+  ">
+             <input aria-label="" id="numeric1" name="null" style="width: 100%; height: 100%;" type="number"/>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+         <h3>
+          INSTRUCTOR NOTE:
+         </h3>
+         <p>
+          注意：
+          <code>
+           x %in% y
+          </code>
+          返回一个长度与 x 相同的逻辑（布尔）向量，该向量指出 x 中的每一个条目是否都出现在 y 中。也就是说，对于 x 中的每一个条目，该向量都会检查这一条目是否也出现在 y 中。
+         </p>
+         <p>
+          这样，我们就能将数据子集化，从而获得样本中住户的所有购买时机了。然后，我们通过样本 ID 创建价格与时间的散点图和分面。
+         </p>
+         <p>
+          在绘制散点时，使用 pch 或 shape 参数来指定符号。向下滚动至
+          <a href="http://www.statmethods.net/advgraphs/parameters.html" target="_blank">
+           QuickR 图形参数
+          </a>
+          的“绘制散点”部分。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="23. 截面数据的限制.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('22. 查看家庭样本')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
