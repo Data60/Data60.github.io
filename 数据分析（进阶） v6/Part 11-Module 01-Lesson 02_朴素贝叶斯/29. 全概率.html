@@ -1,0 +1,435 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   全概率
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      朴素贝叶斯
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. Google 无人驾驶汽车中的机器学习.html">
+       01. Google 无人驾驶汽车中的机器学习
+      </a>
+     </li>
+     <li class="">
+      <a href="02. acerous 还是 non-acerous？.html">
+       02. acerous 还是 non-acerous？
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 监督分类示例.html">
+       03. 监督分类示例
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 特征和标签音乐示例.html">
+       04. 特征和标签音乐示例
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 特征可视化.html">
+       05. 特征可视化
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 肉眼分类.html">
+       06. 肉眼分类
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Stanley 地形分类简介.html">
+       07. Stanley 地形分类简介
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 散点图：坡度和颠簸度.html">
+       08. 散点图：坡度和颠簸度
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 散点图 2.html">
+       09. 散点图 2
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 散点图 3.html">
+       10. 散点图 3
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 从散点图到预测.html">
+       11. 从散点图到预测
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 从散点图到预测 2.html">
+       12. 从散点图到预测 2
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 从散点图到决策面.html">
+       13. 从散点图到决策面
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 良好的线性决策面.html">
+       14. 良好的线性决策面
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 开始学习朴素贝叶斯.html">
+       15. 开始学习朴素贝叶斯
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 代码获取决策边界演示.html">
+       16. 代码获取决策边界演示
+      </a>
+     </li>
+     <li class="">
+      <a href="17. sklearn 使用入门.html">
+       17. sklearn 使用入门
+      </a>
+     </li>
+     <li class="">
+      <a href="18. GaussianNB使用示例.html">
+       18. GaussianNB使用示例
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 有关地形数据的GaussianNB 部署.html">
+       19. 有关地形数据的GaussianNB 部署
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 计算 GaussianNB 准确性.html">
+       20. 计算 GaussianNB 准确性
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 训练数据和测试数据.html">
+       21. 训练数据和测试数据
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 贝叶斯规则 --- 深入解析朴素贝叶斯算法.html">
+       22. 贝叶斯规则 --- 深入解析朴素贝叶斯算法
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 贝叶斯规则.html">
+       23. 贝叶斯规则
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 癌症测试.html">
+       24. 癌症测试
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 先验和后验.html">
+       25. 先验和后验
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 规范化 1.html">
+       26. 规范化 1
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 规范化 2.html">
+       27. 规范化 2
+      </a>
+     </li>
+     <li class="">
+      <a href="28. 规范化 3.html">
+       28. 规范化 3
+      </a>
+     </li>
+     <li class="">
+      <a href="29. 全概率.html">
+       29. 全概率
+      </a>
+     </li>
+     <li class="">
+      <a href="30. 贝叶斯规则图.html">
+       30. 贝叶斯规则图
+      </a>
+     </li>
+     <li class="">
+      <a href="31. 用于分类的贝叶斯规则.html">
+       31. 用于分类的贝叶斯规则
+      </a>
+     </li>
+     <li class="">
+      <a href="32. Chris 或 Sara.html">
+       32. Chris 或 Sara
+      </a>
+     </li>
+     <li class="">
+      <a href="33. 后验概率.html">
+       33. 后验概率
+      </a>
+     </li>
+     <li class="">
+      <a href="34. 你独自得出的贝叶斯概率.html">
+       34. 你独自得出的贝叶斯概率
+      </a>
+     </li>
+     <li class="">
+      <a href="35. 为何朴素贝叶斯很朴素.html">
+       35. 为何朴素贝叶斯很朴素
+      </a>
+     </li>
+     <li class="">
+      <a href="36. 朴素贝叶斯的优势和劣势.html">
+       36. 朴素贝叶斯的优势和劣势
+      </a>
+     </li>
+     <li class="">
+      <a href="37. 恭喜你学完了朴素贝叶斯.html">
+       37. 恭喜你学完了朴素贝叶斯
+      </a>
+     </li>
+     <li class="">
+      <a href="38. 朴素贝叶斯迷你项目.html">
+       38. 朴素贝叶斯迷你项目
+      </a>
+     </li>
+     <li class="">
+      <a href="39. 迷你项目简介.html">
+       39. 迷你项目简介
+      </a>
+     </li>
+     <li class="">
+      <a href="40. 针对作者身份的机器学习.html">
+       40. 针对作者身份的机器学习
+      </a>
+     </li>
+     <li class="">
+      <a href="41. 设置代码.html">
+       41. 设置代码
+      </a>
+     </li>
+     <li class="">
+      <a href="42. 作者身份准确率.html">
+       42. 作者身份准确率
+      </a>
+     </li>
+     <li class="">
+      <a href="43. 对 NB 分类器计时.html">
+       43. 对 NB 分类器计时
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          29. 全概率
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          全概率
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="29. 全概率-FlbDcNPGgUE.mp4" type="video/mp4"/>
+           <track default="false" kind="subtitles" label="ar" src="29. 全概率-FlbDcNPGgUE.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="ja" src="29. 全概率-FlbDcNPGgUE.ja.vtt" srclang="ja"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="29. 全概率-FlbDcNPGgUE.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="29. 全概率-FlbDcNPGgUE.pt-BR.vtt" srclang="pt-BR"/>
+           <track default="true" kind="subtitles" label="en" src="29. 全概率-FlbDcNPGgUE.en.vtt" srclang="en"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div style="display: block;">
+           <div style="position: relative;">
+            <img alt="" src="img/3060688537.gif" style="width: 100%; max-height: 100%"/>
+            <div style="
+    position: absolute; top: 69.86557649667405%; left: 83.40671758104739%; width: 8.104738154613466%; height: 8.647450110864744%;
+  ">
+             <input aria-label="" id="numeric1" name="null" style="width: 100%; height: 100%;" type="number"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="29. 全概率-AjI84ujXBHk.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="ar" src="29. 全概率-AjI84ujXBHk.ar.vtt" srclang="ar"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="29. 全概率-AjI84ujXBHk.pt-BR.vtt" srclang="pt-BR"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="29. 全概率-AjI84ujXBHk.zh-CN.vtt" srclang="zh-CN"/>
+             <track default="true" kind="subtitles" label="en" src="29. 全概率-AjI84ujXBHk.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="ja" src="29. 全概率-AjI84ujXBHk.ja.vtt" srclang="ja"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="30. 贝叶斯规则图.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('29. 全概率')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
