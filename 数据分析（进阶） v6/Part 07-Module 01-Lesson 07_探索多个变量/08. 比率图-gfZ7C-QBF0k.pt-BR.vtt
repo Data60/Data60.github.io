@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.210
+Temos nossa nova estrutura de dados, então vamos usá-la. Quero que você
+
+00:00:03.210 --> 00:00:05.260
+trace a proporção de femininos para masculinos
+
+00:00:05.260 --> 00:00:07.570
+para determinar quantos amigos o
+
+00:00:07.570 --> 00:00:09.810
+usuário feminino tem em média, comparado ao número
+
+00:00:09.810 --> 00:00:12.100
+de amigos que o usuário masculino tem. Você
+
+00:00:12.100 --> 00:00:14.210
+também adicionará alguns recursos incríveis ao gráfico,
+
+00:00:14.210 --> 00:00:16.320
+mas vou descrever isso no exercício de programação.
+

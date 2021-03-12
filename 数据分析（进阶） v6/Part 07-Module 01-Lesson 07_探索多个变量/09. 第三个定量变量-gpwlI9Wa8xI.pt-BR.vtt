@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.430
+Nos exemplos anteriores, analisamos os dados
+
+00:00:02.430 --> 00:00:06.900
+Age e Friend Count na variável de categoria Gender.
+
+00:00:06.900 --> 00:00:09.110
+Normalmente, a cor e o formato tendem a ser estéticos
+
+00:00:09.110 --> 00:00:12.650
+para representar essas mudanças em uma variável de categoria. Mas e se
+
+00:00:12.650 --> 00:00:14.890
+analisássemos Age e Friend Count, por exemplo,
+
+00:00:14.890 --> 00:00:18.760
+com outra variável de número? Por exemplo, observamos que, como
+
+00:00:18.760 --> 00:00:21.670
+os usuários tendem a acumular amigos com o tempo no Facebook,
+
+00:00:21.670 --> 00:00:26.160
+a duração do Facebook é importante para prever o número de amigos. Duração
+
+00:00:26.160 --> 00:00:29.280
+ou número de dias desde o registro no Facebook está associado
+
+00:00:29.280 --> 00:00:32.610
+a idade. As primeiras pessoas a começar a usar o Facebook foram
+
+00:00:32.610 --> 00:00:35.360
+universitários, em 2004 e 2005. Tive sorte de
+
+00:00:35.360 --> 00:00:37.800
+fazer parte desse grupo e entrei no site em 3 de
+
+00:00:37.800 --> 00:00:41.360
+fevereiro de 2005. Por isso, acumulei mais amigos com o tempo
+
+00:00:41.360 --> 00:00:44.040
+e tenho mais de 1.200. Por outro lado, usuários de 14
+
+00:00:44.040 --> 00:00:47.180
+anos tiveram menos tempo de acumular o mesmo número
+
+00:00:47.180 --> 00:00:51.708
+de amigos. Uma forma de explorar as quatro variáveis,
+
+00:00:51.708 --> 00:00:55.890
+friend count, age, gender e tenure, é usar uma exibição bidimensional,
+
+00:00:55.890 --> 00:00:58.377
+como um gráfico de dispersão. Podemos curvar uma das
+
+00:00:58.377 --> 00:01:01.513
+variáveis quantitativas e comparar essas curvas. Neste
+
+00:01:01.513 --> 00:01:04.059
+caso, podemos agrupar os usuários por ano
+
+00:01:04.059 --> 00:01:07.079
+de início. Vamos criar uma nova variável denominada year_joined
+
+00:01:07.079 --> 00:01:09.700
+na nossa estrutura de dados. Essa variável conterá o ano em que
+
+00:01:09.700 --> 00:01:12.780
+nossos usuários entraram no Facebook. No próximo
+
+00:01:12.780 --> 00:01:16.670
+programa e exercício, você criará essa variável, year_joined,
+
+00:01:16.670 --> 00:01:18.990
+e a inserirá na estrutura de dados. Você precisa usar
+
+00:01:18.990 --> 00:01:22.810
+a variável tenure, e 2014 como ano de referência.
+

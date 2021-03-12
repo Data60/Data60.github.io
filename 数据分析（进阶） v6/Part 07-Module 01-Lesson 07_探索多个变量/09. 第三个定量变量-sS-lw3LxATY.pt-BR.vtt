@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:03.550
+Para esta atribuição de programa, você precisa criar a variável year_joined,
+
+00:00:03.550 --> 00:00:06.530
+e atribuí-la ao pf da estrutura de dados. Para fazer isto,
+
+00:00:06.530 --> 00:00:09.710
+precisamos apenas pegar nosso ano de referência 2014 e subtrair
+
+00:00:09.710 --> 00:00:12.370
+nossa duração ou o número de dias que alguém esteve ativo
+
+00:00:12.370 --> 00:00:16.120
+no Facebook. Agora, a duração é medida em dias em vez de
+
+00:00:16.120 --> 00:00:19.710
+anos, precisamos dividi-lo por 365. Também preciso
+
+00:00:19.710 --> 00:00:22.270
+me certificar que posso realmente acessar a variável para
+
+00:00:22.270 --> 00:00:25.290
+incluir pf bem aqui com um sinal de dólar. Agora,
+
+00:00:25.290 --> 00:00:27.320
+este número me dará um ano com um pouco de
+
+00:00:27.320 --> 00:00:30.200
+extras, se houver um decimal. Não ligo para o
+
+00:00:30.200 --> 00:00:32.380
+decimal, pois ele não conta um ano inteiro;
+
+00:00:32.380 --> 00:00:35.440
+quero apenas arredondar este número. A função de
+
+00:00:35.440 --> 00:00:38.920
+floor retornará o maior inteiro que não é maior que
+
+00:00:38.920 --> 00:00:41.580
+este número. Quando eu executo o código, não parece que muita
+
+00:00:41.580 --> 00:00:44.130
+coisa aconteceu. Mas ao verificar minha estrutura de dados,
+
+00:00:44.130 --> 00:00:47.929
+posso ver que tenho outra variável. Aqui está, year_joined.
+

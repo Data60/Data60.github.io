@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:02.710
+Se você estiver pronto, vamos dar uma olhada no código
+
+00:00:02.710 --> 00:00:06.590
+para remodelar nossa estrutura de dados em uma nova. Primeiro, vamos instalar e carregar o
+
+00:00:06.590 --> 00:00:10.340
+pacote R reshape2. Agora, vamos criar uma variável para
+
+00:00:10.340 --> 00:00:13.300
+uma nova estrutura de dados em formato amplo. Vou usar o
+
+00:00:13.300 --> 00:00:15.950
+mesmo nome de variável para a estrutura de dados e apenas
+
+00:00:15.950 --> 00:00:18.760
+adicionar wide no final. Agora, vamos fazer uso da função
+
+00:00:18.760 --> 00:00:22.310
+dcast, que vem com o pacote R reshape2. A letra d
+
+00:00:22.310 --> 00:00:25.760
+é usada porque queremos que o resultado seja uma estrutura de dados.
+
+00:00:25.760 --> 00:00:28.250
+Se quiséssemos um array ou uma matriz, poderíamos usar um
+
+00:00:28.250 --> 00:00:31.890
+cast. Especificamos o conjunto de dados que vamos alterar e
+
+00:00:31.890 --> 00:00:34.820
+colocamos em uma fórmula. Aqui está a estrutura de dados que queremos
+
+00:00:34.820 --> 00:00:38.960
+modificar e aqui é onde vou inserir minha fórmula. Agora, a primeira
+
+00:00:38.960 --> 00:00:41.200
+parte da fórmula, ou a parte à esquerda do
+
+00:00:41.200 --> 00:00:44.220
+acento Til, listará as variáveis que quero manter com um lado de adição
+
+00:00:44.220 --> 00:00:48.050
+entre elas. Aqui só quero manter age. No lado direito
+
+00:00:48.050 --> 00:00:51.400
+do til, usamos a variável gender porque queremos que os usuários
+
+00:00:51.400 --> 00:00:54.430
+masculinos e femininos tenham suas próprias colunas da contagem mediana de amigos
+
+00:00:54.430 --> 00:00:58.180
+na estrutura de dados. E, finalmente, definimos value.var =
+
+00:00:58.180 --> 00:01:02.360
+median_friend_count porque value.var contém as medidas-chave ou seus
+
+00:01:02.360 --> 00:01:05.019
+valores em nossa nova estrutura de dados. E parece que
+
+00:01:05.019 --> 00:01:07.900
+esqueci das aspas em torno desta variável. Vamos
+
+00:01:07.900 --> 00:01:11.210
+adicioná-las. Agora, devemos obter uma nova estrutura de dados. E vamos ver
+
+00:01:11.210 --> 00:01:13.020
+algumas destas estruturas de dados, assim, podemos ter
+
+00:01:13.020 --> 00:01:16.590
+certeza de que entendemos esta função dcast. Aqui estão algumas das linhas
+
+00:01:16.590 --> 00:01:20.970
+impressas e note que tenho minha coluna de idade, minha contagem mediana de amigas
+
+00:01:20.970 --> 00:01:25.190
+e minha contagem mediana de amigos. Veja se você consegue recriar estas etapas sozinho e
+
+00:01:25.190 --> 00:01:26.990
+tentar brincar com as funções Dcast e
+
+00:01:26.990 --> 00:01:29.640
+Nill e remodelar o pacote. A função
+
+00:01:29.640 --> 00:01:31.430
+Nill permitem converter os dados
+
+00:01:31.430 --> 00:01:34.210
+Y de volta ao formato longo original
+

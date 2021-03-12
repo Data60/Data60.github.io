@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.140 --> 00:00:02.110
+Este gráfico pode ter sido um pouco complicado,
+
+00:00:02.110 --> 00:00:04.750
+então, vamos conferi-lo juntos. Vou atribuir age
+
+00:00:04.750 --> 00:00:08.540
+ao parâmetro X e vou atribuir female dividido por male,
+
+00:00:08.540 --> 00:00:11.820
+ao parâmetro Y. Isso me dará minha proporção. Depois, só
+
+00:00:11.820 --> 00:00:13.320
+preciso me certificar de passar minha
+
+00:00:13.320 --> 00:00:16.400
+estrutura de dados mais recente para data. Vou adicionar geome-line para
+
+00:00:16.400 --> 00:00:20.590
+conectar os pontos e também vou adicionar uma linha horizontal.
+
+00:00:20.590 --> 00:00:25.460
+Este geom_hline pegará alguns parâmetros. Vou definir yintercept
+
+00:00:25.460 --> 00:00:28.420
+para um, alpha igual a 0.3 e
+
+00:00:28.420 --> 00:00:31.970
+linetype igual a dois. Ao executar esse código, obtemos
+
+00:00:31.970 --> 00:00:34.890
+o gráfico de proporção. Facilmente vemos que para
+
+00:00:34.890 --> 00:00:38.110
+usuários muito jovens, a mediana de usuários do sexo feminino tem mais de
+
+00:00:38.110 --> 00:00:40.510
+2,5 vezes amigos que a mediana
+
+00:00:40.510 --> 00:00:44.100
+de usuários do sexo masculino. Claramente, isso foi útil para a condição de idade e
+
+00:00:44.100 --> 00:00:48.100
+entender a relação do gênero com a contagem de amigos. Isso ajudou a
+
+00:00:48.100 --> 00:00:50.620
+garantir que esse padrão é robusto para usuários de várias
+
+00:00:50.620 --> 00:00:53.100
+idades diferentes. E também destacou que esta
+
+00:00:53.100 --> 00:00:55.910
+diferença é mais marcante. Agora, existem muitos
+
+00:00:55.910 --> 00:00:58.970
+processos que podem produzir esta diferença, incluindo a
+
+00:00:58.970 --> 00:01:01.410
+distribuição tendenciosa da qual estes dados do pseudo Facebook
+
+00:01:01.410 --> 00:01:04.560
+foram gerados. Uma ideia que mostra a complexidade
+
+00:01:04.560 --> 00:01:07.000
+da interpretação aqui é que pessoas de determinados
+
+00:01:07.000 --> 00:01:10.200
+países que mais recentemente aderiram ao Facebook são
+
+00:01:10.200 --> 00:01:12.390
+mais propensas a serem do sexo masculino com menos amigos.
+
