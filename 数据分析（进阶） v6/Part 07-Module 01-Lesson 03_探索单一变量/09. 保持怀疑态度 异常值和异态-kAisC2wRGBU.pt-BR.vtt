@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.510 --> 00:00:02.930
+As pessoas geralmente falam sobre a importância de
+
+00:00:02.930 --> 00:00:05.939
+detectar e lidar com exceções em seus
+
+00:00:05.939 --> 00:00:08.850
+dados. Mas há muitos tipos de
+
+00:00:08.850 --> 00:00:12.320
+exceções e anomalias e como sua análise procede
+
+00:00:12.320 --> 00:00:14.420
+deve depender do tipo com o qual você está lidando
+
+00:00:14.420 --> 00:00:18.920
+. As exceções podem ter muitas causas. Por
+
+00:00:18.920 --> 00:00:21.940
+exemplo, uma exceção pode se referir a dados precisos
+
+00:00:21.940 --> 00:00:25.910
+sobre um caso extremo. Por exemplo, alguém representado
+
+00:00:25.910 --> 00:00:31.040
+em seu conjunto de dados pode realmente estar tuitando 1.000 vezes por dia. Por outro lado
+
+00:00:31.040 --> 00:00:36.220
+, algumas vezes, as exceções ou anomalias representam dados incorretos
+
+00:00:36.220 --> 00:00:39.620
+ou limitações de seus dados. Por exemplo,
+
+00:00:39.620 --> 00:00:43.540
+o que, por outro lado, seria um valor normal de uma variável pode ser substituído por um
+
+00:00:43.540 --> 00:00:48.470
+valor extremo. Ou, em outros casos, valores extremos
+
+00:00:48.470 --> 00:00:51.520
+podem ser substituídos por um valor mais normal.
+
+00:00:51.520 --> 00:00:56.590
+Por exemplo, em um lote de dados ou pesquisas do censo, as informações da receita
+
+00:00:56.590 --> 00:01:01.380
+são codificadas no topo. Então as pessoas com receitas muito grandes têm suas receitas
+
+00:01:01.380 --> 00:01:07.480
+substituídas por algum outro valor. Vamos voltar para a estória de Mora sobre o
+
+00:01:07.480 --> 00:01:11.470
+tamanho do público percebido e ouvir sobre uma anomalia específica que é retirada de lá.
+
