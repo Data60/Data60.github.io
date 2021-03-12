@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:02.340
+Seu eu estivesse analisando o arquivo de dispersão,
+
+00:00:02.340 --> 00:00:04.290
+diria que a correlação entre essas duas
+
+00:00:04.290 --> 00:00:07.624
+variáveis é cerca de zero. O graduador automático aceita
+
+00:00:07.624 --> 00:00:10.917
+qualquer valor entre 2 décimos negativos e 2 décimos positivos. Queremos
+
+00:00:10.917 --> 00:00:14.780
+algo razoável. Para calcular a correlação,
+
+00:00:14.780 --> 00:00:18.330
+executamos a função cor.test no Mitchell Month no
+
+00:00:18.330 --> 00:00:20.680
+Mitchell Temp. O valor real é
+
+00:00:20.680 --> 00:00:24.360
+57 centésimos, uma correlação bem fraca.
+

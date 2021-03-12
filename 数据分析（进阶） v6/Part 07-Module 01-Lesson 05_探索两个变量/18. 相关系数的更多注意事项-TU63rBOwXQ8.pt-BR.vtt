@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.330 --> 00:00:02.990
+Como Moore definiu, a correlação pode nos ajudar a decidir
+
+00:00:02.990 --> 00:00:07.910
+quais variáveis estão relacionadas. No entanto, mesmo os coeficientes de correlação podem enganar
+
+00:00:07.910 --> 00:00:10.650
+se você não tiver cuidado. A plotagem de seus dados é a melhor maneira
+
+00:00:10.650 --> 00:00:12.860
+de ajudá-lo a entendê-los e pode resultar em
+
+00:00:12.860 --> 00:00:16.472
+insights cruciais. Vamos levar em consideração outro conjunto de dados que vem no
+
+00:00:16.472 --> 00:00:20.410
+pacote alr3. Primeiramente, você precisa instalar esse pacote e
+
+00:00:20.410 --> 00:00:22.870
+certificar-se de que o carregou. O conjunto de dados que você irá
+
+00:00:22.870 --> 00:00:25.680
+carregar chama-se Mitchell. O conjunto de dados Mitchell
+
+00:00:25.680 --> 00:00:28.430
+contém as temperaturas de solo de Mitchell, Nebraska.
+
+00:00:28.430 --> 00:00:30.210
+Elas foram coletadas por Kenneth
+
+00:00:30.210 --> 00:00:35.380
+G Hubbard de 1976 a 1992. Trabalhando com esse conjunto de dados,
+
+00:00:35.380 --> 00:00:38.900
+veremos como a correlação pode enganar. Então, sua primeira
+
+00:00:38.900 --> 00:00:42.560
+tarefa será criar um gráfico de dispersão da temperatura em relação aos meses.
+

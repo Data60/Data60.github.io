@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:02.530
+Para esta pergunta, você precisa adicionar uma camada
+
+00:00:02.530 --> 00:00:06.320
+neste gráfico para tornar os meses distintos. Para fazer isso,
+
+00:00:06.320 --> 00:00:09.570
+podemos adicionar a camada scale_x_discrete. Passaremos o parâmetro
+
+00:00:09.570 --> 00:00:13.700
+breaks e definiremos breaks de zero a 203. Agora, dividirei
+
+00:00:13.700 --> 00:00:17.160
+a cada 12 meses, já que 12 meses é um
+
+00:00:17.160 --> 00:00:20.380
+ano. Você deve estar se perguntando como decidi sobre 203.
+
+00:00:20.380 --> 00:00:23.160
+Se eu digitar range mitchell month, poderei ver o
+
+00:00:23.160 --> 00:00:25.950
+intervalo da variável month, de zero a 203.
+
+00:00:25.950 --> 00:00:29.990
+Esse é meu limite mais alto e mais alto. Podemos executar este código
+
+00:00:29.990 --> 00:00:33.520
+e obteremos um gráfico um pouco melhor com meses em unidades separadas.
+
