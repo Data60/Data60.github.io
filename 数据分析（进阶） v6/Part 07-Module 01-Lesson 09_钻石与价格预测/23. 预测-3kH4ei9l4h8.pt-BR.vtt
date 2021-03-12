@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.780 --> 00:00:02.670
+Os resultados renderam um valor esperado para o
+
+00:00:02.670 --> 00:00:06.410
+preço, dadas as características do nosso diamante, e
+
+00:00:06.410 --> 00:00:08.986
+os limites superior e inferior de um
+
+00:00:08.986 --> 00:00:12.560
+nível de confiança de 95%. Note que, como este é um
+
+00:00:12.560 --> 00:00:16.680
+modelo linear, predict está apenas multiplicando cada coeficiente de modelo
+
+00:00:16.680 --> 00:00:19.950
+por cada valor nos dados. Acontece
+
+00:00:19.950 --> 00:00:22.980
+que este diamante é um toque mais caro
+
+00:00:22.980 --> 00:00:25.390
+do que o valor esperado pelo modelo completo,
+
+00:00:26.730 --> 00:00:31.998
+embora não esteja fora do intervalo de confiança de 95%.
+
+00:00:31.998 --> 00:00:36.920
+BlueNile tem, pela maioria das contas, uma reputação melhor do que
+
+00:00:36.920 --> 00:00:41.080
+diamond SE.info. E a reputação vale muito em um negócio que conta com
+
+00:00:41.080 --> 00:00:45.470
+certificados fáceis de falsificar nos quais leigos podem ser facilmente enganados.
+
+00:00:47.640 --> 00:00:51.650
+Então, embora este modelo possa dar uma noção para saber se o diamante é uma imitação
+
+00:00:51.650 --> 00:00:56.460
+dos diamantes de diamondSE.info, não está claro se diamondSE.info
+
+00:00:56.460 --> 00:00:59.940
+deve ser considerado como a fonte universal confiável
+
+00:00:59.940 --> 00:01:01.710
+sobre se o preço de um diamante é
+
+00:01:01.710 --> 00:01:07.508
+razoável. No entanto, para ter o preço esperado e diamondSE.info
+
+00:01:07.508 --> 00:01:10.150
+com um intervalo de 95%, é muito mais
+
+00:01:10.150 --> 00:01:12.740
+informações do que tínhamos sobre o preço que devemos
+
+00:01:12.740 --> 00:01:15.453
+estar dispostos a pagar por um diamante antes de começar este exercício.
+

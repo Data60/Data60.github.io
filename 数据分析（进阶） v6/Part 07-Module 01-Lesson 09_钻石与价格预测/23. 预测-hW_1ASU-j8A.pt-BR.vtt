@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:02.200
+Depois de todo esse trabalho, vamos usar nosso
+
+00:00:02.200 --> 00:00:05.060
+modelo para fazer uma previsão. Precisamos exponenciar o resultado de nosso
+
+00:00:05.060 --> 00:00:08.820
+modelo. Como pegamos o log de preço, vamos dar
+
+00:00:08.820 --> 00:00:11.870
+uma olhada no exemplo do Blue Nile. Usaremos
+
+00:00:11.870 --> 00:00:15.150
+o modelo m5 completo para prever o valor do
+
+00:00:15.150 --> 00:00:19.080
+diamante. Tente entender o que este código faz. Se você
+
+00:00:19.080 --> 00:00:21.200
+vir algo que não entendeu, consulte a documentação
+
+00:00:21.200 --> 00:00:25.713
+e depois responda a pergunta. Avalie quão bem o modelo prevê
+
+00:00:25.713 --> 00:00:29.420
+o preço do diamante Blue Nile. Pense na estimativa de ponto ajustado, bem
+
+00:00:29.420 --> 00:00:33.216
+como nos limites inferior e superior do intervalo de confiança de 95%.
+

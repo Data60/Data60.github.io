@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.710 --> 00:00:01.960
+Primeiro, criaremos uma
+
+00:00:01.960 --> 00:00:06.350
+variável chamada logprice, o log do preço dos diamantes.
+
+00:00:06.350 --> 00:00:08.920
+Depois, construiremos nosso modelo de maneira similar a
+
+00:00:08.920 --> 00:00:10.610
+como fizemos para o conjunto
+
+00:00:10.610 --> 00:00:15.140
+de dados de diamantes pequeno. Observe que estamos definindo o preço por diamantes
+
+00:00:15.140 --> 00:00:19.300
+cujo preço é inferior a US$ 10.000 e com certificado
+
+00:00:19.300 --> 00:00:23.010
+G.I.A.. Felizmente, nossos modelos são bem
+
+00:00:23.010 --> 00:00:26.050
+parecidos com o que fizemos para o conjunto de dados de diamantes menor.
+
+00:00:26.050 --> 00:00:28.620
+Embora nossos valores de R quadrado sejam só um pouco mais fracos.
+

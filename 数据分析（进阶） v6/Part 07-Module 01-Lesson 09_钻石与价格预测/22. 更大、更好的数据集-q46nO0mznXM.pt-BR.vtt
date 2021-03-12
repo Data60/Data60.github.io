@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.120 --> 00:00:02.560
+Felizmente, consegui juntar um script
+
+00:00:02.560 --> 00:00:05.520
+Python para obter os dados de preços de diamantes, similar ao
+
+00:00:05.520 --> 00:00:10.010
+conjunto de dados de diamantes original do diamondse.info, sem muitos
+
+00:00:10.010 --> 00:00:13.370
+problemas. Este conjunto de dados é cerca de 10 vezes maior
+
+00:00:13.370 --> 00:00:16.520
+que o conjunto de dados de diamantes de 2008, e tem diamantes
+
+00:00:16.520 --> 00:00:19.120
+do mundo todo certificados por várias
+
+00:00:19.120 --> 00:00:22.870
+autoridades, além do General Logical Institute Of America, o
+
+00:00:22.870 --> 00:00:25.230
+GIA. Você pode analisar este conjunto de dados a
+
+00:00:25.230 --> 00:00:28.510
+seguir, mas verifique se instalou as bibliotecas
+
+00:00:28.510 --> 00:00:31.210
+do RcURL e do bitTop antes. Pode levar um
+
+00:00:31.210 --> 00:00:34.580
+tempo, já que o conjunto de dados tem mais de 500 mil casos.
+
+00:00:35.660 --> 00:00:38.290
+O código usado para obter os dados está disponível
+
+00:00:38.290 --> 00:00:41.480
+neste link. Vamos ajustar o modelo de novo ao grande
+
+00:00:41.480 --> 00:00:44.610
+conjunto de dados. Só vamos usar diamantes certificados pelo GIA neste
+
+00:00:44.610 --> 00:00:47.910
+log. Estou olhando somente diamantes de menos de 10 mil dólares porque
+
+00:00:47.910 --> 00:00:50.450
+são do tipo mais vendido no varejo e,
+
+00:00:50.450 --> 00:00:52.910
+por isso, o tipo que nos importa. Ao excluir os
+
+00:00:52.910 --> 00:00:56.000
+diamantes mais caros do conjunto de dados, nosso modelo também
+
+00:00:56.000 --> 00:00:59.440
+ficará menos propenso a ser excluído por exceções e
+
+00:00:59.440 --> 00:01:02.400
+as variantes maiores ficarão na extremidade de maior preço e quilate.
+
