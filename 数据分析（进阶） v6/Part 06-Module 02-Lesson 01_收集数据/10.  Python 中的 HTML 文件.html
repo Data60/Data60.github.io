@@ -1,0 +1,551 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Python 中的 HTML 文件
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          10.  Python 中的 HTML 文件
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="python-中的-html-文件">
+          Python 中的 HTML 文件
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Python 中的 HTML 文件 1
+         </p>
+        </h3>
+        <video controls="">
+         <source src="10. Python 中的 HTML 文件 1-0VZumC18UvQ.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="10. Python 中的 HTML 文件 1-0VZumC18UvQ.zh-CN.vtt" srclang="zh-CN"/>
+         <track default="false" kind="subtitles" label="ar" src="10. Python 中的 HTML 文件 1-0VZumC18UvQ.ar.vtt" srclang="ar"/>
+         <track default="true" kind="subtitles" label="en" src="10. Python 中的 HTML 文件 1-0VZumC18UvQ.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="10. Python 中的 HTML 文件 1-0VZumC18UvQ.pt-BR.vtt" srclang="pt-BR"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="练习">
+          练习
+         </h2>
+         <p>
+          根据对 HTML 文件结构的了解，你将使用
+          <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
+           Beautiful Soup
+          </a>
+          来提取对于每个 HTML 文件，我们所需的观众评分指标和观众评分得数，以及上面视频中的电影标题（所以我们稍后将合并数据集），然后将它们保存在 pandas DataFrame 中。
+         </p>
+         <p>
+          下面的 Jupyter Notebook 包含以下模板代码：
+         </p>
+         <ul>
+          <li>
+           创建一个空列表* df_list *，并附加字典。这个词典列表最终将被转换为 pandas DataFrame（这是
+           <a href="https://stackoverflow.com/a/28058264" target="_blank">
+            逐行构建 DataFrame 的最有效方式
+           </a>
+           )。
+          </li>
+          <li>
+           通过
+           <em>
+            rt_html
+           </em>
+           文件夹中每个电影的 Rotten Tomatoes HTML 文件循环播放。
+          </li>
+          <li>
+           打开每个 HTML 文件，并将其传达到一个名为
+           <em>
+            file
+           </em>
+           的文件句柄中。
+          </li>
+          <li>
+           通过使用
+           <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html" target="_blank">
+            <code>
+             pd.DataFrame
+            </code>
+            构造函数
+           </a>
+           转换 * df_list * 来创建名为 * df * 的 DataFrame。
+          </li>
+         </ul>
+         <p>
+          你的任务是提取每个 HTML 文件的标题（电影名）、观众评分和参与评分观众人数，并三个一组作为字典附加到 * df_list *。
+         </p>
+         <p>
+          这个任务所需的 Beautiful Soup 方法是：
+         </p>
+         <ul>
+          <li>
+           <code>
+            find()
+           </code>
+          </li>
+          <li>
+           <code>
+            find_all
+           </code>
+          </li>
+         </ul>
+         <p>
+          关于这些方法，有一个不错的教程（在 Beautiful Soup 文档中
+          <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree" target="_blank">
+           搜索树
+          </a>
+          ）。如果有什么问题，请观看教程。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           jupyter
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="上述文件翻译">
+          上述文件翻译
+         </h3>
+         <pre><code>from bs4 import BeautifulSoup
+import os
+import pandas as pd</code></pre>
+         <pre><code># 字典列表可以逐个创建文件，随后转化为一个 DataFrame
+df_list = []
+folder = 'rt_html'
+for movie_html in os.listdir(folder):
+    with open(os.path.join(folder, movie_html)) as file:
+        # 这里是你的代码
+        # 注释：正确操作需要花费 ~15 秒运行
+
+
+        # 添加到字典列表中
+        df_list.append({'title': title,
+                        'audience_score': int(audience_score),
+                        'number_of_audience_ratings': int(num_audience_ratings)})
+df = pd.DataFrame(df_list, columns = ['title', 'audience_score', 'number_of_audience_ratings'])</code></pre>
+         <h3 id="解答测试">
+          解答测试
+         </h3>
+         <p>
+          运行下列单元格，查看你的解答是否正确。如果得到 AssertionError ，你的答案不正确。如果没有出现错误，你的答案是正确的。
+         </p>
+         <pre><code>df_solution = pd.read_pickle('df_solution.pkl')
+pd.testing.assert_frame_equal(df, df_solution)</code></pre>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="解决方案">
+          解决方案
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Python 中的 HTML 文件 2
+         </p>
+        </h3>
+        <video controls="">
+         <source src="10. Python 中的 HTML 文件 2-3caDGTxcoCw.mp4" type="video/mp4"/>
+         <track default="false" kind="subtitles" label="pt-BR" src="10. Python 中的 HTML 文件 2-3caDGTxcoCw.pt-BR.vtt" srclang="pt-BR"/>
+         <track default="true" kind="subtitles" label="en" src="10. Python 中的 HTML 文件 2-3caDGTxcoCw.en.vtt" srclang="en"/>
+         <track default="false" kind="subtitles" label="ar" src="10. Python 中的 HTML 文件 2-3caDGTxcoCw.ar.vtt" srclang="ar"/>
+         <track default="false" kind="subtitles" label="zh-CN" src="10. Python 中的 HTML 文件 2-3caDGTxcoCw.zh-CN.vtt" srclang="zh-CN"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <ul>
+          <li>
+           注：在 3:59 时，本来应该是 "空串"，但说成了 "空字符"。
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="更多信息">
+          更多信息
+         </h2>
+         <ul>
+          <li>
+           <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
+            Beautiful Soup
+           </a>
+          </li>
+          <li>
+           [Stack Overflow：Beautiful Soup 和 Unicode 问题](
+           <a href="https://stackoverflow.com/questions/19508442/beautiful" target="_blank">
+            https://stackoverflow.com/questions/19508442/beautiful
+           </a>
+           -soup-and-unicode-problems)
+          </li>
+          <li>
+           <a href="https://stackoverflow.com/questions/10993612/python-removing-xa0-from-string" target="_blank">
+            Stack Overflow：Python：删除字符串中的 \ xa0
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="11. Flashforward 1.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('10.  Python 中的 HTML 文件')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
