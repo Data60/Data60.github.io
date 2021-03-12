@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.490 --> 00:00:02.768
+Para adicionar uma linha mais suave a este gráfico, precisamos
+
+00:00:02.768 --> 00:00:05.880
+mudar a linha geom para geom suave. Também precisamos
+
+00:00:05.880 --> 00:00:09.540
+nos livrar desse parâmetro fun.y e do parâmetro stat.
+
+00:00:09.540 --> 00:00:12.780
+Ainda manteremos yearjoined.bucket atribuído a uma cor, para que
+
+00:00:12.780 --> 00:00:16.219
+dessa forma vejamos este segmento em nosso gráfico. E aqui estou
+
+00:00:16.219 --> 00:00:19.620
+usando os padrões para geom suave. Então R irá escolher
+
+00:00:19.620 --> 00:00:23.340
+automaticamente os métodos estatísticos apropriados com base em nossos dados. Todas
+
+00:00:23.340 --> 00:00:25.610
+as informações adicionais podem ser encontradas na saída
+
+00:00:25.610 --> 00:00:29.020
+bem aqui. Então, novamente, nessa versão suave do
+
+00:00:29.020 --> 00:00:33.750
+gráfico, ainda veremos que as amizades iniciadas diminuem conforme a duração aumenta.
+

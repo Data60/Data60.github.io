@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.480
+Existe muito ruído no gráfico, pois estamos
+
+00:00:02.480 --> 00:00:06.450
+representando a média de y para cada valor x de duração possível.
+
+00:00:06.450 --> 00:00:09.740
+Na lição quatro, vimos que é possível ajustar esse ruído
+
+00:00:09.740 --> 00:00:13.540
+curvando o eixo x de forma diferente. Mostrarei uma dessas alterações
+
+00:00:13.540 --> 00:00:16.309
+na largura da curva. Este é o código anterior e, em vez
+
+00:00:16.309 --> 00:00:20.080
+de usar a duração aqui, substituirei por uma versão
+
+00:00:20.080 --> 00:00:22.190
+ou fórmula diferente para conseguir curvar algumas dessas
+
+00:00:22.190 --> 00:00:26.110
+durações juntas. Agora, vejamos a diferença quando coloco isso no gráfico.
+
+00:00:26.110 --> 00:00:28.920
+Veja como o gráfico fica com um ruído levemente menor.
+
+00:00:28.920 --> 00:00:31.380
+Ainda veremos alguns dos mesmos picos de antes,
+
+00:00:31.380 --> 00:00:35.290
+especialmente aqui, mas está muito mais uniforme em geral. Este outro
+
+00:00:35.290 --> 00:00:38.370
+está usando o número 30 em vez do número 7
+
+00:00:38.370 --> 00:00:41.320
+e este gráfico tem um viés muito alto, mas muito
+
+00:00:41.320 --> 00:00:45.110
+menos variância usando o número 90. Aqui, representei todos
+
+00:00:45.110 --> 00:00:47.470
+os gráficos para que pudéssemos compará-los ao
+
+00:00:47.470 --> 00:00:51.370
+original. Observe que, à medida que o tamanho da lixeira aumenta, vemos menos
+
+00:00:51.370 --> 00:00:53.860
+ruído no gráfico. As estimativas são ajustadas,
+
+00:00:53.860 --> 00:00:56.010
+pois temos mais pontos de dados para os novos
+
+00:00:56.010 --> 00:00:59.090
+valores de duração. Na lição quatro, apresentamos
+
+00:00:59.090 --> 00:01:01.770
+os suavizadores como uma ferramenta a ser usada pelo analista
+
+00:01:01.770 --> 00:01:04.670
+nesses tipos de situação. Assim, em vez de
+
+00:01:04.670 --> 00:01:07.100
+usar a linha gm aqui, usarei o suavizador
+
+00:01:07.100 --> 00:01:09.380
+gm neste
+
+00:01:09.380 --> 00:01:12.490
+gráfico. Tente fazer isso nesta próxima tarefa de programação.
+

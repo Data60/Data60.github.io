@@ -1,0 +1,337 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.320 --> 00:00:03.350
+Você aprendeu sobre o viés de compensação de variação nesta e
+
+00:00:03.350 --> 00:00:06.250
+na última lição. Agora vamos ouvir o que Sean tem a dizer.
+
+00:00:06.250 --> 00:00:08.870
+Ouça sobre o trabalho dele no Facebook e preste bastante atenção
+
+00:00:08.870 --> 00:00:12.240
+aos modelos e aos vieses nas visualizações que ele fez.
+
+00:00:12.240 --> 00:00:15.580
+&gt;&gt; Estou muito animado com meu trabalho atual que consiste em medir
+
+00:00:15.580 --> 00:00:17.939
+o sentimento dos fãs pelos times da NFL ao longo da temporada.
+
+00:00:19.040 --> 00:00:21.930
+É um projeto bem divertido porque eu mesmo sou
+
+00:00:21.930 --> 00:00:25.420
+um fã da NFL. Sou um grande fã do Eagles e
+
+00:00:25.420 --> 00:00:27.790
+conheço bem as emoções que os fãs geralmente sentem
+
+00:00:27.790 --> 00:00:30.090
+durante uma temporada. Por exemplo, a grande felicidade de quando seu time ganha
+
+00:00:30.090 --> 00:00:32.600
+e a profunda decepção e desesperança
+
+00:00:32.600 --> 00:00:36.660
+após algumas derrotas. Daí me veio a ideia de que talvez pudéssemos medir esse sentimento
+
+00:00:36.660 --> 00:00:39.490
+e contar uma história. Não queria medir só o sentimento pelo meu time.
+
+00:00:39.490 --> 00:00:41.820
+Queria o sentimento pelos demais times da NFL.
+
+00:00:41.820 --> 00:00:46.410
+Passei a pensar em uma forma de visualizar essa experiência de ser fã. Assim,
+
+00:00:46.410 --> 00:00:50.950
+calculei a proporção de palavras positivas e negativas em acréscimos de 5 minutos
+
+00:00:50.950 --> 00:00:54.020
+ao longo dos quatro meses de temporada da NFL. E,
+
+00:00:54.020 --> 00:00:56.520
+já que o assunto é proporção, posso dizer que chegamos a medidas
+
+00:00:56.520 --> 00:01:00.100
+extremamente altas. Por exemplo, proporções de palavras positivas e negativas maiores que cem
+
+00:01:00.100 --> 00:01:03.340
+mesmo quando a média estava entre o 2º e 3º intervalo.
+
+00:01:03.340 --> 00:01:05.390
+Acho que foi como um primeiro corte nos dados,
+
+00:01:05.390 --> 00:01:08.220
+e percebemos que há algum sinal ali. Mas, com certeza, vai ser necessário
+
+00:01:08.220 --> 00:01:12.510
+um pouco de modelagem ou estatística
+
+00:01:12.510 --> 00:01:16.130
+para descobrir o que realmente está acontecendo. Meu trabalho foi apenas calcular
+
+00:01:16.130 --> 00:01:18.360
+uma média móvel dessas medidas de 5 minutos.
+
+00:01:18.360 --> 00:01:21.630
+Isso nos permitiu começar a obter alguns indícios. Como estamos reunindo cada vez mais medidas,
+
+00:01:21.630 --> 00:01:24.670
+as medidas em si são mais confiáveis. Com isso, chegamos a uma série
+
+00:01:24.670 --> 00:01:27.350
+que pode nos dizer alguma coisa. Porém, essas medidas
+
+00:01:27.350 --> 00:01:30.810
+ainda são muito comuns e ruidosas para fornecer alguma informação
+
+00:01:30.810 --> 00:01:35.240
+sobre o que está acontecendo. Quando agregamos isso a médias móveis de um dia,
+
+00:01:35.240 --> 00:01:38.800
+começamos a ver alguns padrões surgindo. Acredito que
+
+00:01:38.800 --> 00:01:41.180
+uma das coisas mais importantes desse conjunto de dados foi que eu já sabia
+
+00:01:41.180 --> 00:01:43.040
+o que procurava. Como um fã do Eagles,
+
+00:01:43.040 --> 00:01:45.720
+já senti na pele os altos e baixos de uma temporada.
+
+00:01:45.720 --> 00:01:47.070
+Posso olhar um gráfico como este
+
+00:01:47.070 --> 00:01:48.940
+e dizer de cara que ele não contém as informações
+
+00:01:48.940 --> 00:01:51.500
+que desejo. Talvez precisássemos aplicar um pouco de modelagem
+
+00:01:51.500 --> 00:01:54.580
+nele. Procuramos um modelo que preveja sentimentos como
+
+00:01:54.580 --> 00:01:57.248
+uma função temporal. Uma das primeiras coisas
+
+00:01:57.248 --> 00:02:00.050
+que vem à cabeça é uma linha natural.
+
+00:02:00.050 --> 00:02:02.920
+&gt;&gt; É possível ver que há uma grande história aí. Essas linhas coloridas correspondem
+
+00:02:02.920 --> 00:02:06.250
+aos dados das vitórias e derrotas. Isso nos possibilita entender um pouco por que
+
+00:02:06.250 --> 00:02:09.090
+as linhas formam uma inclinação ascendente ou descendente. É possível ver
+
+00:02:09.090 --> 00:02:12.260
+o entusiasmo no início da temporada,
+
+00:02:12.260 --> 00:02:14.830
+momento em que as pessoas estão bem otimistas. Depois, há três derrotas consecutivas
+
+00:02:14.830 --> 00:02:18.420
+e aí o entusiasmo vai desaparecendo. Há uma grande história aqui,
+
+00:02:18.420 --> 00:02:20.960
+mas ela não tem a característica que esperávamos, que é a do dia do jogo,
+
+00:02:20.960 --> 00:02:24.540
+quando tudo pode mudar de repente. No finalzinho do jogo,
+
+00:02:24.540 --> 00:02:27.960
+quando se sabe quem perdeu ou ganhou, você está muito mais feliz
+
+00:02:27.960 --> 00:02:31.400
+ou muito mais triste do que estava no começo do jogo.
+
+00:02:31.400 --> 00:02:35.180
+Então esperamos ver elevações muito sutis de sentimento
+
+00:02:35.180 --> 00:02:37.030
+que não vemos em um modelo como este. Isso porque
+
+00:02:37.030 --> 00:02:40.470
+se trata de um modelo ruim do processo de geração
+
+00:02:40.470 --> 00:02:44.150
+de dado subjacente. Por isso, precisamos de algo mais flexível. Nesse caso,
+
+00:02:44.150 --> 00:02:46.470
+podemos usar uma média móvel
+
+00:02:46.470 --> 00:02:51.230
+de sete dias. Ela nos permitirá incluir apenas
+
+00:02:51.230 --> 00:02:54.400
+o último sentimento do jogo na média móvel. Vamos usar
+
+00:02:54.400 --> 00:02:57.180
+uma média móvel semelhante àquela que mostrei antes.
+
+00:02:57.180 --> 00:03:00.270
+Vamos torná-la menos irregular em um período inteiro de 7 dias. Fazendo isso,
+
+00:03:00.270 --> 00:03:03.700
+chegamos a um resultado que pode nos dar informações muito relevantes
+
+00:03:03.700 --> 00:03:06.270
+sobre a temporada. Algo com todas as características que eu esperaria
+
+00:03:06.270 --> 00:03:08.810
+na condição de um fã nesse tipo de situação. Isso se traduz
+
+00:03:08.810 --> 00:03:12.960
+nas grandes elevações em dias de jogo quando ganhamos
+
+00:03:12.960 --> 00:03:15.480
+ou nas grandes quedas em dias de jogo quando perdemos. Essas partes com pouca alteração,
+
+00:03:15.480 --> 00:03:18.680
+no meio, representam os períodos de estabilidade
+
+00:03:18.680 --> 00:03:22.470
+quando não há qualquer informação sobre o desempenho do time. Vemos isso em uma semana de folga
+
+00:03:22.470 --> 00:03:24.420
+próxima à Ação de Graças. Aí há
+
+00:03:24.420 --> 00:03:28.660
+um grande pico de felicidade, pois as pessoas estão [UNKNOWN] no clima do feriado. Há um grande ponto inferior aqui
+
+00:03:28.660 --> 00:03:30.100
+bem após uma derrota que poderia ter tirado
+
+00:03:30.100 --> 00:03:32.740
+o time das eliminatórias. Depois, uma grande ascensão
+
+00:03:32.740 --> 00:03:35.600
+no jogo eliminatório no qual o time perde
+
+00:03:35.600 --> 00:03:38.120
+e, como resultado, há uma queda. No meu entender,
+
+00:03:38.120 --> 00:03:41.090
+essa é uma grande descrição do que ocorreu
+
+00:03:41.090 --> 00:03:42.889
+e levou um pouco mais do tempo médio para trazer a história à tona.
+
+00:03:44.050 --> 00:03:45.470
+&gt;&gt; Ao analisar todos esses dados,
+
+00:03:45.470 --> 00:03:47.720
+em que tipo de coisa você pensa
+
+00:03:47.720 --> 00:03:48.680
+quando o assunto é vieses de compensação de variação?
+
+00:03:48.680 --> 00:03:50.810
+&gt;&gt; Quando você está calculando apenas uma simples média móvel como essa,
+
+00:03:51.950 --> 00:03:53.800
+você está lidando com uma das estatísticas
+
+00:03:53.800 --> 00:03:57.610
+mais flexíveis. Você não está impondo qualquer estrutura
+
+00:03:57.610 --> 00:04:00.010
+nos dados. Você está permitindo que os dados falem. Quando uso
+
+00:04:00.010 --> 00:04:03.040
+uma média móvel aqui, eu traço erros padrão que foram aparecendo
+
+00:04:03.040 --> 00:04:06.190
+juntamente com os dados. Eles eram gigantescos. O sentimento médio
+
+00:04:06.190 --> 00:04:09.350
+quanto à temporada está em algum lugar do 3º intervalo. E
+
+00:04:09.350 --> 00:04:12.830
+os erros padrão foram maiores que dois ou três. Podemos dizer
+
+00:04:12.830 --> 00:04:16.050
+com bastante precisão o que está acontecendo em qualquer ponto. Mas nossa variação
+
+00:04:16.050 --> 00:04:18.130
+nessa estimativa é grande. Assim, quando começamos
+
+00:04:18.130 --> 00:04:22.370
+a adicionar mais defasagens, um número maior de defasagens,
+
+00:04:22.370 --> 00:04:26.570
+à média móvel, chegamos a gráficos de aparência mais regular,
+
+00:04:26.570 --> 00:04:29.480
+com menor variação. Porém, depois eles vão ficando cada vez mais
+
+00:04:29.480 --> 00:04:31.930
+enviesados. À medida que voltamos mais, incluímos
+
+00:04:31.930 --> 00:04:34.570
+mais dados, que estavam mais enviesados. Isso porque estamos incluindo
+
+00:04:34.570 --> 00:04:37.990
+dados de partes que de fato não se aplicam a esse ponto exato.
+
+00:04:37.990 --> 00:04:40.560
+Mas, em vez disso, temos um gráfico com menor variação,
+
+00:04:40.560 --> 00:04:43.340
+que não se move tão freneticamente. Quando o combinamos com
+
+00:04:43.340 --> 00:04:46.710
+as linhas, podemos ajustar um modelo, com
+
+00:04:46.710 --> 00:04:49.900
+o melhor dos dois universos. Ele tem a aparência regular das linhas,
+
+00:04:49.900 --> 00:04:54.410
+com elevações sutis do que acontece no dia
+
+00:04:54.410 --> 00:04:57.230
+do jogo. Aqui está uma linha à qual adicionamos variáveis fictícias
+
+00:04:57.230 --> 00:05:00.690
+para períodos de jogos futuros. Neste modelo, conseguimos
+
+00:05:00.690 --> 00:05:03.090
+exatamente as mesmas coisas. Vemos as grandes mudanças repentinas,
+
+00:05:03.090 --> 00:05:05.530
+como esperado. Há quedas em derrotas e
+
+00:05:05.530 --> 00:05:07.920
+elevações em vitórias. Em seguida, há também
+
+00:05:07.920 --> 00:05:11.600
+as transições regulares no meio. Aí temos uma grande história
+
+00:05:11.600 --> 00:05:15.440
+de uso de um estilo de modelo, uma espinha,
+
+00:05:15.440 --> 00:05:18.210
+que só é específico demais para o processo de geração de dados e talvez não se ajuste
+
+00:05:18.210 --> 00:05:22.390
+bem. E ao realizar uma análise exploratória de dados na qual é possível ver que
+
+00:05:22.390 --> 00:05:25.340
+a média em sete dias tem muito a dizer e nos fornece
+
+00:05:25.340 --> 00:05:28.140
+a distinção que desejamos. E depois combinar esses dois
+
+00:05:28.140 --> 00:05:31.580
+em uma espécie de agregado com os dois tipos de modelos. Nele, podemos
+
+00:05:31.580 --> 00:05:34.990
+melhorar a contagem considerando o fato de que dias de jogo são importantes.
+
