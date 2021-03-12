@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.230 --> 00:00:02.670
+Parece que Maura não chegou a lugar nenhum adicionando
+
+00:00:02.670 --> 00:00:05.530
+idade como cor em seu gráfico. Mas quero que você
+
+00:00:05.530 --> 00:00:09.540
+saiba que isso está ok. Às vezes, quando conduzimos uma análise exploratória de dados
+
+00:00:09.540 --> 00:00:12.210
+acabamos em um beco sem saída. Vamos ver se podemos chegar
+
+00:00:12.210 --> 00:00:15.480
+um pouco mais adiante examinando nossa contagem de relacionamentos entre amigos e
+
+00:00:15.480 --> 00:00:19.270
+idade adicionando uma terceira variável. Anteriormente, observamos que usuários
+
+00:00:19.270 --> 00:00:22.710
+do sexo feminino têm mais amigos em média que os usuários do sexo masculino. E,
+
+00:00:22.710 --> 00:00:25.420
+podemos imaginar se isso é apenas porque os usuários do sexo feminino têm uma
+
+00:00:25.420 --> 00:00:29.700
+distribuição diferente de idade? Ou talvez, dependendo da idade, as diferenças
+
+00:00:29.700 --> 00:00:32.590
+sejam realmente maiores. Este é um gráfico de caixa de idades por
+
+00:00:32.590 --> 00:00:34.760
+sexo. Vou adicionar a média de
+
+00:00:34.760 --> 00:00:38.390
+cada sexo aos gráficos de caixa usando o stat-summary. Aqui,
+
+00:00:38.390 --> 00:00:40.500
+podemos ver as médias marcadas por um x
+
+00:00:40.500 --> 00:00:44.380
+porque eu usei shape=4. Como os usuários do sexo masculino são
+
+00:00:44.380 --> 00:00:46.890
+um pouco mais jovens, podemos realmente pensar que uma comparação simples
+
+00:00:46.890 --> 00:00:50.870
+entre homens e mulheres não capture as diferenças substanciais na contagem de amigos.
+
+00:00:50.870 --> 00:00:53.860
+Em vez disso, vamos examinar a contagem média de amigos por idade e sexo.
+
+00:00:53.860 --> 00:00:56.660
+Grande parte deste código deve ser familiar e, se não for,
+
+00:00:56.660 --> 00:00:58.850
+quero que você poste todas as perguntas que tenha a respeito
+
+00:00:58.850 --> 00:01:01.680
+em uma discussão. Quando eu executo este código, podemos ver
+
+00:01:01.680 --> 00:01:05.630
+que quase em todo o lugar a contagem média de amigos é maior para mulheres
+
+00:01:05.630 --> 00:01:08.910
+que para homens. Há algumas exceções, e isso
+
+00:01:08.910 --> 00:01:12.570
+inclui estas estimativas ruidosas para nossos usuários muito idosos. Agora, estou
+
+00:01:12.570 --> 00:01:15.960
+usando idoso com aspas aqui, pois não tenho certeza sobre
+
+00:01:15.960 --> 00:01:19.600
+essas idades relatadas. E observe que os usuários que relataram ter
+
+00:01:19.600 --> 00:01:22.230
+70 anos têm mais ou menos a mesma contagem de amigos, independentemente
+
+00:01:22.230 --> 00:01:25.880
+do sexo relatado. Vamos reproduzir o mesmo gráfico,
+
+00:01:25.880 --> 00:01:28.340
+mas primeiro vamos ver se você pode criar os dados de resumo
+
+00:01:28.340 --> 00:01:31.270
+para criá-lo. Lembre-se de que podemos produzir os mesmos
+
+00:01:31.270 --> 00:01:35.240
+dados de resumo com base neste gráfico usando o pacote dplyr.
+
+00:01:35.240 --> 00:01:37.680
+Podemos dividir os dados por idade e sexo e
+
+00:01:37.680 --> 00:01:41.350
+calcular a contagem mediana e média de amigos de cada subgrupo.
+
+00:01:41.350 --> 00:01:43.970
+Nesta próxima tarefa de programação, você vai fazer exatamente isso
+
+00:01:43.970 --> 00:01:48.570
+usando as funções group by, summarize e arrange do pacote dplyr.
+
