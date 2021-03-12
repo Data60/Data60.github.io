@@ -1,0 +1,427 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   R Markdown 文档
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      R 基础
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 用于数据可视化的 R.html">
+       01. 用于数据可视化的 R
+      </a>
+     </li>
+     <li class="">
+      <a href="02. R 的力量.html">
+       02. R 的力量
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 为什么使用 R.html">
+       03. 为什么使用 R
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 使用 Windows 系统？.html">
+       04. 使用 Windows 系统？
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 在 Windows 上安装 RStudio.html">
+       05. 在 Windows 上安装 RStudio
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 在 Mac 上安装 RStudio.html">
+       06. 在 Mac 上安装 RStudio
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 准备好探索数据了吗？.html">
+       07. 准备好探索数据了吗？
+      </a>
+     </li>
+     <li class="">
+      <a href="08. RStudio 布局.html">
+       08. RStudio 布局
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 揭秘 R.html">
+       09. 揭秘 R
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 获得帮助.html">
+       10. 获得帮助
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 阅读并将数据子集化.html">
+       11. 阅读并将数据子集化
+      </a>
+     </li>
+     <li class="">
+      <a href="12. R Markdown 文档.html">
+       12. R Markdown 文档
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 因子变量.html">
+       13. 因子变量
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 有序因子.html">
+       14. 有序因子
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 设置有序因子的水平.html">
+       15. 设置有序因子的水平
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 数据加工.html">
+       16. 数据加工
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 给数据科学家的建议.html">
+       17. 给数据科学家的建议
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 恭喜.html">
+       18. 恭喜
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          12. R Markdown 文档
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          R Markdown 文档
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="12. R Markdown 文档-FORb9Tja-p0.mp4" type="video/mp4"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="12. R Markdown 文档-FORb9Tja-p0.pt-BR.vtt" srclang="pt-BR"/>
+           <track default="false" kind="subtitles" label="ja" src="12. R Markdown 文档-FORb9Tja-p0.ja.vtt" srclang="ja"/>
+           <track default="false" kind="subtitles" label="ar" src="12. R Markdown 文档-FORb9Tja-p0.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="12. R Markdown 文档-FORb9Tja-p0.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="true" kind="subtitles" label="en-US" src="12. R Markdown 文档-FORb9Tja-p0.en-US.vtt" srclang="en-US"/>
+           <track default="true" kind="subtitles" label="en" src="12. R Markdown 文档-FORb9Tja-p0.en.vtt" srclang="en"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div style="display: block;">
+           <div style="position: relative;">
+            <img alt="" src="img/811719066.gif" style="width: 100%; max-height: 100%"/>
+            <div style="
+    position: absolute; top: 56.11488359201774%; left: 18.13045511221945%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check1" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 67.1008869179601%; left: 18.22397132169576%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check2" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 78.62389135254989%; left: 18.41100374064838%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check3" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 89.11446784922394%; left: 18.243453865336658%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check4" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 56.83203991130821%; left: 56.09998441396509%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check5" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 67.1875%; left: 56.14284600997507%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check6" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 78.86640798226165%; left: 56.38832605985037%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check7" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+            <div style="
+    position: absolute; top: 89.46784922394679%; left: 56.115570448877804%; width: 5%; height: 5%;
+  ">
+             <input aria-label="" id="check8" name="null" style="width: 100%; height: 100%; max-width: 15px; max-height: 15px;" type="checkbox"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="12. R Markdown 文档-oBns-s2TDgI.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="ja" src="12. R Markdown 文档-oBns-s2TDgI.ja.vtt" srclang="ja"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="12. R Markdown 文档-oBns-s2TDgI.zh-CN.vtt" srclang="zh-CN"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="12. R Markdown 文档-oBns-s2TDgI.pt-BR.vtt" srclang="pt-BR"/>
+             <track default="true" kind="subtitles" label="en" src="12. R Markdown 文档-oBns-s2TDgI.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="ar" src="12. R Markdown 文档-oBns-s2TDgI.ar.vtt" srclang="ar"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+        <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+         <h3>
+          INSTRUCTOR NOTE:
+         </h3>
+         <p>
+          使用 RMD 文件
+          <a href="https://s3.amazonaws.com/udacity-hosted-downloads/ud651/What_is_a_RMD_file.Rmd" target="_blank">
+           What_is_a_RMD_file
+          </a>
+          ，跟着 Chris 一起做。
+         </p>
+         <p>
+          你需要安装并加载
+          <code>
+           knitr
+          </code>
+          包，以便使用
+          <strong>
+           KNIT HTML
+          </strong>
+          按钮。在 RStudio 控制台中运行以下命令，以安装并加载 knitr。
+         </p>
+         <p>
+          <code>
+           install.packages('knitr', dependencies = T)
+          </code>
+         </p>
+         <p>
+          <code>
+           library(knitr)
+          </code>
+         </p>
+         <p>
+          第二个文件
+          <a href="https://s3.amazonaws.com/udacity-hosted-downloads/ud651/demystifyingR2_v3.Rmd" target="_blank">
+           demystifyingR2.Rmd
+          </a>
+          是 Chris 在视频结尾提及的文件。仔细查看此文件，并且用它来回答下一个练习题！
+         </p>
+         <p>
+          在
+          <code>
+           {r}
+          </code>
+          代码块的内部和外部使用 “pound sign/key”或称 "hash sign/key"
+          <code>
+           #
+          </code>
+          会有所不同。
+         </p>
+         <pre><code>```{r}
+# r 块中的 # (pound / hash sign) 会创建
+# 注释。这三行不是代码，因此不能被 # 执行。
+x &lt;- [1:10]
+mean(x)
+```</code></pre>
+         <p>
+          如果你在
+          <code>
+           {r}
+          </code>
+          代码块外部使用
+          <code>
+           #
+          </code>
+          符号，你可以创建文本头。
+         </p>
+         <p>
+          下载文件
+          <a href="https://s3.amazonaws.com/udacity-hosted-downloads/ud651/demystifyingR2_v3.Rmd" target="_blank">
+           demystifyingR2.Rmd
+          </a>
+          .
+         </p>
+         <p>
+          <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">
+           Markdown 教程
+          </a>
+          ：你还可以使用 Markdown 格式化你参与讨论的帖子。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="13. 因子变量.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. R Markdown 文档')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

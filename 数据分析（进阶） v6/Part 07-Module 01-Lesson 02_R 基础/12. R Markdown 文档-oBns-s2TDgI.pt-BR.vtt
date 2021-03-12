@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:02.960
+Os carros que atendem a esta condição ou esta
+
+00:00:02.960 --> 00:00:07.170
+condição foram o Fiat 128, o Honda Civic, o Lotus
+
+00:00:07.170 --> 00:00:10.810
+Europa e o Toyota Corolla. Vamos ver como
+
+00:00:10.810 --> 00:00:13.841
+podemos descobrir isso usando "R". Sua tarefa era
+
+00:00:13.841 --> 00:00:16.921
+determinar quais carros do conjunto de dados "MT cars"
+
+00:00:16.921 --> 00:00:19.693
+têm MPG maior que ou igual a 30 e
+
+00:00:19.693 --> 00:00:22.820
+HP menor que 60. Para responder esta pergunta, você
+
+00:00:22.820 --> 00:00:25.350
+precisa subdividir a estrutura de dados. Vou mostrar duas
+
+00:00:25.350 --> 00:00:27.490
+maneiras de fazer isso. No primeiro método,
+
+00:00:27.490 --> 00:00:30.000
+vou usar o comando subset em mtcars e quero
+
+00:00:30.000 --> 00:00:32.150
+obter os carros cujo MPG é maior que
+
+00:00:32.150 --> 00:00:35.100
+ou igual a 30 ou cujo cavalo-vapor tenha um valor
+
+00:00:35.100 --> 00:00:37.870
+menor que 60. Esses seriam o Fiat,
+
+00:00:37.870 --> 00:00:40.280
+o Honda Civic, o Toyota Corolla e o Lotus
+
+00:00:40.280 --> 00:00:43.560
+Europa. Usando a notação de colchete, a sintaxe do
+
+00:00:43.560 --> 00:00:45.810
+código ficaria assim, e o resultado seria o mesmo.
+

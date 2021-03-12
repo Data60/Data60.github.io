@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:03.040
+Agora que você está familiarizado com os comandos R básicos,
+
+00:00:03.040 --> 00:00:05.200
+analisaremos mais alguns dados. Desta vez,
+
+00:00:05.200 --> 00:00:08.215
+analisaremos os dados coletados de uma pesquisa de usuários do Reddit.
+
+00:00:08.215 --> 00:00:11.220
+O Reddit é um site social de entretenimento no qual os usuários
+
+00:00:11.220 --> 00:00:14.620
+publicam links e comentários sobre notícias em destaque. Essa pesquisa pergunta
+
+00:00:14.620 --> 00:00:18.940
+aos usuários informações demográficas, como sexo, idade, nacionalidade e situação
+
+00:00:18.940 --> 00:00:21.720
+de emprego. Também pergunta o tipo de queijo que elas
+
+00:00:21.720 --> 00:00:25.160
+seriam. E se preferem cachorro, gato ou tartaruga.
+
+00:00:25.160 --> 00:00:27.740
+Baixe o conjunto de dados nas Notas do instrutor e carregue-os em
+
+00:00:27.740 --> 00:00:30.400
+R. Depois, analise os dados
+
+00:00:30.400 --> 00:00:33.560
+usando a função stir. Quando tento ler no
+
+00:00:33.560 --> 00:00:37.060
+arquivo, recebo uma mensagem de erro. Isso é comum.
+
+00:00:37.060 --> 00:00:40.000
+Por isso, sugiro que analise seu diretório de trabalho atual para descobrir
+
+00:00:40.000 --> 00:00:43.380
+o problema. O arquivo normalmente não está armazenado no
+
+00:00:43.380 --> 00:00:47.320
+diretório. Defini meu diretório e agora testarei esse
+
+00:00:47.320 --> 00:00:51.448
+código novamente. Aqui estão nossos dados.
+
+00:00:51.448 --> 00:00:53.600
+A execução do comando stir permite vermos que há vários
+
+00:00:53.600 --> 00:00:56.150
+dados aqui. Muitas dessas variáveis têm um tipo
+
+00:00:56.150 --> 00:01:00.170
+de fator. Um fator é uma variável de categoria com
+
+00:01:00.170 --> 00:01:03.200
+diferentes sabores e níveis. Um exemplo é
+
+00:01:03.200 --> 00:01:06.660
+o status de emprego. Essa variável tem níveis diferentes,
+
+00:01:06.660 --> 00:01:10.440
+como funcionário de tempo integral ou meio período. Ou
+
+00:01:10.440 --> 00:01:13.950
+desempregado. Uma informação na qual podemos nos
+
+00:01:13.950 --> 00:01:17.040
+interessar é o número de pessoas em cada grupo de status de emprego.
+
+00:01:17.040 --> 00:01:19.270
+Podemos tabelar essa variável para ver o número
+
+00:01:19.270 --> 00:01:22.250
+em cada grupo. Ao executar esse código, posso ver
+
+00:01:22.250 --> 00:01:25.950
+a tabela. Também obtemos esse número e outros
+
+00:01:25.950 --> 00:01:28.970
+pontos de dados executando a função summary da nossa estrutura de dados. Incentivo
+
+00:01:28.970 --> 00:01:31.640
+você a dar uma olhada na aparência disso. Além
+
+00:01:31.640 --> 00:01:35.840
+das variáveis fator, como status de emprego, a linguagem de programação R
+
+00:01:35.840 --> 00:01:39.520
+também tem outros tipos de dados, como lista e matrizes, mas
+
+00:01:39.520 --> 00:01:42.150
+não trabalharemos com elas neste curso. Incluímos
+
+00:01:42.150 --> 00:01:44.650
+uma referência de tipos de dados nas Notas do instrutor, caso
+
+00:01:44.650 --> 00:01:46.580
+queira saber mais sobre elas.
+

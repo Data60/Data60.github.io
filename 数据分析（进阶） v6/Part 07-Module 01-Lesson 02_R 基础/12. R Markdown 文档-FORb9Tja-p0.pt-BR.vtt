@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:03.460
+Vamos adquirir mais prática usando as estruturas de dados. Você baixou
+
+00:00:03.460 --> 00:00:05.830
+um script R anteriormente e viu como podemos salvar nosso
+
+00:00:05.830 --> 00:00:08.810
+trabalho e executar um código R a partir dele. Para nossa próxima
+
+00:00:08.810 --> 00:00:12.010
+tarefa, vamos baixar um arquivo RMD e executar o código
+
+00:00:12.010 --> 00:00:14.720
+nele. Você pode baixar o arquivo RMD do link nas
+
+00:00:14.720 --> 00:00:18.850
+Notas do instrutor. O arquivo deverá ser parecido com algo como isto. Repare
+
+00:00:18.850 --> 00:00:21.260
+como este arquivo é ligeiramente diferente do arquivo que você
+
+00:00:21.260 --> 00:00:26.210
+viu antes. Um script R pode ter apenas código R e comentários.
+
+00:00:26.210 --> 00:00:29.130
+Este arquivo, entretanto, o arquivo RMD, permite que
+
+00:00:29.130 --> 00:00:33.560
+façamos muito mais. É um documento Markdown R ou RMD.
+
+00:00:33.560 --> 00:00:36.110
+Agora, você deve estar se perguntando o que é um Markdown R. E
+
+00:00:36.110 --> 00:00:39.350
+basicamente, é uma linguagem de formatação simples que nos permite criar
+
+00:00:39.350 --> 00:00:41.790
+páginas da Web. Se quiser saber tudo o que você pode fazer com
+
+00:00:41.790 --> 00:00:45.020
+Markdown, vá até Help e depois até Markdown Quick
+
+00:00:45.020 --> 00:00:48.210
+Reference. Isto ativa a documentação do Markdown, e
+
+00:00:48.210 --> 00:00:51.080
+você pode consultar alguns exemplos de formatação.
+
+00:00:51.080 --> 00:00:53.660
+Também incluímos um vídeo nas Notas do instrutor que
+
+00:00:53.660 --> 00:00:57.810
+abordará o Markdown. Até agora, este arquivo contém texto que
+
+00:00:57.810 --> 00:01:00.830
+será formatado usando Markdown. Vamos adicionar algum código R a
+
+00:01:00.830 --> 00:01:03.530
+ele. Podemos fazer isso clicando em Chunks e selecionando
+
+00:01:03.530 --> 00:01:07.198
+Insert Chunk. Agora, se você prefere o teclado,
+
+00:01:07.198 --> 00:01:10.921
+use o atalho Cmd+Option+I. Há muitos outros atalhos aqui
+
+00:01:10.921 --> 00:01:13.475
+e você pode vê-los neste menu. Aqui
+
+00:01:13.475 --> 00:01:16.284
+eu adicionei alguns códigos para ver a aparência deste conjunto de dados.
+
+00:01:16.284 --> 00:01:19.164
+Este é o conjunto de dados cars que também vem com R,
+
+00:01:19.164 --> 00:01:23.628
+e contém 50 observações de distâncias de aceleração e parada de
+
+00:01:23.628 --> 00:01:26.829
+carros nos anos 20. Vou adicionar este texto como
+
+00:01:26.829 --> 00:01:30.447
+título neste documento, para que o arquivo se torne mais
+
+00:01:30.447 --> 00:01:32.916
+descritivo. Também executarei o comando Stir nesta estrutura de dados,
+
+00:01:32.916 --> 00:01:35.012
+para que dessa forma eu possa ver o há nele. Parece que
+
+00:01:35.012 --> 00:01:38.261
+eu tenho duas variáveis, velocidade e distância, que são medidas
+
+00:01:38.261 --> 00:01:41.390
+em milhas por hora e pés. Podemos executar não só o
+
+00:01:41.390 --> 00:01:43.310
+código R e obter a saída desses arquivos,
+
+00:01:43.310 --> 00:01:47.090
+mas também podemos incorporar imagens. Esta função plot vem com um pacote
+
+00:01:47.090 --> 00:01:50.130
+gráfico básico em R, mas você não precisa se preocupar em aprender
+
+00:01:50.130 --> 00:01:53.180
+mais sobre ele. Usaremos o pacote dois de gráfico GG que é uma
+
+00:01:53.180 --> 00:01:56.220
+linguagem de gráficos avançada nas lições seguintes. Quando
+
+00:01:56.220 --> 00:01:58.555
+executo este código, obtenho um gráfico simples de velocidade
+
+00:01:58.555 --> 00:02:02.550
+versus distância. Agora, o que é incrível sobre este documento é que
+
+00:02:02.550 --> 00:02:06.470
+podemos clicar no botão Knit HTML. Isso gerará
+
+00:02:06.470 --> 00:02:09.620
+uma página da Web que inclui conteúdo e saída de qualquer código R
+
+00:02:09.620 --> 00:02:13.650
+incorporado. Esse botão permite que compartilhemos
+
+00:02:13.650 --> 00:02:18.010
+e publiquemos facilmente nosso trabalho. Mas chega de falar sobre os arquivos RMD. Você vai trabalhar em
+
+00:02:18.010 --> 00:02:21.310
+um agora. Baixe o arquivo RMD se você ainda não o fez,
+
+00:02:21.310 --> 00:02:23.760
+e execute e escreva o código quando você for solicitado. No
+
+00:02:23.760 --> 00:02:26.490
+final do arquivo, você verá uma pergunta. Responda
+
+00:02:26.490 --> 00:02:29.390
+essa pergunta no próximo teste. E poderá pode prosseguir
+
+00:02:29.390 --> 00:02:32.300
+com a lição. Boa sorte e divirta-se.
+
