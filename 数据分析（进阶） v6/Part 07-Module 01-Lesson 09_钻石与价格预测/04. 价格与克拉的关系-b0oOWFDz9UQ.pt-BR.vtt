@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.180 --> 00:00:01.930
+Quando olhamos para o gráfico, algumas coisas
+
+00:00:01.930 --> 00:00:05.030
+se destacam imediatamente. Podemos ver uma relação
+
+00:00:05.030 --> 00:00:09.400
+não linear. Talvez seja exponencial ou talvez seja algo diferente.
+
+00:00:09.400 --> 00:00:12.656
+Podemos ver que a dispersão ou a variação
+
+00:00:12.656 --> 00:00:17.282
+da relação também aumenta com o aumento do tamanho do quilate. Com
+
+00:00:17.282 --> 00:00:19.298
+apenas uma visualização rápida dos dados, aprendemos
+
+00:00:19.298 --> 00:00:22.658
+duas coisas importantes sobre a relação funcional entre
+
+00:00:22.658 --> 00:00:25.300
+preço e tamanho do quilate. Podemos adicionar uma linha
+
+00:00:25.300 --> 00:00:29.236
+linear ao gráfico usando a função stat_smooth
+
+00:00:29.236 --> 00:00:32.515
+com method igual a lm. Podemos ver que a linha de
+
+00:00:32.515 --> 00:00:35.287
+tendência linear não passa pelo centro dos dados
+
+00:00:35.287 --> 00:00:38.572
+em alguns pontos importantes. Ela não passa aqui. Ela deveria se
+
+00:00:38.572 --> 00:00:41.947
+curvar um pouco no centro da relação
+
+00:00:41.947 --> 00:00:44.863
+e poderia subir mais em direção ao final. E
+
+00:00:44.863 --> 00:00:47.671
+se tentarmos usar isso para fazer previsões,
+
+00:00:47.671 --> 00:00:50.695
+podemos estar desconsiderando pontos importantes dentro e fora
+
+00:00:50.695 --> 00:00:53.450
+dos dados existentes que exibimos.
+

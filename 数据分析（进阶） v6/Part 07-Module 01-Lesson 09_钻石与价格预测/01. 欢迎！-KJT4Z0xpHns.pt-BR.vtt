@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:03.180
+Parabéns por ter chegado à lição 6. Esta é
+
+00:00:03.180 --> 00:00:05.230
+a última lição do curso e
+
+00:00:05.230 --> 00:00:08.170
+trouxemos o cientista de dados do Facebook, Saung Masin, para compartilhar
+
+00:00:08.170 --> 00:00:09.890
+com você um pouco do trabalho dele em EDA.
+
+00:00:10.990 --> 00:00:13.350
+&gt;&gt; Nesta lição, vou orientá-lo em uma análise sobre
+
+00:00:13.350 --> 00:00:17.780
+diamantes. Você aprenderá sobre a rica história por trás do mercado de diamantes e
+
+00:00:17.780 --> 00:00:19.420
+usará as técnicas de EDA
+
+00:00:19.420 --> 00:00:21.892
+que já aprendeu para desenvolver um entendimento
+
+00:00:21.892 --> 00:00:25.820
+quantitativo. O grande objetivo é construir um modelo preditivo sobre
+
+00:00:25.820 --> 00:00:28.200
+diamantes, que ajudará a entender se
+
+00:00:28.200 --> 00:00:33.730
+um determinado diamante é um bom negócio ou não.
+
+00:00:33.730 --> 00:00:36.020
+&gt;&gt; Se você estiver no mercado de diamantes, explorar esse
+
+00:00:36.020 --> 00:00:38.430
+conjunto de dados poderá fazê-lo entender o que entra no preço
+
+00:00:38.430 --> 00:00:41.470
+de um diamante. E mesmo que você não pretenda comprar,
+
+00:00:41.470 --> 00:00:45.790
+a história socioeconômica e política do setor de diamantes é fascinante.
+
+00:00:45.790 --> 00:00:48.020
+&gt;&gt; Os diamantes aumentaram a indústria de mineração na
+
+00:00:48.020 --> 00:00:50.870
+África do Sul, que agora tem a economia mais avançada da
+
+00:00:50.870 --> 00:00:54.390
+região. Os diamantes também levaram britânicos e
+
+00:00:54.390 --> 00:00:56.320
+holandeses a colonizar o sul da África
+
+00:00:56.320 --> 00:00:59.520
+e causaram conflitos que vão da Guerra dos
+
+00:00:59.520 --> 00:01:02.180
+Bôeres a conflitos civis modernos pela região.
+
+00:01:03.570 --> 00:01:05.000
+&gt;&gt; Agora, você terá certa experiência
+
+00:01:05.000 --> 00:01:06.700
+ao trabalhar com os dados de diamantes no
+
+00:01:06.700 --> 00:01:08.640
+conjunto de problemas deste curso. Vou
+
+00:01:08.640 --> 00:01:10.520
+deixar o Solomon guiá-lo por essa exploração.
+
