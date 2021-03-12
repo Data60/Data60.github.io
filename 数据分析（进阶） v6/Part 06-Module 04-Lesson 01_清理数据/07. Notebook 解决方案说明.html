@@ -1,0 +1,435 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Notebook 解决方案说明
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      清理数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：口服胰岛素 II 期临床试验数据.html">
+       03. 数据集：口服胰岛素 II 期临床试验数据
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 人工 Vs 程序清理.html">
+       04. 人工 Vs 程序清理
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 数据清理流程.html">
+       05. 数据清理流程
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 清理步骤.html">
+       06. 清理步骤
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Notebook 解决方案说明.html">
+       07. Notebook 解决方案说明
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 先处理数据缺失问题.html">
+       08. 先处理数据缺失问题
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 练习：数据缺失.html">
+       09. 练习：数据缺失
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 解决方案：数据缺失.html">
+       10. 解决方案：数据缺失
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 清理之整洁度.html">
+       11. 清理之整洁度
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 练习：整洁度.html">
+       12. 练习：整洁度
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 解决方案：整洁度.html">
+       13. 解决方案：整洁度
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 清理之质量问题.html">
+       14. 清理之质量问题
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 练习：质量.html">
+       15. 练习：质量
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 解决方案：质量.html">
+       16. 解决方案：质量
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Flashforward.html">
+       17. Flashforward
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 你可以迭代.html">
+       18. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 清理总结.html">
+       19. 清理总结
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 总结.html">
+       20. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          07. Notebook 解决方案说明
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="本课程使用的-jupyter-notebook">
+          本课程使用的 Jupyter Notebook
+         </h2>
+         <p>
+          本课程接下来的内容主要涉及两种 Jupyter Notebook：** notebook 练习题 (quiz notebook) 一份
+          <strong>
+           ，这种练习形式将贯穿全课；
+          </strong>
+          notebook 解决方案 (solution notebook) 三份**。
+         </p>
+         <h3 id="练习题">
+          练习题
+         </h3>
+         <p>
+          在本课程中，你将全程使用 Jupyter Notebook 工作区：
+          <code>
+           cleaning-student.ipynb
+          </code>
+          ，该工作区可从 "
+          <strong>
+           练习: 数据缺失
+          </strong>
+          "、 "
+          <strong>
+           练习: 整洁度
+          </strong>
+          " 以及 "
+          <strong>
+           练习: 质量
+          </strong>
+          " 页面中找到。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-10-18-17.24.42.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          我们已经为你设置好所有清理步骤的标题 (如：
+          <em>
+           "### 数据缺失"
+          </em>
+          ,
+          <em>
+           "####
+           <code>
+            疗法
+           </code>
+           : 缺失的记录 (只有 280 条，而非 350 条)", "##### 方案确定", "##### 代码编写", 以及 "##### 效果检验"
+          </em>
+          )。你的任务是填写
+          <strong>
+           方案确定、代码编写以及效果检验
+          </strong>
+          这三步
+         </p>
+         <p>
+          由于部分清理操作与之前的清理操作紧密关联，所以如果你在这个 notebook 里写的清理代码有问题，notebook 解决方案中显示的清理操作则可能无法正常进行，因此，请认真进行
+          <em>
+           代码编写
+          </em>
+          和
+          <em>
+           效果检验
+          </em>
+          这两个清理步骤。
+         </p>
+         <h3 id="notebook-参考答案">
+          notebook 参考答案
+         </h3>
+         <p>
+          本课程涉及三个 notebook 解决方案：
+         </p>
+         <ul>
+          <li>
+           <code>
+            missing-data-solution.ipynb
+           </code>
+          </li>
+          <li>
+           <code>
+            tidiness-solution.ipynb
+           </code>
+          </li>
+          <li>
+           and
+           <code>
+            quality-solution.ipynb
+           </code>
+           以及
+           <code>
+            quality-solution.ipynb
+           </code>
+          </li>
+         </ul>
+         <p>
+          这三个 notebook 分别位于 "
+          <strong>
+           方案: 数据缺失
+          </strong>
+          "、 "
+          <strong>
+           方案: 整洁度
+          </strong>
+          " 以及 "
+          <strong>
+           方案: 质量
+          </strong>
+          " 页面中。注意：这些notebook 解决方案里涉及的方案可能会因方案确定、代码编写以及效果检验这三个步骤的不同而不同 (特别是方案确定和效果检验这两步)，但是数据处理结果应当相同。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-10-18-17.25.08.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-10-18-17.25.26.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-10-18-17.25.53.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="08. 先处理数据缺失问题.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('07. Notebook 解决方案说明')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
