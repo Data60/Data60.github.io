@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:04.180
+Antes de concluirmos nosso trabalho com os dados do pseudo Facebook, vamos ouvir Dean
+
+00:00:04.180 --> 00:00:09.200
+novamente sobre outra técnica que pode ser usada no seu trabalho como analista de dados.
+
+00:00:09.200 --> 00:00:11.540
+&gt;&gt; Grande parte da análise que fizemos até agora
+
+00:00:11.540 --> 00:00:16.730
+era concentrada em alguma variável, relação ou pergunta de interesse predeterminada.
+
+00:00:16.730 --> 00:00:20.500
+Depois, usamos AED para permitir que essas variáveis
+
+00:00:20.500 --> 00:00:25.740
+falassem e nos surpreendessem. Mais recentemente, ao analisar a relação entre duas
+
+00:00:25.740 --> 00:00:28.740
+variáveis, procuramos incorporar mais
+
+00:00:28.740 --> 00:00:31.850
+variáveis na análise para melhorá-la. Por
+
+00:00:31.850 --> 00:00:34.670
+exemplo, ao ver se uma relação é
+
+00:00:34.670 --> 00:00:37.760
+consistente entre os valores dessas outras variáveis,
+
+00:00:38.770 --> 00:00:41.170
+ao escolher uma terceira ou quarta variável
+
+00:00:41.170 --> 00:00:44.350
+para lotar, dependíamos do nosso conhecimento do domínio.
+
+00:00:44.350 --> 00:00:47.450
+Mas podemos querer visualizações ou
+
+00:00:47.450 --> 00:00:51.600
+resumos que nos ajudem a identificar essas variáveis auxiliares.
+
+00:00:51.600 --> 00:00:53.720
+Em algumas análises, talvez queiramos
+
+00:00:53.720 --> 00:00:57.180
+usar um grande número de variáveis. Ou
+
+00:00:57.180 --> 00:01:00.230
+queremos prever uma variável com
+
+00:01:00.230 --> 00:01:03.630
+10, 20 ou centenas de outras. Ou mesmo
+
+00:01:03.630 --> 00:01:06.040
+resumir um grande conjunto de variáveis
+
+00:01:06.040 --> 00:01:09.910
+em um conjunto de dimensões menores. Ou, quem sabe,
+
+00:01:09.910 --> 00:01:13.030
+estamos procurando relações interessantes entre um grande
+
+00:01:13.030 --> 00:01:16.610
+grupo de variáveis. Nesses casos, podemos ajudar
+
+00:01:16.610 --> 00:01:20.780
+a acelerar nossa análise exploratória de dados produzindo vários
+
+00:01:20.780 --> 00:01:24.570
+gráficos ou comparações ao mesmo tempo. Essa pode ser uma forma de
+
+00:01:24.570 --> 00:01:28.080
+permitir que o conjunto de dados como um todo fale,
+
+00:01:28.080 --> 00:01:31.350
+em parte, chamando nossa atenção para as variáveis nas quais não tínhamos interesse.
+

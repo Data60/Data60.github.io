@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.210 --> 00:00:03.420
+A ideia geral é que se tivermos observações
+
+00:00:03.420 --> 00:00:07.430
+ao longo do tempo, podemos aprimorar por unidade principal, caso
+
+00:00:07.430 --> 00:00:10.540
+ou pessoa no conjunto de dados. Para nossos dados do iogurte
+
+00:00:10.540 --> 00:00:13.750
+eram as famílias que estavam aprimorando. Este gráfico
+
+00:00:13.750 --> 00:00:16.350
+de série temporal facetado é algo que podemos gerar com
+
+00:00:16.350 --> 00:00:19.070
+nosso conjunto de dados do pseudo Facebook. Considerando que não temos dados
+
+00:00:19.070 --> 00:00:21.780
+em nossa amostra de usuários ao longo do tempo. Vamos voltar
+
+00:00:21.780 --> 00:00:25.310
+para esse gráfico para ver essa limitação. Os dados do Facebook
+
+00:00:25.310 --> 00:00:29.140
+não são ideais para examinar o processo de adicionar amigos ao longo do tempo.
+
+00:00:29.140 --> 00:00:31.750
+O conjunto de dados é apenas uma seção cruzada, é
+
+00:00:31.750 --> 00:00:34.390
+um instantâneo em um ponto fixo que nos informa as
+
+00:00:34.390 --> 00:00:38.810
+características de pessoas. Exceto pessoas com mais de um ano.
+
+00:00:38.810 --> 00:00:41.700
+Mas se tivéssemos um conjunto de dados como o do iogurte,
+
+00:00:41.700 --> 00:00:44.810
+poderíamos rastrear as amizades iniciadas ao longo do tempo
+
+00:00:44.810 --> 00:00:47.520
+e compará-las com a duração. Isso nos forneceria uma evidência
+
+00:00:47.520 --> 00:00:50.630
+melhor para explicar a diferença ou a queda em amizades
+
+00:00:50.630 --> 00:00:52.840
+iniciadas ao longo do tempo, conforme a duração aumenta.
+

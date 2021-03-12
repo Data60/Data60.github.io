@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.498 --> 00:00:03.320
+A função ggpairs usa um tipo de gráfico diferente para
+
+00:00:03.320 --> 00:00:08.180
+tipos de combinação de variáveis diferentes. Dessa forma, temos histogramas aqui
+
+00:00:08.180 --> 00:00:11.200
+e gráficos de dispersão aqui. Vários desses gráficos
+
+00:00:11.200 --> 00:00:13.580
+não são tão bons quanto seriam se os tivéssemos
+
+00:00:13.580 --> 00:00:16.540
+ajustado para as variáveis específicas. Por exemplo, para todos os
+
+00:00:16.540 --> 00:00:20.010
+números de curtidas, podemos trabalhar em uma escala logarítmica.
+
+00:00:20.010 --> 00:00:22.970
+Mas ggpairs não faz isso para nós. No mínimo,
+
+00:00:22.970 --> 00:00:25.640
+uma matriz de gráfico de dispersão pode ser um ponto de início
+
+00:00:25.640 --> 00:00:26.780
+útil em várias análises.
+

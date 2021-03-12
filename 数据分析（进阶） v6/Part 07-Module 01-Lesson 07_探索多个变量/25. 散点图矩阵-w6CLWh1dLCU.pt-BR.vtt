@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:02.700
+Como Dean descreveu, devemos permitir que os dados
+
+00:00:02.700 --> 00:00:05.720
+falem para determinar variáveis de interesse. Podemos usar uma
+
+00:00:05.720 --> 00:00:08.630
+ferramenta para criar uma série de gráficos de dispersão automaticamente.
+
+00:00:08.630 --> 00:00:12.376
+É a matriz de gráfico de dispersão. Em uma matriz
+
+00:00:12.376 --> 00:00:14.928
+de gráfico de dispersão, há uma grade de gráficos de dispersão entre
+
+00:00:14.928 --> 00:00:18.730
+cada par de variáveis. Gráficos de dispersão são ótimos,
+
+00:00:18.730 --> 00:00:21.590
+mas não necessariamente adequados para todos os tipos de variáveis. Por
+
+00:00:21.590 --> 00:00:25.430
+exemplo, os de categoria. Há outros tipos de visualização que podem
+
+00:00:25.430 --> 00:00:28.350
+ser criadas, em vez de gráficos de dispersão, como gráficos de caixa
+
+00:00:28.350 --> 00:00:32.400
+ou histogramas, quando as variáveis forem de categoria. Vamos produzir a matriz de gráfico
+
+00:00:32.400 --> 00:00:35.310
+de dispersão para o conjunto de dados do pseudo Facebook. Usaremos o pacote
+
+00:00:35.310 --> 00:00:38.890
+GGally para fazer isso. Portanto, veja se o tem instalado
+
+00:00:38.890 --> 00:00:41.630
+e carregue-o usando o comando library. Também
+
+00:00:41.630 --> 00:00:44.840
+definirei o tema aqui. Há duas outras coisas
+
+00:00:44.840 --> 00:00:47.520
+que precisamos fazer. Primeiro, precisamos definir
+
+00:00:47.520 --> 00:00:50.500
+o seed para obter resultados reproduzíveis. Você pode estar se perguntando por que
+
+00:00:50.500 --> 00:00:52.770
+definimos o seed primeiro. Porque colheremos
+
+00:00:52.770 --> 00:00:55.860
+uma amostra do nosso conjunto de dados. Nosso conjunto de dados
+
+00:00:55.860 --> 00:00:59.730
+contém todas essas variáveis, e eu não quero todas elas.
+
+00:00:59.730 --> 00:01:03.750
+Não quero user ID, year joined ou year joined.bucket. Posso
+
+00:01:03.750 --> 00:01:05.910
+criar um subconjunto da minha estrutura de dados e
+
+00:01:05.910 --> 00:01:08.900
+colher uma amostra dele. Se eu verificar as variáveis
+
+00:01:08.900 --> 00:01:12.230
+do subconjunto da minha estrutura de dados, estas são as de interesse.
+
+00:01:12.230 --> 00:01:15.550
+Não usei year joined nem year joined.bucket porque elas são
+
+00:01:15.550 --> 00:01:19.410
+variáveis de categoria resultantes da duração. Agora
+
+00:01:19.410 --> 00:01:23.170
+estou pronto para usar a função ggpairs no GGally para
+
+00:01:23.170 --> 00:01:26.860
+criar esta matriz de gráfico de dispersão. Já executei esta parte do código,
+
+00:01:26.860 --> 00:01:29.250
+e ele demora para
+
+00:01:29.250 --> 00:01:32.300
+ser gerado. Pode demorar mais de uma hora.
+
+00:01:32.300 --> 00:01:34.540
+Execute o comando e, demorar muito para o gráfico
+
+00:01:34.540 --> 00:01:37.070
+ser gerado, volte
+
+00:01:37.070 --> 00:01:40.560
+mais tarde. Também incluímos um PDF do gráfico de dispersão
+
+00:01:40.560 --> 00:01:43.565
+nas Notas do instrutor para consulta. Aqui está
+
+00:01:43.565 --> 00:01:46.450
+nossa matriz de gráfico de dispersão. Na parte superior da
+
+00:01:46.450 --> 00:01:50.160
+matriz, podemos ver os coeficientes de correlação dos pares de variáveis.
+
+00:01:50.160 --> 00:01:52.900
+Para age e date of birth year, a correlação é, na verdade,
+
+00:01:52.900 --> 00:01:56.040
+negativa. Podemos ver isso no gráfico de dispersão. Podemos
+
+00:01:56.040 --> 00:01:59.250
+produzir esses tipos de matrizes para que possamos
+
+00:01:59.250 --> 00:02:00.930
+produzir resumos de um número dos
+
+00:02:00.930 --> 00:02:03.090
+diferentes relacionamentos das nossas variáveis. É
+
+00:02:03.090 --> 00:02:06.260
+como o trabalho de correlação que fizemos na lição quatro.
+
+00:02:06.260 --> 00:02:10.389
+Descrevi os gráficos acima da diagonal para a matriz de gráfico de dispersão, mas
+
+00:02:10.389 --> 00:02:14.220
+o que você observa no canto inferior esquerdo da matriz? Escreva
+
+00:02:14.220 --> 00:02:17.460
+algumas frases sobre o que vê no teste a seguir. Preste bastante
+
+00:02:17.460 --> 00:02:21.130
+atenção à variável de sexo. Que tipos de gráficos são estes?
+
