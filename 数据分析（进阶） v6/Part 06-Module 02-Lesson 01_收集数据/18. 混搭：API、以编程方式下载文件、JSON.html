@@ -1,0 +1,678 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   混搭：API、以编程方式下载文件、JSON
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      收集数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：寻找最好的电影.html">
+       03. 数据集：寻找最好的电影
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 浏览工作目录和文件 IO.html">
+       04. 浏览工作目录和文件 I/O
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 资料来源：手头文件.html">
+       05. 资料来源：手头文件
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 平面文件结构.html">
+       06. 平面文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Python 中的平面文件.html">
+       07. Python 中的平面文件
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 资料来源：Web 数据抓取.html">
+       08. 资料来源：Web 数据抓取
+      </a>
+     </li>
+     <li class="">
+      <a href="09. HTML 文件结构.html">
+       09. HTML 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="10.  Python 中的 HTML 文件.html">
+       10.  Python 中的 HTML 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Flashforward 1.html">
+       11. Flashforward 1
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 资料来源：从互联网下载文件.html">
+       12. 资料来源：从互联网下载文件
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 文本文件结构.html">
+       13. 文本文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="14. Python 中的文本文件.html">
+       14. Python 中的文本文件
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 资料来源：API(应用程序编程接口).html">
+       15. 资料来源：API(应用程序编程接口)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. JSON 文件结构.html">
+       16. JSON 文件结构
+      </a>
+     </li>
+     <li class="">
+      <a href="17. Python 中的 JSON 文件.html">
+       17. Python 中的 JSON 文件
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 混搭：API、以编程方式下载文件、JSON.html">
+       18. 混搭：API、以编程方式下载文件、JSON
+      </a>
+     </li>
+     <li class="">
+      <a href="19. Flashforward 2.html">
+       19. Flashforward 2
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 存储数据.html">
+       20. 存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 关系数据库结构.html">
+       21. 关系数据库结构
+      </a>
+     </li>
+     <li class="">
+      <a href="22. Python 中的关系数据库.html">
+       22. Python 中的关系数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 其他文件格式.html">
+       23. 其他文件格式
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 你可以迭代.html">
+       24. 你可以迭代
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 收集：总结.html">
+       25. 收集：总结
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 总结.html">
+       26. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          18. 混搭：API、以编程方式下载文件、JSON
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="混搭：api、以编程方式下载文件和-json">
+          混搭：API、以编程方式下载文件和 JSON
+         </h2>
+         <p>
+          在你已经有了关于API、以编程方式从互联网下载文件和JSON的相足够经验后，可以下载 Roger Ebert 影评 Word clouds 中的所有电影海报图。这是你的下一个任务。
+         </p>
+         <p>
+          开始之前，需要注意的两个关键事项是：
+         </p>
+         <h3 id="1-维基百科页面标题">
+          1. 维基百科页面标题
+         </h3>
+         <p>
+          如果你要通过 MediaWiki API 使用
+          <em>
+           wptools
+          </em>
+          访问维基百科页面数据，就需要每部电影的维基百科页面标题，即网址中 ** en.wikipedia.org / wiki / ** 里最后一个斜杠之后的内容。在这节课中，我已经为你编写了前 100 部电影的所有标题。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-09-27-00.16.09.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="2-下载图像文件">
+          2. 下载图像文件
+         </h3>
+         <p>
+          例如，从读取和写入的角度来看，与可以逐行读取的文本文件相比，下载图像可能会比较麻烦。但实际上，图像文件并不特殊 - 它们只是二进制文件。要与它们互动，不需要“理解”图像的特殊软件(如 Photoshop 或某些其他软件)。你可以使用常规的文件打开、读取和写入方法，比如下面的方法：
+         </p>
+         <pre><code class="python language-python">import requests
+r = requests.get(url)
+with open(folder_name + '/' + filename, 'wb') as f:
+    f.write(r.content)</code></pre>
+         <p>
+          但是这种技术可能容易出错，不过大部分情况下可以正常使用，只是有时候会破坏写入的文件。我在准备这个节课时就出现过这种情况：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/screenshot-2017-09-26-17.23.26.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          这种错误是因为
+          <a href="http://docs.python-requests.org/en/latest/user/quickstart/#binary-response-content" target="_blank">
+           requests
+          </a>
+          库的维护人员推荐使用
+          <a href="https://pillow.readthedocs.io/" target="_blank">
+           PIL 库
+          </a>
+          (Pillow 的缩写)和 BytesIO， 它来自于处理非文本文件（例如：图像）请求的 io 库。对于非文本请求，他们建议你访问作为字节的响应正文。例如，根据请求返回的二进制数据创建一个图像：
+         </p>
+         <pre><code class="python language-python">import requests
+from PIL import Image
+from io import BytesIO
+r = requests.get(url)
+i = Image.open(BytesIO(r.content))</code></pre>
+         <p>
+          虽然你可能仍然会遇到类似的文件错误，上面的代码至少会给我们提供一个错误消息，出现错误时，我们可以手动下载有问题的图像。
+         </p>
+         <h3 id="练习">
+          练习
+         </h3>
+         <p>
+          我们现在来收集 Roger Ebert 影评Word clouds的最后一个数据：电影海报图像文件。还要保留每个图像的 URL，以便之后将它们添加到主 DataFrame。
+         </p>
+         <p>
+          虽然我们将使用一个循环来最大程度减少重复，但在这个循环中，主要部分的工作原理如下：
+         </p>
+         <ol>
+          <li>
+           我们将使用
+           <em>
+            wptools
+           </em>
+           来查询 MediaWiki API，以便通过每个页面对象的
+           <code>
+            image
+           </code>
+           属性获取电影海报 URL。
+          </li>
+          <li>
+           使用这个 URL，我们以编程方式将这个图像下载到名为
+           <em>
+            bestofrt_posters
+           </em>
+           的文件夹中。
+          </li>
+         </ol>
+         <p>
+          <strong>
+           这个不错，可以试一试。
+          </strong>
+         </p>
+         <p>
+          下面的 Jupyter Notebook 包含模板代码：
+         </p>
+         <ul>
+          <li>
+           包含
+           <em>
+            title_list
+           </em>
+           ，这是 Rotten Tomatoes 前 100 部热门电影列表。这个列表的排列与前 100 部电影相同。
+          </li>
+          <li>
+           创建一个空列表，
+           <em>
+            df_list
+           </em>
+           ，并附加字典。这个字典列表最终将被转换为 pandas DataFrame(这是
+           <a href="https://stackoverflow.com/a/28058264" target="_blank">
+            逐行构建 DataFrame 的最有效方式
+           </a>
+           )。
+          </li>
+          <li>
+           创建一个空文件夹
+           <em>
+            bestofrt_posters
+           </em>
+           ，存储下载的电影海报图像文件。
+          </li>
+          <li>
+           创建一个空字典，
+           <em>
+            image_errors
+           </em>
+           ，填充以跟踪不起作用的电影海报图像 URL。
+          </li>
+          <li>
+           循环遍历
+           <em>
+            title_list
+           </em>
+           中的维基百科页面标题，以及：
+           <br/>
+           -根据标题在
+           <em>
+            title_list
+           </em>
+           中的位置，将该电影的排名存储在前 100 部电影列表中。还需要排名，所以后面我们可以将 Master DataFrame  与 DataFrame 结合。但不能加入标题，原因是 Rotten Tomatoes 页面和维基百科页面的标题不同。
+          </li>
+          <li>
+           使用
+           <a href="http://www.pythonforbeginners.com/error-handling/python-try-and-except" target="_blank">
+            <code>
+             try
+            </code>
+            和
+            <code>
+             except
+            </code>
+            块
+           </a>
+           试着查询 MediaWiki，获取电影海报图像 URL，并试着下载图像。如果尝试失败并遇到错误，那么出错的电影将被记录在
+           <em>
+            image_errors
+           </em>
+           中。
+          </li>
+          <li>
+           以
+           <em>
+            排序
+           </em>
+           、
+           <em>
+            标题
+           </em>
+           和
+           <em>
+            poster_url
+           </em>
+           作为关键字附加字典，并作为值将每个关键字的提取值附加到
+           <em>
+            df_list
+           </em>
+           。
+          </li>
+          <li>
+           检查导致错误的图像，并单独下载正确的图像(通过
+           <code>
+            image
+           </code>
+           属性列表中的另一个 URL 或 Google Images 的 URL)
+          </li>
+          <li>
+           通过使用
+           <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html" target="_blank">
+            <code>
+             pd.DataFrame
+            </code>
+            构造函数
+           </a>
+           转换
+           <em>
+            df_list
+           </em>
+           来创建名为
+           <em>
+            df
+           </em>
+           的 DataFrame。
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          任务
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Task Description:
+          </h4>
+          <p>
+           下面的 Jupyter Notebook 中，
+           <em>
+            for title in title_list:
+           </em>
+           循环中的*标题里：
+          </p>
+         </div>
+         <form>
+          <fieldset>
+           <legend>
+            Task List:
+           </legend>
+           <div>
+            <input id="5ce631e9-ad35-4f29-ad77-c121ae4823ad--0" type="checkbox"/>
+            <label for="5ce631e9-ad35-4f29-ad77-c121ae4823ad--0">
+             <p>
+              填写
+              <em>
+               图片
+              </em>
+              变量，练习你的 API 技能。
+             </p>
+            </label>
+           </div>
+           <div>
+            <input id="5ce631e9-ad35-4f29-ad77-c121ae4823ad--1" type="checkbox"/>
+            <label for="5ce631e9-ad35-4f29-ad77-c121ae4823ad--1">
+             <p>
+              填写
+              <em>
+               first_image_url
+              </em>
+              变量，练习你的 JSON 技能。
+             </p>
+            </label>
+           </div>
+           <div>
+            <input id="5ce631e9-ad35-4f29-ad77-c121ae4823ad--2" type="checkbox"/>
+            <label for="5ce631e9-ad35-4f29-ad77-c121ae4823ad--2">
+             <p>
+              填写
+              <em>
+               r
+              </em>
+              变量，练习你的编程下载技能。
+             </p>
+            </label>
+           </div>
+          </fieldset>
+         </form>
+         <div>
+          <h4>
+           Task Feedback:
+          </h4>
+          <p>
+           不错！如果还没有准备好，请运行下面notebook 中的最后一个单元格来练习你的解决方案。
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           jupyter
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="解决方案-右键另存为">
+          解决方案 (右键另存为)
+         </h2>
+         <ul>
+          <li>
+           <a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b2b56ad_mashup-solution/mashup-solution.ipynb" target="_blank">
+            混搭解决方案 Jupyter Notebook
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="19. Flashforward 2.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('18. 混搭：API、以编程方式下载文件、JSON')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
