@@ -1,0 +1,1664 @@
+{
+  "data": {
+    "lesson": {
+      "id": 432489,
+      "key": "243eeaed-5cd8-4e3c-91fa-9131d430138e",
+      "title": "评估数据",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "使用 pandas 从可视的角度以编程的方式评估数据的质量和整洁度。在这节课中，我们将使用的数据集是一种称为 Auralin 的新型口服胰岛素 II 期临床试验数据。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/243eeaed-5cd8-4e3c-91fa-9131d430138e/432489/1544432971347/%E8%AF%84%E4%BC%B0%E6%95%B0%E6%8D%AE+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/243eeaed-5cd8-4e3c-91fa-9131d430138e/432489/1544432964915/%E8%AF%84%E4%BC%B0%E6%95%B0%E6%8D%AE+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 432432,
+          "key": "57e836b7-36a5-4729-b5bb-98c65523a8fb",
+          "title": "简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "57e836b7-36a5-4729-b5bb-98c65523a8fb",
+            "completed_at": "2019-02-24T13:47:27.182Z",
+            "last_viewed_at": "2019-03-05T12:32:04.912Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432360,
+              "key": "4827d4bc-1d7a-41b0-a950-8828e1a839e7",
+              "title": "简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4U3nFMf2KEs",
+                "china_cdn_id": "4U3nFMf2KEs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432431,
+          "key": "78e46a4f-4aec-46a5-9d3f-108ac1633a4c",
+          "title": "课程大纲",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "78e46a4f-4aec-46a5-9d3f-108ac1633a4c",
+            "completed_at": "2019-02-24T13:47:29.881Z",
+            "last_viewed_at": "2019-03-05T12:33:51.431Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432363,
+              "key": "ea54e74a-b558-4676-b9e4-b1f268420cc4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 课程大纲\n\n> 数据整理过程：\n- 收集\n- 评估（本节课内容）\n- 清理\n\n**评估**数据是数据整理的第二步。评估数据就像作侦探一样，检查数据集是否存在两个问题：数据质量问题（*即内容问题*）和缺乏整洁度（*即结构性问题*）。\n\n在清理之前评估数据，如果不清理就不知道存在哪些问题！在这节课程中，就是最容易出现问题的代码问题，我们将学习确定常见的数据质量和整洁度问题，并对这些问题进行分类。\n\n**这节课的结构如下：**\n\n- 你将有机会评估（稍后清理）第 3 和第 4 课的数据集：II 期临床试验数据，比较新型口服胰岛素治疗糖尿病的疗效和安全性\n- 学习区分脏数据和杂乱数据\n- 从目测评估和编程评估的方式来发现：\n - 数据质量问题\n - 整洁度问题\n- 我们将学习数据质量维度并将发现的每个数据质量问题归类到适当的维度\n\n在这节课开始时，我先给你介绍一下本节课将要评估的数据集。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432433,
+          "key": "16122c33-226b-4651-bff7-34c27a5e3402",
+          "title": "数据集：口服胰岛素 II 期临床试验数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "16122c33-226b-4651-bff7-34c27a5e3402",
+            "completed_at": "2019-02-24T13:47:31.151Z",
+            "last_viewed_at": "2019-03-05T12:40:13.039Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432361,
+              "key": "fb93ca0d-c14b-468f-a3fe-7baa517584a0",
+              "title": "数据集：口服胰岛素临床试验数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R-HT78SPxpE",
+                "china_cdn_id": "R-HT78SPxpE.mp4"
+              }
+            },
+            {
+              "id": 432362,
+              "key": "f8a8a54f-5077-4547-87bf-44ffccdc98d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 免责声明：这些数据并不是 \"真实\" 数据\nAuralin 和 Novodra 并**不是**真正的胰岛素产品。这些临床试验数据仅是为了本课程演示而编制的。评估这些数据时，发现的问题（及之后的清理）主要用于模拟真实世界的数据质量和整洁度问题。\n\n也就是说：\n- 为了确保合理性，这个数据集是由真正的医生咨询建立的。\n- 这种替代胰岛素的临床试验数据由官方授意，并且密切模拟了这种真正 [新型吸入胰岛素 Afrezza 的临床试验](http://care.diabetesjournals.org/content/38/12/2266.long)。\n- 数据集中的数据质量问题模拟了 [医疗保健数据中的真实常见数据质量问题](http://media.hypersites.com/clients/1446/filemanager/Articles/DocCenter_Problem_with_data.pdf)。这些问题会对护理质量、患者注册和收入产生影响。\n- 这个数据集中的患者是使用这个 [虚假姓名生成器](http://www.fakenamegenerator.com/order.php) 创建的，不包括真实姓名、地址、电话号码、电子邮件等。\n\n上面的视频只是简单地介绍了数据集，主要目的在于激发你的学习兴趣。所以如果某些细节内容不正确，也无关紧要。你将很快熟悉数据集中每个表格中的每一个列。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432434,
+          "key": "f7c43eba-18ce-44b3-8dc1-04a3dbf3c93c",
+          "title": "未清理的数据：脏数据与杂乱数据 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7c43eba-18ce-44b3-8dc1-04a3dbf3c93c",
+            "completed_at": "2019-03-05T12:40:03.989Z",
+            "last_viewed_at": "2019-03-05T12:40:22.609Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432369,
+              "key": "a3e76270-86d3-4f7c-99f7-238b1ab9f648",
+              "title": "未清理的数据：脏数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WG6mil60jq0",
+                "china_cdn_id": "WG6mil60jq0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432438,
+          "key": "dc13196f-6706-416c-82de-58ac8f913ee9",
+          "title": "未清理的数据：脏数据与杂乱数据 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dc13196f-6706-416c-82de-58ac8f913ee9",
+            "completed_at": "2019-03-05T12:43:17.802Z",
+            "last_viewed_at": "2019-03-05T12:59:32.195Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432370,
+              "key": "ed210f0d-e752-476d-9ece-773cccc52be0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 未清理的数据：脏数据与杂乱数据\n*未清理*数据分为两种：\n- **脏**数据，也称为**低质量**数据。低质量数据存在**内容问题**。\n- **杂乱**数据，也称为**不整洁**数据。不整洁数据存在**结构问题**。\n\n在这节课中，我们将评估脏数据和杂乱数据。你现在的任务就是开始区分这两种数据，即使你现在可能还没有 100％ 掌握质量和整洁度（特别是后者）问题。\n\n回答以下练习问题，区分低质量数据和不整洁数据，完全掌握这节课的内容。\n\n*注：动画中的数据是这节课使用的实际数据集的简化版本。\n\n### 练习 1\n使用下面的图片来回答第一个练习问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432371,
+              "key": "6e6d4b4a-8f18-4252-b17a-e94da30eda22",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dceb19_screenshot-2017-10-10-11.43.11/screenshot-2017-10-10-11.43.11.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6e6d4b4a-8f18-4252-b17a-e94da30eda22",
+              "caption": "",
+              "alt": "脏乱的卧室",
+              "width": 1528,
+              "height": 856,
+              "instructor_notes": null
+            },
+            {
+              "id": 432372,
+              "key": "abaca88e-ad03-4e8b-9a73-62652cc2f571",
+              "title": "卧室：肮脏与凌乱",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "abaca88e-ad03-4e8b-9a73-62652cc2f571",
+                "completed_at": "2019-03-05T12:45:54.016Z",
+                "last_viewed_at": "2019-03-05T12:45:54.016Z",
+                "unstructured": "{\"answer_ids\":[\"a1507614880067\",\"a1507614977372\",\"a1507614985005\",\"a1507615015435\"],\"is_correct\":true}"
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "在以下卧室清洁问题中，哪些属于肮脏问题？哪些是凌乱问题？请相应匹配。"
+                },
+                "concepts_label": "清洁问题",
+                "answers_label": "肮脏还是凌乱？",
+                "concepts": [
+                  {
+                    "text": "地板上的面包屑",
+                    "correct_answer": {
+                      "id": "a1507614880067",
+                      "text": " 肮脏"
+                    }
+                  },
+                  {
+                    "text": "地板上的衣服",
+                    "correct_answer": {
+                      "id": "a1507614977372",
+                      "text": " 凌乱"
+                    }
+                  },
+                  {
+                    "text": "未整理床铺",
+                    "correct_answer": {
+                      "id": "a1507614985005",
+                      "text": " 凌乱"
+                    }
+                  },
+                  {
+                    "text": "地板上的香蕉皮",
+                    "correct_answer": {
+                      "id": "a1507615015435",
+                      "text": " 肮脏"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1507614977372",
+                    "text": " 凌乱"
+                  },
+                  {
+                    "id": "a1507615015435",
+                    "text": " 肮脏"
+                  },
+                  {
+                    "id": "a1507614880067",
+                    "text": " 肮脏"
+                  },
+                  {
+                    "id": "a1507614985005",
+                    "text": " 凌乱"
+                  },
+                  {
+                    "id": "a1507615084982",
+                    "text": "Dirty （肮脏）"
+                  },
+                  {
+                    "id": "a1507615079431",
+                    "text": "Messy （凌乱）"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432373,
+              "key": "27cb6d1e-37cc-490d-8c3f-9760c9680f2a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ### 练习 2\n使用下面的图片来回答第二个练习问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432374,
+              "key": "7341136b-91c7-4ecb-8f68-86f7f890aa54",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dc65ad_screenshot-2017-10-10-02.10.18/screenshot-2017-10-10-02.10.18.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7341136b-91c7-4ecb-8f68-86f7f890aa54",
+              "caption": "",
+              "alt": "患者和药物数据",
+              "width": 1284,
+              "height": 414,
+              "instructor_notes": null
+            },
+            {
+              "id": 432375,
+              "key": "34332b88-4f11-4b17-af89-de8b7d10edcd",
+              "title": "数据：质量与整洁度",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "34332b88-4f11-4b17-af89-de8b7d10edcd",
+                "completed_at": "2019-03-05T12:48:56.291Z",
+                "last_viewed_at": "2019-03-05T12:48:56.291Z",
+                "unstructured": "{\"answer_ids\":[\"a1507615447954\",\"a1507615522603\",\"a1507615523288\",\"a1507615523940\"],\"is_correct\":true}"
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "在以下图示数据集清理问题中，哪些属于清理问题？哪些是整洁度问题？请相应匹配。"
+                },
+                "concepts_label": "清洁问题",
+                "answers_label": "质量还是整洁度问题？",
+                "concepts": [
+                  {
+                    "text": "剂量错误（600，而不是 60）",
+                    "correct_answer": {
+                      "id": "a1507615447954",
+                      "text": "质量"
+                    }
+                  },
+                  {
+                    "text": "药物 A、药物 B、药物 C 列",
+                    "correct_answer": {
+                      "id": "a1507615522603",
+                      "text": "整洁度"
+                    }
+                  },
+                  {
+                    "text": "公民 Jane 的记录重复",
+                    "correct_answer": {
+                      "id": "a1507615523288",
+                      "text": "质量"
+                    }
+                  },
+                  {
+                    "text": "患者信息和药物信息在同一张表格中",
+                    "correct_answer": {
+                      "id": "a1507615523940",
+                      "text": "整洁度"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1507615447954",
+                    "text": "质量"
+                  },
+                  {
+                    "id": "a1507615939929",
+                    "text": "Tidiness （整洁度）"
+                  },
+                  {
+                    "id": "a1507615522603",
+                    "text": "整洁度"
+                  },
+                  {
+                    "id": "a1507615523288",
+                    "text": "质量"
+                  },
+                  {
+                    "id": "a1507615523940",
+                    "text": "整洁度"
+                  },
+                  {
+                    "id": "a1507615937531",
+                    "text": "Quality （质量）"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 432435,
+          "key": "353d5119-9662-4a68-b791-b1a9ad32c0c2",
+          "title": "评估：类型与步骤",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "353d5119-9662-4a68-b791-b1a9ad32c0c2",
+            "completed_at": "2019-03-05T12:49:02.605Z",
+            "last_viewed_at": "2019-03-05T12:59:38.014Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432364,
+              "key": "0fe70efb-8cc5-46da-a3c9-8ca1e7451cff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 评估：类型与步骤",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432365,
+              "key": "a7d8bb7a-06d2-4daa-85c3-6405616e5b12",
+              "title": "类型与步骤",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oZmndg-BnPk",
+                "china_cdn_id": "oZmndg-BnPk.mp4"
+              }
+            },
+            {
+              "id": 432366,
+              "key": "5723a89b-3f0b-47db-af7e-1b2a350e091e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "为什么只填写观察值，而不是填写观察值与解决方案？如果数据问题变得复杂，编写如何处理每个数据可能会导致混乱、冗长和耗时，我们来好好思考一下记录之后如何清理这些复杂的问题。\n\n如果在数据整理过程中像我们在这课中一样，分开进行*评估*和*清理*步骤，仅填写观察值就是一个不错的做法。\n\n如果选择评估一个问题，然后马上清理这个问题（这是特别允许的），你可以跳过观察步骤，直接定义如何清理（这是* Define-Code-Test *清理框架的一部分，我们将在第 4 课介绍）\n\n**注：将数据可视化（例如：绘制图形）是编程评估而非目测评估。虽然表面上看起来难以理解。这是因为对数据绘图需要编写代码。**\n\n## 在这节课中\n将从本课的第一部分开始进行目测评估，确定数据质量问题。然后，使用编程评估来确定更多的数据质量问题。\n\n在课程结束之前，你将使用可视（第一次）和编程评估（第二次）来发现整洁度问题。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432436,
+          "key": "9d4ed99e-4bc0-45a9-8900-c790c5301414",
+          "title": "目测评估",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9d4ed99e-4bc0-45a9-8900-c790c5301414",
+            "completed_at": "2019-02-24T13:47:32.998Z",
+            "last_viewed_at": "2019-03-05T13:02:31.513Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432367,
+              "key": "a9ee1398-8741-4b25-badc-8d19ed7b105b",
+              "title": "目测评估",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GVVibuIg3Ro",
+                "china_cdn_id": "GVVibuIg3Ro.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432437,
+          "key": "ff8c539c-f480-48fd-a0ae-af7692657963",
+          "title": "目测评估：认识自己",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ff8c539c-f480-48fd-a0ae-af7692657963",
+            "completed_at": "2019-03-05T13:04:48.985Z",
+            "last_viewed_at": "2019-03-05T13:37:25.838Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 486207,
+              "key": "22ac8044-9e63-4733-8606-f307633e1cd1",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewed9a5a50",
+              "pool_id": "jupyter",
+              "view_id": "ed9a5a50-2f88-492b-83f7-bd56a772d520",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/assessing-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 432439,
+          "key": "05342172-82f1-4157-acd5-7ee46b8b0640",
+          "title": "质量：目测评估 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "05342172-82f1-4157-acd5-7ee46b8b0640",
+            "completed_at": "2019-02-24T13:47:35.354Z",
+            "last_viewed_at": "2019-03-05T13:36:27.059Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432376,
+              "key": "57d762cd-6da0-4c3b-b8d5-0f82849a4ead",
+              "title": "质量：目测评估1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "XfKc5PtJ7cc",
+                "china_cdn_id": "XfKc5PtJ7cc.mp4"
+              }
+            },
+            {
+              "id": 704575,
+              "key": "ca007d67-102c-4601-a46c-c52de477b771",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提示：视频里面导师用到的注释是 `HbA1c change`，实际应当为文件里面的字段名称 `hbA1c_change`。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432377,
+              "key": "6f51b8f1-2a24-4cfd-b944-cf4e9c250e0b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ## 练习\n使用下面的 Jupyter Notebook 回答以下练习问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432378,
+              "key": "26652bdf-9023-4174-b9e6-0be2e71109ea",
+              "title": "质量：目测评估",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "26652bdf-9023-4174-b9e6-0be2e71109ea",
+                "completed_at": "2019-03-05T13:12:30.343Z",
+                "last_viewed_at": "2019-03-05T13:12:30.343Z",
+                "unstructured": "{\"answer\":\"height\",\"is_correct\":false}"
+              },
+              "question": {
+                "prompt": "对于身高错误（27 英寸）的患者，DataFrame 的索引是什么？",
+                "matchers": [
+                  {
+                    "expression": "^\\s*4\\s*$"
+                  },
+                  {
+                    "expression": "^\\s*four\\s*$"
+                  },
+                  {
+                    "expression": "^\\s*5\\s*$"
+                  },
+                  {
+                    "expression": "^\\s*five\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 486208,
+              "key": "b982c9cf-753f-4b94-aa4c-ef260f46a16c",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view2846cf50",
+              "pool_id": "jupyter",
+              "view_id": "2846cf50-c4d5-42df-ad9e-1f17543f790b",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/assessing (1)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432380,
+              "key": "1a97279f-c29a-499f-bc32-734685dba3ee",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ## 更多信息\n - [Stack Overflow：使用整数列在数据库中存储美国邮政编码是个好办法吗？](https://stackoverflow.com/questions/893454/is-it-a-good-idea-to-use-an-integer-column-for-storing-us-zip-codes-in-a-databas)\n   ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432440,
+          "key": "6bb4a8d6-c72f-4696-9193-22fe39396e03",
+          "title": "评估与探索",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6bb4a8d6-c72f-4696-9193-22fe39396e03",
+            "completed_at": "2019-02-24T13:47:36.690Z",
+            "last_viewed_at": "2019-03-10T04:17:34.620Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432381,
+              "key": "75e6a0cd-8650-4e29-be91-1cccd3a9b765",
+              "title": "评估与探索 V2 ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hVFZ6jFKOso",
+                "china_cdn_id": "hVFZ6jFKOso.mp4"
+              }
+            },
+            {
+              "id": 432382,
+              "key": "5fbe9655-f6fa-4ab6-8139-54c898b93fb2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在这个数据集中，**评估**刚刚发现的所有问题，如找出问题：\n- hbA1c_change 存在缺失值\n- 邮政编码格式不正确（即四位数字和数据类型浮点数，而不是五位数字，数据类型为字符串或对象）\n- 州格式不统一（即 NY 与 New York）\n- 患者身高值不正确（例如 27 英寸，而不是 72 英寸）\n\n评估也可以确定结构（即整洁度）问题，而这些问题会使分析变得困难。\n\n发现这些数据质量问题，确保可以顺利进行分析，对于该临床试验数据，这些问题包括计算的患者平均度量值（例如年龄、体重、身高和体重指数），以及计算患者 Novodra 和 Auralin  之间的 HbA1c 变化差异置信区间。\n\n在这个数据集中，** Exploring （探索数据）**可能指：\n- 使用州列上的 `count` 或体重列中的 `mean` 等摘要统计信息，查看某些州或某些体重的患者是否更有可能患有糖尿病，分析时，我们可以使用这些方法将某些患者排除，使结果更加准确。\n\n鉴于临床试验的背景，考虑到临床试验的高昂费用，及其各种极端预案，探索是不太适用的。所以在 *treatments* 和 *adverse_reactions* 数据表建立之前，例如在临床试验开始之前可能需要专门来探索这一类数据集。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432441,
+          "key": "385b66cd-a5fc-4d34-966b-916ac9b69d1e",
+          "title": "质量：目测评估 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "385b66cd-a5fc-4d34-966b-916ac9b69d1e",
+            "completed_at": "2019-03-05T12:49:34.793Z",
+            "last_viewed_at": "2019-03-05T13:36:45.794Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432383,
+              "key": "d03c5571-e652-48e4-9432-85b073e122dc",
+              "title": "质量：目测评估 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dRbjnKOnd0Y",
+                "china_cdn_id": "dRbjnKOnd0Y.mp4"
+              }
+            },
+            {
+              "id": 432384,
+              "key": "b666bb0c-a8c2-4296-a6b4-472ac354efe2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432385,
+              "key": "ad779f37-410c-43bf-86fb-782d1e45e728",
+              "title": "质量：目测评估",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ad779f37-410c-43bf-86fb-782d1e45e728",
+                "completed_at": "2019-03-05T13:27:16.341Z",
+                "last_viewed_at": "2019-03-05T13:37:13.185Z",
+                "unstructured": "{\"selected_ids\":[\"a1507649004461\",\"a1507649005087\",\"a1507649003851\",\"a1507649311820\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "使用下面的 Jupyter Notebook，确定下列列表中的数据质量问题：",
+                "answers": [
+                  {
+                    "id": "a1507649003261",
+                    "text": "出生日期的格式为月/日/年，而不是日/月/年",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1507649003851",
+                    "text": "*patient_id* 为 9 的患者的 *Given_name* ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507649004461",
+                    "text": "`u`位于 *auralin* 和 *novodra* 列的起始剂量和最终剂量旁边",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507649005087",
+                    "text": "*treatments* 和 *adverse_reactions* 表格中患者的姓名为小写",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507649005810",
+                    "text": "名字和姓氏（例如 TámLiễu）中存在重音符号",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1507649311820",
+                    "text": "*治疗* 表中有 280 条记录",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507649350206",
+                    "text": "体重为浮点数（十进制），身高为整数（无小数）",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 486209,
+              "key": "95051c27-ea27-4f6e-bccd-adf34e57569b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view2846cf50",
+              "pool_id": "jupyter",
+              "view_id": "13a50937-592e-49bc-8130-64ce3f832847",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/assessing (2)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432387,
+              "key": "d7318dd2-473d-4430-b708-65318903e75d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432388,
+              "key": "3f6ff9a6-5933-4742-93e2-d245ab2e9959",
+              "title": "Quality Visual Assessment 2 Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "E5tAoCK6GcQ",
+                "china_cdn_id": "E5tAoCK6GcQ.mp4"
+              }
+            },
+            {
+              "id": 432389,
+              "key": "72ed3441-f805-4f02-a6dc-304b1c100373",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "出生日期格式为月/日/年，而不是日/月/年不属于数据质量问题，因为任何表示都是正确的，但是整个 *出生日期* 列只能使用一种格式。\n\n名字和姓氏存在口音（例如 TámLiễu），这也不是数据质量问题，因为这些名字实际上就是这样拼写的。只要在执行需要这些文本的操作（例如，在姓名列中合并表格）时，你*将必须注意这些重音符号，但它们也不是质量问题。\n\n体重是一个浮点数（十进制）和身高是一个整数（没有小数）都可以。这只是数据的记录方式而已。虽然在技术上身高可能稍微不准确（存在一英寸以内的误差），但这是一个限制可以接受的例子。\n\n## 更多信息\n [ABBYY：光学字符识别](https://www.abbyy.com/en-ca/finereader/what-is-ocr/)\n       ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432442,
+          "key": "c8bdffee-739e-4b1d-85ce-3704978bfbb2",
+          "title": "数据质量维度 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c8bdffee-739e-4b1d-85ce-3704978bfbb2",
+            "completed_at": "2019-03-05T13:27:48.164Z",
+            "last_viewed_at": "2019-03-05T13:27:47.903Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432390,
+              "key": "d2f66ecc-70ae-4566-a09c-be30820196a0",
+              "title": "数据质量维度 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5UYGvKDsd-M",
+                "china_cdn_id": "5UYGvKDsd-M.mp4"
+              }
+            },
+            {
+              "id": 432391,
+              "key": "fc77110c-015e-4380-b487-19360a4ad965",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 数据质量维度\n数据质量维度有助于在评估和清理数据时为我们提供思维指导。四个主要的数据质量维度分别是：\n- **完整性**：我们是否记录了所有内容？是否缺少记录？是否丢失某个行、列或单元格？\n- **有效性**：我们已经做了记录，但却无效，即它们不符合定义的模式。模式是一组定义的数据规则。这些规则可以是真实世界约定成俗的事实（例如身高不可能是负数）和表格约定成俗的属性（例如表中的唯一键）。\n- **准确性**：不准确的数据是有效的，但仍然是错误的。这些数据符合定义的模式，但仍然不正确。例如：每个患者体重被多记录了5磅。虽然有失偏颇，这些数据仍然是有效的，但并不理想。\n- **一致性**：不一致的数据是有效和准确的，但是指代同一件事情的*正确*方式有多个。最好确保表和/或表内表示相同数据的列中的数据具有一致性，即采用标准格式。\n\n对于视频中提到的其他数据质量研究，附加维度是上述四个维度的超特定情况。例如：*实效性 (currency)*，定义如下：世界按特定模型展现的数据本身的实效性程度。实效性可以表明数据最与时俱进/最新的程度。从某种意义上来说，实效性是展现数据准确性 (accuracy) 的特定衡量属性，比如，如果过期数据（通常）仍然有效，但是从实效性的角度来说还是错误的。换句话说，准确性的定义较为广泛，包含实效性。\n\n## 更多信息\n- 视频中提到的数据质量维度研究不一致： [资料来源 1 (PDF)](http://www.damauk.org/RWFilePub.php?&cat=403&dx=2&ob=3&rpn=catviewleafpublic403&id=106193), [资料来源 2](http://www.informit.com/articles/article.aspx?p=399325&seqNum=3),\n[资料来源 3](http://searchdatamanagement.techtarget.com/definition/data-quality),\n和 [资料来源 4](https://www.youtube.com/watch?v=dPsx8_Fcr-U)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432443,
+          "key": "425e97dc-584f-4560-a970-897fead72c3a",
+          "title": "数据质量维度 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "425e97dc-584f-4560-a970-897fead72c3a",
+            "completed_at": "2019-03-05T13:32:35.476Z",
+            "last_viewed_at": "2019-03-05T13:36:22.870Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432392,
+              "key": "20674cbc-03e3-42f7-a830-6d4f031ff0b1",
+              "title": "数据质量维度 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aEGtqoWIJIc",
+                "china_cdn_id": "aEGtqoWIJIc.mp4"
+              }
+            },
+            {
+              "id": 432393,
+              "key": "5cd67f9e-7176-4701-9544-8aff8f7b5d61",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习\n将你目测到的四个最新数据质量问题分类到适当的数据质量维度。特别提示，它们分别是：\n\n- *患者*表中的 'Dsvid' 名字出现拼写错误\n- 'u' 位于*治疗*表的起始剂量和最终剂量旁边\n-  *治疗*和 *adverse_reactions* 表中的姓名小写\n- *治疗*表中有 280 条记录，而不是 350 条\n\n随便使用下面的 Jupyter Notebook 进行参考。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432394,
+              "key": "a457b01a-f9b7-41b9-91ec-32c6f5ce128a",
+              "title": "数据质量维度",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a457b01a-f9b7-41b9-91ec-32c6f5ce128a",
+                "completed_at": "2019-03-05T13:33:59.433Z",
+                "last_viewed_at": "2019-03-05T13:33:59.433Z",
+                "unstructured": "{\"answer_ids\":[\"a1507658434475\",\"a1507658276548\",\"a1507658292894\",\"a1507658411006\"],\"is_correct\":true}"
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "将目测到的四个最新数据质量问题分类到适当的数据质量维度。"
+                },
+                "concepts_label": "数据质量问题",
+                "answers_label": "数据质量维度",
+                "concepts": [
+                  {
+                    "text": "*患者*表中 ''Dsvid'' 这个名字出现拼写错误",
+                    "correct_answer": {
+                      "id": "a1507657964262",
+                      "text": "准确性"
+                    }
+                  },
+                  {
+                    "text": "''u'' 位于 *治疗* 表的起始剂量和最终剂量旁边",
+                    "correct_answer": {
+                      "id": "a1507658276548",
+                      "text": "有效性"
+                    }
+                  },
+                  {
+                    "text": "*治疗*和 *adverse_reactions* 表格中的姓名小写",
+                    "correct_answer": {
+                      "id": "a1507658292894",
+                      "text": "一致性"
+                    }
+                  },
+                  {
+                    "text": "*治疗*表中有 280 条记录，而不是 350 条",
+                    "correct_answer": {
+                      "id": "a1507658411006",
+                      "text": "完整性"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1507658434475",
+                    "text": "准确性"
+                  },
+                  {
+                    "id": "a1507658292894",
+                    "text": "一致性"
+                  },
+                  {
+                    "id": "a1507658443706",
+                    "text": "一致性"
+                  },
+                  {
+                    "id": "a1507658276548",
+                    "text": "有效性"
+                  },
+                  {
+                    "id": "a1507658440193",
+                    "text": "完整性"
+                  },
+                  {
+                    "id": "a1507658411006",
+                    "text": "完整性"
+                  },
+                  {
+                    "id": "a1507658437188",
+                    "text": "有效性"
+                  },
+                  {
+                    "id": "a1507657964262",
+                    "text": "准确性"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 486210,
+              "key": "56e81ad3-bfea-4217-ac74-42cd8a4cb3e3",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view2846cf50",
+              "pool_id": "jupyter",
+              "view_id": "500a5dbf-f222-4b67-af1f-1166cf6a0257",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/assessing (3)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432396,
+              "key": "945ae576-ce20-441f-bf9f-6bc2689e832b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432397,
+              "key": "ed2d5500-c720-4fba-9294-64243bcdc8b6",
+              "title": "Date Quality Dimensions 2 Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kqcuw1qCLEM",
+                "china_cdn_id": "kqcuw1qCLEM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432444,
+          "key": "4d4ea0f8-db06-4f6e-9873-3391fb4a0dc4",
+          "title": "编程评估",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4d4ea0f8-db06-4f6e-9873-3391fb4a0dc4",
+            "completed_at": "2019-03-05T13:36:02.329Z",
+            "last_viewed_at": "2019-03-05T13:37:38.675Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432398,
+              "key": "bd2cf7dc-c9aa-4c18-96e5-321deeadc340",
+              "title": "Programatic Assessment ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Bk_Ve3-4eps",
+                "china_cdn_id": "Bk_Ve3-4eps.mp4"
+              }
+            },
+            {
+              "id": 486211,
+              "key": "dfbd5c0a-e8c0-413c-b7a9-7cc0b4f33dab",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewd89cbf4b",
+              "pool_id": "jupyter",
+              "view_id": "d89cbf4b-c0aa-4481-a5dc-607f00531a87",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/common-programmatic-assessments-pandas-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432400,
+              "key": "19e5c2f4-bab5-42fa-8bf4-2faef0827d73",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432401,
+              "key": "32bf3c74-364d-476e-862a-55b8a305bdfd",
+              "title": "编程评估：按条件选择（布尔）",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "32bf3c74-364d-476e-862a-55b8a305bdfd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "`患者`表格中有多少名患者来自纽约*市*？提示：`len()` 可能会派上用场。",
+                "matchers": [
+                  {
+                    "expression": "^\\s*18\\s*$"
+                  },
+                  {
+                    "expression": "^\\s*eighteen\\s*$"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 432445,
+          "key": "49cdc5ad-2f72-4806-9b07-4139c0dea738",
+          "title": "质量：编程评估 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "49cdc5ad-2f72-4806-9b07-4139c0dea738",
+            "completed_at": "2019-03-05T13:39:42.782Z",
+            "last_viewed_at": "2019-03-07T12:03:41.197Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432402,
+              "key": "c68b605a-2063-4dd5-ad55-c96ba01adc90",
+              "title": "质量：编程评估 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "l-FhDkQRclA",
+                "china_cdn_id": "l-FhDkQRclA.mp4"
+              }
+            },
+            {
+              "id": 432403,
+              "key": "219db18a-4367-4986-9642-72c30652e4ba",
+              "title": "(可选）质量：编程评估",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "219db18a-4367-4986-9642-72c30652e4ba",
+                "completed_at": "2019-03-05T13:39:52.443Z",
+                "last_viewed_at": "2019-03-05T13:39:52.443Z",
+                "unstructured": "{\"selected_ids\":[0]}"
+              },
+              "tasks": [
+                "如果愿意，请在下面的 Jupyter Notebook 中重复上面视频中进行的编程评估。"
+              ],
+              "positive_feedback": "谢谢。",
+              "video_feedback": null,
+              "description": ""
+            },
+            {
+              "id": 486213,
+              "key": "e492e1f5-8913-4d16-ac79-7eaa47616b12",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view727b6121",
+              "pool_id": "jupyter",
+              "view_id": "727b6121-49e8-493a-93f5-e43afca9bc78",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/assessing (4)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 432450,
+          "key": "0038fb8b-398f-471a-aa45-33e1905e1539",
+          "title": "质量：编程评估 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0038fb8b-398f-471a-aa45-33e1905e1539",
+            "completed_at": "2019-03-07T14:20:58.558Z",
+            "last_viewed_at": "2019-03-07T14:20:56.146Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432405,
+              "key": "c3e04ff3-d3dd-4648-a6ea-e1678b81d745",
+              "title": "质量：编程评估 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Ngl_TsqhMsc",
+                "china_cdn_id": "Ngl_TsqhMsc.mp4"
+              }
+            },
+            {
+              "id": 432406,
+              "key": "3dfbd3a3-d2d0-44cc-8db1-e203f8cf3f69",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习\n根据下面 Jupyter Notebook 中的编程评估结果，确定以下练习中表示数据质量问题的事项。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432407,
+              "key": "9e1228ae-9d05-4466-a277-0d8bf9f5ea31",
+              "title": "质量：编程评估",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9e1228ae-9d05-4466-a277-0d8bf9f5ea31",
+                "completed_at": "2019-03-07T14:44:33.635Z",
+                "last_viewed_at": "2019-03-07T15:16:16.405Z",
+                "unstructured": "{\"selected_ids\":[\"a1507662465973\",\"a1507662467258\",\"a1507662421023\",\"a1507662706913\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面 Jupyter Notebook 中，以下部分编程评估的哪一项表示数据质量问题？",
+                "answers": [
+                  {
+                    "id": "a1507662421023",
+                    "text": "*姓氏* 'Doe' 的患者一共有 6 个",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507662465973",
+                    "text": "'Jake Jakobsen' 这个名字重复出现",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507662466616",
+                    "text": "'Elizabeth Knudsen'这个名字重复出现",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1507662467258",
+                    "text": "最低体重是 48.8 磅",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507662651858",
+                    "text": "`Sort_values` 结果中的索引无序",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1507662706913",
+                    "text": "*Auralin* 和 *novodra* 列中的 `sum` 和 `isnull` 未返回 null 条目",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 486214,
+              "key": "db3dba29-e02e-4d5a-bd9b-ab3806e50fcd",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view99567238",
+              "pool_id": "jupyter",
+              "view_id": "99567238-4b9f-4ba8-9bf0-71b7d702ce51",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/assessing (5)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432409,
+              "key": "489aa0be-8bb1-4a6e-aed6-ac1598d12a44",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432410,
+              "key": "6c0f0517-3a18-41e2-9ebd-919ab0323454",
+              "title": "Quality Programatic Assessment 2 Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CWJZoi_Es84",
+                "china_cdn_id": "CWJZoi_Es84.mp4"
+              }
+            },
+            {
+              "id": 432411,
+              "key": "4277ca0e-d2c4-422b-9507-fe656990174c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*注：虽然默认的 John Doe 数据是视频中描述的有效性问题，但这也是一个完整性问题，原因是这个默认数据替换了*患者*表格中将不再存在的实际患者数据。因为完整性比有效性更 \"重要\"，所以完整性可能是更合适的数据质量维度。需要特别注意这个区别，因为在清理数据时，通常最好先解决丢失的数据，我们将在第 4 课进行具体操作。但是，我们来假设无法恢复这个被覆盖的数据，这将是一个有效性问题，是吧。*\n\n'Elizabeth Knudsen' 这个名字重复出现，但这不是数据质量问题，因为 'Elizabeth Knudsen' *不是* 重名。她的人口统计信息中出现 NaN 条目，而且她的信息重复出现（因为患者记录的地址、城市、州等信息缺失）\n\n*患者* 表格 *体重* 列中，`sort_values` 返回的系列索引顺序混乱，原因是原始数据集不是按体重排序的。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432451,
+          "key": "e013fdbd-23a0-4dcc-abee-c6a65cc58f82",
+          "title": "整洁度：目测评估",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e013fdbd-23a0-4dcc-abee-c6a65cc58f82",
+            "completed_at": "2019-03-07T15:17:04.871Z",
+            "last_viewed_at": "2019-03-07T15:17:04.074Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432413,
+              "key": "fa512483-b586-46c1-a334-58420f1b68d9",
+              "title": "整洁度：目测评估",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BNRJdhA8_s8",
+                "china_cdn_id": "BNRJdhA8_s8.mp4"
+              }
+            },
+            {
+              "id": 432412,
+              "key": "adb436de-39a1-463d-b0bc-836d76cb1838",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ## 练习\n  回答下面的练习问题时，使用 *治疗* 表格前五个条目的图像作为参考。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432414,
+              "key": "4f2a262f-0342-4d87-8ed1-bfae101c39b4",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dcf31b_screenshot-2017-10-10-12.19.20/screenshot-2017-10-10-12.19.20.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4f2a262f-0342-4d87-8ed1-bfae101c39b4",
+              "caption": "",
+              "alt": "治疗表格的前五个条目",
+              "width": 1788,
+              "height": 494,
+              "instructor_notes": null
+            },
+            {
+              "id": 432415,
+              "key": "9ebfab22-4e52-4440-a586-57890166dc82",
+              "title": "整洁度：目测评估",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9ebfab22-4e52-4440-a586-57890166dc82",
+                "completed_at": "2019-03-07T15:25:17.551Z",
+                "last_viewed_at": "2019-03-07T15:27:14.169Z",
+                "unstructured": "{\"selected_ids\":[\"a1507652080433\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "治疗表中的 *auralin* 和 *novodra* 列不符合哪些整洁度规则？",
+                "answers": [
+                  {
+                    "id": "a1507652080433",
+                    "text": "变量要排成一列",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1507652125440",
+                    "text": "观察结果要排成一列",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1507652125993",
+                    "text": "每种观察单位要构成一个表格",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432417,
+              "key": "22bd9854-6379-419b-8d6d-6446ae837e4e",
+              "title": "整洁度格式",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "22bd9854-6379-419b-8d6d-6446ae837e4e",
+                "completed_at": "2019-03-07T15:27:26.153Z",
+                "last_viewed_at": "2019-03-07T15:27:26.153Z",
+                "unstructured": "{\"selected_ids\":[0]}"
+              },
+              "tasks": [
+                "设想  *auralin* 和 *novodra* 列的整洁结构"
+              ],
+              "positive_feedback": "谢谢，观看解决方案视频，获得正确的整洁度说明。",
+              "video_feedback": null,
+              "description": "应如何以整洁度格式重新表示 *auralin* 和 *novodra* 列？"
+            },
+            {
+              "id": 432416,
+              "key": "694f3809-1808-467a-9ca1-c2d5011ea854",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432418,
+              "key": "1d339b6c-f6f3-4179-8de4-a08602d97cd6",
+              "title": "整洁度：目测评估解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "H50mPHHp6fY",
+                "china_cdn_id": "H50mPHHp6fY.mp4"
+              }
+            },
+            {
+              "id": 432419,
+              "key": "eda693c8-5ac9-42c4-bb6d-5c144d1b1bbd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 更多信息\n- [Hadley Wickham：整理的杂乱数据集](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432463,
+          "key": "16bb6c64-6c7f-4d82-b69c-c5c124d5fb1a",
+          "title": "整洁度：编程评估",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "16bb6c64-6c7f-4d82-b69c-c5c124d5fb1a",
+            "completed_at": "2019-03-07T15:29:31.091Z",
+            "last_viewed_at": "2019-03-07T15:29:30.111Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432420,
+              "key": "06e60c0b-e231-45cb-b4f8-7dd10a4be08b",
+              "title": "整洁度：编程评估",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YrX-oiFilyA",
+                "china_cdn_id": "YrX-oiFilyA.mp4"
+              }
+            },
+            {
+              "id": 432421,
+              "key": "32fbe496-6894-44bb-8b07-ba79525c99cf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432422,
+              "key": "b8f4389e-68f7-40b7-9a9d-26370180cc71",
+              "title": "在这个数据集中，需要让多少个表整洁？",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b8f4389e-68f7-40b7-9a9d-26370180cc71",
+                "completed_at": "2019-03-07T15:45:04.561Z",
+                "last_viewed_at": "2019-03-07T15:45:07.845Z",
+                "unstructured": "{\"selected_id\":\"a1505944837619\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "要让临床试验数据集整洁，我们最终需要多少个表格？",
+                "answers": [
+                  {
+                    "id": "a1505944819038",
+                    "text": "1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1505944837619",
+                    "text": "2",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1505944838229",
+                    "text": "3",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1505944838963",
+                    "text": "4",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432423,
+              "key": "951466ad-68e6-42c9-bb33-eae5ce380052",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432424,
+              "key": "746d4e65-f310-4ee9-9669-5ee9c1303df7",
+              "title": "整洁度：编程评估解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LhdGQC_vjEs",
+                "china_cdn_id": "LhdGQC_vjEs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432462,
+          "key": "9b7e103d-38f3-47b9-b410-20f68ad2e4c5",
+          "title": "预告",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b7e103d-38f3-47b9-b410-20f68ad2e4c5",
+            "completed_at": "2019-03-07T15:56:53.771Z",
+            "last_viewed_at": "2019-03-07T15:56:50.825Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432425,
+              "key": "ce3274f1-41c1-491f-934b-e65f6236a102",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "因为评估数据并不会得出多少具体的结果，所以我们将在第 4 课结束之前评估临床试验结果。\n\n先评估数据，再清理，最后再进行分析。请继续关注我们的课程！",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432464,
+          "key": "e207915e-1333-4aa7-9515-f40a604ed45c",
+          "title": "数据如何成为脏数据和杂乱数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e207915e-1333-4aa7-9515-f40a604ed45c",
+            "completed_at": "2019-03-07T15:57:06.430Z",
+            "last_viewed_at": "2019-03-07T15:57:05.630Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432426,
+              "key": "40e0b30a-e249-4d06-855a-afc02f37ad92",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 脏数据的原因\n\n*脏数据 = 低质量数据 = 内容问题*\n\n脏数据的原因有很多。基本上只要有人参与的地方，就会有脏数据。接触我们所处理数据的方式也很多。\n\n可能会存在一些用户输入错误。某些情况下，我们不会设定任何数据编码标准，或者即使我们设定标准，人们也很少遵守，最终一样导致数据出现问题。我们可能需要集成数据，将不同的模式用于同一类型的项目。数据系统过时，光盘和内存限制比现在更具有局限性，所以不可能对数据进行编码。随着系统不断发展，需求发生了变化，数据也发生了变化。一些数据将不具有唯一的标识符。从一种格式转换为另一种格式将会导致其他数据丢失。当然，程序员可能会出错。最后，数据可能在传输或存储过程中被宇宙射线或其他物理现象破坏。所以呢，这不是我们的错。\n\n## 杂乱数据的原因\n\n*杂乱数据 = 不整洁数据 = 结构性问题*\n\n杂乱数据通常是数据规划不当的结果。或者对 [整洁度数据](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 的优点缺乏认识。但好的一点是，相对于上面提到的大多数脏数据，杂乱数据的原因更容易发现。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432470,
+          "key": "f375ff8c-6052-4b69-9ca2-604a20b7cbec",
+          "title": "你可以迭代！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f375ff8c-6052-4b69-9ca2-604a20b7cbec",
+            "completed_at": "2019-03-07T15:57:48.087Z",
+            "last_viewed_at": "2019-03-07T15:57:47.910Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432427,
+              "key": "6f07c88f-ca9b-462d-9bc3-a4399568b4a0",
+              "title": "你可以迭代",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ZU8EnPbR-pk",
+                "china_cdn_id": "ZU8EnPbR-pk.mp4"
+              }
+            },
+            {
+              "id": 432428,
+              "key": "df1f8067-9f0a-4f9d-9661-bdacbed79b05",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "考虑到临床试验计划的严格性，迭代的概念不适用于临床试验。但在理论上来讲，以下可能会出现的情况需要迭代：\n- 也许你（如临床试验研究团队的数据科学家）已经意识到自己的统计检查计算错误，所以需要招募更多的患者，使你的研究具有统计学意义。在这种情况下，还需要重新学习*收集*部分。\n- 也许你已经意识到自己错过了一个关键患者信息，像患者血型（再次说明，这不太可能是临床试验的严格性，而是出现错误了），因为你发现了有关胰岛素抗血型的新型研究。在这种情况下，你也需要重新学习*收集*部分。\n- 也许你已完成了评估、开始清理，并发现另一个数据质量问题。希望你能回顾 *评估* 部分，将这些评估要点添加到自己的笔记中。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432471,
+          "key": "aad8799a-065b-4877-a0d2-f2330c9d85c1",
+          "title": "评估总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aad8799a-065b-4877-a0d2-f2330c9d85c1",
+            "completed_at": "2019-03-07T15:58:51.601Z",
+            "last_viewed_at": "2019-03-07T15:58:50.848Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432429,
+              "key": "d3f7485c-bc08-4e6f-b8f3-61c15be20dc9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 评估：总结\n评估是数据整理过程的第二步：\n\n- 收集\n- **评估**\n- 清理\n\n你可以就以下几个方面对数据进行评估：\n- 质量：内容问题。低质量数据也称为脏数据。\n- 整洁度：使分析难以进行的结构性问题。不整洁数据也称为杂乱数据。整洁度数据的要求：\n1. 变量要排成一列。\n2. 观察结果要排成一排。\n3. 每种观察单位构成一个表格。\n\n使用两种类型的评估：\n- 目测评估：在首选的软件应用程序（Google 表格、Excel、文本编辑器等）中查看数据。\n- 编程评估：使用代码来查看数据的特定部分和总结内容（例如 pandas 的 `head`、`tail` 和 `info` 方法）。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432472,
+          "key": "894b1840-fc0b-448c-a9ef-188d9b91430f",
+          "title": "总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "894b1840-fc0b-448c-a9ef-188d9b91430f",
+            "completed_at": "2019-03-07T15:59:15.835Z",
+            "last_viewed_at": "2019-03-07T15:59:15.000Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432430,
+              "key": "79eede9a-94da-41b3-b9fd-ad2dae4e5247",
+              "title": "总结",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lfWT0kLfe8c",
+                "china_cdn_id": "lfWT0kLfe8c.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

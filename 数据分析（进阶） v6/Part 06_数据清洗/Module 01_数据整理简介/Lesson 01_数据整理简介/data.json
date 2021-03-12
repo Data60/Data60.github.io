@@ -1,0 +1,2838 @@
+{
+  "data": {
+    "lesson": {
+      "id": 432798,
+      "key": "537d8a56-65eb-454b-87a5-5c6ba5fb4ccd",
+      "title": "数据整理简介",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "通过简单的练习来了解数据整理过程（收集、评估、清洗）的每个步骤。这节课的数据集是 Kaggle 的一个在线招聘信息数据集。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/537d8a56-65eb-454b-87a5-5c6ba5fb4ccd/432798/1544433284216/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86%E7%AE%80%E4%BB%8B+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/537d8a56-65eb-454b-87a5-5c6ba5fb4ccd/432798/1544433276611/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86%E7%AE%80%E4%BB%8B+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 432657,
+          "key": "3400db6c-cb8d-4043-933a-16eeda6725ac",
+          "title": "介绍",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3400db6c-cb8d-4043-933a-16eeda6725ac",
+            "completed_at": "2019-02-20T15:34:22.322Z",
+            "last_viewed_at": "2019-03-10T04:21:16.699Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432446,
+              "key": "0373316e-5765-4ccd-bfb5-2d1d5110823b",
+              "title": "介绍",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4cFsT9KBRs8",
+                "china_cdn_id": "4cFsT9KBRs8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432675,
+          "key": "49f613fa-96f1-4cf0-abc3-52c76ccc9fba",
+          "title": "课程大纲",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "49f613fa-96f1-4cf0-abc3-52c76ccc9fba",
+            "completed_at": "2019-02-21T02:12:08.185Z",
+            "last_viewed_at": "2019-03-10T04:23:40.683Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432447,
+              "key": "114433ed-7c34-46ad-88c7-4eaac983ffb8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 课程大纲\n数据整理是***每个人***都应该熟悉的主要技能，因为世界上很多数据都杂乱无章。虽然这节课程是针对那些使用 Python 来分析数据的人，但高级概念可以应用于所有编程语言和进行数据分析的软件应用程序。\n\n### 第 1 课：练习\n\n在这个课程的第一节课中，我们将通过一个数据整理的例子，让你体验整个*数据整理过程*。我们将介绍**收集**数据，然后从 web 下载一个文件，再将其导入到 Jupyter Notebook。之后，我们将介绍**评估**数据，并从可视和程序的角度评估刚刚下载的数据集。我们将查找是否存在质量和结构问题。最后将介绍**清洗**数据，并使用代码来清洗评估时发现的一些问题。\n\n这个练习的目标是提高你的意识，而不是掌握方法，所以甚至在第一课之后，你就可以开始整理自己的数据了。\n\n## 第 2-4 课:收集、评估和清洗数据（详细）\n\n在接下来的课程中，你将学习掌握**收集**、**评估**和**清洗**数据。我们在整个数据整理过程中将采用真实的数据集，所以把这门课看作是一系列整理数据的体验吧。你可以通过实践来学习，并在每节课结束后掌握实际技能。\n\n### 讲师",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432448,
+              "key": "da887229-fedb-4722-b533-479769d5d567",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c6ba36_mat-david-images-bios/mat-david-images-bios.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/da887229-fedb-4722-b533-479769d5d567",
+              "caption": "",
+              "alt": "",
+              "width": 1224,
+              "height": 887,
+              "instructor_notes": null
+            },
+            {
+              "id": 432449,
+              "key": "2c2ecae7-402b-4f1d-b00b-b903b2abe0e6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多信息\n你不一定百分百熟悉我们在视频中提到的一些内容，而且在这节课中也不需要百分百掌握。对于这些内容，我们精心挑选了一些资源，并可以在每个页面底部注释的**更多信息**下（就像在这儿一样）链接到这些资源。不需要专门查看这些，但如果愿意看一下，这些资源一定会对你有所帮助。我们还在这节课中链接了课程材料中使用的任何网站、外部视频等。\n\n在阅读页面中引用这些类型的资源时，我们会直接在文本中提供链接，而不是在页面底部。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432681,
+          "key": "b437458d-bc02-4b81-b796-36084e678b43",
+          "title": "定义和类比",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b437458d-bc02-4b81-b796-36084e678b43",
+            "completed_at": "2019-02-21T02:12:56.449Z",
+            "last_viewed_at": "2019-03-10T04:24:37.575Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432452,
+              "key": "8e052997-326b-48da-80b6-7849adcfbf53",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 定义和类比\n### 定义\n整理是一个奇怪的词。我们来看看定义。这就是我第一次听到这个词时的感受，和你们现在一样感到困惑。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432453,
+              "key": "24c6a71b-2b9e-4b8f-b305-354fbafdb638",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c725c7_giphy/giphy.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/24c6a71b-2b9e-4b8f-b305-354fbafdb638",
+              "caption": "",
+              "alt": "Google 搜索 \"整理\"",
+              "width": 960,
+              "height": 784,
+              "instructor_notes": null
+            },
+            {
+              "id": 432454,
+              "key": "dc51690c-75e6-445d-a65c-757f69d73729",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "因此，wrangle (\"整理\") 是意思是围拢、饲养，或负责牲畜，比如马或羊。我们来以羊为例。\n\n一个牧羊人的主要任务是把羊带到牧场，让羊在牧场吃草，把它们赶到市场剪毛，最后再把它们赶到畜棚里睡觉。但是，在此之前，必须将它们赶到一个良好组织的羊群中。但如果没有这样做呢？那么完成上面这些任务可能需要更长的时间。如果羊群分散了，一些羊可能会跑掉，丢失，甚至狼可能会偷偷溜进羊群，享受肥羊美餐。\n\n### 类比\n执行操作前，组织数据的想法对于那些牧羊人来说是一样的。为了获取满意的结果，我们需要整理数据，否则可能会出现一些意外后果。如果我们在整理之前就开始分析、设想或建模数据，结果可能会出现错误，缺乏冷静的思考，从而浪费掉了宝贵的时间。所以最好的做法是先整理，而且应该始终如此。\n\nPython 及其库的发展使得数据整理变得更加容易。在这节课中，我们将学习如何像数据工程师那样整理数据。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432704,
+          "key": "7bb2224b-b4fc-4100-8bfd-99cf853fe287",
+          "title": "示例",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7bb2224b-b4fc-4100-8bfd-99cf853fe287",
+            "completed_at": "2019-02-21T02:14:08.477Z",
+            "last_viewed_at": "2019-03-10T04:34:47.021Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432478,
+              "key": "7309aa45-2175-4343-9136-27c2d0aa1c1e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 示例\n\n## David 的数据整理示例",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432479,
+              "key": "afc274f1-5c18-47c5-a400-ddb361c3e71d",
+              "title": "David 的数据整理示例",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TN-CWy3GK44",
+                "china_cdn_id": "TN-CWy3GK44.mp4"
+              }
+            },
+            {
+              "id": 432480,
+              "key": "57532e27-c393-4ab6-9253-7b64a9c9e522",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多示例",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432481,
+              "key": "f907ddad-1c36-455e-bcf1-788c2ee56b1f",
+              "title": "更多示例",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gj-or8b8TmM",
+                "china_cdn_id": "gj-or8b8TmM.mp4"
+              }
+            },
+            {
+              "id": 432482,
+              "key": "f23f154e-560a-4beb-80df-2ea29c3a8a11",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 更多信息\n- [维基百科：点击率 (CTR)](https://en.wikipedia.org/wiki/Click-through_rate)\n- [Charlie Park: Edward Tufte 的 \"Slopegraphs\"](http://charliepark.org/slopegraphs/)\n- [David Venturi：今年的 Leafs offense 创历史新高](http://bluesteam.hockey/this-years-leafs-offense-is-historically-improved/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432705,
+          "key": "e863f047-3eb3-4b10-9deb-aa668275d60b",
+          "title": "练习和数据集",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e863f047-3eb3-4b10-9deb-aa668275d60b",
+            "completed_at": "2019-02-21T06:41:36.674Z",
+            "last_viewed_at": "2019-03-10T05:23:11.937Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432483,
+              "key": "2427929d-bddb-4f68-bbc8-7c85611ea25f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432484,
+              "key": "7a57e80f-9834-46c5-b08f-fefa98b6c76c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c6bdab_mat-incourse/mat-incourse.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7a57e80f-9834-46c5-b08f-fefa98b6c76c",
+              "caption": "",
+              "alt": "Mat Leonard",
+              "width": 328,
+              "height": 9469,
+              "instructor_notes": null
+            },
+            {
+              "id": 432485,
+              "key": "9f523bff-0e4c-410d-b18b-7b92b5e7cc7f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们来快速浏览一下你在之前的练习中看到的内容。我们将从简要介绍收集开始，然后是评估，然后是清洗数据，这是我们在数据整理过程中的三个核心步骤。这些介绍本质上更具概念性。David 和我会带领你学习这些内容。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432486,
+              "key": "0078779b-4783-403b-8a78-7c89a2621fa3",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c6bdc7_david-incourse/david-incourse.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0078779b-4783-403b-8a78-7c89a2621fa3",
+              "caption": "",
+              "alt": "David Venturi",
+              "width": 327,
+              "height": 469,
+              "instructor_notes": null
+            },
+            {
+              "id": 432487,
+              "key": "c0fa5c63-bf6d-4513-90b4-30cf2f9be073",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们将在介绍每个步骤的间隙整理一个真实的数据集，将在之前介绍中学到的概念转换为 Python 代码。不用担心，我会为你提供指导。记住我们的最终目标是 —— 在整个过程中实现强大的分析和可视化。最后我们将以数据整理的实际应用来结束这一课。\n\n## 数据集\n\n我们将整理的数据集是由一个亚美尼亚人力资源门户网站发布的 [从2004 年到 2015 年19000 个在线职位数据集](https://www.kaggle.com/udacity/armenian-online-job-postings)。它托管在 [Kaggle](https://www.kaggle.com/) 上，kaggle是一个非常受欢迎的网站，上面有各种数据分析项目和学习竞赛，主要探索数据分析和机器学习。这些数据集杂乱无章，所以你需要做很多工作，但只需整理清洗就行了，也不会太让人头疼。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432682,
+          "key": "06718e6c-7874-47ad-89b6-bcee46fc36b2",
+          "title": "收集（简介）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "06718e6c-7874-47ad-89b6-bcee46fc36b2",
+            "completed_at": "2019-02-21T06:42:27.748Z",
+            "last_viewed_at": "2019-03-10T05:23:51.853Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432455,
+              "key": "ec9e4491-1a93-4a87-a3b2-e5fd87e6fe1f",
+              "title": "收集：简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "K5ITQn1L1R0",
+                "china_cdn_id": "K5ITQn1L1R0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432697,
+          "key": "b874bab4-a889-441e-bb0b-466370987cf2",
+          "title": "模板和软件",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b874bab4-a889-441e-bb0b-466370987cf2",
+            "completed_at": "2019-02-21T06:43:52.157Z",
+            "last_viewed_at": "2019-03-10T05:31:08.533Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 478612,
+              "key": "b2637a7b-76af-41c0-8487-5c9c6df091d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 模板和软件\n\n### 数据整理模板\n\n在这个练习中，我们会使用一个 Jupyter Notebook 工具来帮助我们。我创建了一个用于数据整理的模板 notebook，并将标记出整理过程中的每个步骤。\n\n跟后面一样，我将在这节课中通过 Jupyter Notebook Workspaces 来使用模板。如果想在本地环境使用此模板，或者在以后的数据整理中使用，可以直接在下面 Jupyter Notebook Workspace 的 *文件* 菜单中下载。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478609,
+              "key": "30316e0a-608e-4840-b098-fc2cef9bfb4e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view833dfcec",
+              "pool_id": "jupyter",
+              "view_id": "833dfcec-d59c-46c3-bc00-fb18017bef2d",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432458,
+              "key": "40bb5f48-503f-4bf9-b5d3-b450667322b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "什么是 Jupyter Notebook？这是我们在这个课程中使用的一款非常好的软件。\n\n### 软件\n\n**Jupyter Notebook**\n\n[Jupyter Notebook](http://jupyter.org/) 是一个 Web 应用程序，通过这个应用程序可以将解释性文本、数学等式、代码、可视化内容和更多内容组合在一个容易共享的文档中。处理数据时，Notebooks 很快就会变成了一个必不可少的工具，尤其是在整理和处理相关工作方面。如果你不熟悉 Jupyter Notebook，可以学习 [这门课](https://classroom.udacity.com/nanodegrees/nd002-cn-advanced/parts/25558a2b-eb7f-4e2d-9047-9220a5ccd155/modules/e95ca0b1-2716-4f45-bf4b-781653e885e5/lessons/c6a12f2e-63f2-4007-a2c3-dd3e5f06f3cb/concepts/4cdc5a26-1e54-4a69-8eb4-f15e37aaab7b)。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432459,
+              "key": "6cfb6e92-8b24-45c9-8905-a86c4e253518",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c73b1b_jupyter/jupyter.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6cfb6e92-8b24-45c9-8905-a86c4e253518",
+              "caption": "",
+              "alt": "Jupyter 标志",
+              "width": 400,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 432460,
+              "key": "5c6da89f-d7a3-47fb-bf3d-814c29c892fa",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "再次，Jupyter Notebook Workspaces 将用于整个课程。这些 Workspaces 是虚拟机，每个人都有自己的 Workspaces。这意味着在你离开教室然后回来，你所编写的代码都会被保留（*无论是自动还是通过命令或control-S，在你离开前代码都会被保存*）。我已经配置了每个工作区的起始文件来设置编程练习，这意味着一个 notebook 上的工作不会转移到下一个。\n\n如果你的代码或 Workspace 不符合预期要求，请将鼠标悬停在 Workspace 底部左上角的*菜单*上，然后单击*刷新数据*或*重置 Workspace*，如下图所示。*刷新 Workspace*在你的工作方面基本上是有百益而无一害，而*重置数据*可以使所有启动文件都得到刷新，但所有进度将消失不见。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432461,
+              "key": "e74388c2-4870-4cf3-9e84-638da826e5b9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59cbd8d7_refresh-data-reset-workspace/refresh-data-reset-workspace.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e74388c2-4870-4cf3-9e84-638da826e5b9",
+              "caption": "",
+              "alt": "Workspace 菜单（刷新 Workspace 和重置数据按钮）",
+              "width": 871,
+              "height": 722,
+              "instructor_notes": null
+            },
+            {
+              "id": 432465,
+              "key": "c7780eb5-e1d7-4533-bc9d-3f609a928ad4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n**Anaconda**\n\nMat 在他的课程中写道：“到目前为止，安装 Jupyter 最简单的方法是采用 Anaconda。” [Anaconda](https://anaconda.org/) 是为数据科学建立的一个软件包。由于这节课中已经有了 Jupyter Notebook Workspaces，所以并不一定需要在你的计算机上设置 Anaconda，但我们仍然建议最好设置一下。\n\n还可以使用命令行的 *pip* 安装 Jupyter：如果不想使用 Anaconda（我们建议使用），则可以使用 `pip install jupyter notebook`。*pip* 是一个软件包管理系统，用于安装和管理在 Python 中编写的软件包。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432466,
+              "key": "eedfb171-1680-41c2-977c-9b2632804ec0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c73e71_anaconda/anaconda.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/eedfb171-1680-41c2-977c-9b2632804ec0",
+              "caption": "",
+              "alt": "Anaconda 标志",
+              "width": 861,
+              "height": 204,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 432698,
+          "key": "a1d76a51-4f36-4b60-bb34-d584aed94cc7",
+          "title": "练习：收集（下载）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a1d76a51-4f36-4b60-bb34-d584aed94cc7",
+            "completed_at": "2019-02-21T06:46:10.681Z",
+            "last_viewed_at": "2019-03-10T05:35:58.169Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432467,
+              "key": "02a7ba6c-ac87-4bb4-905d-2c4f34c913af",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 收集：下载\n\n在这节课中使用的数据集被托管在 Kaggle 数据集页面上：[亚美尼亚在线工作职位](https://www.kaggle.com/udacity/armenian-online-job-postings)。该数据集的一些内容是对这个页面的一些描述性内容：\n\n> 在线就业市场是表现市场经济中总体劳动力需求的一个良好指标。该数据集包括 2004 年至 2015 年在亚美尼亚人力资源门户网站 CareerCenter 上发布的 19,000 个职位。\n\n>由于发布的职位是文本文档，并且差不多具有类似的结构，文本挖掘可用于提取诸如发布日期、职位、公司名称、工作描述、工资薪金等信息。删除了没有结构或与工作不相关的职位。这些数据最初来自于 Yahoo! 邮件组。这个数据集包括 2004 年至 2015 年在亚美尼亚人力资源门户网站 CareerCenter 上发布的 19,000 个职位。\n\n### 手动下载文件与以编程方式下载文件\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432468,
+              "key": "3eee7d85-002b-4f4c-9cab-0373afbaa181",
+              "title": "收集：下载",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "a5o3ck1bxEs",
+                "china_cdn_id": "a5o3ck1bxEs.mp4"
+              }
+            },
+            {
+              "id": 432469,
+              "key": "e8ce8e6e-2b82-4de8-8c10-7149181e70dc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 最好的方法：以编程方式下载文件\n\n从互联网下载文件时，可以通过单击下载按钮（或者有时右键单击链接，然后单击*\"将文件另存为\"*）手动完成下载。但实际上最好的方法是以编程方式下载文件，即使用代码，原因有两点：**可拓展性**和**重复性**。\n\n1. **可扩展性**：想象一下，你需要在上千个不同的网页下载上千个文件，而不是一个。要一个文件一个文件点击上千次，就太浪费时间了。但可以选择用几行代码来代替你完成这个任务。\n\n2. **重复性**：无论是你还是别人，将来都可能需要运行分析，所以还是要尽可能地轻松下载数据集或数据集。重复性也是 [科学方法](https://en.wikipedia.org/wiki/Scientific_method#Documentation_and_replication) 的主要原则之一。你想向人们证明自己的分析、可视化等是合乎规则的。人们需要知道，他们可否根据你的数据、你的计算环境、你的代码等重现你的结果！此外，数据集或其网页可能会发生变化，因此，如果添加下载数据集的日期，就可以让这些未来的学习者有机会访问数据集的归档副本，或至少了解其结果不同的原因。\n\n### 在这个练习中...",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432473,
+              "key": "adfd04ec-1a4d-432a-849b-e8de0947407b",
+              "title": "收集：下载 II",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "T4iFJoHb_qU",
+                "china_cdn_id": "T4iFJoHb_qU.mp4"
+              }
+            },
+            {
+              "id": 432474,
+              "key": "4c2b178d-8cf3-435b-8f61-6bd16066062b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432475,
+              "key": "3b28ec56-1197-4d17-9f4b-0563a0d1e90f",
+              "title": "练习：下载",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3b28ec56-1197-4d17-9f4b-0563a0d1e90f",
+                "completed_at": "2019-02-21T10:13:24.054Z",
+                "last_viewed_at": "2019-02-21T10:13:24.054Z",
+                "unstructured": "{\"answer\":\"armenian-online-job-postings.zip\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "所下载文件的名称是什么？",
+                "matchers": [
+                  {
+                    "expression": "armenian-online-job-postings\\.zip"
+                  },
+                  {
+                    "expression": "armenian-online-job-postings"
+                  },
+                  {
+                    "expression": "armenian_online_job_postings(?:\\.zip)?"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432476,
+              "key": "360fe5a9-a628-4b80-b0fd-3c06f9c170b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432477,
+              "key": "9d33e6d6-7918-4ee2-87ec-f1ed9f1e11cc",
+              "title": "收集：下载解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SDqdLhgsBNc",
+                "china_cdn_id": "SDqdLhgsBNc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432710,
+          "key": "a48eb84b-cfe4-4029-8046-bccc8885000f",
+          "title": "练习：收集（打开 Jupyter Notebook）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a48eb84b-cfe4-4029-8046-bccc8885000f",
+            "completed_at": "2019-02-21T20:07:07.084Z",
+            "last_viewed_at": "2019-03-10T05:49:25.402Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432488,
+              "key": "43a05729-95e8-4669-88ba-5f9ebe70acad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 收集：打开 Jupyter Notebook",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432490,
+              "key": "43502439-34c6-4ea0-98df-d33d3df6be13",
+              "title": "收集：打开 Jupyter Notebook",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IaExjsrVMgQ",
+                "china_cdn_id": "IaExjsrVMgQ.mp4"
+              }
+            },
+            {
+              "id": 432491,
+              "key": "ae77cbfa-9abe-4b2b-b440-90f2c84981cf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432492,
+              "key": "052d9d72-f2ae-4cde-b64d-d69a5e6b8603",
+              "title": "练习：打开 Jupyter Notebook",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "052d9d72-f2ae-4cde-b64d-d69a5e6b8603",
+                "completed_at": "2019-02-21T20:08:49.956Z",
+                "last_viewed_at": "2019-02-21T20:08:49.956Z",
+                "unstructured": "{\"answer\":\"jupyter notebook\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在命令行操作时（例如终端或命令提示符），什么命令可以启动 Jupyter Notebook 服务器？",
+                "matchers": [
+                  {
+                    "expression": "jupyter notebook"
+                  },
+                  {
+                    "expression": "ipython notebook"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432493,
+              "key": "b3a3169d-094f-4d35-b8f1-9694653bb616",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案\n\n启动服务器后，浏览器窗口将弹出 Jupyter Notebook 仪表板（下面），显示你输入命令时所在目录的内容。在下面的情况中，在包含 *data-wrangling-template.ipynb* 的文件夹中输入命令。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432494,
+              "key": "104004d4-27db-4852-9591-f2183e01ddf3",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewbd255f34",
+              "pool_id": "jupyter",
+              "view_id": "bd255f34-8b29-420c-b3bd-5960f7613e47",
+              "gpu_capable": null,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 432717,
+          "key": "f8b2eabf-42b3-4696-826c-03d2e658c9a7",
+          "title": "练习：收集（解压压缩文件）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f8b2eabf-42b3-4696-826c-03d2e658c9a7",
+            "completed_at": "2019-02-21T20:09:51.879Z",
+            "last_viewed_at": "2019-03-10T05:53:31.757Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432495,
+              "key": "9b5eedea-d959-40b2-8081-4b678b2e1450",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 收集：解压压缩文件\n\n### 将 Zip 文件移动到工作目录",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432496,
+              "key": "afcbd647-7cd1-434b-9800-26990d12126c",
+              "title": "收集：解压压缩文件 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "V7STsHoZ2gA",
+                "china_cdn_id": "V7STsHoZ2gA.mp4"
+              }
+            },
+            {
+              "id": 432497,
+              "key": "a192f333-638f-4a56-8b1b-321812c78680",
+              "title": "任务",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a192f333-638f-4a56-8b1b-321812c78680",
+                "completed_at": "2019-02-21T20:11:21.734Z",
+                "last_viewed_at": "2019-02-21T20:11:21.734Z",
+                "unstructured": "{\"selected_ids\":[0]}"
+              },
+              "tasks": [
+                "将 *armenian-online-job-postings.zip* 移到所需的工作目录。注意：某些浏览器经设置后可自动解压下载的 zip 文件，然后删除 zip 存档。如果是这种情况，你可能只能在默认的下载目录中看到一个文件夹，而不是 zip 文件。将解压的文件夹（而不是文件夹本身）内容移到所需的工作目录。"
+              ],
+              "positive_feedback": "不错！我们来解压压缩文件，提取数据集。",
+              "video_feedback": null,
+              "description": "如果在 Udacity 教室之外编码："
+            },
+            {
+              "id": 432498,
+              "key": "7325a338-b626-4457-af7d-22dd1efbabe2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 使用 Python 解压压缩文件",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432500,
+              "key": "015b02db-31f5-4825-9db6-53bb2fd5e3cf",
+              "title": "收集：解压压缩文件 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "W2tL3QSBi3k",
+                "china_cdn_id": "W2tL3QSBi3k.mp4"
+              }
+            },
+            {
+              "id": 432501,
+              "key": "1f5ee74f-72b2-4ea8-8709-da02782a84a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 练习\n如之前的视频最后所讲述的内容，修改下面 Jupyter Notebook 中的文件和模式参数。以下是相关 [*zipfile* 文档](https://docs.python.org/3/library/zipfile.html#zipfile-objects)，供你参考。\n\n如果正确填写这些参数并运行单元格，单击 notebook 左上角的 *jupyter* 标志时，可以在 Jupyter Notebook 仪表板中看到压缩文件的内容。\n\n*注：如果使用错误的模式参数运行单元格，就可能需要重新设置 workspace（单击左下角的**菜单**，然后**重置数据**），才能恢复 zip 文件的原始状态*。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478610,
+              "key": "3d0d9398-bab4-4e9d-bc6d-bc27ef612872",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view1211c59c",
+              "pool_id": "jupyter",
+              "view_id": "1211c59c-ebbd-456a-af2f-79f13bfc7121",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (1)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432503,
+              "key": "e3417dba-b465-45e8-b46d-4f2bb3ffa0be",
+              "title": "练习：文件参数",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e3417dba-b465-45e8-b46d-4f2bb3ffa0be",
+                "completed_at": "2019-02-21T20:16:24.500Z",
+                "last_viewed_at": "2019-02-21T20:16:24.500Z",
+                "unstructured": "{\"answer\":\"armenian-online-job-postings.zip\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook 中运行代码。你传达给 `zipfile.ZipFile` 类构造函数的 *文件*参数（第一个参数）是什么？",
+                "matchers": [
+                  {
+                    "expression": "armenian-online-job-postings\\.zip"
+                  },
+                  {
+                    "expression": "'armenian-online-job-postings\\.zip'"
+                  },
+                  {
+                    "expression": "\"armenian-online-job-postings\\.zip\""
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432504,
+              "key": "dbea866e-f5db-4750-b51d-f94e96f9557a",
+              "title": "练习：模式参数",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dbea866e-f5db-4750-b51d-f94e96f9557a",
+                "completed_at": "2019-02-21T20:16:37.425Z",
+                "last_viewed_at": "2019-02-21T20:16:44.872Z",
+                "unstructured": "{\"answer\":\"r\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook 中运行代码。你传达给 `zipfile.ZipFile` 类构造函数的 *文件*参数（第二个参数）是什么？",
+                "matchers": [
+                  {
+                    "expression": "r"
+                  },
+                  {
+                    "expression": "w"
+                  },
+                  {
+                    "expression": "x"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432505,
+              "key": "1481622f-3704-4469-b943-2200852f1b5b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432506,
+              "key": "efbee719-c9f6-47b7-b747-80a33bab613a",
+              "title": "收集：解压文件解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Pzy8nHA_EJc",
+                "china_cdn_id": "Pzy8nHA_EJc.mp4"
+              }
+            },
+            {
+              "id": 432507,
+              "key": "7111bfec-d119-4c45-befa-e00e7919378a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多信息\n- [生命周期：什么是 ZIP 文件？](https://www.lifewire.com/zip-file-2622675)\n- [Jeff Knupp: 上下文管理器](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/) \n如果上面链接打不开，可以参考[这里](http://book.pythontips.com/en/latest/context_managers.html)。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432718,
+          "key": "f4973802-e1ec-468f-92d5-fd8d5e3be28a",
+          "title": "收集（CSV 文件）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f4973802-e1ec-468f-92d5-fd8d5e3be28a",
+            "completed_at": "2019-02-21T20:18:41.359Z",
+            "last_viewed_at": "2019-03-10T06:07:39.509Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432508,
+              "key": "c6473f3a-1bde-4d4b-b521-278b71080f92",
+              "title": "收集：（CSV 文件）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FpWi4tExVwg",
+                "china_cdn_id": "FpWi4tExVwg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432730,
+          "key": "98e62f46-d741-4f13-9a45-30e3732674b0",
+          "title": "练习：收集（导入）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "98e62f46-d741-4f13-9a45-30e3732674b0",
+            "completed_at": "2019-02-21T20:35:43.001Z",
+            "last_viewed_at": "2019-03-10T06:09:23.256Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432512,
+              "key": "50308acd-79ea-484d-8ca8-88ec2420bca6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 收集：导入",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432509,
+              "key": "c7a16d33-4c01-4488-854b-7ce876bb8822",
+              "title": "收集：导入",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tU1N-8aNB_M",
+                "china_cdn_id": "tU1N-8aNB_M.mp4"
+              }
+            },
+            {
+              "id": 432510,
+              "key": "fe8c0fa7-ad52-4374-aac3-0047a8caa475",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 练习\n将解压的 CSV 文件导入到 pandas DataFrame。这是 [`read_csv` 文档](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)，供你参考。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478611,
+              "key": "d4947282-65b1-4220-9922-2daa872dda3f",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view8ffda79c",
+              "pool_id": "jupyter",
+              "view_id": "8ffda79c-7b1a-417b-9a83-264631f79cb7",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (2)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432513,
+              "key": "56e48952-992a-404f-bb9c-9c546209028d",
+              "title": "练习：导入",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "56e48952-992a-404f-bb9c-9c546209028d",
+                "completed_at": "2019-02-21T20:42:41.445Z",
+                "last_viewed_at": "2019-03-10T06:14:49.567Z",
+                "unstructured": "{\"answer\":\"'online-job-postings.csv'\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook 中运行代码，然后在下面的文本框中填入 pandas `read_csv` 函数的 *文件* 参数。",
+                "matchers": [
+                  {
+                    "expression": "online-job-postings\\.csv"
+                  },
+                  {
+                    "expression": "'online-job-postings\\.csv'"
+                  },
+                  {
+                    "expression": "\"online-job-postings\\.csv\""
+                  },
+                  {
+                    "expression": "(?:[\"'])?armenian[_-]online[_-]job[_-]postings(?:\\.zip)?(?:[\"'])?"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432514,
+              "key": "9b000e0e-138a-4fbe-ad70-b0b422d948d2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432515,
+              "key": "5c8db8d9-944d-468a-8ec4-8355fba62ea3",
+              "title": "收集：导入解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QnTPEAGXJaE",
+                "china_cdn_id": "QnTPEAGXJaE.mp4"
+              }
+            },
+            {
+              "id": 432518,
+              "key": "376f3d90-3156-4d0c-a933-6ab80dc5f7fa",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多信息\n- pandas 课程：\n    - 如果你参与了数据分析纳米项目，pandas 课程就在数据分析（入门）的第三部分：数据分析入门。\n    - Pandas [官方文档](https://pandas.pydata.org/pandas-docs/stable/10min.html)\n-  [DigitalOcean：Aliasing 模块](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3#aliasing-modules)\n-  [Stack Overflow：你能否为在 Python 中导入的模块定义别名？](https://stackoverflow.com/questions/706595/can-you-define-aliases-for-imported-modules-in-python)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432729,
+          "key": "8846ad99-ffc3-4846-a497-20e3b2f6a9d0",
+          "title": "收集（总结）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8846ad99-ffc3-4846-a497-20e3b2f6a9d0",
+            "completed_at": "2019-02-21T20:43:42.698Z",
+            "last_viewed_at": "2019-03-10T06:15:54.196Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432516,
+              "key": "12416c36-0e4c-4e35-b058-59a76408be83",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 总结：收集数据",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432517,
+              "key": "e22ba2dc-ae9e-4992-bca9-80a7fad824dd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c80dee_party/party.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e22ba2dc-ae9e-4992-bca9-80a7fad824dd",
+              "caption": "",
+              "alt": "数据分析师纳米学位项目团队庆祝 GIF",
+              "width": 480,
+              "height": 270,
+              "instructor_notes": null
+            },
+            {
+              "id": 432519,
+              "key": "dfbcf297-1b3d-4273-a16b-36f92420a2f7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "恭喜！你已经掌握了数据整理的第一步：**收集数据**。在这个数据集中，这意味着：\n- 从互联网下载文件，在这种情况下文件是来自 Kaggle 的 zip 文件，\n- 打开 Jupyter Notebook，\n- 使用 Python 解压压缩文件，\n- 然后将解压的 CSV 文件导入 Jupyter Notebook 的 pandas DataFrame。\n\n掌握的这些技能可经常用于数据处理工作中。\n\n在**第 2 课**，我们将学习使用更先进的方法收集数据，例如以编程方式下载文件，从网页上抓取数据，以及从 API 访问数据。将学习如何处理 CSV 以外的常用文件格式，如 HTML、JSON、文本文件和数据库。\n\n### 数据整理练习清单\n\n现在，我们将进入数据整理过程的下一步：评估数据。\n\n- 收集✓\n- 评估\n- 清洗",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432742,
+          "key": "eac0a9d6-a420-4010-a37b-288001d39727",
+          "title": "评估（简介）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eac0a9d6-a420-4010-a37b-288001d39727",
+            "completed_at": "2019-02-21T20:44:02.253Z",
+            "last_viewed_at": "2019-03-10T09:53:07.851Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432520,
+              "key": "b8cbacfe-9c4b-4a96-ac62-4bea57fa1cf0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 评估：简介\n### 数据属性",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432521,
+              "key": "6ff7947c-ea0f-44f4-bbc2-b6a60e24d152",
+              "title": "141 评估简介 V4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mdrAdtziXh4",
+                "china_cdn_id": "mdrAdtziXh4.mp4"
+              }
+            },
+            {
+              "id": 432522,
+              "key": "47b05b0f-a23b-4cce-ada0-58e5215a2e39",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**质量**\n\n*低质量数据*通常被称为*脏数据*。脏数据存在*内容*问题。\n\n设想你有一个两列的表：*Name* 和 *Height*，如下所示：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432523,
+              "key": "5c19209c-333a-4a94-9151-18a64b294b06",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c7e33c_screenshot-2017-09-24-12.53.56/screenshot-2017-09-24-12.53.56.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5c19209c-333a-4a94-9151-18a64b294b06",
+              "caption": "",
+              "alt": "一个标题为姓名和身高的表",
+              "width": 339,
+              "height": 235,
+              "instructor_notes": null
+            },
+            {
+              "id": 432524,
+              "key": "0a9ed95f-612b-4529-aeba-42347ba82f7a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "常见的数据质量问题包括：\n- 数据丢失，如 Juan 缺少的身高值。\n- 数据无效，如单元格中的值不符合常规，例如像 Kwasi 的身高为负数。从技术角度来说，身高中具有 \"英寸\" 和 “厘米\" 也是无效的，因为如果存在身高条目时，身高的数据类型变为字符串。身高的数据类型应为整数或浮点数。\n- 数据不准确，比如，Jane 的实际身高是 58 英寸，而不是 55 英寸。\n- 数据不一致，比如，使用不同的长度单位（英寸和厘米）。\n\n我们还会介绍更多技巧和方法，帮助你确定数据质量问题，我们将在第三课具体学习。\n\n数据质量指查看或评估数据在特定情境下是否能准确表示其目的。但这是一个模糊不清的定义，很重要的是：数据质量是没有一个精确标准的。一个数据集可能非常适用于一个应用，但不一定也适用于另一个。\n\n**整洁度**\n\n*不整洁数据*通常被称为 *\"杂乱\" 数据*。杂乱数据存在*结构*问题。\n\n整洁度数据是统计学家、教授和全能数据专家 [Hadley Wickham](http://hadley.nz/) 提出的一个相对较新的概念。我准备在这个主题中引用他的优秀 [论文](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)：\n\n> 据说 80％ 的数据分析用于清洗和准备数据。这不仅仅是第一步，但必须在分析过程中重复多次，因为会出现新的问题或收集到新的数据。为了解决这些问题，这节课重点讲述了一个很小但重要的方面，我将其称之为数据整理：构造数据集，以进行分析。\n\n> ...\n\n> 数据集是杂乱还是具有条理，这取决于行、列和表如何与观察值、变量和类型匹配。具有条理的数据具有以下特征：\n- 每个变量构成一列。\n- 每个观察结果构成一行。\n- 每种类型的观察单位构成一个表格。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432525,
+              "key": "3a6a87db-46cb-46a8-ad20-355c9f10a41b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dfdbee_oblstsm-imgur/oblstsm-imgur.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3a6a87db-46cb-46a8-ad20-355c9f10a41b",
+              "caption": "*第 3 课节选的整洁度数据动画：评估数据*",
+              "alt": "整洁度数据表动画",
+              "width": 728,
+              "height": 408,
+              "instructor_notes": null
+            },
+            {
+              "id": 432526,
+              "key": "5f986c35-91c3-42a1-8574-c82ad12d4343",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "第 3 课将详细介绍了数据的整洁度。如果还想了解更多信息，可以查阅 [Python 中的整洁度数据](http://www.jeannicholashould.com/tidy-data-in-python.html) 这篇文章的作者是 Jean-Nicholas Hould，这也是一个不错的开始。\n\n### 评估类型",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432527,
+              "key": "9a4ac5c7-977e-46a1-be72-437f97ea4161",
+              "title": "评估（简介）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vj3CYBlWj3k",
+                "china_cdn_id": "vj3CYBlWj3k.mp4"
+              }
+            },
+            {
+              "id": 432528,
+              "key": "d51e0c1f-1c77-47c5-8111-785381f131ff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**目测评估**\n\n目测评估很简单。在你喜欢的软件应用程序（Google 表格、Excel、文本编辑器等）中打开数据，滚动浏览，寻找质量和条理问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432529,
+              "key": "da8e23e2-3f2e-4599-acd4-afc82affa240",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c7ed6e_google-sheets-logo/google-sheets-logo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/da8e23e2-3f2e-4599-acd4-afc82affa240",
+              "caption": "",
+              "alt": "Google 表格标志",
+              "width": 580,
+              "height": 264,
+              "instructor_notes": null
+            },
+            {
+              "id": 432530,
+              "key": "738b9fa8-8312-4751-8d7c-81efc216d890",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**编程评估**\n\n编程评估往往比目测评估更有效。编程评估的一个简单例子是 pandas 的 `info` 方法，这个方法为我们提供了 DataFrame 的基本信息，比如条目数、列数、每列的类型、是否存在缺少值等。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432531,
+              "key": "cd250c65-8ca6-4bb0-882a-5393c4fd3d79",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c7ef21_screenshot-2017-09-24-13.44.50/screenshot-2017-09-24-13.44.50.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cd250c65-8ca6-4bb0-882a-5393c4fd3d79",
+              "caption": "我们在一个叫 animals 的 DataFrame 使用 pandas 的 `info` 方法",
+              "alt": "我们在一个叫 animals 的 DataFrame 使用 pandas 的 `info` 方法",
+              "width": 792,
+              "height": 932,
+              "instructor_notes": null
+            },
+            {
+              "id": 432532,
+              "key": "424e3826-3823-4a64-b08d-5362ed0c49f2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " 另一个例子是通过 `plot` 方法使用 pandas 的绘图功能，虽然简单的可视化在探索性数据分析中更为常用（我们将在后面讨论），但在数据整理方面却不常用。\n\n这些类型的评估在衡量数据结构中很方便，也可以快速查找我们需要清洗的内容。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432755,
+          "key": "2483b8b2-0bb0-4e46-b4bc-e243f6325da6",
+          "title": "练习：评估（可视）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2483b8b2-0bb0-4e46-b4bc-e243f6325da6",
+            "completed_at": "2019-02-21T21:09:42.594Z",
+            "last_viewed_at": "2019-03-10T10:05:50.354Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432533,
+              "key": "fd97225d-0cc6-4964-9d0f-f032b03be224",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 评估：可视",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432534,
+              "key": "9f2e2c68-48d5-4a45-8d73-81944ec223e1",
+              "title": "评估：可视",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PVbOzw5libM",
+                "china_cdn_id": "PVbOzw5libM.mp4"
+              }
+            },
+            {
+              "id": 432535,
+              "key": "3953c1d1-ca27-4db9-9893-2879caa22d49",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432536,
+              "key": "c0296524-dfbb-49da-ab4c-6dda25f834e5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c9a789_screenshot-2017-09-25-21.03.34/screenshot-2017-09-25-21.03.34.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c0296524-dfbb-49da-ab4c-6dda25f834e5",
+              "caption": "",
+              "alt": "online-job-postings.csv 数据集中列标题截图",
+              "width": 2064,
+              "height": 74,
+              "instructor_notes": null
+            },
+            {
+              "id": 432537,
+              "key": "6db6d6f7-e122-4e57-b954-3f569caac4bd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c9a78a_screenshot-2017-09-25-21.03.17/screenshot-2017-09-25-21.03.17.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6db6d6f7-e122-4e57-b954-3f569caac4bd",
+              "caption": "",
+              "alt": "online-job-postings.csv 截图",
+              "width": 2064,
+              "height": 554,
+              "instructor_notes": null
+            },
+            {
+              "id": 432538,
+              "key": "13699150-b4fe-41c2-8c4c-47ab1e437406",
+              "title": "数据质量",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "13699150-b4fe-41c2-8c4c-47ab1e437406",
+                "completed_at": "2019-02-21T21:12:28.049Z",
+                "last_viewed_at": "2019-03-10T10:07:55.554Z",
+                "unstructured": "{\"selected_ids\":[\"a1506387929718\",\"a1506387930524\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "请参阅上面的图片，清洗数据时，在需要考虑的对应数据质量问题旁打勾。",
+                "answers": [
+                  {
+                    "id": "a1498863006765",
+                    "text": "列中的转义字符（例如 \\r\\n）",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1506387929718",
+                    "text": "NaN（NaN 不表示数字，通常指缺失值）",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1506387930524",
+                    "text": "在 StartDate 列中采用多种方式的“尽可能快”",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432539,
+              "key": "6f6969e4-f2f4-4f79-af0d-b1be3becbebe",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432540,
+              "key": "eecdbc44-77e1-4eda-841a-79dc0408a0b1",
+              "title": "评估：解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-faitcQ7SKs",
+                "china_cdn_id": "-faitcQ7SKs.mp4"
+              }
+            },
+            {
+              "id": 432541,
+              "key": "f8a3dcc9-41cb-4846-bb7f-0fd9b2bcd920",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多目测评估\n可以随便使用下面的 Jupyter Notebook 对数据集进行目测评估。\n\n**注意：**你发现和记录的任何问题不会出现在这节课后面的notebook 中。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478620,
+              "key": "85214acb-af46-44b7-9f83-85296c08d251",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view3141e470",
+              "pool_id": "jupyter",
+              "view_id": "3141e470-cf03-40d3-bab2-0409ded55cd9",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (3)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432543,
+              "key": "a7e471e3-5ad8-4753-83d7-7876b29ff820",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提示：最好将所有评估记录在数据整理模板**评估**部分的底部，即**清洗**标题的正上方。定义清洗操作时，参考这些记录可使数据清洗更简单，还可以避免使你手忙脚乱。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432544,
+              "key": "f86cd150-5c40-4176-9eb5-5a42e447c304",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多信息\n- [维基百科：转义字符](https://en.wikipedia.org/wiki/Escape_character)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432764,
+          "key": "1ab8bd1a-fc0c-41e8-b5f9-14b6bf637cd5",
+          "title": "练习：评估（编程）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1ab8bd1a-fc0c-41e8-b5f9-14b6bf637cd5",
+            "completed_at": "2019-02-21T21:16:52.232Z",
+            "last_viewed_at": "2019-03-10T10:13:05.639Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432545,
+              "key": "2b6837ad-8c97-412d-aa48-951c46a31257",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 评估：编程\n### 示例",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432546,
+              "key": "16b19346-ad7f-47cf-9d60-5725a9fd9f55",
+              "title": "评估：编程",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6JubHCD7dh4",
+                "china_cdn_id": "6JubHCD7dh4.mp4"
+              }
+            },
+            {
+              "id": 432547,
+              "key": "b3127593-037a-47ee-8250-034e2e7751d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**注**：在上方视频结束前，评估记录错误地包含进了一个动词：_“**修改**非描述性的列标题 (Fix nondescriptive column headers)\"_。但是，评估记录不应当包含动词，而是应当只包括对数据存在问题的观察，例如_“非描述性的列标题”_。我们只有在定义清洗操作时，才把动词包括进去。\n\n### 探索常见的编程评估\n\n我们现在来看看编程评估！我再重复一次，这是我们使用代码来检测数据中人眼不易发现问题的一个方法。\n\n数据整理模板在下面的 Jupyter Notebook 中显示为空单元格，用于 pandas 的四种常用编程评估方法（链接在下面的文档页面）：\n- [`head`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.head.html)\n- [`tail`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.tail.html)\n- [`info`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.info.html)\n- [`value_counts`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.value_counts.html)\n\n按照这些单元格中的说明执行这些评估。需要在下面的练习中复制这些语句。\n\n对于这些练习和以后的练习，你不要仅仅以找到正确答案为目标，探索才是学习的关键部分。获取代码正确是很重要，我同样鼓励你多研究文档，尝试各种参数，尝试新事物，看看会出现什么结果。错误信息有时也是助你学习的良师益友。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478621,
+              "key": "8cea60d1-2b39-4c52-87d3-a6daf6ec7b25",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewfd630d92",
+              "pool_id": "jupyter",
+              "view_id": "fd630d92-fcab-47bb-a08d-3dfe6dc5146a",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (4)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432549,
+              "key": "40ba19dd-f332-4fb4-9c92-c32a366fae7e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432550,
+              "key": "655d5d04-a41e-406c-aea5-a0887e704ffa",
+              "title": "练习：编程 (`.head`)",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "655d5d04-a41e-406c-aea5-a0887e704ffa",
+                "completed_at": "2019-02-21T21:27:48.976Z",
+                "last_viewed_at": "2019-03-10T10:25:13.731Z",
+                "unstructured": "{\"answer\":\"df.head()\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook workspace 中运行代码，然后为 pandas’ 的 `head` 函数提供代码。请仅显示 DataFrame 的前五行。",
+                "matchers": [
+                  {
+                    "expression": "^\\s*df\\.head\\((?:n=5)?\\)\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432551,
+              "key": "8f491f22-c228-4bcc-becd-9815bb70dcf3",
+              "title": "练习：编程 (`.tail`)",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8f491f22-c228-4bcc-becd-9815bb70dcf3",
+                "completed_at": "2019-02-21T21:28:43.635Z",
+                "last_viewed_at": "2019-03-10T10:25:21.051Z",
+                "unstructured": "{\"answer\":\"df.tail()\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook workspace 中运行代码，然后为 pandas’ 的 `tail` 函数提供代码。请仅显示 DataFrame 的最后五行。",
+                "matchers": [
+                  {
+                    "expression": "^\\s*df\\.tail\\((?:n=5)?\\)\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432553,
+              "key": "e3f19a3f-7cb5-41c2-adae-7b5143554981",
+              "title": "练习：编程 (`.info`)",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e3f19a3f-7cb5-41c2-adae-7b5143554981",
+                "completed_at": "2019-02-21T21:29:12.500Z",
+                "last_viewed_at": "2019-02-21T21:29:12.500Z",
+                "unstructured": "{\"answer\":\"df.info()\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook workspace 中运行代码，然后为 pandas 的 `info` 函数提供代码。",
+                "matchers": [
+                  {
+                    "expression": "^\\s*df\\.info\\(\\)\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432552,
+              "key": "711a6792-cd09-48db-a07e-76103ebd8706",
+              "title": "练习：编程 (`.value_counts`)",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "711a6792-cd09-48db-a07e-76103ebd8706",
+                "completed_at": "2019-02-21T21:29:34.306Z",
+                "last_viewed_at": "2019-03-10T10:26:24.798Z",
+                "unstructured": "{\"answer\":\"df.Year.value_counts()\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook workspace 中运行代码，然后与“年”的一列一样，为 pandas’ 的 `value_counts` 函数（没有参数）提供代码。",
+                "matchers": [
+                  {
+                    "expression": "^\\s*df\\.Year\\.value_counts\\(\\)\\s*$"
+                  },
+                  {
+                    "expression": "^\\s*df\\[\\s*'Year'\\s*\\]\\.value_counts\\(\\)\\s*$"
+                  },
+                  {
+                    "expression": "^\\s*df\\[\\s*\"Year\"\\s*\\]\\.value_counts\\(\\)\\s*$"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 432769,
+          "key": "90436053-4492-46f7-89ea-7fef32de4bae",
+          "title": "练习：评估（整洁度）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90436053-4492-46f7-89ea-7fef32de4bae",
+            "completed_at": "2019-02-21T21:30:21.111Z",
+            "last_viewed_at": "2019-03-10T10:27:00.971Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432554,
+              "key": "fa112e3c-d197-4343-8f27-465e4b18b9c1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 评估：整洁度",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432555,
+              "key": "1fa019cf-0e95-40dc-9698-fec5e45a91e7",
+              "title": "评估：整洁度",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LSdhieL7nXU",
+                "china_cdn_id": "LSdhieL7nXU.mp4"
+              }
+            },
+            {
+              "id": 432556,
+              "key": "7270feb8-a3cc-4161-818b-94efe779768a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 练习\n检查下面的 Jupyter Notebook 数据集是否具有整洁度，并回答下一个练习问题：*这个数据集有整洁度吗？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432557,
+              "key": "32bde948-660e-49a4-b1f3-36e62abe9d81",
+              "title": "练习：整洁度",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "32bde948-660e-49a4-b1f3-36e62abe9d81",
+                "completed_at": "2019-02-21T21:30:48.170Z",
+                "last_viewed_at": "2019-03-10T10:28:21.908Z",
+                "unstructured": "{\"selected_id\":\"a1506399274734\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "这个数据集是否具有整洁度？\n\n根据 Hadley Wickham 的 [论文](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)，整洁度的定义是：\n- 每个变量成一列\n- 每个观察值成一行\n- 每种类型的观察单位构成一个表。",
+                "answers": [
+                  {
+                    "id": "a1506399259502",
+                    "text": "是",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1506399274734",
+                    "text": "否",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432558,
+              "key": "d77043a6-408a-43c1-bbac-2d50c7af6046",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewb5e60eba",
+              "pool_id": "jupyter",
+              "view_id": "eeff96e1-3f81-4c8e-9c72-e1ac8a7e23a9",
+              "gpu_capable": null,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432559,
+              "key": "098cfce5-c3ff-42c1-a3f2-45be01d898c5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432560,
+              "key": "58986043-a809-4c03-94aa-bc6748ae62f7",
+              "title": "评估：解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lJEMTES2Ar8",
+                "china_cdn_id": "lJEMTES2Ar8.mp4"
+              }
+            },
+            {
+              "id": 432561,
+              "key": "6d4abf59-5969-4e60-a7b6-91beb8d0c8c7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多信息\n- [Jeff Leek：无整洁度的数据](https://simplystatistics.org/2016/02/17/non-tidy-data/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432770,
+          "key": "5dc7c5c3-80d0-4782-8226-a4ff0813b4ec",
+          "title": "评估（总结）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5dc7c5c3-80d0-4782-8226-a4ff0813b4ec",
+            "completed_at": "2019-02-21T21:33:14.348Z",
+            "last_viewed_at": "2019-03-10T10:31:36.656Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432562,
+              "key": "2d46d2d8-d6c7-45dd-a2c3-a29ff83ed539",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 总结：评估数据",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432563,
+              "key": "86a9df72-5481-4c5b-891f-616b63f3b681",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c80dee_party/party.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/86a9df72-5481-4c5b-891f-616b63f3b681",
+              "caption": "",
+              "alt": "数据分析师纳米学位项目团队庆祝 GIF",
+              "width": 480,
+              "height": 270,
+              "instructor_notes": null
+            },
+            {
+              "id": 432564,
+              "key": "a89ff785-a58d-41d7-958e-8cc75cc529a8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "恭喜！这是数据整理的第二步：*评估数据**。你已经可以可视和程序方式评估数据，确定数据质量和整洁度问题。你确定的问题包括：\n- 非描述性的列标题\n- 缺少值（即 NaN）\n- 值表示法不一致，特别是数据集的 tartDate 中存在\"尽可能快\"和其他类似于 \"ASAP\" 的值\n- 数据集杂乱（即没有整洁度）\n\n还有很多问题我们没有评估到 - 这个数据集相当凌乱 - 所以我们现在不能修复所有问题。但我们的目的只是练习一下评估，所以这是可以的。你已经掌握了发现数据质量和整洁度问题，这些方法适用于以后遇到的每个数据集。\n\n你将在**第 3 课**确定每个常见的数据质量和整洁度问题，进一步完善你的评估技能。可以使用四个核心数据质量指标对数据质量问题进行分类。还可以使用 pandas 中最常见的编程评估功能（包括简单的绘图技术）来增强你的编程评估能力。\n\n### 数据整理练习清单\n\n通过现有的评估说明，我们准备开始清洗数据，这是数据整理过程的第三步。\n- 收集✓\n- 评估✓\n- 清洗",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432774,
+          "key": "811abb5d-844a-413b-9a65-1c6145f1bc61",
+          "title": "清洗（简介）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "811abb5d-844a-413b-9a65-1c6145f1bc61",
+            "completed_at": "2019-02-21T21:37:16.109Z",
+            "last_viewed_at": "2019-03-10T10:33:01.895Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432565,
+              "key": "63d1bd29-411c-4a35-8aa5-d216132cde03",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 清洗：简介\n### 提高质量和整洁度",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432566,
+              "key": "fdbd68cf-8f92-4af9-bdde-95a122962a6e",
+              "title": "清洗：（简介）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FnUrE4dhgh8",
+                "china_cdn_id": "FnUrE4dhgh8.mp4"
+              }
+            },
+            {
+              "id": 432567,
+              "key": "7e9fd102-864b-4a7e-af7e-2bee0a5fbe88",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "清洗指为提高质量和整洁度而进行的一个清理动作。\n\n**提高质量**\n\n提高质量并不意味着更改数据，换句话说 - 更改数据就是数据欺诈。\n\n在*动物* DataFrame 中，标题分别是名称、体重（千克）和脑重量（以克为单位）。DataFrame 的最后 5 行如下显示：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432568,
+              "key": "18c2f3a6-8ce7-4ac2-a50b-765887a36555",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c7ffa5_animals-clean/animals-clean.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/18c2f3a6-8ce7-4ac2-a50b-765887a36555",
+              "caption": "",
+              "alt": "",
+              "width": 998,
+              "height": 588,
+              "instructor_notes": null
+            },
+            {
+              "id": 432569,
+              "key": "e953c6a5-e463-4f57-ac76-8c57cf58830a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提高质量的例子包括：\n- 数据不正确时进行校正，如将老鼠的体重修改为 0.023 公斤，而不是 230 公斤\n- 移除不相关数据，删除苹果一行，原因是苹果是一种水果，而不是动物\n- 补充缺少的数据，比如，腕龙的脑重数据丢失，应该补充\n- 结合，如下面所示，连接 *more_animals* DataFrame 中缺失的行",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432570,
+              "key": "2dab0822-4af2-449d-ac98-54b44776c83c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c800ea_animals-clean-merge/animals-clean-merge.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2dab0822-4af2-449d-ac98-54b44776c83c",
+              "caption": "",
+              "alt": "",
+              "width": 1004,
+              "height": 590,
+              "instructor_notes": null
+            },
+            {
+              "id": 432571,
+              "key": "287ba2df-386b-42ee-93a5-403ee2ac4db4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**提高整洁度**\n\n提高整洁度指转换数据集，使每个变量成一列，每个观察结果成一行，每种类型的观察单位构成一个表格。pandas 的特殊功能正好可以帮助我们做到这一点。所以我们将深入学习这个课程的第四节内容。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432572,
+              "key": "e7d67414-bcdf-4b48-8f55-05314221466d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 编程数据清洗流程",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432573,
+              "key": "77a1f860-80e9-41b3-8688-287dbb111bb6",
+              "title": "清洗：编程数据清洗流程",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "9-T1CFuOqdQ",
+                "china_cdn_id": "9-T1CFuOqdQ.mp4"
+              }
+            },
+            {
+              "id": 432574,
+              "key": "5330e0a1-755f-4db1-8059-5dda0fd456c3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "编程数据清洗过程：\n1. 定义\n2. 编码\n3. 测试\n\n**定义**指以书面形式定义数据清洗计划，其中我们需将评估转变为定义的清洗任务。这个计划也可作为一个指导清单，所以其他人（或我们自己将来）也可以回顾和重现自己的工作。\n\n**编码**指将这些定义转换为代码并执行该代码。\n\n**测试**指测试我们的数据集，通常使用代码，以确保有效完成我们的清洗工作。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432775,
+          "key": "5936ae3a-1957-44e6-b0b8-651f30be8264",
+          "title": "清洗（定义）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5936ae3a-1957-44e6-b0b8-651f30be8264",
+            "completed_at": "2019-02-22T03:07:12.218Z",
+            "last_viewed_at": "2019-03-10T10:39:08.554Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432575,
+              "key": "58ddd89e-96b2-4b64-aec7-100df5574411",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 清洗：定义",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432578,
+              "key": "9c57b6e5-9ba3-45a2-bdb9-e0da69fab8df",
+              "title": "清洗：定义",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qHB4jsqcfi4",
+                "china_cdn_id": "qHB4jsqcfi4.mp4"
+              }
+            },
+            {
+              "id": 432579,
+              "key": "9b25b9a9-9e4f-4326-964c-3e7b506c2449",
+              "title": "任务",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9b25b9a9-9e4f-4326-964c-3e7b506c2449",
+                "completed_at": "2019-02-22T03:16:53.069Z",
+                "last_viewed_at": "2019-03-10T10:39:13.942Z",
+                "unstructured": "{\"selected_ids\":[]}"
+              },
+              "tasks": [
+                "针对 StartDate 的不一致性 (ASAP) 编写清洗定义",
+                "针对不可描述的列标题编写清洗定义"
+              ],
+              "positive_feedback": "太棒了！我们现在开始编写代码吧。",
+              "video_feedback": null,
+              "description": "在下面的 Jupyter Notebook 中，如上图所示，使用你自己的话，将之前所做的评估转换为定义的清洗操作。在这节课中，不清洗缺失值 (NaN) 和不整洁的数据集问题，因此不需要为这些评估编写定义。"
+            },
+            {
+              "id": 478622,
+              "key": "0ff5a3e3-1564-4776-80bf-c9ec5e86b640",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewa613fcc7",
+              "pool_id": "jupyter",
+              "view_id": "a613fcc7-bc90-49d6-8b0a-46f3138d5a42",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (5)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432581,
+              "key": "6c087f7c-c982-4376-83c2-fc64daf6f94d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 定义，然后立即进行编码和测试\n\n针对这节课中的教学目的，我们将按顺序以编程的方式执行清洗数据的定义、编码和测试步骤。换句话说，我们先编写*全部*的定义，然后将 *全部*定义转换为代码，最后*测试*所有清洗操作。\n\n实际上，定义清洗操作通常更为实用，然后立即进行编码和测试。数据整理模板仍然适用于这个，除了具有多个**定义**、**编码**和**测试**副标题外，其中第三级标题 (###) 表示下面所示的每个问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432582,
+              "key": "6f5701e3-cfc4-4073-b88e-db3111cdfd03",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c9def0_screenshot-2017-09-26-00.58.09/screenshot-2017-09-26-00.58.09.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6f5701e3-cfc4-4073-b88e-db3111cdfd03",
+              "caption": "",
+              "alt": "多个定义、编码、练习副标题三个一组",
+              "width": 960,
+              "height": 1024,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 432778,
+          "key": "9b97ad6e-d4c1-4083-a659-451007a12ae2",
+          "title": "练习：清洗（代码 1）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b97ad6e-d4c1-4083-a659-451007a12ae2",
+            "completed_at": "2019-02-22T03:17:04.245Z",
+            "last_viewed_at": "2019-03-10T10:52:41.297Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432583,
+              "key": "fc0b825e-f41e-4de2-bf5e-5f4b7aae9711",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 清洗：（代码 1）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432584,
+              "key": "5b78f1a1-5c8b-40bd-ac11-59e5cecb5e1c",
+              "title": "清洗：（代码 1）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mUfrDUEEa_k",
+                "china_cdn_id": "mUfrDUEEa_k.mp4"
+              }
+            },
+            {
+              "id": 432585,
+              "key": "5baa2d43-22a1-425c-b743-a188bd1277ec",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 练习\n通过填写下面 Jupyter Notebook 中的*列*参数，使用 pandas 的 `rename` 方法重命名非描述性列标题。这是 [`rename`文档](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rename.html)，供你参考。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478625,
+              "key": "0bd8d31b-f369-472d-9382-9730f2b11ea1",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view034fc6e1",
+              "pool_id": "jupyter",
+              "view_id": "034fc6e1-d2bb-4866-bfdc-ee9c618accd1",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (6)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432587,
+              "key": "fad0a827-f2d0-46fa-8848-2dc734ad43f8",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fad0a827-f2d0-46fa-8848-2dc734ad43f8",
+                "completed_at": "2019-02-22T03:22:06.547Z",
+                "last_viewed_at": "2019-02-22T03:22:06.547Z",
+                "unstructured": "{\"selected_ids\":[0]}"
+              },
+              "tasks": [
+                "重新命名有问题的列标题，方法是填写 pandas `rename` 方法的 *列*参数"
+              ],
+              "positive_feedback": "太棒了！",
+              "video_feedback": null,
+              "description": ""
+            },
+            {
+              "id": 432588,
+              "key": "f09053f6-7c5d-4a96-a545-9972130c9dc7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432589,
+              "key": "ad7fafc7-0d8b-4aef-a94a-a1617e496df4",
+              "title": "清洗：代码 1 解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Noykh9Zt6aI",
+                "china_cdn_id": "Noykh9Zt6aI.mp4"
+              }
+            },
+            {
+              "id": 432592,
+              "key": "e50f84d9-276d-4063-b73b-256776984a75",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 更多信息\n- [Data Carpentry：在 Python 中复制对象与引用对象](https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432779,
+          "key": "f7e04e02-8170-4e2e-a39d-5b9b49232b2e",
+          "title": "练习： 清洗（代码 2）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7e04e02-8170-4e2e-a39d-5b9b49232b2e",
+            "completed_at": "2019-02-22T03:26:28.429Z",
+            "last_viewed_at": "2019-03-10T11:01:41.605Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432593,
+              "key": "9fbb24a1-41a3-45e5-a302-938157963f8e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 清洗：（代码 2）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432594,
+              "key": "55dc7436-7019-4271-b620-3163b93479c9",
+              "title": "清洗：（代码 2）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ZXy8jgywY5g",
+                "china_cdn_id": "ZXy8jgywY5g.mp4"
+              }
+            },
+            {
+              "id": 432595,
+              "key": "01d3c46b-4f81-4d94-8eeb-028b9673cdbd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 练习\n使用 for 循环中的 pandas `replace` 方法来标准化所有具有类似于 'ASAP' 短语的 StartDate 条目。*asap_list* 变量中列出了所有与 'ASAP' 类似的短语。这是[`replace` 文档](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.replace.html)，供你参考。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478629,
+              "key": "37100bc0-59b0-4723-8b7e-e1d1abe09cfa",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view1529c255",
+              "pool_id": "jupyter",
+              "view_id": "1529c255-d10d-4cd5-948f-f64c571501f3",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (7)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432597,
+              "key": "721b288f-2825-48b5-8b66-b9877412d4f0",
+              "title": "练习：for 循环标题",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "721b288f-2825-48b5-8b66-b9877412d4f0",
+                "completed_at": "2019-03-10T11:15:34.330Z",
+                "last_viewed_at": "2019-03-10T11:22:30.440Z",
+                "unstructured": "{\"answer\":\"for phrase in asap_list:\\n    df_clean.StartDate.replace(phrase, 'ASAP', inplace=True)\",\"is_correct\":false}"
+              },
+              "question": {
+                "prompt": "在上面的 Jupyter Notebook 中运行代码，然后填写 for 循环标题，来标准化与 'ASAP' 相关的 StartDate 条目。",
+                "matchers": [
+                  {
+                    "expression": "^\\s*for\\s*\\w*\\s*in\\s*asap_list:\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432603,
+              "key": "36cc9148-7939-4d30-b85b-f62686d870a3",
+              "title": "练习：替换",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "36cc9148-7939-4d30-b85b-f62686d870a3",
+                "completed_at": "2019-03-10T11:11:21.773Z",
+                "last_viewed_at": "2019-03-10T11:11:21.773Z",
+                "unstructured": "{\"answer_ids\":[\"a1506405199730\",\"a1506405824075\"],\"is_correct\":true}"
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "假设 for 循环标题的结构如下：\n\n`for phrase in asap_list:`\n\n并且主体的结构如下（问号作为参数的占位符）\n\n`df_clean.replace(to_replace=?, value=?, inplace=True)`\n\n将 *to_replace* 和 *value* 参数匹配到适当的参数，来标准化与 'ASAP' 相关的 StartDate 条目。\n"
+                },
+                "concepts_label": "参数",
+                "answers_label": "理由",
+                "concepts": [
+                  {
+                    "text": "to_replace",
+                    "correct_answer": {
+                      "id": "a1506405199730",
+                      "text": "phrase"
+                    }
+                  },
+                  {
+                    "text": "value",
+                    "correct_answer": {
+                      "id": "a1506405824075",
+                      "text": "'ASAP'"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1506405856200",
+                    "text": "asap_list"
+                  },
+                  {
+                    "id": "a1506405824075",
+                    "text": "'ASAP'"
+                  },
+                  {
+                    "id": "a1506405199730",
+                    "text": "phrase"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432604,
+              "key": "47e89378-c50a-4baa-ae04-e16d5eac63bb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432605,
+              "key": "146e72a2-1589-414b-ba9d-9be352128a86",
+              "title": "清洗：代码 2 解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ncqhpqt0Mik",
+                "china_cdn_id": "ncqhpqt0Mik.mp4"
+              }
+            },
+            {
+              "id": 432606,
+              "key": "b461777c-23d2-4a87-a413-3755c7253e99",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ### 更多信息\n - [Python Wiki：For 循环](https://wiki.python.org/moin/ForLoop) \n - [pandas: 显示选项和设置](https://pandas.pydata.org/pandas-docs/stable/options.html)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432783,
+          "key": "5ff3a6ff-57dd-4d8c-ad87-7e05ce7b280f",
+          "title": "练习：清洗（练习）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5ff3a6ff-57dd-4d8c-ad87-7e05ce7b280f",
+            "completed_at": "2019-02-22T03:30:36.437Z",
+            "last_viewed_at": "2019-03-10T11:22:44.482Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432609,
+              "key": "769caf3b-2fb2-49b6-bbc2-80834443476f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 清洗：练习\n### 通过编程评估进行练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432610,
+              "key": "52dd2599-eb51-407c-893c-650ae68c03ea",
+              "title": " 清洗：练习 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "J4X9r0EGH3k",
+                "china_cdn_id": "J4X9r0EGH3k.mp4"
+              }
+            },
+            {
+              "id": 432614,
+              "key": "c50461f6-6d07-49d9-8749-c00d351f8cf5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*注：你可能会在上面的视频和接下来的两个视频中注意到，\"清洗（代码 2）\" 概念中的 for 循环体使用 [`.ix`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.ix.html)，而不是 [`.replace`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.replace.html)。请忽略这种不一致。通常可以通过多种方式在 pandas 中完成清洗任务，`.ix` 可以正常运行，但现在已经 [不使用](https://pandas.pydata.org/pandas-docs/stable/whatsnew.html#deprecate-ix) 了，`.replace` 对于这个任务来说更简单一些。*\n\n### 练习 1\n使用下面 Jupyter Notebook 中的 [`.value_counts()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.value_counts.html) 方法，验证所有类似短语是否转换为 ASAP。现在有多少 StartDate 条目是 'ASAP'？在后面的练习中回答这个问题。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478643,
+              "key": "793f3d34-ccfc-4829-b87f-ffa4284aacd7",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view8d967576",
+              "pool_id": "jupyter",
+              "view_id": "8d967576-0120-4311-8ebf-7843fd08ae7d",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (8)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432616,
+              "key": "16558c60-f15e-4f2b-a981-7095eb6f0c88",
+              "title": "练习",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "16558c60-f15e-4f2b-a981-7095eb6f0c88",
+                "completed_at": "2019-02-22T03:35:28.444Z",
+                "last_viewed_at": "2019-02-22T03:35:28.444Z",
+                "unstructured": "{\"answer\":\"6856\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "标准化后，还有几个 'ASAP' 的 StartDate 条目？",
+                "matchers": [
+                  {
+                    "expression": "6,?856"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432618,
+              "key": "8a742de8-6809-4dc6-bc6d-40d5f2d66f08",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案 1 和练习 2",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432623,
+              "key": "de136dee-a650-424c-8bb2-e39dd747bafa",
+              "title": "清洗：练习 1 解决方案",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "I1enB5CA85Q",
+                "china_cdn_id": "I1enB5CA85Q.mp4"
+              }
+            },
+            {
+              "id": 432624,
+              "key": "007f31c4-b811-4afc-9952-9a362251a57e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Assert 语句\n\n在下面的 Jupyter Notebook 中，编写一个 assert 语句来验证 StartDate 列中不再具有与 'ASAP' 类似的短语，这说明它们已经被转换为 'ASAP'。\n\n如果遇到问题，可以观看这个有用的教程 [Python 中的 assertion](https://www.tutorialspoint.com/python/assertions_in_python.htm)。\n\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 478669,
+              "key": "ee784ce2-56cb-4c3f-baf6-bd052153bd4b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view8c56baaf",
+              "pool_id": "jupyter",
+              "view_id": "8c56baaf-eb9b-406b-b222-07227b7773c7",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/data-wrangling-template (9)-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432630,
+              "key": "499f9cb6-83d2-4f34-a1d4-56dd629dacda",
+              "title": "练习：Assert",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "499f9cb6-83d2-4f34-a1d4-56dd629dacda",
+                "completed_at": "2019-03-10T11:32:31.765Z",
+                "last_viewed_at": "2019-03-10T11:32:31.765Z",
+                "unstructured": "{\"answer\":\"for sd in pd.Series(df_clean.StartDate).values:\\n    assert sd not in asap_list\",\"is_correct\":false}"
+              },
+              "question": {
+                "prompt": " 在上面的 Jupyter Notebook 中运行代码，然后在下面的文本框中填写 for 循环体的 `assert` 语句（练习 'ASAP' 标准化代码）。\n\n**提示：**[系列值](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.values.html) 可能会派上用场。",
+                "matchers": [
+                  {
+                    "expression": "\\s*assert\\s*phrase\\s*not\\s*in\\s*df_clean\\.StartDate\\.values\\s*"
+                  },
+                  {
+                    "expression": "\\s*assert\\s*phrase\\s*not\\s*in\\s*df_clean\\.StartDate\\s*"
+                  },
+                  {
+                    "expression": "\\s*assert\\s*phrase\\s*in\\s*df_clean\\.StartDate\\s*"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 432631,
+              "key": "db6bc959-fbd8-4baa-bb9c-22055eb679d2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 解决方案 2",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432633,
+              "key": "b1c442a9-638d-40a7-a95d-a0d5c658f25f",
+              "title": "清洗：练习 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CyeB16-eGSg",
+                "china_cdn_id": "CyeB16-eGSg.mp4"
+              }
+            },
+            {
+              "id": 432634,
+              "key": "871b23db-69e1-429f-b16a-86dcae968a9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ### 更多信息\n - [Python by Programiz：*in* 关键字](https://www.programiz.com/python-programming/keyword-list#in)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432785,
+          "key": "37f9404a-065d-4ddf-b242-f0ceb8ebe876",
+          "title": "清洗（总结）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37f9404a-065d-4ddf-b242-f0ceb8ebe876",
+            "completed_at": "2019-02-22T03:45:15.398Z",
+            "last_viewed_at": "2019-03-10T11:34:21.035Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432635,
+              "key": "7ee24591-0cae-49b3-b7c6-b82182f83d84",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 总结：清洗数据",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432636,
+              "key": "db94f92c-ae02-41a9-b993-d1785de41bb2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59c80dee_party/party.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/db94f92c-ae02-41a9-b993-d1785de41bb2",
+              "caption": "",
+              "alt": "数据分析师纳米学位项目团队庆祝 GIF",
+              "width": 480,
+              "height": 270,
+              "instructor_notes": null
+            },
+            {
+              "id": 432637,
+              "key": "c281a039-7568-48e4-bbfd-67045e187199",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "恭喜！你已经完成清洗，这通常是数据整理过程中最重要的部分。将观察结果从评估步骤转换为定义的问题，将这些定义转换为复杂的代码来修复这些问题，然后使用代码练习数据集 - 甚至使用软件工程师使用的 assert 语句来确保正常操作。\n\n以后还需要清洗数据集中的更多数据。世界上的大部分数据都是脏数据和杂乱数据。\n\n这节课中清洗的问题只是数据质量和整洁度问题方面最常见的一部分。我们将在**第 4 课**学习清洗所有常见的数据质量和整洁度问题，可以使用 pandas 的高级技术来完成这些任务。\n\n### 数据整理练习清单\n\n好了，我们已经完成了数据收集、评估和清洗任务。但这些还远远不够，请继续关注我们的课程。\n\n- 收集✓\n- 评估✓\n- 清洁✓\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432786,
+          "key": "7ab62eb7-ea12-4181-ae5c-50032a0ae4c3",
+          "title": "重新评估和迭代",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ab62eb7-ea12-4181-ae5c-50032a0ae4c3",
+            "completed_at": "2019-02-22T03:45:26.966Z",
+            "last_viewed_at": "2019-03-10T11:34:39.134Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432638,
+              "key": "31d705cc-9565-45e6-a4a1-2b3085c7e5d8",
+              "title": "重新评估和迭代",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eu1gO_76pSY",
+                "china_cdn_id": "eu1gO_76pSY.mp4"
+              }
+            },
+            {
+              "id": 432644,
+              "key": "795c4fed-b2bf-4f82-80ef-ebf8fa49d118",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 存储数据（可选）\n\n重新评估数据并重新审视数据整理过程的任何必要步骤后，下一个逻辑步骤就是存储清洗的数据。如果以后还需要使用清洗的数据，那么存储数据就很重要。\n\n但并不总需要存储数据。有时在 Jupyter Notebook 中收集、评估、清洗、分析和可视化数据，再加上原始数据文件就可以了。有时候分析和可视化就够了，不需要再使用清洗的数据。如果你想重现分析，Jupyter Notebook 就够了。\n\n在这节课开始时，我提供的例子是：曲棍球统计数据，进行分析和可视化，然后基于这种分析和可视化 [编写一篇文章](http://bluesteam.hockey/this-years-leafs-offense-is-historically-improved/)，没有重新查看清洗的数据。\n\n例如在文件和数据库中存储数据，我们将在课程的**第 2 节**详细介绍。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432788,
+          "key": "9fb988fb-7426-4804-9158-bbb19c08f7ee",
+          "title": "整理与 EDA 与 ETL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9fb988fb-7426-4804-9158-bbb19c08f7ee",
+            "completed_at": "2019-02-22T03:46:31.727Z",
+            "last_viewed_at": "2019-03-10T11:37:45.001Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432645,
+              "key": "c9aacb5f-d17a-406e-916d-70cb58361672",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n## 整理与 EDA\n在数据分析员纳米学位项目的另一方面，或者如果单独学习这个课程，在学习数据整理的过程中，你会遇到一个叫做探索性数据分析 (EDA) 的课题。如果已经接触过 EDA，可能会考虑：数据整理似乎与探索性数据分析非常相似。由于它们*非常相似*，所以经常会让人感到困惑。\n\nEDA 的一个 [定义](https://www.epa.gov/caddis-vol4/exploratory-data-analysis)：*即一种分析方法，重点是确定数据中的一般模式，以及确定数据的意外异常值和特征。*\n\n那么，**数据整理以什么**结束，而 ** EDA** 以什么开始？\n\n** 数据整理** 关于收集正确的数据，评估数据的质量和结构，然后修改数据，确保数据准确无误。但是，将所做的评估转换为清洗操作不会使你的分析，或者说建模更顺利地进行。而我们的目标就是使它们成为可能，即发挥一定作用。\n\n** EDA** 关于探索数据，然后再扩大数据，最大限度发挥我们分析、可视化和建模的潜力。探索数据时，通常会使用简单的可视化来总结数据的主要特征。以便于进行其他操作，例如删除异常值，并根据现有数据创建新的和更具描述性的功能，我们也将这称为 [特征工程](https://en.wikipedia.org/wiki/Feature_engineering)。或者检测和删除异常值，使建模更具适用性。\n\n在实践过程中，整理和 EDA 可以并且经常一起进行，但出于教学目的，我们分开讲解。\n\n## ETL\n你可能已经听说过 [extract-transform-load process](https://en.wikipedia.org/wiki/Extract,_transform,_load)，也称为 **ETL**。 ETL 与数据整理有三个不同点：\n\n1. 用户不同\n2. 数据不同\n3. 用例不同\n\nWei Zhang 的篇文章（[数据整理与 ETL 有什么区别？](https://tdwi.org/articles/2017/02/10/data-wrangling-and-etl-differences.aspx)）也解释了这三个不同之处。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432791,
+          "key": "a3766ef7-8b58-4204-bf54-698c15841154",
+          "title": "分析与可视化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a3766ef7-8b58-4204-bf54-698c15841154",
+            "completed_at": "2019-02-22T03:47:48.390Z",
+            "last_viewed_at": "2019-03-10T11:42:01.864Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432646,
+              "key": "2bfed615-8a2f-4994-9960-0bf3f7e49639",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 分析与可视化\n### 评估和清洗后",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432647,
+              "key": "36f9104e-84e8-42f0-8379-dc9dda31d5ea",
+              "title": "分析与可视化（清洗后）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OF2486euiRE",
+                "china_cdn_id": "OF2486euiRE.mp4"
+              }
+            },
+            {
+              "id": 432648,
+              "key": "f46db06d-3cd0-4fa1-b3ee-075385da786f",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewbd255f34",
+              "pool_id": "jupyter",
+              "view_id": "2ad00145-5341-40bb-a231-44ca317c2ce6",
+              "gpu_capable": null,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "allowSubmit": false,
+                    "defaultPath": "/"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 432653,
+              "key": "de916240-259a-44f2-b861-790de2d6a890",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 评估和清洗之前",
+              "instructor_notes": ""
+            },
+            {
+              "id": 432654,
+              "key": "93660791-4ee5-46d1-9378-b7cee7fcf840",
+              "title": "分析与可视化（清洗前）",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jJH3H8Rqv8s",
+                "china_cdn_id": "jJH3H8Rqv8s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432790,
+          "key": "fdbef885-98c2-45f2-8ff4-b6fb164ef530",
+          "title": "数据整理总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fdbef885-98c2-45f2-8ff4-b6fb164ef530",
+            "completed_at": "2019-02-22T04:10:39.859Z",
+            "last_viewed_at": "2019-03-10T11:58:39.850Z",
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Data-Wrangling-Template",
+                "uri": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b2b5723_data-wrangling-template/data-wrangling-template.ipynb"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 432655,
+              "key": "7ca3ca28-6684-4b7d-9711-dce5e927d31a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n\n## 数据整理总结\n\n[数据整理模板链接](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b2b5723_data-wrangling-template/data-wrangling-template.ipynb)\n\n### 收集\n- 根据数据来源及其格式，收集数据的步骤各不相同。\n- 高级收集过程：获取数据（从互联网下载文件、抓取网页、查询 API 等），然后将该数据导入编程环境（例如 Jupyter Notebook）。\n\n### 评估\n- 评估数据的目的包括：\n    - 质量：内容问题。低质量数据也称为脏数据。\n    - 整洁度：使分析难易进行的问题。不整洁数据也称为杂乱数据。条理数据的要求包括：\n        1. 每个变量成一列。\n        2. 每个观察结果成一行。\n        3. 每种观察单位构成一个表格。\n\n- 评估类型：\n    - 目测评估：使用你喜欢的软件应用程序（Google 表格、Excel、文本编辑器等）观察数据。\n    - 编程评估：使用代码来查看数据的特定部分和摘要（例如 pandas 的 `head`、`tail` 和 `info`方法）。\n\n### 清洗\n- 清洗类型：\n    - 手动（不推荐，除非问题是一次性出现）\n    - 编程\n- 编程数据清洗过程：\n    1. 定义：将评估转换为定义的清洗任务。这些定义也可以作为指令列表，以便其他人（或你自己将来）可以回顾和重现自己的工作。\n    2. 代码：将这些定义转换为代码并运行。\n    3. 测试：可视上或使用代码练习数据集，确保清洗操作可顺序进行。\n- 清洗之前，请务必备份原始数据！\n\n### 重新评估与迭代\n- 清洗后，如有必要，请重新评估和迭代任何数据整理步骤。\n\n### 存储（可选）\n- 例如，如果将来使用，可将数据存储到文件或数据库中。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 432792,
+          "key": "886d1824-845c-4d44-b07d-a95d21a6a09d",
+          "title": "还有一个问题",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "886d1824-845c-4d44-b07d-a95d21a6a09d",
+            "completed_at": "2019-02-22T04:14:35.703Z",
+            "last_viewed_at": "2019-03-10T12:01:49.979Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432661,
+              "key": "e278c3d4-5846-475b-84d9-9674336399b4",
+              "title": "还有一个问题",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "如果想进一步整理数据集并创建自己的分析或可视化，我鼓励你这样做！创建你自己的 [Kaggle](https://www.kaggle.com/) 帐户（如果还没有），如果有就可以发布在这儿，或者发布在个人博客上。这适用于本课的所有数据集。\n\n从教育和专业性角度来说，分享你的工作和创建一个在线投资组合将非常有用。",
+              "video": {
+                "youtube_id": "VCpnOTxpSqU",
+                "china_cdn_id": "VCpnOTxpSqU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 432793,
+          "key": "a504d771-95df-49eb-9b09-3bb0e46a31e7",
+          "title": "总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a504d771-95df-49eb-9b09-3bb0e46a31e7",
+            "completed_at": "2019-02-22T04:16:45.690Z",
+            "last_viewed_at": "2019-03-10T12:04:07.073Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 432662,
+              "key": "f94a1f7f-d658-4059-8aab-aa36aaebeb11",
+              "title": "总结",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SRXNBlvW-xw",
+                "china_cdn_id": "SRXNBlvW-xw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
