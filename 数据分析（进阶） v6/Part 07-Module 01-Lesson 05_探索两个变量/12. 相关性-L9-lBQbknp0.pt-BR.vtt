@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.530 --> 00:00:03.280
+Obrigado, Mora. Vamos voltar ao nosso gráfico de dispersão
+
+00:00:03.280 --> 00:00:06.580
+de quantidade de amigos versus idade. Pode ser interessante resumir
+
+00:00:06.580 --> 00:00:10.500
+um pouco mais a relação de idade e quantidade de amigos. Em vez de
+
+00:00:10.500 --> 00:00:13.300
+ter as quatro camadas extras de linha geom, podemos
+
+00:00:13.300 --> 00:00:15.870
+tentar resumir a força dessa relação em um único
+
+00:00:15.870 --> 00:00:20.220
+número. Geralmente, o analista usa um coeficiente de correlação para resumir isso.
+
+00:00:20.220 --> 00:00:22.540
+Agora, se você não tem familiaridade com correlação, revise
+
+00:00:22.540 --> 00:00:25.960
+os links nas notas do instrutor. Incluímos até algumas práticas
+
+00:00:25.960 --> 00:00:29.910
+do Stat 95, que é nosso curso de estatísticas. Vamos usar
+
+00:00:29.910 --> 00:00:32.980
+o coeficiente de correlação de Pearson, notado com um
+
+00:00:32.980 --> 00:00:36.260
+r minúsculo, para medir a relação linear entre idade e quantidade
+
+00:00:36.260 --> 00:00:38.100
+de amigos. O que eu quero que você
+
+00:00:38.100 --> 00:00:40.265
+faça é procurar na documentação pela
+
+00:00:40.265 --> 00:00:43.960
+função core.test. Descubra como encontrar Pearson's r
+
+00:00:43.960 --> 00:00:47.330
+usando duas variáveis. Qual é a correlação ente idade
+
+00:00:47.330 --> 00:00:50.630
+e quantidade de amigos? Arredonde sua resposta para três casas decimais.
+

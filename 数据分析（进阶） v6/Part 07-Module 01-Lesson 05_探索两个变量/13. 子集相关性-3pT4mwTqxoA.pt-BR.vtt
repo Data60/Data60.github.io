@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.280 --> 00:00:02.430
+Precisamos de uma expressão aqui para criar um subconjunto da nossa
+
+00:00:02.430 --> 00:00:05.630
+estrutura de dados. Bom, vou executar o comando subset
+
+00:00:05.630 --> 00:00:08.920
+na estrutura de dados pf ou usuários do pseudo Facebook e
+
+00:00:08.920 --> 00:00:12.810
+vou pegar as idades abaixo de 70. Agora, a questão
+
+00:00:12.810 --> 00:00:14.850
+disse 70 ou menos, então devo usar
+
+00:00:14.850 --> 00:00:17.650
+menor ou igual aqui. Ao executar o código, obtemos uma
+
+00:00:17.650 --> 00:00:21.790
+estatística de resumo muito diferente. Na verdade, ela conta uma
+
+00:00:21.790 --> 00:00:25.660
+história diferente sobre a relação negativa entre a idade e a contagem de amigos.
+
+00:00:25.660 --> 00:00:28.530
+Conforme a idade aumenta, podemos ver que a contagem de amigos
+
+00:00:28.530 --> 00:00:31.950
+diminui. É importante observar que uma variável não
+
+00:00:31.950 --> 00:00:34.720
+causa a outra. Por exemplo, seria imprudente
+
+00:00:34.720 --> 00:00:36.850
+dizer que envelhecer significa que você tem menos
+
+00:00:36.850 --> 00:00:39.480
+amigos na Internet. Realmente precisaríamos ter dados de
+
+00:00:39.480 --> 00:00:43.470
+pesquisa experimental e usar estatísticas inferenciais, em vez de
+
+00:00:43.470 --> 00:00:47.340
+estatísticas descritivas para resolver a causalidade. Talvez você tenha
+
+00:00:47.340 --> 00:00:50.940
+percebido que deixei de fora o parâmetro de método de cor.test.
+
+00:00:50.940 --> 00:00:53.965
+Isso é porque cor.test usa por padrão o
+
+00:00:53.965 --> 00:00:57.390
+coeficiente de correlação de Pearson. Não importa o que faremos. Adicionar isto
+
+00:00:57.390 --> 00:00:59.350
+como parâmetros, deveremos obter o mesmo
+
+00:00:59.350 --> 00:01:02.500
+resultado. E executar este código certamente dará certo.
+

@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.330 --> 00:00:03.340
+Com base no coeficiente de correlação deste gráfico,
+
+00:00:03.340 --> 00:00:06.140
+observamos apenas que a relação entre idade e número de
+
+00:00:06.140 --> 00:00:09.830
+amigos não é linear. Não é monótona e não está aumentando
+
+00:00:09.830 --> 00:00:13.430
+nem diminuindo. Além disso, com base no gráfico, sabemos
+
+00:00:13.430 --> 00:00:15.610
+que talvez seja melhor não incluir idades mais avançadas
+
+00:00:15.610 --> 00:00:18.670
+no nosso número de correlação. Idades mais avançadas podem
+
+00:00:18.670 --> 00:00:22.820
+ser incorretas. Recalcularemos o mesmo coeficiente de correlação
+
+00:00:22.820 --> 00:00:26.220
+que tivemos anteriormente com usuários que dizem
+
+00:00:26.220 --> 00:00:29.290
+ter até 70 anos. Qual Cmd você usaria para dividir a estrutura de
+
+00:00:29.290 --> 00:00:32.820
+dados em subconjuntos para que tenhamos um coeficiente de correlação desses dados?
+

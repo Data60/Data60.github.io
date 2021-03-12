@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.765
+Para consultar a documentação, basta digitar
+
+00:00:02.765 --> 00:00:07.260
+?cor.test. Isso abrirá esta página. Parece
+
+00:00:07.260 --> 00:00:09.880
+que cor.test aceita dois vetores, x e y. Depois,
+
+00:00:09.880 --> 00:00:13.170
+calcula o coeficiente de correlação. Parece que
+
+00:00:13.170 --> 00:00:15.640
+temos alguns métodos para determinar esse coeficiente.
+
+00:00:15.640 --> 00:00:19.020
+Podemos usar pearson, kendall ou spearman. Para
+
+00:00:19.020 --> 00:00:22.320
+nosso objetivo, usaremos o método pearson. Seu
+
+00:00:22.320 --> 00:00:25.870
+código será parecido com isto. Ao escrever este código,
+
+00:00:25.870 --> 00:00:30.800
+obtemos um coeficiente de correlação de 0,0274. Isso
+
+00:00:30.800 --> 00:00:33.380
+indica que não há nenhuma relação significativa entre as
+
+00:00:33.380 --> 00:00:35.680
+duas variáveis. Uma boa regra geral é
+
+00:00:35.680 --> 00:00:38.650
+que a correlação seja maior que 0,3 ou menor
+
+00:00:38.650 --> 00:00:42.445
+que menos 0,3, significativa, mas pequena. Cerca de
+
+00:00:42.445 --> 00:00:45.240
+0,5 é moderada e 0,7 ou mais é
+
+00:00:45.240 --> 00:00:47.880
+grande. Outra forma de calcular o mesmo
+
+00:00:47.880 --> 00:00:50.990
+coeficiente é usar este código. Aqui, estou usando
+
+00:00:50.990 --> 00:00:55.030
+a função width para a estrutura de dado aproximada. A função width permite
+
+00:00:55.030 --> 00:00:57.180
+avaliar uma expressão R em um ambiente
+
+00:00:57.180 --> 00:00:59.490
+criado com dados. Sei que ainda
+
+00:00:59.490 --> 00:01:02.210
+não mostrei esta função para você, mas quero
+
+00:01:02.210 --> 00:01:05.740
+apresentá-la. Ao executar essa parte de código, obtemos o mesmo resultado.
+
