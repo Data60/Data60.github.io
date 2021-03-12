@@ -1,0 +1,196 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:02.860
+Até agora vimos como examinar uma distribuição
+
+00:00:02.860 --> 00:00:06.720
+de variáveis usando histogramas e como verificar nossos palpites
+
+00:00:06.720 --> 00:00:10.430
+com visualizações e resumos numéricos. Mas há outro tipo
+
+00:00:10.430 --> 00:00:13.530
+de gráfico que nos permite comparar distribuições e é chamado
+
+00:00:13.530 --> 00:00:17.490
+o polígono de frequência. Polígonos de frequência são semelhantes a histogramas,
+
+00:00:17.490 --> 00:00:19.610
+mas desenham uma curva que conecta as contagens em
+
+00:00:19.610 --> 00:00:22.130
+um histograma. Dessa forma, isso nos permite ver o
+
+00:00:22.130 --> 00:00:25.590
+formato e os picos de nossa distribuição em mais detalhes.
+
+00:00:25.590 --> 00:00:27.630
+Lembre-se de que antes estávamos verificando a
+
+00:00:27.630 --> 00:00:31.570
+contagem de amigos que usam este código. Este código fornece um histograma das
+
+00:00:31.570 --> 00:00:35.300
+contagens de amigos do usuário e, em seguida, adicionamos um envoltório de faceta
+
+00:00:35.300 --> 00:00:37.970
+e o dividimos por sexo. Lembre-se de que estamos tentando
+
+00:00:37.970 --> 00:00:41.070
+responder à pergunta, quem na média tem mais amigos, homens ou
+
+00:00:41.070 --> 00:00:44.120
+mulheres. Dissemos que não podemos dizer isso com base neste histograma, então
+
+00:00:44.120 --> 00:00:47.915
+fizemos alguns resumos numéricos. E, ao invés de ter esses
+
+00:00:47.915 --> 00:00:51.040
+2 histogramas, lado a lado, podemos realmente usar um polígono
+
+00:00:51.040 --> 00:00:54.910
+de frequência e sobrepor esses histogramas. Aqui está como podemos
+
+00:00:54.910 --> 00:00:58.430
+criar esse polígono de frequência. Vou copiar e colar o mesmo código,
+
+00:00:58.430 --> 00:01:01.550
+exceto o que preciso fazer uma adição. Por padrão, um q plot
+
+00:01:01.550 --> 00:01:04.000
+vai criar um histograma onde eu passá-los para apenas uma única
+
+00:01:04.000 --> 00:01:06.000
+variável. Então preciso dizer isso para criar um polígono
+
+00:01:06.000 --> 00:01:09.220
+de frequência. Posso usar o parâmetro geom para fazer isso.
+
+00:01:10.220 --> 00:01:13.120
+Aqui, vou passar o polígono de frequência, dessa forma, criamos
+
+00:01:13.120 --> 00:01:16.370
+um tipo diferente de gráfico e não precisamos mais deste envoltório de
+
+00:01:16.370 --> 00:01:19.160
+faceta por sexo. Para obter as distribuições de cada
+
+00:01:19.160 --> 00:01:21.950
+sexo no gráfico, vou passar a cor do parâmetro
+
+00:01:21.950 --> 00:01:24.770
+para q plot e defini-lo como igual ao sexo. Então
+
+00:01:24.770 --> 00:01:28.380
+aqui está meu parâmetro de cor e agora vou passá-lo para o sexo.
+
+00:01:28.380 --> 00:01:30.655
+Quando eu executar este código, vou obter um gráfico com
+
+00:01:30.655 --> 00:01:34.890
+2 polígonos de frequência um para pessoas do sexo masculino e outro para pessoas do sexo feminino. E
+
+00:01:34.890 --> 00:01:37.790
+observe como o sexo foi atribuído a uma cor, então a cor
+
+00:01:37.790 --> 00:01:41.380
+está indicando em qual polígono de frequência eu estou. E é por isto que o
+
+00:01:41.380 --> 00:01:44.315
+polígono de frequência é realmente bom. Podemos comparar
+
+00:01:44.315 --> 00:01:48.790
+2 ou mais distribuições de uma vez, mas novamente, este gráfico
+
+00:01:48.790 --> 00:01:51.260
+realmente não responde a pergunta sobre quem tem mais amigos na
+
+00:01:51.260 --> 00:01:54.440
+média de homens ou mulheres. Vamos alterar o eixo y para mostrar
+
+00:01:54.440 --> 00:01:58.100
+proporções, em vez de contagens brutas. Isto vai envolver
+
+00:01:58.100 --> 00:02:00.500
+alguma sintaxe divertida, então quero explicar isso. Para alterar
+
+00:02:00.500 --> 00:02:03.340
+esta variável de contagem, vamos passar y
+
+00:02:03.340 --> 00:02:06.580
+para nossa função de q plot. Vou atribuir o parâmetro y a
+
+00:02:06.580 --> 00:02:10.130
+esta expressão. Isso me permite obter proporções, em vez de
+
+00:02:10.130 --> 00:02:13.500
+contagens brutas reais no eixo y. E vou apenas mover isso,
+
+00:02:13.500 --> 00:02:16.250
+de forma que meu código pareça um pouco mais limpo.
+
+00:02:16.250 --> 00:02:19.110
+E finalmente, deixe-me alterar os rótulos para explicar de forma mais precisa o
+
+00:02:19.110 --> 00:02:21.890
+gráfico. Parece que tenho tudo. Vamos executar este
+
+00:02:21.890 --> 00:02:25.450
+código e ver as diferenças. Aumentando o zoom do gráfico, podemos
+
+00:02:25.450 --> 00:02:28.270
+ver que alteramos a escala do eixo y e temos nossos
+
+00:02:28.270 --> 00:02:31.820
+rótulos que aparecem aqui e aqui. E embora pareça que o sexo masculino
+
+00:02:31.820 --> 00:02:34.630
+tenha contagens maiores de amigo, na média, que o sexo feminino, podemos
+
+00:02:34.630 --> 00:02:37.570
+ver que muitas pessoas do sexo masculino ou uma alta porcentagem delas tem
+
+00:02:37.570 --> 00:02:40.770
+contagens baixas de amigos. Isso é provável nesta região extrema do
+
+00:02:40.770 --> 00:02:44.750
+gráfico onde pessoas do sexo feminino ultrapassam as do sexo masculino. Incentivo você a experimentar
+
+00:02:44.750 --> 00:02:47.810
+isso em seu studio para ver onde as mulheres ultrapassam
+
+00:02:47.810 --> 00:02:51.080
+os homens neste lado do eixo. Tente usar os limites ou
+
+00:02:51.080 --> 00:02:54.900
+os intervalos para explorar mais. Aprendemos uma nova sintaxe
+
+00:02:54.900 --> 00:02:57.270
+aqui, então vamos ver se você pode colocar isso em prática.
+
+00:02:57.270 --> 00:03:00.050
+Sua tarefa é determinar qual sexo cria mais
+
+00:03:00.050 --> 00:03:02.180
+curtidas na World Wide Web. Para responder essa
+
+00:03:02.180 --> 00:03:04.770
+pergunta quero criar um polígono de frequência
+
+00:03:04.770 --> 00:03:07.340
+de explorá-lo de muitas formas diferentes. Lembre-se de que
+
+00:03:07.340 --> 00:03:08.960
+o primeiro gráfico que você criou não precisa
+
+00:03:08.960 --> 00:03:11.040
+ser final. Quero que você crie vários
+
+00:03:11.040 --> 00:03:13.460
+gráficos e faça ajustes nos limites e
+
+00:03:13.460 --> 00:03:15.780
+nos intervalos do eixo x, até ficar satisfeito.
+
