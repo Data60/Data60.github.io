@@ -1,0 +1,314 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   数据如何成为脏数据和杂乱数据
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      评估数据
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 简介.html">
+       01. 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 课程大纲.html">
+       02. 课程大纲
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 数据集：口服胰岛素 II 期临床试验数据.html">
+       03. 数据集：口服胰岛素 II 期临床试验数据
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 未清理的数据：脏数据与杂乱数据 1.html">
+       04. 未清理的数据：脏数据与杂乱数据 1
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 未清理的数据：脏数据与杂乱数据 2.html">
+       05. 未清理的数据：脏数据与杂乱数据 2
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 评估：类型与步骤.html">
+       06. 评估：类型与步骤
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 目测评估.html">
+       07. 目测评估
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 目测评估：认识自己.html">
+       08. 目测评估：认识自己
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 质量：目测评估 1.html">
+       09. 质量：目测评估 1
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 评估与探索.html">
+       10. 评估与探索
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 质量：目测评估 2.html">
+       11. 质量：目测评估 2
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 数据质量维度 1.html">
+       12. 数据质量维度 1
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 数据质量维度 2.html">
+       13. 数据质量维度 2
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 编程评估.html">
+       14. 编程评估
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 质量：编程评估 1.html">
+       15. 质量：编程评估 1
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 质量：编程评估 2.html">
+       16. 质量：编程评估 2
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 整洁度：目测评估.html">
+       17. 整洁度：目测评估
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 整洁度：编程评估.html">
+       18. 整洁度：编程评估
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 预告.html">
+       19. 预告
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 数据如何成为脏数据和杂乱数据.html">
+       20. 数据如何成为脏数据和杂乱数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 你可以迭代！.html">
+       21. 你可以迭代！
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 评估总结.html">
+       22. 评估总结
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 总结.html">
+       23. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          20. 数据如何成为脏数据和杂乱数据
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="脏数据的原因">
+          脏数据的原因
+         </h2>
+         <p>
+          <em>
+           脏数据 = 低质量数据 = 内容问题
+          </em>
+         </p>
+         <p>
+          脏数据的原因有很多。基本上只要有人参与的地方，就会有脏数据。接触我们所处理数据的方式也很多。
+         </p>
+         <p>
+          可能会存在一些用户输入错误。某些情况下，我们不会设定任何数据编码标准，或者即使我们设定标准，人们也很少遵守，最终一样导致数据出现问题。我们可能需要集成数据，将不同的模式用于同一类型的项目。数据系统过时，光盘和内存限制比现在更具有局限性，所以不可能对数据进行编码。随着系统不断发展，需求发生了变化，数据也发生了变化。一些数据将不具有唯一的标识符。从一种格式转换为另一种格式将会导致其他数据丢失。当然，程序员可能会出错。最后，数据可能在传输或存储过程中被宇宙射线或其他物理现象破坏。所以呢，这不是我们的错。
+         </p>
+         <h2 id="杂乱数据的原因">
+          杂乱数据的原因
+         </h2>
+         <p>
+          <em>
+           杂乱数据 = 不整洁数据 = 结构性问题
+          </em>
+         </p>
+         <p>
+          杂乱数据通常是数据规划不当的结果。或者对
+          <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html" target="_blank">
+           整洁度数据
+          </a>
+          的优点缺乏认识。但好的一点是，相对于上面提到的大多数脏数据，杂乱数据的原因更容易发现。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="21. 你可以迭代！.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('20. 数据如何成为脏数据和杂乱数据')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
