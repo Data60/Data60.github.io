@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.280 --> 00:00:03.840
+Sua tarefa era explorar o relacionamento iniciado entre friends_initiated
+
+00:00:03.840 --> 00:00:07.420
+e age. Para a sintaxe ggplot, vamos simplesmente passar isso,
+
+00:00:07.420 --> 00:00:09.990
+x, que será age, e y, que será friends_
+
+00:00:09.990 --> 00:00:13.930
+initiated. Colocaremos esses dados no wrapper estético e passaremos
+
+00:00:13.930 --> 00:00:16.680
+pf, como a nossa estrutura de dados. Também preciso me lembrar de
+
+00:00:16.680 --> 00:00:19.490
+especificar o geom, portanto, aqui usarei geom-point para um
+
+00:00:19.490 --> 00:00:22.740
+gráfico de dispersão. Esse deve me deixar começar. Parece que
+
+00:00:22.740 --> 00:00:25.500
+eu usei a variável incorreta aqui, portanto, examinando meus dados
+
+00:00:25.500 --> 00:00:28.520
+posso ver que friendships_initiated devia ser minha variável,
+
+00:00:28.520 --> 00:00:32.180
+e não friends_initiated. Ao executar esse código, podemos ver nosso
+
+00:00:32.180 --> 00:00:35.250
+gráfico de dispersão. Agora, ainda obtenho esta distinção com
+
+00:00:35.250 --> 00:00:38.080
+age, portanto, vou aplicar jitter em nossos pontos. Aqui, usarei um
+
+00:00:38.080 --> 00:00:40.670
+alfa definido como um décimo, portanto, precisarei de dez pontos
+
+00:00:40.670 --> 00:00:43.970
+para criar apenas um destes. Isso está parecendo um pouco
+
+00:00:43.970 --> 00:00:46.590
+melhor. Outra maneira de aplicar jitter nos pontos ainda é
+
+00:00:46.590 --> 00:00:50.390
+usar geom_point. Mas, em seguida, definir a posição igual a jitter.
+
+00:00:50.390 --> 00:00:53.710
+Este código produzirá o mesmo gráfico que temos aqui. Vamos
+
+00:00:53.710 --> 00:00:56.680
+executá-lo para ter certeza. Realmente, temos o mesmo gráfico.
+
+00:00:56.680 --> 00:00:59.090
+E como eu ainda tenho valores realmente altos de algumas de minhas
+
+00:00:59.090 --> 00:01:02.590
+friendships-initiated, usarei uma coord transformation e obterei a
+
+00:01:02.590 --> 00:01:06.460
+raiz quadrada do eixo y. Quando adiciono a camada coord_trans
+
+00:01:06.460 --> 00:01:09.670
+e executo este código, vejo que obtenho uma mensagem de erro.
+
+00:01:09.670 --> 00:01:12.400
+Isso deveria fazer sentido uma vez que algumas de minhas friendships_initiated têm uma
+
+00:01:12.400 --> 00:01:15.610
+contagem igual a zero. Portanto, quando eu obtenho a raiz quadrada desse número
+
+00:01:15.610 --> 00:01:18.100
+com algum ruído, ela pode ser negativa, o que seria
+
+00:01:18.100 --> 00:01:21.210
+um resultado imaginário. Vou corrigir este código como
+
+00:01:21.210 --> 00:01:23.860
+fizemos antes, dessa forma, temos as posições definidas como iguais
+
+00:01:23.860 --> 00:01:28.244
+a h igual a 0. Definiremos a posição igual ao jitter da posição
+
+00:01:28.244 --> 00:01:31.810
+e o passaremos como h igual a 0. Esta é
+
+00:01:31.810 --> 00:01:34.030
+o gráfico que produzi. Agora, você pode ter
+
+00:01:34.030 --> 00:01:36.380
+tido algo um pouco diferente ou até ter usado uma
+
+00:01:36.380 --> 00:01:38.770
+transformação diferente. Não importa o que você tenha encontrado e
+
+00:01:38.770 --> 00:01:40.650
+quais sejam suas observações,
+
+00:01:40.650 --> 00:01:43.330
+compartilhe-as nas discussões. Queremos saber sua opinião.
+

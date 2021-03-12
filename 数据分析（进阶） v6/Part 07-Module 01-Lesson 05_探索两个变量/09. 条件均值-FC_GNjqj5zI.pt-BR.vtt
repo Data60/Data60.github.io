@@ -1,0 +1,280 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.120 --> 00:00:01.990
+Vamos voltar e dar uma olhada no gráfico
+
+00:00:01.990 --> 00:00:05.200
+de dispersão entre quantidade de amigos e idade. Este gráfico de dispersão nos mantém
+
+00:00:05.200 --> 00:00:08.370
+próximos aos dados porque visualizamos
+
+00:00:08.370 --> 00:00:11.640
+todos os pontos do conjunto de dados. Em geral, não é possível
+
+00:00:11.640 --> 00:00:15.430
+julgar quantidades importantes a partir de uma exibição assim. Às vezes,
+
+00:00:15.430 --> 00:00:18.590
+o objetivo é entender como a média ou a mediana de uma variável
+
+00:00:18.590 --> 00:00:21.520
+varia com outra variável. Ou seja, pode ser útil
+
+00:00:21.520 --> 00:00:25.500
+resumir a relação entre duas variáveis de outras formas em vez de
+
+00:00:25.500 --> 00:00:28.880
+simplesmente só representar cada ponto. Por exemplo, podemos
+
+00:00:28.880 --> 00:00:32.790
+perguntar como a contagem de amigos média varia com a idade. Para
+
+00:00:32.790 --> 00:00:35.810
+isso, podemos começar criando uma tabela que
+
+00:00:35.810 --> 00:00:39.140
+dá a média e a mediana da contagem de amigos para cada idade.
+
+00:00:39.140 --> 00:00:41.520
+Para fazer isso, precisaremos aprender um código novo.
+
+00:00:41.520 --> 00:00:44.090
+Para criar a tabela, usaremos o pacote R
+
+00:00:44.090 --> 00:00:48.180
+chamado dplyr. Vou instalar e carregar o pacote agora.
+
+00:00:48.180 --> 00:00:50.730
+O pacote dplyr permite dividir uma estrutura de dados e
+
+00:00:50.730 --> 00:00:53.560
+aplicar uma função a algumas partes dos dados. Algumas
+
+00:00:53.560 --> 00:00:57.090
+funções comuns que você pode usar são filter, group_by,
+
+00:00:57.090 --> 00:01:01.400
+mutate e arrange. Saiba mais sobre o
+
+00:01:01.400 --> 00:01:04.480
+pacote dplyr e navegue por alguns exemplos nos links
+
+00:01:04.480 --> 00:01:07.280
+nas Notas do instrutor. Agora, vamos trabalhar em um exemplo
+
+00:01:07.280 --> 00:01:09.850
+juntos. Quero começar
+
+00:01:09.850 --> 00:01:13.380
+agrupando minha estrutura de dados por idade. Vou
+
+00:01:13.380 --> 00:01:16.640
+salvar esse agrupamento em uma nova variável chamada age_groups.
+
+00:01:16.640 --> 00:01:20.020
+Agora, quero resumir o novo grupo a dados suficientes e
+
+00:01:20.020 --> 00:01:24.150
+criar novas variáveis da média da contagem de tópicos, mediana da contagem de amigos e
+
+00:01:24.150 --> 00:01:27.860
+do número de pessoas em cada grupo. Então, resumiremos a
+
+00:01:27.860 --> 00:01:31.530
+variável que acabamos de criar: age_groups. Agora, logo após inserir
+
+00:01:31.530 --> 00:01:33.570
+a estrutura de dados que quero trabalhar, vou
+
+00:01:33.570 --> 00:01:36.220
+inserir as variáveis que quero criar. Então, quero
+
+00:01:36.220 --> 00:01:38.780
+a média da contagem de amigos, que descubro calculando a
+
+00:01:38.780 --> 00:01:41.720
+média da variável friend_count. E quero a mediana da contagem de
+
+00:01:41.720 --> 00:01:44.580
+amigos. Por fim, quero o número de usuários
+
+00:01:44.580 --> 00:01:47.610
+em cada grupo. Esta função n só pode ser usada no
+
+00:01:47.610 --> 00:01:50.360
+summarise e mostra quantas pessoas há em
+
+00:01:50.360 --> 00:01:53.270
+cada grupo. Por último, salvarei este
+
+00:01:53.270 --> 00:01:56.570
+resultado em uma nova variável. Usarei a mesma abreviação
+
+00:01:56.570 --> 00:02:00.210
+de estrutura de dados e adicionarei fc_by_age, que é a contagem de amigos
+
+00:02:00.210 --> 00:02:02.750
+por idade. Ao executar este código, percebo que recebi uma
+
+00:02:02.750 --> 00:02:08.250
+nova estrutura de dados com 101 observações ou grupos e 4 variáveis diferentes.
+
+00:02:08.250 --> 00:02:10.389
+Usando o comando head, posso imprimir as duas primeiras
+
+00:02:10.389 --> 00:02:14.590
+linhas para examinar os dados. Perceba que tenho idade
+
+00:02:14.590 --> 00:02:18.260
+, média da contagem de amigos, mediana da contagem de amigos e n, o número de
+
+00:02:18.260 --> 00:02:21.610
+usuários em cada grupo. Esta estrutura de dados não está em
+
+00:02:21.610 --> 00:02:24.070
+ordem. Então, vou reordená-la para que
+
+00:02:24.070 --> 00:02:27.590
+as idades vão da menor para a maior. Usarei a função
+
+00:02:27.590 --> 00:02:30.780
+arrange na estrutura de dados atual e a ordenarei por idade.
+
+00:02:30.780 --> 00:02:34.080
+Salvarei o resultado na variável que eu tinha e agora,
+
+00:02:34.080 --> 00:02:36.700
+indo para a estrutura de dados, dá para ver que tudo está na
+
+00:02:36.700 --> 00:02:40.360
+ordem. Pode parecer que há códigos demais, então
+
+00:02:40.360 --> 00:02:43.270
+aconselho você a parar e analisar o código e o
+
+00:02:43.270 --> 00:02:46.970
+exemplo. Tenha certeza do que cada parte está fazendo, para que
+
+00:02:46.970 --> 00:02:49.780
+você possa escrever este código sozinho. Quero chamar
+
+00:02:49.780 --> 00:02:52.080
+atenção para duas coisas: é necessário passar nossa
+
+00:02:52.080 --> 00:02:56.000
+estrutura de dados ou agrupamento, no início de cada função. Também
+
+00:02:56.000 --> 00:02:59.200
+precisamos salvar o resultado em uma nova variável e passá-la
+
+00:02:59.200 --> 00:03:02.060
+para a próxima função. Isso complica
+
+00:03:02.060 --> 00:03:04.920
+o entendimento desse código no começo, então mostrarei
+
+00:03:04.920 --> 00:03:08.180
+uma outra forma de se chegar a esta mesma tabela. Para começar,
+
+00:03:08.180 --> 00:03:10.680
+vamos pegar nosso conjunto de dados e aplicar uma função a
+
+00:03:10.680 --> 00:03:14.300
+ele. Para isso, usarei o símbolo
+
+00:03:14.300 --> 00:03:18.460
+%.% Isso permite que eu ligue funções ao conjunto de dados.
+
+00:03:18.460 --> 00:03:20.990
+Então, farei uma função por vez, uma após
+
+00:03:20.990 --> 00:03:24.220
+a outra em pf. Começarei agrupando meu
+
+00:03:24.220 --> 00:03:26.570
+conjunto de dados por idade. Agora, ligarei mais uma
+
+00:03:26.570 --> 00:03:30.400
+função. Resumirei o resultado usando a friend_count_mean,
+
+00:03:30.400 --> 00:03:33.610
+friend_count_median e n. Por fim, adicionarei mais
+
+00:03:33.610 --> 00:03:37.710
+uma função, usando este comando de ligação, %.%, e
+
+00:03:37.710 --> 00:03:40.790
+, dessa vez, ordenarei minha estrutura de dados por idade. Todo
+
+00:03:40.790 --> 00:03:43.340
+este código produzirá esta mesma estrutura de dados, então
+
+00:03:43.340 --> 00:03:45.850
+tenho que salvá-lo em uma variável.
+
+00:03:45.850 --> 00:03:49.280
+Vou salvar no pf, fc_by_age, e vou
+
+00:03:49.280 --> 00:03:51.250
+colocar a estrutura de dados em head, como antes, para
+
+00:03:51.250 --> 00:03:54.190
+podermos verificar o resultado. Ao executar este código, veremos que
+
+00:03:54.190 --> 00:03:57.270
+obtemos o mesmo resultado. Temos idade, média da contagem
+
+00:03:57.270 --> 00:04:00.760
+de amigos, mediana da contagem de amigos e o número de usuários
+
+00:04:00.760 --> 00:04:04.110
+em cada grupo de idade. Imprimindo mais linhas, podemos
+
+00:04:04.110 --> 00:04:07.860
+analisar com cuidado a tabela para saber mais sobre a relação entre idade
+
+00:04:07.860 --> 00:04:11.650
+e contagem de amigos. Já podemos notar isso na média. Usuários
+
+00:04:11.650 --> 00:04:14.320
+com 13 anos têm contagem de amigos um pouco mais baixa que os
+
+00:04:14.320 --> 00:04:17.040
+de 14 anos. Também parece que a média da contagem
+
+00:04:17.040 --> 00:04:21.320
+de amigos alcança o máximo aos 16 e 17 anos. É claro que
+
+00:04:21.320 --> 00:04:23.510
+não queremos resumir e entender tabelas
+
+00:04:23.510 --> 00:04:27.270
+assim. É muito chato. Poderíamos mostrar essas observações
+
+00:04:27.270 --> 00:04:30.480
+de maneira mais eficiente com uma visualização. Então, vamos transformar em gráfico esta tabela
+
+00:04:30.480 --> 00:04:34.170
+de médias. Essa será sua próxima tarefa de programação.
+
+00:04:34.170 --> 00:04:36.770
+Quero que você construa o gráfico da média de contagem de amigos versus
+
+00:04:36.770 --> 00:04:40.070
+idade. Não se esqueça de usar o conjunto de dados adequado.
+
+00:04:40.070 --> 00:04:41.660
+Estamos usando o novo conjunto de dados que
+
+00:04:41.660 --> 00:04:44.280
+acabamos de criar. Tenha certeza de que tem os nomes de variáveis
+
+00:04:44.280 --> 00:04:47.460
+adequados. São diferentes dos de antes. Crie o gráfico
+
+00:04:47.460 --> 00:04:49.840
+no seu estúdio e depois compare seu trabalho com o nosso.
+

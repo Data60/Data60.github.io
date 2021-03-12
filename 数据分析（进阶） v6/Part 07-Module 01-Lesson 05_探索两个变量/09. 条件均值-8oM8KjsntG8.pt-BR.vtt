@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.220 --> 00:00:03.010
+Esta tarefa de programação foi uma forma de você praticar criando gráficos
+
+00:00:03.010 --> 00:00:05.560
+de dispersão e de certificar-se de que sabia como trabalhar com nossa
+
+00:00:05.560 --> 00:00:08.890
+nova estrutura de dados. Usaremos nossa função ggplot
+
+00:00:08.890 --> 00:00:11.640
+para obter nosso histograma e a passaremos para duas variáveis que tínhamos em nossa
+
+00:00:11.640 --> 00:00:15.160
+estrutura de dados, idade e média de contagem de amigos. E para a variável de dados,
+
+00:00:15.160 --> 00:00:19.330
+quero passar PF.FC por idade, em vez de por PF, pois esta
+
+00:00:19.330 --> 00:00:22.180
+era a nova estrutura de dados na qual estávamos trabalhando. Gravando este código
+
+00:00:22.180 --> 00:00:25.290
+vejo que obtenho um erro e isso ocorre porque esqueci meu geom.
+
+00:00:25.290 --> 00:00:27.800
+Eu precisava adicionar o ponto de geom. Então adicionando isso como
+
+00:00:27.800 --> 00:00:30.920
+outra camada, eu posso executar meu código e obter o resultado.
+
+00:00:30.920 --> 00:00:33.510
+Agora podemos fazer isso um pouco melhor que este gráfico. Vamos
+
+00:00:33.510 --> 00:00:36.520
+conectar nossos pontos, na ordem de idade, usando a linha geom,
+
+00:00:36.520 --> 00:00:40.240
+em vez do ponto geom. Este gráfico imediatamente torna claro
+
+00:00:40.240 --> 00:00:43.495
+os padrões que mencionei antes, bem como estranheza na idade
+
+00:00:43.495 --> 00:00:47.000
+69. Vemos que através das idades mais avançadas, nossas estimativas
+
+00:00:47.000 --> 00:00:50.320
+são altamente variáveis para a média de contagem de amigos. Estão variando de cima para
+
+00:00:50.320 --> 00:00:52.400
+baixo, por todo lugar. E
+
+00:00:52.400 --> 00:00:54.390
+para nossos usuários mais novos, eles ainda têm
+
+00:00:54.390 --> 00:00:57.670
+contagens de amigos altas e para as idades entre 30 e 60,
+
+00:00:57.670 --> 00:01:00.993
+a contagem média está aproximadamente acima de 100.
+
