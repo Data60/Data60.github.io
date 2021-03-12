@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.210 --> 00:00:02.390
+De fato, podemos ver que os preços de diamantes estão bastante
+
+00:00:02.390 --> 00:00:04.960
+distorcidos, mas quando colocamos estes preços em uma escala
+
+00:00:04.960 --> 00:00:08.029
+de log na base 10, eles parecem mais comportados. Ficam muito mais próximos da
+
+00:00:08.029 --> 00:00:11.297
+curva de sino de uma distribuição normal. Podemos até ver pequenas
+
+00:00:11.297 --> 00:00:15.260
+evidências de bimodalidade nesta escala de log na base 10.
+
+00:00:15.260 --> 00:00:18.410
+O que é consistente com nossa especulação
+
+00:00:18.410 --> 00:00:22.540
+de duas classes de comprador rico e comprador pobre sobre o tipo de comprador de diamantes. Você viu
+
+00:00:22.540 --> 00:00:25.220
+um pouco disso no conjunto de problemas 3, quando
+
+00:00:25.220 --> 00:00:27.370
+olhou o log na base 10 de preço por corte.
+

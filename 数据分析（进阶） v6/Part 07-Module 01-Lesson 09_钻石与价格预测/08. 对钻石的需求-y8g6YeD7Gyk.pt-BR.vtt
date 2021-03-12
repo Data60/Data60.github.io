@@ -1,0 +1,16 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.270 --> 00:00:03.350
+Aqui estamos usando um Q plot para produzir dois histogramas de
+
+00:00:03.350 --> 00:00:07.800
+preço. Um em uma escala comum e outro em uma escala
+
+00:00:07.800 --> 00:00:11.880
+log10. Vamos usar esta biblioteca grid adicional para criar gráficos
+
+00:00:11.880 --> 00:00:14.860
+na mesma janela, e aqui está o resultado.
+

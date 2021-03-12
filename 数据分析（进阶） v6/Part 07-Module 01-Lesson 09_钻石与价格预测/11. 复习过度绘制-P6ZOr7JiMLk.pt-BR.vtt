@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.520 --> 00:00:03.420
+Até agora, não fizemos nada relacionado a plotagem,
+
+00:00:03.420 --> 00:00:06.390
+que é quando vários pontos assumem o mesmo valor. Isso normalmente
+
+00:00:06.390 --> 00:00:09.060
+se deve ao arredondamento. Vamos ver isso
+
+00:00:09.060 --> 00:00:12.200
+executando um código. Executaremos um comando de tabela em
+
+00:00:12.200 --> 00:00:16.070
+carat e price. Depois, classificaremos isso para que
+
+00:00:16.070 --> 00:00:19.150
+o maior valor apareça primeiro. Analisaremos somente os seis primeiros,
+
+00:00:19.150 --> 00:00:22.380
+que são o padrão para a função head.
+
+00:00:22.380 --> 00:00:25.790
+É claro que o que está acontecendo aqui é que a primeira linha é
+
+00:00:25.790 --> 00:00:29.620
+o preço ou o quilate e a segunda linha
+
+00:00:29.620 --> 00:00:32.619
+é a contagem de cada um desses valores. Podemos
+
+00:00:32.619 --> 00:00:35.140
+ver que esses são números altos que
+
+00:00:35.140 --> 00:00:38.590
+resultarão em uma quantidade substancial de plotagem. Quando você
+
+00:00:38.590 --> 00:00:42.600
+tem essa grande quantidade de dados, isso resulta em plotagem, mesmo
+
+00:00:42.600 --> 00:00:44.840
+ao plotar as variáveis entre si, e isso
+
+00:00:44.840 --> 00:00:47.620
+pode obscurecer a densidade e dispersão
+
+00:00:47.620 --> 00:00:50.840
+dos nossos dados. Esses são pontos importantes. Como
+
+00:00:50.840 --> 00:00:53.630
+discutimos na Lição 4, você pode lidar com isso
+
+00:00:53.630 --> 00:00:56.530
+tornando seus pontos menores aplicando jitter neles e
+
+00:00:56.530 --> 00:00:59.830
+adicionando transparência. No gráfico GG, isso é feito com o
+
+00:00:59.830 --> 00:01:02.980
+parâmetro alpha. No próximo exercício de codificação, você fará isso.
+

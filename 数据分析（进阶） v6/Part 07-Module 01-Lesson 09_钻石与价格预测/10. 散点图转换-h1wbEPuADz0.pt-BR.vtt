@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.130
+Agora que entendemos melhor nossas variáveis e demanda
+
+00:00:03.130 --> 00:00:06.530
+geral de diamantes, vamos traçar os dados novamente. Desta vez,
+
+00:00:06.530 --> 00:00:09.070
+colocaremos um preço em uma escala log10, ficando
+
+00:00:09.070 --> 00:00:11.860
+assim. O gráfico ficou melhor que antes. Na escala
+
+00:00:11.860 --> 00:00:14.830
+de log, os preços parecem menos dispersos no alto
+
+00:00:14.830 --> 00:00:18.110
+de tamanho e preço do quilate, mas podemos fazer melhor. Vamos
+
+00:00:18.110 --> 00:00:20.350
+tentar usar a raiz cúbica de quilate considerando
+
+00:00:20.350 --> 00:00:22.770
+nossa especulação de que falhas sejam
+
+00:00:22.770 --> 00:00:24.860
+mais prováveis em diamantes com mais volume.
+
+00:00:24.860 --> 00:00:27.640
+O volume está em uma escala cúbica. Primeiro, precisamos
+
+00:00:27.640 --> 00:00:30.730
+que uma função transforme a variável carat. Se você quiser
+
+00:00:30.730 --> 00:00:33.290
+saber mais sobre como criar suas próprias funções em R, consulte
+
+00:00:33.290 --> 00:00:35.830
+os links nas Notas do instrutor. Isso pode parecer muito
+
+00:00:35.830 --> 00:00:38.840
+código, mas temos apenas uma parte dele aqui.
+
+00:00:38.840 --> 00:00:42.240
+É a transfunção raiz cúbica. É uma função que considera
+
+00:00:42.240 --> 00:00:46.100
+a raiz cúbica de qualquer variável de entrada e tem
+
+00:00:46.100 --> 00:00:49.950
+uma função inversa para desfazer a operação, que precisamos
+
+00:00:49.950 --> 00:00:52.310
+exibir no gráfico corretamente. Então, chegamos ao
+
+00:00:52.310 --> 00:00:55.380
+nosso comando ggplot. O que faremos é
+
+00:00:55.380 --> 00:01:01.200
+usar o argumento scale_x_continuous para transformar o eixo x
+
+00:01:01.200 --> 00:01:04.810
+com essa função de transformação da raiz cúbica. Lembre-se
+
+00:01:04.810 --> 00:01:07.634
+de que também estamos transformando o eixo y
+
+00:01:07.634 --> 00:01:11.350
+com a transformação log10 discutida anteriormente. Vamos ver
+
+00:01:11.350 --> 00:01:13.080
+como ficará esse gráfico. Analisando
+
+00:01:13.080 --> 00:01:14.970
+o gráfico, vemos que, com essas transformações
+
+00:01:14.970 --> 00:01:17.150
+que usamos para obter nossos dados
+
+00:01:17.150 --> 00:01:19.930
+nessa escala, tudo parece quase
+
+00:01:19.930 --> 00:01:22.310
+linear. Agora podemos continuar e ver
+
+00:01:22.310 --> 00:01:24.930
+sobre como modelar nossos dados usando um modelo linear.
+
