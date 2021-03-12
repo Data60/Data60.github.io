@@ -1,0 +1,181 @@
+{
+  "data": {
+    "lesson": {
+      "id": 673837,
+      "key": "0bdad4c9-325a-4a9a-8141-a049415491d1",
+      "title": "冰与火之歌：五王之战",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "使用《权力的游戏》中的战争数据，分析影响战争结果的因素，温习从提问到可视化的分析流程，并找到隐藏在数据中的战役制胜法宝！",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "31d62a7d-f717-4bf9-a235-08c43dfb00d0",
+        "version": "1.0.0",
+        "locale": "zh-cn",
+        "duration": 7200,
+        "semantic_type": "Project",
+        "title": "五王之战分析（冰与火之歌）",
+        "description": "# 准备好提交了吗？\n\n## 评估\n\n我们将使用[此评估准则](https://review.udacity.com/#!/rubrics/2090/view)来评估你的项目。这个项目的目的是为了帮助你检验先修知识，并熟悉项目提交流程，让你之后的课程学习和项目提交更加顺畅。你需要使用项目工具区中的 Jupyter Notebook 工具分析来自冰与火这个的五王之战数据集。在这个项目中，你将体验数据分析过程中，从提出问题、数据评估到创建可视化的每一步关键步骤。通过尝试完成这个项目，你将了解数据分析师（进阶）纳米学位是否适合你。\n\n## 提交项目\n\n点击下方的“提交项目”按钮提交你的项目。由于各地区的网络差异，第一次打开页面的时间可能会比较长。\n\n## 问题\n\n无法提交项目？别担心！有任何问题，都可以求助我们的班主任，或者发邮件给我们的学习助手 support@youdaxue.com。我们会尽快帮助你解决。\n\n\n## 接下来？\n\n我们专业的老师评审完你的项目后，你会马上收到一封邮件。在等待的这段时间里，你可以学习接下来的课程。\n\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2090",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": {
+          "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5b0f912d_gameofthrones/gameofthrones.jpg",
+          "width": 950,
+          "height": 534
+        }
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 673841,
+          "key": "c4d7c4b4-aacc-4fce-9fae-d2e8c5c37f63",
+          "title": "项目简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c4d7c4b4-aacc-4fce-9fae-d2e8c5c37f63",
+            "completed_at": "2019-03-02T04:13:13.414Z",
+            "last_viewed_at": "2019-03-02T04:13:11.781Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 673838,
+              "key": "89a2264f-8f49-4032-bcc5-052943f4900c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "同学们，接下来你要来亲自完成一个实战项目了！本项目中使用的数据集来自于冰与火之歌的五王之战，该数据中包含了这段时间中的所有战争。你需要带着问题使用 Python 对数据集进行探索性的分析，比如：哪个国家胜利的次数最多，什么因素会影响一场战争的胜利与否？最终你会完成一份完整的数据分析报告，让我们拭目以待！\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 673843,
+          "key": "37e84355-8a00-4927-a930-0a95b8791a84",
+          "title": "项目说明",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37e84355-8a00-4927-a930-0a95b8791a84",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 673840,
+              "key": "46b3b4fd-2b3a-4511-b4c6-9173908aa03b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 概览\n五王之战（War of the Five Kings）是著名严肃奇幻小说《冰与火之歌》中的著名内战。本项目使用了五王之战期间的战争的数据集，它是所有战斗的大集合。\n\n### 说明\n你的任务是自己提出感兴趣的问题，并利用已有的数据进行分析，通过调用先用的函数，来计算数据中的统计数据和让数据可视化，并得出结论。请按照项目工作区中的提示来操作。你可以直接在后面的项目工作区中完成项目，这个工作区中使用 Jupyter Notebook，这样，你可以在同一份文档中提交编写的代码和报告你的发现。\n\n\n### 项目任务\n应提交 ipynb 格式和 html 格式的文件。在本项目中，你需要完成下面完成的任务：\n1. 提出感兴趣的问题\n2. 对数据进行评估和清理\n3. 对数据集进行探索性分析\n4. 对数据可视化\n5. 得出结论\n\n项目模板中已经给出了数据分析的基本流程，你需要通过使用 Python 语言, 和 Python 中的常用包 （NumPy, Pandas, Matplotlib）对数据进行探索性分析。并通过分析回答自己提出的问题。\n\n### 审阅标准\n\n优达学城审阅专家将根据 [项目审阅标准](https://review.udacity.com/#!/rubrics/2090/view) 来评估你完成的项目。当你完成项目后，请以审阅标准为参考，记得在提交之前先进行自我评估。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 614487,
+          "key": "955dc484-8aab-4f0f-8ff4-d9b76c8b8d36",
+          "title": "项目工作区",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "955dc484-8aab-4f0f-8ff4-d9b76c8b8d36",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 614483,
+              "key": "5d4da5d9-5ced-4048-a123-fa140e4fa103",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view6f7fe0bd",
+              "pool_id": "jupyter",
+              "view_id": "6f7fe0bd-2ad0-4e55-86e2-8a3e047f9af0",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Game_of_thrones_battle_analysis.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 673842,
+          "key": "50183c23-041f-4047-8936-6048534f8bb4",
+          "title": "（可选）本地搭建环境",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "50183c23-041f-4047-8936-6048534f8bb4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 673839,
+              "key": "5a669096-128f-4c32-b789-54232260fc37",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果你感兴趣，我们也建议在本地安装 [Anaconda](https://www.continuum.io/downloads)，即使你已经在计算机上安装了 Python。如果你尚未设置计算机，请参阅我们课程中可选部分的 Anaconda 和 Jupyter notebook 简短课程设置计算机。你将学习如何为这门课程设置环境，需要安装 Python 3.6、Jupyter Notebook、NumPy、pandas、Matplotlib 和 Seaborn。\n\n Anaconda 包含大量专门针对数据科学的库和软件分发版本，某些库和软件比较难安装。同时，你可以很轻松地在计算机上[设置不同的环境](https://conda.io/docs/user-guide/tasks/manage-environments.html)，以便在不同版本的 Python 和软件包之间快速切换！例如，如果你正在处理的某个项目需要 Python 3.6 以及不同的依赖项，那么 Anaconda 的环境管理功能可以提供帮助。上面给出链接的 Anaconda 和 Jupyter notebook 免费课程讲授了如何处理这类情形。\n\n如果你的英语不是很熟练，你也可以在中文网站上搜索安装Anaconda的教程，比如[这个知乎帖子](https://www.zhihu.com/question/58033789)。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 737469,
+          "key": "86d6c917-2fdb-4484-97e9-462c83be7fb6",
+          "title": "写在最后的话",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86d6c917-2fdb-4484-97e9-462c83be7fb6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 737470,
+              "key": "87a6a8ee-07b2-47c7-b579-da43e8d64393",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 恭喜你！\n</br>\n你终于挑战了自我，来到 7 天试学的最后一关了，快给自己鼓鼓掌，你可能已经无形中超越了很多同龄人！\n\n不过，只能稍微放松一下哦，如果你想抓住人才红利，高效成为一名真正的数据分析师，还需要继续前行，和我们一起快速系统性地完成整个学习路径！\n\n### 试学班的课程设置\n</br>\n试学班的作用在于帮助同学在 7 天内对什么是数据分析，数据分析可以解决的问题，数据分析师从事的工作有直观的理解。因为这些可以帮助同学发掘兴趣点，坚定行业选择，从宏观的角度认识数据分析的知识架构，也会更明确自己的学习目标。因此，在试学班项目中，我们给出了一个数量级并不大，但是复杂度略高的“五王之战 - 冰与火之歌”数据集，并搭建了分析思路的框架，供同学体验整个数据分析的过程。\n\n有的同学可能会有疑问，为什么最终项目中没有参考答案，这样可以看到最专业的老师做到什么程度？数据分析中并没有标准答案，开放性很高，我们希望大家能够独立思考，不想限制同学的思路。不过，在 vip 班级的 workshop 中，我们会请来专业的数据分析师与你对同样的数据集展开分析，并进行分析思路的讲解，帮助同学了解真实业务中的分析思路和应用场景。\n\n除此之外，我们还希望你了解，在数据分析中技巧并不是最重要的，并非使用最 fancy 最复杂的分析技术才是好的分析。分析的本质是从数据中发现信息，最高效地解决问题。编程只是工具，请大家在今后的课程学习中也要围绕这一思路，把学习的侧重点放在如何解决问题和展示结论上，而不仅仅是编程技巧。\n\n\n### 正式班的课程设置\n</br>\n在数据分析师（进阶）中，我们会学到：\n\n* 统计学中的假设检验知识回顾，并对著名心理学现象 “斯普特鲁效应” 进行分析；\n* 通过网页、API 爬取或下载原始数据，使用 Python 进行清理；\n* 对复杂的数据集进行探索性分析（EDA），挖掘信息或者是做出预测，这里我们也会学习使用 R 语言；\n* 学习可视化的设计原则，使用 Tableau 更优雅地展示数据中的信息\n\n透过数据，你可以：\n\n* 发现规律（早上 10:00 发送营销邮件打开率最高）\n* 解释现象（为什么新上线的产品功能导致次日留存 20% 的提升？）\n* 验证假设（100 万的外卖补贴应当分配 80% 在高校商圈，原因是这部分消费者对价格更加敏感）\n* 创造机会（CVS 的无糖酸奶销量连续 2 年上升，建议公司明年推出低糖款乳酸菌饮料）\n讲好故事（更优雅地说服老板、客户和同事）\n\n\n祝你接下来的学习一切顺利！我们正式课程中见！\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
