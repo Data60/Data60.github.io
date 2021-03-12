@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:02.910
+Vamos criar nosso modelo linear de preço. Armazenarei
+
+00:00:02.910 --> 00:00:05.210
+o primeiro modelo em uma variável denominada
+
+00:00:05.210 --> 00:00:08.600
+m1. Você também deve ter observado como usei
+
+00:00:08.600 --> 00:00:12.810
+o wrapper I ao redor de cada variável. I
+
+00:00:12.810 --> 00:00:15.360
+significa como em. Neste caso, ele solicita que
+
+00:00:15.360 --> 00:00:19.650
+R use a expressão dentro da função I
+
+00:00:19.650 --> 00:00:22.090
+para transformar uma variável antes usá-la na
+
+00:00:22.090 --> 00:00:25.410
+regressão, em vez de instruir R a interpretar esses símbolos
+
+00:00:25.410 --> 00:00:29.110
+como parte da fórmula para construir a matriz
+
+00:00:29.110 --> 00:00:31.300
+de design para a regressão. Leia mais sobre a
+
+00:00:31.300 --> 00:00:33.810
+sintaxe dos modelos lineares nas notas do
+
+00:00:33.810 --> 00:00:37.350
+instrutor. Também posso atualizar o modelo anterior para
+
+00:00:37.350 --> 00:00:41.590
+adicionar a variável caret na regressão usando a sintaxe.
+
+00:00:41.590 --> 00:00:44.870
+A relação funcional real não é tão simples quanto a raiz
+
+00:00:44.870 --> 00:00:47.880
+ao cubo de caret, por isso, adicionamos
+
+00:00:47.880 --> 00:00:51.590
+uma função linear simples de caret no nosso modelo de previsão de preços.
+
+00:00:51.590 --> 00:00:54.570
+E continuamos criando modelos mais complexos
+
+00:00:54.570 --> 00:00:57.940
+adicionando mais variáveis. Adicionamos cut, mesmo não
+
+00:00:57.940 --> 00:01:01.520
+esperando que ele tenha muita influência no preço. Depois,
+
+00:01:01.520 --> 00:01:03.880
+adicionamos cor a um quarto modelo e claridade
+
+00:01:03.880 --> 00:01:07.710
+em um quinto. Ao executar o código, podemos ver
+
+00:01:07.710 --> 00:01:10.890
+que estamos obtendo alguns valores quadrados de R bons. Estamos contando
+
+00:01:10.890 --> 00:01:13.330
+com quase toda a variação no preço usando os
+
+00:01:13.330 --> 00:01:16.706
+quatro Cs. Se quisermos saber se o preço de um
+
+00:01:16.706 --> 00:01:19.590
+diamante é razoável, agora podemos usar este modelo.
+
