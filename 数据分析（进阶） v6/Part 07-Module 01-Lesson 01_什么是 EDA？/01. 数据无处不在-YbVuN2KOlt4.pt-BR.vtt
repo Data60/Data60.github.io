@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.410 --> 00:00:04.150
+Olá. Seja bem-vindo à análise exploratória de dados, ou EDA. Nos
+
+00:00:04.150 --> 00:00:07.610
+últimos meses, aprendi sobre R, uma linguagem de programação, e sobre EDA
+
+00:00:07.610 --> 00:00:10.420
+com a ajuda de meus amigos do Facebook. Neste curso,
+
+00:00:10.420 --> 00:00:14.410
+ensinarei a você como usar o R para realizar uma análise exploratória de dados.
+
+00:00:14.410 --> 00:00:15.810
+&gt;&gt; O EDA é uma parte do
+
+00:00:15.810 --> 00:00:19.010
+processo maior de coletar, aprender com e agir
+
+00:00:19.010 --> 00:00:21.350
+nos dados. Neste curso, irei compartilhar
+
+00:00:21.350 --> 00:00:24.730
+meus conselhos sobre como trabalhar com dados e visualizações.
+
+00:00:24.730 --> 00:00:25.640
+&gt;&gt; No final deste curso,
+
+00:00:25.640 --> 00:00:27.930
+você deverá ter confiança para explorar novos conjuntos
+
+00:00:27.930 --> 00:00:31.250
+de dados para descobrir padrões significativos. Na última lição,
+
+00:00:31.250 --> 00:00:33.190
+passarei por uma análise do mercado de
+
+00:00:33.190 --> 00:00:36.600
+diamantes com um olho na direção da construção de modelos preditivos.
+
+00:00:36.600 --> 00:00:38.880
+&gt;&gt; Estamos empolgados para dar este curso e mostrar a você
+
+00:00:38.880 --> 00:00:42.460
+como a EDA pode ser usada para responder a perguntas com dados. Mas, antes
+
+00:00:42.460 --> 00:00:45.620
+de mergulharmos na EDA, vamos falar sobre dados. Os dados são
+
+00:00:45.620 --> 00:00:47.900
+abundantes. Você pode encontrar informações sobre
+
+00:00:47.900 --> 00:00:50.990
+furacões, incêndios florestais e finanças estaduais
+
+00:00:50.990 --> 00:00:54.650
+em sites da Web como data.gov. Sites de redes sociais como o
+
+00:00:54.650 --> 00:00:58.400
+Facebook, onde trabalhamos, coletam petabytes de dados todos os dias.
+
+00:00:58.400 --> 00:01:00.780
+E algumas pessoas começaram a rastrear seus próprios dados
+
+00:01:00.780 --> 00:01:04.540
+pessoais usando calendários, aplicativos móveis e controladores de atividade física.
+
+00:01:05.810 --> 00:01:07.290
+&gt;&gt; Existem tantos dados no mundo
+
+00:01:07.290 --> 00:01:10.530
+e tão pouco disso foi explorado.
+
+00:01:10.530 --> 00:01:12.970
+Por exemplo, eu estava navegando pelo Google Trends
+
+00:01:12.970 --> 00:01:16.080
+outro dia e veja o que encontrei. Eu pesquisei
+
+00:01:16.080 --> 00:01:17.940
+a palavra chicken, porque tinha lido um
+
+00:01:17.940 --> 00:01:21.580
+artigo pela manhã sobre envenenamento e salmonela em alimentos com frango.
+
+00:01:21.580 --> 00:01:24.050
+E quando pesquisei a palavra, o Google Trends me
+
+00:01:24.050 --> 00:01:27.710
+forneceu este gráfico. Este gráfico mostra o interesse em pesquisar
+
+00:01:27.710 --> 00:01:30.650
+a palavra chicken ao longo do tempo. Na verdade, ele está contando
+
+00:01:30.650 --> 00:01:33.280
+quantas vezes a palavra chicken aparece na manchete de qualquer jornal
+
+00:01:33.280 --> 00:01:38.380
+em um determinado mês. Portanto, de 2005 a 2013,
+
+00:01:38.380 --> 00:01:42.070
+podemos ver que as ocorrências de chicken foram aumentando. Mas
+
+00:01:42.070 --> 00:01:44.480
+eu não queria parar minha pesquisa aqui; então, decidi
+
+00:01:44.480 --> 00:01:48.290
+digitar mais duas palavras genéricas para ver o que encontraria.
+
+00:01:48.290 --> 00:01:51.620
+Digitei a palavra music e a palavra movies.
+
+00:01:51.620 --> 00:01:54.170
+E, então, recebi este gráfico. Agora, quando você olha para este
+
+00:01:54.170 --> 00:01:57.840
+gráfico, diga-me o que consegue observar. Você pode falar
+
+00:01:57.840 --> 00:02:01.120
+sobre qualquer coisa interessante que encontrar neste gráfico ou pode
+
+00:02:01.120 --> 00:02:04.150
+comparar o primeiro gráfico com este e escrever algumas coisas
+
+00:02:04.150 --> 00:02:07.134
+que descobrir. Lembre-se de que não há resposta certa ou
+
+00:02:07.134 --> 00:02:09.460
+errada aqui, eu quero apenas que você pense sobre os dados.
+

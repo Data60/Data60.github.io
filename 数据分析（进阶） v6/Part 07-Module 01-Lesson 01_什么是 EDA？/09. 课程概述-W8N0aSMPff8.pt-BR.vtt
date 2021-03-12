@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:03.750
+As visualizações como esta se referem a um componente principal da análise de dados
+
+00:00:03.750 --> 00:00:06.840
+exploratória. Vamos usar a linguagem de
+
+00:00:06.840 --> 00:00:09.756
+programação R para criar esses tipos de visualizações e para explorar
+
+00:00:09.756 --> 00:00:12.340
+os dados por todo o curso. Você pode ler mais sobre a linguagem de programação R
+
+00:00:12.340 --> 00:00:15.510
+e como ela foi desenvolvido clicando no link
+
+00:00:15.510 --> 00:00:18.773
+nas notas do instrutor. Também vamos aprender sobre RStudio,
+
+00:00:18.773 --> 00:00:22.380
+que é este programa. É uma interface gráfica do usuário
+
+00:00:22.380 --> 00:00:25.410
+para programação no R. Você aprenderá tudo sobre RStudio na próxima
+
+00:00:25.410 --> 00:00:29.010
+lição e as lições futuras abrangerão as técnicas de visualização e estatística
+
+00:00:29.010 --> 00:00:33.040
+para exploração de dados. Vamos iniciar examinando uma variável
+
+00:00:33.040 --> 00:00:35.600
+de cada vez em um conjunto de dados. Isso nos fornecerá
+
+00:00:35.600 --> 00:00:38.660
+uma ideia de sua distribuição subjacente e dos tipos de
+
+00:00:38.660 --> 00:00:42.040
+valores que a variável assume. No final, nossas visualizações
+
+00:00:42.040 --> 00:00:45.390
+se tornarão mais complexas, conforme verificamos os pares de variáveis e
+
+00:00:45.390 --> 00:00:47.880
+e várias variáveis todas de uma vez. No fim do
+
+00:00:47.880 --> 00:00:50.460
+curso você terá a chance de conduzir sua própria
+
+00:00:50.460 --> 00:00:53.880
+análise exploratória de dados. Espero que você esteja animado
+
+00:00:53.880 --> 00:00:56.020
+para explorar os dados. Até a próxima lição.
+

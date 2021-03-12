@@ -1,0 +1,109 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.750 --> 00:00:04.230
+Mas o que é análise exploratória de dados exatamente? Você
+
+00:00:04.230 --> 00:00:06.670
+pode conferir a definição da Wikipédia nas Notas
+
+00:00:06.670 --> 00:00:09.750
+do instrutor, mas em poucas palavras, é uma abordagem para
+
+00:00:09.750 --> 00:00:14.710
+entender dados usando ferramentas de visualização e estatística. Pense no
+
+00:00:14.710 --> 00:00:18.050
+EDA como sua interação inicial com os dados. Por
+
+00:00:18.050 --> 00:00:19.670
+exemplo, vamos supor que queremos ver
+
+00:00:19.670 --> 00:00:22.080
+um conjunto de carros. Estes dados vêm do conjunto
+
+00:00:22.080 --> 00:00:24.480
+de dados MT cars, que vem com o R Studio.
+
+00:00:25.550 --> 00:00:27.970
+Agora, não poderíamos chegar a qualquer conclusão apenas
+
+00:00:27.970 --> 00:00:31.020
+lendo a tabela. Seria bem difícil.
+
+00:00:31.020 --> 00:00:32.740
+Então, o que queremos fazer é entender a
+
+00:00:32.740 --> 00:00:36.070
+distribuição das variáveis para coisas como milhas por
+
+00:00:36.070 --> 00:00:40.580
+galão, cilindradas e talvez cavalos de potência. Poderíamos
+
+00:00:40.580 --> 00:00:43.440
+criar histogramas, que veremos mais tarde na lição três.
+
+00:00:43.440 --> 00:00:45.890
+Este histograma mostra a distribuição dos pesos de todos
+
+00:00:45.890 --> 00:00:51.330
+os carros. Ou poderíamos examinar as correlações entre variáveis como
+
+00:00:51.330 --> 00:00:54.000
+milhas por galão e cavalos de potência. Nesse caso,
+
+00:00:54.000 --> 00:00:56.740
+seria melhor criarmos um gráfico de dispersão. Vamos examiná-los
+
+00:00:56.740 --> 00:01:00.100
+na lição quatro. Nosso segundo objetivo é avaliar
+
+00:01:00.100 --> 00:01:04.099
+e validar os pressupostos nos quais inferências futuras serão baseadas.
+
+00:01:04.099 --> 00:01:07.030
+Então, poderíamos fazer perguntas como quais variáveis são
+
+00:01:07.030 --> 00:01:10.590
+normalmente distribuídas. Ou poderíamos querer saber se uma variável
+
+00:01:10.590 --> 00:01:13.600
+é influenciada por um valor específico. Agora, esse pode
+
+00:01:13.600 --> 00:01:16.408
+não ser o caso para nosso conjunto de dados de carros, mas
+
+00:01:16.408 --> 00:01:19.683
+certamente em outros casos, como comportamento social ou interação
+
+00:01:19.683 --> 00:01:22.560
+dos usuários na Web, você pode achar que é. Terceiro,
+
+00:01:22.560 --> 00:01:24.550
+você pode querer entender os dados antes de realizar uma
+
+00:01:24.550 --> 00:01:27.560
+hipótese inteligente. Bem, o EDA pode ser a fonte de
+
+00:01:27.560 --> 00:01:30.140
+uma ideia para um experimento. Não é um processo
+
+00:01:30.140 --> 00:01:32.160
+formal de testes de hipóteses e
+
+00:01:32.160 --> 00:01:35.190
+modelagem preditiva. Enfim, estamos desenvolvendo a
+
+00:01:35.190 --> 00:01:37.570
+intuição do nosso conjunto de dados
+
+00:01:37.570 --> 00:01:41.560
+e como ele surgiu. Ao examinar nossos dados, podemos gerar uma
+
+00:01:41.560 --> 00:01:45.560
+melhor hipótese, determinar quais variáveis têm mais poder preditivo
+
+00:01:45.560 --> 00:01:48.870
+e selecionar ferramentas de estatística apropriadas para construir nossos modelos preditivos.
+

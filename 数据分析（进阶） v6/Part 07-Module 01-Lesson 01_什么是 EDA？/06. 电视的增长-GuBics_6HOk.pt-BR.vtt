@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.980 --> 00:00:04.130
+Este vídeo não contém uma lista completa de tudo o que você
+
+00:00:04.130 --> 00:00:07.140
+pode ter relacionado à análise exploratória de dados. Mas, aqui estão
+
+00:00:07.140 --> 00:00:09.390
+algumas das coisas em que você pensou. Se você
+
+00:00:09.390 --> 00:00:13.510
+tiver outras ideias, compartilhe-as no fórum. Primeiro,
+
+00:00:13.510 --> 00:00:16.290
+percebi que Nathan usou histogramas
+
+00:00:16.290 --> 00:00:19.910
+para mostrar a distribuição de tamanhos de TV em um determinado ano.
+
+00:00:19.910 --> 00:00:23.190
+Você também pode ver que para cada ano, Nathan incluiu
+
+00:00:23.190 --> 00:00:26.050
+uma linha preta no meio. Que representa o tamanho médio
+
+00:00:26.050 --> 00:00:28.900
+da televisão no ano. Em 2005, parece que
+
+00:00:28.900 --> 00:00:32.950
+o tamanho médio da TV era de 40 polegadas. Assim, metade
+
+00:00:32.950 --> 00:00:35.670
+das TVs eram maiores e outra metade eram menores.
+
+00:00:35.670 --> 00:00:39.410
+Segundo, Nathan descreve a origem dos dados. Neste caso, ele
+
+00:00:39.410 --> 00:00:44.110
+obteve os dados das análises da CNET. Nathan descreve uma ressalva
+
+00:00:44.110 --> 00:00:46.470
+na fonte de seus dados. Ele mencionou que os
+
+00:00:46.470 --> 00:00:48.570
+tamanhos de tela são baseados nas TVs que estavam no
+
+00:00:48.570 --> 00:00:51.070
+mercado no momento, e não em quantas pessoas
+
+00:00:51.070 --> 00:00:54.100
+as compraram. O tamanho médio da televisão que as pessoas
+
+00:00:54.100 --> 00:00:57.070
+compraram poderia ser um pouco diferente do tamanho médio da televisão
+
+00:00:57.070 --> 00:00:59.870
+no mercado. Acho que a segunda parte é essencial
+
+00:00:59.870 --> 00:01:02.350
+e algo que devemos lembrar ao explorar qualquer conjunto
+
+00:01:02.350 --> 00:01:05.010
+de dados. Sempre devemos ser céticos quanto à história que
+
+00:01:05.010 --> 00:01:07.640
+os dados estão contando. Devemos fazer perguntas sobre nossos dados,
+
+00:01:07.640 --> 00:01:11.550
+examiná-los e considerar seu contexto. Por fim, Nathan fez uma
+
+00:01:11.550 --> 00:01:16.550
+análise de série temporal. A cada ano depois de 2002, Nathan indica
+
+00:01:16.550 --> 00:01:20.080
+se o tamanho médio de televisões aumentou,
+
+00:01:20.080 --> 00:01:23.140
+ou se diminuiu ou não. No
+
+00:01:23.140 --> 00:01:27.060
+caso do círculo, sabemos que o tamanho da televisão permaneceu o mesmo.
+
+00:01:27.060 --> 00:01:31.100
+Isso me faz pensar em quais tamanhos de televisão estão fabricando agora. Talvez você encontre
+
+00:01:31.100 --> 00:01:33.560
+alguns dados por aí e nos conte ao fim do curso.
+
