@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.780
+Embora não pareça haver uma correlação entre
+
+00:00:02.780 --> 00:00:05.310
+as duas variáveis, vamos pensar um pouco
+
+00:00:05.310 --> 00:00:09.145
+mais. O que temos no eixo x? Months. E o que há no
+
+00:00:09.145 --> 00:00:13.010
+eixo x? Temperature. Sabemos que esta variável de mês é
+
+00:00:13.010 --> 00:00:16.890
+muito discreta. Teremos meses de janeiro a dezembro
+
+00:00:16.890 --> 00:00:19.460
+e eles se repetirão várias vezes. Vamos nos certificar
+
+00:00:19.460 --> 00:00:21.740
+que adicionamos esse detalhe ao gráfico. Aqui está o código
+
+00:00:21.740 --> 00:00:25.010
+que usamos para criar o gráfico usando a sintaxe ggplot.
+
+00:00:25.010 --> 00:00:27.100
+Qual camada e sintaxe você adicionaria a
+
+00:00:27.100 --> 00:00:29.810
+este gráfico para fazer essa alteração? Digite
+
+00:00:29.810 --> 00:00:31.440
+seu código aqui. Você quer interromper
+
+00:00:31.440 --> 00:00:34.170
+a abertura do eixo x a cada 12 meses, dessa forma,
+
+00:00:34.170 --> 00:00:36.240
+isso corresponde a um ano. Vou permitir que você
+
+00:00:36.240 --> 00:00:38.370
+descubra quais devem ser os limites inferior e superior do
+
+00:00:38.370 --> 00:00:40.600
+eixo x. O que
+
+00:00:40.600 --> 00:00:42.870
+você acha? Qual camada e sintaxe devemos adicionar?
+

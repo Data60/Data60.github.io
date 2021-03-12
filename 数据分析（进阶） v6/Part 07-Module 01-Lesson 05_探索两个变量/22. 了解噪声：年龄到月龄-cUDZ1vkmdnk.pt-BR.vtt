@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:03.000
+Para converter idade em idade com meses, precisaremos
+
+00:00:03.000 --> 00:00:06.660
+adicionar uma fração à variável age. Como
+
+00:00:06.660 --> 00:00:08.810
+há 12 meses em um ano, sabemos que 12
+
+00:00:08.810 --> 00:00:12.680
+será o denominador. Vamos pensar com cuidado em idade. Para um
+
+00:00:12.680 --> 00:00:15.560
+ano, alguém que nasceu em março seria
+
+00:00:15.560 --> 00:00:19.480
+mais velho que alguém nascido em setembro. Portanto, precisamos subtrair
+
+00:00:19.480 --> 00:00:22.900
+o mês de nascimento de 12 para refletir isso. Isso faria sentido,
+
+00:00:22.900 --> 00:00:25.370
+já que alguém nascido em março nasceu no
+
+00:00:25.370 --> 00:00:27.930
+terceiro mês do ano. Nosso numerador aqui
+
+00:00:27.930 --> 00:00:30.610
+é sete. Para alguém com 36 anos nascido
+
+00:00:30.610 --> 00:00:34.610
+em março, a idade é de 36,75. Se o usuário nasceu
+
+00:00:34.610 --> 00:00:37.590
+em setembro e também tem 36, a idade dele
+
+00:00:37.590 --> 00:00:41.410
+é 36,25. Vamos executar este
+
+00:00:41.410 --> 00:00:44.670
+código e converter nossa variável age medida em anos para
+
+00:00:44.670 --> 00:00:47.400
+idade em meses. Parece que cometi
+
+00:00:47.400 --> 00:00:50.880
+um erro. Esqueci de incluir minha estrutura de dados do mês de nascimento.
+
+00:00:50.880 --> 00:00:51.930
+Agora estamos prontos para começar.
+
