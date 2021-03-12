@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.460 --> 00:00:03.300
+Bem-vindo à lição dois. Nesta lição, vamos aprender
+
+00:00:03.300 --> 00:00:06.500
+as vantagens de usar R para executar análises de dados.
+
+00:00:06.500 --> 00:00:09.280
+Vamos instalar o R Studio. E vamos aprender os tipos de dados
+
+00:00:09.280 --> 00:00:12.360
+e comandos básicos do R. Antes de iniciarmos, quero
+
+00:00:12.360 --> 00:00:14.990
+compartilhar como um cientista de dados usou o R
+
+00:00:14.990 --> 00:00:17.710
+para melhorar os resultados de saúde dos cidadãos de Chicago,
+
+00:00:17.710 --> 00:00:22.520
+Illinois. O cientista de dados Corey Nissen usou a linguagem de programação R
+
+00:00:22.520 --> 00:00:25.665
+para analisar tweets de pessoas da cidade de Chicago.
+
+00:00:25.665 --> 00:00:29.790
+Corey analisou tweets em tempo real, procurando por pelas palavras food poisoning
+
+00:00:29.790 --> 00:00:32.689
+em cada uma delas. Quero que você leia mais sobre sua análise e
+
+00:00:32.689 --> 00:00:36.170
+seu trabalho, clicando no link nas notas do instrutor. Tente
+
+00:00:36.170 --> 00:00:39.540
+encontrar as respostas para essas próximas três perguntas, conforme você lê o artigo.
+

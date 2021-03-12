@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.480 --> 00:00:02.719
+Corey usou o pacote R chamado
+
+00:00:02.719 --> 00:00:06.490
+textcat. No próximo vídeo, veremos o que podemos fazer
+
+00:00:06.490 --> 00:00:10.000
+com os pacotes R. Na segunda pergunta, o
+
+00:00:10.000 --> 00:00:14.210
+sistema automatizado captura entre dez e vinte tweets por dia.
+
+00:00:14.210 --> 00:00:16.680
+Para cada tweet, o sistema recomendará que o
+
+00:00:16.680 --> 00:00:20.070
+remetente do tweet registre um relatório. Para a última
+
+00:00:20.070 --> 00:00:23.040
+pergunta, aceitamos qualquer texto como resposta. Considero
+
+00:00:23.040 --> 00:00:25.870
+a parte mais interessante quando Corey mostrou o classificador
+
+00:00:25.870 --> 00:00:29.730
+de código R aberto em GitHub. GitHub é um repositório
+
+00:00:29.730 --> 00:00:32.689
+para compartilhar código. Para saber mais sobre o GitHub, abra os links em
+
+00:00:32.689 --> 00:00:35.730
+Notas do instrutor. Este é o repositório mais conhecido
+
+00:00:35.730 --> 00:00:38.820
+para projetos de código aberto. É fácil começar.
+

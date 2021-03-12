@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.490 --> 00:00:04.900
+R é a linguagem de programação principal para estatísticas e análise de dados.
+
+00:00:04.900 --> 00:00:07.120
+Uma das principais vantagens de usar R é que
+
+00:00:07.120 --> 00:00:10.550
+podemos criar uma análise linha por linha no código. Podemos
+
+00:00:10.550 --> 00:00:12.560
+poupar todo o nosso trabalho em um arquivo e
+
+00:00:12.560 --> 00:00:15.740
+voltar para ver o que investigamos em uma data posterior. Ter
+
+00:00:15.740 --> 00:00:18.830
+scripts R permite que você compartilhe facilmente seu trabalho com os outros.
+
+00:00:18.830 --> 00:00:20.950
+E você pode ver o que os outros estão fazendo com os dados. R
+
+00:00:20.950 --> 00:00:26.220
+também tem mais de 2.000 pacotes fornecidos por usuários que aumentam sua funcionalidade.
+
+00:00:26.220 --> 00:00:29.070
+Um exemplo disso é o pacote de análise de texto, TextCat, que
+
+00:00:29.070 --> 00:00:31.830
+você acabou de ver. Agora, um dos principais pacotes que
+
+00:00:31.830 --> 00:00:35.880
+usaremos ao longo deste curso é ggplot2. Ggplot2 é um pacote de gráficos que
+
+00:00:35.880 --> 00:00:39.550
+permite criar plotagens e gráficos com apenas alguns comandos.
+
+00:00:39.550 --> 00:00:42.770
+Vamos saber mais sobre ggplot na próxima lição, mas só
+
+00:00:42.770 --> 00:00:45.000
+para dar uma palhinha dele, este é um exemplo de
+
+00:00:45.000 --> 00:00:48.110
+gráfico que você pode criar. Agora, não se preocupe em memorizar ou
+
+00:00:48.110 --> 00:00:51.350
+compreender todo esse código. Você ainda vai praticar muito com isso
+
+00:00:51.350 --> 00:00:53.780
+mais tarde no curso. Eu só quero mostrar
+
+00:00:53.780 --> 00:00:57.110
+como algumas linhas de código podem criar gráficos surpreendentes.
+
+00:00:57.110 --> 00:00:59.280
+Vou carregar a biblioteca ggplot e uma biblioteca
+
+00:00:59.280 --> 00:01:02.360
+de cores. Então, vou carregar o conjunto de dados diamonds e, com
+
+00:01:02.360 --> 00:01:05.310
+esta função, vou criar um gráfico de dispersão. Vamos verificar
+
+00:01:05.310 --> 00:01:09.540
+este gráfico em detalhes. Esta parte mostra a relação entre preço e
+
+00:01:09.540 --> 00:01:13.430
+quilate de quase 54.000 diamantes de corte redondo. Eu diria que o
+
+00:01:13.430 --> 00:01:16.550
+R está se saindo muito bem nessas poucas linhas de código.
+
+00:01:16.550 --> 00:01:18.180
+A última coisa que quero mencionar é que você
+
+00:01:18.180 --> 00:01:21.390
+pode usar o R em qualquer lugar. É um software de código aberto gratuito que
+
+00:01:21.390 --> 00:01:24.240
+funciona em qualquer sistema operacional. E, em razão disso,
+
+00:01:24.240 --> 00:01:27.620
+o R tem um grande e crescente comunidade de usuários.
+
