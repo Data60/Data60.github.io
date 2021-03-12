@@ -1,0 +1,459 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   回归线性方程
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      回归
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 连续输出.html">
+       01. 连续输出
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 连续.html">
+       02. 连续
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 年龄：连续还是离散？.html">
+       03. 年龄：连续还是离散？
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 天气：连续还是离散？.html">
+       04. 天气：连续还是离散？
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 电子邮件作者：连续还是离散？.html">
+       05. 电子邮件作者：连续还是离散？
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 电话号码：连续还是离散？.html">
+       06. 电话号码：连续还是离散？
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 收入：连续还是离散？.html">
+       07. 收入：连续还是离散？
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 连续特征.html">
+       08. 连续特征
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 具有连续输出的监督学习.html">
+       09. 具有连续输出的监督学习
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 回归线性方程.html">
+       10. 回归线性方程
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 斜率和截距.html">
+       11. 斜率和截距
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 斜率.html">
+       12. 斜率
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 截距.html">
+       13. 截距
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 使用回归的预测.html">
+       14. 使用回归的预测
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 添加截距.html">
+       15. 添加截距
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 移交给 Katie.html">
+       16. 移交给 Katie
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 编码.html">
+       17. 编码
+      </a>
+     </li>
+     <li class="">
+      <a href="18. sklearn 中的年龄净值回归.html">
+       18. sklearn 中的年龄/净值回归
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 通过 sklearn 提取信息.html">
+       19. 通过 sklearn 提取信息
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 通过 sklearn 提取分数数据.html">
+       20. 通过 sklearn 提取分数数据
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 现在你练习提取信息.html">
+       21. 现在你练习提取信息
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 线性回归误差.html">
+       22. 线性回归误差
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 误差.html">
+       23. 误差
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 误差和拟合质量.html">
+       24. 误差和拟合质量
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 最小化误差平方和.html">
+       25. 最小化误差平方和
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 最小化误差平方和的算法.html">
+       26. 最小化误差平方和的算法
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 为何最小化 SSE.html">
+       27. 为何最小化 SSE
+      </a>
+     </li>
+     <li class="">
+      <a href="28. 最小化绝对误差的问题.html">
+       28. 最小化绝对误差的问题
+      </a>
+     </li>
+     <li class="">
+      <a href="29. 肉眼评估回归.html">
+       29. 肉眼评估回归
+      </a>
+     </li>
+     <li class="">
+      <a href="30. SSE 的问题.html">
+       30. SSE 的问题
+      </a>
+     </li>
+     <li class="">
+      <a href="31. 回归的 R 平方指标.html">
+       31. 回归的 R 平方指标
+      </a>
+     </li>
+     <li class="">
+      <a href="32. SKlearn 中的 R 平方.html">
+       32. SKlearn 中的 R 平方
+      </a>
+     </li>
+     <li class="">
+      <a href="33. 可视化回归.html">
+       33. 可视化回归
+      </a>
+     </li>
+     <li class="">
+      <a href="34. 什么数据适用于线性回归.html">
+       34. 什么数据适用于线性回归
+      </a>
+     </li>
+     <li class="">
+      <a href="35. 比较分类与回归.html">
+       35. 比较分类与回归
+      </a>
+     </li>
+     <li class="">
+      <a href="36. 多元回归.html">
+       36. 多元回归
+      </a>
+     </li>
+     <li class="">
+      <a href="37. 多元回归 2.html">
+       37. 多元回归 2
+      </a>
+     </li>
+     <li class="">
+      <a href="38. 回归迷你项目简介.html">
+       38. 回归迷你项目简介
+      </a>
+     </li>
+     <li class="">
+      <a href="39. 回归迷你项目.html">
+       39. 回归迷你项目
+      </a>
+     </li>
+     <li class="">
+      <a href="40. 奖金目标和特征.html">
+       40. 奖金目标和特征
+      </a>
+     </li>
+     <li class="">
+      <a href="41. 可视化回归数据.html">
+       41. 可视化回归数据
+      </a>
+     </li>
+     <li class="">
+      <a href="42. 提取斜率和截距.html">
+       42. 提取斜率和截距
+      </a>
+     </li>
+     <li class="">
+      <a href="43. 回归分数：训练数据.html">
+       43. 回归分数：训练数据
+      </a>
+     </li>
+     <li class="">
+      <a href="44. 回归分数：测试数据.html">
+       44. 回归分数：测试数据
+      </a>
+     </li>
+     <li class="">
+      <a href="45. 根据 LTI 回归奖金.html">
+       45. 根据 LTI 回归奖金
+      </a>
+     </li>
+     <li class="">
+      <a href="46. 工资与预测奖金的 LTI.html">
+       46. 工资与预测奖金的 LTI
+      </a>
+     </li>
+     <li class="">
+      <a href="47. 异常值破坏回归.html">
+       47. 异常值破坏回归
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          10. 回归线性方程
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          回归线性方程
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="10. 回归线性方程---Pc1ASVjmM.mp4" type="video/mp4"/>
+           <track default="true" kind="subtitles" label="en" src="10. 回归线性方程---Pc1ASVjmM.en.vtt" srclang="en"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="10. 回归线性方程---Pc1ASVjmM.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="true" kind="subtitles" label="en-US" src="10. 回归线性方程---Pc1ASVjmM.en-US.vtt" srclang="en-US"/>
+           <track default="false" kind="subtitles" label="ar" src="10. 回归线性方程---Pc1ASVjmM.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="10. 回归线性方程---Pc1ASVjmM.pt-BR.vtt" srclang="pt-BR"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div style="display: block;">
+           <div style="position: relative;">
+            <img alt="" src="img/2950318631.gif" style="width: 100%; max-height: 100%"/>
+            <div style="
+    position: absolute; top: 12.132760532150776%; left: 64.95285224438902%; width: 9.850374064837904%; height: 9.977827050997783%;
+  ">
+             <input aria-label="" id="numeric1" name="null" style="width: 100%; height: 100%;" type="number"/>
+            </div>
+            <div style="
+    position: absolute; top: 14.810837028824833%; left: 85.785536159601%; width: 10.099750623441397%; height: 9.534368070953436%;
+  ">
+             <input aria-label="" id="numeric2" name="null" style="width: 100%; height: 100%;" type="number"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="10. 回归线性方程-O4jFvJWal6s.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="ar" src="10. 回归线性方程-O4jFvJWal6s.ar.vtt" srclang="ar"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="10. 回归线性方程-O4jFvJWal6s.zh-CN.vtt" srclang="zh-CN"/>
+             <track default="true" kind="subtitles" label="en" src="10. 回归线性方程-O4jFvJWal6s.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="10. 回归线性方程-O4jFvJWal6s.pt-BR.vtt" srclang="pt-BR"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="11. 斜率和截距.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('10. 回归线性方程')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
