@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:02.920
+Para criar este gráfico de dispersão, vamos usar nossa função gráfico GG.
+
+00:00:02.920 --> 00:00:06.540
+Vamos passá-la para a estrutura de dados de Mitchell. Passaremos nossa
+
+00:00:06.540 --> 00:00:09.910
+variável de mês para x e nossa variável de temperatura para y, e
+
+00:00:09.910 --> 00:00:13.260
+encapsular isso no wrapper AES. A última coisa que faremos é
+
+00:00:13.260 --> 00:00:16.730
+adicionar o ponto GM, assim criamos um gráfico de dispersão. E
+
+00:00:16.730 --> 00:00:19.190
+aqui está ele. Se você tivesse usado uma sintaxe q plot, ele teria
+
+00:00:19.190 --> 00:00:21.890
+sido um pouco mais curto. E ainda teríamos a mesma plotagem.
+
+00:00:21.890 --> 00:00:25.380
+q plot é muito inteligente aqui, uma vez que ela sabe automaticamente que x
+
+00:00:25.380 --> 00:00:27.220
+é a variável de mês e y é a variável de
+
+00:00:27.220 --> 00:00:31.300
+temperatura. Essas variáveis são passadas em ordem alfabética para os parâmetros
+
+00:00:31.300 --> 00:00:33.860
+X e depois Y. Como X e Y
+
+00:00:33.860 --> 00:00:36.255
+são usados, q plot [INAUDIBLE] é para criar um gráfico de dispersão [UNKNOWN].
+

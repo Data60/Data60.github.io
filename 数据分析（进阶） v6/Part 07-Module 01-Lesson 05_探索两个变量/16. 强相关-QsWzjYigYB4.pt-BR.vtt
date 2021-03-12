@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:02.640
+Para determinar o coeficiente de correlação, vamos executar
+
+00:00:02.640 --> 00:00:06.290
+nossa função cor.test. Enviaremos nossas duas variáveis,
+
+00:00:06.290 --> 00:00:10.430
+www_likes_received e likes_received. Isso nos dá
+
+00:00:10.430 --> 00:00:14.700
+uma correlação de 0,948. Esta é uma correlação positiva
+
+00:00:14.700 --> 00:00:18.110
+forte e, na realidade, a maioria das variáveis não está correlacionada
+
+00:00:18.110 --> 00:00:21.350
+de maneira tão estreita. A correlação que encontramos foi
+
+00:00:21.350 --> 00:00:23.880
+um artefato da natureza das variáveis. Uma
+
+00:00:23.880 --> 00:00:26.140
+deles era realmente um superconjunto da outra.
+
