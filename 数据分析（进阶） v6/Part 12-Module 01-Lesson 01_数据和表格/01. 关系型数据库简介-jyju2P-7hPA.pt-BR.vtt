@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.880
+Bem-vindo à introdução aos bancos de
+dados relacionais. Bancos de dados
+
+00:00:03.880 --> 00:00:07.390
+relacionais são uma das ferramentas de desenvolvedor back-end
+mais poderosas.
+
+00:00:07.390 --> 00:00:10.070
+No final deste curso,
+você será capaz de organizar e
+
+00:00:10.070 --> 00:00:13.450
+armazenar os dados do seu aplicativo
+em um banco de dados relacional.
+
+00:00:13.450 --> 00:00:16.720
+Você praticará os fundamentos do SQL,
+a linguagem para consultar e
+
+00:00:16.720 --> 00:00:18.770
+popular os bancos de dados, e
+
+00:00:18.770 --> 00:00:22.890
+você será capaz de escrever o código Python para
+servir um aplicativo Web baseado em banco de dados.
+
+00:00:22.890 --> 00:00:26.680
+E para usar o banco de dados como uma ferramenta para
+responder a novas perguntas.
+
+00:00:26.680 --> 00:00:29.990
+Vamos falar sobre o que vamos
+fazer em cada lição deste curso.
+
+00:00:29.990 --> 00:00:32.619
+Na primeira lição, você aprenderá
+alguns conceitos sobre como
+
+00:00:32.619 --> 00:00:35.140
+organizamos os dados em bancos de dados relacionais.
+
+00:00:35.140 --> 00:00:39.650
+Na segunda, você aprenderá a usar o
+SQL para buscar dados em um banco de dados e
+
+00:00:39.650 --> 00:00:41.610
+inserir novos dados nele.
+
+00:00:41.610 --> 00:00:44.700
+A terceira lição abordará
+a API de banco de dados Python,
+
+00:00:44.700 --> 00:00:47.980
+que permite que você vincule seu código Python
+a um servidor de banco de dados, e
+
+00:00:47.980 --> 00:00:50.910
+você adaptará um aplicativo Web
+a um banco de dados.
+
+00:00:50.910 --> 00:00:53.550
+A quarta lição abordará
+a definição de novas tabelas e
+
+00:00:53.550 --> 00:00:55.490
+a realização de consultas mais avançadas.
+
+00:00:55.490 --> 00:00:58.950
+E finalmente reuniremos tudo isso
+em um projeto usando um banco de dados para
+
+00:00:58.950 --> 00:01:00.210
+planejar um torneio de jogos.
+

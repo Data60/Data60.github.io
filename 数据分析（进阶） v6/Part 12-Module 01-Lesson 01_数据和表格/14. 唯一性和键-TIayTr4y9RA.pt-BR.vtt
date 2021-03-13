@@ -1,0 +1,161 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:03.900
+Em muitos bancos de dados, estamos falando
+sobre entidades únicas no mundo,
+
+00:00:03.900 --> 00:00:10.520
+como indivíduos, locais,
+contas de email, cidades ou gorilas.
+
+00:00:10.520 --> 00:00:13.680
+Se algo for único,
+não pode haver dois dele.
+
+00:00:13.680 --> 00:00:17.910
+Por exemplo, nomes não são únicos,
+nem mesmo nomes completos.
+
+00:00:17.910 --> 00:00:21.470
+Existem várias pessoas no
+mundo chamadas Jennifer Smith.
+
+00:00:21.470 --> 00:00:25.810
+Mas uma pessoa em particular chamada Jennifer
+Smith ainda é um indivíduo único.
+
+00:00:25.810 --> 00:00:29.710
+Você não iria querer dar para uma pessoa
+as notas de outra ou
+
+00:00:29.710 --> 00:00:32.780
+os bilhetes de estacionamento delas,
+apenas porque elas têm o mesmo nome.
+
+00:00:33.860 --> 00:00:38.550
+Sempre que quisermos relacionar de forma não ambígua
+uma linha de uma tabela com uma linha de outra,
+
+00:00:38.550 --> 00:00:41.950
+para ver se elas são sobre a mesma pessoa ou
+coisa no mundo,
+
+00:00:41.950 --> 00:00:45.560
+temos que ter um valor único
+para falar sobre essa coisa.
+
+00:00:45.560 --> 00:00:50.970
+No banco de dados de animais mais lindos, usamos
+uma ID numérica para cada imagem de animal,
+
+00:00:50.970 --> 00:00:53.080
+que usamos para relacionar
+a tabela de votos a ela.
+
+00:00:54.120 --> 00:00:56.080
+Essa é uma escolha muito comum.
+
+00:00:56.080 --> 00:00:59.070
+Apenas crie um número único para o
+seu banco de dados.
+
+00:00:59.070 --> 00:01:01.880
+É muito comum que a maioria dos sistemas de banco de dados
+possam fazer isso para você.
+
+00:01:02.930 --> 00:01:07.900
+IDs de usuário, IDs de comentários em fóruns e
+assim por diante são todos exemplos disso.
+
+00:01:07.900 --> 00:01:09.820
+Na terminologia dos bancos de dados, uma coluna e
+
+00:01:09.820 --> 00:01:14.540
+uma tabela que identifica exclusivamente as linhas
+nessa tabela, podem ser chamadas de chave primária.
+
+00:01:15.650 --> 00:01:19.430
+Às vezes, o mundo nos dá
+uma chave primária natural para uma tabela.
+
+00:01:19.430 --> 00:01:23.000
+Por exemplo, se você tiver uma tabela de
+países e suas cidades capitais,
+
+00:01:23.000 --> 00:01:25.550
+você pode ter certeza de que
+não existem dois países chamados França.
+
+00:01:27.010 --> 00:01:29.993
+Neste caso, você pode usar com segurança
+o nome do país como uma chave.
+
+00:01:29.993 --> 00:01:33.451
+Você não precisa chamá-lo
+de país número 29.
+
+00:01:33.451 --> 00:01:37.000
+Mas você tem que garantir que
+uma chave seja realmente única.
+
+00:01:37.000 --> 00:01:37.980
+Por exemplo, nos EUA,
+
+00:01:37.980 --> 00:01:40.880
+existem vários estados com
+uma cidade chamada Springfield.
+
+00:01:40.880 --> 00:01:42.830
+Existe Springfield,
+Massachusetts, Springfield,
+
+00:01:42.830 --> 00:01:45.400
+Illinois e muitas outras.
+
+00:01:45.400 --> 00:01:49.160
+Então é óbvio que o nome
+Springfield em si não é único.
+
+00:01:49.160 --> 00:01:53.330
+Agora, você pode estar tentado a pensar
+que cidade mais estado são únicos, mas
+
+00:01:53.330 --> 00:01:55.410
+parece que isso também
+não é verdade.
+
+00:01:55.410 --> 00:01:59.310
+No estado de Wisconsin, existem
+cinco cidades diferentes chamadas Springfield
+
+00:01:59.310 --> 00:02:02.910
+e existem três em Nova Jersey
+e duas no Texas.
+
+00:02:02.910 --> 00:02:03.850
+Oh!
+
+00:02:03.850 --> 00:02:06.010
+E é por isso que a maioria dos países
+usa códigos postais ou
+
+00:02:06.010 --> 00:02:08.139
+o que chamamos de CEP nos EUA.
+
+00:02:08.139 --> 00:02:11.607
+É como dizer que alguém
+é o jogador número três ou
+
+00:02:11.607 --> 00:02:15.660
+o usuário 1.723, em vez de usar seu nome.
+
+00:02:15.660 --> 00:02:18.230
+Usar um número inventado como 54028
+ou 54659,
+
+00:02:18.230 --> 00:02:24.030
+em vez de Springfield,
+Wisconsin, garante exclusividade.
+

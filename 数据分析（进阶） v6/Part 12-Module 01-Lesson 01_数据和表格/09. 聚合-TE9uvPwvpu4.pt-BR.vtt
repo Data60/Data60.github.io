@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:03.280
+No último teste,
+você viu um exemplo de agregação,
+
+00:00:03.280 --> 00:00:07.450
+uma operação de banco de dados que resume
+várias linhas em uma única linha.
+
+00:00:07.450 --> 00:00:09.860
+Contar o número de
+gorilas na tabela de animais
+
+00:00:09.860 --> 00:00:11.510
+foi uma agregação de conta.
+
+00:00:11.510 --> 00:00:15.060
+Ela ocupa várias linhas,
+cada uma representando um gorila,
+
+00:00:15.060 --> 00:00:16.980
+e as transforma em um gorila
+representando a conta.
+
+00:00:18.090 --> 00:00:21.080
+Toda vez que quisermos computar um único
+resultado de um conjunto de valores,
+
+00:00:21.080 --> 00:00:22.530
+isso é uma agregação.
+
+00:00:22.530 --> 00:00:26.430
+Aqui estão algumas das funções de agregação
+mais comuns no SQL.
+
+00:00:26.430 --> 00:00:30.120
+Count é diferente das outras,
+no sentido de que usa valores de qualquer tipo e
+
+00:00:30.120 --> 00:00:30.870
+retorna um número.
+
+00:00:31.920 --> 00:00:35.130
+A maioria das outras agregações
+trabalha somente com números.
+
+00:00:35.130 --> 00:00:38.850
+Por exemplo, você não pode estabelecer a média
+de uma coluna de valores string
+
+00:00:38.850 --> 00:00:40.310
+porque apenas números têm uma média.
+
+00:00:41.310 --> 00:00:43.880
+Veremos muito mais sobre
+agregações na próxima lição.
+

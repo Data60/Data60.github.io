@@ -1,0 +1,102 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.312 --> 00:00:03.690
+Um número de ID emitido pela faculdade é
+um bom exemplo de chave primária.
+
+00:00:04.689 --> 00:00:08.760
+Ele é um identificador único que alguém
+emitiu apenas para esse propósito.
+
+00:00:08.760 --> 00:00:11.330
+Desde que todos no curso
+sejam alunos inscritos,
+
+00:00:11.330 --> 00:00:12.610
+eles terão uma ID exclusiva.
+
+00:00:13.620 --> 00:00:16.660
+Um endereço de correspondência doméstico não é
+uma chave primária válida.
+
+00:00:16.660 --> 00:00:19.550
+O que aconteceria se houvesse dois
+alunos fazendo o curso vivendo na
+
+00:00:19.550 --> 00:00:21.040
+mesma casa?
+
+00:00:21.040 --> 00:00:24.870
+O endereço de email do aluno pode
+ser uma boa chave primária.
+
+00:00:24.870 --> 00:00:27.870
+Os universitários não compartilham
+endereços de email entre si,
+
+00:00:27.870 --> 00:00:30.630
+portanto, esta é uma escolha correta.
+
+00:00:30.630 --> 00:00:34.520
+Mas essa não é uma chave primária boa o suficiente
+porque as pessoas às vezes trocam seus
+
+00:00:34.520 --> 00:00:38.540
+endereços de email e isso pode ser desagradável de
+resolver em seu aplicativo.
+
+00:00:38.540 --> 00:00:41.470
+A data de nascimento não é
+uma chave primária válida.
+
+00:00:41.470 --> 00:00:44.500
+Existe um exemplo famoso de matemática chamado
+o problema da data de nascimento que prova que você precisa de apenas
+
+00:00:44.500 --> 00:00:48.990
+23 pessoas em uma sala para
+ter 50% de chances de duas pessoas na
+
+00:00:48.990 --> 00:00:50.950
+sala terem nascido no mesmo dia.
+
+00:00:50.950 --> 00:00:53.670
+Além disso, os universitários frequentemente
+têm idades semelhantes, sendo assim,
+
+00:00:53.670 --> 00:00:57.190
+há uma boa chance de dois alunos
+terem a mesma data de nascimento.
+
+00:00:57.190 --> 00:01:00.550
+Em todo caso, não basta uma chave primária
+poder ser única.
+
+00:01:00.550 --> 00:01:01.920
+Ela definitivamente tem que ser única.
+
+00:01:03.150 --> 00:01:06.020
+Finalmente, os números de carteira de motorista
+são únicos,
+
+00:01:06.020 --> 00:01:10.260
+pelo menos se você incluir o estado
+ou país de origem da carteira de motorista.
+
+00:01:10.260 --> 00:01:13.890
+O problema em relação a isso é que
+nem todo mundo tem uma carteira de motorista.
+
+00:01:13.890 --> 00:01:15.510
+Algumas pessoas não dirigem.
+
+00:01:15.510 --> 00:01:18.080
+Dessa forma, alguns alunos poderiam
+não ter valor nesta
+
+00:01:18.080 --> 00:01:21.150
+coluna e isso a tornaria
+uma chave primária inválida.
+

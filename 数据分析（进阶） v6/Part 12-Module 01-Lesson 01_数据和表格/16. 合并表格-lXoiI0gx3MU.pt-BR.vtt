@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:03.690
+OK, vamos voltar para o zoológico
+com os gorilas e as lhamas.
+
+00:00:03.690 --> 00:00:05.280
+Lembra dessas tabelas?
+
+00:00:05.280 --> 00:00:09.790
+Nesta, temos nomes de animais,
+espécies e datas de nascimento.
+
+00:00:09.790 --> 00:00:13.310
+Nesta outra, temos as espécies e
+os alimentos que eles comem.
+
+00:00:13.310 --> 00:00:18.200
+Suponha que quiséssemos descobrir
+quantos animais comem peixe.
+
+00:00:18.200 --> 00:00:20.760
+Bem, é uma pergunta de quantidade.
+
+00:00:20.760 --> 00:00:24.760
+Portanto, precisaríamos de uma agregação count,
+mas o que estamos agregando?
+
+00:00:24.760 --> 00:00:27.630
+A tabela de animais não
+fala sobre alimentos e
+
+00:00:27.630 --> 00:00:30.880
+a tabela de alimentos não diz
+quantos de cada espécie temos.
+
+00:00:30.880 --> 00:00:34.250
+Mas suponha que pudéssemos obter
+uma tabela que adicionasse a coluna de alimentos
+
+00:00:34.250 --> 00:00:35.780
+à tabela de animais.
+
+00:00:35.780 --> 00:00:38.280
+Então teríamos algo
+que poderíamos contar.
+
+00:00:38.280 --> 00:00:42.000
+Vimos anteriormente que podemos derivar uma nova
+tabela de resultados de tabelas existentes
+
+00:00:42.000 --> 00:00:44.310
+fazendo um join entre essas tabelas.
+
+00:00:44.310 --> 00:00:45.896
+Isso resultaria em algo como isto.
+
+00:00:45.896 --> 00:00:51.986
+Select animals.name, animals.species,
+
+00:00:51.986 --> 00:00:56.825
+diet.food from animals join diet,
+
+00:00:56.825 --> 00:01:02.930
+on animals.species = diet.species.
+
+00:01:02.930 --> 00:01:05.670
+Mas queremos apenas
+os animais que comem peixe.
+
+00:01:05.670 --> 00:01:08.450
+Vimos anteriormente que podemos
+pedir ao banco de dados apenas as linhas
+
+00:01:08.450 --> 00:01:13.160
+que correspondem a um critério particular,
+como uma restrição de linha como esta.
+
+00:01:13.160 --> 00:01:17.250
+A mesma consulta, mas agora ela termina com,
+where food equals fish.
+
+00:01:17.250 --> 00:01:21.175
+Então, para responder à pergunta,
+quantos animais comem peixe,
+
+00:01:21.175 --> 00:01:23.910
+nossa consulta terá que fazer três coisas.
+
+00:01:23.910 --> 00:01:29.640
+Primeiro, unir animais com dieta,
+usando a espécie como a correspondência.
+
+00:01:29.640 --> 00:01:31.460
+Em seguida, ela fará uma restrição,
+
+00:01:31.460 --> 00:01:34.039
+selecionando apenas linhas
+em que alimento é igual a peixe.
+
+00:01:35.070 --> 00:01:38.230
+E finalmente, faremos
+uma agregação para contar as linhas.
+
+00:01:38.230 --> 00:01:42.460
+Algo a se pensar: quantas
+linhas existirão em cada uma dessas tabelas?
+
+00:01:42.460 --> 00:01:46.810
+Assim como as tabelas estão relacionadas uma com a
+outra, as contagens de linhas também estão.
+
+00:01:46.810 --> 00:01:50.440
+Vamos imaginar que temos
+100 animais no zoológico e
+
+00:01:50.440 --> 00:01:55.360
+que a resposta final que obtemos de
+nossa consulta é que 20 deles comem peixe.
+
+00:01:55.360 --> 00:01:59.330
+Lembre-se que cada resultado que recebemos
+de uma consulta de banco de dados é uma tabela.
+
+00:01:59.330 --> 00:02:02.260
+Isso inclui o resultado
+desta agregação count.
+
+00:02:02.260 --> 00:02:06.090
+A tabela de contagem tem apenas uma linha e uma
+coluna e ela contém o número 20.
+
+00:02:06.090 --> 00:02:10.639
+Isso significa que o resultado da
+filtragem por alimento igual a peixe
+
+00:02:10.639 --> 00:02:12.310
+tem que ter 20 linhas.
+
+00:02:12.310 --> 00:02:16.850
+Agora não sabemos exatamente quantas linhas esse
+join tem, mas tem que ser pelo
+
+00:02:16.850 --> 00:02:21.860
+menos 100 linhas, já que cada animal
+come pelo menos um tipo de alimento.
+
+00:02:21.860 --> 00:02:25.220
+Mas alguns animais comem mais de um,
+como os ursos, que comem peixe,
+
+00:02:25.220 --> 00:02:26.960
+carne e fruta também.
+
+00:02:26.960 --> 00:02:30.380
+E não sabemos quantas linhas
+a tabela de dieta tem, mas será pelo
+
+00:02:30.380 --> 00:02:34.570
+menos o número de
+espécie distintas que temos na tabela de animais.
+
+00:02:34.570 --> 00:02:37.870
+Novamente, isso acontece porque cada espécie
+come pelo menos um tipo de alimento.
+

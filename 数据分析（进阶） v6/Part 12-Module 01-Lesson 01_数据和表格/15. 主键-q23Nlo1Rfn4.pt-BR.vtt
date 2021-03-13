@@ -1,0 +1,29 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:01.970
+Vamos pensar sobre exclusividade.
+
+00:00:01.970 --> 00:00:04.890
+Imagine que você esteja criando um banco de dados
+para controlar as notas dos alunos em
+
+00:00:04.890 --> 00:00:06.580
+um curso da faculdade.
+
+00:00:06.580 --> 00:00:09.470
+Quais destes dados
+seriam escolhas válidas para
+
+00:00:09.470 --> 00:00:11.710
+uma chave primária, na tabela de alunos?
+
+00:00:12.730 --> 00:00:17.170
+Marque cada opção que poderia ser usada
+para identificar exclusivamente os alunos,
+
+00:00:17.170 --> 00:00:19.740
+não apenas aquela que você acha que
+seria a melhor escolha.
+

@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:03.280
+OK, a primeira coisa que vamos
+precisar é uma coluna ID,
+
+00:00:03.280 --> 00:00:05.830
+pois nada mais aqui é exclusivo.
+
+00:00:05.830 --> 00:00:09.500
+Vamos relacionar os doadores com seus números de
+telefone, usando a ID do doador.
+
+00:00:09.500 --> 00:00:14.020
+A ID é arbitrária, desde que esta
+aqui seja igual àquela de baixo, mas
+
+00:00:14.020 --> 00:00:17.110
+colocarei apenas 1,
+porque Mary é a primeira doadora.
+
+00:00:17.110 --> 00:00:19.630
+A segunda coisa que sabemos
+sobre um doador é o nome dele.
+
+00:00:19.630 --> 00:00:21.390
+E sabemos o animal favorito dele.
+
+00:00:21.390 --> 00:00:23.470
+Mary tem dois telefones, portanto,
+
+00:00:23.470 --> 00:00:27.540
+haverá duas linhas em telefones do
+doador com a ID de Mary nelas.
+
+00:00:27.540 --> 00:00:32.049
+E Mary tem dois tipos de telefone,
+um é o telefone residencial e o outro é um celular.
+
+00:00:32.049 --> 00:00:33.910
+Chamaremos essa coluna de tipo telefone.
+
+00:00:33.910 --> 00:00:36.370
+E finalmente sabemos os
+números de telefone da Mary.
+
+00:00:36.370 --> 00:00:39.450
+Então aqui está o resultado. Você pegou
+todos os dados deste registro
+
+00:00:39.450 --> 00:00:42.660
+orientado a objeto e
+estruturou-os em tabelas de banco de dados.
+

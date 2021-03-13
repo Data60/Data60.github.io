@@ -1,0 +1,51 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.350 --> 00:00:02.560
+Isso é o que está
+acontecendo nesta consulta.
+
+00:00:02.560 --> 00:00:05.980
+SELECT (selecionar) significa que estamos buscando
+dados no banco de dados em vez de
+
+00:00:05.980 --> 00:00:09.320
+inserir ou atualizar linhas ou
+fazer alguma outra coisa.
+
+00:00:09.320 --> 00:00:10.810
+O que veremos em seguida é food (comida).
+
+00:00:11.830 --> 00:00:13.110
+Este é o conjunto de colunas.
+
+00:00:13.110 --> 00:00:16.870
+Neste caso, apenas uma coluna que
+queremos ver no resultado.
+
+00:00:16.870 --> 00:00:19.260
+Essa é a resposta para
+quais colunas desejamos.
+
+00:00:19.260 --> 00:00:23.050
+"FROM diet" diz apenas sobre qual
+tabela estamos falando.
+
+00:00:23.050 --> 00:00:25.220
+Aqui, é apenas uma tabela.
+
+00:00:25.220 --> 00:00:30.050
+E "WHERE species='orangutan'" espécie é igual a
+orangotango é chamado de restrição.
+
+00:00:30.050 --> 00:00:32.290
+Isso diz quais linhas queremos.
+
+00:00:32.290 --> 00:00:34.523
+Especificamente, queremos as linhas
+
+00:00:34.523 --> 00:00:39.824
+onde espécie tem o valor orangotango,
+o que significa que queremos essas duas linhas.
+

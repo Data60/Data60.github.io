@@ -1,0 +1,33 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.510 --> 00:00:01.630
+Nesta lição,
+
+00:00:01.630 --> 00:00:04.630
+você aprendeu muitos conceitos que
+serão aplicados neste curso.
+
+00:00:04.630 --> 00:00:08.920
+Conceitos sobre a estruturação de dados em
+tabelas, extraindo os dados que queremos,
+
+00:00:08.920 --> 00:00:11.030
+contando linhas com agregações e
+
+00:00:11.030 --> 00:00:14.470
+vinculando tabelas usando
+chaves primárias e junções.
+
+00:00:14.470 --> 00:00:17.740
+Na próxima lição,
+você aplicará esses conceitos usando o SQL,
+
+00:00:17.740 --> 00:00:21.170
+enviando consultas para um servidor de banco de dados
+dinâmico e interpretando os resultados.
+
+00:00:21.170 --> 00:00:21.670
+Até lá.
+

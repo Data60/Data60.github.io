@@ -1,0 +1,125 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:04.080
+Ao escrever o código anteriormente, você
+usou estruturas de dados como variáveis,
+
+00:00:04.080 --> 00:00:06.830
+listas, dicionários e objetos.
+
+00:00:06.830 --> 00:00:10.380
+Tudo isso permite que você armazene informações
+enquanto seu programa está em execução.
+
+00:00:10.380 --> 00:00:14.830
+Você pode criar uma estrutura de dados
+complexa, como uma lista de dicionários de
+
+00:00:14.830 --> 00:00:19.960
+objetos, e quando o seu programa for encerrado,
+essa estrutura desaparecerá da memória.
+
+00:00:19.960 --> 00:00:21.480
+Você provavelmente trabalhou com arquivos, por
+
+00:00:21.480 --> 00:00:24.240
+exemplo, os arquivos
+que contêm seu próprio código.
+
+00:00:24.240 --> 00:00:28.370
+Se você editar o código em um editor de texto e
+salvá-lo, depois sair do editor,
+
+00:00:28.370 --> 00:00:32.689
+seu código não desaparecerá do jeito que
+uma variável faz quando o programa é encerrado.
+
+00:00:32.689 --> 00:00:34.100
+O arquivo é persistente, ou
+
+00:00:34.100 --> 00:00:38.430
+durável, enquanto os dados na memória
+são efêmeros, ou temporários.
+
+00:00:38.430 --> 00:00:43.690
+Os programas podem ler e gravar arquivos muito
+bem, então por que nos preocuparmos com bancos de dados?
+
+00:00:43.690 --> 00:00:47.020
+Existem vários tipos diferentes
+de bancos de dados, mas
+
+00:00:47.020 --> 00:00:49.870
+o que todos eles têm em comum é
+que todos nos oferecem persistência,
+
+00:00:49.870 --> 00:00:54.080
+como um arquivo, assim como as estruturas de dados
+para armazenar e pesquisar nossos dados,
+
+00:00:54.080 --> 00:00:57.730
+geralmente de forma muito mais rápida e
+fácil do que poderíamos pesquisar um arquivo de texto simples.
+
+00:00:57.730 --> 00:01:01.690
+Eles também possibilitam que vários
+programas ou usuários acessem e
+
+00:01:01.690 --> 00:01:05.060
+modifiquem os dados ao mesmo tempo sem
+se sobreporem uns aos outros, ou
+
+00:01:05.060 --> 00:01:07.930
+acidentalmente desfazerem
+as mudanças uns dos outros.
+
+00:01:07.930 --> 00:01:11.150
+Isso geralmente não é
+possível com arquivos de texto simples.
+
+00:01:11.150 --> 00:01:14.950
+Se dois programas gravarem uma nova versão
+de um arquivo ao mesmo tempo,
+
+00:01:14.950 --> 00:01:17.300
+então uma substituirá a outra.
+
+00:01:18.470 --> 00:01:21.170
+Esses outros tipos de
+bancos de dados fazem tudo isso, mas
+
+00:01:21.170 --> 00:01:23.670
+os bancos de dados relacionais fazem muito mais.
+
+00:01:23.670 --> 00:01:27.720
+Além de armazenar seus dados,
+os bancos de dados relacionais também oferecem ferramentas muito
+
+00:01:27.720 --> 00:01:30.440
+flexíveis para
+consultar e resumir os dados,
+
+00:01:30.440 --> 00:01:32.840
+para fazer comparações e
+
+00:01:32.840 --> 00:01:35.550
+para obter conexões entre
+informações relacionadas.
+
+00:01:36.700 --> 00:01:40.290
+Eles também nos permitem estabelecer limites,
+que são regras para garantir que as alterações em
+
+00:01:40.290 --> 00:01:42.060
+nossos dados sejam consistentes.
+
+00:01:42.060 --> 00:01:44.920
+Veremos mais sobre isso
+mais adiante no curso.
+
+00:01:44.920 --> 00:01:47.250
+Agora, vejamos como os bancos de dados
+relacionais armazenam dados.
+

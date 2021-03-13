@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.600 --> 00:00:02.370
+Okay, let's do a quiz.
+
+00:00:02.370 --> 00:00:05.270
+Our zoo, it turns out,
+needs a database to keep track of
+
+00:00:05.270 --> 00:00:08.230
+all the people who have
+donated money to the zoo.
+
+00:00:08.230 --> 00:00:11.490
+One of our programmers has come up
+with an object oriented description of
+
+00:00:11.490 --> 00:00:13.080
+a donor class.
+
+00:00:13.080 --> 00:00:14.100
+It has attributes for
+
+00:00:14.100 --> 00:00:18.250
+a person's name, and their favorite
+animal, and their phone numbers.
+
+00:00:18.250 --> 00:00:21.490
+That way for instance, when there's
+a new born baby gorilla in the zoo,
+
+00:00:21.490 --> 00:00:25.110
+the zoo keepers can call Mary up,
+and tell her about it.
+
+00:00:25.110 --> 00:00:27.620
+For phone numbers,
+a person might have more than one.
+
+00:00:27.620 --> 00:00:32.580
+So we'll support home and
+mobile, and work phone numbers.
+
+00:00:32.580 --> 00:00:35.940
+So if we want to store this
+information in a relational database,
+
+00:00:35.940 --> 00:00:40.050
+instead of just in objects in memory,
+how many tables do you think we'll need?
+
+00:00:41.220 --> 00:00:44.810
+Oh, wait, not that kind of tables.
+
+00:00:44.810 --> 00:00:46.350
+This kind of table.
+
+00:00:46.350 --> 00:00:49.610
+Because a person can have more than one
+phone number, we're going to want to
+
+00:00:49.610 --> 00:00:53.550
+have one table for donors, and
+one for donor's phone numbers.
+
+00:00:53.550 --> 00:00:55.190
+This is the same sort of situation,
+
+00:00:55.190 --> 00:00:58.760
+as when we had animals that eat
+multiple different kinds of food.
+
+00:00:58.760 --> 00:01:01.140
+Now, what's going to go in these tables?
+
+00:01:01.140 --> 00:01:05.170
+First, what columns do you
+think might go in these tables?
+
+00:01:05.170 --> 00:01:08.000
+And second,
+how would you represent Mary and
+
+00:01:08.000 --> 00:01:10.690
+her two phone numbers in these columns?
+
+00:01:10.690 --> 00:01:13.920
+Fill in the column names in
+the top of each table, and
+
+00:01:13.920 --> 00:01:16.660
+then the values that you'd put
+in them in the table body.
+

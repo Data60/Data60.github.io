@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.370
+OK, vamos fazer um teste.
+
+00:00:02.370 --> 00:00:05.270
+Parece que nosso zoológico
+precisa de um banco de dados para manter o controle de
+
+00:00:05.270 --> 00:00:08.230
+todas as pessoas que
+doaram dinheiro para o zoológico.
+
+00:00:08.230 --> 00:00:11.490
+Um de nossos programadores criou
+uma descrição orientada a objeto de
+
+00:00:11.490 --> 00:00:13.080
+uma classe de doador.
+
+00:00:13.080 --> 00:00:14.100
+Ele tem atributos para
+
+00:00:14.100 --> 00:00:18.250
+o nome da pessoa, seu animal favorito
+e seus números de telefone.
+
+00:00:18.250 --> 00:00:21.490
+Dessa forma, quando, por exemplo, houver um
+gorila recém-nascido no zoológico,
+
+00:00:21.490 --> 00:00:25.110
+os administradores do zoológico poderão ligar para Mary
+e dar a notícia.
+
+00:00:25.110 --> 00:00:27.620
+Em se tratando de números de telefone,
+uma pessoa pode ter mais de um.
+
+00:00:27.620 --> 00:00:32.580
+Portanto, daremos suporte a telefones residenciais,
+celulares e comerciais.
+
+00:00:32.580 --> 00:00:35.940
+Então, se quisermos armazenar essas
+informações em um banco de dados relacional,
+
+00:00:35.940 --> 00:00:40.050
+em vez de apenas em objetos na memória,
+de quantas tabelas você acha que precisaremos?
+
+00:00:41.220 --> 00:00:44.810
+Aaah, espera, não esse tipo de "table".
+
+00:00:44.810 --> 00:00:46.350
+Este tipo de "table".
+
+00:00:46.350 --> 00:00:49.610
+Como uma pessoa pode ter mais de um
+número de telefone, vamos querer
+
+00:00:49.610 --> 00:00:53.550
+ter uma tabela para os doadores e
+uma para os números de telefone dos doadores.
+
+00:00:53.550 --> 00:00:55.190
+Este é o mesmo tipo de situação
+
+00:00:55.190 --> 00:00:58.760
+de quando tínhamos animais que comem
+vários tipos de alimentos diferentes.
+
+00:00:58.760 --> 00:01:01.140
+Agora, o que será incluído nessas tabelas?
+
+00:01:01.140 --> 00:01:05.170
+Primeiro, quais colunas você
+pensa em incluir nessas tabelas?
+
+00:01:05.170 --> 00:01:08.000
+E segundo,
+como você representaria Mary e
+
+00:01:08.000 --> 00:01:10.690
+os números de telefone dela nessas colunas?
+
+00:01:10.690 --> 00:01:13.920
+Preencha os nomes de coluna na
+parte superior de cada tabela e,
+
+00:01:13.920 --> 00:01:16.660
+em seguida, os valores que você colocaria
+nelas no corpo da tabela.
+

@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:01.540
+Aqui está outra tabela.
+
+00:00:01.540 --> 00:00:04.570
+Esta tem o peso e a altura
+de algumas pessoas.
+
+00:00:04.570 --> 00:00:09.300
+Cada linha dessa tabela contém o mesmo
+tipo de dados sobre uma pessoa diferente.
+
+00:00:09.300 --> 00:00:13.000
+Como programadores estamos familiarizados
+com a ideia de tipos de dados.
+
+00:00:13.000 --> 00:00:18.830
+Uma string, como Alan, é um tipo diferente
+de um valor numérico como 188.
+
+00:00:18.830 --> 00:00:23.528
+Mas 188 é o mesmo tipo que 72, embora
+eles representem valores com
+
+00:00:23.528 --> 00:00:25.810
+significados diferentes.
+
+00:00:25.810 --> 00:00:30.560
+Um é uma altura em centímetros e
+o outro é um peso em quilogramas.
+
+00:00:30.560 --> 00:00:35.020
+Cada coluna em uma tabela de banco de dados
+terá algum tipo associado a ela.
+
+00:00:35.020 --> 00:00:38.810
+Todos os valores nessa coluna
+serão do mesmo tipo, mas, além disso,
+
+00:00:38.810 --> 00:00:41.260
+eles também terão
+o mesmo tipo de significado.
+
+00:00:41.260 --> 00:00:44.339
+Não misturaríamos centímetros e
+quilogramas na mesma coluna.
+
+00:00:45.480 --> 00:00:49.090
+O sistema de banco de dados em si não
+sabe quais números são centímetros e
+
+00:00:49.090 --> 00:00:50.850
+quais são quilogramas.
+
+00:00:50.850 --> 00:00:53.370
+Temos que manter o controle disso
+por nós mesmos ao escrever o código.
+
+00:00:54.420 --> 00:00:55.880
+Aqui está outro exemplo.
+
+00:00:55.880 --> 00:00:58.830
+Georgia é uma string, parte de um texto.
+
+00:00:58.830 --> 00:01:02.770
+Mas uma string que representa
+o nome de um país, como a Geórgia,
+
+00:01:02.770 --> 00:01:06.140
+não tem o mesmo tipo de significado que
+uma string que representa um
+
+00:01:06.140 --> 00:01:11.560
+estado dos EUA, como a Geórgia, ou a fonte
+Georgia, ou o nome de alguém,
+
+00:01:11.560 --> 00:01:13.910
+como Georgia O'Keeffe.
+
+00:01:13.910 --> 00:01:19.040
+E o número 413 significa algo
+diferente se for o número de um quarto de hotel,
+
+00:01:19.040 --> 00:01:24.350
+um valor em dinheiro ou o código de área de telefone
+do oeste de Massachusetts.
+
+00:01:24.350 --> 00:01:26.650
+Para pensar sobre isso mais claramente,
+vamos fazer um teste.
+
+00:01:27.800 --> 00:01:29.930
+Aqui estão cinco dados.
+
+00:01:29.930 --> 00:01:34.260
+Pense sobre o tipo de cada um deles
+e marque as caixas de seleção ao lado dos
+
+00:01:34.260 --> 00:01:36.880
+dois trechos de dados que
+são certamente do mesmo tipo.
+

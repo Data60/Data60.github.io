@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:03.110
+Agora que vimos alguns tipos de
+informação que podemos armazenar em
+
+00:00:03.110 --> 00:00:07.230
+uma tabela de banco de dados, vamos falar sobre
+como nosso código fala com um banco de dados.
+
+00:00:07.230 --> 00:00:10.630
+Quando nosso código busca dados
+de um banco de dados, ele faz isso
+
+00:00:10.630 --> 00:00:13.860
+enviando uma consulta, em resposta,
+o banco de dados
+
+00:00:13.860 --> 00:00:18.480
+nos enviará um resultado contendo uma nova
+tabela com os dados que solicitamos.
+
+00:00:18.480 --> 00:00:22.440
+Dependendo das características de nosso
+ambiente, nosso código pode estar falando com o
+
+00:00:22.440 --> 00:00:24.910
+banco de dados através da rede, ou
+
+00:00:24.910 --> 00:00:28.800
+pode estar apenas chamando uma biblioteca
+que mantém um banco de dados em um disco local.
+
+00:00:28.800 --> 00:00:31.110
+Esses detalhes de design
+serão importantes mais tarde, mas por
+
+00:00:31.110 --> 00:00:33.030
+enquanto, podemos ignorá-los.
+
+00:00:33.030 --> 00:00:37.770
+Os fundamentos dos bancos de dados funcionam da mesma maneira,
+independentemente de qual seja a implementação.
+
+00:00:37.770 --> 00:00:40.830
+Vamos observar a execução de
+algumas consultas em SQL em
+
+00:00:40.830 --> 00:00:42.290
+um banco de dados real.
+
+00:00:42.290 --> 00:00:45.790
+Não se preocupe com a sintaxe agora,
+veremos isso na próxima lição.
+
+00:00:45.790 --> 00:00:48.140
+OK, aqui está uma consulta que vimos antes,
+
+00:00:48.140 --> 00:00:52.590
+selecionar alimento na dieta onde
+espécie é igual a orangotango.
+
+00:00:52.590 --> 00:00:54.020
+E quando a executamos, aqui está o resultado.
+
+00:00:54.020 --> 00:00:57.750
+Agora, algo a ser notado no
+resultado é que se trata de uma tabela.
+
+00:00:57.750 --> 00:01:01.430
+Ela tem duas linhas, inclusive diz duas linhas
+abaixo da tabela, e
+
+00:01:01.430 --> 00:01:04.050
+ela tem uma coluna,
+a coluna alimento que pedimos.
+
+00:01:04.050 --> 00:01:08.530
+Executar uma consulta no banco de dados
+não é como retornar um único valor de
+
+00:01:08.530 --> 00:01:10.600
+uma função,
+é mais como retornar uma lista,
+
+00:01:10.600 --> 00:01:12.780
+mesmo se houver apenas um elemento.
+
+00:01:12.780 --> 00:01:17.530
+Na verdade, se perguntarmos ao banco de dados
+2 mais 2, desta forma.
+
+00:01:17.530 --> 00:01:20.500
+A resposta ainda é uma tabela
+com uma coluna e uma linha.
+
+00:01:21.530 --> 00:01:26.025
+Se pedirmos resposta ao banco de dados
+para três problemas aritméticos de
+
+00:01:26.025 --> 00:01:29.433
+uma vez, receberemos de volta
+uma tabela com uma única linha e
+
+00:01:29.433 --> 00:01:33.328
+três colunas, cada uma delas
+dando uma das respostas.
+
+00:01:33.328 --> 00:01:36.514
+Você deve ter notado que essas
+colunas têm nomes incomuns,
+
+00:01:36.514 --> 00:01:39.580
+todas elas são ?column?.
+
+00:01:39.580 --> 00:01:44.710
+Se quisermos dar nomes mais descritivos a elas,
+é possível fazer isso. Usando "as sum"
+
+00:01:44.710 --> 00:01:49.660
+aqui, obtemos ainda uma tabela
+com uma linha e
+
+00:01:49.660 --> 00:01:52.720
+uma coluna, mas agora a coluna tem
+um nome mais descritivo, "sum" (soma),
+
+00:01:52.720 --> 00:01:54.160
+em vez de uma ?column?.
+

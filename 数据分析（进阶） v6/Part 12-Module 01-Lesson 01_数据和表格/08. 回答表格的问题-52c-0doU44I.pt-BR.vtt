@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.150 --> 00:00:03.550
+Para responder à primeira pergunta, precisamos
+procurar a coluna de data de nascimento,
+
+00:00:03.550 --> 00:00:08.050
+na linha que fala sobre Max
+o alce, não Max, o gorila.
+
+00:00:08.050 --> 00:00:09.720
+Aqui está.
+
+00:00:09.720 --> 00:00:12.900
+O alce Max nasceu em 20 de fevereiro de
+2012.
+
+00:00:12.900 --> 00:00:18.590
+Em seguida, queremos saber se alguma lhama
+nasceu entre 1995 e 1998.
+
+00:00:18.590 --> 00:00:21.690
+Aqui estão todos os animais
+cuja espécie é lhama.
+
+00:00:21.690 --> 00:00:22.870
+E podemos verificá-los
+
+00:00:22.870 --> 00:00:26.160
+para ver se qualquer uma das datas de
+nascimento está entre esses anos.
+
+00:00:26.160 --> 00:00:28.510
+E com certeza, aqui está Alison.
+
+00:00:28.510 --> 00:00:29.890
+Então a resposta é sim.
+
+00:00:31.260 --> 00:00:33.100
+Número três,
+qual gorila era a mãe de George?
+
+00:00:34.340 --> 00:00:37.770
+Nada nesta tabela nos diz algo
+sobre os relacionamentos familiares entre
+
+00:00:37.770 --> 00:00:40.000
+gorilas ou qualquer outro animal.
+
+00:00:40.000 --> 00:00:42.960
+Sendo assim, não podemos dizer qual
+gorila era a mãe de George.
+
+00:00:42.960 --> 00:00:44.470
+Você pode imaginar que fosse a Sue,
+
+00:00:44.470 --> 00:00:47.290
+mas não sabemos, portanto,
+vamos deixar isso em branco.
+
+00:00:48.810 --> 00:00:50.670
+E finalmente,
+quantos gorilas existem?
+
+00:00:51.690 --> 00:00:53.450
+Esta pergunta é um pouco mais complexa.
+
+00:00:53.450 --> 00:00:57.830
+Obviamente que por sermos humanos podemos responder a
+esta pergunta apenas contando linhas.
+
+00:00:57.830 --> 00:01:00.240
+Mas parece que
+um banco de dados pode fazer isso também.
+
+00:01:00.240 --> 00:01:03.960
+Sempre que procurarmos uma resposta que
+combine os valores de várias linhas.
+
+00:01:03.960 --> 00:01:07.570
+Seja contando as linhas, ou
+somando valores numéricos, ou
+
+00:01:07.570 --> 00:01:11.170
+encontrado a média, estamos fazendo o que
+chamamos de uma agregação.
+
+00:01:11.170 --> 00:01:14.120
+Contar é a agregação mais simples
+que existe, e
+
+00:01:14.120 --> 00:01:16.400
+neste caso, a resposta é
+que existem três gorilas.
+

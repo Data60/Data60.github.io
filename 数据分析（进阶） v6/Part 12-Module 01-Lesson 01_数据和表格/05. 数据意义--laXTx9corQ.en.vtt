@@ -1,0 +1,33 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.470 --> 00:00:04.540
+Let's now think about the meaning
+of data as distinct from its type.
+
+00:00:04.540 --> 00:00:06.410
+Here are four pieces of data.
+
+00:00:06.410 --> 00:00:07.790
+All of them have the same type.
+
+00:00:07.790 --> 00:00:09.500
+They are all strings.
+
+00:00:09.500 --> 00:00:10.480
+Jones.
+
+00:00:10.480 --> 00:00:11.600
+Tanaka.
+
+00:00:11.600 --> 00:00:13.150
+Mary J Washington.
+
+00:00:13.150 --> 00:00:14.630
+And Muller.
+
+00:00:14.630 --> 00:00:17.960
+But which one does not have the same
+kind of meaning as the others?
+

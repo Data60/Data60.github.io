@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.230 --> 00:00:04.510
+Esta tabela é sobre animais
+individuais que vivem em um determinado zoológico.
+
+00:00:04.510 --> 00:00:08.400
+A primeira linha diz que o zoológico
+tem um gorila chamado Max,
+
+00:00:08.400 --> 00:00:10.260
+que nasceu em 13 de abril de 2001.
+
+00:00:10.260 --> 00:00:13.780
+Existem três trechos de dados
+que são relacionados, e
+
+00:00:13.780 --> 00:00:16.180
+são todos sobre o mesmo gorila.
+
+00:00:16.180 --> 00:00:19.430
+Cada linha tem três trechos de
+dados com o mesmo padrão.
+
+00:00:19.430 --> 00:00:23.370
+Observe que é totalmente possível que
+dois animais tenham o mesmo nome.
+
+00:00:23.370 --> 00:00:27.150
+O gorila Max não é o mesmo
+animal que o alce Max.
+
+00:00:27.150 --> 00:00:30.670
+Quando criamos uma tabela em um banco de dados,
+damos um nome para a tabela.
+
+00:00:30.670 --> 00:00:32.770
+Esta aqui é chamada "animais".
+
+00:00:32.770 --> 00:00:34.720
+O nome da tabela e os nomes e
+
+00:00:34.720 --> 00:00:38.550
+os tipos das colunas
+compõem o que chamamos de cabeçalho da tabela.
+
+00:00:38.550 --> 00:00:40.300
+Esses não são os valores da tabela,
+
+00:00:40.300 --> 00:00:43.280
+eles nos dizem apenas o que
+os dados da tabela querem dizer.
+
+00:00:43.280 --> 00:00:47.490
+O corpo da tabela consiste
+em qualquer número de linhas, e
+
+00:00:47.490 --> 00:00:50.380
+cada linha contém um valor para
+cada coluna.
+
+00:00:50.380 --> 00:00:52.600
+Vamos ver um pouco mais da tabela e
+fazer um teste.
+

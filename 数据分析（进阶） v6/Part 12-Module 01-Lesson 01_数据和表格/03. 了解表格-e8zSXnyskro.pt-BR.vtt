@@ -1,0 +1,63 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:03.810
+Em um banco de dados relacional, armazenamos
+todos os nossos dados na forma de tabelas.
+
+00:00:03.810 --> 00:00:06.700
+Aqui está uma tabela com alguns dados.
+
+00:00:06.700 --> 00:00:09.800
+Provavelmente você já sabe como
+responder a muitas perguntas usando dados
+
+00:00:09.800 --> 00:00:10.960
+e tabelas.
+
+00:00:10.960 --> 00:00:14.370
+Tabelas de banco de dados não são tão
+diferentes das tabelas que você encontra em
+
+00:00:14.370 --> 00:00:16.120
+um infográfico ou livro de referência.
+
+00:00:17.210 --> 00:00:20.120
+Observando uma tabela como esta,
+você pode dizer coisas como,
+
+00:00:20.120 --> 00:00:24.490
+digamos, a população do Brasil ou
+a taxa de alfabetização na Argentina.
+
+00:00:25.490 --> 00:00:29.060
+Mas antes de entrarmos em detalhes
+a respeito dos bancos de dados,
+
+00:00:29.060 --> 00:00:32.460
+você provavelmente já pode responder algumas
+perguntas sobre como as tabelas funcionam.
+
+00:00:32.460 --> 00:00:34.360
+Não se preocupe em responder
+certo ou
+
+00:00:34.360 --> 00:00:37.680
+errado para essas perguntas, mas reserve um tempo para pensar
+sobre as suas respostas antes de prosseguirmos.
+
+00:00:37.680 --> 00:00:41.570
+Primeiro,
+quando observamos uma linha como esta,
+
+00:00:41.570 --> 00:00:44.020
+o que esses valores têm em comum?
+
+00:00:44.020 --> 00:00:48.000
+Em segundo lugar, quando
+observamos uma coluna como esta,
+
+00:00:48.000 --> 00:00:49.440
+o que os valores dela têm em comum?
+

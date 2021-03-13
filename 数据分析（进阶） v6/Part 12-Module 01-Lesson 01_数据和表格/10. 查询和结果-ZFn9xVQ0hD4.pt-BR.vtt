@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.380 --> 00:00:03.480
+Anteriormente, eu disse que as tabelas de banco de dados
+eram muito parecidas com as tabelas que você
+
+00:00:03.480 --> 00:00:06.570
+pode ver em um infográfico ou
+livro de referência.
+
+00:00:06.570 --> 00:00:08.390
+Porém, há algumas diferenças.
+
+00:00:08.390 --> 00:00:11.190
+Uma delas é importante quando existem
+várias respostas para uma pergunta,
+
+00:00:11.190 --> 00:00:15.230
+o que geralmente será o caso antes de
+usarmos uma contagem ou outra agregação.
+
+00:00:15.230 --> 00:00:18.260
+Esta tabela é sobre animais e
+o que eles comem.
+
+00:00:18.260 --> 00:00:21.130
+Ao contrário de algumas tabelas que vimos antes,
+esta às vezes tem
+
+00:00:21.130 --> 00:00:25.790
+o mesmo valor em algumas células
+com valores diferentes aqui.
+
+00:00:25.790 --> 00:00:30.530
+É assim que dizemos coisas como
+"ursos pardos comem peixe, carne e
+
+00:00:30.530 --> 00:00:32.540
+plantas" em uma tabela de banco de dados.
+
+00:00:32.540 --> 00:00:34.780
+Dividimos essa sentença
+em várias sentenças,
+
+00:00:34.780 --> 00:00:37.200
+o que cria várias linhas na tabela.
+
+00:00:37.200 --> 00:00:40.630
+Por que não criamos apenas
+várias colunas ou
+
+00:00:40.630 --> 00:00:44.790
+colocamos diversos valores em uma coluna
+separados por vírgulas ou algo assim?
+
+00:00:44.790 --> 00:00:47.010
+Há muitas
+razões para não fazer isso.
+
+00:00:47.010 --> 00:00:50.620
+Se tivéssemos tentado usar várias colunas para
+os diferentes alimentos que cada animal come,
+
+00:00:50.620 --> 00:00:53.570
+não saberíamos quantas
+coluna criar antes.
+
+00:00:53.570 --> 00:00:57.370
+Alguns animais comem muitos tipos
+de alimentos em comparação aos outros.
+
+00:00:57.370 --> 00:01:01.120
+E além disso, queremos poder
+usar contagens e outras agregações.
+
+00:01:01.120 --> 00:01:04.090
+E elas só vão funcionar se tivermos
+nossos dados separados em linhas,
+
+00:01:04.090 --> 00:01:04.809
+não agrupados.
+
+00:01:05.820 --> 00:01:08.606
+Agora, vamos observar uma consulta de banco de dados
+real nesta tabela.
+
+00:01:08.606 --> 00:01:14.700
+Selecionar alimento na dieta onde
+espécie é igual a orangotango.
+
+00:01:14.700 --> 00:01:16.640
+Isso parece com português comum,
+mas
+
+00:01:16.640 --> 00:01:19.190
+na verdade é uma consulta de banco de dados SQL.
+
+00:01:19.190 --> 00:01:23.370
+Ela está pedindo ao banco de dados para retornar
+dados específicos da tabela de dieta.
+
+00:01:23.370 --> 00:01:26.480
+Daqui a pouco, executaremos esta
+consulta usando um banco de dados real.
+
+00:01:26.480 --> 00:01:28.910
+Mas antes disso,
+você consegue descobrir quais linhas e
+
+00:01:28.910 --> 00:01:30.630
+colunas desta
+tabela serão retornadas?
+

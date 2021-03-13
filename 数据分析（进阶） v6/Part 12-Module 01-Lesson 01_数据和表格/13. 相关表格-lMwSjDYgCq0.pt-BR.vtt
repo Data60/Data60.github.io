@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:03.550
+Um banco de dados
+geralmente usará várias tabelas nele.
+
+00:00:03.550 --> 00:00:06.400
+Eis aqui como podemos iniciar
+nosso aplicativo de votação de imagens.
+
+00:00:06.400 --> 00:00:10.750
+A primeira tabela representa imagens
+que as pessoas carregaram de animais.
+
+00:00:10.750 --> 00:00:13.380
+A segunda representa os votos das pessoas.
+
+00:00:13.380 --> 00:00:14.320
+Fluffy, Monster e
+
+00:00:14.320 --> 00:00:17.250
+George são animais
+cujas imagens alguém carregou.
+
+00:00:17.250 --> 00:00:19.950
+Como podemos ter dois
+animais com o mesmo nome,
+
+00:00:19.950 --> 00:00:22.960
+damos uma id numérica a cada um deles aqui.
+
+00:00:22.960 --> 00:00:27.190
+A tabela de imagens diz
+que Fluffy tem a id 1.
+
+00:00:27.190 --> 00:00:28.760
+Monster tem a id 2.
+
+00:00:28.760 --> 00:00:30.770
+George tem a id 3.
+
+00:00:30.770 --> 00:00:31.830
+E assim por diante.
+
+00:00:31.830 --> 00:00:34.970
+A tabela de votos informa quais imagens
+foram exibidas juntas para
+
+00:00:34.970 --> 00:00:38.470
+votação, e
+qual o usuário achou a mais linda.
+
+00:00:38.470 --> 00:00:42.420
+Aqui, o aplicativo mostrou Monster,
+ID 2, e George, ID 3,
+
+00:00:42.420 --> 00:00:45.970
+e o usuário votou em George.
+
+00:00:45.970 --> 00:00:49.250
+2 e 3 foram comparados
+e 3 foi o vencedor.
+
+00:00:49.250 --> 00:00:50.660
+Observe que na tabela de votos,
+
+00:00:50.660 --> 00:00:53.810
+as colunas se chamam esquerda,
+direita e vencedor.
+
+00:00:53.810 --> 00:00:58.540
+Elas são comparadas à coluna
+chamada id na tabela de imagens.
+
+00:00:58.540 --> 00:01:01.000
+Você pode ler cada linha como uma sentença.
+
+00:01:01.000 --> 00:01:06.270
+Na tabela de imagens, as sentenças
+dizem que Fluffy tem o número de ID igual a 1, e
+
+00:01:06.270 --> 00:01:10.121
+o nome de arquivo fluffsocute.jpg,
+Monster tem o número de ID igual a 2,
+
+00:01:10.121 --> 00:01:14.290
+e nome de arquivo monstie-basket.png e
+assim por diante.
+
+00:01:14.290 --> 00:01:18.350
+Na tabela de votos,
+as sentenças são imagem 2 e
+
+00:01:18.350 --> 00:01:22.610
+imagem 3 foram exibidas e
+o usuário votou na imagem 3.
+
+00:01:22.610 --> 00:01:24.770
+A imagem 1 e
+a imagem 3 foram exibidas e
+
+00:01:24.770 --> 00:01:27.440
+o usuário votou na imagem 1 e assim por diante.
+
+00:01:27.440 --> 00:01:33.580
+Então este 3 e este 3 se referem à mesma
+coisa, uma criatura fofa com o número de ID igual a 3.
+
+00:01:33.580 --> 00:01:37.750
+Mas eles estão em tabelas diferentes, e
+as colunas têm nomes diferentes,
+
+00:01:37.750 --> 00:01:40.720
+pois elas desempenham papéis diferentes
+em sentenças distintas.
+
+00:01:40.720 --> 00:01:43.730
+Aqui estamos dizendo,
+qual imagem tem que id?
+
+00:01:44.880 --> 00:01:48.070
+E aqui estamos dizendo, quais
+foram exibidos juntos e
+
+00:01:48.070 --> 00:01:49.490
+quem recebeu o voto?
+
+00:01:49.490 --> 00:01:53.630
+Este é o tipo de sentença que
+esta tabela realmente representa.
+
+00:01:53.630 --> 00:01:57.200
+Se você quisesse usar sentenças
+como Monster foi mostrado com Fluffy e
+
+00:01:57.200 --> 00:02:00.328
+Fluffy recebeu o voto em vez de
+2 foi mostrado com 1
+
+00:02:00.328 --> 00:02:02.280
+e 1 recebeu o voto para esta linha aqui,
+
+00:02:02.280 --> 00:02:06.870
+teríamos que conectar as linhas
+desta tabela com as linhas dessa tabela.
+
+00:02:06.870 --> 00:02:09.960
+Isso é algo que também podemos fazer
+com uma consulta de banco de dados.
+
+00:02:09.960 --> 00:02:12.230
+As consultas que fazem isso são chamadas de joins,
+e
+
+00:02:12.230 --> 00:02:14.870
+veremos muitas
+delas mais adiante no curso.
+
+00:02:14.870 --> 00:02:17.630
+Por enquanto, lembre-se apenas que
+um valor com o mesmo significado
+
+00:02:17.630 --> 00:02:20.850
+pode ocorrer em tabelas diferentes e
+ter nomes de coluna diferentes, e
+
+00:02:20.850 --> 00:02:25.580
+que podemos derivar novas tabelas,
+vinculando as tabelas existentes usando joins.
+

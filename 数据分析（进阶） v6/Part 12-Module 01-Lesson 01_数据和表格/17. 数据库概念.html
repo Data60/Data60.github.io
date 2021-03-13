@@ -1,0 +1,421 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   数据库概念
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      数据和表格
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 关系型数据库简介.html">
+       01. 关系型数据库简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 什么是数据库.html">
+       02. 什么是数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 了解表格.html">
+       03. 了解表格
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 数据类型和意义.html">
+       04. 数据类型和意义
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 数据意义.html">
+       05. 数据意义
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 动物园.html">
+       06. 动物园
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 表格的结构.html">
+       07. 表格的结构
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 回答表格的问题.html">
+       08. 回答表格的问题
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 聚合.html">
+       09. 聚合
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 查询和结果.html">
+       10. 查询和结果
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 如何查询.html">
+       11. 如何查询
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 最喜欢的动物.html">
+       12. 最喜欢的动物
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 相关表格.html">
+       13. 相关表格
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 唯一性和键.html">
+       14. 唯一性和键
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 主键.html">
+       15. 主键
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 合并表格.html">
+       16. 合并表格
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 数据库概念.html">
+       17. 数据库概念
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 总结.html">
+       18. 总结
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          17. 数据库概念
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          数据库概念
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="17. 数据库概念-WZRsqdNrC1A.mp4" type="video/mp4"/>
+           <track default="false" kind="subtitles" label="ar" src="17. 数据库概念-WZRsqdNrC1A.ar.vtt" srclang="ar"/>
+           <track default="true" kind="subtitles" label="en" src="17. 数据库概念-WZRsqdNrC1A.en.vtt" srclang="en"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="17. 数据库概念-WZRsqdNrC1A.zh-CN.vtt" srclang="zh-CN"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="17. 数据库概念-WZRsqdNrC1A.pt-BR.vtt" srclang="pt-BR"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div style="display: block;">
+           <div style="position: relative;">
+            <img alt="" src="img/3412148672.gif" style="width: 100%; max-height: 100%"/>
+            <div style="
+    position: absolute; top: 22.533259423503328%; left: 57.91575748129676%; width: 9.975062344139651%; height: 9.977827050997783%;
+  ">
+             <input aria-label="" id="text1" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 22.57829822616408%; left: 68.30969451371571%; width: 15.336658354114713%; height: 9.977827050997783%;
+  ">
+             <input aria-label="" id="text2" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 22.290742793791573%; left: 83.79052369077307%; width: 12.468827930174564%; height: 9.977827050997783%;
+  ">
+             <input aria-label="" id="text3" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 34.13248337028825%; left: 57.99368765586035%; width: 9.72568578553616%; height: 9.977827050997783%;
+  ">
+             <input aria-label="" id="text4" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 34.02508314855876%; left: 68.28047069825436%; width: 15.336658354114713%; height: 10.199556541019955%;
+  ">
+             <input aria-label="" id="text5" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 33.82414079822617%; left: 84.02041770573567%; width: 12.219451371571072%; height: 9.977827050997783%;
+  ">
+             <input aria-label="" id="text6" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 59.98129157427938%; left: 58.200202618453865%; width: 9.476309226932669%; height: 9.312638580931264%;
+  ">
+             <input aria-label="" id="text7" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 60.164911308204%; left: 68.15188591022444%; width: 11.346633416458852%; height: 9.312638580931264%;
+  ">
+             <input aria-label="" id="text8" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 59.99861419068736%; left: 80.0109102244389%; width: 15.835411471321695%; height: 9.312638580931264%;
+  ">
+             <input aria-label="" id="text9" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 71.16130820399114%; left: 57.93718827930174%; width: 9.72568578553616%; height: 7.095343680709535%;
+  ">
+             <input aria-label="" id="text10" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 71.13705654101996%; left: 68.14993765586036%; width: 11.221945137157107%; height: 7.095343680709535%;
+  ">
+             <input aria-label="" id="text11" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 71.08162416851441%; left: 79.991427680798%; width: 15.835411471321695%; height: 7.095343680709535%;
+  ">
+             <input aria-label="" id="text12" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 78.93223392461198%; left: 58.04629052369077%; width: 9.600997506234414%; height: 7.095343680709535%;
+  ">
+             <input aria-label="" id="text13" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 78.98073725055433%; left: 67.99797381546135%; width: 11.596009975062344%; height: 7.095343680709535%;
+  ">
+             <input aria-label="" id="text14" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+            <div style="
+    position: absolute; top: 79.03616962305988%; left: 80.09078865336659%; width: 15.586034912718205%; height: 7.317073170731707%;
+  ">
+             <input aria-label="" id="text15" name="null" style="width: 100%; height: 100%;" type="text"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="17. 数据库概念-PXNaLWJ5SKg.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="ar" src="17. 数据库概念-PXNaLWJ5SKg.ar.vtt" srclang="ar"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="17. 数据库概念-PXNaLWJ5SKg.pt-BR.vtt" srclang="pt-BR"/>
+             <track default="true" kind="subtitles" label="en" src="17. 数据库概念-PXNaLWJ5SKg.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="17. 数据库概念-PXNaLWJ5SKg.zh-CN.vtt" srclang="zh-CN"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+        <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+         <h3>
+          INSTRUCTOR NOTE:
+         </h3>
+         <p>
+          下面是一些可能的列名称，你可以选择自己喜欢的去使用。
+         </p>
+         <ul>
+          <li>
+           donor
+          </li>
+          <li>
+           favorite
+          </li>
+          <li>
+           gorilla
+          </li>
+          <li>
+           home
+          </li>
+          <li>
+           mobile
+          </li>
+          <li>
+           name
+          </li>
+          <li>
+           number
+          </li>
+          <li>
+           phones
+          </li>
+          <li>
+           phone_type
+          </li>
+          <li>
+           phone_number
+          </li>
+          <li>
+           type
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="18. 总结.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('17. 数据库概念')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
