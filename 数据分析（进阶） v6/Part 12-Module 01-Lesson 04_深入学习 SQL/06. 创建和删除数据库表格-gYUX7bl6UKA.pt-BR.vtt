@@ -1,0 +1,36 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:04.480
+Parece que serial não é exatamente
+um tipo de dados, é uma forma abreviada
+
+00:00:04.480 --> 00:00:08.029
+do tipo inteiro,
+mais um valor padrão especial.
+
+00:00:08.029 --> 00:00:11.680
+Quando criamos uma coluna serial,
+o banco de dados faz grande parte do trabalho para
+
+00:00:11.680 --> 00:00:14.530
+termos certeza de que a coluna
+será preenchida corretamente.
+
+00:00:14.530 --> 00:00:18.290
+Ele cria algo como uma sequência,
+que é uma estrutura de dados internos e
+
+00:00:18.290 --> 00:00:20.720
+a define como o valor padrão para
+a coluna.
+
+00:00:20.720 --> 00:00:23.002
+Isso é o que você viu quando
+observou a coluna ID
+
+00:00:23.002 --> 00:00:25.240
+da tabela de postagens dos fóruns na
+última lição, aliás.
+

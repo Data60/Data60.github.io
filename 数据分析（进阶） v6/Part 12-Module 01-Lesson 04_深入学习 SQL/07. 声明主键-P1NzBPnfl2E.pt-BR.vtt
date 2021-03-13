@@ -1,0 +1,30 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.590
+O que vai acontecer de verdade é que se você
+tentar inserir um valor duplicado em
+
+00:00:03.590 --> 00:00:08.180
+uma coluna de chave primária, o banco de dados
+sinalizará um erro, no código Python,
+
+00:00:08.180 --> 00:00:10.280
+e você verá isso como uma exceção.
+
+00:00:10.280 --> 00:00:12.730
+Se o seu código fizer isso usando o ciclo PG,
+
+00:00:12.730 --> 00:00:16.050
+você terá que reverter usando o
+método de reversão em sua conexão de banco de dados,
+
+00:00:16.050 --> 00:00:18.990
+para poder realizar mais coisas com
+essa conexão de banco de dados.
+
+00:00:18.990 --> 00:00:22.080
+Sendo assim, a resposta correta é que
+o banco de dados sinalizará um erro.
+

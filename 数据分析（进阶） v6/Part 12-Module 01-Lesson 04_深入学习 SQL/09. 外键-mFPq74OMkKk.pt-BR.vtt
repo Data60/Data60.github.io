@@ -1,0 +1,63 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.230 --> 00:00:02.890
+Primeiro, vamos observar a tabela de usuários.
+
+00:00:02.890 --> 00:00:07.550
+O nome completo de uma pessoa não é único, mas
+o nome de usuário no formulário deve ser.
+
+00:00:07.550 --> 00:00:09.440
+Então isso pode servir como uma chave primária.
+
+00:00:10.700 --> 00:00:12.960
+Em seguida, a tabela de postagens.
+
+00:00:12.960 --> 00:00:16.219
+Cada postagem tem uma id única,
+e essa é a chave primária.
+
+00:00:17.990 --> 00:00:23.070
+E o autor aqui parece se referir às
+tabelas de usuários, coluna nome de usuário.
+
+00:00:23.070 --> 00:00:24.000
+Esta é uma chave estrangeira.
+
+00:00:25.740 --> 00:00:27.050
+Por fim, existe a tabela de votos.
+
+00:00:27.050 --> 00:00:33.230
+Post_id aqui se refere
+à coluna id em postagens,
+
+00:00:33.230 --> 00:00:35.490
+o que a tornaria uma chave estrangeira.
+
+00:00:35.490 --> 00:00:39.410
+Na coluna eleitor se refere ao
+nome de usuário na coluna do usuário.
+
+00:00:39.410 --> 00:00:40.720
+Esta também é uma chave estrangeira.
+
+00:00:42.130 --> 00:00:43.620
+Porém, mais uma coisa,
+
+00:00:43.620 --> 00:00:47.710
+já que cada usuário só deve ser
+permitido a votar uma vez em cada postagem,
+
+00:00:47.710 --> 00:00:52.340
+o par de colunas id de postagem
+vírgula eleitor na tabela de votos,
+
+00:00:52.340 --> 00:00:54.350
+também deve ser uma chave primária.
+
+00:00:54.350 --> 00:01:01.040
+Por exemplo, ela fala sobre o voto da usuária
+Prince Utena em post_id número 2.
+

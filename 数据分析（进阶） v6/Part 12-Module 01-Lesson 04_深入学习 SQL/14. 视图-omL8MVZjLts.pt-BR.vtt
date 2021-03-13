@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.350 --> 00:00:01.340
+Se você pode atualizar ou
+
+00:00:01.340 --> 00:00:04.330
+excluir das visualizações, depende do sistema de banco de dados.
+
+00:00:04.330 --> 00:00:05.689
+No SQLite, você não pode.
+
+00:00:05.689 --> 00:00:06.910
+Ele não aceita isso.
+
+00:00:06.910 --> 00:00:10.240
+Mas no PostqreSQL, você pode atualizar ou excluir em visualizações simples,
+
+00:00:10.240 --> 00:00:14.600
+como aquelas que selecionam apenas linhas ou colunas de uma grande tabela.
+
+00:00:14.600 --> 00:00:18.710
+Mas não das visualizações que usam desenho, agregações ou outras funções.
+
+00:00:18.710 --> 00:00:22.640
+A alteração na visualização afetará a tabela subjacente da qual ela é uma visualização.
+
+00:00:22.640 --> 00:00:24.620
+Portanto, a resposta é sim, você pode atualizar ou
+
+00:00:24.620 --> 00:00:26.860
+excluir linhas de algumas visualizações, mas não de outras.
+

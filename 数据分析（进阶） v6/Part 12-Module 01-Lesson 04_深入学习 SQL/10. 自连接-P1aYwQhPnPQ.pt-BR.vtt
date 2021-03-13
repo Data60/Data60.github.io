@@ -1,0 +1,65 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.280 --> 00:00:04.420
+Anteriormente neste curso, usamos
+Joins para derivar novas tabelas de duas ou
+
+00:00:04.420 --> 00:00:06.090
+mais tabelas existentes.
+
+00:00:06.090 --> 00:00:09.680
+Mas também há casos em que você
+precisa uma tabela a ela mesma.
+
+00:00:09.680 --> 00:00:13.530
+Por exemplo, para encontrar pares de entradas
+que têm algo em comum.
+
+00:00:13.530 --> 00:00:17.110
+Fazer isso no banco de dados, geralmente, é
+muito mais rápido que retirar dados do
+
+00:00:17.110 --> 00:00:19.510
+código Python e
+verificá-los aqui.
+
+00:00:19.510 --> 00:00:20.890
+Veja um exemplo.
+
+00:00:20.890 --> 00:00:24.620
+Esta é uma tabela de alunos que vivem
+no alojamento de uma faculdade.
+
+00:00:24.620 --> 00:00:26.280
+A ID de aluno é a chave primária,
+
+00:00:26.280 --> 00:00:30.210
+e depois temos o nome do
+alojamento e o número do quarto.
+
+00:00:30.210 --> 00:00:33.420
+Esses são, na verdade, alguns dos nomes
+de dormitórios em minha faculdade.
+
+00:00:33.420 --> 00:00:36.570
+Agora, suponha que queiramos descobrir
+quais alunos são colegas de quarto.
+
+00:00:36.570 --> 00:00:40.410
+Em outras palavras, eles vivem no mesmo
+prédio e têm o mesmo número de quarto.
+
+00:00:40.410 --> 00:00:43.780
+Para fazer isso,
+unimos a tabela a ela mesma.
+
+00:00:43.780 --> 00:00:47.850
+Essa consulta não está muita certa,
+mas está quase.
+
+00:00:47.850 --> 00:00:51.810
+Experimente isso na próxima página
+e veja se você pode corrigi-la.
+

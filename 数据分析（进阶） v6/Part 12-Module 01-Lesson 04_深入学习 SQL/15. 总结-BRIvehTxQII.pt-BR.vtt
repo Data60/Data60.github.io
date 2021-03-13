@@ -1,0 +1,32 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.035 --> 00:00:02.896
+Você aprendeu
+sobre design de banco de dados,
+
+00:00:02.929 --> 00:00:07.074
+criou tabelas normalizadas para
+representar relações entre dados
+
+00:00:07.107 --> 00:00:11.505
+e estudou a documentação
+PostgreSQL e Python DB API.
+
+00:00:11.538 --> 00:00:15.020
+Já pode usá-las em futuros
+trabalhos de banco de dados.
+
+00:00:15.053 --> 00:00:18.233
+Agora você utilizará tudo isso
+para construir
+
+00:00:18.266 --> 00:00:21.624
+uma ferramenta de banco de dados
+para resolver um problema.
+
+00:00:21.657 --> 00:00:26.047
+Executar um torneio de jogos justo
+e desafiador para todos os jogadores.
+

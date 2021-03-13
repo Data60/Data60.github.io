@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.350 --> 00:00:04.070
+Você provavelmente notou que as consultas SQL
+podem ficar muito complicadas quando
+
+00:00:04.070 --> 00:00:06.480
+as cláusulas e
+as subconsultas começam a empilhar.
+
+00:00:07.480 --> 00:00:10.460
+Como programadores, quando estamos escrevendo
+um código e uma função fica
+
+00:00:10.460 --> 00:00:15.300
+muito complexa, buscamos formas de
+refatorá-la em funções menores.
+
+00:00:15.300 --> 00:00:18.250
+Também podemos fazer isso em SQL.
+
+00:00:18.250 --> 00:00:20.670
+Cada consulta select retorna uma tabela.
+
+00:00:20.670 --> 00:00:23.700
+Podemos fazer o banco de dados
+lembrar de uma consulta select para nós e
+
+00:00:23.700 --> 00:00:25.640
+torná-la disponíveis para consultas posteriores.
+
+00:00:25.640 --> 00:00:27.990
+Isso se chama exibição.
+
+00:00:27.990 --> 00:00:31.000
+Aqui está a sintaxe do
+comando create view.
+
+00:00:31.000 --> 00:00:35.230
+As exibições são realmente úteis com
+agregações como contagens ou somas.
+
+00:00:35.230 --> 00:00:39.010
+Por exemplo, se tivermos uma tabela de
+alunos inscritos nos cursos e
+
+00:00:39.010 --> 00:00:41.590
+quisermos saber quantos
+alunos estão em cada curso,
+
+00:00:42.670 --> 00:00:44.970
+podemos descobrir isso
+com uma agregação.
+
+00:00:44.970 --> 00:00:49.560
+Mas se formos usar muito
+essa consulta, podemos armazená-la em uma exibição.
+
+00:00:49.560 --> 00:00:52.440
+Usar uma exibição em vez
+de criar uma subconsulta
+
+00:00:52.440 --> 00:00:55.900
+é como usar uma chamada de
+função em vez de copiar o código.
+
+00:00:55.900 --> 00:00:59.470
+Outro uso das exibições é
+exibir apenas colunas específicas
+
+00:00:59.470 --> 00:01:01.370
+de uma tabela que tem muitas colunas.
+
+00:01:01.370 --> 00:01:04.599
+Se você tiver uma tabela com 20 colunas
+e tiver muitas consultas que se refiram apenas
+
+00:01:04.599 --> 00:01:08.940
+a quatro delas, criar uma exibição
+pode tornar seu código mais claro.
+
+00:01:08.940 --> 00:01:09.900
+Aqui está algo em que se pensar.
+
+00:01:09.900 --> 00:01:14.580
+Você acha que um sistema de banco de dados como
+PostgreSQL deve nos permitir atualizar e
+
+00:01:14.580 --> 00:01:15.820
+excluir linhas em uma exibição?
+

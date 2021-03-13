@@ -1,0 +1,44 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.540 --> 00:00:02.980
+Até agora neste curso,
+você trabalhou com bancos de dados e
+
+00:00:02.980 --> 00:00:05.310
+tabelas que já tinham sido criados.
+
+00:00:05.310 --> 00:00:08.109
+Nesta lição,
+você aprenderá a definir novas tabelas
+
+00:00:08.109 --> 00:00:10.290
+e a declarar os relacionamentos entre elas.
+
+00:00:10.290 --> 00:00:14.040
+Começaremos revisitando o que
+você já sabe sobre a estrutura de tabela,
+
+00:00:14.040 --> 00:00:17.190
+e acrescentaremos a isso a sintaxe SQL
+para criar tabelas e
+
+00:00:17.190 --> 00:00:18.860
+vinculá-las.
+
+00:00:18.860 --> 00:00:20.540
+Em seguida, você aprenderá alguns
+truques poderosos para
+
+00:00:20.540 --> 00:00:24.900
+fazer coisas usando SQL que
+poderiam ser feitas de outra forma em seu código python.
+
+00:00:24.900 --> 00:00:28.160
+Isso pode ajudar o seu código a ser executado de forma mais rápida e
+confiável.
+
+00:00:28.160 --> 00:00:28.830
+Vamos começar.
+

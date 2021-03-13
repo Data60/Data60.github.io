@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:01.280
+Nossa primeira regra para
+
+00:00:01.280 --> 00:00:06.010
+nossa tabela normalizada será que cada
+linha tenha o mesmo número de colunas.
+
+00:00:06.010 --> 00:00:11.100
+Uma coluna pode ser vazia ou zero, mas
+não podemos ter duas colunas em algumas linhas e
+
+00:00:11.100 --> 00:00:12.910
+três colunas em outra linha.
+
+00:00:12.910 --> 00:00:16.129
+Isso simplesmente não faz sentido
+em um banco de dados relacional.
+
+00:00:16.129 --> 00:00:19.140
+Na verdade, é mais ou menos
+a mesma coisa que estava acontecendo
+
+00:00:19.140 --> 00:00:22.940
+quando tínhamos as colunas alimento um,
+alimento dois e alimento três.
+
+00:00:22.940 --> 00:00:25.180
+Se você tiver dois valores
+com o mesmo significado para
+
+00:00:25.180 --> 00:00:29.582
+uma determinada chave, eles precisarão
+terminar em linhas separadas.
+
+00:00:29.582 --> 00:00:34.380
+A segunda regra, uma ou
+mais colunas da tabela são a chave,
+
+00:00:34.380 --> 00:00:37.360
+o que identifica o que
+cada linha está nos dizendo,
+
+00:00:37.360 --> 00:00:42.210
+como um animal, uma espécie,
+um número de conta bancária, um usuário do site.
+
+00:00:42.210 --> 00:00:43.250
+Em uma tabela simples,
+
+00:00:43.250 --> 00:00:47.640
+como especialistas, pode ser que todas
+as colunas sejam parte da chave.
+
+00:00:47.640 --> 00:00:51.390
+Qualquer outra coluna na tabela
+exceto a chave tem que
+
+00:00:51.390 --> 00:00:52.890
+descrever algo sobre a chave.
+
+00:00:53.960 --> 00:00:59.050
+Em qualquer linha, a chave fornece o tópico
+da sentença sobre a qual o resto
+
+00:00:59.050 --> 00:01:00.290
+da linha diz algo.
+
+00:01:01.820 --> 00:01:06.140
+A regra 3, em uma tabela normalizada,
+as colunas que não são a chave descrevem a chave.
+
+00:01:06.140 --> 00:01:09.560
+Elas não descrevem
+outras colunas que não são a chave.
+
+00:01:09.560 --> 00:01:12.780
+Se você tivesse uma tabela de itens,
+o número de itens existentes,
+
+00:01:12.780 --> 00:01:16.590
+o local em que eles estão e
+o endereço desse local.
+
+00:01:16.590 --> 00:01:20.220
+Para normalizar isso, você não divide
+o mapeamento do local para
+
+00:01:20.220 --> 00:01:24.060
+lidar com o restante da tabela,
+desta forma.
+
+00:01:24.060 --> 00:01:28.480
+Dessa forma, você pode falar sobre um local
+sem falar sobre um item específico.
+
+00:01:28.480 --> 00:01:32.760
+Não é como se o endereço fosse
+específico de um determinado item.
+
+00:01:32.760 --> 00:01:34.990
+Por último, em uma tabela normalizada,
+
+00:01:34.990 --> 00:01:39.270
+as linhas não implicam em relacionamentos entre
+os dados que não existem realmente.
+
+00:01:39.270 --> 00:01:42.420
+Isso é algo a ser observado,
+especialmente quando você tem várias linhas
+
+00:01:42.420 --> 00:01:46.460
+sobre a mesma entidade e vários
+fatos que quer registrar sobre ela.
+
+00:01:46.460 --> 00:01:49.530
+Suponha que você tenha algumas informações
+sobre as habilidades de trabalho de algumas pessoas,
+
+00:01:49.530 --> 00:01:51.450
+incluindo os idiomas que elas falam.
+
+00:01:51.450 --> 00:01:54.110
+Aqui Annabel conhece bancos de dados,
+
+00:01:54.110 --> 00:01:58.500
+Linux e ciência de dados e
+fala inglês, francês e árabe.
+
+00:01:59.680 --> 00:02:04.340
+E Leon conhece ciência de dados e
+Windows e fala inglês e curdo.
+
+00:02:04.340 --> 00:02:07.940
+Bancos de dados não têm particularmente nada a ver
+com inglês,
+
+00:02:07.940 --> 00:02:09.919
+nem Linux com francês,
+
+00:02:09.919 --> 00:02:11.980
+mas essas linhas fazem
+parecer que sim.
+
+00:02:11.980 --> 00:02:15.470
+Elas fazem parecer que a habilidade em Linux da Annabel
+tem alguma coisa a ver com
+
+00:02:15.470 --> 00:02:19.260
+a habilidade dela de falar francês,
+e isso é basicamente errado.
+
+00:02:19.260 --> 00:02:22.770
+Sendo assim, o mapeamento das pessoas com as
+suas habilidades tecnológicas e
+
+00:02:22.770 --> 00:02:28.240
+o mapeamento das pessoas com os idiomas
+que elas falam pertencem a tabelas separadas.
+
+00:02:28.240 --> 00:02:31.090
+Portanto, existem quatro regras para
+a normalização de tabelas.
+
+00:02:31.090 --> 00:02:33.350
+Mas ainda existem muito mais coisas
+para aprender sobre este tópico.
+
+00:02:33.350 --> 00:02:35.910
+Coloquei alguns links nas notas do
+instrutor que talvez você queira ler.
+

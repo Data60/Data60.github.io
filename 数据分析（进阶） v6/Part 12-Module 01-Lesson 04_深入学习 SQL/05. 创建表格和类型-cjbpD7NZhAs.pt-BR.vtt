@@ -1,0 +1,131 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.630 --> 00:00:04.730
+Você pode adicionar uma nova tabela vazia ao seu
+banco de dados com o comando create table.
+
+00:00:05.770 --> 00:00:09.900
+Ao criar uma tabela, você dará
+o nome da tabela e os nomes e
+
+00:00:09.900 --> 00:00:11.870
+os tipos de cada coluna.
+
+00:00:11.870 --> 00:00:16.650
+Você também pode definir limites em cada
+coluna e nas linhas como um todo.
+
+00:00:16.650 --> 00:00:20.320
+Falaremos sobre limites em breve,
+mas, por enquanto, vamos nos concentrar nos tipos.
+
+00:00:20.320 --> 00:00:23.200
+Esta é a forma mais simples do comando create
+table, que não tem quaisquer
+
+00:00:23.200 --> 00:00:26.330
+limites, apenas colunas com seus
+tipos, e dá um nome para a tabela.
+
+00:00:27.580 --> 00:00:31.640
+Lidamos com os tipos texto e inteiro
+anteriormente e, de volta à lição dois,
+
+00:00:31.640 --> 00:00:36.380
+eu forneci uma lista grande e longa com diversos
+tipos que são compatíveis com SQL.
+
+00:00:36.380 --> 00:00:40.690
+O conjunto exato de tipos que você pode usar
+variará de sistema para sistema.
+
+00:00:40.690 --> 00:00:43.870
+Se estiver usando um sistema de
+banco de dados nativamente
+
+00:00:43.870 --> 00:00:47.070
+incompatível com o tipo que você precisa,
+geralmente há uma forma de contornar isso.
+
+00:00:47.070 --> 00:00:49.980
+Por exemplo,
+o PostgreSQL tem um tipo específico para
+
+00:00:49.980 --> 00:00:53.380
+endereços IP, mas o MySQL não.
+
+00:00:53.380 --> 00:00:58.645
+Os programadores de MySQL geralmente usam um inteiro
+ou uma string de texto para armazenar endereços IP.
+
+00:00:58.645 --> 00:01:02.475
+Dos bancos de dados que usamos neste curso,
+o PostgreSQL tem um tipo correto para datas e horas,
+
+00:01:02.475 --> 00:01:07.615
+mas o SQLite na verdade apenas
+armazena datas como strings.
+
+00:01:07.615 --> 00:01:10.885
+Os sistemas de banco de dados
+frequentemente oferecem atalhos
+
+00:01:10.885 --> 00:01:12.255
+para declarar um tipo particular de coluna.
+
+00:01:12.255 --> 00:01:16.145
+Por exemplo, no PostgreSQL, você pode
+ter uma coluna que armazena a hora e a
+
+00:01:16.145 --> 00:01:17.730
+data junto com o fuso horário,
+
+00:01:17.730 --> 00:01:21.670
+para que você possa fazer comparações dos dados
+registrados em lugares diferentes no mundo.
+
+00:01:21.670 --> 00:01:26.363
+O nome completo do padrão SQL para esse
+tipo de coluna é carimbo de data e hora com fuso horário,
+
+00:01:26.363 --> 00:01:32.710
+mas o PostgreSQL nos permite
+abreviá-lo como timestamptz.
+
+00:01:32.710 --> 00:01:36.250
+Geralmente, se estiver criando
+um banco de dados para um novo aplicativo,
+
+00:01:36.250 --> 00:01:40.260
+você configurará o banco de dados antecipadamente
+como parte do procedimento de instalação.
+
+00:01:40.260 --> 00:01:44.010
+É tecnicamente possível enviar comandos
+create table a partir do código do seu aplicativo,
+
+00:01:44.010 --> 00:01:47.350
+mas geralmente é uma má ideia fazer
+isso fora da configuração inicial.
+
+00:01:47.350 --> 00:01:50.720
+O design do seu banco de dados é realmente
+uma parte do código do seu aplicativo.
+
+00:01:50.720 --> 00:01:54.030
+Ele é apenas uma parte escrita no
+SQL em vez de no Python.
+
+00:01:54.030 --> 00:01:58.250
+Portanto, criar tabelas não é como criar
+valores nas variáveis do seu programa.
+
+00:01:58.250 --> 00:02:01.000
+É mais como fazer o seu
+aplicativo rescrever seu próprio código.
+
+00:02:01.000 --> 00:02:02.470
+Isso não é algo muito comum.
+

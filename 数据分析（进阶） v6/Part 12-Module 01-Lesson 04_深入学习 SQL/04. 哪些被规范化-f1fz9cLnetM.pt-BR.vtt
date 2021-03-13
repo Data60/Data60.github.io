@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:05.030
+Neste primeiro caso, temos três
+colunas, nome do aluno, nome do professor e
+
+00:00:05.030 --> 00:00:06.710
+a nota do aluno.
+
+00:00:06.710 --> 00:00:10.450
+Uma das regras para normalização é
+que temos que ter uma chave exclusiva
+
+00:00:10.450 --> 00:00:14.240
+que diga sobre o que é cada linha,
+mas os nomes não são únicos.
+
+00:00:14.240 --> 00:00:18.730
+Se tivermos dois alunos chamados
+Jake Smith ou Pavel Ivanov, ou
+
+00:00:18.730 --> 00:00:21.970
+algum outro nome,
+isso não vai funcionar muito bem.
+
+00:00:21.970 --> 00:00:25.500
+Além disso, se um aluno estiver fazendo dois cursos
+ministrados pelo mesmo professor, como
+
+00:00:25.500 --> 00:00:27.820
+um curso de ciência de computação e matemática,
+
+00:00:27.820 --> 00:00:29.440
+também teremos problemas.
+
+00:00:29.440 --> 00:00:31.780
+Portanto, isto não é normalizado.
+
+00:00:31.780 --> 00:00:33.890
+Aqui também temos uma única tabela.
+
+00:00:33.890 --> 00:00:36.500
+Aqui demos a cada
+aluno um número de id exclusivo.
+
+00:00:36.500 --> 00:00:38.270
+E também estamos usando uma id exclusiva para
+
+00:00:38.270 --> 00:00:40.900
+os cursos, em vez de apenas o
+nome do professor.
+
+00:00:40.900 --> 00:00:44.640
+Mas, estamos armazenando fatos que não têm a
+ver um com o outro na mesma tabela.
+
+00:00:44.640 --> 00:00:49.070
+Como o aluno 23 é sempre Jake Smith,
+independentemente do curso que ele está fazendo,
+
+00:00:49.070 --> 00:00:53.900
+isso realmente precisa ser dividido em duas
+tabelas, portanto, isto também não é normalizado.
+
+00:00:53.900 --> 00:00:55.280
+E dividir em duas tabelas
+
+00:00:55.280 --> 00:00:57.710
+é exatamente o que
+fizemos neste terceiro grupo.
+
+00:00:57.710 --> 00:01:01.350
+Uma tabela fornece o relacionamento
+entre cada id de aluno e seu nome.
+
+00:01:01.350 --> 00:01:04.129
+E a outra fornece a nota de
+cada curso que ele faz.
+
+00:01:04.129 --> 00:01:06.100
+Se tudo o que soubermos for um nome de aluno,
+
+00:01:06.100 --> 00:01:08.700
+podemos unir isso
+com a nota para encontrar os cursos.
+
+00:01:08.700 --> 00:01:12.000
+Mas, se houver dois alunos com
+o mesmo nome, obteremos ambos.
+
+00:01:12.000 --> 00:01:14.290
+Ainda assim, isto é normalizado.
+
+00:01:14.290 --> 00:01:17.320
+E, no quarto grupo,
+a única diferença entre esta tabela e
+
+00:01:17.320 --> 00:01:21.450
+a outra é que aqui também estamos
+mantendo o controle das datas de nascimento dos alunos.
+
+00:01:21.450 --> 00:01:23.540
+Mas uma pessoa tem apenas uma data de nascimento.
+
+00:01:23.540 --> 00:01:26.140
+E a data de nascimento não tem
+nada a ver com as notas deles.
+
+00:01:26.140 --> 00:01:28.130
+Adicionar esta coluna a esta tabela
+
+00:01:28.130 --> 00:01:30.920
+não a torna menos
+normalizada do que esta outra.
+
+00:01:30.920 --> 00:01:33.060
+Portanto, ambas são normalizadas.
+

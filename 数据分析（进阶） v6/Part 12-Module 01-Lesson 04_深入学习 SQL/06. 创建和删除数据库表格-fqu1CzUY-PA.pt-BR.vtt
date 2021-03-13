@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.270 --> 00:00:03.170
+Quando você quiser usar um banco de dados
+em seu aplicativo,
+
+00:00:03.170 --> 00:00:06.300
+primeiro é preciso criar
+o banco de dados e dar um nome a ele.
+
+00:00:06.300 --> 00:00:09.180
+Você usará o thread create
+database para isso.
+
+00:00:09.180 --> 00:00:10.620
+O nome que você dá aqui
+
+00:00:10.620 --> 00:00:14.300
+é o mesmo que será usado para conectar
+ao banco de dados a partir do seu código.
+
+00:00:14.300 --> 00:00:17.790
+O oposto do create em SQL é drop.
+
+00:00:17.790 --> 00:00:19.240
+Não sei bem o motivo.
+
+00:00:19.240 --> 00:00:22.130
+Talvez os programadores de banco de dados
+fossem muito desajeitados.
+
+00:00:22.130 --> 00:00:26.220
+De qualquer forma, a maneira de remover um banco de dados
+é drop database.
+
+00:00:26.220 --> 00:00:29.270
+E a maneira de remover
+uma tabela é drop table.
+
+00:00:29.270 --> 00:00:30.860
+Todos esses comandos têm opções,
+
+00:00:30.860 --> 00:00:33.610
+você pode procurar na documentação
+caso precise delas.
+
+00:00:33.610 --> 00:00:34.840
+Quando você descarta um banco de dados ou
+
+00:00:34.840 --> 00:00:38.770
+uma tabela, não há confirmação, nem
+um aviso do tipo "você realmente quer fazer isso".
+
+00:00:38.770 --> 00:00:41.400
+Então, não faça isso,
+se você realmente não tem essa intenção.
+
+00:00:41.400 --> 00:00:45.500
+Quando tiver criado um banco de dados em psql,
+você vai querer se conectar a ele.
+
+00:00:45.500 --> 00:00:47.870
+Você pode fazer isso usando
+o comando barra invertida C,
+
+00:00:47.870 --> 00:00:49.940
+seguido pelo nome do banco de dados.
+
+00:00:49.940 --> 00:00:53.540
+A propósito, você não pode descartar
+um banco de dados ao qual está conectado.
+
+00:00:53.540 --> 00:00:57.235
+Experimente esses comandos por sua
+conta na VM usando psql.
+
+00:00:57.235 --> 00:01:01.905
+Primeiro, crie um novo banco de dados chamado
+peixes, ou o nome que você quiser.
+
+00:01:01.905 --> 00:01:02.905
+Depois de criá-lo,
+
+00:01:02.905 --> 00:01:07.325
+faça a conexão do psql com
+esse banco de dados, o \c peixes.
+
+00:01:07.325 --> 00:01:10.805
+Em seguida, crie uma tabela,
+transforme uma das colunas em uma coluna de texto
+
+00:01:10.805 --> 00:01:12.765
+e uma das colunas em uma coluna serial.
+
+00:01:12.765 --> 00:01:14.985
+Depois, tente inserir alguns valores
+com a coluna de texto e
+
+00:01:14.985 --> 00:01:17.120
+selecionar algumas linhas na tabela.
+
+00:01:17.120 --> 00:01:19.160
+O que você acha que vai
+acontecer na coluna serial,
+
+00:01:19.160 --> 00:01:21.980
+quando você inserir uma linha que
+não fornece um valor?
+
+00:01:21.980 --> 00:01:22.860
+Tente isso no psql.
+
+00:01:22.860 --> 00:01:26.020
+O que realmente aconteceu?
+
+00:01:26.020 --> 00:01:27.000
+Depois disso,
+
+00:01:27.000 --> 00:01:30.410
+tente encontrar uma descrição desse
+comportamento na documentação de SQL da postagem.
+

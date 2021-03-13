@@ -1,0 +1,32 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.610
+Quando você executou esta consulta,
+o que havia de errado com ela?
+
+00:00:03.610 --> 00:00:06.350
+Bem, ela parece pensar
+que cada aluno é seu
+
+00:00:06.350 --> 00:00:12.070
+próprio colega de quarto, e ela lista cada par
+de colegas de quarto duas vezes em ordem alternada.
+
+00:00:12.070 --> 00:00:16.070
+Existem várias formas de corrigir isso,
+mas aqui está apenas uma delas.
+
+00:00:16.070 --> 00:00:21.310
+Solicitando apenas as linhas onde
+esta id é menor que essa id.
+
+00:00:21.310 --> 00:00:24.980
+Eliminamos as linhas onde elas são
+iguais, em outras palavras o mesmo aluno.
+
+00:00:24.980 --> 00:00:27.530
+E, eliminamos um de
+cada par de duplicatas.
+

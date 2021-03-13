@@ -1,0 +1,104 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:04.220
+Aqui está algo que surpreende
+muitas pessoas quando elas aprendem SQL.
+
+00:00:04.220 --> 00:00:08.630
+Até o momento, sempre que usou select,
+você selecionou em uma tabela ou
+
+00:00:08.630 --> 00:00:10.340
+em algumas tabelas unidas.
+
+00:00:10.340 --> 00:00:12.940
+Você pode selecionar em
+outro local também,
+
+00:00:12.940 --> 00:00:15.580
+nos resultados de uma consulta select.
+
+00:00:15.580 --> 00:00:19.120
+Essa é uma forma de algo chamado
+subconsulta ou às vezes subselect.
+
+00:00:20.650 --> 00:00:23.310
+Lembre-se na lição um quando
+eu disse que o resultado de
+
+00:00:23.310 --> 00:00:25.350
+uma consulta é sempre uma tabela?
+
+00:00:25.350 --> 00:00:26.650
+Veja por quê.
+
+00:00:26.650 --> 00:00:30.000
+Como o resultado de uma consulta é uma tabela,
+você pode selecioná-la,
+
+00:00:30.000 --> 00:00:32.409
+uni-la ou agregá-la, e assim por diante.
+
+00:00:32.409 --> 00:00:36.130
+Aqui está uma tabela que lista os jogadores de beisebol,
+o time em que eles estão
+
+00:00:36.130 --> 00:00:39.180
+e os pontos que eles
+marcaram na última temporada.
+
+00:00:39.180 --> 00:00:43.140
+E aqui está uma consulta que encontrará
+o jogador com maior pontuação de
+
+00:00:43.140 --> 00:00:44.410
+cada time.
+
+00:00:44.410 --> 00:00:49.870
+Ela usa a agregação máxima, agrupando
+por time para encontrar a pontuação mais alta.
+
+00:00:49.870 --> 00:00:52.910
+Mas suponha que queiramos
+saber qual é a pontuação média do
+
+00:00:52.910 --> 00:00:54.930
+maior pontuador.
+
+00:00:54.930 --> 00:01:00.490
+Para fazer isso, podemos pegar essa consulta inteira
+e incluí-la dentro de outra consulta.
+
+00:01:00.490 --> 00:01:05.700
+A consulta externa dá a média
+dos resultados da consulta interna.
+
+00:01:05.700 --> 00:01:10.830
+A sintaxe SQL exige
+um nome para a tabela de resultados da subconsulta, maxes
+
+00:01:10.830 --> 00:01:15.743
+aqui, embora esse nome não vá ser de fato
+usado em lugar algum da consulta.
+
+00:01:15.743 --> 00:01:17.111
+Ele é apenas necessário.
+
+00:01:17.111 --> 00:01:19.853
+Existem várias outras maneiras
+de usar subconsultas,
+
+00:01:19.853 --> 00:01:23.720
+que estão fora do escopo deste
+curso, mas ainda podem ser muito úteis.
+
+00:01:23.720 --> 00:01:28.100
+Você pode ler sobre outro caso de uso,
+operações de subconsulta na cláusula where,
+
+00:01:28.100 --> 00:01:31.010
+na documentação de PostgreSQL
+vinculada nas notas do instrutor.
+

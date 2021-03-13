@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.040
+Aqui esta é uma resposta possível.
+
+00:00:03.050 --> 00:00:05.050
+Entre parênteses
+
+00:00:05.050 --> 00:00:08.400
+está uma instrução select que
+retorna o peso médio.
+
+00:00:08.400 --> 00:00:12.270
+Chamamos essa tabela de subQ
+porque o SQL nos faz dar algum nome para ela,
+
+00:00:12.270 --> 00:00:13.470
+embora não usemos esse nome.
+
+00:00:14.470 --> 00:00:17.410
+E depois vamos uni-la
+de volta com a tabela de jogadores e
+
+00:00:17.410 --> 00:00:18.930
+criar uma restrição onde para
+
+00:00:18.930 --> 00:00:23.280
+as linhas onde o peso do jogador
+é menor que uma média computada.
+
+00:00:23.280 --> 00:00:25.300
+Vamos ver isso de uma forma mais detalhada.
+
+00:00:25.300 --> 00:00:27.660
+Primeiro, comece com uma subconsulta.
+
+00:00:27.660 --> 00:00:29.880
+Ela cria uma agregação média.
+
+00:00:29.880 --> 00:00:32.980
+Produzindo essa pequena tabela uma
+por uma chamada subq.
+
+00:00:32.980 --> 00:00:36.230
+Depois ela é unida
+com a tabela de jogadores.
+
+00:00:36.230 --> 00:00:37.500
+Criando esta aqui.
+
+00:00:37.500 --> 00:00:43.060
+Depois ela é filtrada, em busca de entradas
+onde o peso é menor que uma média.
+
+00:00:43.060 --> 00:00:45.490
+Finalmente, pegamos apenas as colunas nome e
+peso.
+

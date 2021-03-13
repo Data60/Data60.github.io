@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.180 --> 00:00:03.990
+Voltando para as lições um e dois,
+uma das tabelas do banco de dados de zoológico de que
+
+00:00:03.990 --> 00:00:08.850
+falamos era a tabela de dieta, que
+descreve quais alimentos cada espécie come.
+
+00:00:08.850 --> 00:00:12.850
+Analisamos três formas de armazenar
+vários alimentos para uma única espécie.
+
+00:00:12.850 --> 00:00:14.450
+Tanto colunas de vários alimentos e
+
+00:00:14.450 --> 00:00:19.050
+uma linha por espécie, como uma única
+coluna com alimentos separados por vírgulas.
+
+00:00:19.050 --> 00:00:22.410
+E há linhas separadas para
+cada alimento vírgula espécie.
+
+00:00:22.410 --> 00:00:25.690
+Eu mencionei que esta forma tem algumas
+grandes vantagens sobre as outras duas.
+
+00:00:25.690 --> 00:00:29.440
+Isso funciona melhor com desenhos,
+funciona melhor em comparações e
+
+00:00:29.440 --> 00:00:33.150
+você não precisa saber com antecedência quantos
+alimentos existem. Também analisamos
+
+00:00:33.150 --> 00:00:37.390
+essas duas tabelas de doadores para
+o zoológico e seus números de telefone.
+
+00:00:37.390 --> 00:00:40.380
+Para evitar duplicação,
+dividimos as informações que
+
+00:00:40.380 --> 00:00:44.120
+estavam em um objeto ou seu registro
+em duas tabelas separadas.
+
+00:00:44.120 --> 00:00:47.340
+No jargão de banco de dados,
+esses são os chamados formulários normalizados e
+
+00:00:47.340 --> 00:00:49.920
+os outros são formulários desnormalizados.
+
+00:00:49.920 --> 00:00:53.220
+A normalização é a ideia central
+do design de banco de dados.
+
+00:00:53.220 --> 00:00:56.100
+A normalização envolve fazer com que
+os relacionamentos entre as tabelas em
+
+00:00:56.100 --> 00:00:59.390
+seu banco de dados correspondam aos relacionamentos
+que realmente existem entre
+
+00:00:59.390 --> 00:01:00.910
+os vários trechos de dados.
+
+00:01:00.910 --> 00:01:03.640
+Existe muita teoria de banco de dados
+por trás desta ideia.
+
+00:01:03.640 --> 00:01:07.240
+Coloquei um link nas notas do instrutor para
+um artigo com muitos detalhes sobre isso.
+
+00:01:07.240 --> 00:01:09.740
+Futuramente, contarei para você apenas
+os destaques mais relevantes.
+

@@ -1,0 +1,146 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.310 --> 00:00:02.430
+Quando atribuímos tipos a colunas,
+
+00:00:02.430 --> 00:00:06.430
+estamos restringindo quais tipos de
+valores podem ser colocados nelas depois.
+
+00:00:06.430 --> 00:00:09.150
+Se virmos que uma coluna é um inteiro,
+
+00:00:09.150 --> 00:00:12.540
+não vamos conseguir
+colocar a palavra tortas nela.
+
+00:00:12.540 --> 00:00:15.530
+Isso é importante porque se
+quisermos mais tarde fazer uma soma ou
+
+00:00:15.530 --> 00:00:19.660
+algo do tipo, não podemos adicionar
+a string tortas aos números.
+
+00:00:19.660 --> 00:00:20.960
+Mas esse não é o único tipo de
+
+00:00:20.960 --> 00:00:23.860
+restrição que
+podemos colocar em uma coluna.
+
+00:00:23.860 --> 00:00:27.220
+Imagine que você esteja criando
+um banco de dados para uma loja de varejo.
+
+00:00:27.220 --> 00:00:30.750
+Em uma tabela, temos uma lista de todos os
+produtos que temos para venda.
+
+00:00:30.750 --> 00:00:33.220
+Em outra,
+temos todas as vendas que fizemos.
+
+00:00:33.220 --> 00:00:37.020
+Sempre que vendemos algo, inserimos
+uma nova linha na tabela de vendas.
+
+00:00:37.020 --> 00:00:41.680
+A propósito, o nome S-K-U, ou
+sku nessas colunas, é apenas um nome para
+
+00:00:41.680 --> 00:00:45.160
+stock keeping unit (unidade de manutenção de estoque), que é um número de
+ID ou código usado comumente para
+
+00:00:45.160 --> 00:00:47.630
+produtos em lojas e
+armazéns e assim por diante.
+
+00:00:48.630 --> 00:00:51.080
+Esperamos que cada
+SKU nas tabelas de vendas
+
+00:00:51.080 --> 00:00:53.930
+se refira a um e não a outro
+na tabela de produtos.
+
+00:00:53.930 --> 00:00:56.200
+Mas e se inserirmos
+uma linha na tabela de vendas
+
+00:00:56.200 --> 00:00:59.110
+que não correspondia a nenhuma outra linha
+na tabela de produtos?
+
+00:00:59.110 --> 00:01:01.100
+Isso não faria sentido algum.
+
+00:01:01.100 --> 00:01:05.080
+Não temos um número de produto 23,
+inserir essa linha é um erro.
+
+00:01:06.250 --> 00:01:11.350
+E é um erro que o banco de dados
+pode detectar, mas apenas se dissermos a ele para fazer isso.
+
+00:01:11.350 --> 00:01:15.070
+Quando criamos uma tabela, podemos dizer ao
+banco de dados que uma coluna específica deve
+
+00:01:15.070 --> 00:01:18.330
+ter apenas valores que se referem
+à chave de outra tabela.
+
+00:01:18.330 --> 00:01:20.940
+Para fazer isso,
+usamos a palavra-chave references.
+
+00:01:20.940 --> 00:01:25.230
+Create table sales,
+sku text references products. (Criar tabela vendas, texto sku referências produtos).
+
+00:01:25.230 --> 00:01:27.590
+Se o nome da coluna
+for o mesmo em ambas as tabelas,
+
+00:01:27.590 --> 00:01:30.870
+podemos usar apenas
+o nome da tabela aqui.
+
+00:01:30.870 --> 00:01:33.770
+Caso contrário, usaríamos o nome da
+tabela seguida pela coluna e
+
+00:01:33.770 --> 00:01:34.650
+parênteses.
+
+00:01:34.650 --> 00:01:38.750
+Neste caso, isso não é realmente
+necessário, pois não precisamos usá-lo.
+
+00:01:38.750 --> 00:01:42.590
+O limite referências
+é como a verificação de tipo.
+
+00:01:42.590 --> 00:01:46.470
+Ele detecta os bugs que podem levar o nosso
+banco de dados a não fazer mais sentido.
+
+00:01:46.470 --> 00:01:47.960
+Na terminologia dos bancos de dados,
+
+00:01:47.960 --> 00:01:51.890
+diríamos que os limites referências
+nos ajudam a manter a integridade referencial,
+
+00:01:51.890 --> 00:01:54.670
+garantindo que os
+valores em uma coluna aqui
+
+00:01:54.670 --> 00:01:57.160
+sempre se referirão aos valores
+em uma coluna aqui.
+

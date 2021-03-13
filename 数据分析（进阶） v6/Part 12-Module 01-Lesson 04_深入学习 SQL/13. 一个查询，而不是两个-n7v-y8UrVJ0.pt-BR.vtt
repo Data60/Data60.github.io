@@ -1,0 +1,47 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:01.290
+Na próxima página,
+
+00:00:01.290 --> 00:00:05.010
+você verá um trecho de código Python
+que faz duas consultas de banco de dados.
+
+00:00:05.010 --> 00:00:07.590
+Primeiro, ele faz uma agregação
+para encontrar o peso médio dos
+
+00:00:07.590 --> 00:00:10.340
+jogadores de golfe, e
+, em seguida ele usa essa média para
+
+00:00:10.340 --> 00:00:13.890
+encontrar todos os jogadores de golfe
+que pesam menos que essa média.
+
+00:00:13.890 --> 00:00:17.409
+Mas usando uma subconsulta, isso pode
+realmente ser feito com apenas uma consulta.
+
+00:00:18.650 --> 00:00:21.630
+Isso é fácil de dizer em português,
+mas e em SQL?
+
+00:00:22.650 --> 00:00:25.700
+Este é um quebra-cabeças complicado, e
+isso vai muito além do que muitos
+
+00:00:25.700 --> 00:00:28.720
+programadores de banco de dados
+estão acostumados a fazer com SQL.
+
+00:00:28.720 --> 00:00:30.670
+Experimente algumas
+abordagens diferentes e
+
+00:00:30.670 --> 00:00:32.840
+veja se você pode encontrar
+uma consulta que faça tudo.
+

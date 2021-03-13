@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:02.090
+OK. Hora de fazer um teste.
+
+00:00:03.100 --> 00:00:07.360
+Aqui estão quatro grupos diferentes de
+tabelas de banco de dados que podem ser usadas para
+
+00:00:07.360 --> 00:00:10.190
+armazenar informações sobre
+alunos em uma escola e
+
+00:00:10.190 --> 00:00:12.210
+as notas deles em vários cursos.
+
+00:00:12.210 --> 00:00:17.090
+Eu gostaria que você marcasse a caixa de seleção de
+cada um deles que é normalizado.
+
+00:00:17.090 --> 00:00:21.070
+No primeiro grupo acima, temos uma
+tabela, essa tabela tem o nome de um aluno,
+
+00:00:21.070 --> 00:00:22.460
+o nome do professor e a nota.
+
+00:00:22.460 --> 00:00:25.330
+No segundo grupo,
+também temos uma tabela,
+
+00:00:25.330 --> 00:00:31.150
+temos uma ID de aluno, o nome do aluno,
+uma ID de curso e a nota.
+
+00:00:31.150 --> 00:00:32.750
+No terceiro grupo abaixo,
+
+00:00:32.750 --> 00:00:36.780
+temos duas tabelas, essa tem a
+ID do aluno e o nome do aluno.
+
+00:00:36.780 --> 00:00:40.600
+Esta aqui tem a ID do aluno,
+a ID do curso e a nota.
+
+00:00:40.600 --> 00:00:44.780
+E, no quarto grupo, também temos
+duas tabelas, temos a ID do aluno,
+
+00:00:44.780 --> 00:00:48.040
+o nome do aluno, a data de aniversário do aluno.
+
+00:00:48.040 --> 00:00:51.500
+E na segunda tabela temos
+a ID do aluno, a ID do curso
+
+00:00:51.500 --> 00:00:53.490
+e a nota.
+
+00:00:53.490 --> 00:00:55.950
+Novamente,
+eu gostaria que você marcasse a caixa de seleção do
+
+00:00:55.950 --> 00:00:59.460
+grupo de tabelas que
+você considera normalizadas.
+

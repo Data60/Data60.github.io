@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.420 --> 00:00:04.950
+Na lição um, comentei
+com você sobre a chave primária,
+
+00:00:04.950 --> 00:00:05.610
+uma coluna ou
+
+00:00:05.610 --> 00:00:10.030
+colunas que identifica exclusivamente
+qualquer que seja o tema da tabela.
+
+00:00:10.030 --> 00:00:11.940
+Lembre-se sobre a cidade e o estado nos EUA
+
+00:00:11.940 --> 00:00:16.309
+não serem exclusivos, pois existem
+cinco Springfields em Wisconsin.
+
+00:00:16.309 --> 00:00:17.820
+Se você quiser uma chave primária para
+
+00:00:17.820 --> 00:00:22.160
+lugares, temos que usar algo como um
+código postal, coordenadas ou alguma outra coisa.
+
+00:00:22.160 --> 00:00:26.300
+Em SQL, temos que informar ao banco de dados
+que algo é uma chave primária, se
+
+00:00:26.300 --> 00:00:29.050
+quisermos relacionar explicitamente
+outras tabelas com ela.
+
+00:00:29.050 --> 00:00:30.790
+Veja como fazer isso.
+
+00:00:30.790 --> 00:00:33.420
+Se você tiver uma chave primária de coluna única,
+
+00:00:33.420 --> 00:00:38.730
+basta colocar a chave primária depois do tipo da coluna
+ao criar a tabela.
+
+00:00:38.730 --> 00:00:42.140
+Enquanto que se você tiver uma chave primária de
+várias colunas,
+
+00:00:42.140 --> 00:00:45.010
+deverá colocá-la depois de todas as
+colunas na tabela.
+
+00:00:45.010 --> 00:00:48.710
+Por exemplo, o código postal
+não tem que ser único em todo o mundo,
+
+00:00:48.710 --> 00:00:51.990
+já que dois países diferentes poderiam
+usar sistemas de numeração semelhantes.
+
+00:00:51.990 --> 00:00:57.010
+Os EUA, a Alemanha e a Indonésia, entre
+outros, usam códigos postais de cinco dígitos.
+
+00:00:57.010 --> 00:01:00.020
+Isso significa que se quiséssemos
+ter uma tabela de locais para os quais
+
+00:01:00.020 --> 00:01:03.580
+possamos enviar pacotes por correio, iríamos
+querer ter o código postal e o
+
+00:01:03.580 --> 00:01:06.440
+país como parte da chave primária.
+
+00:01:06.440 --> 00:01:10.230
+Lembre-se, as chaves primárias destinam-se
+apenas a identificar exclusivamente o assunto de uma
+
+00:01:10.230 --> 00:01:11.800
+linha.
+
+00:01:11.800 --> 00:01:14.040
+O que você acha que o seu
+banco de dados SQL fará,
+
+00:01:14.040 --> 00:01:18.070
+se você tentar inserir valores duplicados
+em uma coluna de chave primária?
+
+00:01:18.070 --> 00:01:20.130
+Na verdade, vamos fazer disso um teste.
+
+00:01:20.130 --> 00:01:23.310
+O que o banco de dados deve fazer,
+quando um usuário pedir para ele inserir
+
+00:01:23.310 --> 00:01:27.000
+um segundo aluno com um número de ID
+que seja o mesmo de outro aluno?
+
+00:01:27.000 --> 00:01:29.410
+Em outras palavras, uma chave primária duplicada.
+
+00:01:29.410 --> 00:01:32.140
+Ele deve inserir a nova linha mesmo assim?
+
+00:01:32.140 --> 00:01:35.650
+Ele deve sinalizar um erro
+como uma exceção no Python?
+
+00:01:35.650 --> 00:01:38.620
+Ele deve cancelar silenciosamente a nova linha?
+
+00:01:38.620 --> 00:01:40.250
+Ou deve sobrescrever a linha antiga?
+

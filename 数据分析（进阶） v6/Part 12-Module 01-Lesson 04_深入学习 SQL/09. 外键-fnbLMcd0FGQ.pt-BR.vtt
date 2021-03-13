@@ -1,0 +1,146 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:04.430
+Na terminologia dos bancos de dados, uma coluna
+com um limite de referências
+
+00:00:04.430 --> 00:00:06.080
+também é chamada de chave estrangeira.
+
+00:00:06.080 --> 00:00:09.570
+Isso sempre soou um
+pouco estranho para mim,
+
+00:00:09.570 --> 00:00:13.270
+como se fosse a chave de um cadeado
+do outro lado do oceano, mas
+
+00:00:13.270 --> 00:00:16.550
+uma chave estrangeira é apenas uma coluna ou
+um conjunto de colunas em uma tabela,
+
+00:00:16.550 --> 00:00:19.520
+que identifica exclusivamente
+uma linha em outra tabela.
+
+00:00:19.520 --> 00:00:20.280
+É possível que
+
+00:00:20.280 --> 00:00:25.200
+uma tabela tenha duas ou mais chaves
+estrangeiras, na verdade, isso é bem comum.
+
+00:00:25.200 --> 00:00:29.480
+Por exemplo, considere um banco de dados de
+notas de alunos em vários cursos.
+
+00:00:29.480 --> 00:00:33.420
+Aqui temos uma tabela de nomes de alunos
+e seus números de ID.
+
+00:00:33.420 --> 00:00:36.150
+E a ID é uma chave primária
+porque os nomes não são únicos.
+
+00:00:36.150 --> 00:00:41.640
+E temos uma tabela de cursos, com
+nomes de curso e IDs de curso também.
+
+00:00:41.640 --> 00:00:43.360
+E temos a tabela de notas,
+
+00:00:43.360 --> 00:00:46.890
+que tem chaves estrangeiras
+em ambas as tabelas.
+
+00:00:46.890 --> 00:00:50.040
+Aqui estão as mesmas tabelas,
+mas dessa vez detalhadas.
+
+00:00:50.040 --> 00:00:55.270
+Geralmente, uma chave estrangeira apontará para
+a chave primária da tabela referenciada.
+
+00:00:55.270 --> 00:00:58.770
+Isso porque o sentido de
+uma chave estrangeira é identificar exclusivamente
+
+00:00:58.770 --> 00:01:03.040
+uma linha na tabela referenciada, e
+a chave primária da tabela faz isso.
+
+00:01:03.040 --> 00:01:04.819
+Agora temos aqui um teste.
+
+00:01:04.819 --> 00:01:05.840
+Essas tabelas são para
+
+00:01:05.840 --> 00:01:09.650
+um aplicativo de fórum mais complexo
+do que o que trabalhamos na lição passada.
+
+00:01:09.650 --> 00:01:13.850
+Este aplicativo permite que os usuários façam logon e
+postem comentários e
+
+00:01:13.850 --> 00:01:16.180
+também votem nas postagens de outras pessoas.
+
+00:01:16.180 --> 00:01:19.140
+Observe essas tabelas, e veja se
+você pode descobrir quais colunas devem
+
+00:01:19.140 --> 00:01:23.430
+ser chaves primárias, e quais colunas
+devem ser chaves estrangeiras fazendo referência a elas.
+
+00:01:23.430 --> 00:01:27.130
+Na tabela de usuários,
+temos um nome de usuário ou identificador ou
+
+00:01:27.130 --> 00:01:29.360
+alias e o nome completo do usuário.
+
+00:01:29.360 --> 00:01:32.090
+Nesta tabela de postagens,
+
+00:01:32.090 --> 00:01:37.940
+temos o conteúdo da postagem, o nome de usuário do
+autor e um número de ID da postagem.
+
+00:01:37.940 --> 00:01:41.540
+E na tabela de votos,
+temos o número de id de uma postagem,
+
+00:01:41.540 --> 00:01:45.312
+o nome de usuário de alguém que
+votou nessa postagem, e um 1 ou
+
+00:01:45.312 --> 00:01:48.130
+menos 1 para indicar se ele curtiu ou
+não curtiu a postagem.
+
+00:01:48.130 --> 00:01:52.400
+Portanto, para cada uma dessas colunas, se ela
+deve ser uma chave primária dessa tabela,
+
+00:01:52.400 --> 00:01:54.350
+coloque um P nessa caixa.
+
+00:01:54.350 --> 00:01:56.400
+Se ela deve ser uma chave estrangeira, coloque um F.
+
+00:01:56.400 --> 00:02:00.480
+Se ela não deve ser nenhuma delas,
+deixe a caixa vazia.
+
+00:02:00.480 --> 00:02:04.330
+Além disso, embora não haja caixas de seleção
+para elas, pense se alguma
+
+00:02:04.330 --> 00:02:07.440
+dessas tabelas deve ter chaves
+primárias com mais de uma coluna.
+
