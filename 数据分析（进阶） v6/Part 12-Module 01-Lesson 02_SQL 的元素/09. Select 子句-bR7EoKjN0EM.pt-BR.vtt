@@ -1,0 +1,129 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.220 --> 00:00:02.770
+Você tentou todas
+essas consultas diferentes?
+
+00:00:02.770 --> 00:00:05.700
+Caso o tenha feito, você viu vários
+modificadores que podem ser usados em
+
+00:00:05.700 --> 00:00:09.640
+instruções select,
+eles são chamados de cláusulas select.
+
+00:00:09.640 --> 00:00:11.720
+Where é um deles também.
+
+00:00:11.720 --> 00:00:17.020
+Limit offset é o que você usaria se
+quisesse criar várias páginas de resultados,
+
+00:00:17.020 --> 00:00:18.800
+ele usa dois números.
+
+00:00:18.800 --> 00:00:22.250
+O número de limit informa quantos
+resultados são mostrados em uma página, e
+
+00:00:22.250 --> 00:00:25.890
+o offset
+diz em que parte dos resultados começar.
+
+00:00:25.890 --> 00:00:31.200
+Portanto, se quisesse dez linhas de sua
+tabela começando com a 151ª linha,
+
+00:00:31.200 --> 00:00:34.099
+você usaria limit 10 offset 150.
+
+00:00:35.260 --> 00:00:37.690
+Outra cláusula é order by,
+
+00:00:37.690 --> 00:00:41.370
+order by permite que você diga como gostaria
+de classificar seus resultados.
+
+00:00:41.370 --> 00:00:44.690
+Isso geralmente será por uma ou
+mais colunas.
+
+00:00:44.690 --> 00:00:48.120
+Se você quiser classificá-los do
+maior para o menor, ou seja,
+
+00:00:48.120 --> 00:00:53.070
+em ordem decrescente, adicione
+desc no final, para decrescente.
+
+00:00:53.070 --> 00:00:56.160
+Se você quisesse fazer uma consulta
+na tabela de animais classificada primeiro
+
+00:00:56.160 --> 00:00:57.030
+por espécie.
+
+00:00:57.030 --> 00:01:01.050
+E depois em cada espécie por nome,
+você diria: order by species, name.
+
+00:01:02.770 --> 00:01:06.210
+Uma cláusula que funciona de forma um pouco
+diferente é group by.
+
+00:01:06.210 --> 00:01:10.140
+Ela só será usada com
+agregações como count ou sum.
+
+00:01:10.140 --> 00:01:15.010
+O que group by faz é dizer para, em vez
+de agregar todas as linhas,
+
+00:01:15.010 --> 00:01:17.700
+agregar apenas aquelas que
+compartilham algum valor de coluna.
+
+00:01:18.740 --> 00:01:22.960
+Se você quisesse descobrir o quão comuns
+são os nomes diferentes no zoológico,
+
+00:01:22.960 --> 00:01:24.610
+você deveria fazer isso.
+
+00:01:24.610 --> 00:01:28.460
+Aqui usamos as
+para dar um nome para a coluna de contagem.
+
+00:01:28.460 --> 00:01:29.460
+Aqui o nome é num.
+
+00:01:31.990 --> 00:01:32.670
+Aqui temos um teste.
+
+00:01:32.670 --> 00:01:35.340
+Aqui existem três situações diferentes.
+
+00:01:35.340 --> 00:01:37.720
+Encontre os dez gorilas mais velhos.
+
+00:01:37.720 --> 00:01:41.150
+Liste todos os animais
+em ordem alfabética, dez por página.
+
+00:01:41.150 --> 00:01:45.240
+E descubra em quais espécies
+temos mais animais.
+
+00:01:45.240 --> 00:01:50.320
+Em cada uma dessas situações, quais dessas
+cláusulas select você usaria?
+
+00:01:50.320 --> 00:01:54.410
+Where, limit, offset,
+order by ou group by.
+
+00:01:54.410 --> 00:01:56.020
+Marque todas as caixas adequadas.
+

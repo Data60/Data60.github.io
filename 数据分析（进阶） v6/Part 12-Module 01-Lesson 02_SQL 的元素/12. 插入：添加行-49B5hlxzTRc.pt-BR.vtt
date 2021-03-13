@@ -1,0 +1,44 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.140 --> 00:00:02.090
+Esta é uma resposta possível.
+
+00:00:02.090 --> 00:00:06.970
+Insira na tabela animals os valores 'Wibble' -
+que é o nome que eu dei para o gambá,
+
+00:00:06.970 --> 00:00:08.830
+você pode chamá-lo do que quiser. -
+
+00:00:08.830 --> 00:00:11.600
+A espécie e depois a data de nascimento.
+
+00:00:11.600 --> 00:00:12.510
+Aqui está uma outra opção,
+
+00:00:12.510 --> 00:00:15.320
+em que poderíamos dizer exatamente quais
+colunas estamos inserindo.
+
+00:00:15.320 --> 00:00:19.030
+Mesmo sendo na mesma ordem,
+tudo bem fazer isso.
+
+00:00:19.030 --> 00:00:23.330
+E a propósito, isso é basicamente
+tudo o que temos a dizer sobre a instrução de inserção.
+
+00:00:23.330 --> 00:00:25.970
+Ela é muito mais simples que
+a instrução select.
+
+00:00:25.970 --> 00:00:29.020
+As consultas select podem expressar
+pesquisas arbitrárias complicadas e
+
+00:00:29.020 --> 00:00:33.280
+agregações de dados, mas inserções
+significam apenas adicionar esta linha a esta tabela.
+

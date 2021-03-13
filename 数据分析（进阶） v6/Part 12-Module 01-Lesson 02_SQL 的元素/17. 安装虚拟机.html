@@ -1,0 +1,715 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   安装虚拟机
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      SQL 的元素
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. SQL 与大象.html">
+       01. SQL 与大象
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 与动物园数据库通信.html">
+       02. 与动物园数据库通信
+      </a>
+     </li>
+     <li class="">
+      <a href="03. SQL 中的数据类型.html">
+       03. SQL 中的数据类型
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 几种 SQL 类型.html">
+       04. 几种 SQL 类型
+      </a>
+     </li>
+     <li class="">
+      <a href="05. Select Where.html">
+       05. Select Where
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 比较运算符.html">
+       06. 比较运算符
+      </a>
+     </li>
+     <li class="">
+      <a href="07. SQL 的一个缺点.html">
+       07. SQL 的一个缺点
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 实验页面.html">
+       08. 实验页面
+      </a>
+     </li>
+     <li class="">
+      <a href="09. Select 子句.html">
+       09. Select 子句
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 数据库的优势.html">
+       10. 数据库的优势
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 计算所有物种.html">
+       11. 计算所有物种
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 插入：添加行.html">
+       12. 插入：添加行
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 寻找吃鱼的动物.html">
+       13. 寻找吃鱼的动物
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 汇总后.html">
+       14. 汇总后
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 更多连接练习.html">
+       15. 更多连接练习
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 总结.html">
+       16. 总结
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 安装虚拟机.html">
+       17. 安装虚拟机
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          17. 安装虚拟机
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="安装虚拟机">
+          安装虚拟机
+         </h1>
+         <p>
+          在本课程的下一部分中，你将使用虚拟机 (VM) 来运行 SQL 数据库服务器，并使用它的 Web 应用程序。VM 是运行在你自己的计算机上的 Linux 服务器系统。你可以在计算机和虚拟机之间轻松共享文件; 并且，你将可以在虚拟机内部运行 Web 服务，然后从常规浏览器访问该服务。
+         </p>
+         <p>
+          我们会使用
+          <a href="https://www.vagrantup.com/" target="_blank">
+           Vagrant
+          </a>
+          和
+          <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">
+           VirtualBox
+          </a>
+          工具来安装和管理虚拟机。你需要安装它们来做一些编程练习。本页的说明可以协助你完成安装。
+         </p>
+         <h3 id="概念概述">
+          概念概述
+         </h3>
+         <p>
+          <a href="https://www.youtube.com/watch?v=djnqoEO2rLc" target="_blank">
+           这个视频
+          </a>
+          提供了虚拟机和 Vagrant 的概念概述。观看视频可以从中获得一些信息，但不是课程要求。
+         </p>
+         <hr/>
+         <h1 id="使用终端">
+          使用终端
+         </h1>
+         <p>
+          你将使用计算机上的 Unix 式终端进行这些练习。如果你是** Mac 或 Linux
+          <strong>
+           系统，使用其常规终端即可。在
+          </strong>
+          Windows
+          <strong>
+           上，我们建议使用 Git 软件附带的
+          </strong>
+          Git Bash **终端。 如果你还没有安装 Git，请从
+          <a href="https://git-scm.com/downloads" target="_blank">
+           git-scm.com
+          </a>
+          下载。
+         </p>
+         <p>
+          要复习 Unix 命令行相关内容，可以回看我们的
+          <a href="https://cn.udacity.com/course/linux-command-line-basics--ud595" target="_blank">
+           Linux Command Line Basics 课程
+          </a>
+          .
+         </p>
+         <p>
+          如果你想要了解更多有关 Git 的知识，可以查看我们的课程
+          <a href="https://cn.udacity.com/course/how-to-use-git-and-github--ud775" target="_blank">
+           如何使用 Git 和 Github
+          </a>
+          。
+         </p>
+         <hr/>
+         <h1 id="安装-virtualbox">
+          安装 VirtualBox
+         </h1>
+         <p>
+          VirtualBox 是实际运行虚拟机的软件，你可以从
+          <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">
+           virtualbox.org 下载
+          </a>
+          。为你的操作系统安装
+          <em>
+           平台安装包
+          </em>
+          ，不需要扩展包或 SDK。安装后，你不需要启动 VirtualBox ，而 Vagrant 需要这样做。
+         </p>
+         <p>
+          <strong>
+           Ubuntu 用户:
+          </strong>
+          如果你正在使用 Ubuntu 14.04，请使用 Ubuntu 软件中心安装 VirtualBox。由于已知错误，使用上面的站点安装 VirtualBox 可能会卸载你需要的其他软件。
+         </p>
+         <hr/>
+         <h1 id="安装-vagrant">
+          安装 Vagrant
+         </h1>
+         <p>
+          Vagrant 是配置虚拟机的软件，可让你在主机器和虚拟机的文件系统之间共享文件。
+          <a href="https://www.vagrantup.com/downloads.html" target="_blank">
+           在 vagrantup.com 下载
+          </a>
+          安装过你的操作系统的对应版本。
+         </p>
+         <p>
+          <strong>
+           Windows 用户:
+          </strong>
+          安装程序可能会要求你向 Vagrant 授予网络权限，或提示放火墙异常，请一定要选择允许操作。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="_如果 Vagrant 安装成功，你将能够在终端中运行 `vagrant --version` 命令来查看版本号。_
+_你的终端中的 shell 提示符可能会不同。这里的 `$` 符号就是 shell 提示符。_" class="img img-fluid" src="img/screen-shot-2016-12-07-at-13.40.43.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             如果 Vagrant 安装成功，你将能够在终端中运行
+             <code>
+              vagrant --version
+             </code>
+             命令来查看版本号。
+            </em>
+            <br/>
+            <em>
+             你的终端中的 shell 提示符可能会不同。这里的
+             <code>
+              $
+             </code>
+             符号就是 shell 提示符。
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="下载虚拟机配置">
+          下载虚拟机配置
+         </h1>
+         <p>
+          虚拟机配置文件：
+          <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488015_fsnd-virtual-machine/fsnd-virtual-machine.zip" target="_blank">
+           FSND-Virtual-Machine.zip
+          </a>
+         </p>
+         <p>
+          将该文件下载到你的计算机上并解压。你将会得到一个叫做
+          <strong>
+           FSND-Virtual-Machine
+          </strong>
+          的目录。它可能位于你的
+          <strong>
+           Downloads
+          </strong>
+          文件夹。
+         </p>
+         <p>
+          在终端中使用
+          <code>
+           cd
+          </code>
+          改为
+          <strong>
+           FSND-Virtual-Machine
+          </strong>
+          目录，其中你会发现另一个名为
+          <strong>
+           vagrant
+          </strong>
+          的目录，用
+          <code>
+           cd
+          </code>
+          进入该目录：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="_浏览到 FSND-Virtual-Machine 目录并列出其中的文件。_
+_这张图片是在 Mac 上截取的，但在 Windows 上的 Git Bash 中，命令将会相同。_" class="img img-fluid" src="img/screen-shot-2016-12-07-at-13.28.31.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             浏览到 FSND-Virtual-Machine 目录并列出其中的文件。
+            </em>
+            <br/>
+            <em>
+             这张图片是在 Mac 上截取的，但在 Windows 上的 Git Bash 中，命令将会相同。
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="启动虚拟机">
+          启动虚拟机
+         </h1>
+         <p>
+          在你的终端，在
+          <strong>
+           vagrant
+          </strong>
+          子目录中，运行命令
+          <code>
+           vagrant up
+          </code>
+          。这将使 Vagrant 下载 Linux 操作系统并进行安装。可能需要很长时间，具体取决于你的网速。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="_使用 `vagrant up` 启动 Ubuntu Linux 的安装。_
+_这张屏幕截图只展示了开头的页面，后面还会有很多很多页，用很多种颜色输出。_" class="img img-fluid" src="img/screen-shot-2016-12-07-at-13.57.50.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             使用
+             <code>
+              vagrant up
+             </code>
+             启动 Ubuntu Linux 的安装。
+            </em>
+            <br/>
+            <em>
+             这张屏幕截图只展示了开头的页面，后面还会有很多很多页，用很多种颜色输出。
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          当
+          <code>
+           vagrant up
+          </code>
+          停止运行时，你可以重新看到你的 shell 提示符（比如
+          <code>
+           $
+          </code>
+          ）。此时，你可以运行
+          <code>
+           vagrant ssh
+          </code>
+          登录到新安装的 Linux 虚拟机！
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="_使用 `vagrant ssh` 登录 Linux 虚拟机._" class="img img-fluid" src="img/screen-shot-2016-12-07-at-14.12.29.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             使用
+             <code>
+              vagrant ssh
+             </code>
+             登录 Linux 虚拟机.
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="哇，成功了！">
+          哇，成功了！
+         </h1>
+         <p>
+          如果你已经登录到你的 Linux 虚拟机，恭喜你！如果没有，请查看下面的
+          <strong>
+           疑难解答
+          </strong>
+          部分。
+         </p>
+         <h2 id="课程文件">
+          课程文件
+         </h2>
+         <p>
+          在虚拟机内部，将目录更改为
+          <code>
+           /vagrant'，并用
+          </code>
+          ls` 查看。
+         </p>
+         <p>
+          你在这里看到的文件与计算机上的
+          <code>
+           vagrant
+          </code>
+          子目录（启动 Vagrant 的位置）中的文件相同。你在其中创建的任意文件都会自动共享给对方。这意味着你可以在自己喜欢的文本编辑器中编辑代码，然后在虚拟机内运行它。
+         </p>
+         <p>
+          虚拟机的
+          <code>
+           /vagrant
+          </code>
+          目录中的文件，与计算机的
+          <code>
+           vagrant
+          </code>
+          文件夹共享。但是虚拟机中的其他数据并不会。例如：PostgreSQL 数据库本身只存在与虚拟机中。
+         </p>
+         <h2 id="运行数据库">
+          运行数据库
+         </h2>
+         <p>
+          PostgreSQL 数据库服务器将自动在虚拟机中启动。你可以使用
+          <code>
+           psql
+          </code>
+          命令行工具来访问它，并运行 SQL 语句：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="_运行 `psql`，PostgreSQL 命令行界面，位于虚拟机中_" class="img img-fluid" src="img/screen-shot-2016-12-07-at-14.46.25.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            <em>
+             运行
+             <code>
+              psql
+             </code>
+             ，PostgreSQL 命令行界面，位于虚拟机中
+            </em>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="登录登出">
+          登录登出
+         </h2>
+         <p>
+          如果你在虚拟机内的 shell 提示符后键入
+          <code>
+           exit
+          </code>
+          (或者
+          <code>
+           Ctrl-D
+          </code>
+          ) ，那么你将被注销，然后回到主机器的 shell 中。要重新登录，请确保你在同一目录中，再次输入
+          <code>
+           vagrant ssh
+          </code>
+          。
+         </p>
+         <p>
+          如果重启计算机，你需要运行
+          <code>
+           vagrant up
+          </code>
+          来重启虚拟机。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <hr/>
+         <h1 id="疑难解答">
+          疑难解答
+         </h1>
+         <h3 id="我不确定是否成功安装">
+          我不确定是否成功安装
+         </h3>
+         <p>
+          如果你可以输入
+          <code>
+           vagrant ssh
+          </code>
+          并登录你的虚拟机，那就行了！
+          <code>
+           vagrant up
+          </code>
+          进程显示许多颜色的文本是正常的，包括一些看起来很吓人的颜色：红色，绿色和紫色等只要你在最后看到 shell 提示符回来，并且你可以登录，就可以了。
+         </p>
+         <h3 id="vagrant-up-花了很长时间，为什么？">
+          <code>
+           vagrant up
+          </code>
+          花了很长时间，为什么？
+         </h3>
+         <p>
+          因为它是从互联网下载整个 Linux 操作系统。
+         </p>
+         <h3 id="使用-windows-遇到虚拟化错误">
+          使用 Windows 遇到虚拟化错误
+         </h3>
+         <p>
+          有时其他的虚拟化程序（比如 Docker 或者 Hyper-V）可能会干扰到 VirtualBox。尝试先关闭这些其他程序。
+         </p>
+         <p>
+          此外，某些 Windows PC 在 BIOS 、 UEFI（固件）或操作系统中设置了禁用虚拟化功能。要更改此设置，你可能需要重新启动计算机并访问固件设置。
+          <a href="https://www.google.com/search?q=enable%20virtualization%20windows%2010" target="_blank">
+           这个 google 搜索结果
+          </a>
+          可以帮助你找到计算机和操作系统的设置。遗憾的是，由于有这么多不同版本的 Windows 和 PC，我们不能提供一个简单的指南来指导操作。
+         </p>
+         <h3 id="为什么我们要使用虚拟机？看起来很复杂">
+          为什么我们要使用虚拟机？看起来很复杂
+         </h3>
+         <p>
+          确实很复杂。使用虚拟机，可以保证无论你运行什么类型的计算机，它都可以提供相同的软件（Linux 和 PostgreSQL）。
+         </p>
+         <h3 id="遇到一些其他错误">
+          遇到一些其他错误
+         </h3>
+         <p>
+          如果你收到特定的错误消息文字，请尝试使用你喜欢的搜索引擎查找原因。如果没有获得帮助，请将截图和并关于你浏览过程的详细信息发布到论坛。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('17. 安装虚拟机')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.330 --> 00:00:02.080
+Certo.
+Agora que você tem uma lista de
+
+00:00:02.080 --> 00:00:02.810
+todas as tabelas e
+
+00:00:02.810 --> 00:00:06.590
+todas as colunas, quero lhe
+dar uma chance de brincar um pouco com elas.
+
+00:00:06.590 --> 00:00:09.390
+Na próxima página,
+você pode executar as consultas que quiser,
+
+00:00:09.390 --> 00:00:11.530
+usando o banco de dados do zoológico.
+
+00:00:11.530 --> 00:00:14.690
+Você verá diversas consultas
+comentadas no editor.
+
+00:00:14.690 --> 00:00:17.180
+Tente remover a marca de comentário de cada uma delas e
+executá-las.
+
+00:00:17.180 --> 00:00:19.620
+Algumas delas usam recursos
+que você ainda não viu.
+
+00:00:19.620 --> 00:00:22.120
+Tente descobrir o que cada
+um desses recursos faz.
+
+00:00:22.120 --> 00:00:25.570
+Não existe certo ou errado aqui, o que
+você colocar na variável da consulta
+
+00:00:25.570 --> 00:00:29.640
+será executado no banco de dados quando você pressionar
+"executar o teste" e você verá os resultados.
+
+00:00:29.640 --> 00:00:32.659
+Quando você for para a próxima página,
+sinta-se livre para marcá-la, para que
+
+00:00:32.659 --> 00:00:36.180
+possa voltar mais tarde, no momento em que
+quiser testar alguma sintaxe SQL.
+
+00:00:36.180 --> 00:00:38.340
+Quando você terminar, use o
+botão "enviar resposta" para prosseguir.
+

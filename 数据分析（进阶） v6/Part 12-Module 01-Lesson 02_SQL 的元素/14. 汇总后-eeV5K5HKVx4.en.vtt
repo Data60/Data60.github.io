@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.270 --> 00:00:03.350
+Which species does
+the zoo have only one of?
+
+00:00:03.350 --> 00:00:05.980
+That seems like a pretty
+straightforward question, but
+
+00:00:05.980 --> 00:00:08.920
+it turns out that you
+can't answer it like this.
+
+00:00:08.920 --> 00:00:11.380
+The reason is that where,
+
+00:00:11.380 --> 00:00:16.890
+applies to the rows of the underlying
+table before count is performed.
+
+00:00:16.890 --> 00:00:20.030
+There's no num column
+in the animals table.
+
+00:00:20.030 --> 00:00:22.350
+And you can't use where
+after a group by anyway.
+
+00:00:22.350 --> 00:00:27.650
+If you tried this query out, you'd get
+a big error, but if we change just one
+
+00:00:27.650 --> 00:00:32.250
+word, we can make this right,
+whereas where filters the source table,
+
+00:00:32.250 --> 00:00:36.170
+animals, having filters
+the result table.
+
+00:00:36.170 --> 00:00:39.100
+So having applies after
+the group BI aggregation.
+
+00:00:39.100 --> 00:00:41.130
+And we'll get the right answer.
+
+00:00:41.130 --> 00:00:43.350
+Again, there is another way
+of answering this question,
+
+00:00:43.350 --> 00:00:46.120
+using a more complicated sort
+of query called a subselect.
+
+00:00:46.120 --> 00:00:48.830
+But this is the easy way to do it.
+
+00:00:48.830 --> 00:00:50.870
+So now for
+a different sort of question and a quiz.
+
+00:00:51.900 --> 00:00:55.100
+Which food is eaten by only one animal?
+
+00:00:55.100 --> 00:00:59.060
+Not just by one species, but only one
+individual animal in the whole zoo?
+
+00:00:59.060 --> 00:01:02.650
+To answer this, you'll have to
+use both the having clause, and
+
+00:01:02.650 --> 00:01:03.880
+a join that we've seen before.
+

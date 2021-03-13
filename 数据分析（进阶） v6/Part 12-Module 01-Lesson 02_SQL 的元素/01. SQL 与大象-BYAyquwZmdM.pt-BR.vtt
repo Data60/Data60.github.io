@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.750 --> 00:00:03.860
+Não lembro o que este
+elefante está fazendo aqui,
+
+00:00:03.860 --> 00:00:06.590
+mas ele se lembra por que estamos aqui.
+
+00:00:06.590 --> 00:00:09.410
+Nesta aula, vamos partir
+para algo prático.
+
+00:00:09.410 --> 00:00:12.550
+Você viu algumas consultas de banco de dados
+em SQL na última lição, mas
+
+00:00:12.550 --> 00:00:15.430
+agora é hora de começarmos a
+falar sobre um banco de dados de verdade.
+
+00:00:15.430 --> 00:00:18.250
+Eis aqui como isso vai funcionar,
+mostrarei a você como escrever consultas
+
+00:00:18.250 --> 00:00:21.640
+SQL em seu
+navegador usando nosso banco de dados de zoológico.
+
+00:00:21.640 --> 00:00:24.920
+Em seguida, exploraremos algumas das coisas
+diferentes que você pode fazer com SQL.
+
+00:00:24.920 --> 00:00:28.450
+Além disso, se você for alérgico
+a esses animais, não se preocupe,
+
+00:00:28.450 --> 00:00:30.400
+a próxima lição será sem animais.
+
+00:00:30.400 --> 00:00:32.560
+Bancos de dados são apenas para
+animais do zoológico, no fim das contas.
+

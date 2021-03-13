@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:04.640
+Mais adiante nesta lição, vamos ver uma interface como esta.
+
+00:00:04.640 --> 00:00:07.300
+Este é apenas o editor de código da Audacity.
+
+00:00:07.300 --> 00:00:11.110
+E aqui está apenas um arquivo de código fonte python contendo uma consulta SQL.
+
+00:00:11.110 --> 00:00:13.275
+Você pode colocar tudo o que quiser nesta variável de consulta aqui.
+
+00:00:13.275 --> 00:00:18.065
+E quando você pressionar o botão test run, sua consulta será executada no banco de dados de zoológico.
+
+00:00:18.065 --> 00:00:21.975
+Se o banco de dados entender a sua consulta, ele enviará uma tabela de volta.
+
+00:00:21.975 --> 00:00:23.625
+Apenas prossiga e experimente-a.
+
+00:00:23.625 --> 00:00:25.705
+Faremos muito isso no restante deste curso.
+

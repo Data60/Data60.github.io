@@ -1,0 +1,78 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.420 --> 00:00:03.810
+No último teste, você descobriu
+quais são as cláusulas select necessárias para
+
+00:00:03.810 --> 00:00:05.800
+fazer consultas em particular.
+
+00:00:05.800 --> 00:00:08.700
+Agora vamos fazer uma
+dessas consultas em SQL.
+
+00:00:08.700 --> 00:00:11.180
+É a hora de ir ao zoológico.
+
+00:00:11.180 --> 00:00:14.250
+Precisamos saber quantos animais de
+cada espécie nós temos, e
+
+00:00:14.250 --> 00:00:18.500
+seria de grande ajuda se tivéssemos
+as espécies mais populares listadas primeiro.
+
+00:00:18.500 --> 00:00:22.200
+Porque levará mais tempo para
+os administradores do zoológico contá-las.
+
+00:00:22.200 --> 00:00:25.120
+Colocamos uma folha de cola com todas as
+cláusulas select que vimos até
+
+00:00:25.120 --> 00:00:28.822
+agora, nas notas do instrutor abaixo
+do editor na próxima página.
+
+00:00:28.822 --> 00:00:30.540
+Mas, temos que
+reuni-las corretamente
+
+00:00:30.540 --> 00:00:32.619
+em uma consulta que faça sentido.
+
+00:00:32.619 --> 00:00:35.120
+Sinta-se livre para fazer algumas tentativas
+usando o botão "executar o teste".
+
+00:00:35.120 --> 00:00:37.270
+Você verá a tabela de resultados abaixo.
+
+00:00:37.270 --> 00:00:39.420
+Quando você conseguir, pressione "Enviar resposta",
+
+00:00:39.420 --> 00:00:41.909
+e a sua consulta será testada
+em um banco de dados maior.
+
+00:00:42.970 --> 00:00:44.520
+Aqui está o problema.
+
+00:00:44.520 --> 00:00:49.040
+Escreva uma consulta que retorna todas as
+espécies do zoológico e quantos animais
+
+00:00:49.040 --> 00:00:53.880
+de cada espécie existem, classificados com
+as espécies mais populosas no início.
+
+00:00:53.880 --> 00:00:58.516
+E aqui está um exemplo,
+se o zoológico tiver 4 gorilas, 2 alpacas,
+
+00:00:58.516 --> 00:01:02.050
+1 urso pardo e nenhum outro animal,
+então obtemos um resultado como este.
+

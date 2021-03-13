@@ -1,0 +1,71 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.080
+Aqui está a mesma
+consulta que você viu anteriormente.
+
+00:00:03.080 --> 00:00:04.939
+Agora vamos detalhá-la um pouco.
+
+00:00:04.939 --> 00:00:09.410
+Como vimos antes, sempre que quisermos
+buscar dados no banco de dados,
+
+00:00:09.410 --> 00:00:11.930
+começaremos a nossa consulta
+com a palavra-chave select.
+
+00:00:11.930 --> 00:00:15.310
+Em seguida, dizemos quais colunas
+queremos ver no resultado.
+
+00:00:15.310 --> 00:00:17.380
+E depois de quais tabelas
+elas virão.
+
+00:00:17.380 --> 00:00:20.070
+Temos esta cláusula where
+no final.
+
+00:00:20.070 --> 00:00:24.640
+Essa é a restrição, ela diz
+que tipo de linhas queremos ver.
+
+00:00:24.640 --> 00:00:28.410
+Aqui queremos ver apenas linhas
+onde a espécie é gorila,
+
+00:00:28.410 --> 00:00:31.190
+mas e se quisermos restringir
+mais de uma coisa?
+
+00:00:31.190 --> 00:00:32.430
+Podemos fazer isso.
+
+00:00:32.430 --> 00:00:34.910
+O SQL é compatível com o 'and' booleano.
+
+00:00:34.910 --> 00:00:36.570
+Assim como o Python.
+
+00:00:36.570 --> 00:00:40.620
+Se quisermos descobrir a data de nascimento do gorila
+Max, podemos fazer isso desta forma.
+
+00:00:40.620 --> 00:00:45.390
+O SQL, assim como o Python,
+também é compatível com os operadores 'or' e 'not'.
+
+00:00:45.390 --> 00:00:49.490
+Com base no que acabamos de ver,
+como podemos encontrar os nomes de
+
+00:00:49.490 --> 00:00:52.930
+todos os animais que não são
+gorilas e não se chamam Max?
+
+00:00:54.000 --> 00:00:55.010
+Tente isso na próxima página.
+

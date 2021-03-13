@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.540 --> 00:00:04.140
+OK, aqui estão outras duas
+tabelas do banco de dados de zoológico.
+
+00:00:04.140 --> 00:00:07.510
+A primeira, taxonomia,
+informa os nomes científicos da
+
+00:00:07.510 --> 00:00:09.300
+espécie de todos os nossos animais.
+
+00:00:09.300 --> 00:00:13.700
+Estamos usando os nomes comuns
+como urso pardo em nossas outras tabelas.
+
+00:00:13.700 --> 00:00:17.680
+Esta tabela não fornece o nome taxonômico completo,
+mas grande parte dele.
+
+00:00:17.680 --> 00:00:21.760
+O urso pardo é do gênero Ursus, espécie arctos.
+
+00:00:21.760 --> 00:00:22.740
+E a família é Ursidae.
+
+00:00:22.740 --> 00:00:24.740
+E a ordem Carnivora.
+
+00:00:24.740 --> 00:00:28.730
+Temos que chamar essa coluna de
+t_order em vez de order,
+
+00:00:28.730 --> 00:00:32.700
+pois order é uma palavra reservada
+em SQL para order by.
+
+00:00:32.700 --> 00:00:33.820
+O t significa taxonomia.
+
+00:00:34.890 --> 00:00:38.710
+E se observarmos esta tabela aqui,
+veremos os nomes comuns para
+
+00:00:38.710 --> 00:00:40.330
+todas as ordens.
+
+00:00:40.330 --> 00:00:43.060
+Os morcegos pertencem à ordem Chiroptera,
+os lagartos e
+
+00:00:43.060 --> 00:00:45.580
+as cobras pertencem à ordem Squamata.
+
+00:00:45.580 --> 00:00:50.730
+E as lhamas, os alces e os javalis
+pertencem à ordem Artiodactyla.
+
+00:00:50.730 --> 00:00:51.850
+OK, OK, então
+
+00:00:51.850 --> 00:00:54.850
+realmente essas tabelas estão aqui apenas
+para proporcionar mais coisas para unir.
+
+00:00:54.850 --> 00:00:56.290
+Grande surpresa.
+
+00:00:56.290 --> 00:01:00.060
+Dessa vez queremos descobrir quais
+ordens têm mais animais individuais
+
+00:01:00.060 --> 00:01:04.040
+no zoológico e queremos dar a eles
+seus nomes comuns como monotremados,
+
+00:01:04.040 --> 00:01:06.860
+em vez dos nomes científicos
+como monotremata.
+
+00:01:06.860 --> 00:01:10.390
+Provavelmente você precisará usar ambas as
+tabelas, a taxonomia e
+
+00:01:10.390 --> 00:01:15.090
+a nomes de ordem, mais a tabela animais
+com os animais individuais nela.
+
+00:01:15.090 --> 00:01:19.090
+O problema é listar as ordens taxonômicas
+por seus nomes comuns,
+
+00:01:19.090 --> 00:01:23.200
+ordenados pelo número de animais individuais
+ de cada ordem no zoológico.
+
+00:01:23.200 --> 00:01:26.000
+Para ver os esquemas completos das tabelas,
+consulte as notas do instrutor.
+

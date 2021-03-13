@@ -1,0 +1,32 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.270 --> 00:00:04.010
+Aqui está uma possível resposta,
+usando o formato de join mais antigo.
+
+00:00:04.010 --> 00:00:13.440
+select animals.name from animals join diet
+on animals.species = diet.species where food = 'fish'
+
+00:00:14.560 --> 00:00:17.530
+E aqui está um que usa
+a nova sintaxe de join simples.
+
+00:00:17.530 --> 00:00:27.820
+select name from animals, diet where
+animals.species = diet.species and diet.food = 'fish'
+
+00:00:27.820 --> 00:00:31.430
+Portanto, aqui, não só achamos
+todos os animais que comem peixe,
+
+00:00:31.430 --> 00:00:36.940
+como também descobrimos que as colunas que
+você usa em um join, em qualquer formato, não
+
+00:00:36.940 --> 00:00:40.780
+precisa realmente estar entre as colunas
+que você solicitou no resultado da consulta.
+

@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:02.480
+Então temos estas três
+situações diferentes.
+
+00:00:02.480 --> 00:00:05.590
+Na primeira situação, encontre
+os dez gorilas mais velhos.
+
+00:00:05.590 --> 00:00:10.520
+Bem, vamos precisar de where
+para selecionar apenas gorilas.
+
+00:00:10.520 --> 00:00:13.670
+Precisamos encontrar o mais velho,
+isso significa que precisamos
+
+00:00:13.670 --> 00:00:16.290
+colocá-los em ordem
+por suas datas de nascimento.
+
+00:00:17.340 --> 00:00:21.140
+E queremos encontrar os dez principais, portanto,
+esse será um limite.
+
+00:00:21.140 --> 00:00:25.230
+Na segunda situação, liste todos os animais
+em ordem alfabética, dez por página.
+
+00:00:25.230 --> 00:00:28.640
+Estamos listando todos os animais,
+não alguns deles.
+
+00:00:28.640 --> 00:00:31.780
+Então,
+não precisamos realmente de where nesta consulta.
+
+00:00:31.780 --> 00:00:36.020
+Mas estamos listando os animais em ordem alfabética,
+portanto vamos precisar de order by.
+
+00:00:36.020 --> 00:00:39.970
+Como queremos colocá-los dez por página,
+precisamos de limit e
+
+00:00:39.970 --> 00:00:44.000
+offset para colocá-los em páginas separadas.
+
+00:00:44.000 --> 00:00:47.880
+Na terceira situação,
+descubra qual espécie temos mais.
+
+00:00:47.880 --> 00:00:49.620
+Primeiro, precisaremos de group by
+
+00:00:49.620 --> 00:00:53.480
+para agrupar todos os animais por espécie
+usando a agregação de conta.
+
+00:00:53.480 --> 00:00:55.440
+Então precisaremos de order by
+
+00:00:55.440 --> 00:01:00.450
+para classificar pelo resultado dessa contagem
+e limit para obter apenas o primeiro.
+
+00:01:00.450 --> 00:01:04.269
+Na verdade, existe outra forma de fazer isso
+usando um recurso SQL diferente chamado subselects,
+
+00:01:04.269 --> 00:01:07.640
+mas com o que já vimos,
+essa é a maneira de fazê-lo.
+

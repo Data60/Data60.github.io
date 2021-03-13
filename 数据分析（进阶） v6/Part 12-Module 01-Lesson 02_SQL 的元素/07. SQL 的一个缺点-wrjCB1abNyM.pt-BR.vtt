@@ -1,0 +1,68 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.560 --> 00:00:03.920
+Existem muitas tabelas diferentes
+em nosso banco de dados do zoológico.
+
+00:00:03.920 --> 00:00:07.939
+Eu gostaria apenas que o banco de dados informasse
+a você sobre elas, mas o estranho
+
+00:00:07.939 --> 00:00:11.540
+é que não existe uma forma padrão
+de fazer isso no SQL.
+
+00:00:11.540 --> 00:00:14.680
+Se você quiser saber quais
+tabelas estão em um banco de dados, ou
+
+00:00:14.680 --> 00:00:19.640
+quais colunas estão em uma tabela, bem, cada
+sistema de banco de dados permite fazer isso, mas
+
+00:00:19.640 --> 00:00:22.090
+eles fazem isso de formas diferentes.
+
+00:00:22.090 --> 00:00:26.380
+E na maioria delas, você não pode
+fazer nada disso em seu código em si,
+
+00:00:26.380 --> 00:00:30.290
+apenas no console de banco de dados ou
+no software administrativo especial.
+
+00:00:30.290 --> 00:00:32.850
+É verdade, isso é um pouco chato.
+
+00:00:32.850 --> 00:00:35.730
+É como se o SQL tivesse sido criado
+na época em que você tinha
+
+00:00:35.730 --> 00:00:38.140
+que planejar todo o seu
+aplicativo com fluxogramas e
+
+00:00:38.140 --> 00:00:41.996
+coisas do tipo, antes de poder tocar
+em um computador e fazer alguma pergunta a ele.
+
+00:00:41.996 --> 00:00:45.360
+Espere, era assim mesmo.
+
+00:00:45.360 --> 00:00:49.830
+Para poupar muito do seu tempo
+e evitar frustração, criei uma lista de
+
+00:00:49.830 --> 00:00:54.110
+todas as tabelas de nosso banco de dados do zoológico,
+nas notas do instrutor abaixo.
+
+00:00:54.110 --> 00:00:55.410
+Talvez você queira copiar essa lista e
+
+00:00:55.410 --> 00:00:59.080
+colocar em algum lugar onde possa ler facilmente
+enquanto faz o resto da lição.
+

@@ -1,0 +1,51 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.420 --> 00:00:04.920
+Podemos criar restrições diferentes de
+apenas "igual a" ou "não igual a".
+
+00:00:04.920 --> 00:00:07.990
+Todos os operadores de comparação
+funcionam mais ou menos da mesma forma no
+
+00:00:07.990 --> 00:00:09.930
+SQL e no Python.
+
+00:00:09.930 --> 00:00:14.270
+Igual, menor que, maior que,
+menor que ou igual a, maior que ou
+
+00:00:14.270 --> 00:00:16.129
+igual a e não igual a.
+
+00:00:16.129 --> 00:00:18.850
+E aqui está uma das perguntas que
+respondemos manualmente, analisando
+
+00:00:18.850 --> 00:00:20.940
+uma tabela na aula 1.
+
+00:00:20.940 --> 00:00:23.910
+Na próxima seção, veja se você pode
+descobrir como fazer o banco de dados
+
+00:00:23.910 --> 00:00:24.980
+realizar isso para você.
+
+00:00:24.980 --> 00:00:26.920
+Certifique-se de buscar a coluna de nome, para
+
+00:00:26.920 --> 00:00:29.002
+que tenhamos a certeza de
+que obtivemos os animais certos.
+
+00:00:29.002 --> 00:00:31.100
+E lembre-se de colocar aspas
+simples em torno das datas,
+
+00:00:31.100 --> 00:00:33.380
+já que não queremos que o banco de dados
+as trate como aritmética.
+

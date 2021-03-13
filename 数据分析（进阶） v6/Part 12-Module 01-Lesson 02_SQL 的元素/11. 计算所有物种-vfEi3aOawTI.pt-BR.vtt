@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.190 --> 00:00:01.260
+Aqui vai a pergunta de novo.
+
+00:00:01.260 --> 00:00:04.840
+Estamos tentando escrever uma consulta que
+retorne todas as espécies do zoológico,
+
+00:00:04.840 --> 00:00:06.850
+junto com suas populações.
+
+00:00:06.850 --> 00:00:08.650
+E aqui está uma resposta possível:
+
+00:00:08.650 --> 00:00:19.050
+select count(*) as num, species from
+animals, group by species, order by num desc, or desc for short
+
+00:00:19.050 --> 00:00:21.080
+E isso é o que está
+acontecendo nessa consulta.
+
+00:00:21.080 --> 00:00:26.000
+count(*) as num e species são as colunas
+que queremos retornar.
+
+00:00:26.000 --> 00:00:29.210
+Animals é a tabela na qual
+faremos a seleção.
+
+00:00:29.210 --> 00:00:33.660
+Estamos agregando por espécies e
+a agregação é a contagem.
+
+00:00:33.660 --> 00:00:37.720
+E estamos ordenando por essa coluna de contagem,
+num, em ordem decrescente.
+
+00:00:37.720 --> 00:00:39.160
+Respondendo a este teste,
+
+00:00:39.160 --> 00:00:42.880
+reunimos agregação de
+contagem, agrupamento e ordenação.
+
+00:00:42.880 --> 00:00:46.790
+A consulta deste exercício não
+exigia a cláusula where,
+
+00:00:46.790 --> 00:00:49.350
+pois não queríamos excluir
+nenhuma linha do censo.
+

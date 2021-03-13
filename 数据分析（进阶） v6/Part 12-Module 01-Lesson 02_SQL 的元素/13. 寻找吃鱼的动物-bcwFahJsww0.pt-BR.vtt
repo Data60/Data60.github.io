@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.440 --> 00:00:02.870
+Caramba, é muito peixe.
+
+00:00:02.870 --> 00:00:06.240
+Felizmente, temos muitos
+animais que comem peixe.
+
+00:00:06.240 --> 00:00:09.010
+Falamos sobre isso
+brevemente na lição um, mas
+
+00:00:09.010 --> 00:00:11.580
+agora podemos criar
+uma consulta real para encontrá-los.
+
+00:00:11.580 --> 00:00:14.670
+Veja se podemos criar essa consulta
+sem olhar lá atrás.
+
+00:00:14.670 --> 00:00:18.070
+O problema é que a tabela de animais não
+nos diz nada sobre o que cada animal individual
+
+00:00:18.070 --> 00:00:22.360
+come, e a tabela de dieta
+não lista quaisquer animais individuais.
+
+00:00:22.360 --> 00:00:24.120
+Ela lista apenas suas espécies.
+
+00:00:24.120 --> 00:00:25.260
+Espere um minuto.
+
+00:00:25.260 --> 00:00:28.000
+Essa coluna espécie está
+em ambas as tabelas.
+
+00:00:28.000 --> 00:00:30.920
+Isso significa que deve ser a hora de usar join.
+
+00:00:30.920 --> 00:00:32.630
+Se unirmos animais com dieta,
+
+00:00:32.630 --> 00:00:34.480
+devemos receber a resposta
+que estamos procurando.
+
+00:00:35.490 --> 00:00:39.090
+Agora, vimos uma sintaxe para
+joins na lição um, mas
+
+00:00:39.090 --> 00:00:42.150
+parece que também existe
+uma sintaxe de atalho que podemos usar aqui.
+
+00:00:42.150 --> 00:00:46.390
+A sintaxe de atalho não usará realmente
+a palavra join ao listar as tabelas
+
+00:00:46.390 --> 00:00:50.670
+acopladas, mas esse formato é de fato
+mais comum no código real.
+
+00:00:50.670 --> 00:00:55.720
+Se quisermos juntar duas tabelas para comparar
+linhas onde o alvo da coluna na
+
+00:00:55.720 --> 00:01:01.750
+tabela T seja igual à coluna correspondente na
+tabela S, podemos fazer dessa forma.
+
+00:01:01.750 --> 00:01:04.910
+Na próxima página,
+escreva uma consulta para responder a esse problema.
+
+00:01:06.070 --> 00:01:08.950
+Você pode usar qualquer tipo de join,
+mas a sua consulta deve retornar apenas
+
+00:01:08.950 --> 00:01:13.130
+a coluna nome,
+não a espécie ou a palavra peixe em si.
+

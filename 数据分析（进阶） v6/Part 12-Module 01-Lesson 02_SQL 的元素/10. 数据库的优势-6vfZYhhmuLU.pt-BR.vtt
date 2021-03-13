@@ -1,0 +1,110 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.370 --> 00:00:04.580
+Muita gente quando ouve falar nos recursos de SQL
+como order by, limit e
+
+00:00:04.580 --> 00:00:09.140
+offset, pergunta
+por que fazer isso no banco de dados?
+
+00:00:09.140 --> 00:00:11.680
+Já sei como classificar
+uma lista no Python e
+
+00:00:11.680 --> 00:00:13.510
+já sei como fazer fatias.
+
+00:00:13.510 --> 00:00:16.860
+Por que não buscar apenas os dados não classificados
+para o código do meu aplicativo e
+
+00:00:16.860 --> 00:00:18.220
+fazer o trabalho lá?
+
+00:00:18.220 --> 00:00:21.866
+E é verdade que count é
+muito parecido com length.
+
+00:00:21.866 --> 00:00:24.852
+E limit 100 offset 10 é muito parecido com
+
+00:00:24.852 --> 00:00:30.470
+usar uma fatia do elemento 10
+ao elemento 110 da lista de resultados.
+
+00:00:30.470 --> 00:00:35.430
+E order by column é muito parecido
+com ordenação por uma chaves. Isso
+
+00:00:35.430 --> 00:00:38.968
+realmente é um pouco complicado, mas
+existem duas grandes diferenças.
+
+00:00:38.968 --> 00:00:42.080
+Velocidade e espaço.
+
+00:00:42.080 --> 00:00:45.830
+O banco de dados pode geralmente fazer essas
+coisas muito mais rapidamente que o Python.
+
+00:00:45.830 --> 00:00:48.410
+Especialmente quando você obtém
+tabelas com muitas linhas ou
+
+00:00:48.410 --> 00:00:51.120
+consultas complicadas que
+unem várias tabelas.
+
+00:00:51.120 --> 00:00:54.350
+E você pode ter facilmente
+uma tabela com milhões de linhas;
+
+00:00:54.350 --> 00:00:57.830
+classificar milhões de itens no
+Python pode levar cerca de um segundo.
+
+00:00:57.830 --> 00:01:01.280
+Se você estiver escrevendo um aplicativo Web, é
+nesse segundo que o seu usuário está encarando o
+
+00:01:01.280 --> 00:01:03.410
+navegador dele,
+pensando em como o seu aplicativo é tão
+
+00:01:03.410 --> 00:01:07.470
+lento, e
+está ocupando memória para fazer isso também.
+
+00:01:07.470 --> 00:01:11.510
+Em compensação, um banco de dados normalmente
+pode fazer essas operações muito mais rapidamente.
+
+00:01:11.510 --> 00:01:14.600
+Existem diversos truques que você
+pode usar para tornar isso ainda mais rápido.
+
+00:01:14.600 --> 00:01:16.410
+O maior deles se chama indexação.
+
+00:01:16.410 --> 00:01:18.850
+Não lidaremos diretamente com a indexação
+neste curso, mas
+
+00:01:18.850 --> 00:01:21.610
+depois haverá algumas
+observações sobre como aplicá-la.
+
+00:01:21.610 --> 00:01:25.130
+Em qualquer caso, fazer restrições e
+agregações no banco de dados,
+
+00:01:25.130 --> 00:01:28.220
+em vez de no Python,
+é uma boa prática a ser seguida.
+
+00:01:28.220 --> 00:01:29.290
+Vamos fazer um pouco mais disso.
+

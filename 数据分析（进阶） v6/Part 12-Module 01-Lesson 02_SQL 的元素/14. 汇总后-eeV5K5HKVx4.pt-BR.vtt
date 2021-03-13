@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.270 --> 00:00:03.350
+Qual espécie tem apenas
+um animal no zoológico?
+
+00:00:03.350 --> 00:00:05.980
+Essa parece ser uma pergunta bem
+direta, mas
+
+00:00:05.980 --> 00:00:08.920
+na verdade você não
+pode respondê-la dessa forma.
+
+00:00:08.920 --> 00:00:11.380
+O motivo é que where
+
+00:00:11.380 --> 00:00:16.890
+se aplica às linhas da tabela subjacente
+antes da realização de count.
+
+00:00:16.890 --> 00:00:20.030
+Não há coluna num
+na tabela de animais.
+
+00:00:20.030 --> 00:00:22.350
+E você não pode usar where
+depois de group by, a propósito.
+
+00:00:22.350 --> 00:00:27.650
+Se experimentasse esta consulta, você obteria
+um grande erro, mas se mudarmos apenas uma
+
+00:00:27.650 --> 00:00:32.250
+palavra, podemos corrigi-la.
+Enquanto where filtra a tabela de origem,
+
+00:00:32.250 --> 00:00:36.170
+animals, having filtra
+a tabela de resultados.
+
+00:00:36.170 --> 00:00:39.100
+Portanto, having se aplica após
+a agregação group by.
+
+00:00:39.100 --> 00:00:41.130
+E teremos a resposta certa.
+
+00:00:41.130 --> 00:00:43.350
+Novamente, existe uma outra forma
+de responder a esta pergunta,
+
+00:00:43.350 --> 00:00:46.120
+usando um tipo de consulta mais complicada
+chamada de subselect.
+
+00:00:46.120 --> 00:00:48.830
+Mas essa é a forma fácil de fazer isso.
+
+00:00:48.830 --> 00:00:50.870
+Agora vamos para
+um tipo diferente de pergunta e um teste.
+
+00:00:51.900 --> 00:00:55.100
+Qual alimento é comido por apenas um animal?
+
+00:00:55.100 --> 00:00:59.060
+Não apenas por uma espécie, mas apenas um
+animal individual em todo o zoológico?
+
+00:00:59.060 --> 00:01:02.650
+Para responder a isso, você terá que
+usar a cláusula having e
+
+00:01:02.650 --> 00:01:03.880
+uma join que vimos antes.
+
