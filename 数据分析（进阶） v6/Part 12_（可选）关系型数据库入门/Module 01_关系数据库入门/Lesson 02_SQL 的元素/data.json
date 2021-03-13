@@ -1,0 +1,1163 @@
+{
+  "data": {
+    "lesson": {
+      "id": 289582,
+      "key": "3423258756",
+      "title": "SQL 的元素",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "你将开始学习大多数关系数据库用到的结构化查询语言（SQL）。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3423258756/289582/1516830367679/SQL%20%E7%9A%84%E5%85%83%E7%B4%A0%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3423258756/289582/1516830329260/SQL%20%E7%9A%84%E5%85%83%E7%B4%A0%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177195,
+          "key": "35212186880923",
+          "title": "SQL 与大象",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35212186880923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174927,
+              "key": "3521218688",
+              "title": "SQL 与大象",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "本课参考说明：\nhttps://udacity.atlassian.net/wiki/display/BENDH/RDB+Lesson+2+Reference+Notes\n",
+              "video": {
+                "youtube_id": "BYAyquwZmdM",
+                "china_cdn_id": "BYAyquwZmdM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181229,
+          "key": "34521185430923",
+          "title": "与动物园数据库通信",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34521185430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180517,
+              "key": "3452118543",
+              "title": "与动物园数据库通信",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3452118543",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "yLeLxDyXCSY",
+                  "china_cdn_id": "yLeLxDyXCSY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Talk to the Zoo Database - Practical",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3473168656",
+                "initial_code_files": [
+                  {
+                    "text": "# Try out this query! You'll see the results below.\n# You'll be seeing many more pages like this in the rest of this lesson.\n# For now, just test it out.\n\nQUERY = '''\nselect name, birthdate from animals where species = 'gorilla';\n'''",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "9AVeGkUcPYQ",
+                  "china_cdn_id": "9AVeGkUcPYQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177200,
+          "key": "33885286990923",
+          "title": "SQL 中的数据类型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885286990923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174929,
+              "key": "3388528699",
+              "title": "SQL 中的数据类型",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "8swA-PqlEP0",
+                "china_cdn_id": "8swA-PqlEP0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181231,
+          "key": "36220985350923",
+          "title": "几种 SQL 类型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "36220985350923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180520,
+              "key": "3622098535",
+              "title": "几种 SQL 类型",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "以下是 SQL 支持的各种数据类型的其中一些示例。但是在这门课程中，大部分类型都不会用到。\n\n每个数据库支持的类型列表不尽相同。要查看完整的类型列表，请参阅相关数据库手册，例如[此 PostgreSQL 手册](http://www.postgresql.org/docs/9.4/static/datatype.html)。\n\n## 文本和字符串类型\n\n**text** — 任何长度的字符串，例如 Python **str** 或 **unicode** 类型。\n\n**char(n)** — 长度为 *n* 个字符的字符串。\n\n**varchar(n)** — 长度上限为 *n* 个字符的字符串。\n\n## 数值类型\n\n**integer** — 整型值，例如 Python **int**。\n\n**real** — 浮点型值，例如 Python **float**。精确到小数点后 6 位。\n\n**double precision** — 精度更高的浮点型值。精确到小数点后 15 位。\n\n**decimal** — 精确的十进制值。\n\n## 日期和时间类型\n\n**date** — 日历日期，包括年月日。\n\n**time** — 一天中的时间。\n\n**timestamp** — 日期和时间相结合。",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 181232,
+          "key": "33885287000923",
+          "title": "Select Where",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287000923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180521,
+              "key": "3388528700",
+              "title": "Select Where",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "具有 **where** 条件的 **select** 语句的语法：\n\n**select** *columns* **from** *tables* **where** *condition* **;**\n\n每列用逗号分隔；使用 ***** 可选择所有列。\n\n*condition* 是列值的布尔表达式。SQL 支持布尔运算 **and**、**or** 和 **not**，和 Python 中的运算规则一样。\n\n表达式 **(not X) and (not Y)** 和 **not (X or Y)** 可以互换，这是由德摩根定律决定的。你可以阅读这篇[维基百科文章](http://en.wikipedia.org/wiki/De_Morgan%27s_laws)了解详情。",
+              "user_state": {
+                "node_key": "3388528700",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "GUD6yl0A1Aw",
+                  "china_cdn_id": "GUD6yl0A1Aw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Select Where - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3520648602",
+                "initial_code_files": [
+                  {
+                    "text": "# The query below finds the names and birthdates of all the gorillas.\n# \n# Modify it to make it find the names of all the animals that are not\n# gorillas and not named 'Max'.\n#\n\nQUERY = '''\nselect name, birthdate from animals where species = 'gorilla';\n'''",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "aznzJPXavDg",
+                  "china_cdn_id": "aznzJPXavDg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181233,
+          "key": "33885287030923",
+          "title": "比较运算符",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287030923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180522,
+              "key": "3388528703",
+              "title": "比较运算符",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "SQL 和 Python 中的比较运算符之间的最大区别是：在 SQL 中，我们使用 **=** 表示等于，而 Python 则使用 **==**。\n\n<strong>animals</strong> 表格中的列包括 <strong>name</strong>（文本字符串）、<strong>species</strong>（同样是文本字符串）和 <strong>birthdate</strong>（日期）。\n注意：我们的数据库中的日期始终为国际标准格式，例如 <strong>'1999-12-31'</strong>。确保日期要用单引号括起来。\n\n---\n\nSQL 中的比较运算符和 Python 中的几乎一样：**<** 表示小于，**>** 表示大于，**!=** 表示不等于，**<=** 表示小于或等于，等等。\n\n其中一个差别是 SQL 使用 **=**（而不是 **==**）表示等于。你可以将所有的基本比较运算符应用于字符串、数字、日期以及其他值。以下是用于创建预览表格的 SQL 指令：\n\n<pre>\ncreate table animals (\n    name text,\n    species text,\n    birthdate date\n);\n</pre>",
+              "user_state": {
+                "node_key": "3388528703",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "N5T8ouw1SGc",
+                  "china_cdn_id": "N5T8ouw1SGc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Comparison Operators - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3489548800",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Find all the llamas born between January 1, 1995 and December 31, 1998.\n# Fill in the 'where' clause in this query.\n\nQUERY = '''\nselect name from animals where ...\n'''",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "0X7voyhbZ8k",
+                  "china_cdn_id": "0X7voyhbZ8k.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177204,
+          "key": "33885287050923",
+          "title": "SQL 的一个缺点",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174933,
+              "key": "3388528705",
+              "title": "SQL 的一个缺点",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<h2>动物园数据库中的所有表格</h2>\n\n<h3>animals</h3>\n此表列出动物园中的各个动物。每只动物仅占一行。可能存在多只动物同名，甚至多只同物种动物同名的情况。\n<ul>\n<li>name — 动物的名字（例如：“George”）\n<li>species — 动物所属物种（例如：“gorilla”（大猩猩））\n<li>birthdate — 动物的出生日期（例如：'1998-05-18'）\n</ul>\n\n<h3>diet</h3>\n此表对照列出各物种及其所吃的食物。动物园中的每个物种至少吃一种食物，许多物种吃多种食物。 如果某物种食用一种以上的食物，则该物种将占多行。\n<ul>\n<li>species — 物种名称（例如：“hyena”（鬣狗））\n<li>food — 物种所吃食物的名称（例如：“meat”（肉类））\n</ul>\n\n<h3>taxonomy</h3>\n此表列出动物园中各物种的（部分）生物分类学名称。可用于辨别物种之间进化论角度的亲缘关系。\n<ul>\n<li>name — 物种的俗称（例如，“jackal”（豺））\n<li>species — 分类学物种名称（例如，“aureus”（亚洲胡狼））\n<li>genus — 分类学属名（例如，“Canis”（犬属））\n<li>family — 分类学科名（例如，“Canidae”（犬科））\n<li>t_order — 分类学目名（例如，“Carnivora”（食肉目））\n</ul>\n\n如果你对此分类一无所知，也无需担心，本课程不需要详细掌握这些信息。但如果你对此感到好奇，可查阅维基百科相关文章 [分类学](http://en.wikipedia.org/wiki/Biological_classification) 及 [生物分类](http://en.wikipedia.org/wiki/Biological_classification)。\n\n<h3>ordernames</h3>\n此表列出 <strong>taxonomy</strong> 表中各分类学目的俗称。\n<ul>\n<li>t_order — 分类学目名（例如，“Cetacea”（鲸目））\n<li>name — 俗称（例如，“whales and dolphins”（鲸和海豚））\n</ul>\n\n<h2>所用 SQL</h2>\n\n上面的表由以下 SQL 命令创建。 <strong>create table</strong> 命令将在第 4 课中详细介绍，可在此简单了解：\n\n<pre>\ncreate table animals (\n       name text,\n       species text,\n       birthdate date);\n\ncreate table diet (\n       species text,\n       food text);\n\ncreate table taxonomy (\n       name text,\n       species text,\n       genus text,\n       family text,\n       t_order text);\n\ncreate table ordernames (\n       t_order text,\n       name text);\n</pre>\n\n<em>请牢记：在 SQL 中，字符串和日期值必须用单引号括起来。</em>",
+              "video": {
+                "youtube_id": "wrjCB1abNyM",
+                "china_cdn_id": "wrjCB1abNyM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181234,
+          "key": "33885287060923",
+          "title": "实验页面",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287060923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180524,
+              "key": "3388528706",
+              "title": "实验页面",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<h2>动物园数据库中的所有表格</h2>\n\n<h3>animals</h3>\n此表会列出动物园中的各个动物。每个动物仅占一行。可能存在多个动物同名，甚至多个同物种动物同名的情况。\n<ul>\n<li>name — 动物的名称（例如“George”）\n<li>species — （例如：“gorilla”（大猩猩））\n<li>birthdate — 动物的出生日期（例如 '1998-05-18’）\n</ul>\n\n<h3>diet</h3>\n此表对照列出各物种及其所吃的食物。动物园中的每个物种至少吃一种食物，许多物种吃多种食物。 如果某物种食用一种以上的食物，则该物种将占多行。\n<ul>\n<li>species — 物种名称（例如：“hyena”（鬣狗））\n<li>food — 物种所吃食物的名称（例如：“meat”（肉类））          </ul>\n\n<h3>taxonomy</h3>\n此表列出动物园中各物种的（部分）生物分类学名称。可用于辨别物种之间进化论角度的亲缘关系。\n<ul>\n<li>name — 物种的俗称（例如，“jackal”（豺））\n<li>species — 分类学物种名称（例如，“aureus”（亚洲胡狼））\n<li>genus — 分类学属名（例如，“Canis”（犬属））\n<li>family — 分类学科名（例如，“Canidae”（犬科））\n<li>t_order — 分类学目名（例如，“Carnivora”（食肉目））\n</ul>\n\n如果你对此分类一无所知，也无需担心，本课程不需要详细掌握这些信息。但如果你对此感兴趣，可查阅维基百科相关文章[分类学](http://en.wikipedia.org/wiki/Biological_classification)及 [生物分类](http://en.wikipedia.org/wiki/Biological_classification)。\n\n<h3>ordernames</h3>\n此表列出 <strong>taxonomy</strong> 表中各分类学目的俗称。\n<ul>\n<li>t_order — 分类学目名（例如，“Cetacea”（鲸目））\n<li>name — 俗称（例如，“whales and dolphins”（鲸和海豚））\n</ul>\n\n<h2>所用 SQL</h2>\n\n上面的表由以下 SQL 命令创建。<strong>create table</strong> 命令将在第 4 节课中详细介绍，可在此简单了解：\n\n<pre>\ncreate table animals (\n       name text,\n       species text,\n       birthdate date);\n\ncreate table diet (\n       species text,\n       food text);\n\ncreate table taxonomy (\n       name text,\n       species text,\n       genus text,\n       family text,\n       t_order text);\n\ncreate table ordernames (\n       t_order text,\n       name text);\n</pre>\n\n<em>注意：在 SQL 中，字符串和日期值必须用单引号括起来。</em>\n\n这是 Python 代码文件，注意缩进。\n逐个运行查询，如果出现错误，这样可以轻松调试代码。",
+              "user_state": {
+                "node_key": "3388528706",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-GlHaeB-vic",
+                  "china_cdn_id": "-GlHaeB-vic.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "The Experiment Page",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3103708712",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Uncomment one of these QUERY variables at a time and use \"Test Run\" to run it.\n# You'll see the results below.  Then try your own queries as well!\n#\n\n# QUERY = \"select max(name) from animals;\"\n\n# QUERY = \"select * from animals limit 10;\"\n\n# QUERY = \"select * from animals where species = 'orangutan' order by birthdate;\"\n\n# QUERY = \"select name from animals where species = 'orangutan' order by birthdate desc;\"\n\n# QUERY = \"select name, birthdate from animals order by name limit 10 offset 20;\"\n\n# QUERY = \"select species, min(birthdate) from animals group by species;\"\n\n# QUERY = '''\n# select name, count(*) as num from animals\n# group by name\n# order by num desc\n# limit 5;\n# '''\n\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181235,
+          "key": "33885287080923",
+          "title": "Select 子句",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287080923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180525,
+              "key": "3388528708",
+              "title": "Select 子句",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "以下是上个视频中介绍的新 **select** 子句：\n\n... **limit** *count*\n只返回结果表格的前 *count* 行。\n\n... **limit** *count* **offset** *skip*\n返回前 *skip* 行之后的 *count* 行。\n\n... **order by** *columns*\n... **order by** *columns* **desc**\n使用 *columns*（一列或多列，用逗号分隔）作为排序键对列排序。数字列将按数字顺序排序；字符串列将按字母顺序排序。**desc** 表示顺序为逆序（**desc**-结尾的排序）。\n\n... **group by** *columns*\n更改集合的行为，例如 **max**、**count** 和 **sum**。对于 **group by**，集合将为 *columns* 中的每个唯一值返回一行。\n\n----\n\n想再查看下[实验页面](https://classroom.udacity.com/courses/ud197/lessons/3423258756/concepts/33885287060923)？",
+              "user_state": {
+                "node_key": "3388528708",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "bR7EoKjN0EM",
+                  "china_cdn_id": "bR7EoKjN0EM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "选择子句",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/plG7udfAGADtrfJ6XUDe6yAHIVKW9jjqaj0MPOdeiKYjq45M23qINOP6teqeNtNbgZVOC2MhyI0SiDmVKw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3388528708",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3432438686",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.405,
+                      "y": 0.395
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.52,
+                      "y": 0.395
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.635,
+                      "y": 0.395
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.762,
+                      "y": 0.395
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.9,
+                      "y": 0.395
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.405,
+                      "y": 0.515
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.52,
+                      "y": 0.515
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.635,
+                      "y": 0.515
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check9",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.762,
+                      "y": 0.515
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check10",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.9,
+                      "y": 0.515
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check11",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.405,
+                      "y": 0.63
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check12",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.52,
+                      "y": 0.63
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check13",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.635,
+                      "y": 0.63
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check14",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.762,
+                      "y": 0.63
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check15",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.9,
+                      "y": 0.63
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_bnZEnWWqXQ",
+                  "china_cdn_id": "_bnZEnWWqXQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177207,
+          "key": "33885287110923",
+          "title": "数据库的优势",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174936,
+              "key": "3388528711",
+              "title": "数据库的优势",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "6vfZYhhmuLU",
+                "china_cdn_id": "6vfZYhhmuLU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181236,
+          "key": "33885287120923",
+          "title": "计算所有物种",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287120923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180527,
+              "key": "3388528712",
+              "title": "计算所有物种",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "**<em>注意：正确答案，查询表中的列顺序应该是 species, number</em>**\n\n<h2>Select 子句</h2>\n这这些是我们到目前为止见到的所有 select 子句：\n\n<h3>where</h3>\n<strong>where</strong> 子句表示<em>限制条件</em> — 从表格中过滤出符合特定规则的行。<strong>where</strong> 支持等于、不等于和布尔运算符等：\n<ul>\n<li><strong>where species = 'gorilla'</strong> — 仅返回物种列的值为“gorilla”的行。\n<li><strong>where name >= 'George'</strong> — 仅返回名称列在“George”之后（按字母顺序）的行。\n<li><strong>where species != 'gorilla' and name != 'George'</strong> — 仅返回物种不是“gorilla”并且名称不是“George”的行。\n</ul>\n<h3>limit / offset</h3>\n<strong>limit</strong> 子句对结果表格可以返回的行数做出限制。可选 <strong>offset</strong> 子句表示要在结果中跳过多少行。所以 <strong>limit 10 offset 100</strong> 将返回 10 条结果，从第 101 行开始。\n<h3>order by</h3>\n<strong>order by</strong> 子句告诉数据库如何对结果排序 — 通常根据一个或多个列。所以 <strong>order by species, name</strong> 表示首先按照物种列排序，然后在每个物种里按照名称排序。\n\n排序发生在 limit/offset 之前，所以你可以使用它们来提取出按字母顺序排列的页面结果（想想字典的页面）。\n\n可选 <strong>desc</strong> 修饰符告诉数据库按照降序对结果排序，例如从大到小或从 Z 到 A。\n<h3>group by</h3>\n<strong>group by</strong> 子句只能用于汇总，例如 <strong>max</strong> 或 <strong>sum</strong>。没有 <strong>group by</strong> 子句的话，对集合执行选择语句将对整个选定表格进行汇总，只返回一行。对于 <strong>group by</strong> 子句，它将对 <strong>group by</strong> 子句中的列或表达式的每个唯一值返回一行。",
+              "user_state": {
+                "node_key": "3388528712",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CvB2qkSk1Zc",
+                  "china_cdn_id": "CvB2qkSk1Zc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Count All the Species - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3536338540",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Write a query that returns all the species in the zoo, and how many animals of\n# each species there are, sorted with the most populous species at the top.\n# \n# The result should have two columns:  species and number.\n#\n# The animals table has columns (name, species, birthdate) for each individual.\n# \nQUERY = \"select ...\"\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "vfEi3aOawTI",
+                  "china_cdn_id": "vfEi3aOawTI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181237,
+          "key": "33885287150923",
+          "title": "插入：添加行",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180528,
+              "key": "3388528715",
+              "title": "插入：添加行",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "**insert** 语句的基本语法：\n\n**insert into** *table* **(** *column1, column2, ...* **) values (** *val1, val2, ...* **);**\n\n如果值和表格的列顺序一样（从第一列开始），则不需要在 **insert** 语句中指定列：\n\n**insert into** *table* **values (** *val1, val2, ...* **);**\n\n例如，如果表格有三列 **(a, b, c)**，你想要向 **a** 和 **b** 中插入值，你可以在 **insert** 语句中省略列名称。但是如果你想向 **b** 和 **c** 或 **a** 和 **c** 中插入值，则需要指定列。\n\n单个 **insert** 语句只能插入一个表格中（而 **select** 语句可以使用 join 从多个表格中获取数据）。",
+              "user_state": {
+                "node_key": "3388528715",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "NRCs22HJ-vI",
+                  "china_cdn_id": "NRCs22HJ-vI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Insert - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3488518630",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Insert a newborn baby opossum into the animals table and verify that it's\n# been added. To do this, fill in the rest of SELECT_QUERY and INSERT_QUERY.\n# \n# SELECT_QUERY should find the names and birthdates of all opossums.\n# \n# INSERT_QUERY should add a new opossum to the table, whose birthdate is today.\n# (Or you can choose any other date you like.)\n#\n# The animals table has columns (name, species, birthdate) for each individual.\n#\n\nSELECT_QUERY = '''\nselect ... where ...;\n'''\n\nINSERT_QUERY = '''\ninsert into animals ...;\n'''\n\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "49B5hlxzTRc",
+                  "china_cdn_id": "49B5hlxzTRc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181238,
+          "key": "33885287180923",
+          "title": "寻找吃鱼的动物",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287180923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180529,
+              "key": "3388528718",
+              "title": "寻找吃鱼的动物",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "要连接（join）两个表格，首先选择*连接条件*，即数据库将表格一中的行与表格二中的行相匹配时采用的规则。然后编写连接语句，包含每个表格中的列。\n\n例如，如果你想连接表格 **T** 和 **S**，其中 **T.color** 和 **S.paint** 要相同，则需要使用 **T join S on T.color = S.paint** 编写一个 select 语句。",
+              "user_state": {
+                "node_key": "3388528718",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "bcwFahJsww0",
+                  "china_cdn_id": "bcwFahJsww0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Find the Fish-Eaters - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3510498663",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Find the names of the individual animals that eat fish.\n#\n# The animals table has columns (name, species, birthdate) for each individual.\n# The diet table has columns (species, food) for each food that a species eats.\n#\n\nQUERY = '''\nselect ...\n'''\n\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "AnksTk1zI3Y",
+                  "china_cdn_id": "AnksTk1zI3Y.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181239,
+          "key": "33885287210923",
+          "title": "汇总后",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287210923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180530,
+              "key": "3388528721",
+              "title": "汇总后",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "**having** 子句和 **where** 子句工作原理差不多，但是它应用于 **group by** 汇总发生之后。语法如下所示：\n\n**select** *columns* **from** *tables* **group by** *column* **having** *condition* **;**\n\n通常，至少有一*列*将是汇总函数，例如对表格的某列执行 **count**、**max** 或 **sum** 操作。要对汇总列应用 **having**，你需要使用 **as** 为其设定名称。例如，如果你有一个商店所售商品的表格，并且想要找出售出数量超过 5 件的所有商品，则可以使用：\n\n**select name, *count(\\*) as num* from sales having num > 5;**\n\n---\n你可以在 **select** 语句中仅使用 **where**、仅使用 **group by** 、或使用 **group by** 和 **having** 、或使用 **where** 和 **group by** 或三个都用到！\n\n但是如果没有 **group by** 的情况下，使用 **having** 通常是不合理的。\n\n如果你同时使用了 **where** 和 **having**， **where** 条件将过滤即将被汇总的行，**having** 条件将过滤汇总后的行。\n\n关于 **having** 的更多详情请参阅以下网址：\n\nhttp://www.postgresql.org/docs/9.4/static/sql-select.html#SQL-HAVING\n\n你可以采用几种不同的方式来解决这一问题，下面是其中一个示例：\n<pre>\nselect food, count(animals.name) as num\n       from diet join animals\n       on diet.species = animals.species\n       group by food\n       having num = 1\n</pre>\n下面是另一个示例：\n<pre>\nselect food, count(animals.name) as num\n       from diet, animals\n       where diet.species = animals.species\n       group by food\n       having num = 1\n</pre>",
+              "user_state": {
+                "node_key": "3388528721",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "eeV5K5HKVx4",
+                  "china_cdn_id": "eeV5K5HKVx4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "After Aggregating - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3561858542",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Find the one food that is eaten by only one animal.\n#\n# The animals table has columns (name, species, birthdate) for each individual.\n# The diet table has columns (species, food) for each food that a species eats.\n#\n\nQUERY = '''\nselect ...\n'''\n\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kIITzFRh5mQ",
+                  "china_cdn_id": "kIITzFRh5mQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181243,
+          "key": "33885287240923",
+          "title": "更多连接练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33885287240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180535,
+              "key": "3388528724",
+              "title": "更多连接练习",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<h2>此视频中介绍的表格</h2>\n\n<h3>taxonomy</h3>\n此表列出动物园中各物种的（部分）生物分类学名称。可用于辨别物种之间进化论角度的亲缘关系。\n<ul>\n<li>name — 物种的俗称（例如，“jackal”（豺）\n<li>species — 分类学物种名称（例如，“aureus”（亚洲胡狼））\n<li>genus — 分类学属名（例如，“Canis”（犬属））\n<li>family — 分类学科名（例如，“Canidae”（犬科））\n<li>t_order — 分类学目名（例如，“Carnivora”（食肉目））\n</ul>\n\n如果你对此分类一无所知，也无需担心，本课程不需要详细掌握这些信息。但如果你对此感兴趣，可查阅维基百科相关文章[分类学](http://en.wikipedia.org/wiki/Biological_classification)和[生物分类](http://en.wikipedia.org/wiki/Biological_classification)。\n\n<h3>ordernames</h3>\n此表列出 <strong>taxonomy</strong> 表中各分类学目的俗称。\n<ul>\n<li>t_order — 分类学目名（例如，“Cetacea”（鲸目））\n<li>name — 俗称（例如，“whales and dolphins”（鲸和海豚））\n</ul>\n\n<h2>zoo 数据库中的所有表格</h2>\n如果你不知道表格是什么样的，你始终可以使用 **select \\* from *table*** 查看表格内容。以下是 zoo 数据库中包含的所有表格的总结：\n<h3>animals</h3>\n此表列出动物园中的各个动物。每个动物仅占一行。可能存在多个动物同名，甚至多个同物种动物同名的情况。\n<ul>\n<li>name — 动物的名字（例如：“George”）\n<li>species — 动物所属物种（例如：“gorilla”（大猩猩））\n<li>birthdate — 动物的出生日期（例如：'1998-05-18'）\n</ul>\n<h3>diet</h3>\n此表对照列出各物种及其所吃的食物。动物园中的每个物种至少吃一种食物，许多物种吃多种食物。 如果某物种食用一种以上的食物，则该物种将占多行。\n<ul>\n<li>species — 物种名称（例如：“hyena”（鬣狗））\n<li>food — 物种所吃食物的名称（例如：“meat”（肉类））\n</ul>\n<h2>The SQL for it</h2>\n上面的表由以下 SQL 命令创建。<strong>create table</strong> 命令将在第 4 课中详细介绍，可在此简单了解：\n<pre>\ncreate table animals (\n       name text,\n       species text,\n       birthdate date);\ncreate table diet (\n       species text,\n       food text);\ncreate table taxonomy (\n       name text,\n       species text,\n       genus text,\n       family text,\n       t_order text);\n\ncreate table ordernames (\n       t_order text,\n       name text);\n</pre>\n\n以下是其中一个解决方案：\n\n<pre>\nselect ordernames.name, count(*) as num\n  from animals, taxonomy, ordernames\n  where animals.species = taxonomy.name\n    and taxonomy.t_order = ordernames.t_order\n  group by ordernames.name\n  order by num desc\n</pre>\n\n以下是另一个解决方案，这次使用的是显式连接格式：\n\n<pre>\nselect ordernames.name, count(*) as num\n  from (animals join taxonomy\n                on animals.species = taxonomy.name)\n                as ani_tax\n        join ordernames\n             on ani_tax.t_order = ordernames.t_order\n  group by ordernames.name\n  order by num desc\n</pre>\n\n我认为上面的版本比下面的更容易读懂，因为在显式连接格式中，你需要明确告诉数据库按照什么顺序连接表格 — <code>((a join b) join c)</code> — 而不是让数据库自己去判断。\n\n如果你使用的是更加框架性的数据库（例如 SQLite），那么显式连接格式可能会存在性能优势。但是对于我们将在下节课中用到的面向服务器的数据库系统 PostgreSQL，query planner 应该消除任何差异。",
+              "user_state": {
+                "node_key": "3388528724",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "_7Vqou7k7fI",
+                  "china_cdn_id": "_7Vqou7k7fI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "More Join Practice - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3527458793",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# List all the taxonomic orders, using their common names, sorted by the number of\n# animals of that order that the zoo has.\n#\n# The animals table has (name, species, birthdate) for each individual.\n# The taxonomy table has (name, species, genus, family, t_order) for each species.\n# The ordernames table has (t_order, name) for each order.\n#\n# Be careful:  Each of these tables has a column \"name\", but they don't have the\n# same meaning!  animals.name is an animal's individual name.  taxonomy.name is\n# a species' common name (like 'brown bear').  And ordernames.name is the common\n# name of an order (like 'Carnivores').\n\nQUERY = '''\nselect ...\n'''\n\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "bnwLadF8gKo",
+                  "china_cdn_id": "bnwLadF8gKo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181240,
+          "key": "34921089680923",
+          "title": "总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34921089680923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180531,
+              "key": "3492108968",
+              "title": "总结",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "### 下节课中用到的虚拟机和数据库的安装说明：\n\nhttps://udacity.atlassian.net/wiki/display/BENDH/Vagrant+VM+Installation\n\n### 请观看以下视频，大致了解下虚拟机和相关话题：\nhttps://www.youtube.com/watch?v=djnqoEO2rLc",
+              "video": {
+                "youtube_id": "AWeudIezMa0",
+                "china_cdn_id": "AWeudIezMa0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 281805,
+          "key": "14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0",
+          "title": "安装虚拟机",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "FSND-Virtual-Machine.zip",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/December/58488015_fsnd-virtual-machine/fsnd-virtual-machine.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 281200,
+              "key": "7520fba6-30f7-4393-9a0a-e32401c27a29",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 安装虚拟机\n\n在本课程的下一部分中，你将使用虚拟机 (VM) 来运行 SQL 数据库服务器，并使用它的 Web 应用程序。VM 是运行在你自己的计算机上的 Linux 服务器系统。你可以在计算机和虚拟机之间轻松共享文件; 并且，你将可以在虚拟机内部运行 Web 服务，然后从常规浏览器访问该服务。\n\n我们会使用 [Vagrant](https://www.vagrantup.com/) 和 [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 工具来安装和管理虚拟机。你需要安装它们来做一些编程练习。本页的说明可以协助你完成安装。\n\n### 概念概述\n\n[这个视频](https://www.youtube.com/watch?v=djnqoEO2rLc) 提供了虚拟机和 Vagrant 的概念概述。观看视频可以从中获得一些信息，但不是课程要求。\n\n----\n\n# 使用终端\n\n你将使用计算机上的 Unix 式终端进行这些练习。如果你是** Mac 或 Linux **系统，使用其常规终端即可。在** Windows **上，我们建议使用 Git 软件附带的** Git Bash **终端。 如果你还没有安装 Git，请从 [git-scm.com](https://git-scm.com/downloads)下载。\n\n要复习 Unix 命令行相关内容，可以回看我们的[Linux Command Line Basics 课程](https://cn.udacity.com/course/linux-command-line-basics--ud595).\n\n如果你想要了解更多有关 Git 的知识，可以查看我们的课程 [如何使用 Git 和 Github](https://cn.udacity.com/course/how-to-use-git-and-github--ud775)。\n\n----\n\n# 安装 VirtualBox\n\nVirtualBox 是实际运行虚拟机的软件，你可以从 [virtualbox.org 下载](https://www.virtualbox.org/wiki/Downloads) 。为你的操作系统安装 *平台安装包* ，不需要扩展包或 SDK。安装后，你不需要启动 VirtualBox ，而 Vagrant 需要这样做。\n\n**Ubuntu 用户:** 如果你正在使用 Ubuntu 14.04，请使用 Ubuntu 软件中心安装 VirtualBox。由于已知错误，使用上面的站点安装 VirtualBox 可能会卸载你需要的其他软件。\n\n----\n\n#  安装 Vagrant\n\nVagrant 是配置虚拟机的软件，可让你在主机器和虚拟机的文件系统之间共享文件。 [在 vagrantup.com 下载](https://www.vagrantup.com/downloads.html) 安装过你的操作系统的对应版本。\n\n**Windows 用户:** 安装程序可能会要求你向 Vagrant 授予网络权限，或提示放火墙异常，请一定要选择允许操作。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 281201,
+              "key": "a0a8f8ed-a91f-4f49-9c63-f3cf9a5155f4",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584881ee_screen-shot-2016-12-07-at-13.40.43/screen-shot-2016-12-07-at-13.40.43.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a0a8f8ed-a91f-4f49-9c63-f3cf9a5155f4",
+              "caption": "_如果 Vagrant 安装成功，你将能够在终端中运行 `vagrant --version` 命令来查看版本号。_\n_你的终端中的 shell 提示符可能会不同。这里的 `$` 符号就是 shell 提示符。_",
+              "alt": null,
+              "width": 144,
+              "height": 61,
+              "instructor_notes": null
+            },
+            {
+              "id": 281202,
+              "key": "af900f4f-1f30-41f7-ba36-ff1219ce2650",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n# 下载虚拟机配置\n\n虚拟机配置文件： [FSND-Virtual-Machine.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488015_fsnd-virtual-machine/fsnd-virtual-machine.zip)\n\n将该文件下载到你的计算机上并解压。你将会得到一个叫做 **FSND-Virtual-Machine** 的目录。它可能位于你的 **Downloads** 文件夹。\n\n在终端中使用 `cd` 改为 **FSND-Virtual-Machine** 目录，其中你会发现另一个名为 **vagrant** 的目录，用 `cd` 进入该目录：\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 281204,
+              "key": "332bd5ab-b3e4-4255-8471-3211ffa1b75d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58487f12_screen-shot-2016-12-07-at-13.28.31/screen-shot-2016-12-07-at-13.28.31.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/332bd5ab-b3e4-4255-8471-3211ffa1b75d",
+              "caption": "_浏览到 FSND-Virtual-Machine 目录并列出其中的文件。_\n_这张图片是在 Mac 上截取的，但在 Windows 上的 Git Bash 中，命令将会相同。_",
+              "alt": null,
+              "width": 540,
+              "height": 123,
+              "instructor_notes": null
+            },
+            {
+              "id": 281205,
+              "key": "41f90281-af83-4617-9667-2b7609e53a83",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 启动虚拟机\n\n在你的终端，在 **vagrant** 子目录中，运行命令 `vagrant up` 。这将使 Vagrant 下载 Linux 操作系统并进行安装。可能需要很长时间，具体取决于你的网速。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 281206,
+              "key": "b8421e2f-0ca2-4c14-8c7b-2d8c554997da",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488603_screen-shot-2016-12-07-at-13.57.50/screen-shot-2016-12-07-at-13.57.50.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b8421e2f-0ca2-4c14-8c7b-2d8c554997da",
+              "caption": "_使用 `vagrant up` 启动 Ubuntu Linux 的安装。_\n_这张屏幕截图只展示了开头的页面，后面还会有很多很多页，用很多种颜色输出。_",
+              "alt": null,
+              "width": 465,
+              "height": 84,
+              "instructor_notes": null
+            },
+            {
+              "id": 281207,
+              "key": "4b07a1ee-dd47-4746-9c09-7ce1f969f3e3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "当 `vagrant up` 停止运行时，你可以重新看到你的 shell 提示符（比如 `$` ）。此时，你可以运行 `vagrant ssh` 登录到新安装的 Linux 虚拟机！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 281208,
+              "key": "c793524e-fbbd-49a9-8bc3-8776ec92f00d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488962_screen-shot-2016-12-07-at-14.12.29/screen-shot-2016-12-07-at-14.12.29.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c793524e-fbbd-49a9-8bc3-8776ec92f00d",
+              "caption": "_使用 `vagrant ssh` 登录 Linux 虚拟机._",
+              "alt": null,
+              "width": 354,
+              "height": 298,
+              "instructor_notes": null
+            },
+            {
+              "id": 281209,
+              "key": "acf2a9b2-38ec-4e82-bf58-dea583d210d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 哇，成功了！\n\n如果你已经登录到你的 Linux 虚拟机，恭喜你！如果没有，请查看下面的**疑难解答**部分。\n\n## 课程文件\n\n在虚拟机内部，将目录更改为 `/vagrant'，并用 `ls` 查看。\n\n你在这里看到的文件与计算机上的 `vagrant` 子目录（启动 Vagrant 的位置）中的文件相同。你在其中创建的任意文件都会自动共享给对方。这意味着你可以在自己喜欢的文本编辑器中编辑代码，然后在虚拟机内运行它。\n\n虚拟机的 `/vagrant` 目录中的文件，与计算机的 `vagrant` 文件夹共享。但是虚拟机中的其他数据并不会。例如：PostgreSQL 数据库本身只存在与虚拟机中。\n\n## 运行数据库\n\nPostgreSQL 数据库服务器将自动在虚拟机中启动。你可以使用 `psql` 命令行工具来访问它，并运行 SQL 语句：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 281210,
+              "key": "00a6fa00-d901-4b57-9ef8-09f940a6739c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58489186_screen-shot-2016-12-07-at-14.46.25/screen-shot-2016-12-07-at-14.46.25.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/00a6fa00-d901-4b57-9ef8-09f940a6739c",
+              "caption": "_运行 `psql`，PostgreSQL 命令行界面，位于虚拟机中_",
+              "alt": null,
+              "width": 296,
+              "height": 154,
+              "instructor_notes": null
+            },
+            {
+              "id": 281211,
+              "key": "24d23f52-1e96-42be-aefa-0d5ee6529138",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 登录登出\n\n如果你在虚拟机内的 shell 提示符后键入 `exit` (或者 `Ctrl-D`) ，那么你将被注销，然后回到主机器的 shell 中。要重新登录，请确保你在同一目录中，再次输入 `vagrant ssh` 。\n\n如果重启计算机，你需要运行 `vagrant up` 来重启虚拟机。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 281212,
+              "key": "0f40621d-0b26-45df-94af-4b3d51b83c0d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "----\n\n# 疑难解答\n\n### 我不确定是否成功安装\n\n如果你可以输入 `vagrant ssh` 并登录你的虚拟机，那就行了！`vagrant up` 进程显示许多颜色的文本是正常的，包括一些看起来很吓人的颜色：红色，绿色和紫色等只要你在最后看到 shell 提示符回来，并且你可以登录，就可以了。\n\n### `vagrant up` 花了很长时间，为什么？\n\n因为它是从互联网下载整个 Linux 操作系统。\n\n### 使用 Windows 遇到虚拟化错误\n\n有时其他的虚拟化程序（比如 Docker 或者 Hyper-V）可能会干扰到 VirtualBox。尝试先关闭这些其他程序。\n\n此外，某些 Windows PC 在 BIOS 、 UEFI（固件）或操作系统中设置了禁用虚拟化功能。要更改此设置，你可能需要重新启动计算机并访问固件设置。[这个 google 搜索结果](https://www.google.com/search?q=enable%20virtualization%20windows%2010) 可以帮助你找到计算机和操作系统的设置。遗憾的是，由于有这么多不同版本的 Windows 和 PC，我们不能提供一个简单的指南来指导操作。\n\n### 为什么我们要使用虚拟机？看起来很复杂\n\n 确实很复杂。使用虚拟机，可以保证无论你运行什么类型的计算机，它都可以提供相同的软件（Linux 和 PostgreSQL）。\n\n### 遇到一些其他错误\n\n如果你收到特定的错误消息文字，请尝试使用你喜欢的搜索引擎查找原因。如果没有获得帮助，请将截图和并关于你浏览过程的详细信息发布到论坛。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

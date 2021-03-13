@@ -1,0 +1,737 @@
+{
+  "data": {
+    "lesson": {
+      "id": 289583,
+      "key": "3483858580",
+      "title": "Python DB-API",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "用 Python 连接一个后端数据库，查找和修复后端工程师经常会遇到的 bug。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3483858580/289583/1516830270366/Python%20DB-API%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3483858580/289583/1516830230392/Python%20DB-API%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 181242,
+          "key": "34895588210923",
+          "title": "欢迎学习数据库",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34895588210923",
+            "completed_at": "2019-02-24T04:55:48.785Z",
+            "last_viewed_at": "2019-02-24T04:55:50.002Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180532,
+              "key": "3489558821",
+              "title": "欢迎学习数据库",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "这节课的参考说明：https://udacity.atlassian.net/wiki/display/BENDH/RDB+Lesson+3+Reference+Notes",
+              "video": {
+                "youtube_id": "usAGebKnQSk",
+                "china_cdn_id": "usAGebKnQSk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181241,
+          "key": "34925786360923",
+          "title": "什么是 DB-API",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34925786360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180533,
+              "key": "3492578636",
+              "title": "什么是 DB-API",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "l-8BgRIaPtc",
+                "china_cdn_id": "l-8BgRIaPtc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177239,
+          "key": "35153985360923",
+          "title": "使用 DB-API 编写代码",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985360923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174968,
+              "key": "3515398536",
+              "title": "使用 DB-API 编写代码",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "PostgreSQL 的 <strong>connect</strong> 函数使用的参数语法与 SQLite 不同。例如，如果要连接到 <strong>bears</strong> 数据库，需要使用 <strong>psycopg2.connect(\"dbname=bears\")</strong>。",
+              "video": {
+                "youtube_id": "Zd0PAgb6vY4",
+                "china_cdn_id": "Zd0PAgb6vY4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181244,
+          "key": "35153985370923",
+          "title": "试用 DB-API",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985370923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180536,
+              "key": "3515398537",
+              "title": "试用 DB-API",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3515398537",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "4Ywln5AT6Hc",
+                  "china_cdn_id": "4Ywln5AT6Hc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Trying Out DB-API - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3567448585",
+                "initial_code_files": [
+                  {
+                    "text": "# To see how the various functions in the DB-API work, take a look at this code,\n# then the results that it prints when you press \"Test Run\".\n#\n# Then modify this code so that the student records are fetched in sorted order\n# by student's name.\n#\n\nimport sqlite3\n\n# Fetch some student records from the database.\ndb = sqlite3.connect(\"students\")\nc = db.cursor()\nquery = \"select name, id from students;\"\nc.execute(query)\nrows = c.fetchall()\n\n# First, what data structure did we get?\nprint \"Row data:\"\nprint rows\n\n# And let's loop over it too:\nprint\nprint \"Student names:\"\nfor row in rows:\n  print \"  \", row[0]\n\ndb.close()\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "QTq9pGMoZAE",
+                  "china_cdn_id": "QTq9pGMoZAE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181245,
+          "key": "35153985400923",
+          "title": "DB-API 中的插入操作",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985400923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180537,
+              "key": "3515398540",
+              "title": "DB-API 中的插入操作",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3515398540",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "pn3MunHovMc",
+                  "china_cdn_id": "pn3MunHovMc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Inserts in DB-API - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3579638544",
+                "initial_code_files": [
+                  {
+                    "text": "# This code attempts to insert a new row into the database, but doesn't\n# commit the insertion.  Add a commit call in the right place to make\n# it work properly.\n# \n\nimport sqlite3\n\ndb = sqlite3.connect(\"testdb\")\nc = db.cursor()\nc.execute(\"insert into balloons values ('blue', 'water') \")\ndb.close()\n",
+                    "name": "student.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "RfYFqGPxMQM",
+                  "china_cdn_id": "RfYFqGPxMQM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181246,
+          "key": "34952586010923",
+          "title": "运行 forum",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34952586010923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180538,
+              "key": "3495258601",
+              "title": "运行 forum",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "如果你没有查看上节课中关于设置 Vagrant 虚拟机的说明，请参阅以下链接：\n\nhttps://udacity.atlassian.net/wiki/display/BENDH/Vagrant+VM+Installation\n\n要大致了解 Vagrant、虚拟机概念及相关话题，请参阅：\n\nhttps://www.youtube.com/watch?v=djnqoEO2rLc",
+              "video": {
+                "youtube_id": "hzMIDcmJ9jQ",
+                "china_cdn_id": "hzMIDcmJ9jQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181247,
+          "key": "35153985420923",
+          "title": "Hello PostgreSQL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985420923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180539,
+              "key": "3515398542",
+              "title": "Hello PostgreSQL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "**psql** 命令行工具非常强大。完整详情请参阅 [PostgreSQL 文档](http://www.postgresql.org/docs/9.4/static/app-psql.html)。\n\n要将 **psql** 连接到在同一机器（例如虚拟机）上运行的数据库，你只需要告诉它数据库的名称。例如，命令 **psql forum** 会连接到 **forum** 数据库。\n\n在 **psql** 中，你可以对所连接的数据库中的表格执行任何 SQL 语句。确保 SQL 语句末尾一定要有分号，而 Python 则不需要总是这么做。\n\n你还可以使用各种特殊的 **psql** 命令获取关于数据库的信息，并对配置做出更改。例如视频中介绍的 **\\d posts** 命令可以显示 **posts** 表格的列。\n\n你还可以运行以下其他命令：\n\n**\\dt** — 列出数据库中的所有表格。\n\n**\\dt+** — 列出表格及其他信息（例如表格占用了多少磁盘空间）。\n\n**\\H** — 在以纯文本和 HTML 之间切换显示表格。\n\n----\n\n你可以在运行你的网络应用时执行以下有趣的 **psql** 命令：\n\n**select * from posts \\watch**\n\n（注意：**\\watch** 替换掉分号）。该命令会显示 **posts** 表格的内容并每隔两秒钟刷新一次，这样当你使用该应用时，可以看到表格的变化。\n\n为此，你需要在虚拟机上打开两个终端会话：一个用于运行 forum 应用，另一个用于运行 **psql**。你可以同时从任何数量的终端窗口连接到虚拟机，只需打开另一个终端即可，更改为 **vagrant** 目录，然后再次输入 **vagrant ssh**。",
+              "video": {
+                "youtube_id": "BH-oEesrgw8",
+                "china_cdn_id": "BH-oEesrgw8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181248,
+          "key": "35153985430923",
+          "title": "为应用添加后端数据库",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180540,
+              "key": "3515398543",
+              "title": "为应用添加后端数据库",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "我们已经为你创建好了 **forum** 数据库。你需要使用 **psycopg2.connect(\"dbname=forum\")** 将你的代码与该数据库相连，然后对 **posts** 表格执行 **select** 和 **insert** 操作。\n\n现有的 **GetAllPosts** 函数会返回列表中的所有条目。所以它的数据库版本应该返回 **posts** 表格的所有条目。\n\n同样，现有的 **AddPost** 函数会向列表中插入条目。\n\n插入帖子时，你不需要提供 **time** 列。表格已经设置成可以提供时间戳。\n\n现有的 **GetAllPosts** 函数使用 Python **sort** 函数对帖子进行排序。当你使用数据库实现此函数时，可以通过使用 SQL 排序而避免使用 Python 排序吗？\n\n---\n\n**提示：** 在执行插入操作时，考虑采用字符串替换方法。例如：\n\n    name = \"Jeffrey\"\n    nickname = \"Jeff\"\n    print \"Name is %s and nickname is %s\" % (name, nickname)\n\n输出应该为：`Name is Jeffrey and nickname is Jeff`",
+              "user_state": {
+                "node_key": "3515398543",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CyP90IWIy70",
+                  "china_cdn_id": "CyP90IWIy70.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "为应用添加后端数据库",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/KU0PdvhJHgRAJKZ72HB84kJ4FJzGMRk4JkPqIarRRVTB66dvOjId78qfsKR7JzT6eNF-co3A7sqENlM_QQ=s0#w=1280&h=675",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3515398543",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3483298567",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.20065071695760597,
+                      "y": 0.8077536031042128
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "hau-qKe-pXw",
+                  "china_cdn_id": "hau-qKe-pXw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181249,
+          "key": "35802787230923",
+          "title": "帖子破坏者 Bobby Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35802787230923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180541,
+              "key": "3580278723",
+              "title": "帖子破坏者 Bobby Tables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "根据视频的提示，将此帖子复制到你的论坛上，并提交：\n<pre>\n'); delete from posts; --\n</pre>",
+              "video": {
+                "youtube_id": "kYGoj-Vo7KY",
+                "china_cdn_id": "kYGoj-Vo7KY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181250,
+          "key": "35153985470923",
+          "title": "修复 Bobby Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180542,
+              "key": "3515398547",
+              "title": "修复 Bobby Tables",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3515398547",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "93ea9H3ZtqE",
+                  "china_cdn_id": "93ea9H3ZtqE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Curing Bobby Tables - Exercise",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/MhzY40R7CEEc75cMrRvej_xcP1F_blgSFMct1aIrsZb_0vJ5jNalq3Ccw6cSA-SS-OqgUGHl1OW69kwwOg4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3515398547",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3483298569",
+                "widgets": []
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "R0NcyWBPxZk",
+                  "china_cdn_id": "R0NcyWBPxZk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181252,
+          "key": "34857286290923",
+          "title": "垃圾表格",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34857286290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180543,
+              "key": "3485728629",
+              "title": "垃圾表格",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "将下面的内容粘贴到你的论坛上（包括 <strong>script</strong> 标记！）并提交：\n\n<pre>\n&lt;script>\nsetTimeout(function() {\n    var tt = document.getElementById('content');\n    tt.value = \"&lt;h2 style='color: #FF6699; font-family: Comic Sans MS'>Spam, spam, spam, spam,&lt;br>Wonderful spam, glorious spam!&lt;/h2>\";\n    tt.form.submit();\n}, 2500);\n&lt;/script>\n</pre>",
+              "video": {
+                "youtube_id": "5B8Ly3WX7sI",
+                "china_cdn_id": "5B8Ly3WX7sI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 181251,
+          "key": "34857286300923",
+          "title": "阻止垃圾内容出现",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34857286300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180544,
+              "key": "3485728630",
+              "title": "阻止垃圾内容出现",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://bleach.readthedocs.org/en/latest/\" target=\"_blank\">Bleach 文档</a>",
+              "user_state": {
+                "node_key": "3485728630",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "R3r8i4pasGE",
+                  "china_cdn_id": "R3r8i4pasGE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Stopping the Spam",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/M6NcVPqXHos9ZHDSBO8pk__CZA7PhukzGq2RuwZWIsjkNXFWtSkZGqHHV4U1tvzqk-Mk3VfMiOvCAiGjWfD3=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3485728630",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3483298571",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15589931421446385,
+                      "y": 0.3485656873614191
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15492518703241895,
+                      "y": 0.6024113082039911
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "9XHEthXA37k",
+                  "china_cdn_id": "9XHEthXA37k.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181253,
+          "key": "34857286320923",
+          "title": "通过更新删除垃圾内容",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34857286320923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180545,
+              "key": "3485728632",
+              "title": "通过更新删除垃圾内容",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "**update** 语句的语法如下所示：\n\n**update** *table* **set** *column* **=** *value* **where** *restriction* **;**\n\n*restriction* 和 **select** 语句中的一样，对列值支持相同的运算符集。\n\n----\n\n**like** 运算符支持简单的文本模式匹配。运算符左侧的内容（通常是文本列的名称）将与右侧的模式相匹配，该模式是一种 SQL 文本字符串（所以是**单引号**），并且可以使用 **%** 符号与任何子字符串相匹配，包括空字符串。\n\n如果你熟悉正则表达式的话，可以将 **like** 模式中的 **%** 看作正则表达式 **.***（点星号）。\n\n如果你更加熟悉 Unix shell 或 Windows 命令提示符中的文件名模式，那么 **%** 就像这些系统里的 *****（星号）。\n\n例如，对于某个表格行，其中列 **fish** 的值为 **'salmon’**，下面的所有限制条件都为真：\n\n* **fish like 'salmon'**\n* **fish like 'salmon%'**\n* **fish like 'sal%'**\n* **fish like '%n'**\n* **fish like 's%n'**\n* **fish like '%al%'**\n* **fish like '%'**\n* **fish like '%%%'**\n\n下面的都为假：\n\n* **fish like 'carp'**\n* **fish like 'salmonella'**\n* **fish like '%b%'**\n* **fish like 'b%'**\n* **fish like ''**",
+              "user_state": {
+                "node_key": "3485728632",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "hYhU47dUwo8",
+                  "china_cdn_id": "hYhU47dUwo8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Updating Away the Spam - Exercise",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/V8R2AZLnnyNMq9dFDgIRv6q_JMIAOv0-bIjNXghMisL5kuLC1qW6DkLtb6LYr3g95Xq_xvuEXxVcGlvKgA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3485728632",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3485059084",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2516560162094763,
+                      "y": 0.7300097006651884
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Tf56Uv5zJMc",
+                  "china_cdn_id": "Tf56Uv5zJMc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181254,
+          "key": "35153985490923",
+          "title": "删除垃圾内容",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985490923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180546,
+              "key": "3515398549",
+              "title": "删除垃圾内容",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://xkcd.com/327/\">不记得 Bobby Tables 是谁了？</a>\n\n他现在有自己的网站了：http://bobby-tables.com/\n\n**delete** 命令的语法为：\n**delete from** *table* **where** *restriction* **;**\n*restriction* 和 **select** 语句中的一样，允许使用相同的运算符。",
+              "user_state": {
+                "node_key": "3515398549",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "X_RkedyfwX0",
+                  "china_cdn_id": "X_RkedyfwX0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": null,
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/FyyOLbyFHgk1ELAffBn6zd-41FYy6FzC5n76yqLFHAUzJ6DS0WbRC2bAn2FANktHvlRBFDp1gYMORrHrDcc=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3515398549",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3511118884",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1881818890274314,
+                      "y": 0.8331485587583148
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "YbvvcMlQHQ8",
+                  "china_cdn_id": "YbvvcMlQHQ8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 181255,
+          "key": "35235187600923",
+          "title": "结论",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35235187600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 180547,
+              "key": "3523518760",
+              "title": "结论",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Xm0MkVaZwmQ",
+                "china_cdn_id": "Xm0MkVaZwmQ.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}
