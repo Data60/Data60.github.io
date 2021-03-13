@@ -1,0 +1,159 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.240 --> 00:00:03.850
+Aqui está um exemplo de um programa Python
+que usa uma biblioteca de API de banco de dados para
+
+00:00:03.850 --> 00:00:05.350
+consultar um banco de dados.
+
+00:00:05.350 --> 00:00:07.600
+Toda vez que usar a API de banco de dados em seu código,
+
+00:00:07.600 --> 00:00:09.960
+você terá que
+seguir as etapas seguintes.
+
+00:00:09.960 --> 00:00:13.100
+Primeiro, temos import sqlite3,
+que é a biblioteca do
+
+00:00:13.100 --> 00:00:14.580
+banco de dados que estamos usando.
+
+00:00:14.580 --> 00:00:19.340
+Se estivéssemos usando postgreSQL aqui,
+usaríamos import psyco-pg em vez disso.
+
+00:00:19.340 --> 00:00:21.590
+Em seguida, conecte-se ao banco de dados
+
+00:00:21.590 --> 00:00:25.120
+A string cookies aqui é o nome
+do banco de dados ao qual se conectar.
+
+00:00:25.120 --> 00:00:27.730
+Sim, existe um motivo para eu ter posto
+o nome cookies neste exemplo.
+
+00:00:27.730 --> 00:00:30.380
+Eu lhe direi no fim do vídeo,
+prometo.
+
+00:00:30.380 --> 00:00:34.050
+Se estiver usando um sistema de banco de dados através de
+uma rede, você terá que
+
+00:00:34.050 --> 00:00:38.450
+especificar o nome de host, o nome de usuário,
+a senha e outras informações aqui.
+
+00:00:38.450 --> 00:00:41.370
+A função connect retorna
+um objeto de conexão,
+
+00:00:41.370 --> 00:00:43.910
+que é válido até que você
+feche essa conexão.
+
+00:00:43.910 --> 00:00:47.150
+Em seguida, seu código criará
+um objeto chamado cursor.
+
+00:00:47.150 --> 00:00:50.730
+O cursor é o que de fato executa
+as consultas e busca os resultados.
+
+00:00:50.730 --> 00:00:53.840
+Ele é chamado de cursor porque quando
+o banco de dados dá resultados,
+
+00:00:53.840 --> 00:00:55.780
+você usa o cursor para
+verificar os resultados,
+
+00:00:55.780 --> 00:00:58.260
+como um cursor de texto em um editor.
+
+00:00:58.260 --> 00:01:02.060
+Você pode ver aqui que executamos
+uma consulta usando um cursor, e
+
+00:01:02.060 --> 00:01:05.880
+depois buscamos todos os resultados dessa
+consulta usando também o cursor.
+
+00:01:05.880 --> 00:01:08.810
+Outra possibilidade é buscar
+os resultados um de cada vez usando
+
+00:01:08.810 --> 00:01:10.950
+o método fetchone on cursors.
+
+00:01:10.950 --> 00:01:14.550
+Agora, se estivesse fazendo uma consulta insert
+em vez de select,
+
+00:01:14.550 --> 00:01:18.980
+você precisaria confirmar a inserção aqui,
+ou se algo desse errado, reverter.
+
+00:01:18.980 --> 00:01:22.410
+O mesmo aconteceria se você estivesse fazendo alguma outra
+consulta que altera o banco de dados.
+
+00:01:22.410 --> 00:01:25.300
+Commit e
+roll back são métodos em connection.
+
+00:01:25.300 --> 00:01:28.550
+Neste caso, estamos fazendo uma consulta select
+por isso não precisamos fazê-lo.
+
+00:01:28.550 --> 00:01:29.730
+Falarei mais sobre commits e
+
+00:01:29.730 --> 00:01:33.450
+roll backs mais tarde
+e farei inserts e DBAPI.
+
+00:01:33.450 --> 00:01:36.720
+Finalmente, ao concluir,
+feche a conexão.
+
+00:01:36.720 --> 00:01:39.600
+É importante sempre fechar as
+conexões ao concluí-las,
+
+00:01:39.600 --> 00:01:42.410
+especialmente se este código estivesse sendo
+executado dentro de um loop.
+
+00:01:42.410 --> 00:01:44.980
+Não iríamos querer ter um monte de
+conexões antigas sem uso,
+
+00:01:44.980 --> 00:01:46.900
+ocupando recursos.
+
+00:01:46.900 --> 00:01:50.055
+A propósito, mencionei que cookies
+aqui não é apenas uma brincadeira.
+
+00:01:50.055 --> 00:01:53.455
+Se você tivesse que executar este código exato
+no arquivo cookies do navegador da Web Chrome,
+
+00:01:53.455 --> 00:01:56.745
+ele informaria alguns dos
+servidores da Web dos quais você possui cookies.
+
+00:01:56.745 --> 00:01:57.325
+O Chrome e o
+
+00:01:57.325 --> 00:02:00.815
+Firefox usam um banco de dados SQLite para
+armazenar cookies e o histórico da Web.
+

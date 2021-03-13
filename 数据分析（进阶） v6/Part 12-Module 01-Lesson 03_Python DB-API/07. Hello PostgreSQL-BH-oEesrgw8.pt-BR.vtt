@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.230 --> 00:00:02.080
+O servidor de banco de dados post crest ql
+
+00:00:02.080 --> 00:00:05.050
+já foi instalado
+em sua máquina virtual.
+
+00:00:05.050 --> 00:00:10.490
+O programa psql permite que você faça logon no
+banco de dados e faça consultas interativamente.
+
+00:00:10.490 --> 00:00:12.240
+Aqui, vamos observar o banco de dados
+do fórum.
+
+00:00:12.240 --> 00:00:17.720
+Se você estiver no fórum psql,
+observe um prompt de banco de dados como este.
+
+00:00:17.720 --> 00:00:20.470
+Agora você pode executar instruções select
+como esta, e
+
+00:00:20.470 --> 00:00:22.760
+isso é algo que vimos
+na lição um.
+
+00:00:22.760 --> 00:00:24.580
+Mas, que tal este?
+
+00:00:24.580 --> 00:00:27.790
+OK, parece uma tabela vazia,
+sem linhas.
+
+00:00:27.790 --> 00:00:32.020
+Sim, a sua VM veio com uma tabela vazia,
+para você conectar o aplicativo de fórum também.
+
+00:00:32.020 --> 00:00:33.800
+Isso acontece porque não
+falaremos sobre a criação de novas
+
+00:00:33.800 --> 00:00:34.960
+tabelas até a próxima lição.
+
+00:00:36.020 --> 00:00:38.430
+Agora, se observarmos quais são os
+tipos dessas colunas,
+
+00:00:38.430 --> 00:00:42.630
+parece que o conteúdo é texto.
+
+00:00:42.630 --> 00:00:50.050
+A hora é um tipo de carimbo de data e hora, e a
+ID é um inteiro com mais alguma coisa estranha.
+
+00:00:50.050 --> 00:00:52.060
+Veremos mais sobre isso mais adiante.
+
+00:00:52.060 --> 00:00:52.820
+Por enquanto,
+
+00:00:52.820 --> 00:00:56.760
+só precisamos nos concentrar realmente
+em conteúdo e hora.
+
+00:00:56.760 --> 00:00:58.100
+Usaremos a coluna de texto
+
+00:00:58.100 --> 00:01:01.970
+conteúdo, para armazenar o conteúdo
+das postagens dos usuários no fórum.
+
+00:01:03.120 --> 00:01:05.710
+E usaremos a coluna hora para
+armazenar a hora das postagens, para que
+
+00:01:05.710 --> 00:01:08.890
+possamos colocá-las em ordem
+com a mais recente primeiro.
+
+00:01:08.890 --> 00:01:12.350
+Você pode pressionar q para
+voltar para o prompt psql.
+
+00:01:12.350 --> 00:01:14.010
+Agora, vamos examinar o código do fórum e
+fazer isso.
+

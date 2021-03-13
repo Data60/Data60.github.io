@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.640 --> 00:00:04.707
+Aqui está uma abordagem para corrigir
+este código que você poderia ter usado.
+
+00:00:04.707 --> 00:00:08.141
+Esse código aqui tem um bug
+sério que vamos analisar em seguida.
+
+00:00:08.141 --> 00:00:12.350
+Não vá copiar isso
+em todos os seus aplicativos de produção.
+
+00:00:12.350 --> 00:00:17.040
+Sempre que vamos ler ou gravar
+no banco de dados, primeiro nos conectamos a ele.
+
+00:00:18.200 --> 00:00:19.340
+Em seguida, estabelecemos um cursor.
+
+00:00:20.940 --> 00:00:22.160
+Depois fazemos uma execução.
+
+00:00:23.480 --> 00:00:28.740
+No caso de GetAllPosts,
+executamos uma instrução SELECT.
+
+00:00:30.160 --> 00:00:35.160
+E depois buscamos todos os resultados e
+
+00:00:35.160 --> 00:00:39.570
+os reformatamos no dicionário
+que nosso código espera.
+
+00:00:39.570 --> 00:00:42.110
+E, claro, fechamos
+a conexão e retornamos as postagens.
+
+00:00:43.270 --> 00:00:46.760
+No caso de AddPost, ainda nos
+conectamos ao banco de dados da mesma forma.
+
+00:00:47.850 --> 00:00:49.950
+Executamos uma consulta INSERT,
+
+00:00:49.950 --> 00:00:55.280
+substituindo o conteúdo da
+postagem pela string de consulta.
+
+00:00:55.280 --> 00:00:58.070
+Confirme a alteração e feche.
+
+00:00:58.070 --> 00:01:02.060
+Agora, isso parece funcionar, mas
+acabei de dizer que existe um bug grave e
+
+00:01:02.060 --> 00:01:03.420
+veremos isso em seguida.
+

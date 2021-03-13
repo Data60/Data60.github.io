@@ -1,0 +1,65 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.310 --> 00:00:03.160
+Antes de você fazer essa alteração,
+pedi para você pensar sobre se seria
+
+00:00:03.160 --> 00:00:07.110
+melhor apagar as coisas ruins
+das postagens assim que elas forem enviadas pelo usuário,
+
+00:00:07.110 --> 00:00:10.770
+antes de as colocarmos no banco de dados ou
+se devemos colocá-las
+
+00:00:10.770 --> 00:00:14.630
+no banco de dados como estão e
+limpá-las antes de as exibirmos.
+
+00:00:14.630 --> 00:00:17.150
+Acontece que existem
+argumentos para os dois lados.
+
+00:00:17.150 --> 00:00:20.670
+Geralmente, você ouvirá os programadores falarem
+sobre a sanitização de entrada, no sentido de
+
+00:00:20.670 --> 00:00:25.180
+que apagamos as coisas ruins da entrada do usuário,
+antes de fazermos qualquer coisa com ela,
+
+00:00:25.180 --> 00:00:29.480
+dessa forma, se alguém depois exibir
+as postagens armazenadas usando outro aplicativo,
+
+00:00:29.480 --> 00:00:32.980
+eles não precisam se preocupar em ocultar
+coisas ruins no banco de dados.
+
+00:00:32.980 --> 00:00:36.600
+Mas por outro lado, se quiséssemos
+um registro preciso do que os usuários nos
+
+00:00:36.600 --> 00:00:40.340
+enviaram, talvez fosse melhor preservar a
+entrada incorreta no banco de dados, e
+
+00:00:40.340 --> 00:00:42.660
+fazer a sanitização da saída em vez disso.
+
+00:00:42.660 --> 00:00:45.600
+As pessoas têm opiniões diferentes
+sobre o que é melhor.
+
+00:00:45.600 --> 00:00:49.190
+Agora, como já temos
+coisas ruins publicadas no banco de dados,
+
+00:00:49.190 --> 00:00:51.180
+definitivamente precisamos sanitizar a saída.
+
+00:00:51.180 --> 00:00:52.500
+Mas poderíamos sanitizar a entrada também.
+

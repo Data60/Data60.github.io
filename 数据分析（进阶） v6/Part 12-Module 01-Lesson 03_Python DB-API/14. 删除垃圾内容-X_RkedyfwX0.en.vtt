@@ -1,0 +1,54 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.360 --> 00:00:03.050
+So maybe it updating was
+the wrong thing here.
+
+00:00:03.050 --> 00:00:07.980
+We got rid of the spam, but
+now we have way too much cheese.
+
+00:00:07.980 --> 00:00:11.610
+Let's find out how to get rid
+of the cheesy posts entirely.
+
+00:00:11.610 --> 00:00:14.790
+Remember how bobby tables
+deleted all of our posts once?
+
+00:00:14.790 --> 00:00:18.260
+It was with the delete statement,
+but delete can be used for
+
+00:00:18.260 --> 00:00:19.920
+good as well as for evil.
+
+00:00:19.920 --> 00:00:22.590
+We just need to be a little
+selective with it.
+
+00:00:22.590 --> 00:00:26.990
+Just like select and update, the delete
+statement can take a where restriction.
+
+00:00:26.990 --> 00:00:30.430
+And just as with update, you can task
+that where restriction by using it in
+
+00:00:30.430 --> 00:00:33.370
+the select,
+before you go deleting anything.
+
+00:00:33.370 --> 00:00:36.330
+And now you can probably clean all of
+the cheese out of your database with
+
+00:00:36.330 --> 00:00:36.960
+a single command.
+
+00:00:38.280 --> 00:00:41.580
+When you're done, reload the forum and
+see that all the cheese posts have gone.
+

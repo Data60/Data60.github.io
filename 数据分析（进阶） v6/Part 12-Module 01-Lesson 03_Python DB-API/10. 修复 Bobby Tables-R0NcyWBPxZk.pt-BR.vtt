@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.460 --> 00:00:04.046
+É aqui que estamos executando a
+consulta insert e a função AddPost.
+
+00:00:05.260 --> 00:00:09.420
+E agora, se mudarmos isso para
+termos apenas uma vírgula e uma tupla depois daqui,
+
+00:00:09.420 --> 00:00:12.530
+depois deste sinal de percentagem, e
+garantirmos que tenhamos parênteses suficientes,
+
+00:00:13.660 --> 00:00:16.261
+devemos ter um fórum que seja seguro
+contra o ataque de injeção SQL.
+
+00:00:17.760 --> 00:00:18.460
+Vamos tentar.
+
+00:00:19.990 --> 00:00:25.680
+E aqui está uma postagem de teste que tem
+aspas simples nela e, com certeza,
+
+00:00:25.680 --> 00:00:26.200
+isso funcionou.
+
+00:00:27.360 --> 00:00:29.520
+Vamos tentar a consulta de ataque novamente.
+
+00:00:29.520 --> 00:00:37.090
+Single quote, paren, semicolon, delete
+from posts, semicolon, dash, dash.
+
+00:00:39.140 --> 00:00:43.110
+E dessa vez, estamos tratando
+essa consulta apenas como texto e
+
+00:00:43.110 --> 00:00:44.910
+não um trecho de SQL.
+
+00:00:44.910 --> 00:00:45.770
+Demais.
+
+00:00:45.770 --> 00:00:48.790
+Com essa pequena mudança, evitamos um
+dos riscos de segurança mais infames
+
+00:00:48.790 --> 00:00:51.260
+que um aplicativo Web pode ter.
+
+00:00:51.260 --> 00:00:54.540
+Apenas lembre-se de que sempre que
+você executar uma consulta insert,
+
+00:00:54.540 --> 00:00:58.910
+certifique-se de usar parâmetros de consulta
+em vez de uma substituição de string.
+
+00:00:58.910 --> 00:01:00.080
+Caso você se esqueça,
+
+00:01:00.080 --> 00:01:03.060
+aqui está o que a documentação de Psycopg 2
+tem a dizer sobre esse assunto.
+
+00:01:03.060 --> 00:01:07.760
+Aviso, nunca, nunca, nunca use
+a concatenação de string Python, ou
+
+00:01:07.760 --> 00:01:10.110
+a interpolação de parâmetros de string,
+porcentagem,
+
+00:01:10.110 --> 00:01:14.340
+para passar variáveis para uma string de consulta
+SQL, nem sob a mira de uma arma.
+
+00:01:14.340 --> 00:01:16.309
+E eles fornecem o mesmo
+formato que acabamos de usar.
+
+00:01:17.480 --> 00:01:20.870
+Agora, pessoalmente, não penso que realmente
+precisamos que a documentação nos diga
+
+00:01:20.870 --> 00:01:25.360
+o que fazer sob a mira de uma arma, mas
+todos temos o direito de ter um código seguro.
+

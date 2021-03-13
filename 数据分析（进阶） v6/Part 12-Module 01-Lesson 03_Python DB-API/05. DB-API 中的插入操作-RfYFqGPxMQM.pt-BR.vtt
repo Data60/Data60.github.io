@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.230 --> 00:00:02.280
+Neste código em particular,
+
+00:00:02.280 --> 00:00:05.660
+o melhor lugar para colocar o commit
+é imediatamente depois de execute.
+
+00:00:05.660 --> 00:00:09.670
+Adicionando o commit, você pode ter
+certeza de que as suas alterações serão salvas.
+
+00:00:09.670 --> 00:00:12.132
+A propósito,
+uma coisa boa em relação às transações e
+
+00:00:12.132 --> 00:00:15.910
+reversões é que, se o código falhar
+no meio de uma transação de banco de dados,
+
+00:00:15.910 --> 00:00:19.370
+você pode ter certeza de que ele não
+gravará alterações semiacabadas.
+
+00:00:19.370 --> 00:00:22.710
+Esse é um importante princípio de bancos de dados,
+chamado atomicidade.
+
+00:00:22.710 --> 00:00:25.600
+Atomicidade significa que
+uma mudança acontece como um todo,
+
+00:00:25.600 --> 00:00:28.390
+atomicamente, ou não acontece.
+
+00:00:28.390 --> 00:00:30.690
+Na próxima página,
+vamos mudar um pouco de assunto.
+
+00:00:30.690 --> 00:00:33.830
+Lembra daquele software que eu pedi
+para você instalar no final da Lição 2?
+
+00:00:33.830 --> 00:00:37.000
+Espero que ele não esteja cheio de poeira,
+porque você vai usá-lo em seguida.
+

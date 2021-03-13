@@ -1,0 +1,205 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:03.890
+Adaptando nosso código de banco de dados de formulários
+para usar um banco de dados reais,
+
+00:00:03.890 --> 00:00:06.620
+você deve ter escrito algo
+que se parece muito com isto.
+
+00:00:06.620 --> 00:00:11.860
+Na função get all posts, você
+se conecta a um banco de dados, cria um cursor,
+
+00:00:11.860 --> 00:00:15.240
+executa uma instrução SELECT,
+formata os resultados corretamente,
+
+00:00:15.240 --> 00:00:17.400
+fecha a conexão, retorna as postagens.
+
+00:00:17.400 --> 00:00:21.510
+Mas, em seguida, para adicionar uma postagem,
+conecte-se ao banco de dados, crie um cursor.
+
+00:00:21.510 --> 00:00:26.130
+Execute um INSERT que
+faça substituições no conteúdo da postagem,
+
+00:00:26.130 --> 00:00:28.590
+confirme isso no banco de dados e feche.
+
+00:00:28.590 --> 00:00:31.080
+Parece bom,
+mas não está perfeito.
+
+00:00:31.080 --> 00:00:33.700
+Se você estiver escrevendo vários
+aplicativos de fórum diferentes.
+
+00:00:33.700 --> 00:00:37.571
+Existem algumas postagens que parecem
+não estar funcionando corretamente?
+
+00:00:47.114 --> 00:00:48.250
+Quer saber?
+
+00:00:48.250 --> 00:00:49.440
+Espere um minuto.
+
+00:00:49.440 --> 00:00:52.180
+Esta parecia ser uma postagem totalmente perfeita.
+
+00:00:52.180 --> 00:00:54.580
+Por que ela está causando este
+erro estranho?
+
+00:00:55.670 --> 00:00:57.550
+Vamos voltar ao nosso terminal.
+
+00:00:57.550 --> 00:00:58.230
+Ah, veja só isso.
+
+00:00:58.230 --> 00:01:00.220
+Temos um rastreamento do Python.
+
+00:01:00.220 --> 00:01:01.680
+Ele diz erro de programação.
+
+00:01:01.680 --> 00:01:03.620
+Erro de sintaxe no t ou próximo a ele.
+
+00:01:03.620 --> 00:01:07.010
+E ainda existem os VALORES da instrução de INSERÇÃO.
+
+00:01:07.010 --> 00:01:10.020
+Não consigo achar um problema.
+
+00:01:10.020 --> 00:01:11.930
+Vamos olhar novamente o código.
+
+00:01:11.930 --> 00:01:15.290
+É aqui que o conteúdo da postagem
+é enviado para o banco de dados.
+
+00:01:15.290 --> 00:01:17.410
+Ele apenas é adicionado a uma instrução SQL.
+
+00:01:18.570 --> 00:01:20.730
+Dentro de aspas simples.
+
+00:01:20.730 --> 00:01:23.870
+Porque colocamos strings SQL
+dentro de aspas simples.
+
+00:01:23.870 --> 00:01:28.100
+Mas o banco de dados vê as aspas da
+postagem e pensa que elas são o fim de
+
+00:01:28.100 --> 00:01:31.760
+uma string, e isso é
+algo que ele não entende.
+
+00:01:31.760 --> 00:01:34.270
+A propósito,
+se o seu código não tiver esse bug,
+
+00:01:34.270 --> 00:01:36.240
+parabéns, isso é maravilhoso.
+
+00:01:36.240 --> 00:01:39.900
+Mas fique atento, pois existem mais coisas
+a respeito desse bug que podem não aparecer à primeira vista.
+
+00:01:39.900 --> 00:01:43.520
+Apesar de termos tido um pequeno
+problema, ainda conseguimos postar coisas.
+
+00:01:43.520 --> 00:01:45.020
+Desde que elas não tenham
+aspas simples.
+
+00:01:46.060 --> 00:01:47.050
+Aqui está uma opção para você experimentar.
+
+00:01:48.270 --> 00:01:49.280
+Aspas simples.
+
+00:01:49.280 --> 00:01:50.215
+Parâmetro de fechamento.
+
+00:01:50.215 --> 00:01:52.490
+Ponto-e-vírgula.
+
+00:01:52.490 --> 00:01:54.720
+Não redigite isso daqui.
+
+00:01:54.720 --> 00:01:57.800
+Copie das notas do instrutor e
+cole em seu fórum.
+
+00:01:57.800 --> 00:01:59.235
+Exclua das postagens.
+
+00:01:59.235 --> 00:02:01.166
+Ponto-e-vírgula.
+
+00:02:01.166 --> 00:02:02.926
+Traço duplo.
+
+00:02:02.926 --> 00:02:05.090
+Poste isto.
+
+00:02:05.090 --> 00:02:07.270
+Espere, todas as nossas postagens sumiram.
+
+00:02:07.270 --> 00:02:10.050
+Pensei que tínhamos um banco de dados aqui.
+
+00:02:10.050 --> 00:02:11.170
+Ei, espere um minuto.
+
+00:02:11.170 --> 00:02:13.790
+Pensei ter visto este aqui
+no webcomic XKCD.
+
+00:02:13.790 --> 00:02:19.590
+O que temos aqui é um furo de segurança
+chamado de ataque de injeção SQL.
+
+00:02:19.590 --> 00:02:23.610
+Parte do texto da postagem está sendo
+tratada como um comando de banco de dados,
+
+00:02:23.610 --> 00:02:26.500
+ou seja, delete from posts.
+
+00:02:26.500 --> 00:02:30.158
+Isso significa excluir
+cada linha da tabela de postagens.
+
+00:02:30.158 --> 00:02:33.220
+Bem, isso é desagradável.
+
+00:02:33.220 --> 00:02:35.390
+Todas aquelas postagens de teste brilhantes
+que escrevemos sumiram, e
+
+00:02:35.390 --> 00:02:37.060
+temos um famoso bug de segurança
+em nosso código.
+
+00:02:37.060 --> 00:02:40.010
+Como vamos corrigir isso?
+
+00:02:40.010 --> 00:02:42.710
+Bem, talvez não seja possível
+recuperar todas aquelas ótimas postagens, mas
+
+00:02:42.710 --> 00:02:44.850
+devemos conseguir pelo menos
+evitar que isso aconteça de novo.
+

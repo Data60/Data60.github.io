@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.330 --> 00:00:04.320
+Vamos observar um código de
+API de banco de dados no editor.
+
+00:00:04.320 --> 00:00:07.070
+Na próxima página,
+você verá um pequeno script Python que
+
+00:00:07.070 --> 00:00:09.980
+busca registros de alunos
+em nosso banco de dados fictício.
+
+00:00:09.980 --> 00:00:11.250
+Quando você for para a próxima página,
+
+00:00:11.250 --> 00:00:14.630
+tente executar esse código como está
+com o botão test run.
+
+00:00:14.630 --> 00:00:17.230
+Em seguida, observe os resultados
+impressos abaixo.
+
+00:00:17.230 --> 00:00:20.030
+Isso lhe dará mais algumas ideias
+sobre o que as várias funções da
+
+00:00:20.030 --> 00:00:25.740
+API de banco de dados fazem e como ela
+retorna dados para o seu código Python.
+
+00:00:25.740 --> 00:00:28.910
+Quando você terminar,
+eu gostaria que você fizesse uma alteração.
+
+00:00:28.910 --> 00:00:32.080
+Faça o script colocar os registros de alunos
+em ordem alfabética por nome de aluno.
+

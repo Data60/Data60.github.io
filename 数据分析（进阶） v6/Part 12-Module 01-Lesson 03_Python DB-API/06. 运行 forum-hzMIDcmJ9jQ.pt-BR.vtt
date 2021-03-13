@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:03.560
+No restante desta lição, você
+vai trabalhar no código Python
+
+00:00:03.560 --> 00:00:08.210
+que já deve estar no subdiretório de
+seu diretório vagrant no fórum.
+
+00:00:08.210 --> 00:00:11.780
+Você pode editar esse código com seu editor de texto
+favorito em seu computador
+
+00:00:11.780 --> 00:00:12.870
+e, ao salvá-lo,
+
+00:00:12.870 --> 00:00:16.120
+essas mudanças estarão visíveis
+na máquina virtual.
+
+00:00:16.120 --> 00:00:17.870
+O que é esse código?
+
+00:00:17.870 --> 00:00:20.940
+É um fórum da Web,
+mas ainda não está muito bom.
+
+00:00:20.940 --> 00:00:24.210
+Você poderia executá-lo em qualquer programa Python
+na linha de comando.
+
+00:00:24.210 --> 00:00:28.730
+E, ao iniciar, ele informa
+que está ouvindo na porta 8000 e você pode
+
+00:00:28.730 --> 00:00:34.900
+acessá-lo em http://localhost:8000
+no navegador da Web.
+
+00:00:34.900 --> 00:00:37.710
+E, ao fazer isso,
+você verá algo assim.
+
+00:00:37.710 --> 00:00:39.240
+Está bem vazio.
+
+00:00:39.240 --> 00:00:40.569
+Vamos colocar algumas postagens nele.
+
+00:00:57.939 --> 00:01:00.964
+Agora, se voltarmos para o nosso terminal,
+
+00:01:00.964 --> 00:01:05.183
+encerrarmos o servidor da Web com Ctrl C,
+reiniciarmos,
+
+00:01:05.183 --> 00:01:10.940
+voltarmos para o navegador da Web e
+recarregarmos, todas as nossas postagens terão sumido.
+
+00:01:10.940 --> 00:01:12.930
+O que está acontecendo lá?
+
+00:01:12.930 --> 00:01:17.663
+Agora, se observarmos o código fonte
+deste módulo que o forum.py está usando,
+
+00:01:17.663 --> 00:01:21.660
+veremos que ele não está de fato
+usando um banco de dados.
+
+00:01:21.660 --> 00:01:26.750
+Ele está simulando isso com variáveis antigas
+que desaparecem quando o programa é encerrado.
+
+00:01:26.750 --> 00:01:28.380
+Nos próximos exercícios,
+
+00:01:28.380 --> 00:01:32.790
+você adaptará esse código para
+usar um banco de dados para criar postagens persistentes.
+
+00:01:32.790 --> 00:01:33.720
+Primeiro,
+
+00:01:33.720 --> 00:01:37.000
+vamos dizer olá para o sistema de banco de dados
+que usaremos, o PostgreSQL.
+

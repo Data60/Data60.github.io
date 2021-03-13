@@ -1,0 +1,125 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.625 --> 00:00:02.700
+Agora corrigimos nosso aplicativo Web
+
+00:00:02.700 --> 00:00:07.220
+para que os usuários não possam postar JavaScript nele e
+criar spam sem fim.
+
+00:00:07.220 --> 00:00:10.300
+Mas todo esse spam continua
+no banco de dados.
+
+00:00:10.300 --> 00:00:12.010
+Como podemos limpar isso?
+
+00:00:12.010 --> 00:00:16.400
+Ou, se algum usuário do nosso
+fórum postou algo horrível nele,
+
+00:00:16.400 --> 00:00:18.470
+como poderíamos nos livrar da postagem?
+
+00:00:18.470 --> 00:00:20.690
+Temos duas opções aqui.
+
+00:00:20.690 --> 00:00:24.820
+Primeiro, vamos tentar substituir a postagem de spam
+por algo inócuo como,
+
+00:00:24.820 --> 00:00:27.020
+digamos, a palavra queijo!
+
+00:00:27.020 --> 00:00:31.510
+Podemos fazer isso no console de banco de dados psql,
+mas para fazer isso,
+
+00:00:31.510 --> 00:00:35.600
+vamos precisar de um novo comando SQL,
+o comando update.
+
+00:00:35.600 --> 00:00:40.200
+Update é o comando SQL para
+mudar valores em linhas existentes.
+
+00:00:40.200 --> 00:00:43.470
+Ao contrário de insert,
+ele não cria novas linhas.
+
+00:00:43.470 --> 00:00:46.740
+Em vez disso, ele substitui o valor
+de uma coluna nomeada por um novo
+
+00:00:46.740 --> 00:00:49.860
+valor em cada linha onde
+essa restrição é verdadeira.
+
+00:00:51.210 --> 00:00:55.130
+A restrição where no comando update
+funciona como em select, mas
+
+00:00:55.130 --> 00:00:59.300
+se você não usá-la, o comando update
+se aplicará a cada linha na tabela,
+
+00:00:59.300 --> 00:01:01.800
+que normalmente não é o que você quer.
+
+00:01:01.800 --> 00:01:05.250
+Mas você sempre pode usar select primeiro
+com essa restrição, para garantir que
+
+00:01:05.250 --> 00:01:07.840
+o comando update afete as linhas certas.
+
+00:01:07.840 --> 00:01:10.240
+Mas como vamos
+encontrar as postagens certas?
+
+00:01:10.240 --> 00:01:14.410
+Seria um pesadelo ter que digitar
+todo o conteúdo da postagem de spam para
+
+00:01:14.410 --> 00:01:16.890
+podermos compará-la com
+o operador de igualdade.
+
+00:01:16.890 --> 00:01:20.030
+Aqui está um operador mais adequado,
+o operador like.
+
+00:01:20.030 --> 00:01:22.450
+O operador like usa um valor,
+geralmente uma coluna de texto,
+
+00:01:22.450 --> 00:01:25.730
+no lado esquerdo e
+um padrão à direita.
+
+00:01:25.730 --> 00:01:27.940
+E como você realmente
+precisava de mais um significado para
+
+00:01:27.940 --> 00:01:31.780
+o sinal de porcentagem, os padrões SQL o utilizam
+para significar que qualquer string pode ser inserida aqui.
+
+00:01:33.200 --> 00:01:37.750
+Agora, no console psql,
+use o comando update para substituir todas
+
+00:01:37.750 --> 00:01:42.560
+as horríveis postagens de spam em seu banco de dados
+por algo inócuo como queijo.
+
+00:01:42.560 --> 00:01:46.800
+Para verificar o seu trabalho, recarregue a página do fórum
+ou selecione uma estrela nas
+
+00:01:46.800 --> 00:01:50.690
+postagens em psql e verifique se
+todo o spam foi substituído.
+

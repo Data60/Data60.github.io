@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.430 --> 00:00:05.010
+Aqui estamos no editor de texto
+trabalhando no forum.py.
+
+00:00:05.010 --> 00:00:11.630
+Temos um código HTML aqui e
+um código de servidor da Web também,
+
+00:00:11.630 --> 00:00:14.560
+e acima parece que
+há de fato outro módulo,
+
+00:00:14.560 --> 00:00:16.659
+forumdb, para o código do banco de dados.
+
+00:00:17.780 --> 00:00:20.510
+Se olharmos em forumDB.py,
+
+00:00:20.510 --> 00:00:23.670
+veremos que
+falta código de banco de dados.
+
+00:00:23.670 --> 00:00:28.590
+Parece que no momento estamos usando
+apenas uma lista Python para armazenar as postagens.
+
+00:00:28.590 --> 00:00:30.590
+Não admira que elas tenham sumido quando
+reiniciamos o servidor.
+
+00:00:31.720 --> 00:00:38.230
+Esta função AddPost,
+insere uma tupla em nossa lista de banco de dados.
+
+00:00:38.230 --> 00:00:44.290
+E a função GetAllPosts transforma
+a lista em uma lista de dicionários.
+
+00:00:44.290 --> 00:00:46.700
+Onde a chave do conteúdo
+aponta para o conteúdo da postagem.
+
+00:00:47.910 --> 00:00:51.140
+E a chave de hora aponta para
+a hora em que foi postada.
+
+00:00:51.140 --> 00:00:54.931
+Em forum.py,
+se observarmos a função view,
+
+00:00:54.931 --> 00:00:58.730
+veremos onde
+forumdb.GetAllPosts é chamado.
+
+00:00:58.730 --> 00:01:03.470
+E na função post,
+veremos onde AddPost é chamado.
+
+00:01:03.470 --> 00:01:06.740
+Não precisamos editar nada
+no código forum.py,
+
+00:01:06.740 --> 00:01:10.190
+pois tudo o que fala sobre
+o banco de dados está em forum.db.
+
+00:01:10.190 --> 00:01:13.870
+Então o que precisamos fazer é alterar
+este código de banco de dados aqui
+
+00:01:13.870 --> 00:01:16.210
+para usar de fato um banco de dados real.
+
+00:01:16.210 --> 00:01:18.180
+Na próxima página,
+você vai fazer exatamente isso.
+

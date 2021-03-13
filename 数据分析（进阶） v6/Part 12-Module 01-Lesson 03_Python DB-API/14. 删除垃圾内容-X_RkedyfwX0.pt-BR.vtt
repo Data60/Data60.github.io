@@ -1,0 +1,54 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.360 --> 00:00:03.050
+Talvez a atualização tenha sido
+a coisa errada a fazer aqui.
+
+00:00:03.050 --> 00:00:07.980
+Nós nos livramos do spam, mas
+agora temos muito mais queijo.
+
+00:00:07.980 --> 00:00:11.610
+Vamos descobrir como nos livrar totalmente
+dessas postagens de queijo.
+
+00:00:11.610 --> 00:00:14.790
+Lembra-se de como as bobby tables
+excluíram todas as nossas postagens de uma vez?
+
+00:00:14.790 --> 00:00:18.260
+Usamos a instrução de exclusão,
+mas a exclusão pode ser usada para o
+
+00:00:18.260 --> 00:00:19.920
+bem e para o mal.
+
+00:00:19.920 --> 00:00:22.590
+Temos apenas que ser um pouco
+seletivos com isso.
+
+00:00:22.590 --> 00:00:26.990
+Assim como select e update, a instrução delete
+pode ter uma restrição where.
+
+00:00:26.990 --> 00:00:30.430
+E assim como update, você pode usar
+essa restrição where, usando-a na instrução
+
+00:00:30.430 --> 00:00:33.370
+select,
+antes de excluir alguma coisa.
+
+00:00:33.370 --> 00:00:36.330
+E agora você pode eliminar todo o
+queijo do seu banco de dados com um
+
+00:00:36.330 --> 00:00:36.960
+único comando.
+
+00:00:38.280 --> 00:00:41.580
+Ao concluir, recarregue o fórum e
+veja se todas as postagens de queijo sumiram.
+

@@ -1,0 +1,98 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.470 --> 00:00:03.750
+Até agora neste curso, ao
+escrever consultas SQL no editor
+
+00:00:03.750 --> 00:00:07.590
+baseado na Web, você ocultou o mecanismo
+que realmente se conecta a um banco de dados e
+
+00:00:07.590 --> 00:00:09.410
+executa suas consultas.
+
+00:00:09.410 --> 00:00:13.320
+Em algum lugar aqui, existe realmente
+um banco de dados executando essas consultas.
+
+00:00:13.320 --> 00:00:16.480
+Agora vamos abrir esta caixa e
+ver como ela de fato funciona.
+
+00:00:16.480 --> 00:00:18.120
+Por trás de nosso servidor da Web,
+
+00:00:18.120 --> 00:00:23.603
+estamos executando o código Python que se conecta
+a um banco de dados SQLite usando chamadas de API de banco de dados.
+
+00:00:23.603 --> 00:00:27.190
+A API de banco de dados Python não é a biblioteca.
+
+00:00:27.190 --> 00:00:28.000
+É um padrão para
+
+00:00:28.000 --> 00:00:31.260
+as bibliotecas Python que permite que seu
+código se conecte aos bancos de dados.
+
+00:00:31.260 --> 00:00:32.990
+Existem dúzias de
+bibliotecas diferentes para
+
+00:00:32.990 --> 00:00:35.790
+sistemas de banco de dados distintos
+que seguem esse padrão.
+
+00:00:35.790 --> 00:00:39.590
+O padrão especifica quais funções
+você chamará para conectar a um banco de dados,
+
+00:00:39.590 --> 00:00:42.100
+a fim de enviar consultas e receber os resultados.
+
+00:00:42.100 --> 00:00:44.970
+Portanto, caso aprenda as funções de API de banco de dados,
+
+00:00:44.970 --> 00:00:47.780
+você poderá aplicar esse conhecimento
+em qualquer sistema de banco de dados.
+
+00:00:47.780 --> 00:00:51.220
+Embora os detalhes sobre o que cada
+banco de dados pode fazer sejam diferentes,
+
+00:00:51.220 --> 00:00:55.080
+adaptar o código Python de um para o
+outro é bem simples.
+
+00:00:55.080 --> 00:00:57.730
+Mas cada sistema de banco de dados
+tem sua própria biblioteca.
+
+00:00:57.730 --> 00:01:01.260
+E, como você pode ver, alguns dos nomes de biblioteca
+são um pouco diferentes dos
+
+00:01:01.260 --> 00:01:03.880
+nomes dos sistemas de
+banco de dados com os quais trabalhamos.
+
+00:01:03.880 --> 00:01:08.460
+Para os exercícios no navegador,
+usamos a biblioteca sqlite3.
+
+00:01:08.460 --> 00:01:10.410
+Ao executar o código de banco de dados
+em seu próprio computador para
+
+00:01:10.410 --> 00:01:14.040
+este curso,
+você estará usando a biblioteca psycopg2,
+
+00:01:14.040 --> 00:01:16.670
+que permite que o seu código fale
+com o banco de dados PostgreSQL.
+

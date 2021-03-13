@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:03.770
+O problema com o nosso código é que a entrada do
+usuário é inserida em uma consulta de banco de dados de
+
+00:00:03.770 --> 00:00:05.270
+uma forma que não é segura.
+
+00:00:05.270 --> 00:00:08.020
+Parte do texto enviado no fórum
+foi considerada como
+
+00:00:08.020 --> 00:00:09.890
+código SQL em vez de um valor de texto.
+
+00:00:11.510 --> 00:00:14.320
+Mas há uma outra maneira
+segura de fazer nossa consulta.
+
+00:00:14.320 --> 00:00:18.940
+Quando executamos uma consulta,
+colocamos um sinal de %s no texto da consulta, e
+
+00:00:18.940 --> 00:00:22.460
+depois disso,
+um parâmetro de tupla para executar a chamada.
+
+00:00:22.460 --> 00:00:26.340
+A biblioteca do banco de dados
+substituirá isso na consulta de
+
+00:00:26.340 --> 00:00:28.830
+uma forma segura para que
+esse problema nunca mais aconteça.
+
+00:00:29.860 --> 00:00:33.550
+Usando o que acabou de aprender,
+agora você pode atualizar o forumdb.py para
+
+00:00:33.550 --> 00:00:37.010
+executar consultas insert de forma segura
+usando parâmetros de consulta.
+
+00:00:37.010 --> 00:00:39.940
+Teste seu trabalho, verificando se
+agora você pode fazer postagens com aspas
+
+00:00:39.940 --> 00:00:40.950
+simples e
+
+00:00:40.950 --> 00:00:45.140
+se a consulta de ataque de injeção SQL
+não mais exclui o fórum inteiro.
+
+00:00:45.140 --> 00:00:48.660
+Quando tiver terminado, pressione Submit,
+e Continue para prosseguir.
+

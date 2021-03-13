@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:02.660
+Vamos colocar um fim nesta loucura de spam.
+
+00:00:02.660 --> 00:00:05.540
+Precisamos ter certeza de que os dados
+da coluna de conteúdo sempre serão
+
+00:00:05.540 --> 00:00:09.050
+tratados como se tivessem o mesmo significado,
+como texto, não como código JavaScript.
+
+00:00:10.110 --> 00:00:12.770
+Acontece que
+existe realmente uma boa biblioteca Python para
+
+00:00:12.770 --> 00:00:14.740
+fazer esse bleach.
+
+00:00:14.740 --> 00:00:18.690
+Ela já está instalada em sua máquina virtual, portanto,
+você pode importá-la diretamente para o seu código.
+
+00:00:18.690 --> 00:00:20.910
+Leia toda
+a documentação de bleach,
+
+00:00:20.910 --> 00:00:23.160
+para a qual há um link nas Notas do instrutor.
+
+00:00:23.160 --> 00:00:27.120
+Ao fazer isso, você pode usar o bleach
+para impedir que um código HTML inseguro
+
+00:00:27.120 --> 00:00:30.480
+inserido por um invasor por meio do
+seu banco de dados chegue a um usuário.
+
+00:00:30.480 --> 00:00:32.610
+Prossiga e
+faça essa alteração no código do fórum,
+
+00:00:32.610 --> 00:00:36.090
+mas é preciso pensar no seguinte:
+quando fizer isso, você acha que seria
+
+00:00:36.090 --> 00:00:40.720
+melhor apagar coisas ruins de nossas postagens
+antes de as armazenarmos no banco de dados?
+
+00:00:40.720 --> 00:00:43.470
+Ou devemos armazenar tudo
+o que o usuário nos envia e
+
+00:00:43.470 --> 00:00:46.520
+depois limpar as coisas ruins antes
+de exibirmos essas postagens no fórum?
+

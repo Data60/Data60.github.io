@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.760 --> 00:00:03.390
+Bem-vindo de volta,
+nesta lição você aprenderá como
+
+00:00:03.390 --> 00:00:06.470
+conectar o código Python
+a um banco de dados SQL.
+
+00:00:06.470 --> 00:00:09.490
+Você executará um fórum da Web
+em miniatura em nossa máquina, e
+
+00:00:09.490 --> 00:00:12.270
+adaptará seu código para
+usar um back-end de banco de dados.
+
+00:00:12.270 --> 00:00:15.250
+Em seguida, você encontrará e
+corrigirá alguns dos bugs mais sérios e
+
+00:00:15.250 --> 00:00:19.180
+comuns, que afetam aplicativos Web
+baseados em banco de dados, e
+
+00:00:19.180 --> 00:00:22.290
+corrigirá os danos que eles
+podem causar em seu banco de dados.
+
+00:00:22.290 --> 00:00:26.950
+No fim desta lição, você saberá
+não somente como usar o SQL no Python, mas
+
+00:00:26.950 --> 00:00:29.770
+como usá-lo de forma segura e
+confiável.
+
+00:00:29.770 --> 00:00:30.420
+Vamos fazer isso.
+

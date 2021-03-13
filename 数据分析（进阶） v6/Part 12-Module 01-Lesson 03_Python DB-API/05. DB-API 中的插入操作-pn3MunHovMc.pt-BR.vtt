@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.180 --> 00:00:03.580
+Quando você quer inserir dados
+em uma tabela a partir de seu código,
+
+00:00:03.580 --> 00:00:07.500
+existe mais uma etapa a seguir
+depois de executar consultas insert.
+
+00:00:07.500 --> 00:00:10.240
+Você tem que confirmar suas
+alterações no banco de dados.
+
+00:00:10.240 --> 00:00:12.200
+Por que temos essa etapa extra?
+
+00:00:12.200 --> 00:00:14.410
+Imagine que estamos
+escrevendo um sistema contábil.
+
+00:00:14.410 --> 00:00:16.780
+E queremos debitar algum
+dinheiro de uma conta e
+
+00:00:16.780 --> 00:00:18.510
+creditá-lo em outra conta.
+
+00:00:18.510 --> 00:00:21.410
+Essas podem ser inclusive alterações
+em duas tabelas diferentes.
+
+00:00:21.410 --> 00:00:24.080
+Mas, queremos que ambas tenham
+efeito ao mesmo tempo, ou
+
+00:00:24.080 --> 00:00:27.050
+se algo der errado,
+não queremos que nenhuma tenha efeito.
+
+00:00:27.050 --> 00:00:30.840
+E se algum outro usuário estivesse acessando o
+banco de dados ao mesmo tempo que nós,
+
+00:00:30.840 --> 00:00:33.800
+iríamos querer que ele visse
+uma alteração e não a outra.
+
+00:00:33.800 --> 00:00:36.440
+Essa é uma das grandes
+ideias sobre os bancos de dados.
+
+00:00:36.440 --> 00:00:38.310
+Quando fazemos alterações como inserções,
+
+00:00:38.310 --> 00:00:41.240
+elas vão para uma
+transação no banco de dados.
+
+00:00:41.240 --> 00:00:44.630
+Quando chamamos commit,
+a transação de fato tem efeito.
+
+00:00:44.630 --> 00:00:46.670
+Se fecharmos a conexão
+sem confirmar,
+
+00:00:46.670 --> 00:00:47.830
+nossas alterações serão revertidas.
+
+00:00:49.270 --> 00:00:51.890
+Na próxima página,
+existe um código Python que tenta
+
+00:00:51.890 --> 00:00:55.010
+inserir uma linha em uma tabela,
+mas ele não confirma.
+
+00:00:55.010 --> 00:00:56.080
+Em seguida, ele se reconecta e
+
+00:00:56.080 --> 00:00:59.060
+tenta encontrar essa linha, mas
+ela foi revertida.
+
+00:00:59.060 --> 00:01:00.930
+Tente executar o código como está e
+
+00:01:00.930 --> 00:01:04.150
+depois adicione a chamada do commit no lugar certo
+para salvar as alterações.
+

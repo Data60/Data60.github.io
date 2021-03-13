@@ -1,0 +1,320 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   试用 DB-API
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      Python DB-API
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 欢迎学习数据库.html">
+       01. 欢迎学习数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 什么是 DB-API.html">
+       02. 什么是 DB-API
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 使用 DB-API 编写代码.html">
+       03. 使用 DB-API 编写代码
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 试用 DB-API.html">
+       04. 试用 DB-API
+      </a>
+     </li>
+     <li class="">
+      <a href="05. DB-API 中的插入操作.html">
+       05. DB-API 中的插入操作
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 运行 forum.html">
+       06. 运行 forum
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Hello PostgreSQL.html">
+       07. Hello PostgreSQL
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 为应用添加后端数据库.html">
+       08. 为应用添加后端数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 帖子破坏者 Bobby Tables.html">
+       09. 帖子破坏者 Bobby Tables
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 修复 Bobby Tables.html">
+       10. 修复 Bobby Tables
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 垃圾表格.html">
+       11. 垃圾表格
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 阻止垃圾内容出现.html">
+       12. 阻止垃圾内容出现
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 通过更新删除垃圾内容.html">
+       13. 通过更新删除垃圾内容
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 删除垃圾内容.html">
+       14. 删除垃圾内容
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 结论.html">
+       15. 结论
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          04. 试用 DB-API
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          试用 DB-API
+         </p>
+        </h3>
+        <div>
+         <div>
+          <h4>
+           Question:
+          </h4>
+          <video controls="">
+           <source src="04. 试用 DB-API-4Ywln5AT6Hc.mp4" type="video/mp4"/>
+           <track default="false" kind="subtitles" label="pt-BR" src="04. 试用 DB-API-4Ywln5AT6Hc.pt-BR.vtt" srclang="pt-BR"/>
+           <track default="true" kind="subtitles" label="en" src="04. 试用 DB-API-4Ywln5AT6Hc.en.vtt" srclang="en"/>
+           <track default="false" kind="subtitles" label="ar" src="04. 试用 DB-API-4Ywln5AT6Hc.ar.vtt" srclang="ar"/>
+           <track default="false" kind="subtitles" label="zh-CN" src="04. 试用 DB-API-4Ywln5AT6Hc.zh-CN.vtt" srclang="zh-CN"/>
+          </video>
+         </div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div class="nav nav-tabs nav-fill" id="question-tabs" role="tablist">
+           <a aria-controls="180536-query-py" aria-selected="true" class="nav-item nav-link active show" data-toggle="tab" href="#180536-query-py" id="tab-180536-query-py" role="tab">
+            query.py
+           </a>
+          </div>
+          <div class="tab-content" id="question-tab-contents" style="padding: 20px 0;">
+           <div aria-labelledby="tab-180536-query-py" class="tab-pane active show" id="180536-query-py" role="tabpanel">
+            <pre><code></code># To see how the various functions in the DB-API work, take a look at this code,
+# then the results that it prints when you press "Test Run".
+#
+# Then modify this code so that the student records are fetched in sorted order
+# by student's name.
+#
+
+import sqlite3
+
+# Fetch some student records from the database.
+db = sqlite3.connect("students")
+c = db.cursor()
+query = "select name, id from students;"
+c.execute(query)
+rows = c.fetchall()
+
+# First, what data structure did we get?
+print "Row data:"
+print rows
+
+# And let's loop over it too:
+print
+print "Student names:"
+for row in rows:
+  print "  ", row[0]
+
+db.close()
+</pre>
+           </div>
+          </div>
+         </div>
+         <div>
+          <details>
+           <summary>
+            <strong>
+             Solution:
+            </strong>
+           </summary>
+           <div>
+            <video controls="">
+             <source src="04. 试用 DB-API-QTq9pGMoZAE.mp4" type="video/mp4"/>
+             <track default="false" kind="subtitles" label="pt-BR" src="04. 试用 DB-API-QTq9pGMoZAE.pt-BR.vtt" srclang="pt-BR"/>
+             <track default="true" kind="subtitles" label="en" src="04. 试用 DB-API-QTq9pGMoZAE.en.vtt" srclang="en"/>
+             <track default="false" kind="subtitles" label="zh-CN" src="04. 试用 DB-API-QTq9pGMoZAE.zh-CN.vtt" srclang="zh-CN"/>
+             <track default="false" kind="subtitles" label="ar" src="04. 试用 DB-API-QTq9pGMoZAE.ar.vtt" srclang="ar"/>
+            </video>
+           </div>
+          </details>
+         </div>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="05. DB-API 中的插入操作.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. 试用 DB-API')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
